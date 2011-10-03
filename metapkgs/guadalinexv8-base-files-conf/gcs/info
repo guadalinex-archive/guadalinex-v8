@@ -1,0 +1,27 @@
+# YAML 1.1
+# Fichero de configuración de paquetes de personalización de Guadalinex v6
+
+# Nombre del paquete (minúsculas-separado-con-guiones)
+name: guadalinexv8-base-files-conf
+
+# Autor 
+author: Álvaro Pinel <apinel@emergya.com>
+
+# Priority
+priority: optional
+
+# Section
+section: misc
+
+# Descripción corta
+shortdesc: "Modifica /etc/lsb-release"
+
+# Descipción larga, las lineas han de estar separadas por "\n "
+longdesc: "Modifica el fichero /etc/lsb-release para Guadalinex v8"
+
+# Versión del paquete
+version: v8
+
+# Cambios en esta versión
+changes:
+    - Initial release
