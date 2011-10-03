@@ -1,0 +1,29 @@
+gnome-shell-extension-windowslist (0.4-1guada1) unstable; urgency=low
+
+  * Initial release for Guadalinex v8 
+
+ -- Álvaro Pinel <apinel@emergya.com>  Thu, 01 Sep 2011 11:58:13 +0000
+
+gnome-shell-extension-windowslist (0.4-1gecos1) natty; urgency=low
+
+  * Change behaviour of the window buttons: Left click activated the window, right click open the popup menu.
+
+ -- AHernandez <ahernandez@emergya.com>  Thu, 28 Jul 2011 09:54:21 +0200
+
+gnome-shell-extension-windowslist (0.3-1gecos1) natty; urgency=low
+
+  * Change styles of the panel and panel buttons.
+
+ -- AHernandez <ahernandez@emergya.com>  Thu, 21 Jul 2011 09:15:29 +0200
+
+gnome-shell-extension-windowslist (0.2-1gecos1) natty; urgency=low
+
+  * Handle the workspaces changes events.
+
+ -- AHernandez <ahernandez@emergya.com>  Tue, 19 Jul 2011 09:46:30 +0200
+
+gnome-shell-extension-windowslist (0.1-0gecos1) unstable; urgency=low
+
+    * Initial upstream release
+
+ -- Roberto C. Morano <rcmorano@emergya.es>  Mon, 11 Jul 2011 10:20:33 +0200
