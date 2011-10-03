@@ -1,0 +1,28 @@
+# YAML 1.1
+# Fichero de configuración de paquetes de personalización de Guadalinex v6
+
+# Nombre del paquete (minúsculas-separado-con-guiones)
+name: meta-guadalinexv8
+
+# Autor 
+author: Álvaro Pinel <apinel@emergya.es>
+
+#Priority
+priority: optional
+
+# Section
+section: misc
+
+# Descripción corta
+shortdesc: "Guadalinex v8 meta package whose depends conforms the whole system."
+
+# Descipción larga, las lineas han de estar separadas por "\n "
+longdesc: "Desktop, system, libraries and the whole distribution depends are in this package."
+
+
+# Versión del paquete
+version: 1.0
+
+# Cambios en esta versión
+changes:
+    - Initial release.
