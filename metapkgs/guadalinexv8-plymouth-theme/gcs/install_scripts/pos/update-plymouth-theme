@@ -1,0 +1,5 @@
+update-alternatives --install /lib/plymouth/themes/default.plymouth default.plymouth /lib/plymouth/themes/spintimer/spintimer.plymouth 100
+update-alternatives --set default.plymouth /lib/plymouth/themes/spintimer/spintimer.plymouth
+update-initramfs -u
+echo "FRAMEBUFFER=yes" > /etc/initramfs-tools/conf.d/splash
+

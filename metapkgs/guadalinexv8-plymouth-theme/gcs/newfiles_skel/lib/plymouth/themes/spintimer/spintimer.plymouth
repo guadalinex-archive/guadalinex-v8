@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=SPINTIMER
+Description=Spinning balls with boot time counter
+ModuleName=script
+
+[script]
+ImageDir=/lib/plymouth/themes/spintimer
+ScriptFile=/lib/plymouth/themes/spintimer/spintimer.script
