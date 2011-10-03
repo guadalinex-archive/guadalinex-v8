@@ -1,0 +1,17 @@
+gnome-shell-extension-panel-favorites (0.2.3-0guada1) unstable; urgency=low
+
+  * Initial relase for Guadalinex v8 
+
+ -- Álvaro Pinel <apinel@emergya.com>  Thu, 01 Sep 2011 11:48:38 +0000
+
+gnome-shell-extension-panel-favorites (0.2.3-0gecos2) natty; urgency=low
+
+  * Fix a bug showing the overview button. Change the overview button icon.
+
+ -- Antonio Hernandez <ahernandez@emergya.com>  Thu, 21 Jul 2011 12:13:23 +0200
+
+gnome-shell-extension-panel-favorites (0.2.3-0gecos1) unstable; urgency=low
+
+    * Rebased from upstream version 'gnome-shell-frippery-0.2.3.tgz'
+
+ -- Roberto C. Morano <rcmorano@emergya.es>  Thu, 08 Jul 2011 10:43:12 +0200

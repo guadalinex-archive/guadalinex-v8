@@ -1,0 +1,14 @@
+Source: gnome-shell-extension-panel-favorites
+Section: utils
+Priority: optional
+Maintainer: Guadalinex Team <packmaster@guadalinex.org>
+Uploaders: Roberto C. Morano <rcmorano@emergya.com>
+Build-Depends: cdbs (>= 0.4.90), debhelper (>= 7), quilt (>=0.48)
+Standards-Version: 3.9.2
+Homepage: http://intgat.tigress.co.uk/rmy/extensions/index.html
+
+Package: gnome-shell-extension-panel-favorites
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, gnome-shell
+Description: gnome-shell extension that provides favorites to the gnome-shell bar.
+ gnome-shell extension that provides a GNOME2-like favorites panel.
