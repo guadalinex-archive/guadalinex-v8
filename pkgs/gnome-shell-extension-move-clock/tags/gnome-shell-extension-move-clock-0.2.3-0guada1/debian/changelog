@@ -1,0 +1,5 @@
+gnome-shell-extension-move-clock (0.2.3-0guada1) unstable; urgency=low
+
+    * Rebased from upstream version 'gnome-shell-frippery-0.2.3.tgz'
+
+ -- Álvaro Pinel <apinel@emergya.es>  Thu, 01 Sep 2011 10:43:12 +0200
