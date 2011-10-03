@@ -1,0 +1,25 @@
+# YAML 1.1
+# Fichero de configuración de paquetes de personalización de Guadalinex v6
+
+# Nombre del paquete (minúsculas-separado-con-guiones)
+name: guadalinexv8-artwork
+
+# Autor 
+author: Álvaro Pinel  <apinel@emergya.com>
+
+# Priority
+priority: optional
+
+# Section
+section: seccion_de_la_aplicacion
+
+shortdesc: "Guadalinex v8 artwork"
+
+longdesc: "This package contains every Guadalinex v8 artwork file (backgrounds, icons...)."
+
+# Versión del paquete
+version: v8
+
+# Cambios en esta versión
+changes:
+    - initial release
