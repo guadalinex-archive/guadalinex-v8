@@ -1,0 +1,4 @@
+[org.gnome.nautilus.desktop]
+computer-icon-name='Equipo'
+home-icon-name='Carpeta Personal'
+trash-icon-name='Papelera'

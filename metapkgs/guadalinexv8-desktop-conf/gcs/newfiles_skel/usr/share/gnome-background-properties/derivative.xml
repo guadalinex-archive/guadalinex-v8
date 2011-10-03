@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE wallpapers SYSTEM "gnome-wp-list.dtd">
+<wallpapers>
+  <wallpaper deleted="false">
+    <name>GECOS</name>
+    <filename>/usr/share/backgrounds/guadalinex_v8_test1-bg_st.jpg</filename>
+    <options>stretched</options>
+    <shade_type>solid</shade_type>
+    <pcolor>#626200009898</pcolor>
+    <scolor>#626200009898</scolor>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>GECOS panoramico</name>
+    <filename>/usr/share/backgrounds/guadalinex_v8_test1-bg.jpg</filename>
+    <options>stretched</options>
+    <shade_type>solid</shade_type>
+    <pcolor>#626200009898</pcolor>
+    <scolor>#626200009898</scolor>
+  </wallpaper>
+
+</wallpapers>

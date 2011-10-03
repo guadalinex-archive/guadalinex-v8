@@ -1,0 +1,13 @@
+[org.gnome.settings-daemon.plugins.keybindings]
+active=true
+priority=1
+
+[org.gnome.settings-daemon.plugins.media-keys]
+home='<Mod4>e'
+volume-up='<Mod4>Up'
+volume-down='<Mod4>Down'
+volume-mute='<Mod4>v'
+www='<Mod4>1'
+email='<Mod4>2'
+screensaver='<Control><Alt>Delete'
+logout='<Control><Alt>l'

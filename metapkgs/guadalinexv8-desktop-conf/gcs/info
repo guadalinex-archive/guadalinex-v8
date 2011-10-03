@@ -1,0 +1,30 @@
+# YAML 1.1
+# Fichero de configuración de paquetes de personalización de Guadalinex v6
+
+# Nombre del paquete (minúsculas-separado-con-guiones)
+name: guadalinexv8-desktop-conf
+
+# Autor 
+author: Álvaro Pinel <apinel@emergya.com>
+
+#Priority
+priority: optional
+
+# Section
+section: misc
+
+# Descripción corta
+shortdesc: "Guadalinex v8 desktop configuration package."
+
+# Descipción larga, las lineas han de estar separadas por "\n "
+longdesc: "This package contains every Guadalinexv8 own desktop configuration file.\n"
+
+
+# Versión del paquete
+version: 1.0
+
+# Cambios en esta versión
+changes:
+    - Initial release.
+    - Background changed.
+    - Some bugs fixed.

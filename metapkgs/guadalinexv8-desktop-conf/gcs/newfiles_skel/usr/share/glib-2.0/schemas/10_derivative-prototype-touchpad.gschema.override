@@ -1,0 +1,2 @@
+[org.gnome.settings-daemon.peripherals.touchpad]
+tap-to-click=true
