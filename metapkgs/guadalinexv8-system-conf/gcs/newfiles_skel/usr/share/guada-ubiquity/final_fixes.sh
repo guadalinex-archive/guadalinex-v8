@@ -1,0 +1,21 @@
+#!/bin/bash
+
+logs=/target/var/log/installer/debug
+
+exec >> $logs 2>&1
+
+function error() {
+	echo "Error: $*"
+}
+
+cp -v /etc/apt/sources.list /target/etc/sources.list || error "copying sources.list"
+
+
+# detecting if our processor has pae ability
+cat /proc/cpuinfo | grep -q pae
+
+# if it has
+if [ $? -eq 0 ]
+then
+	chroot /target apt-get install --assume-yes --force-yes linux-image-pae
+fi
