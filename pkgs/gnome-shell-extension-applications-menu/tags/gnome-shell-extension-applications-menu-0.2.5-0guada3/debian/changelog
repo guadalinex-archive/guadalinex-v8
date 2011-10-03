@@ -1,0 +1,30 @@
+gnome-shell-extension-applications-menu (0.2.5-0guada3) unstable; urgency=low
+
+  * Updated gnome-shell version in metadata.json 
+
+ -- gensys <gensys@localhost>  Fri, 09 Sep 2011 13:53:37 +0000
+
+gnome-shell-extension-applications-menu (0.2.4-0guada2) unstable; urgency=low
+
+  * Fixed for Guadalinex v8 
+
+ -- Álvaro Pinel <apinel@emergya.com>  Fri, 09 Sep 2011 13:43:19 +0000
+
+gnome-shell-extension-applications-menu (0.2.4-0gecos2) natty; urgency=low
+
+  * Added localization
+
+ -- Antonio Hernández <ahernandez@emergya.com>  Wed, 07 Sep 2011 14:45:43 +0200
+
+gnome-shell-extension-applications-menu (0.2.3-0gecos2) natty; urgency=low
+
+    * Patched to sync with GECOS trunk version
+    * Added GECOS version
+
+ -- Roberto C. Morano <rcmorano@emergya.es>  Tue, 02 Aug 2011 13:01:23 +0200
+
+gnome-shell-extension-applications-menu (0.2.3-0) unstable; urgency=low
+
+    * Rebased from upstream version 'gnome-shell-frippery-0.2.3.tgz'
+
+ -- Roberto C. Morano <rcmorano@emergya.es>  Thu, 08 Jul 2011 10:43:12 +0200
