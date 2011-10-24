@@ -1,7 +1,7 @@
 ## DESKTOP
 
 seahorse 
-gnome-shell 
+#gnome-shell 
 gnome-session 
 gnome-session-fallback 
 lightdm
