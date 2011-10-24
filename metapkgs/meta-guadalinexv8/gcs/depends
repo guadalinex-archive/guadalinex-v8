@@ -232,7 +232,8 @@ ubiquity-frontend-gtk
 ubuntu-mono
 unzip
 usb-modeswitch
-wget wireless-tools
+wget 
+wireless-tools
 x11-apps
 x11-common
 x11-session-utils
