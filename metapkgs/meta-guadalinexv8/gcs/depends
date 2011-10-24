@@ -108,7 +108,8 @@ anacron
 apturl 
 aspell-es 
 bash-completion 
-bluez-alsa bluez-cups 
+bluez-alsa 
+bluez-cups 
 bluez-gstreamer 
 brltty 
 brltty-x11 
