@@ -257,7 +257,8 @@ xorg
 xorg-docs-core
 xscreensaver
 xscreensaver-data
-xscreensaver-gl xterm
+xscreensaver-gl 
+xterm
 x-ttcidfont-conf
 yelp
 zip
