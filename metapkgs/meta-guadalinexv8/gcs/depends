@@ -4,8 +4,8 @@ seahorse
 #gnome-shell 
 gnome-session 
 gnome-session-fallback 
-lightdm
-lightdm-gtk-greeter
+#lightdm
+#lightdm-gtk-greeter
 gnome-shell-extension-move-clock     
 gnome-shell-extension-panel-favorites 
 gnome-shell-extension-reflection 
