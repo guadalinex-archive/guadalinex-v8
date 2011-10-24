@@ -179,7 +179,7 @@ m2300w
 media-player-info
 min12xxw
 mobile-broadband-provider-info
-modemmanage
+modemmanager
 nautilus-sendto 
 nautilus-share
 network-manager
@@ -196,7 +196,7 @@ ptouch-driver
 pulseaudio
 pulseaudio-esound-compat
 pulseaudio-module-bluetooth
-pulseaudio-module-gcon
+pulseaudio-module-gconf
 pulseaudio-module-x11 
 pxljr
 python-gobject-cairo
@@ -205,7 +205,7 @@ rfkill
 rtkit
 samba-common-bin
 sane-utils
-screensaver-default-image
+screensaver-default-images
 seahorse
 smbclient
 splix
@@ -238,7 +238,7 @@ x11-apps
 x11-common
 x11-session-utils
 x11-utils
-x11-xfs-util
+x11-xfs-utils
 x11-xkb-utils
 x11-xserver-utils
 xcursor-themes
