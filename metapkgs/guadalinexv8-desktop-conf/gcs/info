@@ -21,7 +21,7 @@ longdesc: "This package contains every Guadalinexv8 own desktop configuration fi
 
 
 # Versión del paquete
-version: v8
+version: 8.0
 
 # Cambios en esta versión
 changes:
