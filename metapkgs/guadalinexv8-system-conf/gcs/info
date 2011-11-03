@@ -21,7 +21,7 @@ longdesc: "This package contains every Guadalinex v8 own system configuration fi
 
 
 # Versión del paquete
-version: v8
+version: 8.0
 
 # Cambios en esta versión
 changes:
