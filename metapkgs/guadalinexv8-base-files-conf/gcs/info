@@ -20,7 +20,7 @@ shortdesc: "Modifica /etc/lsb-release"
 longdesc: "Modifica el fichero /etc/lsb-release para Guadalinex v8"
 
 # Versión del paquete
-version: v8
+version: 8.0
 
 # Cambios en esta versión
 changes:
