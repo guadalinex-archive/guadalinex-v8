@@ -1,0 +1,29 @@
+gnome-shell-extension-windowslist (0.2-1gecos1guada1) oneiric; urgency=low
+
+  * Exportada versión para Guadalinex v8 
+
+ -- Álvaro Pinel <apinel@emergya.com>  Thu, 03 Nov 2011 13:51:34 +0000
+
+gnome-shell-extension-windowslist (0.2-1gecos1) oneiric; urgency=low
+
+  * Version 0.2 for GnomeShel 3.2.x branches.
+
+ -- Antonio Hernández <ahernandez@emergya.com>  Thu, 27 Oct 2011 12:43:48 +0200
+
+gnome-shell-extension-windowslist (0.1-1gecos1) natty; urgency=low
+
+  * Version 0.1 for GnomeShel 3.1.x branches.
+
+ -- Antonio Hernández <ahernandez@emergya.com>  Thu, 27 Oct 2011 12:41:26 +0200
+
+gnome-shell-extension-windowslist (0.0.1-1gecos1) natty; urgency=low
+
+  * Version 0.0.1 for GnomeShel 3.0.x branches.
+
+ -- Antonio Hernández <ahernandez@emergya.com>  Tue, 19 Jul 2011 09:46:30 +0200
+
+gnome-shell-extension-windowslist (0.1-0gecos1) unstable; urgency=low
+
+    * Initial upstream release
+
+ -- Roberto C. Morano <rcmorano@emergya.es>  Mon, 11 Jul 2011 10:20:33 +0200
