@@ -21,7 +21,7 @@ longdesc: "Desktop, system, libraries and the whole distribution depends are in 
 
 
 # Versión del paquete
-version: 1.0
+version: v8
 
 # Cambios en esta versión
 changes:

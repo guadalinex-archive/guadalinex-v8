@@ -21,7 +21,7 @@ longdesc: "By the moment, this package only overwrites the default gnome-shell t
 
 
 # Versión del paquete
-version: 1.0
+version: v8
 
 # Cambios en esta versión
 changes:
