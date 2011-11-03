@@ -18,7 +18,7 @@ shortdesc: "Guadalinex v8 artwork"
 longdesc: "This package contains every Guadalinex v8 artwork file (backgrounds, icons...)."
 
 # Versión del paquete
-version: v8
+version: 8.0
 
 # Cambios en esta versión
 changes:
