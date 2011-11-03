@@ -6,7 +6,9 @@ gnome-shell-extension-move-clock
 gnome-shell-extension-panel-favorites 
 gnome-shell-extension-reflection 
 gnome-shell-extension-windowslist 
-gnome-shell-extension-applications-menu 
+gnome-shell-extension-applications-menu
+gnome-shell-extension-classic-menus
+gnome-shell-extension-classic-systray
 gnome-themes-standard 
 gnome-screensaver
 
