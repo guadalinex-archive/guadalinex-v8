@@ -26,3 +26,4 @@ version: v8
 # Cambios en esta versión
 changes:
     - Initial release.
+    - Updated package version.
