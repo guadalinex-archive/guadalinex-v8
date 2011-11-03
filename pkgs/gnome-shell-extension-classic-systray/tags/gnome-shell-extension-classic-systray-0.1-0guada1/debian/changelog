@@ -1,0 +1,11 @@
+gnome-shell-classic-systray (0.1-0guada1) oneiric; urgency=low
+
+  * Exportación para Guadalinex v8 
+
+ -- Álvaro Pinel <apinel@emergya.com>  Thu, 03 Nov 2011 13:59:19 +0000
+
+gnome-shell-classic-systray (0.1-0) unstable; urgency=low
+
+    * Initial upstream release
+
+ -- Roberto C. Morano <rcmorano@emergya.com>  Tue, 25 Oct 2011 18:58:22 +0200
