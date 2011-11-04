@@ -1,0 +1,2 @@
+[org.gnome.shell]
+enabled-extensions=['Applications_Menu@rmy.pobox.com','gnome-shell-classic-systray@emergya.com', 'Panel_Favorites@rmy.pobox.com', 'Move_Clock@rmy.pobox.com', 'gnome-shell-windowslist@emergya.com', 'gnome-shell-reflection@emergya.com']
