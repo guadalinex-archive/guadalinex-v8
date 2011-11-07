@@ -11,6 +11,7 @@ gnome-shell-extension-applications-menu
 gnome-shell-classic-systray
 gnome-themes-standard 
 gnome-screensaver
+gnome-themes-standard
 
 # Guadalinex specific:
 #gecos-pixmaps
