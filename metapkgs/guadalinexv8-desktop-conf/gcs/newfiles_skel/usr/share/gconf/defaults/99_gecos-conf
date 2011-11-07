@@ -1,8 +1,8 @@
 /desktop/gnome/background/picture_filename      /usr/share/backgrounds/guadalinex_v8_test1-bg.jpg
 /desktop/gnome/background/picture_options       stretched
-/desktop/gnome/interface/gtk_theme              NewLooks
+/desktop/gnome/interface/gtk_theme              Adwaita
 /desktop/gnome/interface/icon_theme             gnome
 /desktop/gnome/shell/windows/button_layout      menu:minimize,maximize,close
-/desktop/gnome/shell/windows/theme              NewLooks
+/desktop/gnome/shell/windows/theme              Adwaita
 /apps/metacity/general/button_layout            menu:minimize,maximize,close
-/apps/metacity/general/theme                    NewLooks
+/apps/metacity/general/theme                    Adwaita
