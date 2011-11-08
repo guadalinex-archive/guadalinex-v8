@@ -1,0 +1,25 @@
+#!/bin/bash
+#
+# Updates upstream release for a debian package
+#
+# Copyright (C) 2010, Junta de Andalucia
+# Author(s): Roberto C. Morano <rcmorano@emergya.es>
+#
+# This program is free software; you can redistribute it and/or modify it
+# under the terms of the GNU General Public License as published by the
+# Free Software Foundation; either version 2 of the License, or (at your
+# option) any later version.  See http://www.gnu.org/copyleft/gpl.html for
+# the full text of the license.
+
+sleep 12
+
+glxinfo | grep "direct rendering: Yes"
+
+if [ $? -eq 0 ]
+then
+	sed -i 's/fake transparency=true/fake transparency=false/g' ~/.config/cairo-dock/current_theme/cairo-dock.conf
+	cairo-dock -o &
+else
+	sed -i 's/fake transparency=false/fake transparency=true/g' ~/.config/cairo-dock/current_theme/cairo-dock.conf
+	cairo-dock -c &
+fi

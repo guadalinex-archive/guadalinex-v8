@@ -1,0 +1,26 @@
+#! /bin/sh
+
+set -e
+
+update-initramfs -u
+
+dpkg-divert --package casper-guada --add --rename \
+         --divert /etc/casper.conf.real /etc/casper.conf
+ln -fs /usr/share/casper-guada/data/diverts/casper.conf /etc/casper.conf
+
+dpkg-divert --package casper-guada --add --rename \
+         --divert /etc/init.d/ubiquity.real /etc/init.d/ubiquity
+ln -fs /usr/share/casper-guada/data/diverts/ubiquity.init /etc/init.d/ubiquity
+
+dpkg-divert --package casper-guada --add --rename \
+         --divert /usr/bin/ubiquity-dm.real /usr/bin/ubiquity-dm
+ln -fs /usr/share/casper-guada/data/diverts/ubiquity-dm /usr/bin/ubiquity-dm
+
+dpkg-divert --package casper-guada --add --rename \
+         --divert /usr/bin/cairo-check.real /usr/bin/cairo-check
+ln -fs /usr/share/casper-guada/data/diverts/cairo-check /usr/bin/cairo-check
+chmod +x /usr/share/casper-guada/data/diverts/cairo-check
+
+sed -i 's/tty8/tty7/g' /usr/share/initramfs-tools/scripts/casper-bottom/01integrity_check
+
+#DEBHELPER#

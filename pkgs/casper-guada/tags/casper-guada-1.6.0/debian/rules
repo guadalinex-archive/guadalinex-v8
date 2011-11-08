@@ -1,0 +1,65 @@
+#! /usr/bin/make -f
+
+# Uncomment this to turn on verbose mode.
+#export DH_VERBOSE=1
+export DH_ALWAYS_EXCLUDE=.svn
+
+build:
+	dh_testdir
+	$(MAKE) -C casper-md5check-es
+	set -e; \
+	for x in scripts/casper-bottom/*; do \
+		sh -n $$x; \
+	done
+
+clean:
+	dh_testdir
+	$(MAKE) -C casper-md5check-es clean
+
+	dh_clean
+
+install: build
+	dh_testdir
+	dh_clean -k
+	dh_installdirs
+	dh_install
+	install -m755 casper-md5check-es/casper-md5check-es debian/casper-guada/usr/lib/casper-guada/casper-md5check
+	install -m644 data/diverts/casper.conf debian/casper-guada/usr/share/casper-guada/data/diverts/casper.conf
+# this is not working a HACK was done in its place
+#
+#	for L in po/*.po ; do \
+#		L=$${L##*/} ; \
+#		mkdir -p debian/casper-guada/usr/share/locale/$${L%.po}/LC_MESSAGES/ ; \
+#		msgfmt -o debian/casper-guada/usr/share/locale/$${L%.po}/LC_MESSAGES/casper-guada.mo po/$$L ; \
+#	done
+
+
+binary-indep: build install
+	dh_testdir
+	dh_testroot
+	dh_installexamples -i
+	dh_installdocs -i
+	dh_installchangelogs -i
+	dh_compress -i
+	dh_fixperms -i
+	dh_installdeb -i
+	dh_gencontrol -i
+	dh_md5sums -i
+	dh_builddeb -i
+
+binary-arch: build install
+	dh_testdir
+	dh_testroot
+	dh_installdocs -a
+	dh_installchangelogs -a
+	dh_link -a
+	dh_strip -a
+	dh_compress -a
+	dh_fixperms -a
+	dh_installdeb -a
+	dh_gencontrol -a
+	dh_md5sums -a
+	dh_builddeb -a
+
+binary: binary-indep binary-arch
+.PHONY: build clean binary-indep binary-arch binary install

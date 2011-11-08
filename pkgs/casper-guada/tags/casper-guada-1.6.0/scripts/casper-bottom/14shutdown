@@ -1,0 +1,78 @@
+#! /bin/sh
+
+PREREQ=""
+DESCRIPTION="Translate the shutdown message..."
+
+. /scripts/casper-functions
+
+prereqs()
+{
+       echo "$PREREQ"
+}
+
+case $1 in
+# get pre-requisites
+prereqs)
+       prereqs
+       exit 0
+       ;;
+esac
+
+log_begin_msg "$DESCRIPTION"
+
+if [ -e /root/etc/default/locale ]; then
+	locale=$(grep '^LANG=' /root/etc/default/locale | cut -d= -f 2)
+elif [ -e /root/etc/environment ]; then # Old locales policy
+	locale=$(grep '^LANG=' /root/etc/environment | cut -d= -f 2)
+fi
+
+if [ -z "${locale}" ]; then
+	# Set a default one
+	locale=es_ES.UTF-8
+fi
+
+# File to change
+CASPER=/root/etc/init.d/casper
+
+##FIXME: This is not working, but it should work in some way
+## Chrooted gettext
+#gettext="chroot /root /usr/bin/gettext"
+#
+#TEXTDOMAINDIR=/usr/share/locale
+#TEXTDOMAIN=casper-guada
+#LC_ALL=${locale}
+#export TEXTDOMAINDIR TEXTDOMAIN LC_ALL
+#
+## Original text
+#TEXT="Please remove the disc, close the tray (if any) and press ENTER: "
+#TEXT_URGENT1="Please remove the disc, close the tray (if any)"
+#TEXT_URGENT2="and press ENTER to continue"
+#
+## Translated text
+#NEW_TEXT=`$gettext "$TEXT"`
+#NEW_TEXT_URGENT1=`$gettext "$TEXT_URGENT1"`
+#NEW_TEXT_URGENT2=`$gettext "$TEXT_URGENT2"`
+#
+## The change
+#sed -i "s|$TEXT|$NEW_TEXT|g" $CASPER
+#sed -i "s|$TEXT_URGENT1|$NEW_TEXT_URGENT1|g" $CASPER
+#sed -i "s|$TEXT_URGENT2|$NEW_TEXT_URGENT2|g" $CASPER
+
+# FIXME: Nasty hack for translate to spanish the last message
+# Original text
+TEXT="Please remove the disc and close the tray (if any) then press ENTER: "
+TEXT_URGENT1="Please remove the disc, close the tray (if any)"
+TEXT_URGENT2="and press ENTER to continue"
+
+# Translated text
+NEW_TEXT="Por favor, extraiga el disco, cierre la bandeja (si tiene) y pulse ENTER: "
+NEW_TEXT_URGENT1="Por favor, extraiga el disco, cierre la bandeja (si tiene)"
+NEW_TEXT_URGENT2="y pulse ENTER para continuar"
+
+# The change
+sed -i "s|$TEXT|$NEW_TEXT|g" $CASPER
+sed -i "s|$TEXT_URGENT1|$NEW_TEXT_URGENT1|g" $CASPER
+sed -i "s|$TEXT_URGENT2|$NEW_TEXT_URGENT2|g" $CASPER
+
+
+log_end_msg

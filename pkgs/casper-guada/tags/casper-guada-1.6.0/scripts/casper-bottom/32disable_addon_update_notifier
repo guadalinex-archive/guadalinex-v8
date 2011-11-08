@@ -1,0 +1,29 @@
+#!/bin/sh
+
+PREREQ=""
+DESCRIPTION="Disabling add-on check in update-notifier..."
+
+. /scripts/casper-functions
+
+prereqs()
+{
+       echo "$PREREQ"
+}
+
+case $1 in
+# get pre-requisites
+prereqs)
+       prereqs
+       exit 0
+       ;;
+esac
+
+log_begin_msg "$DESCRIPTION"
+
+# The Guadalinex DVD is also an Add-on DVD, so we need to deactivate
+# for the live mode.
+chroot /root dpkg-divert --add --rename --quiet \
+	/usr/lib/update-notifier/apt-cdrom-check
+ln -s /bin/true /root/usr/lib/update-notifier/apt-cdrom-check
+
+log_end_msg

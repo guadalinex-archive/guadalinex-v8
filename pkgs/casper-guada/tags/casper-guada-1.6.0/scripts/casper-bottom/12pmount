@@ -1,0 +1,26 @@
+#!/bin/sh
+
+PREREQ=""
+DESCRIPTION="Configuring pmount..."
+
+. /scripts/casper-functions
+
+prereqs()
+{
+       echo "$PREREQ"
+}
+
+case $1 in
+# get pre-requisites
+prereqs)
+       prereqs
+       exit 0
+       ;;
+esac
+
+log_begin_msg "$DESCRIPTION"
+
+echo '/dev/hd*' > /root/etc/pmount.allow
+echo '/dev/sd*' >> /root/etc/pmount.allow
+
+log_end_msg
