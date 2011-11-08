@@ -3,7 +3,7 @@ Section: misc
 Priority: optional
 Maintainer: Junta de Andalucía <packmaster@guadalinex.org>
 Uploaders: Juanje Ojeda Croissier <jojeda@emergya.es>,
-           Roberto C. Morano <rcmorano@emergya.es>
+           Roberto C. Morano <rcmorano@emergya.es>, Álvaro Pinel <apinel@emergya.com>
 Build-Depends: debhelper, libplymouth-dev, pkg-config
 Standards-Version: 3.8.4
 Homepage: http://launchpad.net/casper-guada

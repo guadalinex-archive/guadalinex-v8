@@ -1,3 +1,9 @@
+casper-guada (1.6.0) oneiric; urgency=low
+
+  * Modified to Guadalinex v8 
+
+ -- Álvaro Pinel <apinel@emergya.com>  Tue, 08 Nov 2011 15:51:03 +0000
+
 casper-guada (1.5.3) lucid; urgency=low
 
   * data/diverts/cairo-check: updated script
