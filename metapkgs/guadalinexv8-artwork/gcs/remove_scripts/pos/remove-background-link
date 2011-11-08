@@ -1,0 +1,4 @@
+if [ -L /usr/share/backgrounds/warty-final-ubuntu.png ]
+then
+        rm -f /usr/share/backgrounds/warty-final-ubuntu.png
+fi
