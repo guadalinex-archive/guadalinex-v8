@@ -8,7 +8,7 @@ build:
 	#dh_testdir
 	#$(MAKE) -C casper-md5check-es
 	set -e; \
-	for x in scripts/casper-bottom/*; do \
+	#for x in scripts/casper-bottom/*; do \
 		sh -n $$x; \
 	done
 
