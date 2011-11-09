@@ -1,0 +1,25 @@
+#! /bin/sh
+
+set -e
+
+update-initramfs -u
+
+if [ remove = "$1" ]; then
+    rm -f /etc/casper.conf
+    dpkg-divert --package casper-guada --remove --rename \
+             --divert /etc/casper.conf.real /etc/casper.conf
+    rm -f /etc/init.d/ubiquity
+    dpkg-divert --package casper-guada --remove --rename \
+             --divert /etc/init.d/ubiquity.real /etc/init.d/ubiquity
+    rm -f /usr/bin/ubiquity-dm
+    dpkg-divert --package casper-guada --remove --rename \
+             --divert /usr/bin/ubiquity-dm.real /usr/bin/ubiquity-dm
+    rm -f /usr/bin/cairo-check
+    dpkg-divert --package casper-guada --remove --rename \
+             --divert /usr/bin/cairo-check.real /usr/bin/cairo-check
+
+     sed -i 's/tty7/tty8/g' /usr/share/initramfs-tools/scripts/casper-bottom/01integrity_check
+    
+fi
+
+#DEBHELPER#

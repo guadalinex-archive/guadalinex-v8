@@ -1,0 +1,33 @@
+#!/bin/sh -e
+# initramfs hook for casper
+
+PREREQS="casper"
+
+# Output pre-requisites
+prereqs()
+{
+       echo "$PREREQ"
+}
+
+case "$1" in
+    prereqs)
+       prereqs
+       exit 0
+       ;;
+esac
+
+. /usr/share/initramfs-tools/hook-functions
+
+# install guada-scripts 
+cp -a /usr/share/casper-guada/scripts/casper-bottom/* $DESTDIR/scripts/casper-bottom/
+
+# integrity check
+# HACK: It replace the casper one by the guadalinex spanish translation
+rm -f $DESTDIR/bin/casper-md5check
+copy_exec /usr/lib/casper-guada/casper-md5check /bin
+
+
+if [ -e /usr/share/casper-guada/casper.conf ]; then
+    mkdir -p ${DESTDIR}/etc
+    cp -a /usr/share/casper-guada/casper.conf ${DESTDIR}/etc
+fi

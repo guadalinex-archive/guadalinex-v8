@@ -1,0 +1,77 @@
+#!/bin/sh
+
+PREREQ=""
+DESCRIPTION="Configuring accessibility options..."
+
+. /scripts/casper-functions
+
+prereqs()
+{
+       echo "$PREREQ"
+}
+
+case $1 in
+# get pre-requisites
+prereqs)
+       prereqs
+       exit 0
+       ;;
+esac
+
+log_begin_msg "$DESCRIPTION"
+
+gconf_version=$(chroot /root /usr/bin/dpkg-query -W --showformat='${Version}' gconf2 2>/dev/null) || gconf_version=""
+
+gct() {
+    if [ "$gconf_version" ]; then
+        chroot /root sudo -u "$USERNAME" gconftool-2 "$@"
+    fi
+}
+
+kderc_addtoprefixes() {
+    if [ -e "/root/etc/kderc" ]; then
+        sed -i "s|\\(prefixes=/usr/share/kubuntu-default-settings/kde-profile/default/\\)|\\1,$1|" /root/etc/kderc
+    fi
+}
+
+for x in $(cat /proc/cmdline); do
+                case $x in
+                        # Lesser Visual Impairment
+                        access=v1)
+                        chroot /root sudo -u usuario sabayon-apply alto_contraste
+			chroot /root unzip -o /etc/sabayon/profiles/alto_contraste.zip -d /home/usuario
+			chroot /root chown -R usuario: /home/usuario
+                        ;;
+                        # Moderate Visual Impairment
+                        access=v2)
+                        chroot /root sudo -u usuario sabayon-apply lupa
+			chroot /root unzip -o /etc/sabayon/profiles/lupa.zip -d /home/usuario
+			chroot /root chown -R usuario: /home/usuario
+                        ;;
+                        # Blindness
+                        access=v3)
+                        chroot /root sudo -u usuario sabayon-apply lector_de_pantalla
+			chroot /root unzip -o /etc/sabayon/profiles/lector_de_pantalla.zip -d /home/usuario
+			chroot /root chown -R usuario: /home/usuario
+                        ;;
+                        # brltty
+                        access=brltty)
+                        chroot /root sudo -u usuario sabayon-apply terminal_braille
+			chroot /root unzip -o /etc/sabayon/profiles/terminal_braille.zip -d /home/usuario 
+			chroot /root chown -R usuario: /home/usuario
+                        ;;
+                        # Minor Motor Difficulties
+                        access=m1)
+                        chroot /root sudo -u usuario sabayon-apply modificadores_de_teclado
+			chroot /root unzip -o /etc/sabayon/profiles/modificadores_de_teclado.zip -d /home/usuario 
+			chroot /root chown -R usuario: /home/usuario
+                        ;;
+                        # Motor Difficulties - pointing devices
+                        access=m2)
+                        chroot /root sudo -u usuario sabayon-apply teclado_en_pantalla
+			chroot /root unzip -o /etc/sabayon/profiles/teclado_en_pantalla.zip -d /home/usuario 
+			chroot /root chown -R usuario: /home/usuario
+                        ;;
+		esac
+done
+log_end_msg

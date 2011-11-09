@@ -1,0 +1,19 @@
+Source: casper-guada
+Section: misc
+Priority: optional
+Maintainer: Junta de Andalucía <packmaster@guadalinex.org>
+Uploaders: Juanje Ojeda Croissier <jojeda@emergya.es>,
+           Roberto C. Morano <rcmorano@emergya.es>
+Build-Depends: debhelper, libplymouth-dev, pkg-config
+Standards-Version: 3.8.4
+Homepage: http://launchpad.net/casper-guada
+Vcs-Browser: http://codebrowse.launchpad.net/~guadalinex-members/casper-guada/trunk/changes
+Vcs-Bzr: http://bazaar.launchpad.net/~guadalinex-members/casper-guada/trunk
+
+Package: casper-guada
+Architecture: any
+Section: misc
+Priority: extra
+Pre-Depends: ubiquity
+Depends: casper (>= 1.230)
+Description: Run a "live" preinstalled system from read-only media
