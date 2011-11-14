@@ -1102,7 +1102,7 @@ language-pack-gnome-es-base
 #uno-libs3
 #unzip
 #update-inetd
-#update-manager
+update-manager
 #update-notifier
 #update-notifier-common
 #upower
