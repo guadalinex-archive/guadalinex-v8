@@ -1,0 +1,12 @@
+# init configuration script for hudson-slave 
+# User and Group to execute slave daemon asa
+# defaults to the ubuntu server iso testing
+# account as part of this package
+USER=upgrade-tester
+GROUP=nogroup
+# URL to access Hudson Master Server
+HUDSON_MASTER=
+# Options to pass to hudson-slave
+# OPTS="-d"
+# Run at startup
+STARTUP=false

@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: fdsend
+Version: 0.1
+Summary: File descriptor passing (via SCM_RIGHTS)
+Home-page: http://pilcrow.madison.wi.us/fdsend
+Author: Michael J. Pomraning
+Author-email: mjp-py@pilcrow.madison.wi.us
+License: GPL
+Description: UNKNOWN
+Platform: UNKNOWN

@@ -1,0 +1,9 @@
+./backports
+./profile
+./result
+./tarball
+./toChroot
+./automatic-upgrade-testing
+./build-exclude.txt
+./ChrootNonInteractive.py
+./install_all.py 

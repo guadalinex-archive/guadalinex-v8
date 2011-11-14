@@ -1,0 +1,4 @@
+# sources.list fragment for pre-requists of arches living on ports.ubuntu.com
+# no mirror because there are no mirrors here
+# this is safe to remove after the upgrade
+deb http://ports.ubuntu.com/ubuntu-ports dapper-backports main/debian-installer

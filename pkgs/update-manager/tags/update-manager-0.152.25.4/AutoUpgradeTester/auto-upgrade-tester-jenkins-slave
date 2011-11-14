@@ -1,0 +1,60 @@
+#!/usr/bin/python
+# 
+# Copyright (C) 2010, Canonical Ltd (http://www.canonical.com/)
+#
+# This file is part of ubuntu-server-iso-testing.
+# 
+# ubuntu-server-iso-testing is free software: you can redistribute it 
+# and/or modify it under the terms of the GNU General Public License 
+# as published by the Free Software Foundation, either version 3 of 
+# the License, or (at your option) any later version.
+# 
+# ubuntu-server-iso-testing is distributed in the hope that it will 
+# be useful, but WITHOUT ANY WARRANTY; without even the implied warranty 
+# of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+# 
+# You should have received a copy of the GNU General Public License
+# along with ubuntu-server-iso-testing.  If not, see 
+# <http://www.gnu.org/licenses/>.
+# 
+
+import logging
+import optparse
+import os
+import urllib
+import sys
+import subprocess
+import socket
+
+usage="usage: %prog [options] HUDSON_URL"
+parser = optparse.OptionParser(usage=usage)
+parser.add_option("-d", "--debug", dest="debug", action="store_true",  default=False,
+                                help="enable debugging")
+parser.add_option("-n", "--nodename",  dest="nodename", default=socket.gethostname(), 
+                                help="hostname to use when registering with hudson (default=hostname)")
+(options, args) = parser.parse_args()
+
+if len(args) == 0:
+    logging.error("Need a HUDSON_URL to execute")
+    parser.print_help()
+    sys.exit(1)
+
+if options.debug:
+    logging.basicConfig(level=logging.DEBUG)
+else:
+    logging.basicConfig(level=logging.INFO)
+
+HUDSON_URL=args[0]
+HUDSON_PATH="/computer/%s/slave-agent.jnlp"
+SLAVE_URL=HUDSON_URL + 'jnlpJars/slave.jar'
+SLAVE_JAR=os.path.expanduser("~/.slave.jar")
+
+l_hudson_url= HUDSON_URL + HUDSON_PATH % options.nodename
+
+logging.debug("Retrieving hudson slave.jar")
+urllib.urlretrieve(SLAVE_URL, SLAVE_JAR)
+
+cmd = [ 'java','-jar', SLAVE_JAR, '-jnlpUrl', l_hudson_url ]
+logging.debug("Cmd: %s" % (cmd))
+subprocess.check_call(cmd)

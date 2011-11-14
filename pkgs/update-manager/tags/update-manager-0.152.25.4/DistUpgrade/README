@@ -1,0 +1,90 @@
+General
+-------
+
+The dist-upgrader is designed to make upgrades for ubuntu (or similar
+distributions) easy and painless. It supports both network mode and
+cdrom upgrades. The cdromupgrade will ask if it should use the network
+or not. There is a wrapper script "cdromupgrade" (that assumes the
+file of the upgrade life in
+CDROM_ROOT/dists/stable/dist-upgrader/binary-all/) that can be put
+onto the CD and it will support upgrades directly from the CD.
+
+
+Environment
+-----------
+The following environment variable will be *honored*:
+
+RELEASE_UPGRADE_NO_FORCE_OVERWRITE:
+- if that is set, no --force-overwrite is used
+
+RELEASE_UPRADER_NO_APPORT:
+- if that is set, apport is not run in case of package install falures
+
+RELEASE_UPRADER_ALLOW_THIRD_PARTY:
+- if that is set, third party repositories will not be commented out
+  but instead tried to be upgraded
+
+
+
+The following environment variable will be *set* by the upgrader:
+RELEASE_UPGRADE_IN_PROGRESS:
+- set to "1" if a release-upgrade is running (and not a normal
+  package/security upgrade)
+RELEASE_UPGRADE_MODE:
+- either "desktop" or "server" 
+
+
+Configuration
+-------------
+
+The DistUpgrade.cfg format is based on the python ConfigParser.
+
+It supports the following sections:
+
+[View] - controls the output 
+Depends:
+  Packages that must be installed to the version specified (just like
+  a regular depends line in a pkg).
+[$view-used]
+Depends: just like the global "view" depend but only evaluated when the
+         specific view is in use
+
+[Distro] - global distribution specfic options
+BaseMetaPkgs: 
+  the basic meta-pkgs that must be installed (ubuntu-base usually)
+MetaPkgs: 
+  packages that define a "desktop" (e.g. ubuntu-desktop)
+PostUpgrade{Install,Remove,Purge}: 
+  action right after the upgrade was calculated in the cache (marking 
+  happens *before* the cache.commit())
+ForcedObsoletes: 
+  Obsolete packages that the user is asked about after the upgrade (marking 
+  happens *after* the cache.commit())
+RemoveEssentialOk:
+  Those packages are ok to remove even though they are essential
+KeepInstalledPkgs:
+  If the package was installed before, it should still be installed
+  after the upgrade
+KeepInstalledSection:
+  Packages from this section that were installed should always be
+  installed afterwards as well (useful for eg translations)
+
+[$meta-pkg]
+KeyDependencies:
+  Dependencies that are considered "key" dependencies of the meta-pkg to
+  detect if it was installed but later removed by the user
+PostUpgrade{Install,Remove,Purge}: 
+  s.above
+ForcedObsoletes: 
+  s.above
+
+[Files] - file specific stuff
+
+[Sources] - how to rewrite the sources.list
+
+[Network] - network specific options
+
+[PreRequists] - use specific packages for dist-upgrade 
+Packages= List of what packages to look for
+SourcesList=a sources.list fragment that will be placed into 
+            /etc/apt/sources.list.d and that contains the backported pkgs

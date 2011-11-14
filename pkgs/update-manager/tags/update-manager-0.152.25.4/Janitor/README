@@ -1,0 +1,37 @@
+README for Computer Janitor Core
+================================
+
+
+Computer Janitor is a tool to clean up a system so that it is more like
+a freshly installed one. It was written for Ubuntu, but should be
+possible to port to other Unix-like operating systems.
+
+This is the core of the program: the plugin manager, and (some of) the
+plugins. The user interface and some other things are in a separate
+source tree. This is because Ubuntu's and Debian's Update Manager
+program will be using Computer Janitor. Since Update Manager is used
+also to upgrade from operating system release to release, it needs to
+keep its external dependencies to a minimum. Thus, the core of Computer
+Janitor is incorporated into Update Manager, and the upper layers will
+remain as a separate package.
+
+
+Copyright license
+-----------------
+
+Computer Janitor - clean up a computer system
+Copyright (C) 2008, 2009  Canonical, Ltd.
+
+The following license applies to all files (including the icons):
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, version 3 of the License.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.

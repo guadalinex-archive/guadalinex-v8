@@ -1,0 +1,2638 @@
+# translation of po_update-manager-ar.po to Arabic
+# Arabic translation for update-manager
+# Copyright (c) (c) 2006 Canonical Ltd, and Rosetta Contributors 2006
+# This file is distributed under the same license as the update-manager package.
+#
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2006.
+# OsamaKhalid <osamak.wfm@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: po_update-manager-ar\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-10-18 03:11+0000\n"
+"PO-Revision-Date: 2011-05-11 19:09+0000\n"
+"Last-Translator: Khaled Hosny <khaledhosny@eglug.org>\n"
+"Language-Team: Arabic\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n % 100 >= "
+"3 && n % 100 <= 10 ? 3 : n % 100 >= 11 && n % 100 <= 99 ? 4 : 5;\n"
+"X-Launchpad-Export-Date: 2011-10-18 14:52+0000\n"
+"X-Generator: Launchpad (build 14157)\n"
+
+#. TRANSLATORS: download size is 0
+#: ../DistUpgrade/utils.py:416 ../UpdateManager/Core/utils.py:416
+msgid "0 kB"
+msgstr ""
+
+#. TRANSLATORS: download size of very small updates
+#: ../DistUpgrade/utils.py:419 ../UpdateManager/Core/utils.py:419
+msgid "1 kB"
+msgstr ""
+
+#. TRANSLATORS: download size of small updates, e.g. "250 kB"
+#: ../DistUpgrade/utils.py:422 ../UpdateManager/Core/utils.py:422
+#, python-format
+msgid "%.0f kB"
+msgstr ""
+
+#. TRANSLATORS: download size of updates, e.g. "2.3 MB"
+#: ../DistUpgrade/utils.py:425 ../UpdateManager/Core/utils.py:425
+#, python-format
+msgid "%.1f MB"
+msgstr "%.1f م.بايت"
+
+#. TRANSLATORS: %s is a country
+#: ../DistUpgrade/distro.py:210 ../DistUpgrade/distro.py:438
+#, python-format
+msgid "Server for %s"
+msgstr "خادوم %s"
+
+#. More than one server is used. Since we don't handle this case
+#. in the user interface we set "custom servers" to true and
+#. append a list of all used servers
+#: ../DistUpgrade/distro.py:228 ../DistUpgrade/distro.py:234
+#: ../DistUpgrade/distro.py:250
+msgid "Main server"
+msgstr "الخادوم الرئيسي"
+
+#: ../DistUpgrade/distro.py:254
+msgid "Custom servers"
+msgstr "خواديم مخصصة"
+
+#: ../DistUpgrade/DistUpgradeAptCdrom.py:141
+msgid "Could not calculate sources.list entry"
+msgstr "تعذر حساب مدخلة source.list"
+
+#: ../DistUpgrade/DistUpgradeAptCdrom.py:244
+msgid ""
+"Unable to locate any package files, perhaps this is not a Ubuntu Disc or the "
+"wrong architecture?"
+msgstr "تعذّر إيجاد أي ملفات حزم، لعل هذا ليس قرص أوبونتو أو البنية الخطأ؟"
+
+#: ../DistUpgrade/DistUpgradeAptCdrom.py:287
+msgid "Failed to add the CD"
+msgstr "فشلت إضافة الاسطوانة"
+
+#: ../DistUpgrade/DistUpgradeAptCdrom.py:288
+#, python-format
+msgid ""
+"There was a error adding the CD, the upgrade will abort. Please report this "
+"as a bug if this is a valid Ubuntu CD.\n"
+"\n"
+"The error message was:\n"
+"'%s'"
+msgstr ""
+"حدث خطأ بإضافة القرص، سيتم إلغاء عملية الترقية. من فضلك قم بالإبلاغ عن هذا "
+"كعلّة إذا كانت هذه اسطوانة صالحة لأوبونتو.\n"
+"\n"
+"رسالة الخطأ كانت:\n"
+"'%s'"
+
+#: ../DistUpgrade/DistUpgradeCache.py:138
+msgid "Remove package in bad state"
+msgid_plural "Remove packages in bad state"
+msgstr[0] "أزل الحزمة التي في حالة سيئة"
+msgstr[1] "أزل الحزمة التي في حالة سيئة"
+msgstr[2] "أزل الحزمتين اللتين في حالة سيئة"
+msgstr[3] "أزل الحزم التي في حالة سيئة"
+msgstr[4] "أزل الحزم التي في حالة سيئة"
+msgstr[5] "أزل الحزم التي في حالة سيئة"
+
+#: ../DistUpgrade/DistUpgradeCache.py:141
+#, python-format
+msgid ""
+"The package '%s' is in an inconsistent state and needs to be reinstalled, "
+"but no archive can be found for it. Do you want to remove this package now "
+"to continue?"
+msgid_plural ""
+"The packages '%s' are in an inconsistent state and need to be reinstalled, "
+"but no archives can be found for them. Do you want to remove these packages "
+"now to continue?"
+msgstr[0] ""
+"حالة الحزمة '%s' متضاربة وتحتاج أن يعاد تثبيتها، لكن لا أرشيف وجد لها. أتريد "
+"إزالة هذه الحزمة الآن للمتابعة؟"
+msgstr[1] ""
+"حالة الحزمة '%s' متضاربة وتحتاج أن يعاد تثبيتها، لكن لا أرشيف وجد لها. أتريد "
+"إزالة هذه الحزمة الآن للمتابعة؟"
+msgstr[2] ""
+"حالة الحزمتين '%s' متضاربة وتحتاجان أن يعاد تثبيتهما، لكن لا أرشيف وجد لهما. "
+"أتريد إزالة هذين الحزمتين الآن للمتابعة؟"
+msgstr[3] ""
+"حالة الحزم '%s' متضاربة وتحتاج أن يعاد تثبيتها، لكن لا أرشيف وجد لها. أتريد "
+"إزالة هذه الحزم الآن للمتابعة؟"
+msgstr[4] ""
+"حالة الحزم '%s' متضاربة وتحتاج أن يعاد تثبيتها، لكن لا أرشيف وجد لها. أتريد "
+"إزالة هذه الحزم الآن للمتابعة؟"
+msgstr[5] ""
+"حالة الحزم '%s' متضاربة وتحتاج أن يعاد تثبيتها، لكن لا أرشيف وجد لها. أتريد "
+"إزالة هذه الحزم الآن للمتابعة؟"
+
+#. FIXME: not ideal error message, but we just reuse a
+#. existing one here to avoid a new string
+#: ../DistUpgrade/DistUpgradeCache.py:239
+msgid "The server may be overloaded"
+msgstr "قد يكون الخادوم مثقلاً."
+
+#: ../DistUpgrade/DistUpgradeCache.py:352
+msgid "Broken packages"
+msgstr "حزم معطوبة"
+
+#: ../DistUpgrade/DistUpgradeCache.py:353
+msgid ""
+"Your system contains broken packages that couldn't be fixed with this "
+"software. Please fix them first using synaptic or apt-get before proceeding."
+msgstr ""
+"نظامك يحوي حزما مكسورة لا يمكن إصلاحها بهذه البرمجية. أصلحها مستخدما سينابتك "
+"أو apt-get قبل المواصلة."
+
+#. FIXME: change the text to something more useful
+#: ../DistUpgrade/DistUpgradeCache.py:648
+#, python-format
+msgid ""
+"An unresolvable problem occurred while calculating the upgrade:\n"
+"%s\n"
+"\n"
+" This can be caused by:\n"
+" * Upgrading to a pre-release version of Ubuntu\n"
+" * Running the current pre-release version of Ubuntu\n"
+" * Unofficial software packages not provided by Ubuntu\n"
+"\n"
+msgstr ""
+"صودفت مشكلة غير قابلة للحل أثناء إحصاء الترقية:\n"
+"%s\n"
+"\n"
+"هذا قد ينتج عن: *نرقية نسخة ما قبل الإصدار من أوبونتو\n"
+"*تشغيل نسخة ما قبل الإصدار الحالية من أوبونتو\n"
+"*حزم برمجيات غير رسمية ليست مقدمة من أوبونتو\n"
+"\n"
+
+#: ../DistUpgrade/DistUpgradeCache.py:658
+msgid "This is most likely a transient problem, please try again later."
+msgstr "هذا على الأغلب عطل عابر، من فضلك حاول لاحقا."
+
+#: ../DistUpgrade/DistUpgradeCache.py:661
+msgid ""
+"If none of this applies, then please report this bug using the command "
+"'ubuntu-bug update-manager' in a terminal."
+msgstr ""
+
+#: ../DistUpgrade/DistUpgradeCache.py:666
+#: ../UpdateManager/UpdateManager.py:1023
+msgid "Could not calculate the upgrade"
+msgstr "تعذّر حساب الترقية"
+
+#: ../DistUpgrade/DistUpgradeCache.py:717
+msgid "Error authenticating some packages"
+msgstr "عطل في استيثاق بعض الحزم"
+
+#: ../DistUpgrade/DistUpgradeCache.py:718
+msgid ""
+"It was not possible to authenticate some packages. This may be a transient "
+"network problem. You may want to try again later. See below for a list of "
+"unauthenticated packages."
+msgstr ""
+"تعذّر استيثاق بعض الحزم. قد تكون هذه مشكلة عابرة في الشبكة، و قد تفلح "
+"المحاولة مجددا لاحقا. طالع قائمة الحزم غير المستوثقة أدناه."
+
+#: ../DistUpgrade/DistUpgradeCache.py:738
+#, python-format
+msgid ""
+"The package '%s' is marked for removal but it is in the removal blacklist."
+msgstr "الحزمة '%s' معلّمة للإزالة لكنها في قائمة الحذف السوداء."
+
+#: ../DistUpgrade/DistUpgradeCache.py:742
+#, python-format
+msgid "The essential package '%s' is marked for removal."
+msgstr "الحزمة الأساسية '%s' معلّمة للإزالة."
+
+#: ../DistUpgrade/DistUpgradeCache.py:751
+#, python-format
+msgid "Trying to install blacklisted version '%s'"
+msgstr "يحاول تثبيت نسخة في القائمة السوداء '%s'"
+
+#: ../DistUpgrade/DistUpgradeCache.py:869
+#, python-format
+msgid "Can't install '%s'"
+msgstr "تعذّر تثبيت '%s'"
+
+#: ../DistUpgrade/DistUpgradeCache.py:870
+msgid ""
+"It was impossible to install a required package. Please report this as a bug "
+"using 'ubuntu-bug update-manager' in a terminal."
+msgstr ""
+
+#. FIXME: provide a list
+#: ../DistUpgrade/DistUpgradeCache.py:881
+msgid "Can't guess meta-package"
+msgstr "تعذّرت معرفة الحزمة الفوقية"
+
+#: ../DistUpgrade/DistUpgradeCache.py:882
+msgid ""
+"Your system does not contain a ubuntu-desktop, kubuntu-desktop, xubuntu-"
+"desktop or edubuntu-desktop package and it was not possible to detect which "
+"version of Ubuntu you are running.\n"
+" Please install one of the packages above first using synaptic or apt-get "
+"before proceeding."
+msgstr ""
+"نظامك لا يحتوي أيا من الحزم ubuntu-desktop أو kubuntu-desktop أو xubuntu-"
+"desktop أو edubuntu-desktop و لم يمكن الكشف عن نسخة أوبونتو التي تستعملها.\n"
+" رجاءً ثبت إحدى الحزم المذكورة أعلاه باستخدام synaptic أو apt-get قبل "
+"المواصلة."
+
+#: ../DistUpgrade/DistUpgradeController.py:100
+msgid "Reading cache"
+msgstr "يقرأ المخبئية"
+
+#: ../DistUpgrade/DistUpgradeController.py:205
+msgid "Unable to get exclusive lock"
+msgstr "تعذر الحصول على قفل حصري"
+
+#: ../DistUpgrade/DistUpgradeController.py:206
+msgid ""
+"This usually means that another package management application (like apt-get "
+"or aptitude) already running. Please close that application first."
+msgstr ""
+"يعني هذا عادة أن تطبيق إدارة حزم آخر (مثل apt-get أو aptitude) يعمل حالياً. "
+"رجاء أغلق ذاك التطبيق أولاً."
+
+#: ../DistUpgrade/DistUpgradeController.py:239
+msgid "Upgrading over remote connection not supported"
+msgstr "الترقية عبر اتصال بعيد غير مدعومة"
+
+#: ../DistUpgrade/DistUpgradeController.py:240
+msgid ""
+"You are running the upgrade over a remote ssh connection with a frontend "
+"that does not support this. Please try a text mode upgrade with 'do-release-"
+"upgrade'.\n"
+"\n"
+"The upgrade will abort now. Please try without ssh."
+msgstr ""
+"لقد قمت بتشغيل الترقية عبر اتصال الغطاء الأمني عن بعد مع واجهة لا تدعم هذا. "
+"الرجاء محاولة ترقية في وضع النص مع'do-release-upgrade'.\n"
+"\n"
+"سيتم الخروج من عملية الترقية الآن. الرجاء المحاولة بدون الغطاء الأمني."
+
+#: ../DistUpgrade/DistUpgradeController.py:254
+msgid "Continue running under SSH?"
+msgstr "أتريد مواصلة العمل تحت SSH؟"
+
+#: ../DistUpgrade/DistUpgradeController.py:255
+#, python-format
+msgid ""
+"This session appears to be running under ssh. It is not recommended to "
+"perform a upgrade over ssh currently because in case of failure it is harder "
+"to recover.\n"
+"\n"
+"If you continue, an additional ssh daemon will be started at port '%s'.\n"
+"Do you want to continue?"
+msgstr ""
+"يبدو أن هذه الجلسة تعمل خلال الغطاء الأمني. لا يوصَى بإجراء الترقية عبر "
+"الغطاء الأمني حاليا لأنه في حال الفشل سيكون استرداده أصعب.\n"
+"إذا استمررت، سيتم بدأ عفريت غطاء أمني إضافي على منفذ '%s'.\n"
+"هل تريد الاستمرار؟"
+
+#: ../DistUpgrade/DistUpgradeController.py:269
+msgid "Starting additional sshd"
+msgstr "يجري تشغيل sshd إضافي"
+
+#: ../DistUpgrade/DistUpgradeController.py:270
+#, python-format
+msgid ""
+"To make recovery in case of failure easier, an additional sshd will be "
+"started on port '%s'. If anything goes wrong with the running ssh you can "
+"still connect to the additional one.\n"
+msgstr ""
+"لتسهيل الإصلاح في حالة الفشل فإن sshd إضافيا سيُشغّل على المنفذ '%s'. إذا "
+"حدث عطل في ssh المشتغل حاليا يمكنك الاتصال بالإضافي.\n"
+
+#: ../DistUpgrade/DistUpgradeController.py:278
+#, python-format
+msgid ""
+"If you run a firewall, you may need to temporarily open this port. As this "
+"is potentially dangerous it's not done automatically. You can open the port "
+"with e.g.:\n"
+"'%s'"
+msgstr ""
+
+#: ../DistUpgrade/DistUpgradeController.py:349
+#: ../DistUpgrade/DistUpgradeController.py:394
+msgid "Can not upgrade"
+msgstr "تعذّرت الترقية"
+
+#: ../DistUpgrade/DistUpgradeController.py:350
+#, python-format
+msgid "An upgrade from '%s' to '%s' is not supported with this tool."
+msgstr "ترقية من '%s' إلى '%s' غير مدعومة بهذه الأداة."
+
+#: ../DistUpgrade/DistUpgradeController.py:359
+msgid "Sandbox setup failed"
+msgstr "فشل إعداد صندوق الرمل"
+
+#: ../DistUpgrade/DistUpgradeController.py:360
+msgid "It was not possible to create the sandbox environment."
+msgstr "تعذّر إنشاء بيئة محاطة (صندوق رمل)"
+
+#: ../DistUpgrade/DistUpgradeController.py:366
+msgid "Sandbox mode"
+msgstr "طور صندوق الرمل"
+
+#: ../DistUpgrade/DistUpgradeController.py:367
+#, python-format
+msgid ""
+"This upgrade is running in sandbox (test) mode. All changes are written to "
+"'%s' and will be lost on the next reboot.\n"
+"\n"
+"*No* changes written to a systemdir from now until the next reboot are "
+"permanent."
+msgstr ""
+"تعمل الترقية في طور صندوق الرمل (للاختبار). كل التغييرات التي ستكتب في '%s' "
+"ستُفقد بعد إعادة التشغيل.\n"
+"*لن* تكتب أي تغييرات في مجلدات النظام من الآن وحتى إعادة التشغيل."
+
+#: ../DistUpgrade/DistUpgradeController.py:395
+msgid ""
+"Your python install is corrupted. Please fix the '/usr/bin/python' symlink."
+msgstr ""
+"تثبيتة python الحالية معطوبة. رجاءً أصلح الرابط الرمزي '/usr/bin/python'."
+
+#: ../DistUpgrade/DistUpgradeController.py:421
+msgid "Package 'debsig-verify' is installed"
+msgstr "حزمة 'debsig-verify' مثبتة"
+
+#: ../DistUpgrade/DistUpgradeController.py:422
+msgid ""
+"The upgrade can not continue with that package installed.\n"
+"Please remove it with synaptic or 'apt-get remove debsig-verify' first and "
+"run the upgrade again."
+msgstr ""
+"لا يمكن مواصة الترقية و تلك الحزمة مثبّتة.\n"
+"أزلها باستخدام synaptic أو 'apt-get' ثم أجر الترقية مجددا."
+
+#: ../DistUpgrade/DistUpgradeController.py:432
+msgid "Include latest updates from the Internet?"
+msgstr "أأضمن آخر التحديثات من الإنترنت؟"
+
+#: ../DistUpgrade/DistUpgradeController.py:433
+msgid ""
+"The upgrade system can use the internet to automatically download the latest "
+"updates and install them during the upgrade.  If you have a network "
+"connection this is highly recommended.\n"
+"\n"
+"The upgrade will take longer, but when it is complete, your system will be "
+"fully up to date.  You can choose not to do this, but you should install the "
+"latest updates soon after upgrading.\n"
+"If you answer 'no' here, the network is not used at all."
+msgstr ""
+"نظام الترقية يمكن أن يستخدم الإنرتنت للتنزيل التلقائي لآخر التحديثات ويثبتها "
+"أثناء الترقية. إذا كنت تمتلك اتصال شبكة هذا موصى به بشدة.\n"
+"\n"
+"الترقية سوف تستغرق وقتا أطول، لكن عندما تكتمل، سيكون نظامك محدث تماما. "
+"تستطيع اختيار عدم فعل ذلك، لكن يتعيّن عليك تثبيت آخر التحديثات بعد الترقية "
+"مباشرة.\n"
+"إذا كانت إجابتك 'لا' هنا، لن تستخدم الشبكة مطلقا."
+
+#: ../DistUpgrade/DistUpgradeController.py:653
+#, python-format
+msgid "disabled on upgrade to %s"
+msgstr "عُطّل عند الترقية إلى %s"
+
+#: ../DistUpgrade/DistUpgradeController.py:680
+msgid "No valid mirror found"
+msgstr "لم يُعثر على مرآة صحيحة"
+
+#: ../DistUpgrade/DistUpgradeController.py:681
+#, python-format
+msgid ""
+"While scanning your repository information no mirror entry for the upgrade "
+"was found. This can happen if you run a internal mirror or if the mirror "
+"information is out of date.\n"
+"\n"
+"Do you want to rewrite your 'sources.list' file anyway? If you choose 'Yes' "
+"here it will update all '%s' to '%s' entries.\n"
+"If you select 'No' the upgrade will cancel."
+msgstr ""
+"تعذر إيجاد مرآة للترقية أثناء البحث في معلومات المستودعات في حاسوبك. قد يحدث "
+"هذا إن استخدمت مرآة داخلية أو إن كانت معلومات المرآة قديمة.\n"
+"\n"
+"هل تود التعديل على ملف 'sources.list' لديك على أية حال؟ إن أجبت ﺑ'نعم' "
+"فستُحدّث كل '%s' إلى '%s'. وإن أجبت ﺑ'ﻻ' فستُلغى عملية الترقية."
+
+#. hm, still nothing useful ...
+#: ../DistUpgrade/DistUpgradeController.py:701
+msgid "Generate default sources?"
+msgstr "أأولد المصادر المبدئية؟"
+
+#: ../DistUpgrade/DistUpgradeController.py:702
+#, python-format
+msgid ""
+"After scanning your 'sources.list' no valid entry for '%s' was found.\n"
+"\n"
+"Should default entries for '%s' be added? If you select 'No', the upgrade "
+"will cancel."
+msgstr ""
+"تعذر إيجاد مدخلة صالحة لـ'%s' أثناء البحث في ملف 'sources.list' في حاسوبك.\n"
+"\n"
+"هل تود إضافة المدخلات الافتراضية لـ'%s'؟ إن أجبت ﺑ'ﻻ' فستُلغى عملية الترقية."
+
+#: ../DistUpgrade/DistUpgradeController.py:737
+msgid "Repository information invalid"
+msgstr "معلومات المستودع غير صحيحة"
+
+#: ../DistUpgrade/DistUpgradeController.py:738
+msgid ""
+"Upgrading the repository information resulted in a invalid file. Please "
+"report this as a bug using the command 'ubuntu-bug update-manager' in a "
+"terminal."
+msgstr ""
+
+#: ../DistUpgrade/DistUpgradeController.py:746
+msgid "Third party sources disabled"
+msgstr "مصادر الأطراف الخارجية عُطّلت"
+
+#: ../DistUpgrade/DistUpgradeController.py:747
+msgid ""
+"Some third party entries in your sources.list were disabled. You can re-"
+"enable them after the upgrade with the 'software-properties' tool or your "
+"package manager."
+msgstr ""
+"بعض مدخلات الأطراف الخارجية في sources.list قد عطلت. يمكنك إعادة تفعيلها بعد "
+"الترقية، باستخدام أداة 'software-properties' في مدير الحزم."
+
+#: ../DistUpgrade/DistUpgradeController.py:787
+msgid "Package in inconsistent state"
+msgid_plural "Packages in inconsistent state"
+msgstr[0] "لا حزم في حالة غير متسقة"
+msgstr[1] "حزمة واحدة في حالة غير متسقة"
+msgstr[2] "حزمتان في حالة غير متسقة"
+msgstr[3] "حزم في حالة غير متسقة"
+msgstr[4] "حزم في حالة غير متسقة"
+msgstr[5] "حزم في حالة غير متسقة"
+
+#: ../DistUpgrade/DistUpgradeController.py:790
+#, python-format
+msgid ""
+"The package '%s' is in an inconsistent state and needs to be reinstalled, "
+"but no archive can be found for it. Please reinstall the package manually or "
+"remove it from the system."
+msgid_plural ""
+"The packages '%s' are in an inconsistent state and need to be reinstalled, "
+"but no archive can be found for them. Please reinstall the packages manually "
+"or remove them from the system."
+msgstr[0] ""
+"حالة الحزمة '%s' متضاربة وتحتاج أن يعاد تثبيتها، لكن لا أرشيف وجد لها. من "
+"فضلك أعد تثبيت الحزمة يدويا أو أزلها من النظام."
+msgstr[1] ""
+"حالة الحزمة '%s' متضاربة وتحتاج أن يعاد تثبيتها، لكن لا أرشيف وجد لها. من "
+"فضلك أعد تثبيت الحزمة يدويا أو أزلها من النظام."
+msgstr[2] ""
+"حالة الحزمتين '%s' متضاربة وتحتاجان أن يعاد تثبيتهما، لكن لا أرشيف وجد لهما. "
+"من فضلك أعد تثبيت الحزمتين يدويا أو أزلهما من النظام."
+msgstr[3] ""
+"حالة الحزم '%s' متضاربة وتحتاج أن يعاد تثبيتها، لكن لا أرشيف وجد لها. من "
+"فضلك أعد تثبيت الحزم يدويا أو أزلها من النظام."
+msgstr[4] ""
+"حالة الحزم '%s' متضاربة وتحتاج أن يعاد تثبيتها، لكن لا أرشيف وجد لها. من "
+"فضلك أعد تثبيت الحزم يدويا أو أزلها من النظام."
+msgstr[5] ""
+"حالة الحزم '%s' متضاربة وتحتاج أن يعاد تثبيتها، لكن لا أرشيف وجد لها. من "
+"فضلك أعد تثبيت الحزم يدويا أو أزلها من النظام."
+
+#: ../DistUpgrade/DistUpgradeController.py:838
+msgid "Error during update"
+msgstr "عطل أثناء التحديث"
+
+#: ../DistUpgrade/DistUpgradeController.py:839
+msgid ""
+"A problem occurred during the update. This is usually some sort of network "
+"problem, please check your network connection and retry."
+msgstr ""
+"طرأت مشكلة أثناء التحديث. عادة ما يكون هذا نتيجة مشكلة ما في الشبكة، تحقق من "
+"اتصالك الشبكي و حاول مجددا."
+
+#. print "on_button_install_clicked"
+#: ../DistUpgrade/DistUpgradeController.py:848
+#: ../UpdateManager/UpdateManager.py:747
+msgid "Not enough free disk space"
+msgstr "لا توجد مساحة كافية على القرص الصلب"
+
+#: ../DistUpgrade/DistUpgradeController.py:849
+#, python-format
+msgid ""
+"The upgrade has aborted. The upgrade needs a total of %s free space on disk "
+"'%s'. Please free at least an additional %s of disk space on '%s'. Empty "
+"your trash and remove temporary packages of former installations using 'sudo "
+"apt-get clean'."
+msgstr ""
+"لقد أُجهضت الترقية. تحتاج الترقية إلى %s مساحة خالية على القرص '%s'. من فضلك "
+"أفرغ %s على الأقل من مساحة القرص '%s'. أفرغ المهملات وأزل الحزم المؤقتة من "
+"التثبيتات السابقة باستخدام 'sudo apt-get clean'."
+
+#. calc the dist-upgrade and see if the removals are ok/expected
+#. do the dist-upgrade
+#: ../DistUpgrade/DistUpgradeController.py:878
+#: ../DistUpgrade/DistUpgradeController.py:1630
+msgid "Calculating the changes"
+msgstr "يجري حساب التغيرات"
+
+#. ask the user
+#: ../DistUpgrade/DistUpgradeController.py:910
+msgid "Do you want to start the upgrade?"
+msgstr "أتريد بدء التحديث الآن؟"
+
+#: ../DistUpgrade/DistUpgradeController.py:976
+msgid "Upgrade canceled"
+msgstr "أُلغيت الترقية"
+
+#: ../DistUpgrade/DistUpgradeController.py:977
+msgid ""
+"The upgrade will cancel now and the original system state will be restored. "
+"You can resume the upgrade at a later time."
+msgstr ""
+
+#: ../DistUpgrade/DistUpgradeController.py:983
+#: ../DistUpgrade/DistUpgradeController.py:1109
+msgid "Could not download the upgrades"
+msgstr "تعذّر تنزيل الترقيات"
+
+#: ../DistUpgrade/DistUpgradeController.py:984
+msgid ""
+"The upgrade has aborted. Please check your Internet connection or "
+"installation media and try again. All files downloaded so far have been kept."
+msgstr ""
+
+#. FIXME: strings are not good, but we are in string freeze
+#. currently
+#: ../DistUpgrade/DistUpgradeController.py:1060
+#: ../DistUpgrade/DistUpgradeController.py:1097
+#: ../DistUpgrade/DistUpgradeController.py:1202
+msgid "Error during commit"
+msgstr "عطل أثناء الإيداع"
+
+#. generate a new cache
+#: ../DistUpgrade/DistUpgradeController.py:1062
+#: ../DistUpgrade/DistUpgradeController.py:1099
+#: ../DistUpgrade/DistUpgradeController.py:1241
+msgid "Restoring original system state"
+msgstr "يجري استرجاع الحالة الأصلية للنظام"
+
+#: ../DistUpgrade/DistUpgradeController.py:1063
+#: ../DistUpgrade/DistUpgradeController.py:1078
+#: ../DistUpgrade/DistUpgradeController.py:1100
+msgid "Could not install the upgrades"
+msgstr "تعذّر تثبيت الترقيات"
+
+#. invoke the frontend now and show a error message
+#: ../DistUpgrade/DistUpgradeController.py:1068
+msgid ""
+"The upgrade has aborted. Your system could be in an unusable state. A "
+"recovery will run now (dpkg --configure -a)."
+msgstr ""
+"لقد أُجهضت الترقية. قد يصبح نظامك في خالة غير مستقرة. سيُشغل الاستعفاء الآن "
+"(dpkg --configure -a)."
+
+#: ../DistUpgrade/DistUpgradeController.py:1073
+#, python-format
+msgid ""
+"\n"
+"\n"
+"Please report this bug using the command 'ubuntu-bug update-manager' in a "
+"terminal and include the files in /var/log/dist-upgrade/ in the bug report.\n"
+"%s"
+msgstr ""
+
+#: ../DistUpgrade/DistUpgradeController.py:1110
+msgid ""
+"The upgrade has aborted. Please check your Internet connection or "
+"installation media and try again. "
+msgstr ""
+"لقد أُجهضت الترقية. راجع الاتصال بالإنترت أو وسيط التثبيت ثم أعد المحاولة. "
+
+#: ../DistUpgrade/DistUpgradeController.py:1190
+msgid "Remove obsolete packages?"
+msgstr "أأزيل الحزم المبطلة؟"
+
+#: ../DistUpgrade/DistUpgradeController.py:1191
+#: ../DistUpgrade/DistUpgrade.ui.h:22
+msgid "_Keep"
+msgstr "ا_ستبق"
+
+#: ../DistUpgrade/DistUpgradeController.py:1191
+msgid "_Remove"
+msgstr "أ_زل"
+
+#: ../DistUpgrade/DistUpgradeController.py:1203
+msgid ""
+"A problem occurred during the clean-up. Please see the below message for "
+"more information. "
+msgstr "طرأت مشكلة أثناء التنظيف. طالع الرسالة أدناه لمزيد من المعلومات. "
+
+#. FIXME: instead of error out, fetch and install it
+#. here
+#: ../DistUpgrade/DistUpgradeController.py:1279
+msgid "Required depends is not installed"
+msgstr "اعتمادات مطلوبة غير مثبتة"
+
+#: ../DistUpgrade/DistUpgradeController.py:1280
+#, python-format
+msgid "The required dependency '%s' is not installed. "
+msgstr "الاعتمادية المطلوبة '%s' ليست مثبتة. "
+
+#. sanity check (check for ubuntu-desktop, brokenCache etc)
+#. then open the cache (again)
+#: ../DistUpgrade/DistUpgradeController.py:1527
+#: ../DistUpgrade/DistUpgradeController.py:1597
+msgid "Checking package manager"
+msgstr "يجري فحص مدير الحزم"
+
+#: ../DistUpgrade/DistUpgradeController.py:1532
+msgid "Preparing the upgrade failed"
+msgstr "فشل تجهيز الترقية"
+
+#: ../DistUpgrade/DistUpgradeController.py:1533
+msgid ""
+"Preparing the system for the upgrade failed. Please report this using the "
+"command 'ubuntu-bug update-manager' in a terminal and include the files in "
+"/var/log/dist-upgrade/ in the bug report."
+msgstr ""
+
+#: ../DistUpgrade/DistUpgradeController.py:1549
+msgid "Getting upgrade prerequisites failed"
+msgstr "فشل جلب متطلبات الترقية"
+
+#: ../DistUpgrade/DistUpgradeController.py:1550
+msgid ""
+"The system was unable to get the prerequisites for the upgrade. The upgrade "
+"will abort now and restore the original system state.\n"
+"\n"
+"Please report this as a bug using the command 'ubuntu-bug update-manager' in "
+"a terminal and include the files in /var/log/dist-upgrade/ in the bug report."
+msgstr ""
+
+#: ../DistUpgrade/DistUpgradeController.py:1581
+msgid "Updating repository information"
+msgstr "يجري تحديث بيانات المستودعات"
+
+#: ../DistUpgrade/DistUpgradeController.py:1588
+msgid "Failed to add the cdrom"
+msgstr ""
+
+#: ../DistUpgrade/DistUpgradeController.py:1589
+msgid "Sorry, adding the cdrom was not successful."
+msgstr ""
+
+#: ../DistUpgrade/DistUpgradeController.py:1617
+msgid "Invalid package information"
+msgstr "بيانات حزم غير صحيحة"
+
+#: ../DistUpgrade/DistUpgradeController.py:1618
+#, python-format
+msgid ""
+"After your package information was updated the essential package '%s' can "
+"not be found anymore.\n"
+"This indicates a serious error, please report this bug using the command "
+"'ubuntu-bug update-manager' in a terminal and include the files in "
+"/var/log/dist-upgrade/ in the bug report."
+msgstr ""
+
+#: ../DistUpgrade/DistUpgradeController.py:1636
+#: ../DistUpgrade/DistUpgradeController.py:1689
+msgid "Fetching"
+msgstr "يجري الجلب"
+
+#: ../DistUpgrade/DistUpgradeController.py:1642
+#: ../DistUpgrade/DistUpgradeController.py:1693
+msgid "Upgrading"
+msgstr "تجري الترقية"
+
+#. don't abort here, because it would restore the sources.list
+#: ../DistUpgrade/DistUpgradeController.py:1647
+#: ../DistUpgrade/DistUpgradeController.py:1695
+#: ../DistUpgrade/DistUpgradeController.py:1702
+#: ../DistUpgrade/DistUpgradeController.py:1713
+msgid "Upgrade complete"
+msgstr "انتهت الترقية"
+
+#: ../DistUpgrade/DistUpgradeController.py:1648
+#: ../DistUpgrade/DistUpgradeController.py:1696
+#: ../DistUpgrade/DistUpgradeController.py:1703
+msgid ""
+"The upgrade has completed but there were errors during the upgrade process."
+msgstr ""
+
+#: ../DistUpgrade/DistUpgradeController.py:1655
+msgid "Searching for obsolete software"
+msgstr "يجري البحث عن برمجيات متقادمة"
+
+#: ../DistUpgrade/DistUpgradeController.py:1664
+msgid "System upgrade is complete."
+msgstr "تمت ترقية النظام."
+
+#: ../DistUpgrade/DistUpgradeController.py:1714
+msgid "The partial upgrade was completed."
+msgstr "انتهت الترقية الجزئية."
+
+#: ../DistUpgrade/DistUpgradeQuirks.py:201
+msgid "evms in use"
+msgstr "evms قيد الاستخدام"
+
+#: ../DistUpgrade/DistUpgradeQuirks.py:202
+msgid ""
+"Your system uses the 'evms' volume manager in /proc/mounts. The 'evms' "
+"software is no longer supported, please switch it off and run the upgrade "
+"again when this is done."
+msgstr ""
+"يستخدم نظامك مدير الصوت 'evms' في /proc/mounts. برمجيات 'evms' لم تعد "
+"مدعومة، من فضلك أغلقه ونفذ الترقية مجددا عندما ينتهي."
+
+#: ../DistUpgrade/DistUpgradeQuirks.py:506
+msgid "Your graphics hardware may not be fully supported in Ubuntu 11.04."
+msgstr ""
+
+#: ../DistUpgrade/DistUpgradeQuirks.py:508
+msgid ""
+"The support in Ubuntu 11.04 for your intel graphics hardware is limited and "
+"you may encounter problems after the upgrade. Do you want to continue with "
+"the upgrade?"
+msgstr ""
+
+#: ../DistUpgrade/DistUpgradeQuirks.py:528
+#: ../DistUpgrade/DistUpgradeQuirks.py:556
+#: ../DistUpgrade/DistUpgradeQuirks.py:583
+msgid ""
+"Upgrading may reduce desktop effects, and performance in games and other "
+"graphically intensive programs."
+msgstr ""
+"قد تقلل الترقية من تأثيرات سطح المكتب، وأداء الألعاب وبرامج الرسوميات "
+"المكثفة الأخرى."
+
+#: ../DistUpgrade/DistUpgradeQuirks.py:532
+#: ../DistUpgrade/DistUpgradeQuirks.py:560
+msgid ""
+"This computer is currently using the NVIDIA 'nvidia' graphics driver. No "
+"version of this driver is available that works with your video card in "
+"Ubuntu 10.04 LTS.\n"
+"\n"
+"Do you want to continue?"
+msgstr ""
+"يستخدم حاسوبك حاليا مشغل 'nvidia' لرسوميات NVIDIA. لا توجد نسخة من هذا "
+"المشغل متوافقة مع عتادك في أوبونتو 10.04 LTS.\n"
+"\n"
+"أتريد المواصلة؟"
+
+#: ../DistUpgrade/DistUpgradeQuirks.py:587
+msgid ""
+"This computer is currently using the AMD 'fglrx' graphics driver. No version "
+"of this driver is available that works with your hardware in Ubuntu 10.04 "
+"LTS.\n"
+"\n"
+"Do you want to continue?"
+msgstr ""
+"يستخدم حاسوبك حاليا مشغل 'fglrx' لرسوميات AMD. لا توجد نسخة من هذا المشغل "
+"متوافقة مع عتادك في أوبونتو 10.04 LTS.\n"
+"\n"
+"أتريد المواصلة؟"
+
+#: ../DistUpgrade/DistUpgradeQuirks.py:617
+msgid "No i686 CPU"
+msgstr "لا توجد وحدة معالجة مركزية i686"
+
+#: ../DistUpgrade/DistUpgradeQuirks.py:618
+msgid ""
+"Your system uses an i586 CPU or a CPU that does not have the 'cmov' "
+"extension. All packages were built with optimizations requiring i686 as the "
+"minimal architecture. It is not possible to upgrade your system to a new "
+"Ubuntu release with this hardware."
+msgstr ""
+"نظامك يستخدم وحدة معالجة مركزية من طراز i586 لا تملك ملحق cmov. تم بناء كل "
+"الحزم متطلبةً لبنية i686 كحد أدنى. ليس من الممكن ترقية نظامك إلى إصدارة "
+"أوبونتو الجديدة مع هذا العتاد."
+
+#: ../DistUpgrade/DistUpgradeQuirks.py:654
+msgid "No ARMv6 CPU"
+msgstr "لا معالج ARMv6"
+
+#: ../DistUpgrade/DistUpgradeQuirks.py:655
+msgid ""
+"Your system uses an ARM CPU that is older than the ARMv6 architecture. All "
+"packages in karmic were built with optimizations requiring ARMv6 as the "
+"minimal architecture. It is not possible to upgrade your system to a new "
+"Ubuntu release with this hardware."
+msgstr ""
+"نظامك يستخدم معالج ARM أقدم من معمارية ARMv6. إن جميع الحزم في النسخة karmic "
+"مبنية لتعمل على الطراز ARMv6 كحد أدنى. من غير الممكن ترقية نظامك إلى إصدارة "
+"أوبونتو حديثة مع هذا العتاد."
+
+#: ../DistUpgrade/DistUpgradeQuirks.py:675
+msgid "No init available"
+msgstr "لا يوجد عفريت مدير للعمليات"
+
+#: ../DistUpgrade/DistUpgradeQuirks.py:676
+msgid ""
+"Your system appears to be a virtualised environment without an init daemon, "
+"e.g. Linux-VServer. Ubuntu 10.04 LTS cannot function within this type of "
+"environment, requiring an update to your virtual machine configuration "
+"first.\n"
+"\n"
+"Are you sure you want to continue?"
+msgstr ""
+"يبدو أن نظامك يعمل في بيئة ظاهرية بدون عفريت بدأ، مثلاً Linux-VServer. لا "
+"يستطيع أوبنتو 10.04 د.ط.أ (دعم طويل الأمد) العمل في هذا النوع من بيئات "
+"العمل، يتطلب تحديثًا لإعدادات الألة الظاهرية أولاً.\n"
+"\n"
+"هل حقاً تريد الاستمرار؟"
+
+#: ../DistUpgrade/DistUpgradeMain.py:45
+msgid "Sandbox upgrade using aufs"
+msgstr "ترقية في بيئة محكومة (صندوق رمل)"
+
+#: ../DistUpgrade/DistUpgradeMain.py:47
+msgid "Use the given path to search for a cdrom with upgradable packages"
+msgstr "ابحث في المسار المعطى عن قرص مدمج يحوي حزم ترقية"
+
+#: ../DistUpgrade/DistUpgradeMain.py:53
+msgid ""
+"Use frontend. Currently available: \n"
+"DistUpgradeViewText, DistUpgradeViewGtk, DistUpgradeViewKDE"
+msgstr ""
+"استخدم واجهة. المتاح حاليا:\n"
+"DistUpgradeViewText, DistUpgradeViewGtk, DistUpgradeViewKD"
+
+#: ../DistUpgrade/DistUpgradeMain.py:56
+msgid "*DEPRECATED* this option will be ignored"
+msgstr ""
+
+#: ../DistUpgrade/DistUpgradeMain.py:59
+msgid "Perform a partial upgrade only (no sources.list rewriting)"
+msgstr "قم بترقية جزئية فقط (لا كتابة فوق sources.list)"
+
+#: ../DistUpgrade/DistUpgradeMain.py:62
+msgid "Disable GNU screen support"
+msgstr ""
+
+#: ../DistUpgrade/DistUpgradeMain.py:64
+msgid "Set datadir"
+msgstr "حدد مجلد البيانات"
+
+#. print "mediaChange %s %s" % (medium, drive)
+#: ../DistUpgrade/DistUpgradeViewGtk.py:114
+#: ../DistUpgrade/DistUpgradeViewGtk3.py:117
+#: ../DistUpgrade/DistUpgradeViewKDE.py:189
+#: ../UpdateManager/DistUpgradeFetcherKDE.py:147
+#, python-format
+msgid "Please insert '%s' into the drive '%s'"
+msgstr "رجاء أدرج '%s' في محرك الأقراص '%s'"
+
+#: ../DistUpgrade/DistUpgradeViewGtk.py:135
+#: ../DistUpgrade/DistUpgradeViewGtk3.py:138
+#: ../DistUpgrade/DistUpgradeViewKDE.py:203
+msgid "Fetching is complete"
+msgstr "تم الجلب"
+
+#: ../DistUpgrade/DistUpgradeViewGtk.py:146
+#: ../DistUpgrade/DistUpgradeViewGtk3.py:149
+#: ../DistUpgrade/DistUpgradeViewKDE.py:216
+#, python-format
+msgid "Fetching file %li of %li at %sB/s"
+msgstr "جلب الملف %li من %li بـ %s بايت/ثانية"
+
+#: ../DistUpgrade/DistUpgradeViewGtk.py:149
+#: ../DistUpgrade/DistUpgradeViewGtk.py:295
+#: ../DistUpgrade/DistUpgradeViewGtk3.py:152
+#: ../DistUpgrade/DistUpgradeViewGtk3.py:301
+#: ../DistUpgrade/DistUpgradeViewKDE.py:217
+#: ../DistUpgrade/DistUpgradeViewKDE.py:361
+#, python-format
+msgid "About %s remaining"
+msgstr "بقي %s تقريبا"
+
+#: ../DistUpgrade/DistUpgradeViewGtk.py:152
+#: ../DistUpgrade/DistUpgradeViewGtk3.py:155
+#: ../DistUpgrade/DistUpgradeViewKDE.py:219
+#, python-format
+msgid "Fetching file %li of %li"
+msgstr "يجري جلب الملف %li من %li"
+
+#. FIXME: add support for the timeout
+#. of the terminal (to display something useful then)
+#. -> longer term, move this code into python-apt
+#: ../DistUpgrade/DistUpgradeViewGtk.py:183
+#: ../DistUpgrade/DistUpgradeViewGtk3.py:186
+#: ../DistUpgrade/DistUpgradeViewKDE.py:253
+msgid "Applying changes"
+msgstr "يجري تطبيق التغييرات"
+
+#. we do not report followup errors from earlier failures
+#: ../DistUpgrade/DistUpgradeViewGtk.py:208
+#: ../DistUpgrade/DistUpgradeViewGtk3.py:211
+#: ../DistUpgrade/DistUpgradeViewKDE.py:266
+msgid "dependency problems - leaving unconfigured"
+msgstr "مشكلة اعتمادية - سأغادر بدون إعداد"
+
+#: ../DistUpgrade/DistUpgradeViewGtk.py:213
+#: ../DistUpgrade/DistUpgradeViewGtk3.py:216
+#: ../DistUpgrade/DistUpgradeViewKDE.py:268
+#, python-format
+msgid "Could not install '%s'"
+msgstr "تعذّر تثبيت '%s'"
+
+#: ../DistUpgrade/DistUpgradeViewGtk.py:214
+#: ../DistUpgrade/DistUpgradeViewGtk3.py:217
+#: ../DistUpgrade/DistUpgradeViewKDE.py:269
+#, python-format
+msgid ""
+"The upgrade will continue but the '%s' package may not be in a working "
+"state. Please consider submitting a bug report about it."
+msgstr "ستواصل الترقية لكن حزمة '%s' قد لا تعمل. من فضلك أبلغ عن هذه العلة."
+
+#. self.expander.set_expanded(True)
+#: ../DistUpgrade/DistUpgradeViewGtk.py:231
+#: ../DistUpgrade/DistUpgradeViewGtk3.py:234
+#: ../DistUpgrade/DistUpgradeViewKDE.py:290
+#, python-format
+msgid ""
+"Replace the customized configuration file\n"
+"'%s'?"
+msgstr ""
+"أأستبدل الملف المطوع\n"
+"'%s'؟"
+
+#: ../DistUpgrade/DistUpgradeViewGtk.py:232
+#: ../DistUpgrade/DistUpgradeViewGtk3.py:235
+#: ../DistUpgrade/DistUpgradeViewKDE.py:291
+msgid ""
+"You will lose any changes you have made to this configuration file if you "
+"choose to replace it with a newer version."
+msgstr ""
+"ستفقد أي تغيرات كنت قد أحدثتها في ملف التضبيطات هذا إن اخترت استبداله "
+"بإصدارة أحدث."
+
+#: ../DistUpgrade/DistUpgradeViewGtk.py:250
+#: ../DistUpgrade/DistUpgradeViewGtk3.py:253
+#: ../DistUpgrade/DistUpgradeViewKDE.py:313
+msgid "The 'diff' command was not found"
+msgstr "تعذّر العثور على أمر 'diff'"
+
+#: ../DistUpgrade/DistUpgradeViewGtk.py:463
+#: ../DistUpgrade/DistUpgradeViewGtk3.py:469
+#: ../DistUpgrade/DistUpgradeViewText.py:90
+msgid "A fatal error occurred"
+msgstr "حدث خطأ فادح"
+
+#: ../DistUpgrade/DistUpgradeViewGtk.py:464
+#: ../DistUpgrade/DistUpgradeViewGtk3.py:470
+msgid ""
+"Please report this as a bug (if you haven't already) and include the files "
+"/var/log/dist-upgrade/main.log and /var/log/dist-upgrade/apt.log in your "
+"report. The upgrade has aborted.\n"
+"Your original sources.list was saved in /etc/apt/sources.list.distUpgrade."
+msgstr ""
+"رجاءًا بلغ عن عطل (إذا لم تكن قد فعلت) و أرفق الملفان /var/log/dist-"
+"upgrade/main.log و /var/log/dist-upgrade/apt.log في تقرير العطل. تم الخروج "
+"من الترقية.\n"
+"ملف sources.list الأصلي كان قد حُفِظَ في /etc/apt/sources.list.distUpgrade."
+
+#: ../DistUpgrade/DistUpgradeViewGtk.py:481
+#: ../DistUpgrade/DistUpgradeViewGtk3.py:487
+msgid "Ctrl-c pressed"
+msgstr "ضُغط Ctrl-c"
+
+#: ../DistUpgrade/DistUpgradeViewGtk.py:482
+#: ../DistUpgrade/DistUpgradeViewGtk3.py:488
+msgid ""
+"This will abort the operation and may leave the system in a broken state. "
+"Are you sure you want to do that?"
+msgstr ""
+"هذا سيجهض العملية وقد يترك النظام في حالة معطوبة. أمتأكد أنك تريد فعل ذلك؟"
+
+#. append warning
+#: ../DistUpgrade/DistUpgradeViewGtk.py:630
+#: ../DistUpgrade/DistUpgradeViewGtk3.py:621
+msgid "To prevent data loss close all open applications and documents."
+msgstr "لتلافي فقد البيانات أغلق جميع التطبيقات و الوثائق."
+
+#: ../DistUpgrade/DistUpgradeViewGtk.py:644
+#: ../DistUpgrade/DistUpgradeViewGtk3.py:635
+#, python-format
+msgid "No longer supported by Canonical (%s)"
+msgstr "لم تعد كانونيكال تدعمها (%s)"
+
+#: ../DistUpgrade/DistUpgradeViewGtk.py:645
+#: ../DistUpgrade/DistUpgradeViewGtk3.py:636
+#, python-format
+msgid "<b>Downgrade (%s)</b>"
+msgstr "<b>إلى إصدارة أقدم (%s)</b>"
+
+#: ../DistUpgrade/DistUpgradeViewGtk.py:646
+#: ../DistUpgrade/DistUpgradeViewGtk3.py:637
+#, python-format
+msgid "Remove (%s)"
+msgstr "أزل (%s)"
+
+#: ../DistUpgrade/DistUpgradeViewGtk.py:647
+#: ../DistUpgrade/DistUpgradeViewGtk3.py:638
+#, python-format
+msgid "No longer needed (%s)"
+msgstr "لم تعد مطلوبة (%s)"
+
+#: ../DistUpgrade/DistUpgradeViewGtk.py:648
+#: ../DistUpgrade/DistUpgradeViewGtk3.py:639
+#, python-format
+msgid "Install (%s)"
+msgstr "ثبّت (%s)"
+
+#: ../DistUpgrade/DistUpgradeViewGtk.py:649
+#: ../DistUpgrade/DistUpgradeViewGtk3.py:640
+#, python-format
+msgid "Upgrade (%s)"
+msgstr "رقّ (%s)"
+
+#. change = QMessageBox.question(None, _("Media Change"), msg, QMessageBox.Ok, QMessageBox.Cancel)
+#: ../DistUpgrade/DistUpgradeViewKDE.py:190
+#: ../UpdateManager/DistUpgradeFetcherKDE.py:149
+msgid "Media Change"
+msgstr "تغيير الوسائط"
+
+#: ../DistUpgrade/DistUpgradeViewKDE.py:325
+msgid "Show Difference >>>"
+msgstr "أظهر الفرق >>>"
+
+#: ../DistUpgrade/DistUpgradeViewKDE.py:328
+msgid "<<< Hide Difference"
+msgstr "<<< أخف الفرق"
+
+#: ../DistUpgrade/DistUpgradeViewKDE.py:543
+msgid "Error"
+msgstr "خطأ"
+
+#: ../DistUpgrade/DistUpgradeViewKDE.py:555
+msgid "&Cancel"
+msgstr "أ&لغِ"
+
+#: ../DistUpgrade/DistUpgradeViewKDE.py:557
+#: ../DistUpgrade/DistUpgradeViewKDE.py:799
+msgid "&Close"
+msgstr "أ&غلق"
+
+#: ../DistUpgrade/DistUpgradeViewKDE.py:603
+msgid "Show Terminal >>>"
+msgstr "أظهر الطرفية >>>"
+
+#: ../DistUpgrade/DistUpgradeViewKDE.py:606
+msgid "<<< Hide Terminal"
+msgstr "<<< أخف الطرفية"
+
+#: ../DistUpgrade/DistUpgradeViewKDE.py:686
+msgid "Information"
+msgstr "معلومات"
+
+#: ../DistUpgrade/DistUpgradeViewKDE.py:737
+#: ../DistUpgrade/DistUpgradeViewKDE.py:782
+#: ../DistUpgrade/DistUpgradeViewKDE.py:785 ../DistUpgrade/DistUpgrade.ui.h:11
+msgid "Details"
+msgstr "التّفاصيل"
+
+#: ../DistUpgrade/DistUpgradeViewKDE.py:763
+#, python-format
+msgid "No longer supported %s"
+msgstr "لم تعد مدعومة %s"
+
+#: ../DistUpgrade/DistUpgradeViewKDE.py:765
+#, python-format
+msgid "Remove %s"
+msgstr "أزل %s"
+
+#: ../DistUpgrade/DistUpgradeViewKDE.py:767
+#: ../DistUpgrade/DistUpgradeViewText.py:179
+#, python-format
+msgid "Remove (was auto installed) %s"
+msgstr "أزل %s (ثبّت تلقائيا)"
+
+#: ../DistUpgrade/DistUpgradeViewKDE.py:769
+#, python-format
+msgid "Install %s"
+msgstr "ثبّت %s"
+
+#: ../DistUpgrade/DistUpgradeViewKDE.py:771
+#, python-format
+msgid "Upgrade %s"
+msgstr "رقِّ %s"
+
+#: ../DistUpgrade/DistUpgradeViewKDE.py:795
+#: ../DistUpgrade/DistUpgradeViewText.py:227
+msgid "Restart required"
+msgstr "إعادة التشغيل مطلوبة"
+
+#: ../DistUpgrade/DistUpgradeViewKDE.py:795
+msgid "<b><big>Restart the system to complete the upgrade</big></b>"
+msgstr "<b><big>أعد تشغيل النظام لإتمام الترقية</big><b>"
+
+#: ../DistUpgrade/DistUpgradeViewKDE.py:798 ../DistUpgrade/DistUpgrade.ui.h:25
+#: ../data/gtkbuilder/UpdateManager.ui.h:32
+msgid "_Restart Now"
+msgstr "أ_عد التشغيل الآن"
+
+#. FIXME make this user friendly
+#: ../DistUpgrade/DistUpgradeViewKDE.py:816
+msgid ""
+"<b><big>Cancel the running upgrade?</big></b>\n"
+"\n"
+"The system could be in an unusable state if you cancel the upgrade. You are "
+"strongly advised to resume the upgrade."
+msgstr ""
+"<b><big>أألغ الترقية الجارية ؟</big></b>\n"
+"\n"
+"قد يصبح النظام في حالة غير صالحة للاستعمال إذا ألغيت الترقية. ننصح بشدة "
+"استئناف الترقية."
+
+#: ../DistUpgrade/DistUpgradeViewKDE.py:820
+msgid "Cancel Upgrade?"
+msgstr "أألغي الترقية؟"
+
+#: ../DistUpgrade/DistUpgradeView.py:59
+#, python-format
+msgid "%li day"
+msgid_plural "%li days"
+msgstr[0] "لا أيام"
+msgstr[1] "يوم واحد"
+msgstr[2] "يومان"
+msgstr[3] "%li أيام"
+msgstr[4] "%li يوما"
+msgstr[5] "%li يوم"
+
+#: ../DistUpgrade/DistUpgradeView.py:61
+#, python-format
+msgid "%li hour"
+msgid_plural "%li hours"
+msgstr[0] "لا ساعات"
+msgstr[1] "ساعة واحدة"
+msgstr[2] "ساعاتان"
+msgstr[3] "%li ساعات"
+msgstr[4] "%li ساعة"
+msgstr[5] "%li ساعة"
+
+#: ../DistUpgrade/DistUpgradeView.py:63
+#, python-format
+msgid "%li minute"
+msgid_plural "%li minutes"
+msgstr[0] "لا دقائق"
+msgstr[1] "دقيقة واحدة"
+msgstr[2] "دقيقتان"
+msgstr[3] "%li دقائق"
+msgstr[4] "%li دقيقة"
+msgstr[5] "%li دقيقة"
+
+#: ../DistUpgrade/DistUpgradeView.py:64
+#, python-format
+msgid "%li second"
+msgid_plural "%li seconds"
+msgstr[0] "لا ثوان"
+msgstr[1] "ثانية واحدة"
+msgstr[2] "ثانيتان"
+msgstr[3] "%li ثوان"
+msgstr[4] "%li ثانية"
+msgstr[5] "%li ثانية"
+
+#. TRANSLATORS: you can alter the ordering of the remaining time
+#. information here if you shuffle %(str_days)s %(str_hours)s %(str_minutes)s
+#. around. Make sure to keep all '$(str_*)s' in the translated string
+#. and do NOT change anything appart from the ordering.
+#. 
+#. %(str_hours)s will be either "1 hour" or "2 hours" depending on the
+#. plural form
+#. 
+#. Note: most western languages will not need to change this
+#: ../DistUpgrade/DistUpgradeView.py:80
+#, python-format
+msgid "%(str_days)s %(str_hours)s"
+msgstr "%(str_days)s %(str_hours)s"
+
+#. TRANSLATORS: you can alter the ordering of the remaining time
+#. information here if you shuffle %(str_hours)s %(str_minutes)s
+#. around. Make sure to keep all '$(str_*)s' in the translated string
+#. and do NOT change anything appart from the ordering.
+#. 
+#. %(str_hours)s will be either "1 hour" or "2 hours" depending on the
+#. plural form
+#. 
+#. Note: most western languages will not need to change this
+#: ../DistUpgrade/DistUpgradeView.py:98
+#, python-format
+msgid "%(str_hours)s %(str_minutes)s"
+msgstr "%(str_hours)s %(str_minutes)s"
+
+#. 56 kbit
+#. 1Mbit = 1024 kbit
+#: ../DistUpgrade/DistUpgradeView.py:147
+#, python-format
+msgid ""
+"This download will take about %s with a 1Mbit DSL connection and about %s "
+"with a 56k modem."
+msgstr ""
+"سيأخذ التنزيل حوالي %s على اتصال بسرعة 1م.بايت، وحوالي %s على مودم 56ك."
+
+#. if we have a estimated speed, use it
+#: ../DistUpgrade/DistUpgradeView.py:151
+#, python-format
+msgid "This download will take about %s with your connection. "
+msgstr "سيستغرق التنزيل حوالي %s بسرعة اتصالك. "
+
+#: ../DistUpgrade/DistUpgradeView.py:253 ../DistUpgrade/DistUpgrade.ui.h:16
+msgid "Preparing to upgrade"
+msgstr "يجري التحضير للترقية"
+
+#: ../DistUpgrade/DistUpgradeView.py:254
+msgid "Getting new software channels"
+msgstr "يجري جلب قنوات البرمجيات الجديدة"
+
+#: ../DistUpgrade/DistUpgradeView.py:255 ../DistUpgrade/DistUpgrade.ui.h:14
+msgid "Getting new packages"
+msgstr "يجري جلب الحزم الجديدة"
+
+#: ../DistUpgrade/DistUpgradeView.py:256 ../DistUpgrade/DistUpgrade.ui.h:15
+msgid "Installing the upgrades"
+msgstr "يجري تثبيت الترقيات"
+
+#: ../DistUpgrade/DistUpgradeView.py:257 ../DistUpgrade/DistUpgrade.ui.h:10
+msgid "Cleaning up"
+msgstr "ينظّف"
+
+#: ../DistUpgrade/DistUpgradeView.py:342
+#, python-format
+msgid ""
+"%(amount)d installed package is no longer supported by Canonical. You can "
+"still get support from the community."
+msgid_plural ""
+"%(amount)d installed packages are no longer supported by Canonical. You can "
+"still get support from the community."
+msgstr[0] ""
+"ليس أي من الحزم المثبتة لم تعد كانونيكال تدعمه. مازال بإمكانك الحصول على "
+"الدعم من المجتمع."
+msgstr[1] ""
+"واحدة من الحزم المثبتة لم تعد كانونيكال تدعمه. مازال بإمكانك الحصول على "
+"الدعم من المجتمع."
+msgstr[2] ""
+"اثنتان من الحزم المثبتة لم تعد كانونيكال تدعمه. مازال بإمكانك الحصول على "
+"الدعم من المجتمع."
+msgstr[3] ""
+"%(amount)d حزم من المثبتة لم تعد كانونيكال تدعمه. مازال بإمكانك الحصول على "
+"الدعم من المجتمع."
+msgstr[4] ""
+"%(amount)d حزمة من المثبتة لم تعد كانونيكال تدعمه. مازال بإمكانك الحصول على "
+"الدعم من المجتمع."
+msgstr[5] ""
+"%(amount)d حزمة من المثبتة لم تعد كانونيكال تدعمه. مازال بإمكانك الحصول على "
+"الدعم من المجتمع."
+
+#. FIXME: make those two separate lines to make it clear
+#. that the "%" applies to the result of ngettext
+#: ../DistUpgrade/DistUpgradeView.py:351
+#, python-format
+msgid "%d package is going to be removed."
+msgid_plural "%d packages are going to be removed."
+msgstr[0] "لن تزال أية حزمة."
+msgstr[1] "ستزال حزمة واحدة."
+msgstr[2] "ستزال حزمتان."
+msgstr[3] "ستزال %d حزم."
+msgstr[4] "ستزال %d حزمة."
+msgstr[5] "ستزال %d حزمة."
+
+#: ../DistUpgrade/DistUpgradeView.py:356
+#, python-format
+msgid "%d new package is going to be installed."
+msgid_plural "%d new packages are going to be installed."
+msgstr[0] "لن تثبت أي حزم جديدة."
+msgstr[1] "ستثبت حزمة واحدة جديدة."
+msgstr[2] "ستثبت حزمتان جديدتان."
+msgstr[3] "ستثبت %d حزم جديدة."
+msgstr[4] "ستثبت %d حزمة جديدة."
+msgstr[5] "ستثبت %d حزمة جديدة."
+
+#: ../DistUpgrade/DistUpgradeView.py:362
+#, python-format
+msgid "%d package is going to be upgraded."
+msgid_plural "%d packages are going to be upgraded."
+msgstr[0] "لن ترقى أي حزم جديدة."
+msgstr[1] "سترقى حزمة واحدة جديدة."
+msgstr[2] "سترقى حزمتان جديدتان."
+msgstr[3] "سترقى %d حزم جديدة."
+msgstr[4] "سترقى %d حزمة جديدة."
+msgstr[5] "سترقى %d حزمة جديدة."
+
+#: ../DistUpgrade/DistUpgradeView.py:367
+#, python-format
+msgid ""
+"\n"
+"\n"
+"You have to download a total of %s. "
+msgstr ""
+"\n"
+"\n"
+"تحتاج لتنزيل ما مجمله %s. "
+
+#: ../DistUpgrade/DistUpgradeView.py:371
+msgid ""
+"Fetching and installing the upgrade can take several hours. Once the "
+"download has finished, the process cannot be cancelled."
+msgstr ""
+"يمكن أن يستغرق جلب و تثبيت الترقية عدة ساعات؛ و بمجرد تمام التنزيل فإن "
+"السيرورة لا يمكن إلغاؤها."
+
+#. FIXME: this should go into DistUpgradeController
+#: ../DistUpgrade/DistUpgradeView.py:377 ../UpdateManager/UpdateManager.py:664
+msgid "Your system is up-to-date"
+msgstr "نظامك محدّث"
+
+#: ../DistUpgrade/DistUpgradeView.py:378
+msgid ""
+"There are no upgrades available for your system. The upgrade will now be "
+"canceled."
+msgstr "لا توجد أي ترقيات لنظامك. ستلغى الترقية الآن."
+
+#: ../DistUpgrade/DistUpgradeView.py:391
+msgid "Reboot required"
+msgstr "إعادة التشغيل مطلوبة"
+
+#: ../DistUpgrade/DistUpgradeView.py:392
+msgid ""
+"The upgrade is finished and a reboot is required. Do you want to do this now?"
+msgstr "لقد انتهت الترقية و إعادة التشغيل مطلوبة. هل تود القيام بذلك الآن؟"
+
+#: ../DistUpgrade/DistUpgradeFetcherCore.py:131
+#: ../DistUpgrade/DistUpgradeFetcherCore.py:132
+#: ../UpdateManager/Core/DistUpgradeFetcherCore.py:131
+#: ../UpdateManager/Core/DistUpgradeFetcherCore.py:132
+msgid "Could not run the upgrade tool"
+msgstr "تعذّر تشغيل أداة الترقية"
+
+#: ../DistUpgrade/DistUpgradeFetcherCore.py:132
+#: ../UpdateManager/Core/DistUpgradeFetcherCore.py:132
+msgid ""
+"This is most likely a bug in the upgrade tool. Please report it as a bug "
+"using the command 'ubuntu-bug update-manager'."
+msgstr ""
+
+#: ../DistUpgrade/DistUpgradeFetcherCore.py:207
+#: ../UpdateManager/Core/DistUpgradeFetcherCore.py:207
+msgid "Upgrade tool signature"
+msgstr "توقيع أداة الترقية"
+
+#: ../DistUpgrade/DistUpgradeFetcherCore.py:214
+#: ../UpdateManager/Core/DistUpgradeFetcherCore.py:214
+msgid "Upgrade tool"
+msgstr "أداة الترقية"
+
+#: ../DistUpgrade/DistUpgradeFetcherCore.py:248
+#: ../UpdateManager/Core/DistUpgradeFetcherCore.py:248
+msgid "Failed to fetch"
+msgstr "فشل الجلب"
+
+#: ../DistUpgrade/DistUpgradeFetcherCore.py:249
+#: ../UpdateManager/Core/DistUpgradeFetcherCore.py:249
+msgid "Fetching the upgrade failed. There may be a network problem. "
+msgstr "فشل جلب الترقية، قد تكون هناك مشكلة في الشبكة. "
+
+#: ../DistUpgrade/DistUpgradeFetcherCore.py:253
+#: ../UpdateManager/Core/DistUpgradeFetcherCore.py:253
+msgid "Failed to extract"
+msgstr "فشل الاستخراج"
+
+#: ../DistUpgrade/DistUpgradeFetcherCore.py:254
+#: ../UpdateManager/Core/DistUpgradeFetcherCore.py:254
+msgid ""
+"Extracting the upgrade failed. There may be a problem with the network or "
+"with the server. "
+msgstr "فشل استخلاص الترقية، قد تكون هناك مشكلة في الشبكة أو الخادوم. "
+
+#: ../DistUpgrade/DistUpgradeFetcherCore.py:259
+#: ../UpdateManager/Core/DistUpgradeFetcherCore.py:259
+msgid "Verification failed"
+msgstr "فشل التحقق"
+
+#: ../DistUpgrade/DistUpgradeFetcherCore.py:260
+#: ../UpdateManager/Core/DistUpgradeFetcherCore.py:260
+msgid ""
+"Verifying the upgrade failed.  There may be a problem with the network or "
+"with the server. "
+msgstr "فشل التحقق من الترقية. قد توجد مشكلة في الشبكة أو في الخادوم. "
+
+#: ../DistUpgrade/DistUpgradeFetcherCore.py:265
+#: ../UpdateManager/Core/DistUpgradeFetcherCore.py:265
+msgid "Authentication failed"
+msgstr "فشل الاستيثاق"
+
+#: ../DistUpgrade/DistUpgradeFetcherCore.py:266
+#: ../UpdateManager/Core/DistUpgradeFetcherCore.py:266
+msgid ""
+"Authenticating the upgrade failed. There may be a problem with the network "
+"or with the server. "
+msgstr "فشل استيثاق الترقية. قد توجد مشكلة في الشبكة أو في الخادوم. "
+
+#: ../DistUpgrade/DistUpgradeFetcherCore.py:280
+#: ../DistUpgrade/DistUpgradeFetcherCore.py:286
+#: ../UpdateManager/Core/DistUpgradeFetcherCore.py:280
+#: ../UpdateManager/Core/DistUpgradeFetcherCore.py:286
+msgid "Can not run the upgrade"
+msgstr "لا يمكن اجراء الترقية"
+
+#: ../DistUpgrade/DistUpgradeFetcherCore.py:281
+#: ../UpdateManager/Core/DistUpgradeFetcherCore.py:281
+msgid ""
+"This usually is caused by a system where /tmp is mounted noexec. Please "
+"remount without noexec and run the upgrade again."
+msgstr ""
+
+#: ../DistUpgrade/DistUpgradeFetcherCore.py:287
+#: ../UpdateManager/Core/DistUpgradeFetcherCore.py:287
+#, python-format
+msgid "The error message is '%s'."
+msgstr "رسالة الخطأ هي '%s'."
+
+#: ../DistUpgrade/DistUpgradeViewText.py:91
+msgid ""
+"Please report this as a bug and include the files /var/log/dist-"
+"upgrade/main.log and /var/log/dist-upgrade/apt.log in your report. The "
+"upgrade has aborted.\n"
+"Your original sources.list was saved in /etc/apt/sources.list.distUpgrade."
+msgstr ""
+"رجاءًا بلغ عن عطل و أرفق الملفان /var/log/dist-upgrade/main.log و "
+"/var/log/dist-upgrade/apt.log في تقرير العطل. تم الخروج من الترقية.\n"
+"ملف sources.list الأصلي كان قد حُفِظَ في /etc/apt/sources.list.distUpgrade."
+
+#: ../DistUpgrade/DistUpgradeViewText.py:115
+msgid "Aborting"
+msgstr "يُجهض"
+
+#: ../DistUpgrade/DistUpgradeViewText.py:120
+msgid "Demoted:\n"
+msgstr "حطّت رتبته:\n"
+
+#: ../DistUpgrade/DistUpgradeViewText.py:127
+msgid "To continue please press [ENTER]"
+msgstr ""
+
+#: ../DistUpgrade/DistUpgradeViewText.py:155
+#: ../DistUpgrade/DistUpgradeViewText.py:193
+#: ../DistUpgrade/DistUpgradeViewText.py:200
+msgid "Continue [yN] "
+msgstr "استمر [ن(ل)] "
+
+#: ../DistUpgrade/DistUpgradeViewText.py:155
+#: ../DistUpgrade/DistUpgradeViewText.py:193
+msgid "Details [d]"
+msgstr "التّفاصيل [ف]"
+
+#. TRANSLATORS: the "y" is "yes"
+#. TRANSLATORS: first letter of a positive (yes) answer
+#: ../DistUpgrade/DistUpgradeViewText.py:159
+#: ../DistUpgrade/DistUpgradeViewText.py:203
+msgid "y"
+msgstr "ن"
+
+#. TRANSLATORS: the "n" is "no"
+#. TRANSLATORS: first letter of a negative (no) answer
+#: ../DistUpgrade/DistUpgradeViewText.py:162
+#: ../DistUpgrade/DistUpgradeViewText.py:210
+msgid "n"
+msgstr "ل"
+
+#. TRANSLATORS: the "d" is "details"
+#: ../DistUpgrade/DistUpgradeViewText.py:165
+msgid "d"
+msgstr "ف"
+
+#: ../DistUpgrade/DistUpgradeViewText.py:170
+#, python-format
+msgid "No longer supported: %s\n"
+msgstr "لم تعد مدعومة: %s\n"
+
+#: ../DistUpgrade/DistUpgradeViewText.py:175
+#, python-format
+msgid "Remove: %s\n"
+msgstr "إزالة: %s\n"
+
+#: ../DistUpgrade/DistUpgradeViewText.py:185
+#, python-format
+msgid "Install: %s\n"
+msgstr "تثبيت: %s\n"
+
+#: ../DistUpgrade/DistUpgradeViewText.py:190
+#, python-format
+msgid "Upgrade: %s\n"
+msgstr "ترقية: %s\n"
+
+#: ../DistUpgrade/DistUpgradeViewText.py:207
+msgid "Continue [Yn] "
+msgstr "تابع [Yn] "
+
+#: ../DistUpgrade/DistUpgradeViewText.py:228
+msgid ""
+"To finish the upgrade, a restart is required.\n"
+"If you select 'y' the system will be restarted."
+msgstr ""
+"لإتمام الترقية تنبغي إعادة تشغيل النظام.\n"
+"إن اخترت 'ن' فإن النظام سيعاد تشغيله."
+
+#: ../DistUpgrade/DistUpgrade.ui.h:1
+msgid "    "
+msgstr "    "
+
+#: ../DistUpgrade/DistUpgrade.ui.h:2
+msgid ""
+"<b><big>Cancel the running upgrade?</big></b>\n"
+"\n"
+"The system could be in an unusable state if you cancel the upgrade. You are "
+"strongly adviced to resume the upgrade."
+msgstr ""
+"<b><big>أألغي الترقية الجارية؟</big></b>\n"
+"\n"
+"إن ألغيت الترقية فقد يبقى نظامك في حالة غير صالحة للاستخدام. نحثك بشدة أن "
+"تواصل الترقية."
+
+#: ../DistUpgrade/DistUpgrade.ui.h:5
+msgid ""
+"<b><big>Restart the system to complete the upgrade</big></b>\n"
+"\n"
+"Please save your work before continuing."
+msgstr ""
+"<b><big>أعد تشغيل النظام لإكمال عملية الترقية</big></b>\n"
+"\n"
+"من فضلك احفظ أي عمل كنت تقوم به أولا."
+
+#: ../DistUpgrade/DistUpgrade.ui.h:8
+msgid "<b><big>Start the upgrade?</big></b>"
+msgstr "<b><big>أأبدأ الترقية؟</big></b>"
+
+#: ../DistUpgrade/DistUpgrade.ui.h:9
+msgid "<b><big>Upgrading Ubuntu to version 11.10</big></b>"
+msgstr ""
+
+#: ../DistUpgrade/DistUpgrade.ui.h:12
+msgid "Difference between the files"
+msgstr "الفرق بين الملفات"
+
+#: ../DistUpgrade/DistUpgrade.ui.h:13
+msgid "Distribution Upgrade"
+msgstr "ترقية التوزيعة"
+
+#: ../DistUpgrade/DistUpgrade.ui.h:17
+msgid "Restarting the computer"
+msgstr "يجري إعادة تشغيل الحاسوب"
+
+#: ../DistUpgrade/DistUpgrade.ui.h:18
+msgid "Setting new software channels"
+msgstr "يجري ضبط قنوات البرمجيات الجديدة"
+
+#: ../DistUpgrade/DistUpgrade.ui.h:19
+msgid "Terminal"
+msgstr "طرفية"
+
+#: ../DistUpgrade/DistUpgrade.ui.h:20
+msgid "_Cancel Upgrade"
+msgstr "أ_لغ الترقية"
+
+#: ../DistUpgrade/DistUpgrade.ui.h:21
+msgid "_Continue"
+msgstr "ا_ستمر"
+
+#: ../DistUpgrade/DistUpgrade.ui.h:23
+msgid "_Replace"
+msgstr "_استبدل"
+
+#: ../DistUpgrade/DistUpgrade.ui.h:24
+msgid "_Report Bug"
+msgstr "أ_بلغ عن علّة"
+
+#: ../DistUpgrade/DistUpgrade.ui.h:26
+msgid "_Resume Upgrade"
+msgstr "أ_كمل التحديث"
+
+#: ../DistUpgrade/DistUpgrade.ui.h:27
+msgid "_Start Upgrade"
+msgstr "اب_دأ الترقية"
+
+#: ../UpdateManager/backend/InstallBackendSynaptic.py:55
+msgid "Please wait, this can take some time."
+msgstr "رجاء انتظر، قد يستغرق هذا وقتا"
+
+#: ../UpdateManager/backend/InstallBackendSynaptic.py:57
+msgid "Update is complete"
+msgstr "لقد انتهت عملية التحديث"
+
+#: ../UpdateManager/DistUpgradeFetcher.py:108
+#: ../UpdateManager/DistUpgradeFetcherKDE.py:102
+msgid "Could not find the release notes"
+msgstr "تعذّر العثور على ملاحظات الإصدارة"
+
+#: ../UpdateManager/DistUpgradeFetcher.py:109
+#: ../UpdateManager/DistUpgradeFetcherKDE.py:103
+msgid "The server may be overloaded. "
+msgstr "قد يكون الخادوم محملا فوق طاقته. "
+
+#: ../UpdateManager/DistUpgradeFetcher.py:119
+#: ../UpdateManager/DistUpgradeFetcherKDE.py:107
+msgid "Could not download the release notes"
+msgstr "تعذّر تنزيل ملاحظات الإصدارة"
+
+#: ../UpdateManager/DistUpgradeFetcher.py:120
+#: ../UpdateManager/DistUpgradeFetcherKDE.py:108
+msgid "Please check your internet connection."
+msgstr "رجاء تأكد من اتصالك بالإنترنت"
+
+#: ../UpdateManager/DistUpgradeFetcherKDE.py:61
+#: ../UpdateManager/DistUpgradeFetcherKDE.py:84
+msgid "Upgrade"
+msgstr "رقّ"
+
+#: ../UpdateManager/DistUpgradeFetcherKDE.py:88
+#: ../data/gtkbuilder/UpdateManager.ui.h:13
+#: ../data/gtkbuilder/UpgradePromptDialog.ui.h:4
+msgid "Release Notes"
+msgstr "ملاحظات الإصدار"
+
+#: ../UpdateManager/DistUpgradeFetcherKDE.py:127
+#: ../UpdateManager/DistUpgradeFetcherKDE.py:140
+#: ../UpdateManager/DistUpgradeFetcherKDE.py:142
+msgid "Downloading additional package files..."
+msgstr "تنزيل ملفات الحزم الإضافية..."
+
+#: ../UpdateManager/DistUpgradeFetcherKDE.py:140
+#, python-format
+msgid "File %s of %s at %sB/s"
+msgstr "الملف %s من %s بسرعة %s ب/ث"
+
+#: ../UpdateManager/DistUpgradeFetcherKDE.py:142
+#, python-format
+msgid "File %s of %s"
+msgstr "ملف %s من %s"
+
+#: ../UpdateManager/ChangelogViewer.py:73
+msgid "Open Link in Browser"
+msgstr "افتح الرابط في المتصفح"
+
+#: ../UpdateManager/ChangelogViewer.py:76
+msgid "Copy Link to Clipboard"
+msgstr "انسخ الرابط إلى الحافظة"
+
+#: ../UpdateManager/GtkProgress.py:159
+#, python-format
+msgid "Downloading file %(current)li of %(total)li with %(speed)s/s"
+msgstr "يجري تنزيل الملف %(current)li من %(total)li بسرعة %(speed)s/ثانية"
+
+#: ../UpdateManager/GtkProgress.py:164
+#, python-format
+msgid "Downloading file %(current)li of %(total)li"
+msgstr "يجري تنزيل الملف %(current)li من %(total)li"
+
+#: ../UpdateManager/UpdateManager.py:105 ../do-release-upgrade:90
+msgid "Your Ubuntu release is not supported anymore."
+msgstr ""
+
+#: ../UpdateManager/UpdateManager.py:106
+msgid ""
+"You will not get any further security fixes or critical updates. Please "
+"upgrade to a later version of Ubuntu Linux."
+msgstr ""
+
+#: ../UpdateManager/UpdateManager.py:114
+msgid "Upgrade information"
+msgstr "معلومات الترقية"
+
+#. upload_archive = version_match.group(2).strip()
+#: ../UpdateManager/UpdateManager.py:389
+#, python-format
+msgid "Version %s: \n"
+msgstr "الإصدار %s: \n"
+
+#: ../UpdateManager/UpdateManager.py:445
+msgid ""
+"No network connection detected, you can not download changelog information."
+msgstr ""
+
+#: ../UpdateManager/UpdateManager.py:453
+msgid "Downloading list of changes..."
+msgstr "يجري تنزيل قائمة التغييرات..."
+
+#: ../UpdateManager/UpdateManager.py:497
+msgid "_Deselect All"
+msgstr ""
+
+#: ../UpdateManager/UpdateManager.py:503
+msgid "Select _All"
+msgstr ""
+
+#: ../UpdateManager/UpdateManager.py:552
+#, python-format
+msgid "%(count)s update has been selected."
+msgid_plural "%(count)s updates have been selected."
+msgstr[0] "لم تحدد أي تحديثات"
+msgstr[1] "حُدد تحديث واحد"
+msgstr[2] "حُدد تحديثين"
+msgstr[3] "حُددت %(count)s تحديثات"
+msgstr[4] "حُدد %(count)s تحديثا"
+msgstr[5] "حُدد %(count)s تحديث"
+
+#: ../UpdateManager/UpdateManager.py:556
+#, python-format
+msgid "%s will be downloaded."
+msgstr "سينزل %s"
+
+#: ../UpdateManager/UpdateManager.py:568
+msgid "The update has already been downloaded, but not installed"
+msgid_plural "The updates have already been downloaded, but not installed"
+msgstr[0] "لم ينزل التحديث"
+msgstr[1] "نُزّل التحديث لكن لم يثبّت"
+msgstr[2] "نُزّل التحديثين لكن لم يثبّتا"
+msgstr[3] "نُزّل التحديثات لكن لم تثبّت"
+msgstr[4] "نُزّل التحديثات لكن لم تثبّت"
+msgstr[5] "نُزّل التحديثات لكن لم تثبّت"
+
+#: ../UpdateManager/UpdateManager.py:573
+msgid "There are no updates to install"
+msgstr "لا تحديثات لتثبيتها"
+
+#. TRANSLATORS: this allows to switch the order of the count of
+#. updates and the download size string (if needed)
+#: ../UpdateManager/UpdateManager.py:579
+#, python-format
+msgid "%(count_str)s %(download_str)s"
+msgstr "%(count_str)s %(download_str)s"
+
+#: ../UpdateManager/UpdateManager.py:586
+msgid "Unknown download size."
+msgstr "حجم التنزيل مجهول"
+
+#: ../UpdateManager/UpdateManager.py:612
+msgid ""
+"It is unknown when the package information was updated last. Please click "
+"the 'Check' button to update the information."
+msgstr ""
+
+#: ../UpdateManager/UpdateManager.py:618
+#, python-format
+msgid ""
+"The package information was last updated %(days_ago)s days ago.\n"
+"Press the 'Check' button below to check for new software updates."
+msgstr ""
+
+#: ../UpdateManager/UpdateManager.py:623
+#, python-format
+msgid "The package information was last updated %(days_ago)s day ago."
+msgid_plural ""
+"The package information was last updated %(days_ago)s days ago."
+msgstr[0] "حُدّثت معلومات التنزيلات آخر مرة اليوم."
+msgstr[1] "حُدّثت معلومات التنزيلات آخر مرة منذ يوم واحد."
+msgstr[2] "حُدّثت معلومات التنزيلات آخر مرة منذ يومين."
+msgstr[3] "حُدّثت معلومات التنزيلات آخر مرة منذ %(days_ago)s أيام."
+msgstr[4] "حُدّثت معلومات التنزيلات آخر مرة منذ %(days_ago)s يوما."
+msgstr[5] "حُدّثت معلومات التنزيلات آخر مرة منذ %(days_ago)s يوم."
+
+#: ../UpdateManager/UpdateManager.py:627
+#, python-format
+msgid "The package information was last updated %(hours_ago)s hour ago."
+msgid_plural ""
+"The package information was last updated %(hours_ago)s hours ago."
+msgstr[0] "حُدّثت معلومات التنزيلات آخر مرة منذ أقل من ساعة."
+msgstr[1] "حُدّثت معلومات التنزيلات آخر مرة منذ ساعة."
+msgstr[2] "حُدّثت معلومات التنزيلات آخر مرة منذ ساعتين."
+msgstr[3] "حُدّثت معلومات التنزيلات آخر مرة منذ %(hours_ago)s ساعات."
+msgstr[4] "حُدّثت معلومات التنزيلات آخر مرة منذ %(hours_ago)s ساعة."
+msgstr[5] "حُدّثت معلومات التنزيلات آخر مرة منذ %(hours_ago)s ساعة."
+
+#. TRANSLATORS: only in plural form, as %s minutes ago is one of 15, 30, 45 minutes ago
+#: ../UpdateManager/UpdateManager.py:632 ../UpdateManager/UpdateManager.py:634
+#: ../UpdateManager/UpdateManager.py:636
+#, python-format
+msgid "The package information was last updated about %s minutes ago."
+msgstr ""
+
+#: ../UpdateManager/UpdateManager.py:638
+msgid "The package information was just updated."
+msgstr ""
+
+#: ../UpdateManager/UpdateManager.py:658
+#: ../data/gtkbuilder/UpdateManager.ui.h:22
+msgid ""
+"Software updates correct errors, eliminate security vulnerabilities and "
+"provide new features."
+msgstr ""
+"تحديثات البرمجيات تصوب الأخطاء و تسد الثغرات الأمنية و توفر ميزات جديدة."
+
+#: ../UpdateManager/UpdateManager.py:677
+msgid "Software updates may be available for your computer."
+msgstr ""
+
+#: ../UpdateManager/UpdateManager.py:685
+msgid "Welcome to Ubuntu"
+msgstr "مرحبا في أوبونتو"
+
+#: ../UpdateManager/UpdateManager.py:687
+msgid ""
+"These software updates have been issued since this version of Ubuntu was "
+"released. If you don't want to install them now, choose \"Update Manager\" "
+"from Applications later."
+msgstr ""
+
+#: ../UpdateManager/UpdateManager.py:689
+msgid ""
+"These software updates have been issued since this version of Ubuntu was "
+"released. If you don't want to install them now, choose \"Update Manager\" "
+"from the Administration Menu later."
+msgstr ""
+
+#: ../UpdateManager/UpdateManager.py:692
+msgid "Software updates are available for this computer"
+msgstr "تتوفر تحديثات برمجية لهذا الحاسوب"
+
+#: ../UpdateManager/UpdateManager.py:694
+msgid ""
+"If you don't want to install them now, choose \"Update Manager\" from "
+"Applications later."
+msgstr ""
+
+#: ../UpdateManager/UpdateManager.py:696
+msgid ""
+"If you don't want to install them now, choose \"Update Manager\" from the "
+"Administration menu later."
+msgstr ""
+"إذا لم تُرِد تثبيتها الآن فاختر \"مدير التحديثات\" لاحقا من قائمة الإدارة."
+
+#: ../UpdateManager/UpdateManager.py:748
+#, python-format
+msgid ""
+"The upgrade needs a total of %s free space on disk '%s'. Please free at "
+"least an additional %s of disk space on '%s'. Empty your trash and remove "
+"temporary packages of former installations using 'sudo apt-get clean'."
+msgstr ""
+"يحتاج التحديث مجموع %s مساحة فارغة على القرص '%s'. من فضلك حرّر على الأقل %s "
+"إضافي من مساحة القرص على '%s'. أفرغ مهملاك وأزل الحزم المؤقتة للتثبيتات "
+"السابقة باستخدام 'sudo apt-get clean'."
+
+#: ../UpdateManager/UpdateManager.py:773
+msgid ""
+"The computer needs to restart to finish installing updates. Please save your "
+"work before continuing."
+msgstr ""
+"يحتاج الحاسوب لإعادة التشغيل لتطبيق التحديثات. من فضلك احفظ عملك قبل "
+"المواصلة."
+
+#: ../UpdateManager/UpdateManager.py:837
+msgid "Reading package information"
+msgstr "يجري قراءة معلومات الحزمة"
+
+#: ../UpdateManager/UpdateManager.py:852
+msgid "Connecting..."
+msgstr "يتصل..."
+
+#: ../UpdateManager/UpdateManager.py:869
+msgid "You may not be able to check for updates or download new updates."
+msgstr "قد لا تستطيع التماس التحديثات أو تنزيل تحديثات جديدة."
+
+#: ../UpdateManager/UpdateManager.py:994
+msgid "Could not initialize the package information"
+msgstr "تعذّر تهيئة معلومات الحزمة"
+
+#: ../UpdateManager/UpdateManager.py:995
+msgid ""
+"An unresolvable problem occurred while initializing the package "
+"information.\n"
+"\n"
+"Please report this bug against the 'update-manager' package and include the "
+"following error message:\n"
+msgstr ""
+"مشكلة غير قابلة للحل صودفت أثناء تمهيد معلومات الحزم.\n"
+"\n"
+"من فضلك أبلغ هذه العلة لحزمة 'update-manager' وضمّن رسالة الخطأ التالية:\n"
+
+#: ../UpdateManager/UpdateManager.py:1024
+msgid ""
+"An unresolvable problem occurred while calculating the upgrade.\n"
+"\n"
+"Please report this bug against the 'update-manager' package and include the "
+"following error message:"
+msgstr ""
+"مشكلة غير قابلة للحل صودفت أثناء إحصاء الترقية.\n"
+"\n"
+"من فضلك أبلغ هذه العلة للحزمة 'update-manager' وضمّن رسالة الخطأ التالية:"
+
+#: ../UpdateManager/UpdateManager.py:1049
+msgid " (New install)"
+msgstr " (تثبيت جديد)"
+
+#. TRANSLATORS: the b stands for Bytes
+#: ../UpdateManager/UpdateManager.py:1056
+#, python-format
+msgid "(Size: %s)"
+msgstr "(الحجم: %s)"
+
+#: ../UpdateManager/UpdateManager.py:1058
+#, python-format
+msgid "From version %(old_version)s to %(new_version)s"
+msgstr "من الإصدارة %(old_version)s إلى %(new_version)s"
+
+#: ../UpdateManager/UpdateManager.py:1062
+#, python-format
+msgid "Version %s"
+msgstr "الإصدارة %s"
+
+#: ../UpdateManager/UpdateManager.py:1093 ../do-release-upgrade:102
+msgid "Release upgrade not possible right now"
+msgstr "يتعذّر ترقية الإصدارة حاليا"
+
+#: ../UpdateManager/UpdateManager.py:1094 ../do-release-upgrade:103
+#, c-format, python-format
+msgid ""
+"The release upgrade can not be performed currently, please try again later. "
+"The server reported: '%s'"
+msgstr "تعذّر ترفية الإصدارة حاليا، أعد المحاولة لاحقا. رد الخادوم: '%s'"
+
+#: ../UpdateManager/UpdateManager.py:1096 ../check-new-release-gtk:116
+msgid "Downloading the release upgrade tool"
+msgstr "ينزّل أداة الترقية"
+
+#: ../UpdateManager/UpdateManager.py:1103
+#, python-format
+msgid "<b>New Ubuntu release '%s' is available</b>"
+msgstr "<b>تتوفر إصدارة جديدة '%s' من أوبونتو</b>"
+
+#. we assert a clean cache
+#: ../UpdateManager/UpdateManager.py:1142
+msgid "Software index is broken"
+msgstr "فهرس البرمجيات تالف"
+
+#: ../UpdateManager/UpdateManager.py:1143
+msgid ""
+"It is impossible to install or remove any software. Please use the package "
+"manager \"Synaptic\" or run \"sudo apt-get install -f\" in a terminal to fix "
+"this issue at first."
+msgstr ""
+"لا يمكن تثبيت أو إزالة أي برمجيات. استخدم مدير الحزم \"Synaptic\" أو شغل "
+"\"sudo apt-get install -f\" في مرقاب لمحاولة إصلاح هذه المشكلة أولا."
+
+#: ../UpdateManager/UnitySupport.py:57
+msgid "Check for Updates"
+msgstr ""
+
+#: ../UpdateManager/UnitySupport.py:66
+msgid "Install All Available Updates"
+msgstr ""
+
+#: ../UpdateManagerText/UpdateManagerText.py:31
+msgid "Cancel"
+msgstr "ألغِ"
+
+#: ../UpdateManagerText/UpdateManagerText.py:32
+msgid "Install"
+msgstr "ثبّت"
+
+#: ../UpdateManagerText/UpdateManagerText.py:50
+msgid "Building Updates List"
+msgstr "يبني قائمة التحديثات"
+
+#: ../UpdateManagerText/UpdateManagerText.py:53
+msgid ""
+"\n"
+"A normal upgrade can not be calculated, please run: \n"
+"  sudo apt-get dist-upgrade\n"
+"\n"
+"\n"
+"This can be caused by:\n"
+" * A previous upgrade which didn't complete\n"
+" * Problems with some of the installed software\n"
+" * Unofficial software packages not provided by Ubuntu\n"
+" * Normal changes of a pre-release version of Ubuntu"
+msgstr ""
+"\n"
+"لا يمكن إحصاء ترقية عادية، من فضلك نفّذ: \n"
+"  sudo apt-get dist-upgrade\n"
+"\n"
+"\n"
+"هذا قد ينتج عن:\n"
+" * ترقية سابقة لم تكتمل\n"
+" * مشاكل مع بعض البرمجيات المثبتة\n"
+" * حزم برمجيات غير رسمية ليست مقدمة من أوبونتو\n"
+" * تغييرات عاديةو لنسخة ما قبل الإصدار من أوبونتو."
+
+#: ../UpdateManagerText/UpdateManagerText.py:122
+msgid "Downloading changelog"
+msgstr "تنزيل سجل التغييرات"
+
+#: ../UpdateManager/Core/MyCache.py:128
+#, python-format
+msgid "Other updates (%s)"
+msgstr "تحديثات أخرى (%s)"
+
+#: ../UpdateManager/Core/MyCache.py:283
+#, python-format
+msgid ""
+"Changes for the versions:\n"
+"Installed version: %s\n"
+"Available version: %s\n"
+"\n"
+msgstr ""
+
+#: ../UpdateManager/Core/MyCache.py:297
+msgid "This update does not come from a source that supports changelogs."
+msgstr ""
+
+#: ../UpdateManager/Core/MyCache.py:303 ../UpdateManager/Core/MyCache.py:324
+msgid ""
+"Failed to download the list of changes. \n"
+"Please check your Internet connection."
+msgstr ""
+"فشل تنزيل قائمة التغييرات.\n"
+"افحص اتصالك بإنترنت."
+
+#: ../UpdateManager/Core/MyCache.py:313
+#, python-format
+msgid ""
+"The changelog does not contain any relevant changes.\n"
+"\n"
+"Please use http://launchpad.net/ubuntu/+source/%s/%s/+changelog\n"
+"until the changes become available or try again later."
+msgstr ""
+"لا يحتوي سجل التغييرات أي تغييرات متعلقة.\n"
+"\n"
+"من فضلك استخدم http://launchpad.net/ubuntu/+source/%s/%s/+changelog\n"
+"حتى تتوفر التغييرات أو حاول مجددا لاحقا."
+
+#: ../UpdateManager/Core/MyCache.py:318
+#, python-format
+msgid ""
+"The list of changes is not available yet.\n"
+"\n"
+"Please use http://launchpad.net/ubuntu/+source/%s/%s/+changelog\n"
+"until the changes become available or try again later."
+msgstr ""
+"قائمة التغييرات ليست متاحة بعد.\n"
+"\n"
+"من فضلك استخدام http://launchpad.net/ubuntu/+source/%s/%s/+changelog\n"
+"حتى تتوفر التغييرات أو حاول مجددا لاحقا."
+
+#: ../UpdateManager/Core/UpdateList.py:49
+msgid "Failed to detect distribution"
+msgstr "فشل الكشف على التوزيع"
+
+#: ../UpdateManager/Core/UpdateList.py:50
+#, python-format
+msgid "A error '%s' occurred while checking what system you are using."
+msgstr "صودف خطأ '%s' أثناء التماس ما يستخدمه النظام."
+
+#: ../UpdateManager/Core/UpdateList.py:61
+msgid "Important security updates"
+msgstr "تحديثات أمنية مهمّة"
+
+#: ../UpdateManager/Core/UpdateList.py:62
+msgid "Recommended updates"
+msgstr "تحديثات منصوح بها"
+
+#: ../UpdateManager/Core/UpdateList.py:63
+msgid "Proposed updates"
+msgstr "تحديثات مقترحة"
+
+#: ../UpdateManager/Core/UpdateList.py:64
+msgid "Backports"
+msgstr "تحديثات رجوعية"
+
+#: ../UpdateManager/Core/UpdateList.py:65
+msgid "Distribution updates"
+msgstr "تحديثات التوزيعة"
+
+#: ../UpdateManager/Core/UpdateList.py:70
+msgid "Other updates"
+msgstr "تحديثات أخرى"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:1
+msgid ""
+"<b><big>You must check for updates manually</big></b>\n"
+"\n"
+"Your system does not check for updates automatically. You can configure this "
+"behavior in <i>Software Sources</i> on the <i>Updates</i> tab."
+msgstr ""
+"<b><big>ينبغي لك التماس التحديثات يدويا</big></b>\n"
+"\n"
+"نظامك لا يلتمس التحديثات أوتوماتيا. يمكنك ضبط هذا السلوك في <i>مصادر "
+"البرمجيات</i> في لسان <i>التحديثات</i>."
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:4
+msgid "<big><b>Not all updates can be installed</b></big>"
+msgstr "<big><b>تعذّر تثبيت كل التحديثات</b></big>"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:5
+msgid "<big><b>Running on battery</b></big>"
+msgstr "<big><b>يعمل على البطارية</b></big>"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:6
+msgid "<big><b>Starting Update Manager</b></big>"
+msgstr "<big><b>يجري بدء مدير التحديثات</b></big>"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:7
+msgid "Changes"
+msgstr "التغييرات"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:8
+msgid "Chec_k"
+msgstr "الت_مس"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:9
+msgid "Co_ntinue"
+msgstr "ا_ستمرّ"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:10
+msgid "Description"
+msgstr "الوصف"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:11
+msgid "Description of update"
+msgstr "وصف التحديث"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:12
+msgid "It’s safer to connect the computer to AC power before updating."
+msgstr ""
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:14
+msgid ""
+"Run a partial upgrade, to install as many updates as possible. \n"
+"\n"
+"This can be caused by:\n"
+" * A previous upgrade which didn't complete\n"
+" * Problems with some of the installed software\n"
+" * Unofficial software packages not provided by Ubuntu\n"
+" * Normal changes of a pre-release version of Ubuntu"
+msgstr ""
+"شغّل ترقية جزئية لتنزيل أكبر عدد ممكن من التحديثات. \n"
+"\n"
+"قد يكون هذا بسبب:\n"
+"* ترقية سابقة لم تكتمل\n"
+"* مشاكل مع بعض البرمجيات المثبتة\n"
+"* حزم برمجيات غير رسمية ليست من أوبونتو\n"
+"* تغييرات عادية في نسخة ما قبل الإصدار من أوبونتو"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:21
+#: ../data/gtkbuilder/UpgradePromptDialog.ui.h:5
+msgid "Show progress of individual files"
+msgstr "أظهر تقدّم الملفات المفردة"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:23
+msgid "Starting Update Manager"
+msgstr "يبدأ مدير التحديثات"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:24
+msgid "U_pgrade"
+msgstr "ت_رقية"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:25
+#: ../data/update-manager.desktop.in.h:3
+msgid "Update Manager"
+msgstr "مدير التحديثات"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:26
+msgid "You are connected via a wireless modem."
+msgstr ""
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:27
+msgid ""
+"You are connected via roaming and may be charged for the data consumed by "
+"this update."
+msgstr ""
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:28
+msgid "Your system is running on battery. Are you sure you want to continue?"
+msgstr "يعمل نظامك على البطارية. أمتأكد أنك تريد المتابعة؟"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:29
+msgid "_Hide this information in the future"
+msgstr "_أخفِ هذة المعلومات في المستقبل"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:30
+msgid "_Install Updates"
+msgstr "_ثبت التحديثات"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:31
+msgid "_Partial Upgrade"
+msgstr "ترقية _جزئية"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:33
+msgid "_Settings..."
+msgstr ""
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:34
+msgid "_Upgrade"
+msgstr "تر_قية"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:35
+msgid "updates"
+msgstr "تحديثات"
+
+#: ../data/gtkbuilder/UpgradePromptDialog.ui.h:1
+msgid ""
+"<b>A new version of Ubuntu is available. Would you like to upgrade?</b>"
+msgstr "<b>تتوفر إصدارة جديدة من أوبونتو، أترغب في الترقية؟</b>"
+
+#: ../data/gtkbuilder/UpgradePromptDialog.ui.h:2
+msgid "Ask Me Later"
+msgstr "اسألني لاحقا"
+
+#: ../data/gtkbuilder/UpgradePromptDialog.ui.h:3
+msgid "Don't Upgrade"
+msgstr "لا أرغب"
+
+#: ../data/gtkbuilder/UpgradePromptDialog.ui.h:6
+msgid "Yes, Upgrade Now"
+msgstr "نعم، رقِّ الآن"
+
+#: ../data/gtkbuilder/UpgradePromptDialog.ui.h:7
+msgid ""
+"You can upgrade at a later time by opening Update Manager and click on "
+"\"Upgrade\"."
+msgstr "يمكنك الترقية لاحقا بفتح مدير التحديثات والنقر على \"رقِّ\""
+
+#: ../data/gtkbuilder/UpgradePromptDialog.ui.h:8
+msgid "You have declined to upgrade to the new Ubuntu"
+msgstr "لقد رفضت الترقية إلى أوبونتو الجديدة"
+
+#: ../data/update-manager.desktop.in.h:1
+msgid "Show and install available updates"
+msgstr "أظهر و ثبت التحديثات الموجودة"
+
+#: ../data/update-manager.desktop.in.h:2
+msgid "Software Updates"
+msgstr "تحديثات البرمجيات"
+
+#: ../update-manager:54 ../do-release-upgrade:41
+msgid "Show version and exit"
+msgstr "اعرض الإصدارة واخرج"
+
+#: ../update-manager:57
+msgid "Directory that contains the data files"
+msgstr "المجلد الذي يحتوي ملفات البيانات"
+
+#: ../update-manager:60
+msgid "Check if a new Ubuntu release is available"
+msgstr "التمس وجود إصدارة جديدة من أوبونتو"
+
+#: ../update-manager:63 ../do-release-upgrade:44 ../check-new-release-gtk:176
+msgid "Check if upgrading to the latest devel release is possible"
+msgstr "يفحص إن كانت الترقية ممكنة إلى أحدث إصدارة تطوير"
+
+#: ../update-manager:67
+msgid "Upgrade using the latest proposed version of the release upgrader"
+msgstr "رقّ باستخدام آخر نسخة موصى بها لمرقي الإصدار"
+
+#: ../update-manager:74
+msgid "Do not focus on map when starting"
+msgstr "لا تركز على الخريطة عند البدء"
+
+#: ../update-manager:77
+msgid "Try to run a dist-upgrade"
+msgstr "حاول تشغيل dist-upgrade"
+
+#: ../update-manager:80
+msgid "Do not check for updates when starting"
+msgstr ""
+
+#: ../update-manager:84 ../do-release-upgrade:60
+msgid "Test upgrade with a sandbox aufs overlay"
+msgstr "اختبر الترقية في بيئة محكومة (صندوق رمل)"
+
+#: ../update-manager:104
+msgid "Running partial upgrade"
+msgstr "يُجري ترقية جزئية"
+
+#: ../do-release-upgrade:48 ../check-new-release-gtk:180
+msgid ""
+"Try upgrading to the latest release using the upgrader from $distro-proposed"
+msgstr "حاول الترقية إلى أحدث إصدارة باستخدام المحدِّث من $distro-proposed"
+
+#: ../do-release-upgrade:52
+msgid ""
+"Run in a special upgrade mode.\n"
+"Currently 'desktop' for regular upgrades of a desktop system and 'server' "
+"for server systems are supported."
+msgstr ""
+"يجري في طور ترقية خاص.\n"
+"حاليا الطوران المدعومان هما 'desktop' للترقية الاعتيادية لنظام سطح مكتب، و "
+"'server' لنظم الخواديم."
+
+#: ../do-release-upgrade:58
+msgid "Run the specified frontend"
+msgstr "يشغل الواجهة المحددة"
+
+#: ../do-release-upgrade:63
+msgid ""
+"Check only if a new distribution release is available and report the result "
+"via the exit code"
+msgstr ""
+"تحقق فقط إذا كان هناك إصدار جديد من التوزيعة متوفرا و أرسل تقريرا خلال كود "
+"الخروج"
+
+#: ../do-release-upgrade:77
+msgid "Checking for a new ubuntu release"
+msgstr "يجري التماس إصدارة أحدث من أوبونتو"
+
+#: ../do-release-upgrade:91
+msgid ""
+"For upgrade information, please visit:\n"
+"%(url)s\n"
+msgstr ""
+
+#: ../do-release-upgrade:97
+msgid "No new release found"
+msgstr "لا توجد إصدارات أحدث"
+
+#: ../do-release-upgrade:109
+#, c-format
+msgid "New release '%s' available."
+msgstr "لا تتوفر إصدارات '%s'"
+
+#: ../do-release-upgrade:110
+msgid "Run 'do-release-upgrade' to upgrade to it."
+msgstr "شغّل 'do-release-upgrade' للترقية إليه."
+
+#: ../check-new-release-gtk:91
+msgid "Ubuntu %(version)s Upgrade Available"
+msgstr "يتوفر ترقية إلى أوبونتو %(version)s"
+
+#: ../check-new-release-gtk:132
+#, c-format
+msgid "You have declined the upgrade to Ubuntu %s"
+msgstr "لقد رفضت الترقية إلى أوبونتو %s"
+
+#: ../Janitor/computerjanitor/exc.py:30
+#, python-format
+msgid "Unimplemented method: %s"
+msgstr "طريقة غير مطبقة: %s"
+
+#: ../Janitor/computerjanitor/file_cruft.py:46
+msgid "A file on disk"
+msgstr "ملف على القرص"
+
+#: ../Janitor/computerjanitor/package_cruft.py:45
+msgid ".deb package"
+msgstr "حزمة .deb"
+
+#: ../Janitor/computerjanitor/missing_package_cruft.py:33
+msgid "Install missing package."
+msgstr "ثبّت الحزم الناقصة"
+
+#: ../Janitor/computerjanitor/missing_package_cruft.py:42
+#, python-format
+msgid "Package %s should be installed."
+msgstr "يجب تثبيت الحزمة %s"
+
+#. pragma: no cover
+#: ../Janitor/plugins/dpkg_status_plugin.py:36
+#, python-format
+msgid "%i obsolete entries in the status file"
+msgstr "%i مدخلات قديمة في ملف الحالة"
+
+#: ../Janitor/plugins/dpkg_status_plugin.py:39
+msgid "Obsolete entries in dpkg status"
+msgstr "مدخلات قديمة في حالة dpkg"
+
+#. pragma: no cover
+#: ../Janitor/plugins/dpkg_status_plugin.py:42
+msgid "Obsolete dpkg status entries"
+msgstr "مدخلات قديمة في حالة dpkg"
+
+#: ../Janitor/plugins/kdelibs4to5_plugin.py:39
+msgid ""
+"When upgrading, if kdelibs4-dev is installed, kdelibs5-dev needs to be "
+"installed. See bugs.launchpad.net, bug #279621 for details."
+msgstr ""
+"أثناء الترقية، إذا كانت kdelibs4-dev مثبّتة فستحتج تثبيت kdelibs5-dev. راجع "
+"bugs.launchpad.net، علة رقم #279621 لمزيد من التفاصيل."
+
+#: ../Janitor/plugins/langpack_manual_plugin.py:34
+#, python-format
+msgid "%s needs to be marked as manually installed."
+msgstr "%s تحتاج لتأشيرها على أنها مُثبَّتة يدويا."
+
+#: ../Janitor/plugins/remove_lilo_plugin.py:28
+msgid ""
+"Remove lilo since grub is also installed.(See bug #314004 for details.)"
+msgstr "أزٍل lilo حيث أن grub مثبّت. (راجع العلة #314004 لمزيد من التفاصيل)"
+
+#~ msgid "*DEPRECATED* this option will be ignore"
+#~ msgstr "*مهجور* هذا الخيار سيتم تجاهله"
+
+#~ msgid "0 KB"
+#~ msgstr "0 ك.بايت"
+
+#~ msgid ""
+#~ "This key is deprecated in favor of the file /etc/update-manager/release-"
+#~ "upgrades Check automatically if a new version of the current distribution is "
+#~ "available and offer to upgrade (if possible)."
+#~ msgstr ""
+#~ "هذا المفتاح مُغرَق لصالح الملف /etc/update-manager/release-upgrades\r\n"
+#~ "يلتمس تلقائيا إصدارات جديدة من التوزيعة و يعرض الترقية (إن أمكن)."
+
+#~ msgid "The window size"
+#~ msgstr "مساحة النافذة"
+
+#~ msgid ""
+#~ "Stores the state of the expander that contains the list of changes and the "
+#~ "description"
+#~ msgstr "يحفظ حالة المُمدِّد الذي يضم قائمة التغييرات و وصفها"
+
+#~ msgid "Stores the size of the update-manager dialog"
+#~ msgstr "يحفظ حجم حوار update-manager"
+
+#~ msgid "Show details of an update"
+#~ msgstr "أظهر تفاصيل تحديث"
+
+#~ msgid "Remind to reload the channel list"
+#~ msgstr "تذكير لإعادة تحميل قائمة القنوات"
+
+#~ msgid ""
+#~ "If this key is set the install window will be automatically closed on "
+#~ "successful installation."
+#~ msgstr ""
+#~ "اذا كان هذا المفتاح مفعّل نافذة التثبيت ستغلق تلقائياً بعد تثبيت ناجح."
+
+#~ msgid ""
+#~ "If automatic checking for updates is disabled, you have to reload the "
+#~ "channel list manually. This option allows to hide the reminder shown in this "
+#~ "case."
+#~ msgstr ""
+#~ "إذا كان الالتماس الأوتوماتي للتحديثات معطلا فينبغي لك إعادة تحميل قائمة "
+#~ "القنوات يدويا. يمكّنك هذا الخيار من إخفاء التنويه التي تظهر في هذه الحالة."
+
+#~ msgid "*deprecated* Check for new distribution releases"
+#~ msgstr "*تقادمت* تحسس إصدارة حديثة للتوزيعة"
+
+#~ msgid "The package information was last updated less than one hour ago."
+#~ msgstr "آخر تحديث لبيانات الحزم كان منذ أقل من ساعة مضت."
+
+#~ msgid ""
+#~ "It is unknown when the package information was updated last. Please try "
+#~ "clicking on the 'Check' button to update the information."
+#~ msgstr ""
+#~ "ليس معلوما متى حدِّثت بيانات الحزم آخر مرة. اضغط زر 'التمس' لتحديث البيانات."
+
+#~ msgid "_Check All"
+#~ msgstr "أ_شر الكل"
+
+#~ msgid "_Uncheck All"
+#~ msgstr "أ_خل تأشير الكل"
+
+#~ msgid ""
+#~ "This is most likely a bug in the upgrade tool. Please report it as a bug"
+#~ msgstr "هذا على الأغلب خطأ برمجي في أداة الترقية، رجاء أبلغ عنه كعلّة"
+
+#~ msgid ""
+#~ "It was impossible to install a required package. Please report this as a "
+#~ "bug. "
+#~ msgstr "لم يكن بالإمكان تثبيت إحدى الحزم المطلوبة. رجاءً أبلغ عن هذه كعلة. "
+
+#~ msgid "Auto close the install window after successful install"
+#~ msgstr "أغلق نافذة التثبيت تلقائياً بعد تثبيت ناجح"
+
+#, python-format
+#~ msgid "%.0f KB"
+#~ msgstr "%.0f ك.بايت"
+
+#~ msgid "1 KB"
+#~ msgstr "1 ك.بايت"
+
+#~ msgid "Previous selected"
+#~ msgstr "الاختيار السابق"
+
+#~ msgid ""
+#~ "If this key is set the main update list window will show version information "
+#~ "(from version to version)."
+#~ msgstr ""
+#~ "إذا ضُبط هذا المفتاح ستُظهر نافذة قائمة التحديث الرئيسية معلومات النسخة (من "
+#~ "النسخة إلى النسخة)"
+
+#~ msgid "Show version in update list"
+#~ msgstr "أظهر النسخة في قائمة التحديث"
+
+#~ msgid ""
+#~ "If none of this applies, then please report this bug against the 'update-"
+#~ "manager' package and include the files in /var/log/dist-upgrade/ in the bug "
+#~ "report."
+#~ msgstr ""
+#~ "إذا لم ينطبق أيا من هذا، فمن فضلك أبلغ عن علة ضد حزمة 'update-manager' وضمن "
+#~ "الملفات الموجودة في /var/log/dist-upgrade/ مع بلاغك."
+
+#~ msgid ""
+#~ "These software updates have been issued since Ubuntu was released. If you "
+#~ "don't want to install them now, choose \"Update Manager\" from the "
+#~ "Administration Menu later."
+#~ msgstr ""
+#~ "صدرت هذه التحديثات بعد صدور أوبونتو. إذا لم تُرد تثبيتها الآن فاختر \"مدير "
+#~ "التحديثات\" لاحقا من قائمة الإدارة."
+
+#~ msgid "First run welcome message"
+#~ msgstr "رساة ترحيب أول تشغيل"
+
+#~ msgid ""
+#~ "Preparing the system for the upgrade failed. Please report this as a bug "
+#~ "against the 'update-manager' package and include the files in /var/log/dist-"
+#~ "upgrade/ in the bug report."
+#~ msgstr ""
+#~ "فشل تجهيز النظام للترقية. من فضلك أبلغ عن هذا ضد حزمة 'update-manager'  "
+#~ "وضمّن الملفات في /var/log/dist-upgrade/ في بلاغ العلة."
+
+#~ msgid ""
+#~ "This usually is caused by a system were /tmp is mounted noexec. Please "
+#~ "remount without noexec and run the upgrade again."
+#~ msgstr ""
+#~ "يُسبَب هذا غالباً من نظام وصِل /tmp فيه لا تنفيذي (noexec). أعد وصله بدون "
+#~ "(noexec) و نفذ الترقية مرة أخرى."
+
+#~ msgid "If this key is set a first run welcome message will be presented."
+#~ msgstr "إذا حُدد هذا المفتاح ستُعرض رسالة ترحيب عند أول تشغيل."
+
+#, python-format
+#~ msgid ""
+#~ "After your package information was updated the essential package '%s' can "
+#~ "not be found anymore.\n"
+#~ "This indicates a serious error, please report this bug against the 'update-"
+#~ "manager' package and include the files in /var/log/dist-upgrade/ in the bug "
+#~ "report."
+#~ msgstr ""
+#~ "بعدما حُدثت معلومات الحزم تعذَّر العثور على حزمة '%s' الأساسية.\n"
+#~ "هذا يشير إلى خطأ جسيم، لذلك أبلغ من فضلك عن هذه العلّة ضد حزمة 'مدير "
+#~ "التحديثات' وضمن الملفات في /var/log/dist-upgrade/ في بلاغ العلّة."
+
+#~ msgid ""
+#~ "The system was unable to get the prerequisites for the upgrade. The upgrade "
+#~ "will abort now and restore the original system state.\n"
+#~ "\n"
+#~ "Please report this as a bug against the 'update-manager' package and include "
+#~ "the files in /var/log/dist-upgrade/ in the bug report."
+#~ msgstr ""
+#~ "عجز النظام عن الحصول على الشروط الأساسية لترقية. ستجهض الترقية الآن وتستعاد "
+#~ "حالة النظام الأصلية.\n"
+#~ "\n"
+#~ "من فضلك أبلغ عن هذا كعلّة ضد حزمة 'مدير التحديثات' وضمن الملفات في "
+#~ "/var/log/dist-upgrade/ في بلاغ العلّة."
+
+#, python-format
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "Please report this bug against the 'update-manager' package and include the "
+#~ "files in /var/log/dist-upgrade/ in the bug report.\n"
+#~ "%s"
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "أبلغ من فضلك عن هذه العلّة ضد حزمة 'مدير التحديث' وضمن الملفات في "
+#~ "/var/log/dist-upgrade/ في بلاغ العلّة.\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "Upgrading the repository information resulted in a invalid file. Please "
+#~ "report this as a bug."
+#~ msgstr ""
+#~ "تحديث معلومات المستودع أدى إلى إنتاج ملف غير صحيح. رجاءً أبلغ عن هذه كعلة."
+
+#, python-format
+#~ msgid ""
+#~ "Changes for the versions:\n"
+#~ "%s\n"
+#~ "%s\n"
+#~ "\n"
+#~ msgstr ""
+#~ "التغييرات في النسخ:\n"
+#~ "%s\n"
+#~ "%s\n"
+#~ "\n"
+
+#~ msgid "Settings..."
+#~ msgstr "الإعدادات..."
+
+#~ msgid "This change is not coming from a source that supports changelogs."
+#~ msgstr "هذا التغيير آت من مصدر لا يدعم سجلات التغييرات."
+
+#~ msgid ""
+#~ "The upgrade has aborted. Please check your Internet connection or "
+#~ "installation media and try again. All files downloaded so far are kept."
+#~ msgstr ""
+#~ "لقد أُجهضت الترقية. راجع الاتصال بالإنترت أو وسيط التثبيت ثم أعد المحاولة. "
+#~ "كل الملفات التي نُزّلت إلى الآن محفوظة."
+
+#~ msgid "Show package summary before package name in update list"
+#~ msgstr "أظهر ملخص عن الحزمة قبل إسم الحزمة في قائمة التحديث"
+
+#~ msgid "make check-new-release-gtk ignore a given new release"
+#~ msgstr "إجعل check-new-release-gtk يتجاهل إصدارة جديدة"
+
+#~ msgid ""
+#~ "This will permanently hide the new release prompt from check-new-release-"
+#~ "gtk. Note that the small button in the main update-manager UI will still be "
+#~ "there."
+#~ msgstr ""
+#~ "سيُخفي هذا تنبيه الإصدارة الجديدة بشكلٍ دائم من check-new-release-gtk. لاحظ "
+#~ "أن الزر الصغير في واجهة update-manager ستبقى في مكانها."
+
+#~ msgid ""
+#~ "If this key is set, the main update list window will show the package "
+#~ "summary before the package name."
+#~ msgstr ""
+#~ "إذا عُيِّنَ هذا المفتاح، ستُظهر نافذة قائمة التحديثات الرئيسية ملخص عن "
+#~ "الحزمة قبل اسمها ."

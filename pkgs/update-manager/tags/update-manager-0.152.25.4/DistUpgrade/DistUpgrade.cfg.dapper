@@ -1,0 +1,56 @@
+[View]
+View=DistUpgradeViewGtk,DistUpgradeViewKDE, DistUpgradeViewText
+
+# Distro contains global information about the upgrade
+[Distro]
+# the meta-pkgs we support
+MetaPkgs=ubuntu-desktop, kubuntu-desktop, edubuntu-desktop, xubuntu-desktop
+BaseMetaPkgs=ubuntu-minimal, ubuntu-standard, bash
+PostUpgradePurge=xorg-common, libgl1-mesa, ltsp-client, ltspfsd, python2.3
+Demotions=demoted.cfg.dapper
+RemoveEssentialOk=sysvinit
+RemovalBlacklistFile=removal_blacklist.cfg
+PostInstallScripts=/usr/lib/udev/migrate-fstab-to-uuid.sh
+KeepInstalledPkgs=lvm2
+KeepInstalledSection=translations
+RemoveObsoletes=yes
+ForcedObsoletes=esound, esound-common, slocate, ksplash-engine-moodin
+
+# information about the individual meta-pkgs
+[ubuntu-desktop]
+KeyDependencies=gdm, gnome-panel, ubuntu-artwork
+# those pkgs will be marked remove right after the distUpgrade in the cache
+PostUpgradeRemove=xchat, xscreensaver, gnome-cups-manager
+
+[kubuntu-desktop]
+KeyDependencies=kdm, kicker, kubuntu-artwork-usplash
+# those packages are marked as obsolete right after the upgrade
+ForcedObsoletes=ivman, slocate
+
+[edubuntu-desktop]
+KeyDependencies=edubuntu-artwork, tuxpaint
+
+[xubuntu-desktop]
+KeyDependencies=xubuntu-artwork-usplash, xubuntu-default-settings, xfwm4
+
+
+[Files]
+BackupExt=distUpgrade
+LogDir=/var/log/dist-upgrade
+
+[PreRequists]
+Packages=release-upgrader-apt,release-upgrader-dpkg
+SourcesList=prerequists-sources.dapper.list
+SourcesList-ia64=prerequists-sources.dapper-ports.list
+SourcesList-hppa=prerequists-sources.dapper-ports.list
+
+[Sources]
+From=dapper
+To=hardy
+ValidOrigin=Ubuntu
+ValidMirrors = mirrors.cfg
+
+[Network]
+MaxRetries=3
+
+

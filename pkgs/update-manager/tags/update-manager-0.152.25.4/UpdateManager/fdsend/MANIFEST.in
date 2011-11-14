@@ -1,0 +1,3 @@
+# $Id: MANIFEST.in,v 1.1.1.1 2004/11/04 06:15:03 mjp Exp $
+include setup.py setup.cfg fdsend.c
+include MANIFEST.in COPYING README ChangeLog

@@ -1,0 +1,49 @@
+Create the images by simply running 
+$ ./create-base-image.sh maverick 
+(or whatever distroibution release you want to create)
+
+
+===== old info below ====
+
+Images created with:
+
+First create a ssh key:
+$ ssh-keygen -N '' -f ssh-key
+
+[intrepid]
+
+Can use the official ubuntu-vm-builder pacakges]
+
+$ sudo ubuntu-vm-builder kvm intrepid --kernel-flavour generic  --ssh-key `pwd`/ssh-key.pub  --components main,restricted  --rootsize 80000 --arch i386
+$ mv ubuntu-kvm/disk0.qcow2 intrepid-i386.qcow2
+- login and check if openssh-server is installed (intrepid ubuntu-vm-builder FTW)
+
+For old releases:
+
+$ bzr get http://bazaar.launchpad.net/~mvo/ubuntu-jeos/mvo
+
+[hardy]
+$ ./ubuntu-jeos-builder --vm kvm --kernel-flavour generic --suite hardy --ssh-key `pwd`/ssh-key.pub  --components main,restricted  --rootsize 80G --no-opt
+
+[gutsy]
+$ ./ubuntu-jeos-builder --vm kvm --kernel-flavour generic --suite gutsy --ssh-key `pwd`/ssh-key.pub  --components main,restricted  --rootsize 80G --no-opt
+
+
+[feisty]
+$ ./ubuntu-jeos-builder --vm kvm --kernel-flavour generic --suite feisty --ssh-key `pwd`/ssh-key.pub  --components main,restricted  --rootsize 80G --no-opt
+
+[dapper]
+$ ./ubuntu-jeos-builder --vm kvm --kernel-flavour 386 --suite dapper --ssh-key `pwd`/foo.pub  --components main,restricted  --rootsize 80G --no-opt
+
+(notice the different kernel names for dapper,feisty). The ssh-key is the 
+key that is used by the upgrade tester to log into the virtual machine.
+
+The copy it from 
+"jeos/ubuntu-jeos-$dist-i386/root.qcow2"
+to 
+"jeos/$dist-i386.qcow2"
+
+Make sure you copy the "ssh-key" file into the profile dir so that the 
+upgrade tester can access it
+
+

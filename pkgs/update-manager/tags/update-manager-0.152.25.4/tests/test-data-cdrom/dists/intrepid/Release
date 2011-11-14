@@ -1,0 +1,27 @@
+Origin: Ubuntu
+Label: Ubuntu
+Suite: intrepid
+Version: 8.10
+Codename: intrepid
+Date: Tue, 30 Sep 2008  9:45:01 UTC
+Architectures: amd64
+Components: main restricted
+Description: Ubuntu Intrepid 8.10
+MD5Sum:
+ 4a4dd3598707603b3f76a2378a4504aa       20 restricted/debian-installer/binary-amd64/Packages.gz
+ 2ff65cfab8554f25348bb2d270d3f57d     1815 restricted/binary-amd64/Packages.gz
+ 9d1be4f55b113f7e379323855a5cf4f7     5772 restricted/binary-amd64/Packages
+ 9d6878681d7fa00d880d3f9a50a4f876      103 restricted/binary-amd64/Release
+ 9a82c503df21309ec6d28c508f76f9fe       97 main/binary-amd64/Release
+SHA1:
+ a0fddd5458378c1bf3c10dd2f5c060d1347741ed       20 restricted/debian-installer/binary-amd64/Packages.gz
+ be6415c7866b0fa8f6d044214f16a5e1050f9552     1815 restricted/binary-amd64/Packages.gz
+ c4be20109c9cd92643f47725ce1fe930eb622ee4     5772 restricted/binary-amd64/Packages
+ eb84afc4e5cb289f300fdab30da8de3c36f72ab2      103 restricted/binary-amd64/Release
+ 79601180e1aed7251db9a4483a3881852c7ab57f       97 main/binary-amd64/Release
+SHA256:
+ f61f27bd17de546264aa58f40f3aafaac7021e0ef69c17f6b1b4cd7664a037ec       20 restricted/debian-installer/binary-amd64/Packages.gz
+ bf6da0c77142581589c012108ae055076aae2a08476992f4041b08aabd54f1c1     1815 restricted/binary-amd64/Packages.gz
+ 711cf2f6f4d8405628c11cc28a95d32f380e74cd42e9c94ede6c8e121bf51366     5772 restricted/binary-amd64/Packages
+ 4fd2579083c9eeea7fdb2f0af4322f31b6b33d0502d878706ca5c90fccdf263d      103 restricted/binary-amd64/Release
+ 7c588b52b8e7246302279bca384eced574b9f04ab2a822ec982eed1819f2052b       97 main/binary-amd64/Release

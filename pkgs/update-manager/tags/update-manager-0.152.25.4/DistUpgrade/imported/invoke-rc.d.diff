@@ -1,0 +1,24 @@
+--- /usr/sbin/invoke-rc.d	2007-08-10 18:15:28.000000000 +0200
++++ invoke-rc.d	2007-09-07 18:43:48.000000000 +0200
+@@ -314,6 +314,10 @@
+     shift
+   done
+   if test x${doexit} != x && test x${RETRY} = x; then
++	if [ -n "$RELEASE_UPGRADE_IN_PROGRESS" ]; then
++	    printerror "release upgrade in progress, error is not fatal"
++	    exit 0
++	fi
+      exit ${doexit}
+   fi
+   return 0
+@@ -431,6 +435,10 @@
+ 	    fi
+ 	done
+ 	printerror initscript ${INITSCRIPTID}, action \"${saction}\" failed.
++	if [ -n "$RELEASE_UPGRADE_IN_PROGRESS" ]; then
++	    printerror "release upgrade in progress, error is not fatal"
++	    exit 0
++	fi
+ 	exit ${RC}
+     fi
+     exit 102

@@ -1,0 +1,50 @@
+#!/usr/bin/python
+#
+# this is watchdog that will try to kill hanging apt-get installs
+# that may happen when the auto-install-tester runs
+# 
+# its probably not useful for anything else
+
+import os
+import signal 
+import subprocess
+import sys
+import time
+
+# default kill time 60min
+WAKEUP_INTERVAL = 60*60
+
+def watchdog_loop():
+    watch_files = ["/var/log/apt/term.log",
+                   "/var/log/dist-upgrade/apt-term.log"]
+    mtime = 0
+    while True:
+        for f in watch_files:
+            if os.path.exists(f):
+                mtime = max(mtime, os.path.getmtime(f))
+        time.sleep(WAKEUP_INTERVAL)
+        for f in watch_files:
+            if os.path.exists(f):
+                if os.path.getmtime(f) > mtime:
+                    break
+        else:
+            print "no mtime change for %s seconds, sending SIGINT" % WAKEUP_INTERVAL
+            subprocess.call(["killall","-INT","apt-get"])
+        
+
+if __name__ == "__main__":
+    print "Starting apt watchdog daemon for the auto-install-tester"
+
+    if len(sys.argv) > 1 and sys.argv[1] == "--no-daemon":
+        watchdog_loop()
+
+    # do the daemon thing
+    pid = os.fork()
+    if pid == 0:
+        os.setsid()
+        signal.signal(signal.SIGHUP, signal.SIG_IGN)
+        watchdog_loop()
+    else:
+        # add a little sleep to ensure child is setup
+        time.sleep(10)
+        os._exit(0)

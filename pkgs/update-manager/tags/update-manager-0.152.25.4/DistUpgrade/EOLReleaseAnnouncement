@@ -1,0 +1,62 @@
+= Ubuntu 11.10 'Oneiric Ocelot' is no longer supported =
+
+You are about to upgrade to a version of Ubuntu that is no longer
+supported.
+
+This release of Ubuntu is '''no longer supported''' by Canonical. The
+support timeframe is between 18 month and 5 years after the initial
+release. You will not receive security updates or critical
+bugfixes. See http://www.ubuntu.com/releaseendoflife for details.
+
+It is still possible to upgrade this version and eventually you will
+be able to upgrade to a supported release of Ubuntu.
+
+Alternatively you may want to consider to reinstall the machine to the
+latest version, for more information on this, visit:
+http://www.ubuntu.com/desktop/get-ubuntu
+
+For pre-installed system you may want to contact the manufacturer
+for instructions.
+
+== Feedback and Helping ==
+
+If you would like to help shape Ubuntu, take a look at the list of 
+ways you can participate at
+
+  http://www.ubuntu.com/community/participate/
+
+Your comments, bug reports, patches and suggestions will help ensure
+that our next release is the best release of Ubuntu ever.  If you feel
+that you have found a bug please read:
+
+  http://help.ubuntu.com/community/ReportingBugs
+
+Then report bugs using apport in Ubuntu.  For example:
+
+  ubuntu-bug linux
+
+will open a bug report in Launchpad regarding the linux package.
+
+If you have a question, or if you think you may have found a bug but 
+aren't sure, first try asking on the #ubuntu or #ubuntu-bugs IRC 
+channels on Freenode, on the Ubuntu Users mailing list, or on the 
+Ubuntu forums:
+
+  http://help.ubuntu.com/community/InternetRelayChat
+  http://lists.ubuntu.com/mailman/listinfo/ubuntu-users
+  http://www.ubuntuforums.org/
+
+
+== More Information ==
+
+You can find out more about Ubuntu on our website, IRC channel and wiki.
+If you're new to Ubuntu, please visit:
+
+  http://www.ubuntu.com/
+
+
+To sign up for future Ubuntu announcements, please subscribe to Ubuntu's 
+very low volume announcement list at:
+
+  http://lists.ubuntu.com/mailman/listinfo/ubuntu-announce
+

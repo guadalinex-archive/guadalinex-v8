@@ -1,0 +1,2753 @@
+# Albanian translation for update-manager
+# Copyright (c) (c) 2006 Canonical Ltd, and Rosetta Contributors 2006
+# This file is distributed under the same license as the update-manager package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: update-manager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-10-18 03:11+0000\n"
+"PO-Revision-Date: 2011-08-05 20:42+0000\n"
+"Last-Translator: Vilson Gjeci <vilsongjeci@gmail.com>\n"
+"Language-Team: Albanian <sq@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2011-10-18 14:53+0000\n"
+"X-Generator: Launchpad (build 14157)\n"
+"X-Poedit-Bookmarks: 126,-1,-1,-1,-1,-1,-1,-1,-1,-1\n"
+
+#. TRANSLATORS: download size is 0
+#: ../DistUpgrade/utils.py:416 ../UpdateManager/Core/utils.py:416
+msgid "0 kB"
+msgstr "0 kB"
+
+#. TRANSLATORS: download size of very small updates
+#: ../DistUpgrade/utils.py:419 ../UpdateManager/Core/utils.py:419
+msgid "1 kB"
+msgstr "1 kB"
+
+#. TRANSLATORS: download size of small updates, e.g. "250 kB"
+#: ../DistUpgrade/utils.py:422 ../UpdateManager/Core/utils.py:422
+#, python-format
+msgid "%.0f kB"
+msgstr "%.0f kB"
+
+#. TRANSLATORS: download size of updates, e.g. "2.3 MB"
+#: ../DistUpgrade/utils.py:425 ../UpdateManager/Core/utils.py:425
+#, python-format
+msgid "%.1f MB"
+msgstr "%.1f MB"
+
+#. TRANSLATORS: %s is a country
+#: ../DistUpgrade/distro.py:210 ../DistUpgrade/distro.py:438
+#, python-format
+msgid "Server for %s"
+msgstr "Serveri për %s"
+
+#. More than one server is used. Since we don't handle this case
+#. in the user interface we set "custom servers" to true and
+#. append a list of all used servers
+#: ../DistUpgrade/distro.py:228 ../DistUpgrade/distro.py:234
+#: ../DistUpgrade/distro.py:250
+msgid "Main server"
+msgstr "Serveri Kryesor"
+
+#: ../DistUpgrade/distro.py:254
+msgid "Custom servers"
+msgstr "Servera të personalizuar"
+
+#: ../DistUpgrade/DistUpgradeAptCdrom.py:141
+msgid "Could not calculate sources.list entry"
+msgstr "Nuk mundëm të llogarisim hyrjen sources.list"
+
+#: ../DistUpgrade/DistUpgradeAptCdrom.py:244
+msgid ""
+"Unable to locate any package files, perhaps this is not a Ubuntu Disc or the "
+"wrong architecture?"
+msgstr ""
+"I pamundur lokalizimi i skedarëve të paketave, ndoshta ky nuk është një disk "
+"i Ubuntu ose është në arkitekturë e gabuar?"
+
+#: ../DistUpgrade/DistUpgradeAptCdrom.py:287
+msgid "Failed to add the CD"
+msgstr "Futja e CD dështoi"
+
+#: ../DistUpgrade/DistUpgradeAptCdrom.py:288
+#, python-format
+msgid ""
+"There was a error adding the CD, the upgrade will abort. Please report this "
+"as a bug if this is a valid Ubuntu CD.\n"
+"\n"
+"The error message was:\n"
+"'%s'"
+msgstr ""
+"Pati një gabim në shtimin e CD, përditësimi do të abortohet. Ju lutemi "
+"raportojeni këtë si një defekt nëse ky është një CD i vlefshëm i Ubuntu.\n"
+"\n"
+"Mesazhi i gabimit ishte:\n"
+"'%s'"
+
+#: ../DistUpgrade/DistUpgradeCache.py:138
+msgid "Remove package in bad state"
+msgid_plural "Remove packages in bad state"
+msgstr[0] "Fshije paketën në gjendje të keqe"
+msgstr[1] "Fshiji paketat në gjendje të keqe"
+
+#: ../DistUpgrade/DistUpgradeCache.py:141
+#, python-format
+msgid ""
+"The package '%s' is in an inconsistent state and needs to be reinstalled, "
+"but no archive can be found for it. Do you want to remove this package now "
+"to continue?"
+msgid_plural ""
+"The packages '%s' are in an inconsistent state and need to be reinstalled, "
+"but no archives can be found for them. Do you want to remove these packages "
+"now to continue?"
+msgstr[0] ""
+"Paketa '%s' është në një gjendje të paqëndrueshme dhe ka nevojë të "
+"riinstalohet, por nuk është gjetur asnjë arkiv për të. Dëshironi ta hiqni "
+"këtë paketë tani për të vazhduar?"
+msgstr[1] ""
+"Paketat '%s' janë në një gjendje të paqëndrueshme dhe kanë nevojë të "
+"riinstalohen, por nuk është gjetur asnjë arkiv për to. Dëshironi t'i hiqni "
+"këto paketa tani për të vazhduar?"
+
+#. FIXME: not ideal error message, but we just reuse a
+#. existing one here to avoid a new string
+#: ../DistUpgrade/DistUpgradeCache.py:239
+msgid "The server may be overloaded"
+msgstr "Serveri mund të jetë i mbingarkuar"
+
+#: ../DistUpgrade/DistUpgradeCache.py:352
+msgid "Broken packages"
+msgstr "Paketat e dëmtuara"
+
+#: ../DistUpgrade/DistUpgradeCache.py:353
+msgid ""
+"Your system contains broken packages that couldn't be fixed with this "
+"software. Please fix them first using synaptic or apt-get before proceeding."
+msgstr ""
+"Sistemi juaj përmban paketa defekt, të cilat nuk mund të riparohen me këtë "
+"softuer.Ju lutemi riparoni këtë me Synaptic ose apt-get, para se të shkoni "
+"përpara."
+
+#. FIXME: change the text to something more useful
+#: ../DistUpgrade/DistUpgradeCache.py:648
+#, python-format
+msgid ""
+"An unresolvable problem occurred while calculating the upgrade:\n"
+"%s\n"
+"\n"
+" This can be caused by:\n"
+" * Upgrading to a pre-release version of Ubuntu\n"
+" * Running the current pre-release version of Ubuntu\n"
+" * Unofficial software packages not provided by Ubuntu\n"
+"\n"
+msgstr ""
+"Ndodhi një problem i pazgjidhshëm ndërkohë që po llogarisnim përditësimin:\n"
+"%s\n"
+"\n"
+" Kjo mund të shkaktohet nga:\n"
+" * Përditësimi në një version testimi të Ubuntu\n"
+" * Nisja e versionit të testimit të Ubuntu\n"
+" * Paketa jo zyrtare të programeve që nuk jepen nga Ubuntu\n"
+"\n"
+
+#: ../DistUpgrade/DistUpgradeCache.py:658
+msgid "This is most likely a transient problem, please try again later."
+msgstr ""
+"Ky ka mundësi të jetë një problem kalimtar, ju lutemi provojeni përsëri më "
+"vonë."
+
+#: ../DistUpgrade/DistUpgradeCache.py:661
+msgid ""
+"If none of this applies, then please report this bug using the command "
+"'ubuntu-bug update-manager' in a terminal."
+msgstr ""
+"Nëse asnjë prej këtyre nuk aplikohet, atëherë ju lutemi ta raportoni këtë "
+"gabim duke përsorur komandën 'ubuntu-bug update-manager' në një terminal."
+
+#: ../DistUpgrade/DistUpgradeCache.py:666
+#: ../UpdateManager/UpdateManager.py:1023
+msgid "Could not calculate the upgrade"
+msgstr "Nuk mundëm të llogarisim përditësimin"
+
+#: ../DistUpgrade/DistUpgradeCache.py:717
+msgid "Error authenticating some packages"
+msgstr "Gabim gjatë vërtetimit të origjinalitetit të disa paketave."
+
+#: ../DistUpgrade/DistUpgradeCache.py:718
+msgid ""
+"It was not possible to authenticate some packages. This may be a transient "
+"network problem. You may want to try again later. See below for a list of "
+"unauthenticated packages."
+msgstr ""
+"Disa paketa nuk mund të vërtetoheshin për origjinalitet.Kjo ka si pasojë "
+"problemet me rrjetin.Ju lutemi provoni më vonë edhe një herë.Paketat e "
+"mëposhtme nuk mund të vërtetohen për nga origjinaliteti."
+
+#: ../DistUpgrade/DistUpgradeCache.py:738
+#, python-format
+msgid ""
+"The package '%s' is marked for removal but it is in the removal blacklist."
+msgstr ""
+"Paketa '%s' është shënuar për tu hequr, por është në listën e zezë të heqjes."
+
+#: ../DistUpgrade/DistUpgradeCache.py:742
+#, python-format
+msgid "The essential package '%s' is marked for removal."
+msgstr "Paketa thelbësore '%s' është shënuar për tu hequr."
+
+#: ../DistUpgrade/DistUpgradeCache.py:751
+#, python-format
+msgid "Trying to install blacklisted version '%s'"
+msgstr "Duke u përpjekur të istaloj versionin e listës së zezë '%s'"
+
+#: ../DistUpgrade/DistUpgradeCache.py:869
+#, python-format
+msgid "Can't install '%s'"
+msgstr "'%s' nuk mund të instalohet"
+
+#: ../DistUpgrade/DistUpgradeCache.py:870
+msgid ""
+"It was impossible to install a required package. Please report this as a bug "
+"using 'ubuntu-bug update-manager' in a terminal."
+msgstr ""
+"Ishte i pamundur instalimi i paketës së kërkuar. ju lutemi ta raportoni këtë "
+"gabim duke përdorur 'ubuntu-bug update-manager' në një terminal."
+
+#. FIXME: provide a list
+#: ../DistUpgrade/DistUpgradeCache.py:881
+msgid "Can't guess meta-package"
+msgstr "Can't guess meta-package"
+
+#: ../DistUpgrade/DistUpgradeCache.py:882
+msgid ""
+"Your system does not contain a ubuntu-desktop, kubuntu-desktop, xubuntu-"
+"desktop or edubuntu-desktop package and it was not possible to detect which "
+"version of Ubuntu you are running.\n"
+" Please install one of the packages above first using synaptic or apt-get "
+"before proceeding."
+msgstr ""
+"Sistemi juaj nuk prëmban një paketë ubuntu-desktop, kubuntu-desktop, xubuntu-"
+"desktop ose edubuntu-desktop dhe nuk kemi mundësi të dallojmë cilin version "
+"të Ubuntu dispononi.\n"
+" Ju lutemi instaloni fillimisht një nga paketat e mësipërme duke përdorur "
+"synaptic apo apt-get para proçedimit."
+
+#: ../DistUpgrade/DistUpgradeController.py:100
+msgid "Reading cache"
+msgstr "Duke lexuar depozitën"
+
+#: ../DistUpgrade/DistUpgradeController.py:205
+msgid "Unable to get exclusive lock"
+msgstr "Është e pamundur të merret një hyrje ekskluzive"
+
+#: ../DistUpgrade/DistUpgradeController.py:206
+msgid ""
+"This usually means that another package management application (like apt-get "
+"or aptitude) already running. Please close that application first."
+msgstr ""
+"Kjo dmth se me siguri, një tjetër Paketmanager është aktiv (si psh apt-get "
+"ose aptitude). Ju lutemi mbylleni së pari këtë aplikacion."
+
+#: ../DistUpgrade/DistUpgradeController.py:239
+msgid "Upgrading over remote connection not supported"
+msgstr "Përditësimi nga një lidhje e largët nuk suportohet"
+
+#: ../DistUpgrade/DistUpgradeController.py:240
+msgid ""
+"You are running the upgrade over a remote ssh connection with a frontend "
+"that does not support this. Please try a text mode upgrade with 'do-release-"
+"upgrade'.\n"
+"\n"
+"The upgrade will abort now. Please try without ssh."
+msgstr ""
+"Ju po e nisni përditësimin nga një lidhje e largët ssh me një frontend që "
+"nuk e suporton atë. Ju lutemi të provoni një përditësim në mënyrë teksti me "
+"'do-release-upgrade'.\n"
+"\n"
+"Përditësimi do të mbyllet tani. Ju lutemi provojeni pa ssh."
+
+#: ../DistUpgrade/DistUpgradeController.py:254
+msgid "Continue running under SSH?"
+msgstr "Të vazhdojmë punën nën SSH?"
+
+#: ../DistUpgrade/DistUpgradeController.py:255
+#, python-format
+msgid ""
+"This session appears to be running under ssh. It is not recommended to "
+"perform a upgrade over ssh currently because in case of failure it is harder "
+"to recover.\n"
+"\n"
+"If you continue, an additional ssh daemon will be started at port '%s'.\n"
+"Do you want to continue?"
+msgstr ""
+"Ky seksion duket se është nisur me ssh. Nuk rekomandohet për momentin të "
+"kryeni një përditësim me ssh sepse në rast dështimi është e vështirë të "
+"rekuperoni.\n"
+"\n"
+"Nëse vazhdoni, një ssh daemon shtesë do të nisë në portin '%s'.\n"
+"Dëshironi të vazhdoni?"
+
+#: ../DistUpgrade/DistUpgradeController.py:269
+msgid "Starting additional sshd"
+msgstr "Po nisim sshd shtesë"
+
+#: ../DistUpgrade/DistUpgradeController.py:270
+#, python-format
+msgid ""
+"To make recovery in case of failure easier, an additional sshd will be "
+"started on port '%s'. If anything goes wrong with the running ssh you can "
+"still connect to the additional one.\n"
+msgstr ""
+"Për ta bërë riparimin më të lehtë në rastin e ndonjë dështimi, një sshd "
+"shtesë do të nisë në portin '%s'. Nëse diçka nuk shkon si duhet me ssh e "
+"nisur, ju mund të vazhdoni të lidheni me atë shtesë.\n"
+
+#: ../DistUpgrade/DistUpgradeController.py:278
+#, python-format
+msgid ""
+"If you run a firewall, you may need to temporarily open this port. As this "
+"is potentially dangerous it's not done automatically. You can open the port "
+"with e.g.:\n"
+"'%s'"
+msgstr ""
+"Nëse keni një firewall ju duhet që përkohësisht ta hapni këtë port. Duke "
+"qenë se kjo është potencialisht e rrezikshme nuk bëhet automatikisht. Ju "
+"mund ta hanpi portin me p.sh.:\n"
+"'%s'"
+
+#: ../DistUpgrade/DistUpgradeController.py:349
+#: ../DistUpgrade/DistUpgradeController.py:394
+msgid "Can not upgrade"
+msgstr "Nuk mund të aktualizoj"
+
+#: ../DistUpgrade/DistUpgradeController.py:350
+#, python-format
+msgid "An upgrade from '%s' to '%s' is not supported with this tool."
+msgstr "Një përditësim nga '%s' në '%s' nuk suportohet me këtë mjet."
+
+#: ../DistUpgrade/DistUpgradeController.py:359
+msgid "Sandbox setup failed"
+msgstr "Instalimi i Sandbox dështoi"
+
+#: ../DistUpgrade/DistUpgradeController.py:360
+msgid "It was not possible to create the sandbox environment."
+msgstr "Nuk qe e mundur të krijohej ambienti i sandbox."
+
+#: ../DistUpgrade/DistUpgradeController.py:366
+msgid "Sandbox mode"
+msgstr "Mënyra Sandbox"
+
+#: ../DistUpgrade/DistUpgradeController.py:367
+#, python-format
+msgid ""
+"This upgrade is running in sandbox (test) mode. All changes are written to "
+"'%s' and will be lost on the next reboot.\n"
+"\n"
+"*No* changes written to a systemdir from now until the next reboot are "
+"permanent."
+msgstr ""
+"Ky përditësim është nisur në mënyrën sandbox (test). Të gjitha ndryshimet e "
+"shkruajtura në '%s' do të humbasin në rindezjen tjetër.\n"
+"\n"
+"*Asnjë* ndryshim i shkruajtur në systemdir tani e tutje nuk do të jetë i "
+"përhershëm në rindezjen tjetër."
+
+#: ../DistUpgrade/DistUpgradeController.py:395
+msgid ""
+"Your python install is corrupted. Please fix the '/usr/bin/python' symlink."
+msgstr ""
+"Instalimi juaj i python është i dëmtuar. Ju lutemi rregulloni "
+"'/usr/bin/python' symlink."
+
+#: ../DistUpgrade/DistUpgradeController.py:421
+msgid "Package 'debsig-verify' is installed"
+msgstr "Paketa 'debsig-verify' është instaluar"
+
+#: ../DistUpgrade/DistUpgradeController.py:422
+msgid ""
+"The upgrade can not continue with that package installed.\n"
+"Please remove it with synaptic or 'apt-get remove debsig-verify' first and "
+"run the upgrade again."
+msgstr ""
+"Përditësimi nuk mund të vazhdojë me atë paketë të instaluar.\n"
+"Ju lutemi hiqeni paraprakisht me synaptic ose 'apt-get remove debsig-verify' "
+"dhe nisni përditësimin përsëri."
+
+#: ../DistUpgrade/DistUpgradeController.py:432
+msgid "Include latest updates from the Internet?"
+msgstr "Të përfshijmë edhe përditësimet e fundit nga Interneti?"
+
+#: ../DistUpgrade/DistUpgradeController.py:433
+msgid ""
+"The upgrade system can use the internet to automatically download the latest "
+"updates and install them during the upgrade.  If you have a network "
+"connection this is highly recommended.\n"
+"\n"
+"The upgrade will take longer, but when it is complete, your system will be "
+"fully up to date.  You can choose not to do this, but you should install the "
+"latest updates soon after upgrading.\n"
+"If you answer 'no' here, the network is not used at all."
+msgstr ""
+"Sistemi i përditësimit mund të përdorë internetin për të shkarkuar "
+"automatikisht përditësimet e fundit dhe për t'i instaluar ato gjatë "
+"përditësimit. Nëse keni një lidhje me rrjetin j'ua rekomandojmë nxehtësisht "
+"këtë.\n"
+"\n"
+"Përditësimi do të zgjasë më shumë, por kur të kompletohet, sistemi juaj do "
+"të jetë tërësisht i përditësuar. Ju mund të zgjidhni të mos e bëni këtë, por "
+"ju duhet të instaloni përditësimet e fundit me njëherë pas instalimit.\n"
+"Nëse përgjigjeni 'jo' këtu, rrjeti nuk do të përdoret fare."
+
+#: ../DistUpgrade/DistUpgradeController.py:653
+#, python-format
+msgid "disabled on upgrade to %s"
+msgstr "u çaktivizua në përditësimin e %s"
+
+#: ../DistUpgrade/DistUpgradeController.py:680
+msgid "No valid mirror found"
+msgstr "Nuk u gjet asnjë lidhje e vlefshme"
+
+#: ../DistUpgrade/DistUpgradeController.py:681
+#, python-format
+msgid ""
+"While scanning your repository information no mirror entry for the upgrade "
+"was found. This can happen if you run a internal mirror or if the mirror "
+"information is out of date.\n"
+"\n"
+"Do you want to rewrite your 'sources.list' file anyway? If you choose 'Yes' "
+"here it will update all '%s' to '%s' entries.\n"
+"If you select 'No' the upgrade will cancel."
+msgstr ""
+"Ndërkohë që po skanonim informacionin e magazinave tuaja nuk u gjet një "
+"pasqyrë për përditësim. Kjo mund të ndodhë kur ju keni një pasqyrë të "
+"brendshme ose kur informacioni i pasqyrës nuk është i përditësuar.\n"
+"Dëshironi ta rishkruani gjithësesi skedarin tuaj 'sources.list'? Nëse "
+"zgjidhni 'Po' këtu ai do t'i përditësojë të gjitha hyrjet '%s' tek '%s'.\n"
+"Nëse zgjidhni 'Jo' përditësimi do të anullohet."
+
+#. hm, still nothing useful ...
+#: ../DistUpgrade/DistUpgradeController.py:701
+msgid "Generate default sources?"
+msgstr "Të gjenerojmë resurset e parazgjedhura?"
+
+#: ../DistUpgrade/DistUpgradeController.py:702
+#, python-format
+msgid ""
+"After scanning your 'sources.list' no valid entry for '%s' was found.\n"
+"\n"
+"Should default entries for '%s' be added? If you select 'No', the upgrade "
+"will cancel."
+msgstr ""
+"Pasi skanuam 'sources.list' nuk u gjet një hyrje e vlefshme '%s'.\n"
+"\n"
+"A duhet të shtohen hyrjet e parazgjedhura për '%s'? Nëse zgjidhni 'Jo', "
+"përditësimi do të anullohet."
+
+#: ../DistUpgrade/DistUpgradeController.py:737
+msgid "Repository information invalid"
+msgstr "Informacioni i magazinës është i pavlefshëm"
+
+#: ../DistUpgrade/DistUpgradeController.py:738
+msgid ""
+"Upgrading the repository information resulted in a invalid file. Please "
+"report this as a bug using the command 'ubuntu-bug update-manager' in a "
+"terminal."
+msgstr ""
+"Përditësimi i informacionit të magazinës rezultoi në një skedar të "
+"pavlefshëm. Ju lutemi ta raportoni këtë gabim duke përdorur komandën 'ubuntu-"
+"bug update-manager' në një terminal."
+
+#: ../DistUpgrade/DistUpgradeController.py:746
+msgid "Third party sources disabled"
+msgstr "Burimet e palëve të treta janë çaktivizuar"
+
+#: ../DistUpgrade/DistUpgradeController.py:747
+msgid ""
+"Some third party entries in your sources.list were disabled. You can re-"
+"enable them after the upgrade with the 'software-properties' tool or your "
+"package manager."
+msgstr ""
+"Disa hyrje nga palë të treta në sources.list u çaktivizuan. Ju mund t'i "
+"riaktivizoni ato pas përditësimit me mjetin 'parametrat e programeve' ose me "
+"menaxhuesin tuaj të paketave."
+
+#: ../DistUpgrade/DistUpgradeController.py:787
+msgid "Package in inconsistent state"
+msgid_plural "Packages in inconsistent state"
+msgstr[0] "Paketë në gjendje të paqëndrueshme"
+msgstr[1] "Paketa në gjendje të paqëndrueshme"
+
+#: ../DistUpgrade/DistUpgradeController.py:790
+#, python-format
+msgid ""
+"The package '%s' is in an inconsistent state and needs to be reinstalled, "
+"but no archive can be found for it. Please reinstall the package manually or "
+"remove it from the system."
+msgid_plural ""
+"The packages '%s' are in an inconsistent state and need to be reinstalled, "
+"but no archive can be found for them. Please reinstall the packages manually "
+"or remove them from the system."
+msgstr[0] ""
+"Paketa '%s' është në një gjendje jo të qëndrueshme dhe duhet riinstaluar, "
+"por për të nuk mund të gjendet asnjë arkiv. ju lutemi riinstalojeni paketën "
+"në mënyrë manuale ose hiqeni nga sistemi."
+msgstr[1] ""
+"Paketat '%s' janë në një gjendje jo të qëndrueshme dhe duhen riinstaluar, "
+"por për to nuk mund të gjendet asnjë arkiv. ju lutemi riinstalojini paketat "
+"në mënyrë manuale ose hiqini nga sistemi."
+
+#: ../DistUpgrade/DistUpgradeController.py:838
+msgid "Error during update"
+msgstr "Gabim gjatë përditësimit"
+
+#: ../DistUpgrade/DistUpgradeController.py:839
+msgid ""
+"A problem occurred during the update. This is usually some sort of network "
+"problem, please check your network connection and retry."
+msgstr ""
+"Ndodhi një problem gjatë përditësimit. Ky zakonisht është një lloj problemi "
+"me rrjetin, ju lutemi kontrolloni lidhjen tuaj me rrjetin dhe provojeni "
+"përsëri."
+
+#. print "on_button_install_clicked"
+#: ../DistUpgrade/DistUpgradeController.py:848
+#: ../UpdateManager/UpdateManager.py:747
+msgid "Not enough free disk space"
+msgstr "Nuk ka hapësirë të lirë sa duhet"
+
+#: ../DistUpgrade/DistUpgradeController.py:849
+#, python-format
+msgid ""
+"The upgrade has aborted. The upgrade needs a total of %s free space on disk "
+"'%s'. Please free at least an additional %s of disk space on '%s'. Empty "
+"your trash and remove temporary packages of former installations using 'sudo "
+"apt-get clean'."
+msgstr ""
+"Ky përditësim u anullua. Përditësimi ka nevojë për një total prej %s "
+"hapësirë të lirë në diskun '%s'. Ju lutemi të lironi të paktën %s hapësirë "
+"shtesë në diskun '%s'. Zbrazni koshin e mbeturinave dhe hiqni paketat e "
+"përkohshme të instalimeve të mëparshme duke përdorur 'sudo apt-get clean'."
+
+#. calc the dist-upgrade and see if the removals are ok/expected
+#. do the dist-upgrade
+#: ../DistUpgrade/DistUpgradeController.py:878
+#: ../DistUpgrade/DistUpgradeController.py:1630
+msgid "Calculating the changes"
+msgstr "Duke llogaritur ndryshimet"
+
+#. ask the user
+#: ../DistUpgrade/DistUpgradeController.py:910
+msgid "Do you want to start the upgrade?"
+msgstr "Dëshironi të nisni përditësimin?"
+
+#: ../DistUpgrade/DistUpgradeController.py:976
+msgid "Upgrade canceled"
+msgstr "Përditësimi u anullua"
+
+#: ../DistUpgrade/DistUpgradeController.py:977
+msgid ""
+"The upgrade will cancel now and the original system state will be restored. "
+"You can resume the upgrade at a later time."
+msgstr ""
+"Përditësimi do të anullohet tani dhe do të kthehet gjendja origjinale e "
+"sistemit. Ju mund ta rinisni përditësimin më vonë."
+
+#: ../DistUpgrade/DistUpgradeController.py:983
+#: ../DistUpgrade/DistUpgradeController.py:1109
+msgid "Could not download the upgrades"
+msgstr "Nuk mund të aktualizohen, shkarkimet"
+
+#: ../DistUpgrade/DistUpgradeController.py:984
+msgid ""
+"The upgrade has aborted. Please check your Internet connection or "
+"installation media and try again. All files downloaded so far have been kept."
+msgstr ""
+"Përditësimi u anullua. Ju lutemi të kontrolloni lidhjen tuaj me internatin "
+"apo median tuaj të instalimit dhe ta provoni përsëri. Të gjithë skedarët e "
+"shkarkuar deri në këtë moment janë mbajtur."
+
+#. FIXME: strings are not good, but we are in string freeze
+#. currently
+#: ../DistUpgrade/DistUpgradeController.py:1060
+#: ../DistUpgrade/DistUpgradeController.py:1097
+#: ../DistUpgrade/DistUpgradeController.py:1202
+msgid "Error during commit"
+msgstr "Gabim gjatë vendosjes"
+
+#. generate a new cache
+#: ../DistUpgrade/DistUpgradeController.py:1062
+#: ../DistUpgrade/DistUpgradeController.py:1099
+#: ../DistUpgrade/DistUpgradeController.py:1241
+msgid "Restoring original system state"
+msgstr "Duke kthyer gjendjen origjinale të sistemit"
+
+#: ../DistUpgrade/DistUpgradeController.py:1063
+#: ../DistUpgrade/DistUpgradeController.py:1078
+#: ../DistUpgrade/DistUpgradeController.py:1100
+msgid "Could not install the upgrades"
+msgstr "Nuk mund të instalohen, aktualizimet"
+
+#. invoke the frontend now and show a error message
+#: ../DistUpgrade/DistUpgradeController.py:1068
+msgid ""
+"The upgrade has aborted. Your system could be in an unusable state. A "
+"recovery will run now (dpkg --configure -a)."
+msgstr ""
+"Përditësimi u anullua. Sistemi juaj mund të jetë në një gjendje të "
+"paqëndrueshme. Tani do të nisë rekuperimi (dpkg --configure -a)."
+
+#: ../DistUpgrade/DistUpgradeController.py:1073
+#, python-format
+msgid ""
+"\n"
+"\n"
+"Please report this bug using the command 'ubuntu-bug update-manager' in a "
+"terminal and include the files in /var/log/dist-upgrade/ in the bug report.\n"
+"%s"
+msgstr ""
+"\n"
+"\n"
+"Ju lutemi ta raportoni këtë gabim duke përdorur komandën 'ubuntu-bug update-"
+"manager' në një terminal dhe përfshini skedarët tek /var/log/dist-upgrade/ "
+"në raportin e gabimit.\n"
+"%s"
+
+#: ../DistUpgrade/DistUpgradeController.py:1110
+msgid ""
+"The upgrade has aborted. Please check your Internet connection or "
+"installation media and try again. "
+msgstr ""
+"Përditësimi u anullua. Ju lutemi të kontrolloni lidhjen tuaj me internetin "
+"apo median e instalimit dhe të provoni përsëri. "
+
+#: ../DistUpgrade/DistUpgradeController.py:1190
+msgid "Remove obsolete packages?"
+msgstr "Ti heqim paketat e vjetra?"
+
+#: ../DistUpgrade/DistUpgradeController.py:1191
+#: ../DistUpgrade/DistUpgrade.ui.h:22
+msgid "_Keep"
+msgstr "_Mbaj"
+
+#: ../DistUpgrade/DistUpgradeController.py:1191
+msgid "_Remove"
+msgstr "_Hiqe"
+
+#: ../DistUpgrade/DistUpgradeController.py:1203
+msgid ""
+"A problem occurred during the clean-up. Please see the below message for "
+"more information. "
+msgstr ""
+"Një problem ndodhi gjatë pastrimit. ju lutemi shikoni mesazhin e mësipërm "
+"për më tepër informacion. "
+
+#. FIXME: instead of error out, fetch and install it
+#. here
+#: ../DistUpgrade/DistUpgradeController.py:1279
+msgid "Required depends is not installed"
+msgstr "Vartësitë e kërkuara nuk janë instaluar"
+
+#: ../DistUpgrade/DistUpgradeController.py:1280
+#, python-format
+msgid "The required dependency '%s' is not installed. "
+msgstr "Vartësia e kërkuar '%s' nuk është instaluar. "
+
+#. sanity check (check for ubuntu-desktop, brokenCache etc)
+#. then open the cache (again)
+#: ../DistUpgrade/DistUpgradeController.py:1527
+#: ../DistUpgrade/DistUpgradeController.py:1597
+msgid "Checking package manager"
+msgstr "Duke kontrolluar menaxhuesin e paketave"
+
+#: ../DistUpgrade/DistUpgradeController.py:1532
+msgid "Preparing the upgrade failed"
+msgstr "Përgatitja e përditësimit dështoi"
+
+#: ../DistUpgrade/DistUpgradeController.py:1533
+msgid ""
+"Preparing the system for the upgrade failed. Please report this using the "
+"command 'ubuntu-bug update-manager' in a terminal and include the files in "
+"/var/log/dist-upgrade/ in the bug report."
+msgstr ""
+"Përgatitja e sistemit për përditësim dështoi. Ju lutemi ta raportoni këtë "
+"duke përdorur komandën 'ubuntu-bug update-manager' në një terminal dhe "
+"përfshini skedarët tek /var/log/dist-upgrade/ në raportin e gabimit."
+
+#: ../DistUpgrade/DistUpgradeController.py:1549
+msgid "Getting upgrade prerequisites failed"
+msgstr "Marrja e kërkesave të përditësimit dështoi"
+
+#: ../DistUpgrade/DistUpgradeController.py:1550
+msgid ""
+"The system was unable to get the prerequisites for the upgrade. The upgrade "
+"will abort now and restore the original system state.\n"
+"\n"
+"Please report this as a bug using the command 'ubuntu-bug update-manager' in "
+"a terminal and include the files in /var/log/dist-upgrade/ in the bug report."
+msgstr ""
+"Sistemi nuk është në gjendje tëmarrë kërkesat paraprake për përditësim. "
+"Përditësimi tani do të anullohet dhe do të kthehet në gjendjen origjinale të "
+"sistemit.\n"
+"\n"
+"Ju lutemi ta raportoni këtë gabim duke përdorur komandën 'ubuntu-bug update-"
+"manager' në një terminal dhe duke përfshirë skedarët tek /var/log/dist-"
+"upgrade/ në raportin e gabimit."
+
+#: ../DistUpgrade/DistUpgradeController.py:1581
+msgid "Updating repository information"
+msgstr "Duke përditësuar informacionin e magazinës"
+
+#: ../DistUpgrade/DistUpgradeController.py:1588
+msgid "Failed to add the cdrom"
+msgstr "Dështova në shtimin e cdrom"
+
+#: ../DistUpgrade/DistUpgradeController.py:1589
+msgid "Sorry, adding the cdrom was not successful."
+msgstr "Më vjen keq, shtimi i cdrom nuk qe i suksesshëm."
+
+#: ../DistUpgrade/DistUpgradeController.py:1617
+msgid "Invalid package information"
+msgstr "Informacion i pavlefshëm i paketave"
+
+#: ../DistUpgrade/DistUpgradeController.py:1618
+#, python-format
+msgid ""
+"After your package information was updated the essential package '%s' can "
+"not be found anymore.\n"
+"This indicates a serious error, please report this bug using the command "
+"'ubuntu-bug update-manager' in a terminal and include the files in "
+"/var/log/dist-upgrade/ in the bug report."
+msgstr ""
+"Pasi informacioni i paketave tuaja u përditësua paketa thelbësore '%s' nuk "
+"mund të gjendet më.\n"
+"Kjo tregon një gabim serioz, ju lutemi ta raportoni këtë gabim duke përdorur "
+"komandën 'ubuntu-bug update-manager' në një terminal dhe përdorni skedarët "
+"tek /var/log/dist-upgrade/ në raportin e gabimit."
+
+#: ../DistUpgrade/DistUpgradeController.py:1636
+#: ../DistUpgrade/DistUpgradeController.py:1689
+msgid "Fetching"
+msgstr "Duke mbledhur"
+
+#: ../DistUpgrade/DistUpgradeController.py:1642
+#: ../DistUpgrade/DistUpgradeController.py:1693
+msgid "Upgrading"
+msgstr "Aktualizo"
+
+#. don't abort here, because it would restore the sources.list
+#: ../DistUpgrade/DistUpgradeController.py:1647
+#: ../DistUpgrade/DistUpgradeController.py:1695
+#: ../DistUpgrade/DistUpgradeController.py:1702
+#: ../DistUpgrade/DistUpgradeController.py:1713
+msgid "Upgrade complete"
+msgstr "Aktualizimi përfundoi"
+
+#: ../DistUpgrade/DistUpgradeController.py:1648
+#: ../DistUpgrade/DistUpgradeController.py:1696
+#: ../DistUpgrade/DistUpgradeController.py:1703
+msgid ""
+"The upgrade has completed but there were errors during the upgrade process."
+msgstr ""
+"Përditësimi u kompletua por pati gabime gjatë proçesit të përditësimit."
+
+#: ../DistUpgrade/DistUpgradeController.py:1655
+msgid "Searching for obsolete software"
+msgstr "Duke kërkuar për programe të vjetra"
+
+#: ../DistUpgrade/DistUpgradeController.py:1664
+msgid "System upgrade is complete."
+msgstr "Aktualizimi i sistemit është komplet"
+
+#: ../DistUpgrade/DistUpgradeController.py:1714
+msgid "The partial upgrade was completed."
+msgstr "Përditësimi i pjesshëm nuk u kompletua."
+
+#: ../DistUpgrade/DistUpgradeQuirks.py:201
+msgid "evms in use"
+msgstr "evms është në përdorim"
+
+#: ../DistUpgrade/DistUpgradeQuirks.py:202
+msgid ""
+"Your system uses the 'evms' volume manager in /proc/mounts. The 'evms' "
+"software is no longer supported, please switch it off and run the upgrade "
+"again when this is done."
+msgstr ""
+"Sistemi juaj përdor menaxhuesin e volumit 'evms' në /proc/mounts. Programi "
+"'evms' nuk suportohet më, ju lutemi fikeni atë dhe nisni përditësimin "
+"përsëri kur të keni mbaruar."
+
+#: ../DistUpgrade/DistUpgradeQuirks.py:506
+msgid "Your graphics hardware may not be fully supported in Ubuntu 11.04."
+msgstr ""
+"Hardueri i grafikëve tuaj mund të mos suportohet plotësisht në Ubuntu 11.04."
+
+#: ../DistUpgrade/DistUpgradeQuirks.py:508
+msgid ""
+"The support in Ubuntu 11.04 for your intel graphics hardware is limited and "
+"you may encounter problems after the upgrade. Do you want to continue with "
+"the upgrade?"
+msgstr ""
+"Mbështetja në Ubuntu 11.04 për harduerin e grafikëve Intel që ju keni është "
+"i kufizuar dhe ju mund të hasni në probleme pas përditësimit. Dëshironi të "
+"vazhdoni me përditësimin?"
+
+#: ../DistUpgrade/DistUpgradeQuirks.py:528
+#: ../DistUpgrade/DistUpgradeQuirks.py:556
+#: ../DistUpgrade/DistUpgradeQuirks.py:583
+msgid ""
+"Upgrading may reduce desktop effects, and performance in games and other "
+"graphically intensive programs."
+msgstr ""
+"Përditësimi mund të pakësojë efektet e desktopit, performancën e lojërave "
+"dhe të programeve të tjerë me grafikë intensivë."
+
+#: ../DistUpgrade/DistUpgradeQuirks.py:532
+#: ../DistUpgrade/DistUpgradeQuirks.py:560
+msgid ""
+"This computer is currently using the NVIDIA 'nvidia' graphics driver. No "
+"version of this driver is available that works with your video card in "
+"Ubuntu 10.04 LTS.\n"
+"\n"
+"Do you want to continue?"
+msgstr ""
+"Ky kompjuter për momentin po përdorin driverin e grafikëve NVIDIA 'nvidia'. "
+"Nuk ka një version të disponueshëm të këtij driveri që të punojë me kartën "
+"tuaj video në Ubuntu 10.04 LTS.\n"
+"\n"
+"Dëshironi të vazhdoni?"
+
+#: ../DistUpgrade/DistUpgradeQuirks.py:587
+msgid ""
+"This computer is currently using the AMD 'fglrx' graphics driver. No version "
+"of this driver is available that works with your hardware in Ubuntu 10.04 "
+"LTS.\n"
+"\n"
+"Do you want to continue?"
+msgstr ""
+"Ky kompjuter për momentin po përdorin driverin e grafikëve AMD 'fglrx'. Nuk "
+"ka një version të disponueshëm të këtij driveri që të punojë me kartën tuaj "
+"video në Ubuntu 10.04 LTS.\n"
+"\n"
+"Dëshironi të vazhdoni?"
+
+#: ../DistUpgrade/DistUpgradeQuirks.py:617
+msgid "No i686 CPU"
+msgstr "Jo i686 CPU"
+
+#: ../DistUpgrade/DistUpgradeQuirks.py:618
+msgid ""
+"Your system uses an i586 CPU or a CPU that does not have the 'cmov' "
+"extension. All packages were built with optimizations requiring i686 as the "
+"minimal architecture. It is not possible to upgrade your system to a new "
+"Ubuntu release with this hardware."
+msgstr ""
+"Sistemi juaj përdor një CPU i586 ose një CPU që nuk e ka zgjatimin 'cmov'. "
+"Të gjitha paketat janë ndërtuar me përmirësime që kërkojnë i686 si "
+"arkitekturë minimale. Nuk është e mundur ta përditësoni sistemin tuaj në një "
+"version të ri të Ubuntu me këtë hardware."
+
+#: ../DistUpgrade/DistUpgradeQuirks.py:654
+msgid "No ARMv6 CPU"
+msgstr "Jo ARMv6 CPU"
+
+#: ../DistUpgrade/DistUpgradeQuirks.py:655
+msgid ""
+"Your system uses an ARM CPU that is older than the ARMv6 architecture. All "
+"packages in karmic were built with optimizations requiring ARMv6 as the "
+"minimal architecture. It is not possible to upgrade your system to a new "
+"Ubuntu release with this hardware."
+msgstr ""
+"Sistemi juaj përdor një ARM CPU i cili është më i vjetër se arkitektura "
+"ARMv6. Të gjitha paketat në KArmic janë ndërtuar me përmirësime që kërkojnë "
+"ARMv6 si arkitekturë minimale. Nuk është e mundur ta përditësoni sistemin "
+"tuaj në një version të ri të Ubuntu me këtë hardware."
+
+#: ../DistUpgrade/DistUpgradeQuirks.py:675
+msgid "No init available"
+msgstr "Nuk ka init të disponueshëm"
+
+#: ../DistUpgrade/DistUpgradeQuirks.py:676
+msgid ""
+"Your system appears to be a virtualised environment without an init daemon, "
+"e.g. Linux-VServer. Ubuntu 10.04 LTS cannot function within this type of "
+"environment, requiring an update to your virtual machine configuration "
+"first.\n"
+"\n"
+"Are you sure you want to continue?"
+msgstr ""
+"Sistemi juaj duket se është një ambient i virtulizuar pa një init daemon, "
+"pra Linux-VServer. Ubuntu 10.04 LTS nuk mund të funksionojë brenda këtij "
+"lloj ambienti, sepse kërkon që fillimisht ju t'i bëni një përditësim "
+"konfigurimit të makinës suaj virtuale.\n"
+"\n"
+"Jeni i sigurtë që dëshironi të vazhdoni?"
+
+#: ../DistUpgrade/DistUpgradeMain.py:45
+msgid "Sandbox upgrade using aufs"
+msgstr "Po përditësojmë Sandbox duke përdorur aufs"
+
+#: ../DistUpgrade/DistUpgradeMain.py:47
+msgid "Use the given path to search for a cdrom with upgradable packages"
+msgstr ""
+"Përdor shkurtoren e dhënë për të kërkuar për një cdrom me paketa të "
+"përditësueshme"
+
+#: ../DistUpgrade/DistUpgradeMain.py:53
+msgid ""
+"Use frontend. Currently available: \n"
+"DistUpgradeViewText, DistUpgradeViewGtk, DistUpgradeViewKDE"
+msgstr ""
+"Përdor frontend. E disponueshme për momentin: \n"
+"DistUpgradeViewText, DistUpgradeViewGtk, DistUpgradeViewKDE"
+
+#: ../DistUpgrade/DistUpgradeMain.py:56
+msgid "*DEPRECATED* this option will be ignored"
+msgstr "*DEPRECATED* ky opsion do të shpërfillet."
+
+#: ../DistUpgrade/DistUpgradeMain.py:59
+msgid "Perform a partial upgrade only (no sources.list rewriting)"
+msgstr "Kryej një përditësim të pjesshëm (pa rishkruar sources.list)"
+
+#: ../DistUpgrade/DistUpgradeMain.py:62
+msgid "Disable GNU screen support"
+msgstr "Çaktivizo mbështetjen për ekranin e GNU"
+
+#: ../DistUpgrade/DistUpgradeMain.py:64
+msgid "Set datadir"
+msgstr "Vendos datadir"
+
+#. print "mediaChange %s %s" % (medium, drive)
+#: ../DistUpgrade/DistUpgradeViewGtk.py:114
+#: ../DistUpgrade/DistUpgradeViewGtk3.py:117
+#: ../DistUpgrade/DistUpgradeViewKDE.py:189
+#: ../UpdateManager/DistUpgradeFetcherKDE.py:147
+#, python-format
+msgid "Please insert '%s' into the drive '%s'"
+msgstr "Ju lutem Fut '%s' Në ngases '%s'"
+
+#: ../DistUpgrade/DistUpgradeViewGtk.py:135
+#: ../DistUpgrade/DistUpgradeViewGtk3.py:138
+#: ../DistUpgrade/DistUpgradeViewKDE.py:203
+msgid "Fetching is complete"
+msgstr "Marrja u kompletua"
+
+#: ../DistUpgrade/DistUpgradeViewGtk.py:146
+#: ../DistUpgrade/DistUpgradeViewGtk3.py:149
+#: ../DistUpgrade/DistUpgradeViewKDE.py:216
+#, python-format
+msgid "Fetching file %li of %li at %sB/s"
+msgstr "Duke marrë skedarin %li e %li në %sB/s"
+
+#: ../DistUpgrade/DistUpgradeViewGtk.py:149
+#: ../DistUpgrade/DistUpgradeViewGtk.py:295
+#: ../DistUpgrade/DistUpgradeViewGtk3.py:152
+#: ../DistUpgrade/DistUpgradeViewGtk3.py:301
+#: ../DistUpgrade/DistUpgradeViewKDE.py:217
+#: ../DistUpgrade/DistUpgradeViewKDE.py:361
+#, python-format
+msgid "About %s remaining"
+msgstr "Rreth %s të mbetura"
+
+#: ../DistUpgrade/DistUpgradeViewGtk.py:152
+#: ../DistUpgrade/DistUpgradeViewGtk3.py:155
+#: ../DistUpgrade/DistUpgradeViewKDE.py:219
+#, python-format
+msgid "Fetching file %li of %li"
+msgstr "Duke marrë skedarin %li të %li"
+
+#. FIXME: add support for the timeout
+#. of the terminal (to display something useful then)
+#. -> longer term, move this code into python-apt
+#: ../DistUpgrade/DistUpgradeViewGtk.py:183
+#: ../DistUpgrade/DistUpgradeViewGtk3.py:186
+#: ../DistUpgrade/DistUpgradeViewKDE.py:253
+msgid "Applying changes"
+msgstr "Duke aplikuar ndryshimet"
+
+#. we do not report followup errors from earlier failures
+#: ../DistUpgrade/DistUpgradeViewGtk.py:208
+#: ../DistUpgrade/DistUpgradeViewGtk3.py:211
+#: ../DistUpgrade/DistUpgradeViewKDE.py:266
+msgid "dependency problems - leaving unconfigured"
+msgstr "probleme vartësie - po e lëmë të pakonfiguruar"
+
+#: ../DistUpgrade/DistUpgradeViewGtk.py:213
+#: ../DistUpgrade/DistUpgradeViewGtk3.py:216
+#: ../DistUpgrade/DistUpgradeViewKDE.py:268
+#, python-format
+msgid "Could not install '%s'"
+msgstr "Nuk mund të instalojmë '%s'"
+
+#: ../DistUpgrade/DistUpgradeViewGtk.py:214
+#: ../DistUpgrade/DistUpgradeViewGtk3.py:217
+#: ../DistUpgrade/DistUpgradeViewKDE.py:269
+#, python-format
+msgid ""
+"The upgrade will continue but the '%s' package may not be in a working "
+"state. Please consider submitting a bug report about it."
+msgstr ""
+"Përditësimi do të vazhdojë por paketa '%s' mund të mos jetë në gjendje pune. "
+"ju lutemi të konsideroni lëshimin e një raporti të defektit rreth saj."
+
+#. self.expander.set_expanded(True)
+#: ../DistUpgrade/DistUpgradeViewGtk.py:231
+#: ../DistUpgrade/DistUpgradeViewGtk3.py:234
+#: ../DistUpgrade/DistUpgradeViewKDE.py:290
+#, python-format
+msgid ""
+"Replace the customized configuration file\n"
+"'%s'?"
+msgstr ""
+"Zëvendëso skedarin e përshtatur të konfigurimit\n"
+"'%s'?"
+
+#: ../DistUpgrade/DistUpgradeViewGtk.py:232
+#: ../DistUpgrade/DistUpgradeViewGtk3.py:235
+#: ../DistUpgrade/DistUpgradeViewKDE.py:291
+msgid ""
+"You will lose any changes you have made to this configuration file if you "
+"choose to replace it with a newer version."
+msgstr ""
+"Ju do të humbisni çdo ndryshim që i keni bërë këtij skedari konfigurimi nëse "
+"vendosni që ta zëvendësoni atë me një version më të ri."
+
+#: ../DistUpgrade/DistUpgradeViewGtk.py:250
+#: ../DistUpgrade/DistUpgradeViewGtk3.py:253
+#: ../DistUpgrade/DistUpgradeViewKDE.py:313
+msgid "The 'diff' command was not found"
+msgstr "Komanda 'diff' nuk u gjet"
+
+#: ../DistUpgrade/DistUpgradeViewGtk.py:463
+#: ../DistUpgrade/DistUpgradeViewGtk3.py:469
+#: ../DistUpgrade/DistUpgradeViewText.py:90
+msgid "A fatal error occurred"
+msgstr "Ndodhi një gabim fatal"
+
+#: ../DistUpgrade/DistUpgradeViewGtk.py:464
+#: ../DistUpgrade/DistUpgradeViewGtk3.py:470
+msgid ""
+"Please report this as a bug (if you haven't already) and include the files "
+"/var/log/dist-upgrade/main.log and /var/log/dist-upgrade/apt.log in your "
+"report. The upgrade has aborted.\n"
+"Your original sources.list was saved in /etc/apt/sources.list.distUpgrade."
+msgstr ""
+"Ju lutemi ta raportoni këtë gabim (nëse nuk e keni bërë tashmë) dhe "
+"përfshini skedarët /var/log/dist-upgrade/main.log dhe /var/log/dist-"
+"upgrade/apt.log në raportin tuaj. Përditësimi u anullua.\n"
+"Origjinali i sources.list u ruajt tek /etc/apt/sources.list.distUpgrade."
+
+#: ../DistUpgrade/DistUpgradeViewGtk.py:481
+#: ../DistUpgrade/DistUpgradeViewGtk3.py:487
+msgid "Ctrl-c pressed"
+msgstr "Ctrl-c i shtypur"
+
+#: ../DistUpgrade/DistUpgradeViewGtk.py:482
+#: ../DistUpgrade/DistUpgradeViewGtk3.py:488
+msgid ""
+"This will abort the operation and may leave the system in a broken state. "
+"Are you sure you want to do that?"
+msgstr ""
+"Kjo mund të ndërpresë këtë operacion dhe bërë që sistemi të jetë jo i "
+"qëndrueshëm. A jeni të sigurtë, se dëshironi ta bëni këtë?"
+
+#. append warning
+#: ../DistUpgrade/DistUpgradeViewGtk.py:630
+#: ../DistUpgrade/DistUpgradeViewGtk3.py:621
+msgid "To prevent data loss close all open applications and documents."
+msgstr ""
+"Për të parandaluar humbjen e të dhënave mbyllni të gjitha programet dhe "
+"dokumentat e hapura."
+
+#: ../DistUpgrade/DistUpgradeViewGtk.py:644
+#: ../DistUpgrade/DistUpgradeViewGtk3.py:635
+#, python-format
+msgid "No longer supported by Canonical (%s)"
+msgstr "Nuk suportohet më nga Canonical (%s)"
+
+#: ../DistUpgrade/DistUpgradeViewGtk.py:645
+#: ../DistUpgrade/DistUpgradeViewGtk3.py:636
+#, python-format
+msgid "<b>Downgrade (%s)</b>"
+msgstr "<b>Ulje në Shkallë (%s)</b>"
+
+#: ../DistUpgrade/DistUpgradeViewGtk.py:646
+#: ../DistUpgrade/DistUpgradeViewGtk3.py:637
+#, python-format
+msgid "Remove (%s)"
+msgstr "Hiqe (%s)"
+
+#: ../DistUpgrade/DistUpgradeViewGtk.py:647
+#: ../DistUpgrade/DistUpgradeViewGtk3.py:638
+#, python-format
+msgid "No longer needed (%s)"
+msgstr "Nuk nevojitet më (%s)"
+
+#: ../DistUpgrade/DistUpgradeViewGtk.py:648
+#: ../DistUpgrade/DistUpgradeViewGtk3.py:639
+#, python-format
+msgid "Install (%s)"
+msgstr "Instalo (%s)"
+
+#: ../DistUpgrade/DistUpgradeViewGtk.py:649
+#: ../DistUpgrade/DistUpgradeViewGtk3.py:640
+#, python-format
+msgid "Upgrade (%s)"
+msgstr "Përditëso (%s)"
+
+#. change = QMessageBox.question(None, _("Media Change"), msg, QMessageBox.Ok, QMessageBox.Cancel)
+#: ../DistUpgrade/DistUpgradeViewKDE.py:190
+#: ../UpdateManager/DistUpgradeFetcherKDE.py:149
+msgid "Media Change"
+msgstr "Ndryshim i Medias"
+
+#: ../DistUpgrade/DistUpgradeViewKDE.py:325
+msgid "Show Difference >>>"
+msgstr "Shfaq Ndryshimin >>>"
+
+#: ../DistUpgrade/DistUpgradeViewKDE.py:328
+msgid "<<< Hide Difference"
+msgstr "<<< Fshihe Ndryshimin"
+
+#: ../DistUpgrade/DistUpgradeViewKDE.py:543
+msgid "Error"
+msgstr "Gabim"
+
+#: ../DistUpgrade/DistUpgradeViewKDE.py:555
+msgid "&Cancel"
+msgstr "&Anullo"
+
+#: ../DistUpgrade/DistUpgradeViewKDE.py:557
+#: ../DistUpgrade/DistUpgradeViewKDE.py:799
+msgid "&Close"
+msgstr "&Mbylle"
+
+#: ../DistUpgrade/DistUpgradeViewKDE.py:603
+msgid "Show Terminal >>>"
+msgstr "Trego Terminalin >>>"
+
+#: ../DistUpgrade/DistUpgradeViewKDE.py:606
+msgid "<<< Hide Terminal"
+msgstr "<<< Fshihe Terminalin"
+
+#: ../DistUpgrade/DistUpgradeViewKDE.py:686
+msgid "Information"
+msgstr "Informacion"
+
+#: ../DistUpgrade/DistUpgradeViewKDE.py:737
+#: ../DistUpgrade/DistUpgradeViewKDE.py:782
+#: ../DistUpgrade/DistUpgradeViewKDE.py:785 ../DistUpgrade/DistUpgrade.ui.h:11
+msgid "Details"
+msgstr "Detajet"
+
+#: ../DistUpgrade/DistUpgradeViewKDE.py:763
+#, python-format
+msgid "No longer supported %s"
+msgstr "Nuk suportohet më %s"
+
+#: ../DistUpgrade/DistUpgradeViewKDE.py:765
+#, python-format
+msgid "Remove %s"
+msgstr "Largo %s"
+
+#: ../DistUpgrade/DistUpgradeViewKDE.py:767
+#: ../DistUpgrade/DistUpgradeViewText.py:179
+#, python-format
+msgid "Remove (was auto installed) %s"
+msgstr "Hiqe (ishte vetë instaluar) %s"
+
+#: ../DistUpgrade/DistUpgradeViewKDE.py:769
+#, python-format
+msgid "Install %s"
+msgstr "Instalo %s"
+
+#: ../DistUpgrade/DistUpgradeViewKDE.py:771
+#, python-format
+msgid "Upgrade %s"
+msgstr "Aktualizo %s"
+
+#: ../DistUpgrade/DistUpgradeViewKDE.py:795
+#: ../DistUpgrade/DistUpgradeViewText.py:227
+msgid "Restart required"
+msgstr "Kërkohet rinisja"
+
+#: ../DistUpgrade/DistUpgradeViewKDE.py:795
+msgid "<b><big>Restart the system to complete the upgrade</big></b>"
+msgstr "<b><big>Rinisni sistemin për të kompletuar përditësimin</big></b>"
+
+#: ../DistUpgrade/DistUpgradeViewKDE.py:798 ../DistUpgrade/DistUpgrade.ui.h:25
+#: ../data/gtkbuilder/UpdateManager.ui.h:32
+msgid "_Restart Now"
+msgstr "_Rinis tani"
+
+#. FIXME make this user friendly
+#: ../DistUpgrade/DistUpgradeViewKDE.py:816
+msgid ""
+"<b><big>Cancel the running upgrade?</big></b>\n"
+"\n"
+"The system could be in an unusable state if you cancel the upgrade. You are "
+"strongly advised to resume the upgrade."
+msgstr ""
+"<b><big>Ta anullojmë përditësimin që po kryhet?</big></b>\n"
+"\n"
+"Sistemi mund të ngelet në një gjendje të paqëndrueshme nëse e anulloni "
+"përditësimin. Ju këshillojmë që ta vazhdoni përditësimin."
+
+#: ../DistUpgrade/DistUpgradeViewKDE.py:820
+msgid "Cancel Upgrade?"
+msgstr "Anullo Aktualizimin?"
+
+#: ../DistUpgrade/DistUpgradeView.py:59
+#, python-format
+msgid "%li day"
+msgid_plural "%li days"
+msgstr[0] "%li ditë"
+msgstr[1] "%li ditët"
+
+#: ../DistUpgrade/DistUpgradeView.py:61
+#, python-format
+msgid "%li hour"
+msgid_plural "%li hours"
+msgstr[0] "%li orë"
+msgstr[1] "%li orë"
+
+#: ../DistUpgrade/DistUpgradeView.py:63
+#, python-format
+msgid "%li minute"
+msgid_plural "%li minutes"
+msgstr[0] "%li minutë"
+msgstr[1] "%li minuta"
+
+#: ../DistUpgrade/DistUpgradeView.py:64
+#, python-format
+msgid "%li second"
+msgid_plural "%li seconds"
+msgstr[0] "%li sekondë"
+msgstr[1] "%li sekonda"
+
+#. TRANSLATORS: you can alter the ordering of the remaining time
+#. information here if you shuffle %(str_days)s %(str_hours)s %(str_minutes)s
+#. around. Make sure to keep all '$(str_*)s' in the translated string
+#. and do NOT change anything appart from the ordering.
+#. 
+#. %(str_hours)s will be either "1 hour" or "2 hours" depending on the
+#. plural form
+#. 
+#. Note: most western languages will not need to change this
+#: ../DistUpgrade/DistUpgradeView.py:80
+#, python-format
+msgid "%(str_days)s %(str_hours)s"
+msgstr "%(str_days)s %(str_hours)s"
+
+#. TRANSLATORS: you can alter the ordering of the remaining time
+#. information here if you shuffle %(str_hours)s %(str_minutes)s
+#. around. Make sure to keep all '$(str_*)s' in the translated string
+#. and do NOT change anything appart from the ordering.
+#. 
+#. %(str_hours)s will be either "1 hour" or "2 hours" depending on the
+#. plural form
+#. 
+#. Note: most western languages will not need to change this
+#: ../DistUpgrade/DistUpgradeView.py:98
+#, python-format
+msgid "%(str_hours)s %(str_minutes)s"
+msgstr "%(str_hours)s %(str_minutes)s"
+
+#. 56 kbit
+#. 1Mbit = 1024 kbit
+#: ../DistUpgrade/DistUpgradeView.py:147
+#, python-format
+msgid ""
+"This download will take about %s with a 1Mbit DSL connection and about %s "
+"with a 56k modem."
+msgstr ""
+"Ky shkarkim do të zgjasë rreth %s me një lidhje 1Mbit DSL dhe rreth %s me "
+"një modem 56k."
+
+#. if we have a estimated speed, use it
+#: ../DistUpgrade/DistUpgradeView.py:151
+#, python-format
+msgid "This download will take about %s with your connection. "
+msgstr "Ky shkarkim do të dojë %s me lidhjen tuaj. "
+
+#: ../DistUpgrade/DistUpgradeView.py:253 ../DistUpgrade/DistUpgrade.ui.h:16
+msgid "Preparing to upgrade"
+msgstr "Duke u përgatitur për përditësim"
+
+#: ../DistUpgrade/DistUpgradeView.py:254
+msgid "Getting new software channels"
+msgstr "Duke marrë kanalet e reja të programeve"
+
+#: ../DistUpgrade/DistUpgradeView.py:255 ../DistUpgrade/DistUpgrade.ui.h:14
+msgid "Getting new packages"
+msgstr "Duke marrë paketat e reja"
+
+#: ../DistUpgrade/DistUpgradeView.py:256 ../DistUpgrade/DistUpgrade.ui.h:15
+msgid "Installing the upgrades"
+msgstr "Duke instaluar përditësimet"
+
+#: ../DistUpgrade/DistUpgradeView.py:257 ../DistUpgrade/DistUpgrade.ui.h:10
+msgid "Cleaning up"
+msgstr "Duke pastruar"
+
+#: ../DistUpgrade/DistUpgradeView.py:342
+#, python-format
+msgid ""
+"%(amount)d installed package is no longer supported by Canonical. You can "
+"still get support from the community."
+msgid_plural ""
+"%(amount)d installed packages are no longer supported by Canonical. You can "
+"still get support from the community."
+msgstr[0] ""
+"%(amount)d paketa e instaluar nuk suportohet më nga Canonical. Ju mund të "
+"merrni prapëseprapë mbështetje nga bashkësia."
+msgstr[1] ""
+"%(amount)d paketat e instaluara nuk suportohen më nga Canonical. Ju mund të "
+"merrni prapëseprapë mbështetje nga bashkësia."
+
+#. FIXME: make those two separate lines to make it clear
+#. that the "%" applies to the result of ngettext
+#: ../DistUpgrade/DistUpgradeView.py:351
+#, python-format
+msgid "%d package is going to be removed."
+msgid_plural "%d packages are going to be removed."
+msgstr[0] "%d paketë do të hiqet."
+msgstr[1] "%d paketa do të hiqen."
+
+#: ../DistUpgrade/DistUpgradeView.py:356
+#, python-format
+msgid "%d new package is going to be installed."
+msgid_plural "%d new packages are going to be installed."
+msgstr[0] "%d paketë e re do të instalohet."
+msgstr[1] "%d paketa të reja do të instalohen."
+
+#: ../DistUpgrade/DistUpgradeView.py:362
+#, python-format
+msgid "%d package is going to be upgraded."
+msgid_plural "%d packages are going to be upgraded."
+msgstr[0] "%d paketë do të përditësohet."
+msgstr[1] "%d paketa do të përditësohen."
+
+#: ../DistUpgrade/DistUpgradeView.py:367
+#, python-format
+msgid ""
+"\n"
+"\n"
+"You have to download a total of %s. "
+msgstr ""
+"\n"
+"\n"
+"Juve ju duhet të shkarkoni një total prej %s. "
+
+#: ../DistUpgrade/DistUpgradeView.py:371
+msgid ""
+"Fetching and installing the upgrade can take several hours. Once the "
+"download has finished, the process cannot be cancelled."
+msgstr ""
+"Marrja dhe instalimi i një përditësimi mund të zgjasë disa orë. Pasi "
+"shkarkimi ka përfunduar, proçesi nuk mund të anullohet."
+
+#. FIXME: this should go into DistUpgradeController
+#: ../DistUpgrade/DistUpgradeView.py:377 ../UpdateManager/UpdateManager.py:664
+msgid "Your system is up-to-date"
+msgstr "Sistemi juaj është i përditësuar"
+
+#: ../DistUpgrade/DistUpgradeView.py:378
+msgid ""
+"There are no upgrades available for your system. The upgrade will now be "
+"canceled."
+msgstr ""
+"Ato aktualizime nuk jan te gatshem per sistemin tuaj. Aktualizimet nuk mun "
+"te largohen."
+
+#: ../DistUpgrade/DistUpgradeView.py:391
+msgid "Reboot required"
+msgstr "Kërkohet rinisja"
+
+#: ../DistUpgrade/DistUpgradeView.py:392
+msgid ""
+"The upgrade is finished and a reboot is required. Do you want to do this now?"
+msgstr ""
+"Përditësimi përfundoi dhe kërkohet një rindezje. Dëshironi ta bëni këtë tani?"
+
+#: ../DistUpgrade/DistUpgradeFetcherCore.py:131
+#: ../DistUpgrade/DistUpgradeFetcherCore.py:132
+#: ../UpdateManager/Core/DistUpgradeFetcherCore.py:131
+#: ../UpdateManager/Core/DistUpgradeFetcherCore.py:132
+msgid "Could not run the upgrade tool"
+msgstr "Nuk mund ta nisim mjetin e përditësimit"
+
+#: ../DistUpgrade/DistUpgradeFetcherCore.py:132
+#: ../UpdateManager/Core/DistUpgradeFetcherCore.py:132
+msgid ""
+"This is most likely a bug in the upgrade tool. Please report it as a bug "
+"using the command 'ubuntu-bug update-manager'."
+msgstr ""
+"Ka mundësi që ky të jetë një gabim tek mjeti i përditësimit. Ju lutemi ta "
+"raportoni këtë si një gabim duke përdorur komandën 'ubuntu-bug update-"
+"manager'."
+
+#: ../DistUpgrade/DistUpgradeFetcherCore.py:207
+#: ../UpdateManager/Core/DistUpgradeFetcherCore.py:207
+msgid "Upgrade tool signature"
+msgstr "Përditësoni firmën e mjeteve"
+
+#: ../DistUpgrade/DistUpgradeFetcherCore.py:214
+#: ../UpdateManager/Core/DistUpgradeFetcherCore.py:214
+msgid "Upgrade tool"
+msgstr "Mjeti përditësues"
+
+#: ../DistUpgrade/DistUpgradeFetcherCore.py:248
+#: ../UpdateManager/Core/DistUpgradeFetcherCore.py:248
+msgid "Failed to fetch"
+msgstr "Dështuam në marrje"
+
+#: ../DistUpgrade/DistUpgradeFetcherCore.py:249
+#: ../UpdateManager/Core/DistUpgradeFetcherCore.py:249
+msgid "Fetching the upgrade failed. There may be a network problem. "
+msgstr "Marrja e përditësimit dështoi. Mund të jetë një problem rrjeti. "
+
+#: ../DistUpgrade/DistUpgradeFetcherCore.py:253
+#: ../UpdateManager/Core/DistUpgradeFetcherCore.py:253
+msgid "Failed to extract"
+msgstr "Dështuam në nxjerrje"
+
+#: ../DistUpgrade/DistUpgradeFetcherCore.py:254
+#: ../UpdateManager/Core/DistUpgradeFetcherCore.py:254
+msgid ""
+"Extracting the upgrade failed. There may be a problem with the network or "
+"with the server. "
+msgstr ""
+"Nxjerrja e përditësimit dështoi. Mund të ketë një problem me rrjetin apo me "
+"serverin. "
+
+#: ../DistUpgrade/DistUpgradeFetcherCore.py:259
+#: ../UpdateManager/Core/DistUpgradeFetcherCore.py:259
+msgid "Verification failed"
+msgstr "Verifikimi dështoi"
+
+#: ../DistUpgrade/DistUpgradeFetcherCore.py:260
+#: ../UpdateManager/Core/DistUpgradeFetcherCore.py:260
+msgid ""
+"Verifying the upgrade failed.  There may be a problem with the network or "
+"with the server. "
+msgstr ""
+"Verifikimi i përditësimit dështoi. Mund të ketë një problem me rrjetin apo "
+"me serverin. "
+
+#: ../DistUpgrade/DistUpgradeFetcherCore.py:265
+#: ../UpdateManager/Core/DistUpgradeFetcherCore.py:265
+msgid "Authentication failed"
+msgstr "Identifikimi dështoi"
+
+#: ../DistUpgrade/DistUpgradeFetcherCore.py:266
+#: ../UpdateManager/Core/DistUpgradeFetcherCore.py:266
+msgid ""
+"Authenticating the upgrade failed. There may be a problem with the network "
+"or with the server. "
+msgstr ""
+"Identifikimi i përditësimit dështoi. Mund të ketë një problem me rrjetin ose "
+"me serverin. "
+
+#: ../DistUpgrade/DistUpgradeFetcherCore.py:280
+#: ../DistUpgrade/DistUpgradeFetcherCore.py:286
+#: ../UpdateManager/Core/DistUpgradeFetcherCore.py:280
+#: ../UpdateManager/Core/DistUpgradeFetcherCore.py:286
+msgid "Can not run the upgrade"
+msgstr "Nuk mund të nisim përditësimin"
+
+#: ../DistUpgrade/DistUpgradeFetcherCore.py:281
+#: ../UpdateManager/Core/DistUpgradeFetcherCore.py:281
+msgid ""
+"This usually is caused by a system where /tmp is mounted noexec. Please "
+"remount without noexec and run the upgrade again."
+msgstr ""
+"Kjo zakonisht shkaktohet nga një sistem ku /tmp montohet noexec. Ju lutemi "
+"ta rimontoni pa noexec dhe nisni përditësimin përsëri."
+
+#: ../DistUpgrade/DistUpgradeFetcherCore.py:287
+#: ../UpdateManager/Core/DistUpgradeFetcherCore.py:287
+#, python-format
+msgid "The error message is '%s'."
+msgstr "Mesazhi i gabimit është '%s'."
+
+#: ../DistUpgrade/DistUpgradeViewText.py:91
+msgid ""
+"Please report this as a bug and include the files /var/log/dist-"
+"upgrade/main.log and /var/log/dist-upgrade/apt.log in your report. The "
+"upgrade has aborted.\n"
+"Your original sources.list was saved in /etc/apt/sources.list.distUpgrade."
+msgstr ""
+"Ju lutemi ta raportoni këtë gabim dhe përfshini skedarët /var/log/dist-"
+"upgrade/main.log dhe /var/log/dist-upgrade/apt.log në raportin tuaj. "
+"Përditësimi u anullua.\n"
+"Origjinali i sources.list u ruajt tek /etc/apt/sources.list.distUpgrade."
+
+#: ../DistUpgrade/DistUpgradeViewText.py:115
+msgid "Aborting"
+msgstr "Duke Ndërprerë"
+
+#: ../DistUpgrade/DistUpgradeViewText.py:120
+msgid "Demoted:\n"
+msgstr "Demoted:\n"
+
+#: ../DistUpgrade/DistUpgradeViewText.py:127
+msgid "To continue please press [ENTER]"
+msgstr "Për të vazhduar ju lutemi të shtypni [ENTER]"
+
+#: ../DistUpgrade/DistUpgradeViewText.py:155
+#: ../DistUpgrade/DistUpgradeViewText.py:193
+#: ../DistUpgrade/DistUpgradeViewText.py:200
+msgid "Continue [yN] "
+msgstr "Vazhdo [pJ] "
+
+#: ../DistUpgrade/DistUpgradeViewText.py:155
+#: ../DistUpgrade/DistUpgradeViewText.py:193
+msgid "Details [d]"
+msgstr "Detajet [d]"
+
+#. TRANSLATORS: the "y" is "yes"
+#. TRANSLATORS: first letter of a positive (yes) answer
+#: ../DistUpgrade/DistUpgradeViewText.py:159
+#: ../DistUpgrade/DistUpgradeViewText.py:203
+msgid "y"
+msgstr "p"
+
+#. TRANSLATORS: the "n" is "no"
+#. TRANSLATORS: first letter of a negative (no) answer
+#: ../DistUpgrade/DistUpgradeViewText.py:162
+#: ../DistUpgrade/DistUpgradeViewText.py:210
+msgid "n"
+msgstr "j"
+
+#. TRANSLATORS: the "d" is "details"
+#: ../DistUpgrade/DistUpgradeViewText.py:165
+msgid "d"
+msgstr "d"
+
+#: ../DistUpgrade/DistUpgradeViewText.py:170
+#, python-format
+msgid "No longer supported: %s\n"
+msgstr "Nuk suportohet më: %s\n"
+
+#: ../DistUpgrade/DistUpgradeViewText.py:175
+#, python-format
+msgid "Remove: %s\n"
+msgstr "Fshij: %s\n"
+
+#: ../DistUpgrade/DistUpgradeViewText.py:185
+#, python-format
+msgid "Install: %s\n"
+msgstr "Instalo: %s\n"
+
+#: ../DistUpgrade/DistUpgradeViewText.py:190
+#, python-format
+msgid "Upgrade: %s\n"
+msgstr "Aktualizo: %s\n"
+
+#: ../DistUpgrade/DistUpgradeViewText.py:207
+msgid "Continue [Yn] "
+msgstr "Vazhdo [Yn] "
+
+#: ../DistUpgrade/DistUpgradeViewText.py:228
+msgid ""
+"To finish the upgrade, a restart is required.\n"
+"If you select 'y' the system will be restarted."
+msgstr ""
+"Për të mbaruar aktualizimin, kërkohet një rinisje.\n"
+"Në qoftëse ju zgjithni 'y' sistemi do të rinis."
+
+#: ../DistUpgrade/DistUpgrade.ui.h:1
+msgid "    "
+msgstr "    "
+
+#: ../DistUpgrade/DistUpgrade.ui.h:2
+msgid ""
+"<b><big>Cancel the running upgrade?</big></b>\n"
+"\n"
+"The system could be in an unusable state if you cancel the upgrade. You are "
+"strongly adviced to resume the upgrade."
+msgstr ""
+"<b><big>Ta fshijmë përditësimin e nisur?</big></b>\n"
+"\n"
+"Sistemi mund të gjendet në një gjendje të paqëndrushme nëse e anulloni "
+"përditësimin. ju këshillojmë nxehtësisht që ta rinisni përditësimin."
+
+#: ../DistUpgrade/DistUpgrade.ui.h:5
+msgid ""
+"<b><big>Restart the system to complete the upgrade</big></b>\n"
+"\n"
+"Please save your work before continuing."
+msgstr ""
+"<b><big>Rindizni sistemin për të kompletuar përditësimin</big></b>\n"
+"\n"
+"Ju lutemi të ruani punën tuaj para se të vezhdoni."
+
+#: ../DistUpgrade/DistUpgrade.ui.h:8
+msgid "<b><big>Start the upgrade?</big></b>"
+msgstr "<b><big>Ta nisim përditësimin?</big></b>"
+
+#: ../DistUpgrade/DistUpgrade.ui.h:9
+msgid "<b><big>Upgrading Ubuntu to version 11.10</big></b>"
+msgstr "<b><big>Duke përditësuar Ubuntu në versionin 11.10</big></b>"
+
+#: ../DistUpgrade/DistUpgrade.ui.h:12
+msgid "Difference between the files"
+msgstr "Dallimet në mes të të dhënave"
+
+#: ../DistUpgrade/DistUpgrade.ui.h:13
+msgid "Distribution Upgrade"
+msgstr "Përditësim i Distribucionit"
+
+#: ../DistUpgrade/DistUpgrade.ui.h:17
+msgid "Restarting the computer"
+msgstr "Duke rinisur kompjuterin"
+
+#: ../DistUpgrade/DistUpgrade.ui.h:18
+msgid "Setting new software channels"
+msgstr "Duke vendosur kanale të reja të programeve"
+
+#: ../DistUpgrade/DistUpgrade.ui.h:19
+msgid "Terminal"
+msgstr "Terminali"
+
+#: ../DistUpgrade/DistUpgrade.ui.h:20
+msgid "_Cancel Upgrade"
+msgstr "_Ndërprej aktualizimin"
+
+#: ../DistUpgrade/DistUpgrade.ui.h:21
+msgid "_Continue"
+msgstr "_Vazhdo"
+
+#: ../DistUpgrade/DistUpgrade.ui.h:23
+msgid "_Replace"
+msgstr "_Zevëndëso"
+
+#: ../DistUpgrade/DistUpgrade.ui.h:24
+msgid "_Report Bug"
+msgstr "_Raporto Bug"
+
+#: ../DistUpgrade/DistUpgrade.ui.h:26
+msgid "_Resume Upgrade"
+msgstr "_Duke Rinisur Përditësimin"
+
+#: ../DistUpgrade/DistUpgrade.ui.h:27
+msgid "_Start Upgrade"
+msgstr "_Starto Aktualizimin"
+
+#: ../UpdateManager/backend/InstallBackendSynaptic.py:55
+msgid "Please wait, this can take some time."
+msgstr "Ju lutem prisni, mund të duhet pak kohë."
+
+#: ../UpdateManager/backend/InstallBackendSynaptic.py:57
+msgid "Update is complete"
+msgstr "Rifreskimi është komplet"
+
+#: ../UpdateManager/DistUpgradeFetcher.py:108
+#: ../UpdateManager/DistUpgradeFetcherKDE.py:102
+msgid "Could not find the release notes"
+msgstr "Nuk mund të gjejmë shënimet e versionit"
+
+#: ../UpdateManager/DistUpgradeFetcher.py:109
+#: ../UpdateManager/DistUpgradeFetcherKDE.py:103
+msgid "The server may be overloaded. "
+msgstr "Serveri mund të jetë i mbingarkuar. "
+
+#: ../UpdateManager/DistUpgradeFetcher.py:119
+#: ../UpdateManager/DistUpgradeFetcherKDE.py:107
+msgid "Could not download the release notes"
+msgstr "Nuk mund të shkarkojmë shënimet e versionit"
+
+#: ../UpdateManager/DistUpgradeFetcher.py:120
+#: ../UpdateManager/DistUpgradeFetcherKDE.py:108
+msgid "Please check your internet connection."
+msgstr "Ju lutemi kontrolloni lidhjen tuaj me internetin."
+
+#: ../UpdateManager/DistUpgradeFetcherKDE.py:61
+#: ../UpdateManager/DistUpgradeFetcherKDE.py:84
+msgid "Upgrade"
+msgstr "Aktualizo"
+
+#: ../UpdateManager/DistUpgradeFetcherKDE.py:88
+#: ../data/gtkbuilder/UpdateManager.ui.h:13
+#: ../data/gtkbuilder/UpgradePromptDialog.ui.h:4
+msgid "Release Notes"
+msgstr "Shënime Mbi Versionin"
+
+#: ../UpdateManager/DistUpgradeFetcherKDE.py:127
+#: ../UpdateManager/DistUpgradeFetcherKDE.py:140
+#: ../UpdateManager/DistUpgradeFetcherKDE.py:142
+msgid "Downloading additional package files..."
+msgstr "Duke shkarkuar skedarë shtesë të paketave..."
+
+#: ../UpdateManager/DistUpgradeFetcherKDE.py:140
+#, python-format
+msgid "File %s of %s at %sB/s"
+msgstr "Skedari %s nga %s në %sB/s"
+
+#: ../UpdateManager/DistUpgradeFetcherKDE.py:142
+#, python-format
+msgid "File %s of %s"
+msgstr "skedari %s nga %s"
+
+#: ../UpdateManager/ChangelogViewer.py:73
+msgid "Open Link in Browser"
+msgstr "Hape Shkurtoren në Shfletues"
+
+#: ../UpdateManager/ChangelogViewer.py:76
+msgid "Copy Link to Clipboard"
+msgstr "Kopjoje Shkurtoren në Kujtesë"
+
+#: ../UpdateManager/GtkProgress.py:159
+#, python-format
+msgid "Downloading file %(current)li of %(total)li with %(speed)s/s"
+msgstr "Duke shkarkuar skedarin %(current)li nga %(total)li me %(speed)s/s"
+
+#: ../UpdateManager/GtkProgress.py:164
+#, python-format
+msgid "Downloading file %(current)li of %(total)li"
+msgstr "Duke shkarkuar skedarin %(current)li nga %(total)li"
+
+#: ../UpdateManager/UpdateManager.py:105 ../do-release-upgrade:90
+msgid "Your Ubuntu release is not supported anymore."
+msgstr "Versioni juaj i Ubuntu nuk suportohet më."
+
+#: ../UpdateManager/UpdateManager.py:106
+msgid ""
+"You will not get any further security fixes or critical updates. Please "
+"upgrade to a later version of Ubuntu Linux."
+msgstr ""
+"Ju nuk do të merrni më rregullime të sigurisë dhe përditësime kritike. Ju "
+"lutemi të kaloni në versionin e fundit të Ubuntu Linux."
+
+#: ../UpdateManager/UpdateManager.py:114
+msgid "Upgrade information"
+msgstr "Informacioni i përditësimit"
+
+#. upload_archive = version_match.group(2).strip()
+#: ../UpdateManager/UpdateManager.py:389
+#, python-format
+msgid "Version %s: \n"
+msgstr "Versioni %s: \n"
+
+#: ../UpdateManager/UpdateManager.py:445
+msgid ""
+"No network connection detected, you can not download changelog information."
+msgstr ""
+"Nuk u dallua asnjë lidhje me rrjetin, ju nuk mund të shkarkoni informacionin "
+"rreth ndryshimeve."
+
+#: ../UpdateManager/UpdateManager.py:453
+msgid "Downloading list of changes..."
+msgstr "Duke shkarkuar një listë të ndryshimeve..."
+
+#: ../UpdateManager/UpdateManager.py:497
+msgid "_Deselect All"
+msgstr "Mos _Zgjidh Asnjë"
+
+#: ../UpdateManager/UpdateManager.py:503
+msgid "Select _All"
+msgstr "Përzgjidhi të _Gjitha"
+
+#: ../UpdateManager/UpdateManager.py:552
+#, python-format
+msgid "%(count)s update has been selected."
+msgid_plural "%(count)s updates have been selected."
+msgstr[0] "%(count)s përditësim është përzgjedhur."
+msgstr[1] "%(count)s përditësime janë përzgjedhur."
+
+#: ../UpdateManager/UpdateManager.py:556
+#, python-format
+msgid "%s will be downloaded."
+msgstr "%s do shkarkohet."
+
+#: ../UpdateManager/UpdateManager.py:568
+msgid "The update has already been downloaded, but not installed"
+msgid_plural "The updates have already been downloaded, but not installed"
+msgstr[0] "Përditësimi është shkarkuar tashmë, por nuk është instaluar"
+msgstr[1] "Përditësimet janë shkarkuar tashmë, por nuk janë instaluar"
+
+#: ../UpdateManager/UpdateManager.py:573
+msgid "There are no updates to install"
+msgstr "Nuk ka përditësime për të instaluar"
+
+#. TRANSLATORS: this allows to switch the order of the count of
+#. updates and the download size string (if needed)
+#: ../UpdateManager/UpdateManager.py:579
+#, python-format
+msgid "%(count_str)s %(download_str)s"
+msgstr "%(count_str)s %(download_str)s"
+
+#: ../UpdateManager/UpdateManager.py:586
+msgid "Unknown download size."
+msgstr "Madhësia e shkarkimit e panjohur."
+
+#: ../UpdateManager/UpdateManager.py:612
+msgid ""
+"It is unknown when the package information was updated last. Please click "
+"the 'Check' button to update the information."
+msgstr ""
+"Nuk dihet kur informacioni i paketave u përditësua për herë të fundit. Ju "
+"lutemi të klikoni mbi butonin 'Kontrollo' për të përditësuar informacionin."
+
+#: ../UpdateManager/UpdateManager.py:618
+#, python-format
+msgid ""
+"The package information was last updated %(days_ago)s days ago.\n"
+"Press the 'Check' button below to check for new software updates."
+msgstr ""
+"Informacioni i paketave u përditësua për herë të fundit %(days_ago)s ditë më "
+"parë.\n"
+"Klikoni butonin 'Kontrollo' këtu poshtë për të kontrolluar për përditësime "
+"të programeve."
+
+#: ../UpdateManager/UpdateManager.py:623
+#, python-format
+msgid "The package information was last updated %(days_ago)s day ago."
+msgid_plural ""
+"The package information was last updated %(days_ago)s days ago."
+msgstr[0] ""
+"Informacioni i paketave u përditësuar për herë të fundit %(days_ago)s ditë "
+"më parë."
+msgstr[1] ""
+"Informacioni i paketave u përditësuar për herë të fundit %(days_ago)s ditë "
+"më parë."
+
+#: ../UpdateManager/UpdateManager.py:627
+#, python-format
+msgid "The package information was last updated %(hours_ago)s hour ago."
+msgid_plural ""
+"The package information was last updated %(hours_ago)s hours ago."
+msgstr[0] ""
+"Informacioni i paketave u përditësua për herë të fundit %(hours_ago)s orë më "
+"parë."
+msgstr[1] ""
+"Informacioni i paketave u përditësua për herë të fundit %(hours_ago)s orë më "
+"parë."
+
+#. TRANSLATORS: only in plural form, as %s minutes ago is one of 15, 30, 45 minutes ago
+#: ../UpdateManager/UpdateManager.py:632 ../UpdateManager/UpdateManager.py:634
+#: ../UpdateManager/UpdateManager.py:636
+#, python-format
+msgid "The package information was last updated about %s minutes ago."
+msgstr ""
+"Informacioni i paketave u përditësua për herë të fundit rreth %s minuta më "
+"parë."
+
+#: ../UpdateManager/UpdateManager.py:638
+msgid "The package information was just updated."
+msgstr "Informacioni i paketave sapo u përditësua."
+
+#: ../UpdateManager/UpdateManager.py:658
+#: ../data/gtkbuilder/UpdateManager.ui.h:22
+msgid ""
+"Software updates correct errors, eliminate security vulnerabilities and "
+"provide new features."
+msgstr ""
+"Përditësimet e programeve korrigjojnë gabimet, eleminojnë vrimat e sigurisë "
+"dhe japin mjete të reja."
+
+#: ../UpdateManager/UpdateManager.py:677
+msgid "Software updates may be available for your computer."
+msgstr ""
+"Përditësime programesh mund të jenë të disponueshme për kompjuterin tuaj."
+
+#: ../UpdateManager/UpdateManager.py:685
+msgid "Welcome to Ubuntu"
+msgstr "Mirëse erdhët në Ubuntu"
+
+#: ../UpdateManager/UpdateManager.py:687
+msgid ""
+"These software updates have been issued since this version of Ubuntu was "
+"released. If you don't want to install them now, choose \"Update Manager\" "
+"from Applications later."
+msgstr ""
+"Këto përditësime të programeve kanë dalë pas daljes së versionit të fundit "
+"të Ubuntu. Nëse nuk dëshironi ti instaloni ato tani, zgjidhni \"Menaxhuesin "
+"e Përditësimeve\" nga Programet më vonë."
+
+#: ../UpdateManager/UpdateManager.py:689
+msgid ""
+"These software updates have been issued since this version of Ubuntu was "
+"released. If you don't want to install them now, choose \"Update Manager\" "
+"from the Administration Menu later."
+msgstr ""
+"Këto përditësime të programeve kanë dalë pas daljes së versionit të fundit "
+"të Ubuntu. Nëse nuk dëshironi ti instaloni ato tani, zgjidhni \"Menaxhuesin "
+"e Përditësimeve\" nga Menuja e Administrimit më vonë."
+
+#: ../UpdateManager/UpdateManager.py:692
+msgid "Software updates are available for this computer"
+msgstr "Përditësime të programeve janë të disponueshme për këtë kompjuter"
+
+#: ../UpdateManager/UpdateManager.py:694
+msgid ""
+"If you don't want to install them now, choose \"Update Manager\" from "
+"Applications later."
+msgstr ""
+"Nëse nuk dëshironi ti instaloni ato tani, zgjidhni \"Menaxhuesin e "
+"Përditësimeve\" nga Programet ë vonë."
+
+#: ../UpdateManager/UpdateManager.py:696
+msgid ""
+"If you don't want to install them now, choose \"Update Manager\" from the "
+"Administration menu later."
+msgstr ""
+"Nëse nuk dëshironi t'i instaloni ato tani, zgjidhni \"Menaxhuesin e "
+"Përditësimeve\" nga menuja e Administrimit më vonë."
+
+#: ../UpdateManager/UpdateManager.py:748
+#, python-format
+msgid ""
+"The upgrade needs a total of %s free space on disk '%s'. Please free at "
+"least an additional %s of disk space on '%s'. Empty your trash and remove "
+"temporary packages of former installations using 'sudo apt-get clean'."
+msgstr ""
+"Përditësimi ka nevojë për një total prej %s të hapësirës së lirë në diskun "
+"'%s'. Ju lutemi lironi të paktën %s hapësirë shtesë në diskun '%s'. Zbrazni "
+"koshin dhe hiqni paketat e përkohshme të instalimeve të mëparshme duke "
+"përdorur 'sudo apt-get clean'."
+
+#: ../UpdateManager/UpdateManager.py:773
+msgid ""
+"The computer needs to restart to finish installing updates. Please save your "
+"work before continuing."
+msgstr ""
+"Kompjuteri ka nevojë të rindizet për të përfunduar përditësimet. ju lutemi "
+"të ruani punën tuaj para se të vazhdoni."
+
+#: ../UpdateManager/UpdateManager.py:837
+msgid "Reading package information"
+msgstr "Duke lexuar informacionin e paketave"
+
+#: ../UpdateManager/UpdateManager.py:852
+msgid "Connecting..."
+msgstr "Duke u lidhur......"
+
+#: ../UpdateManager/UpdateManager.py:869
+msgid "You may not be able to check for updates or download new updates."
+msgstr ""
+"Ju mund të mos jeni në gjendje të kontrolloni për përditësime apo të "
+"shkarkoni përditësimet e reja."
+
+#: ../UpdateManager/UpdateManager.py:994
+msgid "Could not initialize the package information"
+msgstr "Nuk mund ta nisim informacionin e paketave"
+
+#: ../UpdateManager/UpdateManager.py:995
+msgid ""
+"An unresolvable problem occurred while initializing the package "
+"information.\n"
+"\n"
+"Please report this bug against the 'update-manager' package and include the "
+"following error message:\n"
+msgstr ""
+"Një problem i pazgjidhur ndodhi kur po nisej informacioni i paketave.\n"
+"\n"
+"Ju lutemi raportojeni këtë gabim të paketës 'update-manager' dhe përfshini "
+"mesazhin e gabimit që vijon:\n"
+
+#: ../UpdateManager/UpdateManager.py:1024
+msgid ""
+"An unresolvable problem occurred while calculating the upgrade.\n"
+"\n"
+"Please report this bug against the 'update-manager' package and include the "
+"following error message:"
+msgstr ""
+"Një problem i pazgjidhshëm ndodhi gjatë llogaritjes së përditësimit.\n"
+"\n"
+"Ju lutemi raportojeni këtë gabim të paketës 'update-manager' dhe përfshini "
+"mesazhin e gabimit që vijon:"
+
+#: ../UpdateManager/UpdateManager.py:1049
+msgid " (New install)"
+msgstr " (Instalim i Ri)"
+
+#. TRANSLATORS: the b stands for Bytes
+#: ../UpdateManager/UpdateManager.py:1056
+#, python-format
+msgid "(Size: %s)"
+msgstr "(Madhësia: %s)"
+
+#: ../UpdateManager/UpdateManager.py:1058
+#, python-format
+msgid "From version %(old_version)s to %(new_version)s"
+msgstr "Nga versioni %(old_version)s tek %(new_version)s"
+
+#: ../UpdateManager/UpdateManager.py:1062
+#, python-format
+msgid "Version %s"
+msgstr "Versioni %s"
+
+#: ../UpdateManager/UpdateManager.py:1093 ../do-release-upgrade:102
+msgid "Release upgrade not possible right now"
+msgstr "Përditësimi i versionit nuk është i mundur për momentin."
+
+#: ../UpdateManager/UpdateManager.py:1094 ../do-release-upgrade:103
+#, c-format, python-format
+msgid ""
+"The release upgrade can not be performed currently, please try again later. "
+"The server reported: '%s'"
+msgstr ""
+"Përditësimi i versionit nuk mund të bëhet siç duhet. Ju lutemi ta provoni "
+"përsëri më vonë. Serveri raportoi: '%s'"
+
+#: ../UpdateManager/UpdateManager.py:1096 ../check-new-release-gtk:116
+msgid "Downloading the release upgrade tool"
+msgstr "Duke shkarkuar mjetin për përditësimin e versionit"
+
+#: ../UpdateManager/UpdateManager.py:1103
+#, python-format
+msgid "<b>New Ubuntu release '%s' is available</b>"
+msgstr "<b>Një version i ri i Ubuntu '%s' është i disponueshëm</b>"
+
+#. we assert a clean cache
+#: ../UpdateManager/UpdateManager.py:1142
+msgid "Software index is broken"
+msgstr "Treguesi i programeve është dëmtuar"
+
+#: ../UpdateManager/UpdateManager.py:1143
+msgid ""
+"It is impossible to install or remove any software. Please use the package "
+"manager \"Synaptic\" or run \"sudo apt-get install -f\" in a terminal to fix "
+"this issue at first."
+msgstr ""
+"Është e pamundur të instalojmë apo heqim çdonjë nga programet. Ju lutemi "
+"përdorni menaxhuesin e paketave \"Synaptic\" ose nisni \"sudo apt-get "
+"install -f\" në një terminal për të rregulluar fillimisht këtë çështje."
+
+#: ../UpdateManager/UnitySupport.py:57
+msgid "Check for Updates"
+msgstr "Kontrollo për Përditësime"
+
+#: ../UpdateManager/UnitySupport.py:66
+msgid "Install All Available Updates"
+msgstr "Instalo Të Gjitha Përditësimet e Disponueshme"
+
+#: ../UpdateManagerText/UpdateManagerText.py:31
+msgid "Cancel"
+msgstr "Anullo"
+
+#: ../UpdateManagerText/UpdateManagerText.py:32
+msgid "Install"
+msgstr "Instalo"
+
+#: ../UpdateManagerText/UpdateManagerText.py:50
+msgid "Building Updates List"
+msgstr "Duke Ndërtuar Listën e Përditësimeve"
+
+#: ../UpdateManagerText/UpdateManagerText.py:53
+msgid ""
+"\n"
+"A normal upgrade can not be calculated, please run: \n"
+"  sudo apt-get dist-upgrade\n"
+"\n"
+"\n"
+"This can be caused by:\n"
+" * A previous upgrade which didn't complete\n"
+" * Problems with some of the installed software\n"
+" * Unofficial software packages not provided by Ubuntu\n"
+" * Normal changes of a pre-release version of Ubuntu"
+msgstr ""
+"\n"
+"Një përditësim normal nuk mund të llogaritet, ju lutemi nisni: \n"
+"  sudo apt-get dist-upgrade\n"
+"\n"
+"\n"
+"Kjo mund të shkaktohet nga:\n"
+" * Një përditësim i mëparshëm që nuk është kompletuar\n"
+" * Probleme me disa nga programet e instaluara\n"
+" * paketa jo zyrtare të programeve që nuk jepen nga Ubuntu\n"
+" * Ndryshime normale të versioneve të testimit të Ubuntu"
+
+#: ../UpdateManagerText/UpdateManagerText.py:122
+msgid "Downloading changelog"
+msgstr "Protokoli i ndryshimeve do të shkarkohet"
+
+#: ../UpdateManager/Core/MyCache.py:128
+#, python-format
+msgid "Other updates (%s)"
+msgstr "Përditësime të tjera (%s)"
+
+#: ../UpdateManager/Core/MyCache.py:283
+#, python-format
+msgid ""
+"Changes for the versions:\n"
+"Installed version: %s\n"
+"Available version: %s\n"
+"\n"
+msgstr ""
+"Ndryshimet për versionet:\n"
+"Versioni i instaluar: %s\n"
+"Versioni i disponeshëm: %s\n"
+"\n"
+
+#: ../UpdateManager/Core/MyCache.py:297
+msgid "This update does not come from a source that supports changelogs."
+msgstr ""
+"Ky përditësim nuk vjen me një burim që suporton ndryshimin e informacionit."
+
+#: ../UpdateManager/Core/MyCache.py:303 ../UpdateManager/Core/MyCache.py:324
+msgid ""
+"Failed to download the list of changes. \n"
+"Please check your Internet connection."
+msgstr ""
+"Dlshtuam në shkarkimin e listës së ndryshimeve. \n"
+"Ju lutemi kontrolloni lidhjen tuaj të internetit."
+
+#: ../UpdateManager/Core/MyCache.py:313
+#, python-format
+msgid ""
+"The changelog does not contain any relevant changes.\n"
+"\n"
+"Please use http://launchpad.net/ubuntu/+source/%s/%s/+changelog\n"
+"until the changes become available or try again later."
+msgstr ""
+"Lista e ndryshimeve nuk përmban ndonjë ndryshim të rëndësishëm.\n"
+"\n"
+"Ju lutemi përdorni http://launchpad.net/ubuntu/+source/%s/%s/+changelog\n"
+"deri sa ndryshimet të bëhen të disponueshme, ose provoni përsëri më vonë."
+
+#: ../UpdateManager/Core/MyCache.py:318
+#, python-format
+msgid ""
+"The list of changes is not available yet.\n"
+"\n"
+"Please use http://launchpad.net/ubuntu/+source/%s/%s/+changelog\n"
+"until the changes become available or try again later."
+msgstr ""
+"Lista e ndryshimeve nuk është akoma e disponueshme.\n"
+"\n"
+"Ju lutemi përdorni http://launchpad.net/ubuntu/+source/%s/%s/+changelog\n"
+"deri sa ndryshimet të bëhen të disponueshme ose provoni përsëri më vonë."
+
+#: ../UpdateManager/Core/UpdateList.py:49
+msgid "Failed to detect distribution"
+msgstr "Dështuam në dallimin e distribucionit"
+
+#: ../UpdateManager/Core/UpdateList.py:50
+#, python-format
+msgid "A error '%s' occurred while checking what system you are using."
+msgstr ""
+"Një gabim '%s' ndodhi ndërkohë që po kontrollonim kë sistem po përdorni."
+
+#: ../UpdateManager/Core/UpdateList.py:61
+msgid "Important security updates"
+msgstr "Rifreskime të rëndësishme të sigurisë!"
+
+#: ../UpdateManager/Core/UpdateList.py:62
+msgid "Recommended updates"
+msgstr "Rifreskimet e rekomanduara"
+
+#: ../UpdateManager/Core/UpdateList.py:63
+msgid "Proposed updates"
+msgstr "Aktualizimet e propozuara"
+
+#: ../UpdateManager/Core/UpdateList.py:64
+msgid "Backports"
+msgstr "Portet mbështetëse"
+
+#: ../UpdateManager/Core/UpdateList.py:65
+msgid "Distribution updates"
+msgstr "Përditësimet e distribucionit"
+
+#: ../UpdateManager/Core/UpdateList.py:70
+msgid "Other updates"
+msgstr "Përditësime të tjera"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:1
+msgid ""
+"<b><big>You must check for updates manually</big></b>\n"
+"\n"
+"Your system does not check for updates automatically. You can configure this "
+"behavior in <i>Software Sources</i> on the <i>Updates</i> tab."
+msgstr ""
+"<b><big>Ju duhet të kërkoni për përditësime në mënyrë manuale</big></b>\n"
+"\n"
+"Sistemi juaj nuk kërkon për përditësime automatikisht. ju mund ta "
+"konfiguroni këtë sjellje tek <i>Burimet e Programeve</i> në tabelën "
+"<i>Përditësimet</i>."
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:4
+msgid "<big><b>Not all updates can be installed</b></big>"
+msgstr "<big><b>Jo të gjitha përditësimet mund të instalohen</b></big>"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:5
+msgid "<big><b>Running on battery</b></big>"
+msgstr "<big><b>Duke punuar me bateri</b></big>"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:6
+msgid "<big><b>Starting Update Manager</b></big>"
+msgstr "<big><b>Duke Nisur Menaxhuesin e Përditësimeve</b></big>"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:7
+msgid "Changes"
+msgstr "Ndryshimet"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:8
+msgid "Chec_k"
+msgstr "Kontroll_o"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:9
+msgid "Co_ntinue"
+msgstr "Va_zhdo"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:10
+msgid "Description"
+msgstr "Zgjedhja"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:11
+msgid "Description of update"
+msgstr "Përshkrimi i përditësimit"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:12
+msgid "It’s safer to connect the computer to AC power before updating."
+msgstr ""
+"Është më e sigurtë të lidhni kompjuterin me tensionin AC para se ta "
+"përditësoni."
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:14
+msgid ""
+"Run a partial upgrade, to install as many updates as possible. \n"
+"\n"
+"This can be caused by:\n"
+" * A previous upgrade which didn't complete\n"
+" * Problems with some of the installed software\n"
+" * Unofficial software packages not provided by Ubuntu\n"
+" * Normal changes of a pre-release version of Ubuntu"
+msgstr ""
+"Nisni një përditësim të pjesshëm, për të instaluar sa më tepër përditësime "
+"që të jetë e mundur. \n"
+"\n"
+"Kjo mund të jetë shkaktuar nga:\n"
+" * Një përditësim i mëparshëm nuk është kompletuar\n"
+" * Probleme me disa nga programet e instaluara\n"
+" * Paketa jo zyrtare të programeve që nuk jepen nga Ubuntu\n"
+" * Ndryshime normale të versionit të para nisjes së Ubuntu"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:21
+#: ../data/gtkbuilder/UpgradePromptDialog.ui.h:5
+msgid "Show progress of individual files"
+msgstr "Shfaq progresin e skedarëve individualë"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:23
+msgid "Starting Update Manager"
+msgstr "Duke nisur Menaxhuesin e Përditësimeve"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:24
+msgid "U_pgrade"
+msgstr "P_ërditësim"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:25
+#: ../data/update-manager.desktop.in.h:3
+msgid "Update Manager"
+msgstr "Menaxhuesi i Përditësimeve"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:26
+msgid "You are connected via a wireless modem."
+msgstr "Ju jeni lidhur me një modem wireless."
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:27
+msgid ""
+"You are connected via roaming and may be charged for the data consumed by "
+"this update."
+msgstr ""
+"Jeni të lidhur me roaming the mund të tatoheni për të dhënat e konsumuara "
+"nga ky përditësim."
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:28
+msgid "Your system is running on battery. Are you sure you want to continue?"
+msgstr ""
+"Sistemi juaj po punon me bateri. Jeni i sigurtë që dëshironi të vazhdoni?"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:29
+msgid "_Hide this information in the future"
+msgstr "_Fshihe këtë informacion në të ardhmen"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:30
+msgid "_Install Updates"
+msgstr "_Instalo Përditësimet"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:31
+msgid "_Partial Upgrade"
+msgstr "_Aktualizim i pjesërishëm"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:33
+msgid "_Settings..."
+msgstr "_Parametrat..."
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:34
+msgid "_Upgrade"
+msgstr "_Përditëso"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:35
+msgid "updates"
+msgstr "përditësimet"
+
+#: ../data/gtkbuilder/UpgradePromptDialog.ui.h:1
+msgid ""
+"<b>A new version of Ubuntu is available. Would you like to upgrade?</b>"
+msgstr ""
+"<b>Është i disponueshëm një version i ri i ubuntu. Do të donit ta "
+"përditësonit?</b>"
+
+#: ../data/gtkbuilder/UpgradePromptDialog.ui.h:2
+msgid "Ask Me Later"
+msgstr "Më Pyet Më Vonë"
+
+#: ../data/gtkbuilder/UpgradePromptDialog.ui.h:3
+msgid "Don't Upgrade"
+msgstr "Mos e Përditëso"
+
+#: ../data/gtkbuilder/UpgradePromptDialog.ui.h:6
+msgid "Yes, Upgrade Now"
+msgstr "Po, Përditësoje Tani"
+
+#: ../data/gtkbuilder/UpgradePromptDialog.ui.h:7
+msgid ""
+"You can upgrade at a later time by opening Update Manager and click on "
+"\"Upgrade\"."
+msgstr ""
+"Ju mund ta përditësoni edhe më vonë duke hapur Menaxhuesin e Përditësimeve "
+"dhe duke klikuar tek \"Përditëso\"."
+
+#: ../data/gtkbuilder/UpgradePromptDialog.ui.h:8
+msgid "You have declined to upgrade to the new Ubuntu"
+msgstr "Ju e keni mohuar përditësimin për Ubuntu-n e ri"
+
+#: ../data/update-manager.desktop.in.h:1
+msgid "Show and install available updates"
+msgstr "Shfaq dhe instalo përditësimet e disponueshme"
+
+#: ../data/update-manager.desktop.in.h:2
+msgid "Software Updates"
+msgstr "Përditësimet e programeve"
+
+#: ../update-manager:54 ../do-release-upgrade:41
+msgid "Show version and exit"
+msgstr "Shfaq versionin dhe dil"
+
+#: ../update-manager:57
+msgid "Directory that contains the data files"
+msgstr "Direktori që përmban skedarët e të dhënave"
+
+#: ../update-manager:60
+msgid "Check if a new Ubuntu release is available"
+msgstr "Kontrollo nëse ka një version të ri të disponueshëm të Ubuntu"
+
+#: ../update-manager:63 ../do-release-upgrade:44 ../check-new-release-gtk:176
+msgid "Check if upgrading to the latest devel release is possible"
+msgstr ""
+"Kontrollo nëse përditësimi në versionin e fundit dlevel është i disponueshëm"
+
+#: ../update-manager:67
+msgid "Upgrade using the latest proposed version of the release upgrader"
+msgstr ""
+"Përditësoni duke përdorur versionin e fundit të propozuar të përditësuesit "
+"të versionit"
+
+#: ../update-manager:74
+msgid "Do not focus on map when starting"
+msgstr "Mos u fokuso tek harta kur niset"
+
+#: ../update-manager:77
+msgid "Try to run a dist-upgrade"
+msgstr "Përpiqu të mos nisësh një dist-upgrade"
+
+#: ../update-manager:80
+msgid "Do not check for updates when starting"
+msgstr "Mos kontrollo për përditësime në nisje"
+
+#: ../update-manager:84 ../do-release-upgrade:60
+msgid "Test upgrade with a sandbox aufs overlay"
+msgstr "Testoje përditësimin me mbivedosjen e sandbox aufs"
+
+#: ../update-manager:104
+msgid "Running partial upgrade"
+msgstr "Duke nisur një përditësim të pjesshëm"
+
+#: ../do-release-upgrade:48 ../check-new-release-gtk:180
+msgid ""
+"Try upgrading to the latest release using the upgrader from $distro-proposed"
+msgstr ""
+"Përpiqu të përditësosh në versionin e fundit duke përdorur përditësuesin nga "
+"$distro-proposed"
+
+#: ../do-release-upgrade:52
+msgid ""
+"Run in a special upgrade mode.\n"
+"Currently 'desktop' for regular upgrades of a desktop system and 'server' "
+"for server systems are supported."
+msgstr ""
+"Nise në një mënyrë speciale përditësimi.\n"
+"Për momentin suportohet 'desktop' për përditësimet e rregullta dhe 'server' "
+"për sistemet server."
+
+#: ../do-release-upgrade:58
+msgid "Run the specified frontend"
+msgstr "Nis hapin e specifikuar"
+
+#: ../do-release-upgrade:63
+msgid ""
+"Check only if a new distribution release is available and report the result "
+"via the exit code"
+msgstr ""
+"Kontrollo vetëm nëse një version i ri i distribucionit është i disponueshëm "
+"dhe raporto rezultatin me anë të kodit në dalje"
+
+#: ../do-release-upgrade:77
+msgid "Checking for a new ubuntu release"
+msgstr "Duke kontrolluar për një version të ri të Ubuntu"
+
+#: ../do-release-upgrade:91
+msgid ""
+"For upgrade information, please visit:\n"
+"%(url)s\n"
+msgstr ""
+"Për informacionin e përditësimeve, ju lutemi të vizitoni:\n"
+"%(url)s\n"
+
+#: ../do-release-upgrade:97
+msgid "No new release found"
+msgstr "Nuk u gjet asnjë version i ri"
+
+#: ../do-release-upgrade:109
+#, c-format
+msgid "New release '%s' available."
+msgstr "Versioni i ri '%s' i disponueshëm."
+
+#: ../do-release-upgrade:110
+msgid "Run 'do-release-upgrade' to upgrade to it."
+msgstr "Nis 'do-release-upgrade' për të përditësuar atë."
+
+#: ../check-new-release-gtk:91
+msgid "Ubuntu %(version)s Upgrade Available"
+msgstr "Ubuntu %(versioni)s Përditësim i Disponueshëm"
+
+#: ../check-new-release-gtk:132
+#, c-format
+msgid "You have declined the upgrade to Ubuntu %s"
+msgstr "Ju e keni mohuar përditësimin tek ubuntu %s"
+
+#: ../Janitor/computerjanitor/exc.py:30
+#, python-format
+msgid "Unimplemented method: %s"
+msgstr "Metodë e pa implimetuar: %s"
+
+#: ../Janitor/computerjanitor/file_cruft.py:46
+msgid "A file on disk"
+msgstr "një skedar në disk"
+
+#: ../Janitor/computerjanitor/package_cruft.py:45
+msgid ".deb package"
+msgstr "paket .deb"
+
+#: ../Janitor/computerjanitor/missing_package_cruft.py:33
+msgid "Install missing package."
+msgstr "Instalo paketën që mungon."
+
+#: ../Janitor/computerjanitor/missing_package_cruft.py:42
+#, python-format
+msgid "Package %s should be installed."
+msgstr "Paketa %s duhet instaluar."
+
+#. pragma: no cover
+#: ../Janitor/plugins/dpkg_status_plugin.py:36
+#, python-format
+msgid "%i obsolete entries in the status file"
+msgstr "%i hyrje të vjetra në skedarin e statusit"
+
+#: ../Janitor/plugins/dpkg_status_plugin.py:39
+msgid "Obsolete entries in dpkg status"
+msgstr "Hyrje të vjetra në statusin dpkg"
+
+#. pragma: no cover
+#: ../Janitor/plugins/dpkg_status_plugin.py:42
+msgid "Obsolete dpkg status entries"
+msgstr "Hyrje të vjetra në statusin dpkg"
+
+#: ../Janitor/plugins/kdelibs4to5_plugin.py:39
+msgid ""
+"When upgrading, if kdelibs4-dev is installed, kdelibs5-dev needs to be "
+"installed. See bugs.launchpad.net, bug #279621 for details."
+msgstr ""
+"Kur përditësoni, nëse kdelibs4-dev është instaluar, kdelibs5-dev nevojitet "
+"të instalohet. Shikoni defektin bugs.launchpad.net, bug #279621 për detaje."
+
+#: ../Janitor/plugins/langpack_manual_plugin.py:34
+#, python-format
+msgid "%s needs to be marked as manually installed."
+msgstr "%s ka nevojë të shënohet si e instaluar në mënyrë manuale."
+
+#: ../Janitor/plugins/remove_lilo_plugin.py:28
+msgid ""
+"Remove lilo since grub is also installed.(See bug #314004 for details.)"
+msgstr ""
+"Hiqe lilo përderisa është instaluar edhe grub. (shiko gabimin #314004 për "
+"detaje.)"
+
+#~ msgid ""
+#~ "It was impossible to install a required package. Please report this as a "
+#~ "bug. "
+#~ msgstr ""
+#~ "Një paketë i nevojshëm nuk mundi të instalohet.Ju lutemi raportoni këtë "
+#~ "problem. "
+
+#, python-format
+#~ msgid "%.0f KB"
+#~ msgstr "%.0f KB"
+
+#~ msgid "1 KB"
+#~ msgstr "1 KB"
+
+#~ msgid "0 KB"
+#~ msgstr "0 KB"
+
+#~ msgid ""
+#~ "This is most likely a bug in the upgrade tool. Please report it as a bug"
+#~ msgstr ""
+#~ "Ka shumë mundësi të jetë një gabim në mjetin e përditësimit. Ju lutemi "
+#~ "raportojeni këtë gabim"
+
+#~ msgid "_Uncheck All"
+#~ msgstr "_Hiq Përzgjedhjen nga të Gjitha"
+
+#~ msgid "The package information was last updated less than one hour ago."
+#~ msgstr "Informacioni i paketave u përditësua më pak se një orë më parë."
+
+#~ msgid "_Check All"
+#~ msgstr "_Kontrolloji të Gjitha"
+
+#~ msgid "Previous selected"
+#~ msgstr "Të përzgjedhura më parë"
+
+#~ msgid ""
+#~ "It is unknown when the package information was updated last. Please try "
+#~ "clicking on the 'Check' button to update the information."
+#~ msgstr ""
+#~ "Nuk dihet kur informacioni i paketave është përditësuar për herë të fundit. "
+#~ "Ju lutemi provoni të shtypni butonin 'Kontrollo' për të përditësuar "
+#~ "informacionin."
+
+#~ msgid ""
+#~ "These software updates have been issued since Ubuntu was released. If you "
+#~ "don't want to install them now, choose \"Update Manager\" from the "
+#~ "Administration Menu later."
+#~ msgstr ""
+#~ "Këto përditësime të programeve kanë dalë pas lëshimit të Ubuntu. Nëse nuk "
+#~ "dëshironi t'i instaloni ato tani, përzgjidhni \"Menaxhuesin e "
+#~ "Përditësimeve\" nga Menuja e Administrimit më vonë."
+
+#~ msgid "*deprecated* Check for new distribution releases"
+#~ msgstr "*deprecated* Kontrollo për versione të reja të distribucionit"
+
+#~ msgid "Auto close the install window after successful install"
+#~ msgstr "Vetëmbylle dritaren e instalimit pas instalimit të sukseshëm"
+
+#~ msgid "First run welcome message"
+#~ msgstr "Fillimisht nis mesazhin e mirëseardhjes"
+
+#~ msgid ""
+#~ "If this key is set the install window will be automatically closed on "
+#~ "successful installation."
+#~ msgstr ""
+#~ "Nëse ky buton përzgjidhet dritarja do të mbyllet automatikisht pas "
+#~ "instalimit të sukseshëm."
+
+#~ msgid "If this key is set a first run welcome message will be presented."
+#~ msgstr ""
+#~ "Nëse vendoset ky buton një mesazh mirëseardhjeje për herë të parë do të "
+#~ "shfaqet."
+
+#~ msgid "Show details of an update"
+#~ msgstr "Shfaq detajet e një përditësimi"
+
+#~ msgid "Remind to reload the channel list"
+#~ msgstr "Kujto ringarkimin e listës së kanaleve"
+
+#~ msgid "Show version in update list"
+#~ msgstr "Shfaq versionin në listën e përditësimeve"
+
+#~ msgid "Stores the size of the update-manager dialog"
+#~ msgstr "Regjistron përmasën e dialogut të menaxhuesit të përditësimeve"
+
+#~ msgid "The window size"
+#~ msgstr "Madhësia e dritares"
+
+#~ msgid "*DEPRECATED* this option will be ignore"
+#~ msgstr "*DEPRECATED* ky opsion do të injorohet"
+
+#~ msgid ""
+#~ "Upgrading the repository information resulted in a invalid file. Please "
+#~ "report this as a bug."
+#~ msgstr ""
+#~ "Përditësimi i informacionit të magazinës çoi në një skedar të pavlefshëm. Ju "
+#~ "lutemi raportojeni këtë si një defekt."
+
+#~ msgid ""
+#~ "If none of this applies, then please report this bug against the 'update-"
+#~ "manager' package and include the files in /var/log/dist-upgrade/ in the bug "
+#~ "report."
+#~ msgstr ""
+#~ "Nëse asnjë prej këtyre nuk aplikohet, atëherë raportojeni këtë defekt për "
+#~ "paketën e 'menaxhuesit të përditësimeve' dhe përfshini skedarët tek "
+#~ "/var/log/dist-upgrade/ në raportin e defektit."
+
+#~ msgid ""
+#~ "If automatic checking for updates is disabled, you have to reload the "
+#~ "channel list manually. This option allows to hide the reminder shown in this "
+#~ "case."
+#~ msgstr ""
+#~ "Nëse kontrolli automatik për përditësime është çaktivizuar, juve ju duhet të "
+#~ "ringarkoni listën e kanaleve në mënyrë manuale. Ky opsion ju lejon që ta "
+#~ "fshihni kujtesën e shfaqur në këtë rast."
+
+#~ msgid ""
+#~ "If this key is set the main update list window will show version information "
+#~ "(from version to version)."
+#~ msgstr ""
+#~ "Nëse ky çelës është vendosur dritarja e listës së përditësimit kryesor do të "
+#~ "shfaqë informacionin e versionit (nga njëri version në tjetrin)."
+
+#, python-format
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "Please report this bug against the 'update-manager' package and include the "
+#~ "files in /var/log/dist-upgrade/ in the bug report.\n"
+#~ "%s"
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "Ju lutemi raportojeni këtë problem të paketës 'update-manager' dhe përfshini "
+#~ "skedarët e /var/log/dist-upgrade/ në raportin e gabimit.\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "Stores the state of the expander that contains the list of changes and the "
+#~ "description"
+#~ msgstr ""
+#~ "Regjistron gjendjen e zgjeruesit që përmban listën e ndryshimeve dhe "
+#~ "përshkrimin"
+
+#~ msgid ""
+#~ "Preparing the system for the upgrade failed. Please report this as a bug "
+#~ "against the 'update-manager' package and include the files in /var/log/dist-"
+#~ "upgrade/ in the bug report."
+#~ msgstr ""
+#~ "Përgatitja e sistemit për përditësim dështoi. Ju lutemi raportojeni këtë "
+#~ "gabim për paketën 'update-manager' dhe përfshini skedarët tek /var/log/dist-"
+#~ "upgrade/ në raportin e gabimit."
+
+#~ msgid ""
+#~ "This usually is caused by a system were /tmp is mounted noexec. Please "
+#~ "remount without noexec and run the upgrade again."
+#~ msgstr ""
+#~ "Kjo zakonisht shkaktohet nga një sistem ku /tmp është montuar noexec. ju "
+#~ "lutemi rimontojeni pa noexec dhe nisni përditësimin përsëri."
+
+#~ msgid ""
+#~ "This key is deprecated in favor of the file /etc/update-manager/release-"
+#~ "upgrades Check automatically if a new version of the current distribution is "
+#~ "available and offer to upgrade (if possible)."
+#~ msgstr ""
+#~ "Ky çelës është anashkaluar në favor të skedarit /etc/update-manager/release-"
+#~ "upgrades. Kontrolloni automatikisht nëse një version i ri i distribucionit "
+#~ "të tanishëm është i disponueshëm dhe ofrohuni ta përditësoni (nëse është e "
+#~ "mundur)."
+
+#, python-format
+#~ msgid ""
+#~ "After your package information was updated the essential package '%s' can "
+#~ "not be found anymore.\n"
+#~ "This indicates a serious error, please report this bug against the 'update-"
+#~ "manager' package and include the files in /var/log/dist-upgrade/ in the bug "
+#~ "report."
+#~ msgstr ""
+#~ "Pasi informacioni i paketave tuaja u përditësua, paketa thelbësore '%s' nuk "
+#~ "po gjendet më.\n"
+#~ "Kjo tregon një gabim serioz, ju lutemi raportojeni këtë gabim të paketës "
+#~ "'update-manager' dhe përfshini skedarët në /var/log/dist-upgrade/ në "
+#~ "raportin e gabimit."
+
+#~ msgid ""
+#~ "The system was unable to get the prerequisites for the upgrade. The upgrade "
+#~ "will abort now and restore the original system state.\n"
+#~ "\n"
+#~ "Please report this as a bug against the 'update-manager' package and include "
+#~ "the files in /var/log/dist-upgrade/ in the bug report."
+#~ msgstr ""
+#~ "Sistemi nuk qe në gjendje të merrte kushtet paraprake për përditësimin. "
+#~ "Përditësimi do të abortojë tani dhe do ta kthejë sistemin në gjendjen e tij "
+#~ "fillestare.\n"
+#~ "\n"
+#~ "Ju lutemi raportojeni këtë gabim të paketës 'update-manager' dhe përfshini "
+#~ "skedarët në /var/log/dist-upgrade/ në raportin e gabimit."
+
+#, python-format
+#~ msgid ""
+#~ "Changes for the versions:\n"
+#~ "%s\n"
+#~ "%s\n"
+#~ "\n"
+#~ msgstr ""
+#~ "Ndryshimet për versionet:\n"
+#~ "%s\n"
+#~ "%s\n"
+#~ "\n"
+
+#~ msgid "This change is not coming from a source that supports changelogs."
+#~ msgstr ""
+#~ "Ky ndryshim nuk vjen nga një burim që suporton gjurmimin e ndryshimeve."
+
+#~ msgid "Settings..."
+#~ msgstr "Konfigurimet..."
+
+#~ msgid "make check-new-release-gtk ignore a given new release"
+#~ msgstr "bëje check-new-release-gtk të shpërfillë një version të ri të dhënë"
+
+#~ msgid ""
+#~ "This will permanently hide the new release prompt from check-new-release-"
+#~ "gtk. Note that the small button in the main update-manager UI will still be "
+#~ "there."
+#~ msgstr ""
+#~ "Kjo do ta fshehë përgjithmonë kërkesën për një version të ri nga check-new-"
+#~ "release-gtk. Vini re se butoni i vogël në UI kryesore të update-manager do "
+#~ "të vazhdojë të jetë atje."
+
+#~ msgid ""
+#~ "The upgrade has aborted. Please check your Internet connection or "
+#~ "installation media and try again. All files downloaded so far are kept."
+#~ msgstr ""
+#~ "Përditësimi u anullua. Ju lutemi të kontrolloni lidhjen tuaj me internetin "
+#~ "apo median e instalimit dhe ta provoni përsëri. Të gjithë skedarët që janë "
+#~ "shkarkuar tashmë do të mbahen."
+
+#~ msgid "<b><big>Upgrading Ubuntu to version 11.04</big></b>"
+#~ msgstr "<b><big>Duke përditësuar Ubuntu në versionin 11.04</big></b>"
+
+#~ msgid ""
+#~ "These software updates have been issued since Ubuntu was released. If you "
+#~ "don't want to install them now, choose \"Update Manager\" from Applications "
+#~ "later."
+#~ msgstr ""
+#~ "Këto përditësime të programeve janë nxjerrë pasi Ubuntu u publikua. Nëse nuk "
+#~ "dëshironi ti instaloni ato tani, zgjidhni \"Menaxhuesin e Përditësimeve\" "
+#~ "nga Programet më vonë."
+
+#~ msgid "Show package summary before package name in update list"
+#~ msgstr ""
+#~ "Shfaqni përmbledhjen e paketave para emrit të paketave në listën e "
+#~ "përditësimeve"
+
+#~ msgid ""
+#~ "If this key is set, the main update list window will show the package "
+#~ "summary before the package name."
+#~ msgstr ""
+#~ "Nëse vendoset ky çelës, dritarja kryesore e listës së përditësimeve do të "
+#~ "shfaqë përmbledhjen e paketave para emrit të paketës."

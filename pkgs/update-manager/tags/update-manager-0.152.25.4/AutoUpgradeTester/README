@@ -1,0 +1,8 @@
+
+
+This code will test a release upgrade.
+
+If its started and there is a dir/symlink called "DistUpgrade" this
+code will be used for the upgrade (useful for testing the bzr
+development version of the upgrader code). Otherwise the latest
+released version of the archive is used via "do-release-upgrade".

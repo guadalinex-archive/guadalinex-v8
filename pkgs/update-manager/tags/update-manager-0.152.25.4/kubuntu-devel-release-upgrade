@@ -1,0 +1,2 @@
+#!/bin/sh
+kdesudo "do-release-upgrade -m desktop -f kde -d"

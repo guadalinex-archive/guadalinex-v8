@@ -1,0 +1,1 @@
+../UpdateManager/Core/MetaRelease.py

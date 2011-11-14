@@ -1,0 +1,37 @@
+#!/bin/sh
+
+set -e
+
+temp=$(mktemp -d)
+
+find "$@" -type f -name '*.deb' |
+while read deb
+do
+    rm -rf "$temp/DEBIAN"
+    dpkg-deb -e "$deb" "$temp/DEBIAN"
+    if [ -e "$temp/DEBIAN/conffiles" ]
+    then
+        cat "$temp/DEBIAN/conffiles"
+    fi
+done |
+xargs -n1 dirname |
+sort -u |
+python -c '
+# remove /some/path from input if its parent exists in input too
+# assume sorted input
+import sys
+dirs = set()
+for line in sys.stdin:
+    line = line.rstrip("\n")
+    for dir in dirs:
+        if line.startswith(dir + "/"):
+            break
+    else:
+        dirs.add(line)
+for dir in sorted(dirs):
+    print dir
+'
+
+
+
+rm -rf "$temp"
