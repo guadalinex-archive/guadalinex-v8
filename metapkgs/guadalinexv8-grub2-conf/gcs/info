@@ -2,27 +2,26 @@
 # Fichero de configuración de paquetes de personalización de Guadalinex v6
 
 # Nombre del paquete (minúsculas-separado-con-guiones)
-name: nombre-del-paquete
+name: guadalinexv8-grub2-conf
 
 # Autor 
-author: nombre del autor <usuario@dominio.com>
+author: Álvaro Pinel <apinel@emergya.com>
 
 # Priority
 priority: optional
 
 # Section
-section: seccion_de_la_aplicacion
+section: misc
 
 # Descripción corta
-shortdesc: "descripción corta"
+shortdesc: "Grub2 modifications"
 
 # Descipción larga, las lineas han de estar separadas por "\n "
-longdesc: "descripción larga\n linea1\n linea2"
+longdesc: "This package modifies Grub2 to Guadalinex v8"
 
 # Versión del paquete
-version: v6
+version: v8
 
 # Cambios en esta versión
 changes:
-    - cambio1
-    - cambio2
+    - initial release
