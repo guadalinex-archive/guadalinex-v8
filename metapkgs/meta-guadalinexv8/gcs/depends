@@ -16,6 +16,7 @@ gnome-themes-standard
 # Guadalinex specific:
 #gecos-pixmaps
 guadalinexv8-artwork
+guadalinexv8-lightdm-conf
 guadalinexv8-desktop-conf
 #gecos-system-conf
 guadalinexv8-gnome-shell-conf
