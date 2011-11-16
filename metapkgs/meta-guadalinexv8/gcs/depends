@@ -376,7 +376,7 @@ language-pack-gnome-es-base
 #gdb
 ##gdm
 ##gdm-guest-session
-#gedit
+gedit
 #genisoimage
 #geoclue
 #geoclue-ubuntu-geoip
@@ -393,7 +393,7 @@ language-pack-gnome-es-base
 #gir1.2-pango-1.0
 ##gir1.2-vte-0.0
 #gir1.2-vte-2.90
-#gksu
+gksu
 #glib-networking
 #gnome-about
 #gnome-applets

@@ -11,7 +11,7 @@ author: Álvaro Pinel <apinel@emergya.es>
 priority: optional
 
 # Section
-section: misc
+section: metapackages
 
 # Descripción corta
 shortdesc: "Guadalinex v8 meta package whose depends conforms the whole system."

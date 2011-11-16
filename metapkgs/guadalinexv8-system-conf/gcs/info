@@ -11,7 +11,7 @@ author: Álvaro Pinel <apinel@emergya.com>
 priority: optional
 
 # Section
-section: misc
+section: metapackages
 
 # Descripción corta
 shortdesc: "Guadalinex v8 system configuration package."

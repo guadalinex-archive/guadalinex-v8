@@ -11,7 +11,7 @@ author: Álvaro Pinel  <apinel@emergya.com>
 priority: optional
 
 # Section
-section: seccion_de_la_aplicacion
+section: metapackages
 
 shortdesc: "Guadalinex v8 artwork"
 
