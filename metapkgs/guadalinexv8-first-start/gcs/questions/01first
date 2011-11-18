@@ -1,0 +1,15 @@
+Template: foo/bar
+Type: string
+Default: foo
+Description: This is a sample string question.
+ This is its extended description.
+ .
+ Notice that:
+  - Like in a debian package description, a dot
+    on its own line sets off a new paragraph.
+  - Most text is word-wrapped, but doubly-indented
+    text is left alone, so you can use it for lists
+    of items, like this list. Be careful, since
+    it is not word-wrapped, if it's too wide
+    it will look bad. Using it for short items
+    is best (so this is a bad example).

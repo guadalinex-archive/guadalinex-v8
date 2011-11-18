@@ -1,0 +1,36 @@
+
+El sistema de generación de paquetes será el encargado de generar los paquetes necesarios para la construcción  de Guadalinex, abstrayendo a los desarrolladores de la tarea de creación  de paquetes debian. El desarrollador indicará al sistema los componentes del paquete a crear (fichero de configuración, imágenes, etc) y el sistema generará un paquete .deb con toda la lógica de instalación necesaria.
+
+
+Este sistema se divide en dos partes. La primera es la encargada de generar una plantilla, que es la que el desarrollador deberá rellenar. La segunda utilizará esta plantilla para generar el  paquete en cuestión.
+
+La plantilla que se deberá rellenar es en realidad un conjunto de directorios y ficheros, encargados cada uno de ellos de configurar una parte del paquete final. Los elementos que se encuentran en esta plantilla son:
+
+  * Directorio //conffiles_skel//. Contiene un skel con los ficheros de configuración. Estos ficheros de configuración sustituirán a los presentes en el sistema, y en general se deben utilizar para configurar el comportamiento de aplicaciones no incluidas en este paquete, pero presentes en  el sistema. Por ejemplo, para configurar el servidor //samba//, aquí se incluiría nuestra configuración del smb.conf, que estaría en ///conffiles_skel/etc/smb.conf//.
+  
+  * Directorio //newfiles_skel//. Este directorio debe contener un skel con los ficheros nuevos  a instalar en  el sistema, que no pertenecen a ningún otro paquete. Estos ficheros generalmente serán imágenes, temas, fondos de escritorio, etc. 
+
+  * Directorio //install_scripts//. Contienen scripts  que se ejecutarán cuando el paquete se esté instalando.  Estos scripts se ejecutarán en orden alfabético, por lo que si se le quiere asignar un orden, bastaría con poner nombres que empiecen por números (01_..., 02_..., etc.). Estos scripts se incorporan al fichero debian/postinst, es decir, se concatenan uno detrás de otro dentro del mismo script.
+
+  * Directorio //remove_scripts//. Contiene scripts que se ejecutarán cuando el paquete se esté desinstalando. Funciona de la misma forma que los scripts de install_scripts.
+
+  * Fichero //info//.  Contendrá información  sobre nuestro paquete, como por ejemplo el nombre, la versión, cambios  de esta versión, etc.
+
+  * Fichero //changelog//. Contendrá los cambios realizados por las distintas versiones. Se genera automáticamente. No se debería tocar.
+
+  * Fichero //provides//. Describe los paquetes virtuales o no virtuales que este paquete proporciona.
+
+  * Fichero //depends//. Contendrá las dependencias de nuestro paquete.
+
+  * Fichero //predepends//. Contendrá las pre-dependencias de nuestro paquete.
+
+  * Fichero //recommends//. Contendrá las recomendaciones de nuestro paquete.
+  
+  * Fichero //suggests//. Contendrá las sugerencias de nuestro paquete.
+
+La sintaxis de cada fichero y una información más detallada están incluidos en cada uno de ellos.
+
+Para crear el paquete bastaría con los siguientes pasos: 
+  - Ejecutar //gcs_skel// para la creación de la plantilla.
+  - Rellenar las partes que nos interesen de la plantilla (mínimo el fichero info, con el nombre de nuestro paquete).
+  - Ejecutar //gcs_build// para construir el paquete.
