@@ -14,14 +14,14 @@ priority: optional
 section: metapackages
 
 # Descripción corta
-shortdesc: "Libreoffice suite metapkgs"
+shortdesc: "Libreoffice suite and more"
 
 # Descipción larga, las lineas han de estar separadas por "\n "
-longdesc: "Libreoffice suite and documents applications for Guadalinex v8"
+longdesc: "Libreoffice suite and more apps for Guadalinex v8"
 
 # Versión del paquete
 version: v8
 
 # Cambios en esta versión
 changes:
-    - Initial release
+    - initial release
