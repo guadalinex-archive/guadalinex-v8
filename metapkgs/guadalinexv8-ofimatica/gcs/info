@@ -14,7 +14,7 @@ priority: optional
 section: metapackages
 
 # Descripción corta
-shortdesc: "Libreoffice suite for Guadalinex v8"
+shortdesc: "Libreoffice suite metapkgs"
 
 # Descipción larga, las lineas han de estar separadas por "\n "
 longdesc: "Libreoffice suite and documents applications for Guadalinex v8"
