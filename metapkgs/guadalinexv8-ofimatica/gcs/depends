@@ -4,5 +4,6 @@
 # gnome-terminal
 # nautilus  (>=2.6.10)
 libreoffice
+gedit
 gnome-dictionary 
 xchm
