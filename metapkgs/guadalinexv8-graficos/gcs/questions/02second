@@ -1,4 +1,0 @@
-Template: foo/baz
-Type: boolean
-Description: Clear enough, no?
- This is another question, of boolean type.

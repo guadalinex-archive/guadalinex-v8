@@ -17,7 +17,7 @@ section: metapackages
 shortdesc: "Misc applications"
 
 # Descipción larga, las lineas han de estar separadas por "\n "
-longdesc: "Applications miscelanea"
+longdesc: "Applications miscelanea for Guadalinex v8"
 
 # Versión del paquete
 version: v8
