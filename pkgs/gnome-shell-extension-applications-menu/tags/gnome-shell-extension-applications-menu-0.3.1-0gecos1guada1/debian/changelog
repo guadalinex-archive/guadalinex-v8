@@ -1,6 +1,6 @@
 gnome-shell-extension-applications-menu (0.3.1-0gecos1guada1) oneiric; urgency=low
 
-  * Imported from GECOS to Guadalinex v8.
+  * Imported from GECOS to Guadalinex v8. 
   * Updated for Gnome-shell 3.2
 
  -- Álvaro Pinel <apinel@emergya.com> Tue, 22 Nov 2011 12:45:39 +0000
