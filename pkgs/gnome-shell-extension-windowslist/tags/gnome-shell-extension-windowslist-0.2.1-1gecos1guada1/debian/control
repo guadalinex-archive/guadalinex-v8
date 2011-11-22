@@ -1,0 +1,18 @@
+Source: gnome-shell-extension-windowslist
+Section: utils
+Priority: optional
+Maintainer: Guadalinex Team <packmaster@guadalinex.org>
+Uploaders: Roberto C. Morano <rcmorano@emergya.com>, Álvaro Pinel <apinel@emergya.com>
+Build-Depends: cdbs (>= 0.4.90), debhelper (>= 7)
+Standards-Version: 3.9.2
+Homepage: https://launchpad.net/gnome-shell-extension-windowslist
+Vcs-Browser: http://codebrowse.launchpad.net/~guadalinex-members/gnome-shell-extension-windowslist/trunk/changes
+Vcs-Bzr: http://bazaar.launchpad.net/~guadalinex-members/gnome-shell-extension-windowslist/trunk
+
+
+Package: gnome-shell-extension-windowslist
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, gnome-shell
+Description: extension that povides a list of opened applications in menubar.
+ gnome-shell extension that povides a list of opened applications in menubar
+ in order to provide a GNOME2-like desktop.
