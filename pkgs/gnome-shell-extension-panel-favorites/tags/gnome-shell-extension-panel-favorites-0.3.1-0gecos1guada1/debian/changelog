@@ -1,4 +1,4 @@
-gnome-shell-extension-panel-favorites (0.3.1-0gecos1guada1)) oneiric; urgency=low
+gnome-shell-extension-panel-favorites (0.3.1-0gecos1guada1) oneiric; urgency=low
 
   * Imported from GECOS to Guadalinex v8.
   * Updated for Gnome-shell 3.2
