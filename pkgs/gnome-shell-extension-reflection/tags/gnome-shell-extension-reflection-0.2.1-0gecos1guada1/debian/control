@@ -1,0 +1,18 @@
+Source: gnome-shell-extension-reflection
+Section: utils
+Priority: optional
+Maintainer: Guadalinex Team <packmaster@guadalinex.org>
+Uploaders: Roberto C. Morano <rcmorano@emergya.com>, Álvaro Pinel <apinel@emergya.com>
+Build-Depends: cdbs (>= 0.4.90), debhelper (>= 7)
+Standards-Version: 3.9.2
+Homepage: https://launchpad.net/gnome-shell-extension-reflection
+Vcs-Browser: http://codebrowse.launchpad.net/~guadalinex-members/gnome-shell-extension-reflection/trunk/changes
+Vcs-Bzr: http://bazaar.launchpad.net/~guadalinex-members/gnome-shell-extension-reflection/trunk
+
+
+Package: gnome-shell-extension-reflection
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, gnome-shell
+Description: gnome-shell extension that setups the menubar to the bottom.
+ gnome-shell extension that mirrors the top bar to the bottom in order to
+ provide a GNOME2-like desktop.
