@@ -1,7 +1,0 @@
-#!/bin/sh
-
-set -e
-
-touch /var/lib/update-notifier/dpkg-run-stamp
-
-#DEBHELPER#
