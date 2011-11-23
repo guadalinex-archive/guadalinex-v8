@@ -1,0 +1,15 @@
+Index: parcheado/scripts/nautilus-cert-handler.py
+===================================================================
+--- parcheado.orig/scripts/nautilus-cert-handler.py	2011-09-13 10:33:47.588376397 +0200
++++ parcheado/scripts/nautilus-cert-handler.py	2011-09-13 10:34:07.464376398 +0200
+@@ -9,8 +9,8 @@
+ import tempfile
+ from gi.repository import Nautilus, Gtk
+ 
+-FIREFOX_APP  = 'firefox'
+-FIREFOX_PROFILE = 'default'
++FIREFOX_APP  = 'firefox-firma'
++FIREFOX_PROFILE = 'firefox-firma'
+ PK12UTIL_CMD = '/usr/bin/pk12util'
+ SUPPORTED_FORMATS = 'application/x-pkcs12'
+ gettext.install("nautilus-cert-handler")

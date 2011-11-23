@@ -1,0 +1,2 @@
+version=3
+http://launchpad.net/nautilus-cert-handler/+download http://launchpad.net/nautilus-cert-handler/(.*)/nautilus-cert-handler-(.*)\.tar\.gz

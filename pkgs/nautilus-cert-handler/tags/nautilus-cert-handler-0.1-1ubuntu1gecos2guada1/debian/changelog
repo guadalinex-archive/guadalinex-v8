@@ -1,0 +1,50 @@
+nautilus-cert-handler (0.1-1ubuntu1gecos2guada1) oneiric; urgency=low
+
+  * Imported to Guadalinex v8 
+
+ -- Álvaro Pinel <apinel@emergya.com>  Wed, 23 Nov 2011 16:32:33 +0000
+
+nautilus-cert-handler (0.1-1ubuntu1gecos2) natty; urgency=low
+
+  * Added build depends
+
+ -- David Amián Valle <damian@emergya.com>  Tue, 13 Sep 2011 11:57:11 +0200
+
+nautilus-cert-handler (0.1-1ubuntu1gecos1) natty; urgency=low
+
+  * New release for gecos using firefox-firma 
+
+ -- David Amián Valle <damian@emergya.com>  Tue, 13 Sep 2011 10:37:32 +0200
+
+nautilus-cert-handler (0.1-1ubuntu1) natty; urgency=low
+
+  * Changed version to ubuntu release
+
+ -- David Amián Valle <damian@emergya.com>  Tue, 13 Sep 2011 10:11:12 +0200
+
+nautilus-cert-handler (0.1-1gecos1) natty; urgency=low
+
+  * Merged from unstable
+
+ -- David Amián Valle <damian@emergya.com>  Mon, 12 Sep 2011 17:16:40 +0200
+
+
+nautilus-cert-handler (0.1-1) unstable; urgency=low
+
+  * Added new depends
+
+ -- David Amián Valle <damian@emergya.com>  Mon, 12 Sep 2011 17:14:21 +0200
+
+nautilus-cert-handler (0.1-0gecos1) natty; urgency=low
+
+  * Merged from unstable
+
+ -- David Amián Valle <damian@emergya.com>  Mon, 12 Sep 2011 11:34:39 +0200
+
+
+nautilus-cert-handler (0.1-0) unstable; urgency=low
+
+  * First release
+
+ -- David Amián Valle <damian@emergya.com>  Mon, 12 Sep 2011 09:48:06 +0200
+
