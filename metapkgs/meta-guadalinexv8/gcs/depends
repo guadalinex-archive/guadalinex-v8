@@ -28,8 +28,8 @@ guadalinexv8-grub2-conf
 #guadalinexv8-ofimatica
 guadalinexv8-plymouth-theme
 
-sun-java6-jre
-sun-java6-jdk
+#sun-java6-jre
+#sun-java6-jdk
 brasero
 baobab
 firefox
@@ -49,7 +49,7 @@ netcat
 curl
 rar
 unrar
-7zip
+p7zip-rar
 comgt
 locate
 dconf-tools
@@ -58,7 +58,6 @@ mc
 vlc
 ekiga
 nautilus-sendto-empathy
-gedit-collaboration
 keepassx
 gdebi
 gedit
