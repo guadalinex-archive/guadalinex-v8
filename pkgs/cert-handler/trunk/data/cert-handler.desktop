@@ -1,0 +1,18 @@
+[Desktop Entry]
+Name=cert-handler
+GenericName=Certificate Handler
+Comment=Install your certificates on Firefox
+Exec=cert-handler %F
+Terminal=false
+Type=Application
+StartupNotify=true
+NoDisplay=true
+MimeType=application/x-pkcs12;
+Icon=dialog-password
+Categories=GNOME;GTK;Utility;
+X-GNOME-FullName=Certificate Handler
+X-Ubuntu-Gettext-Domain=cert-handler
+
+Name[es]=cert-handler
+GenericName[es]=Instalador de certificados
+Comment[es]=Instala tus certificados en Firefox

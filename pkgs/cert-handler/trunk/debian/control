@@ -1,0 +1,20 @@
+Source: cert-handler
+Section: utils
+Priority: optional
+Maintainer: David Amián <damian@emergya.com>
+Uploaders: David Amián <damian@emergya.com>
+Build-Depends: debhelper (>= 8), cdbs (>=0.4.43), python-all-dev (>=2.3.5-11), python-support
+Build-Depends-Indep: gettext, python-distutils-extra
+Standards-Version: 3.8.3
+Homepage: http://launchpad.net/nautilus-cert-handler
+Vcs-Browser: http://bazaar.launchpad.net/~amialinux/nautilus-cert-handler/trunk/changes
+Vcs-Bzr: http://bazaar.launchpad.net/~amialinux/nautilus-cert-handler/trunk
+XS-Python-Version: current
+
+Package: cert-handler
+Architecture: all
+Depends: ${misc:Depends}, python, libnss3-tools
+Description: Application for install certificates
+ Application for install certificates.
+ .
+ This application let the user install certificates easily.

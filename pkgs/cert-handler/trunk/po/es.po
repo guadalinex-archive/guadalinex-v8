@@ -1,0 +1,67 @@
+# Spanish translations for cert-handler package.
+# Copyright (C) 2011 David Amián Valle
+# This file is distributed under the same license as the cert-handler package.
+# David Amián Valle <damian@emergya.com>, 2011.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: cert-handler\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-09-18 13:27+0200\n"
+"PO-Revision-Date: 2011-09-18 13:29+0200\n"
+"Last-Translator: D. Amian <damian@emergya.com>\n"
+"Language-Team: Emergya Members <emergya@lists.launchpad.net>\n"
+"Language: Spanish\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplural=2; plural=(n != 1);\n"
+
+#: scripts/cert-handler:30
+msgid ""
+"It was not possible install any certificate because firefox is running.\n"
+"Please close Firefox and retry"
+msgstr ""
+"Imposible instalar el certificado debido a que Firefox esta ejecutandose.\n"
+"Por favor cierre Firefox y reintentelo"
+
+#: scripts/cert-handler:33
+msgid "Error"
+msgstr "Error"
+
+#: scripts/cert-handler:54
+#, python-format
+msgid ""
+"It was not possible to add the certificate %s because the password is not "
+"valid"
+msgstr "No es posible instalar el certificado %s, la contraseña es invalida"
+
+#: scripts/cert-handler:57
+#, python-format
+msgid "Error configuring %s"
+msgstr "Error configurando %s"
+
+#: scripts/cert-handler:65
+#, python-format
+msgid "The certificate %s has been installed"
+msgstr "El certificado %s ha sido instalado"
+
+#: scripts/cert-handler:66
+#, python-format
+msgid "Certificate %s installed"
+msgstr "Certificado %s instalado"
+
+#: scripts/cert-handler:99
+#, python-format
+msgid "Configuring %s"
+msgstr "Configurando %s"
+
+#: scripts/cert-handler:104
+#, python-format
+msgid "Insert your password to unlock the certificate from file <b>%s</b>"
+msgstr "Introduzca la contraseña de desbloqueo del certificado <b>%s</b>"
+
+#: scripts/cert-handler:106
+msgid "The password is not valid"
+msgstr "La contraseña es invalida"

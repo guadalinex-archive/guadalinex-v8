@@ -1,0 +1,64 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-09-19 10:07+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: scripts/cert-handler:30
+msgid ""
+"It was not possible install any certificate because firefox is running.\n"
+"Please close Firefox and retry"
+msgstr ""
+
+#: scripts/cert-handler:33
+msgid "Error"
+msgstr ""
+
+#: scripts/cert-handler:54
+#, python-format
+msgid ""
+"It was not possible to add the certificate %s because the password is not "
+"valid"
+msgstr ""
+
+#: scripts/cert-handler:57
+#, python-format
+msgid "Error configuring %s"
+msgstr ""
+
+#: scripts/cert-handler:65
+#, python-format
+msgid "The certificate %s has been installed"
+msgstr ""
+
+#: scripts/cert-handler:66
+#, python-format
+msgid "Certificate %s installed"
+msgstr ""
+
+#: scripts/cert-handler:99
+#, python-format
+msgid "Configuring %s"
+msgstr ""
+
+#: scripts/cert-handler:104
+#, python-format
+msgid "Insert your password to unlock the certificate from file <b>%s</b>"
+msgstr ""
+
+#: scripts/cert-handler:106
+msgid "The password is not valid"
+msgstr ""
