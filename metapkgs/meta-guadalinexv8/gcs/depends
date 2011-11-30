@@ -39,7 +39,6 @@ samba-common
 smbclient
 cifs-utils
 cups-pdf
-gnome-sound-recorder
 thunderbird-locale-es-es
 htop
 iotop
