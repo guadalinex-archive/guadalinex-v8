@@ -1,0 +1,10 @@
+<SearchPlugin xmlns="http://www.mozilla.org/2006/browser/search/">
+<ShortName>Guadalinex.org</ShortName>
+<Description>Buscar información en Guadalinex.org</Description>
+<InputEncoding>utf-8</InputEncoding>
+<Image width="16" height="16">data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAAqUExURQAAAP//83OYlOTk1D5pZKXEwby8qf+cAPzthP/GAO3t4FwuAa2tm////4TzX4sAAAAOdFJOU/////////////////8ARcDcyAAAAMBJREFUeNpi4IUABgYGCAMggGAUKxMThAkQQFCSiYmRiRXMBgggBhgfBEAcgACCCzBwMIAFAAKIAaaAnZ2TA6QJIIBAiImVkZGZmZubkQtoMEAAMYBtAOpnZmPjYWRh4AUIIAYQnwUkwMzMCBIACCCwAAMXIwQABQACCCjAwsLADOEzAAUAAghkBgsLRIAZJAAQQGBrWZiYwQDI5wUIIIjDgEJsbGxg/wEEEBhzcLIDfQt0GZAHEEAMCL9DSIAAAwCZtwZCi4CPMQAAAABJRU5ErkJggg==</Image>
+<Url type="text/html" method="GET" template="http://www.guadalinex.org/search">
+  <Param name="SearchableText" value="{searchTerms}"/>
+</Url>
+<SearchForm>http://www.guadalinex.org/</SearchForm>
+</SearchPlugin>

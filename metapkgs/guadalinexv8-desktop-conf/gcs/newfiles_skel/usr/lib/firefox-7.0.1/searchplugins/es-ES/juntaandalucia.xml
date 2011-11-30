@@ -1,0 +1,14 @@
+<SearchPlugin xmlns="http://www.mozilla.org/2006/browser/search/">
+<ShortName>Junta de Andalucia</ShortName>
+<Description>Buscar información en Andaluciajunta.es</Description>
+<InputEncoding>utf-8</InputEncoding>
+<Image width="16" height="16">data:image/x-icon;base64,AAABAAEAEBAAAAEAGABoAwAAFgAAACgAAAAQAAAAIAAAAAEAGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///////////////////////////////////////////////////////8AAAAAAAD///////8AwMAAwMDAwP////////////////////////////////////8AAAAAAAD///8AoOAAoOAAwMAAwMD///////////////////////////////////8AAAAAAAD///8AwMAAoOAAoOAAwMD///////////////////////////////////8AAAAAAAD///////8AwMAAoOD////////////AwMAAgAD///////////////////8AAAAAAAD///////////////////////////8AgAAAgAAAgAD///////////////8AAAAAAAAAgAD///////////////+AgIAAgAAAgAAAgAAAgAAAgAD///////////8AAAAAAAAAgAAAgAAAgAAAgAAAgAAAgAAAgAAAgAAAgAAAgAAAgAAAgAD///////8AAAAAAAAAgAAAgAAAgAAAgAAAgAAAgAAAgAAAgAAAgAAAgAAAgAAAgAAAgAD///8AAAAAAAAAgAAAgAAAgAAAgAAAgAAAgAAAgAAAgAAAgAAAgAAAgAAAgAAAgACAgIAAAAAAAAAAgAAAgAAAgAAAgAAAgAAAgAAAgAAAgAAAgAAAgAAAgAAAgACAgID///8AAAAAAAAAgAAAgAAAgAAAgAAAgAAAgAAAgAAAgAAAgAAAgAAAgACAgID///////8AAAAAAAAAgAAAgAAAgAAAgAAAgAAAgAAAgAAAgAAAgAAAgACAgID///////////8AAAAAAAAAgAAAgAAAgAAAgAAAgAAAgAAAgACAgICAgICAgID///////////////8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</Image>
+
+<Url type="text/html" method="GET" template="http://www.andaluciajunta.es/aj-sea-.html">
+  <Param name="language" value="es"/>
+  <Param name="device" value="mozilla5"/>
+  <Param name="b" value="{searchTerms}"/>
+  <Param name="btm_buscar" value="Buscar"/>
+</Url>
+<SearchForm>http://www.andaluciajunta.es/</SearchForm>
+</SearchPlugin>
