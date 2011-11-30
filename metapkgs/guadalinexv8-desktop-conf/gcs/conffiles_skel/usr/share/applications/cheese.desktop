@@ -1,0 +1,15 @@
+[Desktop Entry]
+Name=Utilidad para webcam (Cheese)
+X-GNOME-FullName=Cheese Webcam Booth
+Comment=Take photos and videos with your webcam, with fun graphical effects
+Exec=cheese
+Terminal=false
+Type=Application
+StartupNotify=true
+Icon=cheese
+Categories=GNOME;AudioVideo;
+X-GNOME-Bugzilla-Bugzilla=GNOME
+X-GNOME-Bugzilla-Product=cheese
+X-GNOME-Bugzilla-Component=general
+X-GNOME-Bugzilla-Version=3.2.0
+X-Ubuntu-Gettext-Domain=cheese
