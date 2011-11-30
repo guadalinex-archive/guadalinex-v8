@@ -1,0 +1,4 @@
+if [ -f /usr/share/applications/yelp.desktop ]
+then
+	dpkg-divert --package guadalinex-desktop-conf --rename --quiet --add /usr/share/applications/yelp.desktop
+fi

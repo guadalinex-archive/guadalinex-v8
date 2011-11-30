@@ -1,0 +1,12 @@
+dpkg-divert --truename /usr/share/gconf/defaults/05_panel-default-setup.entries | grep -q distrib
+if [ $? -eq 0 ]
+then
+	dpkg-divert --remove /usr/share/gconf/defaults/05_panel-default-setup.entries
+fi
+
+if [ -f /usr/share/gconf/defaults/05_panel-default-setup.entries.distrib ]
+then
+    rm /usr/share/gconf/defaults/05_panel-default-setup.entries.distrib
+fi
+
+cp /usr/share/guadalinex-desktop-conf/05_panel-default-setup.entries /usr/share/gconf/defaults/05_panel-default-setup.entries

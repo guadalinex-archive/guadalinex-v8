@@ -1,0 +1,18 @@
+[Desktop Entry]
+Name=Brasero
+GenericName=Disc Burner
+Comment=Create and copy CDs and DVDs
+Categories=GNOME;AudioVideo;DiscBurning;
+MimeType=application/x-cd-image;application/x-cdrdao-toc;application/x-cue;application/x-toc;audio/x-scpls;audio/x-ms-asx;audio/x-mp3-playlist;audio/x-mpegurl;application/x-brasero;
+Exec=brasero %U
+Icon=brasero
+StartupNotify=true
+Terminal=false
+Type=Application
+X-GNOME-FullName=Brasero Disc Burner
+X-GNOME-Bugzilla-Bugzilla=GNOME
+X-GNOME-Bugzilla-Product=brasero
+X-GNOME-Bugzilla-Component=general
+X-GNOME-Bugzilla-Version=2.29.91
+X-Ubuntu-Gettext-Domain=brasero
+X-GNOME-FullName[es]=Grabación de CD/DVD (Brasero)

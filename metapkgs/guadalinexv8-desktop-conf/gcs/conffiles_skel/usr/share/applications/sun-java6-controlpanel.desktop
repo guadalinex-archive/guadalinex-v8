@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Sun Java 6 Plugin Control Panel
+Comment=Sun Java 6 Plugin Control Panel
+Exec=/usr/lib/jvm/java-6-sun-1.6.0.13/bin/ControlPanel
+Terminal=false
+Type=Application
+Icon=sun-java6
+Categories=Settings;
+NoDisplay=true
+Name[es]=Sun Java 6 Plugin (Panel de control)
+Comment[es]=Panel de control del plugin Sun Java 6

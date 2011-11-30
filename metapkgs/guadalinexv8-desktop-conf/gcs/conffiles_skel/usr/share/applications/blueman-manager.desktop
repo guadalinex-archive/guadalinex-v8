@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Bluetooth Manager
+Comment=Blueman Bluetooth Manager
+Icon=blueman
+Exec=blueman-manager
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=GTK;GNOME;Settings;HardwareSettings;
+X-Ubuntu-Gettext-Domain=blueman
+X-GNOME-FullName[es]=Administrador de Bluetooth (blueman)
+Comment[es]=Crea y administra conexiones con dispostivos bluetooth

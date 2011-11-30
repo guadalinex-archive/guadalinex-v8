@@ -1,0 +1,16 @@
+[Desktop Entry]
+Name=onBoard
+GenericName= onBoard onscreen keyboard
+Comment=Flexible onscreen keyboard for gnome
+Exec=onboard
+Terminal=false
+Type=Application
+Categories=GTK;GNOME;Utility;Accessibility;
+#Categories=Application;Accessibility;
+#Categories=GNOME;GTK;Settings;X-GNOME-PersonalSettings;Accessibility;
+NoDisplay=false
+MimeType=application/x-onboard;
+Icon=/usr/share/icons/hicolor/scalable/apps/onboard.svg
+X-Ubuntu-Gettext-Domain=onboard
+Name[es]=Teclado en pantalla (onBoard)
+Comment[es]=Presenta un teclado virtual en pantalla

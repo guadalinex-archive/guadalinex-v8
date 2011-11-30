@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name=DNIe PKCS#11 module registry
+Name[en]=DNIe PKCS#11 module registry
+Name[es]=Registrar módulo DNIe PKCS#11
+Name[ca]=Registrar mòdul DNIe PKCS#11
+Name[gl]=Rexistrar módulo DNIe PKCS#11
+Name[eu]=DNIe PKCS#11 modulua erregistratu
+Exec=/usr/share/opensc-dnie/inst_pkcs11_cert.pl
+Icon=/usr/share/opensc-dnie/instal_dnie/Logo_DNIe_159x100.bmp
+Terminal=false
+Type=Application
+NoDisplay=true
+Categories=Application;Office;

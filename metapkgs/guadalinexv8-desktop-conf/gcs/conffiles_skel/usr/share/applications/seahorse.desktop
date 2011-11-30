@@ -1,0 +1,16 @@
+[Desktop Entry]
+Name=Passwords and Encryption Keys
+Comment=Manage your passwords and encryption keys
+Exec=seahorse
+Terminal=false
+Type=Application
+Icon=seahorse
+Categories=GNOME;GTK;Security;Utility;
+StartupNotify=true
+X-GNOME-Bugzilla-Bugzilla=GNOME
+X-GNOME-Bugzilla-Product=seahorse
+X-GNOME-Bugzilla-Component=general
+X-GNOME-Bugzilla-Version=2.29.91
+X-GNOME-DocPath=seahorse/seahorse.xml
+X-Ubuntu-Gettext-Domain=seahorse
+Name[es]=Contraseñas y claves de cifrado (seahorse)
