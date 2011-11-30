@@ -1,0 +1,5 @@
+
+if [ -f /etc/adduser.conf ]; then
+  sed -i 's|#EXTRA_GROUPS.*|EXTRA_GROUPS="dialout fax cdrom floppy tape audio dip video plugdev fuse sambashare scard"|g' /etc/adduser.conf
+  sed -i 's|#ADD_EXTRA_GROUPS|ADD_EXTRA_GROUPS|g' /etc/adduser.conf
+fi
