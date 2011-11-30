@@ -39,6 +39,7 @@ samba-common
 smbclient
 cifs-utils
 cups-pdf
+gnome-sound-recorder
 thunderbird-locale-es-es
 htop
 iotop
@@ -55,18 +56,18 @@ comgt
 locate
 dconf-tools
 joe
-mc
+#mc
 vlc
-ekiga
+#ekiga
 nautilus-sendto-empathy
-keepassx
+#keepassx
 gdebi
 gedit
 gimp
 gksu
 gnome-paint
 cheese
-jxplorer
+#jxplorer
 c3270
 planner
 thunderbird
@@ -75,6 +76,9 @@ gcstar
 rhythmbox
 wine
 playonlinux
+onboard
+gnome-orca
+gnome-sudoku
 
 #Nueva herencia Ubuntu
 
