@@ -26,7 +26,7 @@ guadalinexv8-desktop-conf
 guadalinexv8-gnome-shell-conf
 guadalinexv8-grub2-conf
 #guadalinexv8-ofimatica
-guadalinexv8-standard-conf
+#guadalinexv8-standard-conf
 guadalinexv8-plymouth-theme
 
 #sun-java6-jre
