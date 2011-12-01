@@ -54,6 +54,7 @@ unrar
 p7zip-rar
 comgt
 locate
+default-jre
 dconf-tools
 joe
 #mc
@@ -63,7 +64,7 @@ nautilus-sendto-empathy
 #keepassx
 gdebi
 gedit
-gimp
+#gimp
 gksu
 gnome-paint
 cheese
