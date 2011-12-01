@@ -29,6 +29,10 @@ guadalinexv8-grub2-conf
 guadalinexv8-standard-conf
 guadalinexv8-plymouth-theme
 
+
+audacity
+libmp3lame0
+avidemux
 #sun-java6-jre
 #sun-java6-jdk
 brasero
