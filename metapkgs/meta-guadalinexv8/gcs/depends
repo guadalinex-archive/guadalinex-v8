@@ -86,6 +86,8 @@ wine
 playonlinux
 onboard
 gnome-orca
+at-spi2-core
+speech-dispatcher
 gnome-sudoku
 freegemas
 libsdl-mixer1.2
@@ -137,6 +139,11 @@ gnome-themes-selected
 gnome-themes-standard
 gnome-tweak-tool
 gnome-user-guide
+gwibber
+gwibber-service
+gwibber-service-facebook
+gwibber-service-identica
+gwibber-service-twitter
 grub2
 gs-cjk-resource
 gstreamer0.10-alsa
