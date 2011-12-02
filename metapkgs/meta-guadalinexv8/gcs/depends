@@ -86,6 +86,9 @@ playonlinux
 onboard
 gnome-orca
 gnome-sudoku
+freegemas
+libsdl-mixer1.2
+libsdl-ttf2.0-0
 
 #Nueva herencia Ubuntu
 
