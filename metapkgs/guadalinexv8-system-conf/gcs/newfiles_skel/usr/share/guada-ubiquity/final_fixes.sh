@@ -9,7 +9,7 @@ function error() {
 }
 
 rm -rf /etc/apt/sources.list*
-cp -v /etc/apt/sources.list /target/etc/sources.list || error "copying sources.list"
+cp -v /etc/apt/sources.list /target/etc/apt/sources.list || error "copying sources.list"
 
 
 # detecting if our processor has pae ability
