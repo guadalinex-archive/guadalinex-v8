@@ -1,3 +1,9 @@
+ubiquity (2.8.7gecos1guada2) oneiric; urgency=low
+
+  * Fixed ubuntu repo to guadalinex.org repo
+
+ -- Álvaro Pinel Bueno <apinel@emergya.com>  Mon, 05 Dec 2011 14:28:12 +0000
+
 ubiquity (2.8.7gecos1guada1) oneiric; urgency=low
 
   * Exported from Gecos to Guadalinex v8
