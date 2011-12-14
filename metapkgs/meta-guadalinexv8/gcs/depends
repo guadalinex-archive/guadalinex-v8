@@ -64,6 +64,7 @@ comgt
 locate
 default-jre
 dconf-tools
+pdal2
 joe
 #mc
 vlc
