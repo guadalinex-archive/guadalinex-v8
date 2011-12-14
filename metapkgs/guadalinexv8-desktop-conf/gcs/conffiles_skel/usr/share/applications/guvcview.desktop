@@ -1,0 +1,15 @@
+[Desktop Entry]
+Version=1.0
+Name=guvcview
+Name[es]=Graba y captura imágenes desde la cámara web
+GenericName=GTK UVC video viewer
+Comment=A video viewer and capturer for the linux uvc driver
+Comment[es]=Graba y captura imágenes desde la cámara web
+TryExec=guvcview
+Exec=guvcview
+Icon=/usr/share/pixmaps/guvcview/guvcview.png
+Terminal=false
+Type=Application
+Categories=Video;AudioVideo;
+StartupNotify=true
+

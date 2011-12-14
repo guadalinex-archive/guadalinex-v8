@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=pyRenamer
+Name[es]=Aplicación para renombrar archivos (pyRenamer)
+Comment=Mass rename files
+Exec=/usr/bin/pyrenamer
+Icon=/usr/share/pyrenamer/pyrenamer.png
+Terminal=false
+Type=Application
+Categories=GNOME;GTK;Utility;FileTools;
+X-Ubuntu-Gettext-Domain=pyrenamer
+
