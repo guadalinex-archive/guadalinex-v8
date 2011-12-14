@@ -1,0 +1,2 @@
+version=3
+http://launchpad.net/pdal/+download http://launchpad.net/pdal/(.*)/pdal-(.*)\.tar\.gz
