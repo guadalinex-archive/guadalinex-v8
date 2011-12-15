@@ -1,0 +1,16 @@
+Source: gsam
+Section: utils
+Priority: optional
+Maintainer: Junta de Andalucía <packmaster@guadalinex.org>
+Uploaders: Álvaro Pinel <alvaropinel@gmail.com>,
+	David Amián <amialinux@gmail.com>
+Build-Depends: debhelper (>= 7), cdbs (>=0.4.43), python-all-dev (>=2.3.5-11)
+Build-Depends-Indep: python-central (>=0.5.6), gettext, python-distutils-extra
+Standards-Version: 3.8.0
+Homepage: http://forja.guadalinex.org/repositorio/projects/sshmanager/
+
+Package: gsam
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, python, python-gtk2, python-glade2, openssh-server
+Description: Administrador gráfico del acceso por ssh
+ Administrador gráfico del servicio de administración remota (ssh) de un PC.

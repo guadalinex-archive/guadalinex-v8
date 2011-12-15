@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Graphic ssh access manager (gSam)
+Name[es]=Administrador del servicio ssh (gSam)
+Comment=Administrador gráfico del servicio de acceso remoto al PC 
+Comment[es]=Administrador gráfico del servicio de acceso remoto al PC
+Exec=gksu python /usr/share/gsam/gsam.py
+Icon=/usr/share/pixmaps/gsam.png
+Terminal=false
+Type=Application
+Categories=GNOME;Application;System;Settings;
+StartupNotify=true
+
