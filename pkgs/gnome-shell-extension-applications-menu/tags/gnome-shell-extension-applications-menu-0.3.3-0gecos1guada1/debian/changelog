@@ -1,0 +1,55 @@
+gnome-shell-extension-applications-menu (0.3.3-0gecos1guada1ubuntu1) oneiric; urgency=low
+
+  * Hidden empty categories, by Antonio Hernández <ahernandez@emergya.com> 
+
+ -- Álvaro Pinel <apinel@emergya.com>  Thu, 15 Dec 2011 13:43:19 +0000
+
+gnome-shell-extension-applications-menu (0.3.2-0gecos1guada1) oneiric; urgency=low
+
+  * Imported to Guadalinex v8
+
+ -- Álvaro Pinel <apinel@emergya.com>  Tue, 29 Nov 2011 09:35:34 +0000
+
+gnome-shell-extension-applications-menu (0.3.2-0gecos1) oneiric; urgency=low
+
+  * New upstream version 0.3.2 for GnomeShell 3.2.x branches.
+
+ -- Roberto C. Morano <rcmorano@emergya.com>  Mon, 28 Nov 2011 12:34:11 +0100
+
+gnome-shell-extension-applications-menu (0.3.1-0gecos1) oneiric; urgency=low
+
+  * Version 0.3.1 for GnomeShell 3.2.x branches.
+
+ -- Antonio Hernández <ahernandez@emergya.com>  Tue, 22 Nov 2011 11:42:25 +0100
+
+gnome-shell-extension-applications-menu (0.3-0gecos1) oneiric; urgency=low
+
+  * Version 0.3 for GnomeShell 3.2.x branches.
+
+ -- Antonio Hernández <ahernandez@emergya.com>  Thu, 27 Oct 2011 13:38:32 +0200
+
+gnome-shell-extension-applications-menu (0.2.5-0gecos1) natty; urgency=low
+
+  * Create wrappers for AppSystem and AppInfo because of API changes in GnomeShell 3.1.90.1 version.
+  * Helpers for retrieving some Shell objects.
+
+ -- Antonio Hernández <ahernandez@emergya.com>  Tue, 20 Sep 2011 13:27:14 +0200
+
+gnome-shell-extension-applications-menu (0.2.4-0gecos1) natty; urgency=low
+
+  * Added localization
+
+ -- Antonio Hernández <ahernandez@emergya.com>  Wed, 07 Sep 2011 14:45:43 +0200
+
+gnome-shell-extension-applications-menu (0.2.3-0gecos2) natty; urgency=low
+
+    * Patched to sync with GECOS trunk version
+    * Added GECOS version
+
+ -- Roberto C. Morano <rcmorano@emergya.es>  Tue, 02 Aug 2011 13:01:23 +0200
+
+gnome-shell-extension-applications-menu (0.2.3-0) unstable; urgency=low
+
+    * Rebased from upstream version 'gnome-shell-frippery-0.2.3.tgz'
+
+ -- Roberto C. Morano <rcmorano@emergya.es>  Thu, 08 Jul 2011 10:43:12 +0200
