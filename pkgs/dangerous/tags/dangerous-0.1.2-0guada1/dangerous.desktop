@@ -8,4 +8,4 @@ Exec=gksudo /usr/bin/dangerous
 Icon=dangerous
 Terminal=false
 Type=Application
-Categories=GNOME;Application;System;Settings;
+Categories=System;
