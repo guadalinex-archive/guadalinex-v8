@@ -1,3 +1,9 @@
+gnome-shell-extension-reflection (0.2.2-0gecos1guada11ubuntu1) oneiric; urgency=low
+
+  * Fixed autohide bar. By Antonio Hernandez, <ahernandez@emergya.com>
+
+ -- Álvaro Pinel <apinel@emergya.com>  Thu, 15 Dec 2011 14:08:24 +0000
+
 gnome-shell-extension-reflection (0.2.1-0gecos1guada11) oneiric; urgency=low
 
   * Imported from GECOS to Guadalinex v8.
