@@ -12,7 +12,7 @@ XS-Python-Version: current
 
 Package: simplemag
 Architecture: any
-Depends: python, python-gtk2, pyhton-pygame
+Depends: python, python-gtk2
 Description: It's a simple magnifier made in python
  It's a simple magnifier made in python.
 
