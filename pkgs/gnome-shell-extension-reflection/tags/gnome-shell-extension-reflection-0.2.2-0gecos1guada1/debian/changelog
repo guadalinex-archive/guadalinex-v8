@@ -1,0 +1,36 @@
+gnome-shell-extension-reflection (0.2.1-0gecos1guada11) oneiric; urgency=low
+
+  * Imported from GECOS to Guadalinex v8.
+  * Updated for Gnome-shell 3.2
+
+ -- Álvaro Pinel <apinel@emergya.com>  Tue, 22 Nov 2011 15:00:33 +0000
+
+gnome-shell-extension-reflection (0.2.1-0gecos1) oneiric; urgency=low
+
+  * Version 0.2.1 for GnomeShell 3.2.x branches.
+
+ -- Antonio Hernández <ahernandez@emergya.com>  Tue, 22 Nov 2011 12:07:23 +0100
+
+gnome-shell-extension-reflection (0.2-0gecos1) oneiric; urgency=low
+
+  * Version 0.2 for GnomeShell 3.2.x branches.
+
+ -- Antonio Hernández <ahernandez@emergya.com>  Thu, 27 Oct 2011 13:18:21 +0200
+
+gnome-shell-extension-reflection (0.1-0gecos1) natty; urgency=low
+
+  * Version 0.1 for GnomeShell 3.1.x branches.
+
+ -- Antonio Hernández <ahernandez@emergya.com>  Thu, 27 Oct 2011 13:15:34 +0200
+
+gnome-shell-extension-reflection (0.0.1-0gecos1) natty; urgency=low
+
+  * Version 0.0.1 for GnomeShell 3.0.x branches.
+
+ -- Antonio Hernández <ahernandez@emergya.com>  Thu, 27 Oct 2011 13:11:44 +0200
+
+gnome-shell-extension-reflection (0.1-0gecos1) unstable; urgency=low
+
+    * Initial upstream release
+
+ -- Roberto C. Morano <rcmorano@emergya.es>  Thu, 08 Jul 2011 10:43:12 +0200
