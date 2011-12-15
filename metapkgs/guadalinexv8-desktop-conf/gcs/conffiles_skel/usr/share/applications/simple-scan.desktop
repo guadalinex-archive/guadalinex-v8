@@ -1,5 +1,5 @@
 [Desktop Entry]
-Name=Programa de escaneo de imágenes (Simple Scan)
+Name=Escaneo de imágenes (simple-scan)
 Comment=Scan Documents
 Exec=simple-scan
 Icon=scanner
@@ -8,5 +8,5 @@ Type=Application
 StartupNotify=true
 Categories=GNOME;GTK;Graphics;Scanning;
 X-GNOME-Gettext-Domain=simple-scan
-X-GNOME-FullName[es]=Programa de escaneo de imágenes (Simple Scan)
+X-GNOME-FullName[es]=Escaneo de imágenes (simple-scan)
 Comment[es]=Programa para trabajar con escaners

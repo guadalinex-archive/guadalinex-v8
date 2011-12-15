@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name=Gwibber
+Name[es]=Redes sociales (gwibber)
+GenericName=Social Client
+X-GNOME-FullName=Gwibber Social Client
+X-GNOME-FullName[es]=Redes sociales
+Type=Application
+Comment=Update your microblog and follow your contacts' statuses
+Exec=gwibber %U
+Icon=gwibber
+Categories=GTK;GNOME;Network;
+X-GNOME-Gettext-Domain=gwibber
+X-Ayatana-Appmenu-Show-Stubs=False

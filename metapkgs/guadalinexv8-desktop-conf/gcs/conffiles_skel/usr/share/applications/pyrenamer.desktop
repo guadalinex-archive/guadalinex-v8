@@ -1,6 +1,6 @@
 [Desktop Entry]
 Name=pyRenamer
-Name[es]=Aplicación para renombrar archivos (pyRenamer)
+Name[es]=Renombrador masivo de archivos (pyRenamer)
 Comment=Mass rename files
 Exec=/usr/bin/pyrenamer
 Icon=/usr/share/pyrenamer/pyrenamer.png

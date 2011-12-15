@@ -1,10 +1,10 @@
 [Desktop Entry]
 Name=gscan2pdf
-Name[es]=Aplicación para escanear a PDF (gscan2pdf)
+Name[es]=Escaneo de textos (gscan2pdf)
 GenericName=gscan2pdf
 Comment=A GUI to aid the scan-to-PDF process
 Comment[de]=Machen Sie PDF-Dateien direkt von Ihrem Scanner
-Comment[es]=Aplicación para escanear a PDF (gscan2pdf)
+Comment[es]=Escaneo de textos (gscan2pdf)
 Exec=gscan2pdf
 Icon=gscan2pdf
 Terminal=false

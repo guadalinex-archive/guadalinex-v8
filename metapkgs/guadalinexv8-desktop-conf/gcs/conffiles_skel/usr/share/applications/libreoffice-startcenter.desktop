@@ -4,6 +4,7 @@ Terminal=false
 Icon=libreoffice34-startcenter
 Type=Application
 Categories=Office;
+NoDisplay=true
 Exec=libreoffice %U
 MimeType=application/vnd.openofficeorg.extension;
 Name=LibreOffice 
