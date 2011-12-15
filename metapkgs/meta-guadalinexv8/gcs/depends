@@ -65,6 +65,7 @@ locate
 default-jre
 dconf-tools
 pdal2
+python-pygame
 joe
 #mc
 vlc
