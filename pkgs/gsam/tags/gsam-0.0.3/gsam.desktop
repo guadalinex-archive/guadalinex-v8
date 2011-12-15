@@ -8,6 +8,6 @@ Exec=gksu python /usr/share/gsam/gsam.py
 Icon=/usr/share/pixmaps/gsam.png
 Terminal=false
 Type=Application
-Categories=GNOME;Application;System;Settings;
+Categories=System;
 StartupNotify=true
 
