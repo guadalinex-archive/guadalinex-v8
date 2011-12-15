@@ -69,17 +69,20 @@ joe
 #mc
 vlc
 #ekiga
-nautilus-sendto-empathy
+#nautilus-sendto-empathy
+libmpg123-0
 #keepassx
 gdebi
 gedit
 #gimp
 gksu
 gnome-paint
-cheese
+#cheese
 #jxplorer
 c3270
-planner
+#planner
+tesseract-ocr
+tesseract-ocr-spa
 thunderbird
 gtg
 gcstar
@@ -105,6 +108,9 @@ djvulibre-bin
 guvcview
 pyrenamer
 deja-dup
+gsam
+diagnostic-report
+simplemag
 #Nueva herencia Ubuntu
 
 acpid
