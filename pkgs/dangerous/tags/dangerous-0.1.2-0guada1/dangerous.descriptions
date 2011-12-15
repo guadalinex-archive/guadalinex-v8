@@ -1,0 +1,25 @@
+=,/boot,Inicio del sistema
+=,/boot/grub,Contiene el menú de inicio del ordenador
+=,/boot/grub/menu.lst,Menú de inicio del ordenador
+=,/boot/grub/grub.cfg,Menú de inicio del ordenador
+=,/etc,Configuraciones generales
+=,/home,Carpetas de datos de usuarios
+R,/home/.*,Datos de usuarios
+=,/etc/ssh,Sistema de acceso remoto
+=,/etc/init.d,Servicios que pueden arrancar
+R,/etc/init.d/.*,Servicios
+R,/etc/X11.*,Configuración de la pantalla
+=,/etc/default,Configuraciones por defecto
+=,/etc/default/grub,Valores por defecto del menú de inicio
+=,/etc/password,Usuarios del ordenador
+=,/etc/group,Grupos de usuarios del PC
+=,/etc/acpi,Configuración de energía
+=,/etc/cron.d,Tareas repetitivas
+=,/etc/cron.daily,Tareas repetitivas diarías
+=,/etc/cron.hourly,Tareas repetitivas por horas
+=,/etc/cron.monthly,Tareas repetitivas mensuales
+=,/etc/cron.weekly,Tareas repetitivas mensuales
+=,/etc/cups,Configuración de impresoras
+=,/etc/cups/printers.conf,Configuración de impresoras
+=,/etc/apt,Repositorios de paquetes software
+=,/etc/apt/sources.list,Lista de sitios de descarga de paquetes

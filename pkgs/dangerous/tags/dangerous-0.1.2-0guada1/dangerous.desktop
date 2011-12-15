@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Config files editor (Dangerous)
+Name[es]=Editor de Archivos de Configuración (Dangerous)
+Comment=Edit sensible system files
+Comment[es]=Edite ficheros delicados del sistema
+Exec=gksudo /usr/bin/dangerous
+Icon=dangerous
+Terminal=false
+Type=Application
+Categories=GNOME;Application;System;Settings;

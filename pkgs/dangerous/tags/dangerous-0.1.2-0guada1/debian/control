@@ -1,0 +1,20 @@
+Source: dangerous
+Section: utils
+Priority: optional
+Maintainer: Guadalinex Team <packmaster@guadalinex.org>
+Uploaders: Roberto C. Morano <rcmorano@emergya.es>,
+           Álvaro Pinel <apinel@emergya.com>
+Build-Depends: cdbs (>= 0.4.49), debhelper (>= 7), python-all-dev (>= 2.5)
+Build-Depends-Indep: python-central (>= 0.5)
+XS-Python-Version: >= 2.5
+Standards-Version: 3.8.4
+Homepage: http://launchpad.net/dangerous
+Vcs-Browser: http://codebrowse.launchpad.net/~guadalinex-members/dangerous/trunk/changes
+Vcs-Bzr: http://bazaar.launchpad.net/~guadalinex-members/dangerous/trunk
+
+Package: dangerous
+Architecture: all
+Depends: ${python:Depends}, python, python-configobj
+XB-Python-Version: ${python:Versions}
+Description: Graphical system files editor.
+ A Python util to edit sensible system files.

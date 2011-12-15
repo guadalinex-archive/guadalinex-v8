@@ -1,0 +1,303 @@
+#!/usr/bin/python
+# -*- coding: utf8 -*-
+#
+# This software is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation; either version 2 of the License, or
+# (at your option) any later version.
+#
+# This software is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this package; if not, write to the Free Software
+# Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA
+
+""" 
+   dangerous - system files editor for standard users
+"""
+
+__author__ = "Alfonso E.M. <alfonso@el-magnifico.org>"
+__copyright__ = "Alfonso E.M. <alfonso@el-magnifico.org>"
+__contributors__ = "Roberto C. Morano <rcmorano@emergya.es>"
+__license__ = "GPL-2"
+# date: 29/Mar/2010
+
+import re
+import time
+import pygtk
+pygtk.require ('2.0')
+import gtk
+import os,commands,sys,shutil
+from configobj import ConfigObj
+
+class FileSystem:
+  def __init__(self,conf):
+    """
+    A class containing restricted access to filesystem
+    """
+    self.conf=conf
+    self.descriptions=self.load_descriptions(conf["descriptions"])
+    self.roots=self.get_roots()
+    self.currentpath="/"
+    self.level=0
+    self.lastfile=""
+    
+# Load directory descriptions from disk
+  def load_descriptions(self,filename):
+    try:
+      f=open(filename)
+    except:
+      print "ERROR: descriptions file not readable"
+      return
+    descriptions=[]
+
+    try:
+      for line in f:
+        compare,pattern,description=line.split(",")
+        descriptions.append([compare,pattern,description.rstrip()])
+    except:
+      print "ERROR: bad descriptions file"
+
+    f.close()
+    return descriptions 
+
+# Get initial paths    
+  def get_roots(self):
+    roots=[]
+    for f in self.conf["basedirs"]:
+      file=File(f,self.descriptions)
+      roots.append(file)
+    return roots
+
+# Get available directories and files
+  def browse(self,path):
+    newpath=os.path.join(self.currentpath,path)
+#    is_root=(f for f in self.roots if f.fullname == newpath)
+    if newpath == "/":   #     back to start dirs:
+      self.currentpath=newpath
+      return self.roots
+          
+    if os.path.isdir(newpath):
+      files=[]
+      os.chdir(newpath)
+      ldir = [x for x in os.listdir(newpath) if not os.access(x,os.X_OK) or os.path.isdir(x)] 
+      ldir.sort()
+      for f in ldir:
+        filename=os.path.join(newpath,f)
+        file=File(filename,self.descriptions)
+        if  file.description == None:
+          if file.type=="dir" and self.conf["strict_dirs"]=="Yes":
+            continue
+          if file.type=="file" and self.conf["strict_files"]=="Yes":
+            continue
+        files.append(file)        
+      if len(files)>0:
+        self.currentpath=newpath
+        self.level+=1        
+        return files
+      os.chdir("..")
+    return False
+
+  def get_content(self,path):
+    if os.path.isfile(path): 
+      f=open(path,'r')
+      content=unicode(f.read())
+      f.close
+      return content
+    return False
+
+  def save_backup(self,path):
+    now=str(time.strftime((".%d%m%Y-%H%M%S.danger"),time.localtime()))
+    try:
+      shutil.copy2(path,path+now)
+      return True
+    except:
+      return False
+  
+  def save_content(self,path,content):
+    try:
+      f=open(path,'w')
+      f.write(content)
+      f.close
+    except:
+      return False
+    return True
+    
+    
+      
+class File:
+  """
+  Utility class containing one file properties  
+  """
+  def __init__(self,fullname,descriptions):
+    self.fullname=fullname
+    self.name=os.path.basename(fullname)
+    self.description=self.search_description(fullname,descriptions)
+
+    if os.path.isdir(fullname):
+      self.type="dir"
+      self.icon=gtk.STOCK_MEDIA_PLAY
+    else:
+      self.type="file"
+      self.icon=gtk.STOCK_EDIT
+
+  def search_description(self,fullname,descriptions):
+    description=""
+    for (compare,pattern,desc) in descriptions:
+#      if fullname.startswith(pattern):  # Compare first characters
+#      if fullname==pattern:             # Compare exact words
+       if (compare == "=" and fullname==pattern) or \
+          (compare == "R" and re.match(pattern,fullname)):
+         description=desc
+         return description
+
+
+class Gui:
+  def __init__(self, conf, filesystem):
+    """
+    In this init the main window is displayed
+    """
+    self.filesystem=filesystem
+    self.conf=conf
+
+    if conf["splash"]=="Yes":
+      self.alert("Atención: va a acceder a datos del sistema.\n\nTenga mucho cuidado al hacer cualquier cambio.")
+
+    dic = {
+       "on_button_cancel_clicked" : (self.quit),
+       "on_button_edit_clicked" : (self.button_edit_clicked),
+       "on_treeview_files_row_activated" : (self.treeview_files_row_activated),
+       "on_button_back_clicked" : (self.button_back_clicked),
+       "on_window_main_destroy" : (self.quit), 
+       "on_button_edit_ok_clicked" : (self.button_edit_ok_clicked),
+       "on_button_edit_cancel_clicked" : (self.button_edit_cancel_clicked),
+    }
+
+    glade1 = gtk.Builder()
+    glade1.add_from_file("/usr/share/dangerous/dangerous.glade")
+    glade1.connect_signals(dic)
+
+    self.dialog_edit=glade1.get_object("dialog_edit")
+    self.dialog_edit_textview_content=glade1.get_object("textview_content")
+
+    self.liststore_files=glade1.get_object("liststore_files")
+    self.treeview_files=glade1.get_object("treeview_files")
+    self.label_currentpath=glade1.get_object("label_currentpath")
+    
+    self.treeview_files.set_model(model=self.liststore_files)
+    column1=gtk.TreeViewColumn("Directorio/Fichero")
+    column2=gtk.TreeViewColumn("Descripción")
+    self.treeview_files.append_column(column1)
+    self.treeview_files.append_column(column2)
+    cell1 = gtk.CellRendererPixbuf()
+    column1.pack_start(cell1, True)
+    column1.set_attributes(cell1, stock_id=0)
+
+    cell2 = gtk.CellRendererText()
+    column1.pack_start(cell2, True)
+    column1.add_attribute(cell2, 'text', 1)
+
+    cell3 = gtk.CellRendererText()
+    column2.pack_start(cell3, True)
+    column2.add_attribute(cell3, 'text', 2)
+
+    self.load_tree(filesystem.roots)
+
+
+  def alert(self,message):
+    dialog = gtk.MessageDialog(None, gtk.DIALOG_MODAL, gtk.MESSAGE_INFO, gtk.BUTTONS_CLOSE, message)
+    dialog.run()
+    dialog.destroy()
+
+  def load_tree(self,files):
+    self.liststore_files.clear()
+    for file in files:
+      self.liststore_files.append([file.icon,file.name,file.description])
+  
+  def treeview_files_row_activated(self,TreeView,TreePath,TreeViewColumn):
+    path=self.get_selected_file()
+    self.move_to(path)
+   
+  def button_back_clicked(self,widget):
+    (parent,son)=os.path.split(self.filesystem.currentpath)
+    self.move_to(parent)
+    return
+
+  def button_edit_clicked(self,widget):
+    path=self.get_selected_file()
+    content=self.filesystem.get_content(path)
+    if content:
+      buffer=self.dialog_edit_textview_content.get_buffer()
+      buffer.set_text(content)
+      buffer.set_modified(False)
+      self.dialog_edit.show()
+      start = buffer.get_start_iter()
+      buffer.place_cursor(start)
+    return
+    
+  def button_edit_ok_clicked(self,widget):
+    path=self.get_selected_file()
+    buffer=self.dialog_edit_textview_content.get_buffer()
+    message="No ha cambiado nada.\n\nEl fichero no se grabará."
+    if buffer.get_modified():
+      content=buffer.get_text(buffer.get_start_iter() , buffer.get_end_iter())
+      ok=True
+      if self.conf["backups"]=="Yes":
+        ok=self.filesystem.save_backup(path)
+        if ok:
+          message="Se ha guardado una copia de seguridad.\n\n"
+        else:
+          message="ATENCION: No ha sido posible grabar una copia de seguridad.\n\nSe cancelan todos los cambios.\n\n"
+      if ok:
+        ok=self.filesystem.save_content(path,content)
+        if ok:
+          message+="Cambios guardados"
+        else:
+          message+="ATENCION: No ha sido posible guardar los cambios."
+    self.dialog_edit.hide()
+    self.alert(message)
+    return
+
+  def button_edit_cancel_clicked(self,widget):
+    self.dialog_edit.hide()
+    self.alert("No se ha modificado nada")
+    return
+
+  def get_selected_file(self):
+    selection=self.treeview_files.get_selection()
+    (model,iter)=selection.get_selected()
+    return model.get_value(iter,1)
+     
+  def move_to(self,path):
+    files=self.filesystem.browse(path)
+    if files:
+      self.load_tree(files)
+      self.label_currentpath.set_text(self.filesystem.currentpath)          
+    return
+ 
+  def run(self):
+    gtk.main()
+
+  def quit(*args):
+    if hasattr(gtk, 'main_quit'):
+      gtk.main_quit()
+    else:
+      gtk.mainquit()
+
+
+# Main
+def main():
+
+  conf = ConfigObj("/etc/dangerous.conf")
+  
+  filesystem=FileSystem(conf)
+  app=Gui(conf,filesystem)
+  app.run()
+    
+
+if __name__ == '__main__':
+  main()
+
