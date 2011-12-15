@@ -3,7 +3,7 @@ Section: utils
 Priority: optional
 Maintainer: Guadalinex Team <packmaster@guadalinex.org>
 Uploaders: David Amián <amialinux@gmail.com>
-Build-Depends: debhelper (>= 7), python-distutils-extra, python-pygame
+Build-Depends: debhelper (>= 7), python-distutils-extra, python-pygame, cdbs
 Standards-Version: 3.8.4
 Homepage: http://launchpad.net/simplemag
 Vcs-Browser:https://code.launchpad.net/~guadalinex-members/simplemag/trunk
