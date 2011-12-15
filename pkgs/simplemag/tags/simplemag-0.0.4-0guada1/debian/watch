@@ -1,0 +1,2 @@
+version=3
+http://launchpad.net/simplemag/+download http://launchpad.net/simplemag/(.*)/simplemag-(.*)\.tar\.gz
