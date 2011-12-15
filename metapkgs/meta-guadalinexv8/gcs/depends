@@ -63,6 +63,7 @@ p7zip-rar
 comgt
 locate
 default-jre
+unpaper
 dconf-tools
 pdal2
 python-pygame
