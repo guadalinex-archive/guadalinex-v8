@@ -1,0 +1,13 @@
+
+[Desktop Entry]
+Encoding=UTF-8
+Name=Hardware Form generator
+Name[es]=Generador de informes de diagnóstico
+Comment=Collect info of your system
+Comment[es]=Realice un informe de diagnóstico de su sistema
+Exec=gksudo -k python /usr/bin/diagnostic_report.py
+Icon=/usr/share/pixmaps/diagnostic-report.png
+Terminal=false
+Type=Application
+Categories=GNOME;Application;System;Settings;
+StartupNotify=true

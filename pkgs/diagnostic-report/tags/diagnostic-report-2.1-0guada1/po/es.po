@@ -1,0 +1,65 @@
+# Language translation to ES.
+# Copyright (C) 2010
+# This file is distributed under the same license as the diagnostic-report package.
+# Alvaro Pinel <alvaropinel@gmail.com>, 2010.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-05-03 14:13+0200\n"
+"PO-Revision-Date: 2010-05-03 14:15+GMT\n"
+"Last-Translator: Alvaro Pinel <alvaropinel@gmail.com>\n"
+"Language-Team: GUADALINEX TEAM <packmaster@guadalinex.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: scripts/diagnostic_report.py:77
+msgid "Error using standard interface"
+msgstr "NO SE PUDO MOSTRAR AL USUARIO EL FICHERO DE DIAGNÓSTICO"
+
+#: scripts/diagnostic_report.py:94
+msgid "Diagnostic report generator exception window"
+msgstr "Generador de informes de diagnóstico"
+
+#: scripts/diagnostic_report.py:98
+msgid "Error message"
+msgstr "Informe de diagnóstico finalizado. Se ha generado en el escritorio."
+
+#: scripts/diagnostic_report.py:117
+msgid "Diagnostic report generator init window"
+msgstr "Generador de informes de diagnóstico"
+
+#: scripts/diagnostic_report.py:121
+msgid "Initial msg"
+msgstr "Esta utilidad generará un informe sobre su sistema con información útil\nque podrá enviar, voluntariamente, al Servicio de Asistencia al Usuario\npara que le ayude a solucionar su problema.\n\nEste informe tan sólo contiene información técnica y,\nnunca recogerá información personal como contraseñas, correos, etc.\n\nA continuación, se procederá a generar el informe."
+
+#: scripts/diagnostic_report.py:252 scripts/diagnostic_report.py:285
+msgid "Diagnostic report generator"
+msgstr "Generador de informes de diagnóstico"
+
+#: scripts/diagnostic_report.py:289
+msgid "Final msg"
+msgstr "Informe de diagnóstico finalizado. Se ha generado en el escritorio."
+
+#: data/diagnostic_report_end.glade:21
+msgid "gtk-close"
+msgstr "cerrar"
+
+#: data/diagnostic_report_exception.glade:24
+msgid "Cancel"
+msgstr "cancelar"
+
+#: data/diagnostic_report_exception.glade:36
+msgid "OK"
+msgstr "ok"
+
+#: data/diagnostic_report.glade:38 data/diagnostic_report_init.glade:26
+msgid "gtk-cancel"
+msgstr ""
+
+#: data/diagnostic_report.glade:53 data/diagnostic_report_init.glade:41
+msgid "gtk-ok"
+msgstr ""

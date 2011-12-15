@@ -1,0 +1,5 @@
+./scripts/diagnostic_report.py
+./data/diagnostic_report.glade
+./data/diagnostic_report_init.glade
+./data/diagnostic_report_exception.glade
+./data/diagnostic_report_end.glade

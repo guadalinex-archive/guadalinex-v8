@@ -1,0 +1,17 @@
+diagnostic-report (2.1-0guada1) lucid; urgency=low
+
+  * Added exceptions handle
+
+ -- Alvaro Pinel <alvaropinel@gmail.com>  Wed, 5 May 2010 16:35:06 +0200
+
+diagnostic-report (2.0) unstable; urgency=low
+
+  * Debianized Guadalinex v6
+
+ -- Alvaro Pinel <alvaropinel@gmail.com>  Wed, 28 Apr 2010 21:32:06 +0200
+
+diagnostic-report (0.0.1-1) unstable; urgency=low
+
+  * Initial release 
+
+ -- Alvaro Pinel <alvaropinel@gmail.com>  Wed, 28 Apr 2010 16:12:06 +0200

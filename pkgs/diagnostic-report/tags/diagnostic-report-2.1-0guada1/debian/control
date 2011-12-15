@@ -1,0 +1,21 @@
+Source: diagnostic-report
+Section: gnome
+Priority: extra
+Maintainer: Guadalinex team <packmaster@guadalinex.org>
+Uploaders: Álvaro Pinel <apinel@emergya.com>
+Build-Depends: debhelper (>= 7), python-distutils-extra, cdbs, python, python-central
+Standards-Version: 3.8.0
+Homepage: http://launchpad.net/diagnostic-report
+Vcs-Browser: http://codebrowse.launchpad.net/~guadalinex-members/diagnostic-report/trunk/changes
+Vcs-Bzr: http://bazaar.launchpad.net/~guadalinex-members/diagnostic-report/trunk
+Vcs-Svn: http://forja.guadalinex.org/guadalinexv7/pkgs/diagnostic-report/
+XS-Python-Version: current
+
+Package: diagnostic-report
+Replaces: informe-diagnostico
+Provides: informe-diagnostico
+Conflicts: informe-diagnostico
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, gksu, python, python-central
+Description: Error reporting tool
+ Utility to report information about the operating system.
