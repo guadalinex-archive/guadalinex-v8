@@ -7,7 +7,8 @@ file="$1"
 
 ## GUADALINEX
 
-rm -rf $ROOT/etc/apt/sources.list*
+rm -rf $ROOT/etc/apt/sources.list
+rm -rf $ROOT/etc/apt/sources.list.d/*
 
 cat > $file << EOF
 #TITLE: Sitio principal de Guadalinex en la Junta de Andalucia
