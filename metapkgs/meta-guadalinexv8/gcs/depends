@@ -47,6 +47,7 @@ smbclient
 cifs-utils
 cups-pdf
 thunderbird-locale-es-es
+gcalctool
 eog
 htop
 iotop
