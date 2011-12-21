@@ -52,8 +52,8 @@ Window.SetBackgroundBottomColor (0, 0, 0);
 screen_width = Window.GetWidth();
 screen_height = Window.GetHeight();
 
-centerx=Window.GetWidth () / 2;
-centery=Window.GetHeight () / 2;
+centerx=Window.GetWidth() / 2;
+centery=Window.GetHeight() / 2;
 
 message_notification[0].image = ImageToTintedText ("");
 message_notification[1].image = ImageToTintedText ("");
@@ -72,6 +72,11 @@ circle=Sprite(circle_pic);
 circle.SetX(centerx - circle_pic.GetWidth() / 2);
 circle.SetY(centery - circle_pic.GetHeight() / 2);
 circle.SetZ(500);
+circle.width = circle_pic.GetWidth();
+circle.height = circle_pic.GetHeight();
+circle.x = Window.GetX () + Window.GetWidth () / 2 - circle.width  / 2;
+circle.y = Window.GetY () + Window.GetHeight () / 2 - logo[index].height;
+circle.z = 1000;
 
 outball_pic = Image ("outball.png");
 outball=Sprite(outball_pic);
@@ -92,9 +97,29 @@ debugsprite_medium = Sprite();
 # and down according to *their* height.
 first_line_height = ImageToTintedText ("AfpqtM").GetHeight();
 
-top_of_the_text = Window.GetHeight () / 2 + circle.height / 2 + first_line_height;
+#top_of_the_text = 300;# Window.GetHeight() / 2 + circle.height / 2 - 300;
 
+fun TextYOffset() {
+    local.y;
+    local.text_height;
+    local.min_height;
 
+    # Put the 1st line below the logo + some spacing 
+ #  y = Window.GetY () + Window.GetWidth () / 2 - logo[1].width / 2  + (logo[1].height * 3.5 ); # + logo_spacing;
+
+    y  = Window.GetY() + Window.GetHeight() / 2 - circle_pic.GetHeight() / 2  + (circle_pic.GetHeight() * 2 ); # + logo_spacing;
+    text_height = first_line_height * 7.5;
+
+    min_height = Window.GetHeight();
+    if (y + text_height > min_height)
+        y = min_height - text_height;
+
+    if (y < circle.y + circle_pic.GetHeight())
+        return circle.y + circle_pic.GetHeight();
+    return y;
+}
+
+top_of_the_text = TextYOffset();
 # General purpose function to create text
 fun WriteText (text, colour) {
     image = Image.Text (text, colour.red, colour.green, colour.blue);
