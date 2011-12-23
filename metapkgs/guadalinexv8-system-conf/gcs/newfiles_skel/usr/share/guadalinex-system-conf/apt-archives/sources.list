@@ -1,0 +1,9 @@
+#TITLE: Sitio principal de Guadalinex en la Junta de Andalucia
+#ID:jda
+
+deb http://v8.guadalinex.org/ubuntu oneiric main restricted universe multiverse
+deb http://v8.guadalinex.org/guadalinex-camaleon camaleon main restricted universe multiverse
+deb http://v8.guadalinex.org/guadalinex-camaleon camaleon-updates main restricted universe multiverse
+deb http://v8.guadalinex.org/guadalinex-camaleon camaleon-security main restricted universe multiverse
+deb http://v8.guadalinex.org/guadalinex-camaleon camaleon-backports main restricted universe multiverse
+#END
