@@ -21,13 +21,14 @@ guadalinexv8-artwork
 guadalinexv8-base-files-conf
 guadalinexv8-lightdm-conf
 guadalinexv8-desktop-conf
-guadalinexv8-system-conf
+#guadalinexv8-system-conf
 #guadalinexv8-graficos
 guadalinexv8-gnome-shell-conf
 guadalinexv8-grub2-conf
 #guadalinexv8-ofimatica
 guadalinexv8-standard-conf
 guadalinexv8-plymouth-theme
+guadalinexv8-firefox-conf
 guadalinexv8-example-content
 
 audacity
