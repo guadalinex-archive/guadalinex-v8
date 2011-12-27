@@ -2,7 +2,7 @@
 # Fichero de configuración de paquetes de personalización de Guadalinex v6
 
 # Nombre del paquete (minúsculas-separado-con-guiones)
-name: guadalinexv8-system-conf
+name: guadalinexv8-firefox-conf
 
 # Autor 
 author: Álvaro Pinel <apinel@emergya.com>
@@ -14,10 +14,10 @@ priority: optional
 section: metapackages
 
 # Descripción corta
-shortdesc: "Guadalinex v8 system configuration package."
+shortdesc: "Guadalinex v8 firefox configuration package."
 
 # Descipción larga, las lineas han de estar separadas por "\n "
-longdesc: "This package contains every Guadalinex v8 own system configuration file."
+longdesc: "This package contains firefox customization with bookmarks and opendnie."
 
 
 # Versión del paquete
