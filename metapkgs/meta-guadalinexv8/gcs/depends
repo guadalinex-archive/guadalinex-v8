@@ -1,4 +1,5 @@
 ## DESKTOP
+
 gnome-session 
 gnome-session-fallback 
 gnome-shell-extension-move-clock     
@@ -203,6 +204,7 @@ lightdm
 unity-greeter
 m2300w
 media-player-info
+evince
 min12xxw
 mobile-broadband-provider-info
 modemmanager
