@@ -1,0 +1,2 @@
+version=3
+http://launchpad.net/mount-systray/+download http://launchpad.net/mount-systray/(.*)/mount-systray-(.*)\.tar\.gz
