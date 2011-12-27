@@ -2,7 +2,7 @@
 <!DOCTYPE wallpapers SYSTEM "gnome-wp-list.dtd">
 <wallpapers>
   <wallpaper deleted="false">
-    <name>GECOS</name>
+    <name>Guadalinex</name>
     <filename>/usr/share/backgrounds/guadalinex_v8-bg_st.jpg</filename>
     <options>stretched</options>
     <shade_type>solid</shade_type>
@@ -10,7 +10,7 @@
     <scolor>#626200009898</scolor>
   </wallpaper>
   <wallpaper deleted="false">
-    <name>GECOS panoramico</name>
+    <name>Guadalinex panoramico</name>
     <filename>/usr/share/backgrounds/guadalinex_v8-bg.jpg</filename>
     <options>stretched</options>
     <shade_type>solid</shade_type>
