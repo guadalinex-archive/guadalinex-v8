@@ -1,4 +1,4 @@
 if [ ! -e /usr/share/backgrounds/warty-final-ubuntu.png ]
 then
-        ln -fs /usr/share/backgrounds/guadalinex_v8-bg.jpg /usr/share/backgrounds/warty-final-ubuntu.png
+        ln -fs /usr/share/backgrounds/guadalinex_v8-ldm.jpg /usr/share/backgrounds/warty-final-ubuntu.png
 fi
