@@ -1,0 +1,480 @@
+# Slovenian translation for ubiquity-slideshow-ubuntu
+# Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
+# This file is distributed under the same license as the ubiquity-slideshow-ubuntu package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ubiquity-slideshow-ubuntu\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2011-09-28 16:16+0200\n"
+"PO-Revision-Date: 2011-09-26 19:02+0000\n"
+"Last-Translator: Andrej Znidarsic <andrej.znidarsic@gmail.com>\n"
+"Language-Team: Slovenian <sl@li.org>\n"
+"Language: sl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2011-10-03 09:07+0000\n"
+"X-Generator: Launchpad (build 14071)\n"
+
+#. type: Content of: <div><h1>
+#: slideshows/ubuntu/slides/accessibility.html:1
+msgid "Customise Ubuntu"
+msgstr "Prilagajanje Ubuntuja"
+
+#. type: Content of: <div><div><div><p>
+#: slideshows/ubuntu/slides/accessibility.html:8
+msgid ""
+"At the heart of Ubuntu’s philosophy is a belief that computing is for "
+"everyone. With advanced accessibility tools and options like your preferred "
+"color scheme, text size, and language, Ubuntu is for anyone. Whoever you "
+"are, and wherever you are."
+msgstr ""
+"V srcu mišljenja Ubuntu je prepričanje, da je računalništvo za vse. Z "
+"naprednimi orodji dostopnosti in možnostmi kot so prednostna barvna shema, "
+"velikost besedila in jezika je Ubuntu pripravljen za vse. Kdorkoli ste in "
+"kjerkoli ste."
+
+#. type: Content of: <div><div><div><h2>
+#: slideshows/ubuntu/slides/accessibility.html:12
+msgid "Customisation options"
+msgstr "Možnosti prilagajanja"
+
+#. type: Content of: <div><div><div><ul><li><p>
+#: slideshows/ubuntu/slides/accessibility.html:16
+msgid "Appearance"
+msgstr "Videz"
+
+#. type: Content of: <div><div><div><ul><li><p>
+#: slideshows/ubuntu/slides/accessibility.html:20
+msgid "Assistive technologies"
+msgstr "Pomožne tehnologije"
+
+#. type: Content of: <div><div><div><ul><li><p>
+#: slideshows/ubuntu/slides/accessibility.html:24
+msgid "Language support"
+msgstr "Jezikovna podpora"
+
+#. type: Content of: <div><h1>
+#: slideshows/ubuntu/slides/browse.html:1
+msgid "Browse the web"
+msgstr "Brskajte po spletu"
+
+#. type: Content of: <div><div><div><p>
+#: slideshows/ubuntu/slides/browse.html:8
+msgid ""
+"Ubuntu includes Mozilla Firefox for fast, safe web browsing. You can also "
+"choose alternative browsers from the Ubuntu Software Center."
+msgstr ""
+"Ubuntu za hitro, varno spletno brskanje vključuje Mozilla Firefox. V "
+"programskem središču Ubuntu lahko izberete tudi nadomestne brskalnike."
+
+#. type: Content of: <div><div><div><h2>
+#: slideshows/ubuntu/slides/browse.html:12
+#: slideshows/ubuntu/slides/music.html:12
+#: slideshows/ubuntu/slides/office.html:12
+#: slideshows/ubuntu/slides/photos.html:12
+msgid "Included software"
+msgstr "Priloženi programi"
+
+#. type: Content of: <div><div><div><ul><li><p>
+#: slideshows/ubuntu/slides/browse.html:16
+msgid "Firefox web browser"
+msgstr "Spletni brskalnik Firefox"
+
+#. type: Content of: <div><div><div><h2>
+#: slideshows/ubuntu/slides/browse.html:19
+#: slideshows/ubuntu/slides/photos.html:19
+msgid "Supported software"
+msgstr "Podprti programi"
+
+#. type: Content of: <div><div><div><ul><li><p>
+#: slideshows/ubuntu/slides/browse.html:23
+msgid "Flash"
+msgstr "Flash"
+
+#. type: Content of: <div><div><div><ul><li><p>
+#: slideshows/ubuntu/slides/browse.html:27
+msgid "Chromium"
+msgstr "Chromium"
+
+#. type: Content of: <div><h1>
+#: slideshows/ubuntu/slides/gethelp.html:1
+msgid "Any questions?"
+msgstr "Imate kakšno vprašanje?"
+
+#. type: Content of: <div><div><div><p>
+#: slideshows/ubuntu/slides/gethelp.html:8
+msgid ""
+"Check out <a href=\"http://askubuntu.com/\">Ask Ubuntu</a>, the best place "
+"to get an answer about Ubuntu. With most questions already answered, and "
+"thousands of people ready to help, you’ll be sorted in no time at all. And "
+"if you need an answer on a deadline, Canonical offers <a href=\"http://www."
+"ubuntu.com/support\">commercial support</a> to business users. Browse to <a "
+"href=\"http://www.ubuntu.com/support\">ubuntu.com/support</a> to explore "
+"your other options."
+msgstr ""
+"Obiščite <a href=\"http://askubuntu.com/\">Ask Ubuntu</a> kot najboljše "
+"mesto, za odgovore o Ubuntuju. Za večino vprašanj boste že našli odgovore, "
+"za ostale pa je na voljo množica ljudi, ki so pripravljeni pomagati. Vaše "
+"težave bodo rešene hitro. V primeru, da morate težave rešiti v določenem "
+"času, Canonical poslovnim uporabnikom ponuja <a href=\"http://www.ubuntu.com/"
+"support\">plačljivo podporo</a> . Obiščite tudi <a href=\"http://www.ubuntu."
+"com/support\">ubuntu.com/support</a> za druge možnosti."
+
+#. type: Content of: <div><h1>
+#: slideshows/ubuntu/slides/mobilise.html:1
+msgid "Your own personal cloud"
+msgstr "Vaš osebni oblak"
+
+#. type: Content of: <div><div><div><p>
+#: slideshows/ubuntu/slides/mobilise.html:8
+msgid ""
+"An <a href=\"https://one.ubuntu.com/services/\">Ubuntu One Free</a> account "
+"gives you 5GB of cloud storage, so you can store and sync your files and "
+"photos across devices and access them wherever you are in the world. Easily "
+"share them with friends, family and colleagues. Take a photo on your mobile "
+"phone and immediately see it on your desktop, or add <a href=\"https://one."
+"ubuntu.com/services/music/\">Music Streaming</a> for mobile to enjoy your "
+"music on the move."
+msgstr ""
+"Račun <a href=\"https://one.ubuntu.com/services/\">Ubuntu One Free</a> vam "
+"da na voljo 5GB oblačnega prostora, na katerega lahko shranite in "
+"usklajujete svoje datoteke in fotografije med različnimi napravami, ter do "
+"njih dostopate od kjerkoli na svetu.  Datoteke in slike lahko enostavno "
+"delite s prijatelji, družino in prijatelji. Naredite sliko s telefonom in jo "
+"takoj poglejte na svojem namizju ali dodajte <a href=\"https://one.ubuntu."
+"com/services/music/\">pretočno glasbo</a> za mobilne naprave, da lahko "
+"uživate v glasbi med potovanjem."
+
+#. type: Content of: <div><h1>
+#: slideshows/ubuntu/slides/music.html:1
+msgid "Take your music with you"
+msgstr "Vzemite glasbo s seboj"
+
+#. type: Content of: <div><div><div><p>
+#: slideshows/ubuntu/slides/music.html:8
+msgid ""
+"Ubuntu comes with the amazing Banshee music player. With advanced playback "
+"options and the Ubuntu One music store built in, it’s simple to queue up the "
+"perfect songs. And it works great with CDs and portable music players, so "
+"you can enjoy all your music wherever you go."
+msgstr ""
+"Ubuntu vsebuje predvajalnik glasbe Banshee. Z naprednimi možnostmi "
+"predvajanja in vgrajeno glasbeno trgovino Ubuntu One lahko enostavno "
+"predvajate najboljše skladbe. Odlično deluje s CD-ji in prenosnimi "
+"predvajalniki glasbe, zato lahko v svoji glasbi uživati kamorkoli greste."
+
+#. type: Content of: <div><div><div><ul><li><p>
+#: slideshows/ubuntu/slides/music.html:16
+msgid "Banshee Music Player"
+msgstr "Predvajalnik glasbe Banshee"
+
+#. type: Content of: <div><div><div><ul><li><p>
+#: slideshows/ubuntu/slides/music.html:20
+msgid "Ubuntu One Music Store"
+msgstr "Glasbena trgovina Ubuntu One"
+
+#. type: Content of: <div><h1>
+#: slideshows/ubuntu/slides/office.html:1
+msgid "Write and present for free"
+msgstr "Pišite in predstavljajte brezplačno"
+
+#. type: Content of: <div><div><div><p>
+#: slideshows/ubuntu/slides/office.html:8
+msgid ""
+"LibreOffice is a free office suite packed with everything you’ll need to "
+"create impressive documents, spreadsheets, and presentations. LibreOffice "
+"tries its best to work with other office software, and it uses the "
+"OpenDocument standards for far-reaching compatibility."
+msgstr ""
+"LibreOffice je prosta pisarniška zbirka z vsem, kar potrebujete za "
+"ustvarjanje dokumentov, preglednic in predstavitev, ki napravijo dober vtis. "
+"LibreOffice poskuša delovati z drugimi pisarniškimi programi in za "
+"daljnosežno združljivost uporablja standarde OpenDocument."
+
+#. type: Content of: <div><div><div><ul><li><p>
+#: slideshows/ubuntu/slides/office.html:16
+msgid "LibreOffice"
+msgstr "LibreOffice"
+
+#. type: Content of: <div><div><div><ul><li><p>
+#: slideshows/ubuntu/slides/office.html:20
+msgid "Tomboy Notes"
+msgstr "Sporočilca Tomboy"
+
+#. type: Content of: <div><h1>
+#: slideshows/ubuntu/slides/photos.html:1
+msgid "Have fun with your photos"
+msgstr "Zabavajte se s svojimi fotografijami"
+
+#. type: Content of: <div><div><div><p>
+#: slideshows/ubuntu/slides/photos.html:8
+msgid ""
+"Shotwell is a handy photo manager that is ready for your gadgets. Connect a "
+"camera or a phone to transfer your photos, then it’s easy to share them and "
+"keep them safe. If you’re feeling creative, you can try lots of photo apps "
+"from the Ubuntu Software Center."
+msgstr ""
+"Shotwell je priročen upravljalnik fotografij, ki je pripravljen za vaše "
+"naprave. Povežite fotoaparat ali telefon za prenos svojih fotografij. Nato "
+"jih enostavno delite z drugimi in jih obdržite varne. Če se počutite "
+"ustvarjalno, lahko poskusite veliko fotografskih programov iz Programskega "
+"središča Ubuntu."
+
+#. type: Content of: <div><div><div><ul><li><p>
+#: slideshows/ubuntu/slides/photos.html:16
+msgid "Shotwell Photo Manager"
+msgstr "Upravljalnik fotografij Shotwell"
+
+#. type: Content of: <div><div><div><ul><li><p>
+#: slideshows/ubuntu/slides/photos.html:23
+msgid "GIMP Image Editor"
+msgstr "Urejevalnik slik GIMP"
+
+#. type: Content of: <div><div><div><ul><li><p>
+#: slideshows/ubuntu/slides/photos.html:27
+msgid "Pitivi Video Editor"
+msgstr "Urejevalnik videa PiTiVi"
+
+#. type: Content of: <div><h1>
+#: slideshows/ubuntu/slides/social.html:1
+msgid "Stay connected"
+msgstr "Ostanite povezani"
+
+#. type: Content of: <div><div><div><p>
+#: slideshows/ubuntu/slides/social.html:8
+msgid ""
+"The Ubuntu Message Indicator gives you an eagle-eye view of incoming "
+"messages from all applications and social networks. See at a glance when "
+"there’s something new to read, regardless how it arrived."
+msgstr ""
+"Kazalnik sporočil Ubuntu vam da sokolski pregled nad dohodnimi sporočili iz "
+"vseh programov in družabnih omrežij. Hitro si oglejte, ko prispe kaj novega "
+"za branje, ne glede na to, kako je prispelo."
+
+#. type: Content of: <div><div><div><h2>
+#: slideshows/ubuntu/slides/social.html:12
+msgid "Supported services"
+msgstr "Podprte storitve"
+
+#. type: Content of: <div><div><div><ul><li><p>
+#: slideshows/ubuntu/slides/social.html:16
+msgid "Twitter"
+msgstr "Twitter"
+
+#. type: Content of: <div><div><div><ul><li><p>
+#: slideshows/ubuntu/slides/social.html:20
+msgid "Facebook"
+msgstr "Facebook"
+
+#. type: Content of: <div><div><div><ul><li><p>
+#: slideshows/ubuntu/slides/social.html:24
+msgid "Identi.ca"
+msgstr "Identi.ca"
+
+#. type: Content of: <div><h1>
+#: slideshows/ubuntu/slides/usc.html:1
+msgid "Find even more software"
+msgstr "Poiščite še več programov"
+
+#. type: Content of: <div><div><div><p>
+#: slideshows/ubuntu/slides/usc.html:8
+msgid ""
+"The Ubuntu Software Center has thousands of new applications ready for your "
+"computer. Just type what you want or explore the categories like games, "
+"science, and education. It is easy to download new stuff and write reviews "
+"to share your experiences."
+msgstr ""
+"Programsko središče Ubuntu ima na tisoče novih programov, pripravljenih za "
+"vaš računalnik. Le vnesite svoje želje ali pa raziskujte po kategorijah, kot "
+"so igre, znanost in izobraževanje. Novosti lahko enostavno prejmete, prav "
+"tako lahko napišete oceno in tako delite svoje vtise in izkušnje z drugimi."
+
+#. type: Content of: <div><h1>
+#: slideshows/ubuntu/slides/welcome.html:1
+msgid "Welcome to Ubuntu 11.10"
+msgstr "Dobrodošli v Ubuntuju 11.10"
+
+#. type: Content of: <div><div><div><p>
+#: slideshows/ubuntu/slides/welcome.html:8
+msgid ""
+"Ubuntu is packed with features to make your computer delightful to use. This "
+"version consolidates the Unity desktop interface; a brand new way to find "
+"and manage your applications. Now with more features and faster. We’d like "
+"to show some cool things to look for in your new operating system."
+msgstr ""
+"Ubuntu je poln zmožnosti, ki naredijo računalnik prijeten za uporabo. Ta "
+"različica vsebuje namizno okolje Unity, nov način za iskanje in upravljanje "
+"vaših programov. Sedaj z več funkcijami in hitrosti. Radi bi vam predstavili "
+"nekaj izjemnih novosti, ki jih lahko pričakujete v novem operacijskem "
+"sistemu."
+
+#~ msgid "Social from the start"
+#~ msgstr "Družaben od začetka"
+
+#~ msgid "Appearance preferences"
+#~ msgstr "Možnosti videza"
+
+#~ msgid "Skype"
+#~ msgstr "Skype"
+
+#~ msgid "Evolution Mail"
+#~ msgstr "Pošta Evolution"
+
+#~ msgid "Email and chat"
+#~ msgstr "Elektronska pošta in klepet"
+
+#~ msgid "Empathy IM"
+#~ msgstr "Hipni sporočilnik Empathy"
+
+#~ msgid "Mobilise your digital life"
+#~ msgstr "Premaknite svoje digitalno življenje"
+
+#~ msgid "Frozen Bubble"
+#~ msgstr "Frozen Bubble"
+
+#~ msgid "Welcome to Ubuntu 11.04"
+#~ msgstr "Dobrodošli v Ubuntu 11.04"
+
+#~ msgid "Stellarium"
+#~ msgstr "Stellarium"
+
+#~ msgid "Inkscape"
+#~ msgstr "Inkscape"
+
+#~ msgid "Write and present with ease"
+#~ msgstr "Pišite in predstavljajte z lahkoto"
+
+#~ msgid ""
+#~ "At the heart of Ubuntu&#8217;s philosophy is a belief that computing is "
+#~ "for everyone. With advanced accessibility tools and many options like "
+#~ "your preferred fonts, colour schemes, and languages, Ubuntu is all about "
+#~ "working for real people."
+#~ msgstr ""
+#~ "Ubuntu temelji na prepričanju, da je računalništvo namenjeno prav "
+#~ "vsakomur. Z naprednimi orodji za dostopnost in številnimi možnostmi, kot "
+#~ "so prednostne pisave, barvne sheme in jeziki, lahko Ubuntu popolnoma "
+#~ "prilagodite svojim potrebam."
+
+#~ msgid ""
+#~ "The Messaging Menu has lots of features to make online communication "
+#~ "effortless. Chat helps you log in to all your instant messaging accounts "
+#~ "including MSN, Jabber, and Facebook. Your contacts appear in the same "
+#~ "place, ready for text or video chat."
+#~ msgstr ""
+#~ "V meniju sporočanja je obilica pripomočkov, ki vam olajšajo spletno "
+#~ "sporočanje. Klepet vam pomaga pri prijavi v račune hipnega sporočanja, "
+#~ "vključno z MSN, Jabber in Facebook. Vsi vaši stiki so zbrani na enem "
+#~ "mestu in pripravljeni za besedilni ali video klepet."
+
+#~ msgid "Some of our favourites"
+#~ msgstr "Nekateri najbolj priljubljeni"
+
+#~ msgid ""
+#~ "Ubuntu includes Mozilla Firefox for fast, safe web browsing. You can also "
+#~ "choose alternative browsers from Ubuntu Software Center."
+#~ msgstr ""
+#~ "Namestitev Ubuntu vključuje brskalnik Mozilla Firefox za hitro in varno "
+#~ "brskanje po spletu. V Programskem središču Ubuntu lahko najdete tudi "
+#~ "druge brskalnike."
+
+#~ msgid "Thank you"
+#~ msgstr "Zahvala"
+
+#~ msgid ""
+#~ "All Ubuntu users get a free <a href=\"https://one.ubuntu.com/\">Ubuntu "
+#~ "One</a> account. Ubuntu One allows you to sync all kinds of files online "
+#~ "so you can access them anywhere. Sync bookmarks, contacts, music, and "
+#~ "pictures across all your computers. Take everything everywhere with "
+#~ "Ubuntu One."
+#~ msgstr ""
+#~ "Vsi uporabniki Ubuntuja so upravičeni do brezplačnega računa <a href="
+#~ "\"https://one.ubuntu.com/\">Ubuntu One</a>. Ubuntu One vam omogoča "
+#~ "usklajevanje vseh vrst datotek preko spleta tako, da lahko do njih "
+#~ "dostopate od kjerkoli. Uskladite zaznamke, stike, glasbo in slike na vseh "
+#~ "svojih računalnikih. Vzemite vse kamorkoli z Ubuntu One."
+
+#~ msgid ""
+#~ "Shotwell is a handy photo manager that is ready for your gadgets. Connect "
+#~ "a camera or a phone to transfer your photos, then it&#8217;s easy to "
+#~ "share them and keep them safe. If you&#8217;re feeling creative, you can "
+#~ "try lots of photo apps from the Ubuntu Software Centre."
+#~ msgstr ""
+#~ "Shotwell je priročen upravljalnik fotografij, pripravljen na vaše "
+#~ "naprave. Povežite fotoaparat ali telefon ter prenesite svoje fotografije, "
+#~ "da bodo spravljene na varnem in jih lahko enostavno delile z drugimi. Če "
+#~ "vam ustvarjalna žilica ne da miru, lahko preizkusite še številne druge "
+#~ "programe za obdelavo fotografij iz Programskega središča Ubuntu."
+
+#~ msgid ""
+#~ "Thanks again for choosing Ubuntu. Ubuntu is designed to be easy and safe, "
+#~ "so don&#8217;t hesitate to explore! If you have any questions, try the "
+#~ "Help menu in most applications or browse to <a href=\"http://www.ubuntu."
+#~ "com/support\">ubuntu.com/support</a> to explore your other options. We "
+#~ "hope you enjoy Ubuntu."
+#~ msgstr ""
+#~ "Hvala, da ste izbrali Ubuntu. Ubuntu je zasnovan za enostavno in varno "
+#~ "rabo, zato se ne bojte raziskovati. Za morebitna vprašanja, se obrnite na "
+#~ "meni Pomoč ali pojdite na  <a href=\"http://www.ubuntu.com/support"
+#~ "\">ubuntu.com/support</a> za ogled drugih možnosti. Upamo, da vam bo "
+#~ "Ubuntu všeč."
+
+#~ msgid ""
+#~ "Ubuntu comes with the amazing Banshee music player. With advanced "
+#~ "playback options and the Ubuntu One music store built in, it&#8217;s "
+#~ "simple to queue up the perfect songs. And it works great with CDs and "
+#~ "portable music players, so you can enjoy all your music wherever you go."
+#~ msgstr ""
+#~ "Ubuntu vsebuje odličen predvajalnik glasbe Banshee. Z naprednim "
+#~ "predvajanjem glasbe in vgrajeno glasbeno trgovino Ubuntu One je enostavno "
+#~ "dobiti izvrstne skladbe. Odlično deluje s CD-ji in prenosnimi "
+#~ "predvajalniki glasbe, zato lahko uživate v vsej svoji glasbi kamorkoli "
+#~ "greste."
+
+#~ msgid ""
+#~ "LibreOffice is a free office suite packed with everything you&#8217;ll "
+#~ "need to create impressive documents, spreadsheets, and presentations. "
+#~ "LibreOffice tries its best to work with other office software, and it "
+#~ "uses the OpenDocument standards for far-reaching compatibility."
+#~ msgstr ""
+#~ "LibreOffice je prosta pisarniška zbirka z vsem, kar potrebujete za "
+#~ "ustvarjanje dokumentov, preglednic in predstavitev, ki napravijo dober "
+#~ "vtis. LibreOffice poskuša delovati z drugimi pisarniškimi programi in za "
+#~ "daljnosežno združljivost uporablja standarde OpenDocument."
+
+#~ msgid ""
+#~ "The Me Menu is your instant connection to web services like Facebook and "
+#~ "Twitter. Just set up your accounts to log in and share with friends. "
+#~ "Anything sent to you appears in the Messaging Menu so you can reply when "
+#~ "you want."
+#~ msgstr ""
+#~ "Meni Jaz je vaša hipna povezave do spletnih storitev kot sta Facebook in "
+#~ "Twitter. Nastavite svoje račune za prijavo in se pogovarjajte s "
+#~ "prijatelji. Prejeta vsebina se pojavi v meniju Sporočanje, zato lahko "
+#~ "odgovorite, kadar želite."
+
+#~ msgid ""
+#~ "Ubuntu is packed with features to make your computer delightful to use. "
+#~ "This version introduces the Unity desktop interface; a brand new way to "
+#~ "find and manage your applications. We&#8217;d like to show some cool "
+#~ "things to look for in your new operating system."
+#~ msgstr ""
+#~ "Ubuntu vsebuje ogromno zmožnosti, da bo uporaba vašega računalnika čim "
+#~ "večji užitek. Ta različica prinaša namizni vmesnik Unity, popolnoma nov "
+#~ "način za iskanje in upravljanje vaših programov. Pokazali vam bomo nekaj "
+#~ "izvrstnih stvari, ki jih lahko najdete v svojem novem operacijskem "
+#~ "sistemu."
+
+#~ msgid ""
+#~ "The Ubuntu Software Centre has thousands of new applications ready for "
+#~ "your computer. Just type what you want or explore the categories like "
+#~ "games, science, and education. It is simple to download new stuff and "
+#~ "write reviews to share your experiences."
+#~ msgstr ""
+#~ "V programskem središču Ubuntu lahko najdete na tisoče novih programov, "
+#~ "pripravljenih za vaš računalnik. Enostavno vnesite kaj želite ali "
+#~ "raziščite kategorije kot so igre, znanost in izobrazba. Enostavno lahko "
+#~ "prejmete nove programe, o njih napišete svoje mnenje in delite svoje "
+#~ "izkušnje z drugimi."
