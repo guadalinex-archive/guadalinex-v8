@@ -1,0 +1,137 @@
+#!/usr/bin/python
+# Original code from
+# Adapted as  G u a d a l i n e x  E a s t e r  E g g  for V8 by Alfonso E.M.
+
+def stuff():
+        return '''
+CgoKICAgICAgICAgICAgICAgICAgIENSRURJVE9TOgoKR1VBREFMSU5FWCBWOCAoQ09ERU5BTUU6
+IENhbWFsZcOzbikKClByb211ZXZlbjogSnVhbiooTGVhbCtDb25kZSkgZGVzZGUgbGEgSnVudGEg
+ZGUgQW5kYWx1Y8OtYQoKRGlyaWdlIGxhIGNvc2EgdMOpY25pY2E6IEBhbGZvbnNvZW0gZGVzZGUg
+U0FERVNJCgpAYWx2YXJvcGluZWwgeSBAZGFuaWNvbmlsIHNlIGxvIGhhbiBjdXJyYWRvIGNhc2kg
+dG9kby4KCkF1bnF1ZSBlY2hhcm9uIHVuYSBtYW5vIChvIGRvcyk6IEBuYXJrMCwgQGFtaWFuODQs
+IHkgQGFoZGlhejc3LgoKRWwgYXJ0ZSBpYmEgYSBzZXIgY29zYSBkZSBBbGZvbnNvLCBwZXJvIHBv
+ciBzdWVydGUgbG8gdGVybWluw7MgaGFjaWVuZG8gQGxhcml0YW1hcmlhLgoKR3VhZGFicmF6byBm
+dWVydGUgYSAKZ3VhZGFmYW4KaGF0dGVyYXMKaW5kaW9jYWJyZWFvCnNhbmF0YXMKbWlhbmNhdHJp
+CnByaWVzdApmanNyZXkKY21qbW1ycApodW5nYXJvCmNocnlzYW9yCgpFc3RhIFY4LCBzZSBsYSBk
+ZWRpY2Ftb3MgYSBAZ290Y2hlLCBlbCAic2VjdWF6IiBtw6FzIGNvbXBldGVudGUgcXVlIGhhIHRl
+bmlkbyBlc3RlIGVxdWlwby4KCgoqKiogQ29weWxlZnQgMjAxMSBKdW50YSBkZSBBbmRhbHVjaWEg
+KioqCgoKRyBVIEEgRCBBIEwgSSBOIEUgWCAtPiBHIEUgQyBPIFMgPwoKCgpOT1RBOiBFc3RvIGVz
+IFVOIEhVRVZPIERFIFBBU0NVQS4gVW5hIG1hbmVyYSBpbm9mZW5zaXZhIGRlIGRlamFyIHRlc3Rp
+bW9uaW8gZGUgbGFzIHBlcnNvbmFzIHF1ZSB0cmFiYWphbiBwYXJhIHF1ZSBHdWFkYWxpbmV4IGV4
+aXN0YS4gVMOzbWF0ZWxvIGNvbiBodW1vci4K
+'''
+        
+img="/usr/share/backgrounds/guadalinex_v8-bg.jpg"
+
+from pygame import *
+from random import shuffle,choice
+import base64,string
+
+
+class Puzzle(list,object):
+    def __init__(self,matrix):
+        self.w,self.h = len(matrix[0]),len(matrix)
+        self.extend(matrix)
+        foo = [(x,y) for y in range(1,self.h-1) for x in range(1,self.w-1)]
+        shuffle(foo)
+        while foo:
+            self.rotate(*foo.pop())
+    
+    def rotate(self,x,y):
+        if not (0<x<self.w-1 and 0<y<self.h-1): raise ValueError
+        foo = zip(*self[y-1:y+2][::-1])[x-1:x+2]
+        self[y-1] = self[y-1][:x-1]+list(foo[0])+self[y-1][x+2:]
+        self[y] = self[y][:x-1]+list(foo[1])+self[y][x+2:]
+        self[y+1] = self[y+1][:x-1]+list(foo[2])+self[y+1][x+2:]
+
+
+def mrange(start,stop,step,type_=None):
+    if hasattr(start,'__iter__'): return zip(*[mrange(x,y,step,type_) for x,y in zip(start,stop)])
+    elif type_ is None and type(start) is int and type(stop) is int: type_ = int
+    return ([int(round((stop-start)/(step-1.)*i+start)) for i in range(step)]) if type_ is int else ([(stop-start)/(step-1.)*i+start for i in range(step)][:-1]+[float(stop)])
+
+class Piece(int,object):
+    pass
+
+def resize(img):
+    new_h=img.get_height()*600/img.get_width()
+    img2=transform.smoothscale( img, (600, new_h))
+    w,x = divmod(img2.get_width(),50)
+    h,y = divmod(img2.get_height(),50)
+    surface = Surface((w*50,h*50))
+    surface.blit(img2,(-x/2,-y/2))
+    return surface
+
+### g.e.e. stuff
+font.init()
+fnt = font.Font(None, 30)
+text=base64.decodestring(stuff())
+text=string.replace(text,"\n","       ")
+text=unicode(text,'utf8')
+text_scrolled = fnt.render(text,1,(250,250,250),(0,10,100))
+twidth,theight=text_scrolled.get_size()
+scroll=0
+inc_scroll=2
+###
+
+
+img = resize(image.load(img))
+w,h = img.get_size()
+screen = display.set_mode((w,h+40))
+pw,ph = w/50,h/50
+pieces = [[Piece(iw+ih) for iw in range(pw)] for ih in range(0,ph*pw,pw)]
+puzzle = Puzzle(pieces)
+for e,piece in enumerate(sum(puzzle,[])):
+    piece.pos = [e%pw*50,e/pw*50]
+    piece.img = Surface((49,49))
+    piece.img.blit(img,(0,0),((piece%pw*50,piece/pw*50),(50,50)))
+    screen.blit(piece.img,piece.pos)
+display.flip()
+
+clk = time.Clock()
+display.set_caption("Guadalinex V8 Easter Egg")
+
+while True:
+    ev = event.poll()
+    if ev.type == MOUSEBUTTONDOWN and ev.button == 1:
+        x,y = ev.pos
+        x,y = x/50,y/50
+        try: puzzle.rotate(x,y)
+        except: continue
+        foo = puzzle[y-1][x-1:x+2]+puzzle[y][x-1:x+2]+puzzle[y+1][x-1:x+2]
+        pos = [(X*50,Y*50) for Y in range(y-1,y+2) for X in range(x-1,x+2)]
+        for piece,newpos in zip(foo,pos):
+            piece.step = mrange(piece.pos,newpos,50,int)
+        r = Rect((x-1)*50,(y-1)*50,150,150)
+        for i in range(50):
+            screen.fill(0,r)
+            for piece in foo:
+                piece.pos = piece.step.pop(0)
+                screen.blit(piece.img,piece.pos)
+            display.update(r)
+            clk.tick(80)
+        if sum(puzzle,[]) == range(puzzle.w*puzzle.h):
+            screen.blit(img,(0,0))
+            display.flip()
+            break
+    elif ev.type == KEYDOWN and ev.key == K_a:
+        save = screen.copy()
+        screen.blit(img,(0,0))
+        display.flip()
+    elif ev.type == KEYUP and ev.key == K_a:
+        try:
+            screen.blit(save,(0,0))
+            display.flip()
+            del(save)
+        except: pass
+    elif ev.type == QUIT: exit()
+
+    scroll=scroll+inc_scroll
+    if scroll > twidth:
+        scroll = 0
+    screen.blit(text_scrolled, (0-scroll,h+10))
+    display.flip()
+    clk.tick(80)
+
+while event.wait().type != QUIT: pass
+
