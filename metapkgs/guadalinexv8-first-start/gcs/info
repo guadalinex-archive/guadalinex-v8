@@ -2,7 +2,7 @@
 # Fichero de configuración de paquetes de personalización de Guadalinex v6
 
 # Nombre del paquete (minúsculas-separado-con-guiones)
-name: guadalinex-first-start
+name: guadalinexv8-first-start
 
 # Autor 
 author: Álvaro Pinel <apinel@emergya.com>
