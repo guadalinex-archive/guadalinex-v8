@@ -27,13 +27,13 @@ build_edubuntu: build_init
 build_oem_config_ubuntu: build_init
 	cp -rL $(SOURCESLIDES)/oem-config-ubuntu $(BUILD)
 
-translations:
-	./generate-local-slides.sh ubuntu
-	./generate-local-slides.sh kubuntu
-	./generate-local-slides.sh xubuntu
-	./generate-local-slides.sh lubuntu
-	./generate-local-slides.sh edubuntu
-	./generate-local-slides.sh oem-config-ubuntu
+#translations:
+#	./generate-local-slides.sh ubuntu
+#	./generate-local-slides.sh kubuntu
+#	./generate-local-slides.sh xubuntu
+#	./generate-local-slides.sh lubuntu
+#	./generate-local-slides.sh edubuntu
+#	./generate-local-slides.sh oem-config-ubuntu
 
 .PHONY : clean
 
