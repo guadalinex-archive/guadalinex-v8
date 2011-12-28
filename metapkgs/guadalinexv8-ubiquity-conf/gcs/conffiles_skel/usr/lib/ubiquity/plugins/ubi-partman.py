@@ -378,8 +378,8 @@ class PageGtk(PageBase):
             if 'windows' in title.lower():
                 PATH = os.environ.get('UBIQUITY_PATH', False) or '/usr/share/ubiquity'
                 icon.logo.set_from_file(os.path.join(PATH, 'pixmaps', 'windows_square.png'))
-#            elif 'buntu' in title.lower():
-#                icon.set_property('icon-name', 'distributor-logo')
+            elif 'buntu' in title.lower():
+                icon.set_property('icon-name', 'distributor-logo')
             else:
 #                icon.set_property('icon-name', 'block-device')
                 PATH = os.environ.get('UBIQUITY_PATH', False) or '/usr/share/ubiquity'
