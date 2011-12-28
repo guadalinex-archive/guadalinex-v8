@@ -4,7 +4,8 @@
 
 
 //Configura homepage
-user_pref("browser.startup.homepage", "http://www.guadalinex.org/");
+//user_pref("browser.startup.homepage", "http://www.guadalinex.org/");
+user_pref("browser.startup.homepage", "file:///usr/share/guadalinex-about/index.html");
 //Desactiva la web de bienvenida de Firefox
 user_pref("startup.homepage_welcome_url", "");
 //Desactiva la ventana de "Conoce tus derechos" 
