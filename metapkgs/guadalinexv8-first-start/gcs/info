@@ -1,0 +1,27 @@
+# YAML 1.1
+# Fichero de configuración de paquetes de personalización de Guadalinex v6
+
+# Nombre del paquete (minúsculas-separado-con-guiones)
+name: guadalinex-first-start
+
+# Autor 
+author: Álvaro Pinel <apinel@emergya.com>
+
+# Priority
+priority: optional
+
+# Section
+section: metapackages
+
+# Descripción corta
+shortdesc: "Guadalinex First Start dialog and webpage"
+
+# Descipción larga, las lineas han de estar separadas por "\n "
+longdesc: "This package contains the aplication and webpage that is showed on the first \n  Guadalinex start."
+
+# Versión del paquete
+version: v8
+
+# Cambios en esta versión
+changes:
+    - Initial package
