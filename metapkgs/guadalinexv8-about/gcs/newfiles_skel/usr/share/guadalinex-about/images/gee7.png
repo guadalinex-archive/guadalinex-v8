@@ -1,0 +1,349 @@
+#!/usr/bin/python
+
+#Substrate
+#Sam Swift
+#Python port of Substrate originally by 
+#Jared Tarbell www.complexification.net
+#and the xscreensaver implementation by
+#Mike Kershaw www.jwz.org/xscreensaver
+
+# Adapted as  G u a d a l i n e x  E a s t e r  E g g  for V7 by Alfonso E.M.
+
+# KEYS:
+# Left click		Click to create a crack with random angle
+#			Drag to create a directed crack
+# Right click		Reset surface
+# S			Save image
+# ESC			Exit
+
+import pygame, math, time, random, numpy, sys
+from pygame.locals import *
+from math import *
+from random import uniform, randint
+import base64,string
+
+img=[]
+
+def stuff():
+        return '''
+CgoKCkNsaWNrIHBhcmEgbWFyY2FyLiBBcnJhc3RyYSBwYXJhIGRpcmlnaXIgZWwgdHJhem8uCkNs
+aWNrIGRlcmVjaG8gcGFyYSBlbXBlemFyIGRlIG51ZXZvLiBFU0MgcGFyYSBzYWxpci4KCgogICAg
+ICAgICAgICAgICAgICAgQ1JFRElUT1M6CgpHVUFEQUxJTkVYIFY3IChDT0RFTkFNRTogTGluY2Up
+CgpKdWFuIExlYWwgeSBKdWFuIC1TdGVhbVB1bmtpZS0gQ29uZGUsIGRlc2RlIGxhIG51ZXZhIENF
+SUMKCkFsZm9uc28gRS5NLiB5IEpvc2UgQW50b25pbyAiRWwgU2VjdWF6IiBkaXJpZ2VuIGRlc2Rl
+IFNBREVTSSwganVudG8gYQpudWVzdHJhIGRvY3VtZW50YWRvcmEgUGF0cmljaWEgKFNlw7FvciBT
+ZcOxb3IgbGzDqXZhbWUgcHJvbnRvKSBNw6FycXVlei4gCgpBbHZhcm8gIk9zb2J1Y28iIFBpbmVs
+LCBEYXZpZCAiQ3VsZWJyYSIgQW1pw6FuIHkgSnVhbkRlRGlvcyAiRXIgQ2lyaW8iIER1YsOpIGxs
+ZWdhcm9uIGRlc2RlIFByaWNlLVJvY2guIAoKWSBFbWVyZ3lhIG5vcyB0cmFqbyBhIFJvYmVyICJF
+bCBNYWRyZSIgQy5Nb3Jhbm8sIEFkcmnDoW4gIkdpYnJhIiBCZWxtb250ZSB5IEp1YW5KZSAiQ29t
+bXVuaXR5IiBPamVkYS4KClJvYmVydG8gIlRlbGVtYWNvIiBNYWphZGFzIHNlIGVuY2FyZ8OzIGRl
+ICJOYW5ueSIsIGVsIGNvbnRyb2wgcGFyZW50YWwuIFkgRmVybmFuZG8gUnVpeiwgZGUgIkFNSUdV
+Ii4KClBhY28gUXVpbnRlcm8geSBFdmVyaXMgYXBvcnRhcm9uIGVsIHRvcXVlIGRlIGNhbGlkYWQu
+CgpTaSBHdWFkYWxpbmV4IHRlIHBhcmVjZSBib25pdGEsIGVzIHBvciBBYmVsLCBkZSBFeHBhbnNp
+dmEuCgpZIGxhIHdlYiwgc2UgbGEgZGViw6lpcyBhIG51ZXN0cm8gV2VibWFzdGVyIENhcmxvcyAi
+UGFwaUNodWxvIiBBbmFuw61hcywgdGFtYmnDqW4gZGUgRXhwYW5zaXZhLgoKU2FsdWRvcyBhIGhh
+dHRlcmFzLCBpbmRpb2NhYnJlYW8sIGFtYmllbnRhbCwgYWxmYWJldCwgc2VtYW51ZSwgZWhpdG1h
+biwgc2FuYXRhcywgZXNwYXJ0YWNvLCBiYXNvYWx0bywgYWR2b2NhdHV4Li4uCgpHcmFjaWFzIGEg
+dG9kb3MgImxvcyBkZSBhcnJpYmEiIHF1ZSBjb25mw61hbiBlbiBlbCBTb2Z0d2FyZSBMaWJyZSAo
+eSBubyBzb2xvIGN1YW5kbyBoYXkgY3Jpc2lzKQoKRGVkaWNhbW9zIGVzdGEgdmVyc2nDs24gYSBQ
+YWJsbyBOZWlyYSB5IGEgdG9kb3MgbG9zIHF1ZSBwYXJ0aWNpcGFuIGVuIGxhIG9yZ2FuaXphY2nD
+s24gZGVsIENvbmN1cnNvIFVuaXZlcnNpdGFyaW8gZGUgU29mdHdhcmUgTGlicmUuCgoKKioqIENv
+cHlsZWZ0IDIwMTAgSnVudGEgZGUgQW5kYWx1Y2lhICoqKgoKCgpHIFUgQSBEIEEgTCBJIE4gRSBY
+ICAgRiBPIFIgRSBWIEUgUgoKCgpOT1RBOiBFc3RvIGVzIFVOIEhVRVZPIERFIFBBU0NVQS4gVW5h
+IG1hbmVyYSBpbm9mZW5zaXZhIGRlIGRlamFyIHRlc3RpbW9uaW8gZGUgbGFzIHBlcnNvbmFzIHF1
+ZSB0cmFiYWphbiBwYXJhIHF1ZSBHdWFkYWxpbmV4IGV4aXN0YS4gVMOzbWF0ZWxvIGNvbiBodW1v
+ci4K
+
+'''
+
+
+#User variables
+#Screen properties
+dimx = 800 # Screen x
+dimy = 600 # Screen y
+bg_colour = (255,255,255) # Background colour
+
+#Crack properties
+initial_cracks = 2 # Starting cracks
+max_cracks = 100 # Maximum cracks
+vis_cracks = True # Visible cracks
+fg_colour = (0,0,0) # Crack colour
+crack_sand_coloured = False # Cracks same colour as sand
+curve_percent = 50 # Percentage chance of a crack being curved
+connected_percent = 99 # Percentage chance of new cracks being connected to old
+dev_from_90 = 2 # Degrees variation from perpendicular for new cracks
+new_crack = 70 # % likelihood of a new crack starting when one ends
+
+#Sand properties
+sand = True # Draw sand
+sand_coloured = True # Use colourful sand
+sand_colour = (0,0,0) # If non colourful select sand's colour
+sand_grains = 40 # Number of sand grains
+sand_range = sqrt(dimx*dimx+dimy*dimy)/12 # Maximum sand range
+colour_density = 45 # Max colour alpha 0..255
+#Initialise
+step= 0.9 # Curved step size
+num = 0 # Number of cracks
+FPS = 40 
+state = 1
+random.seed()
+
+clock = pygame.time.Clock()
+screen = pygame.display.set_mode((dimx,dimy+50))
+pygame.display.set_caption("Guadalinex Easter Egg")
+
+# g.e.e. stuff
+pygame.font.init()
+fnt = pygame.font.Font(None, 30)
+text=base64.decodestring(stuff())
+text=string.replace(text,"\n","       ")
+text=unicode(text,'utf8')
+text_scrolled = fnt.render(text,1,(0,10,100),(255,255,255))
+twidth,theight=text_scrolled.get_size()
+scroll=0
+inc_scroll=2
+
+
+colours = [
+	"#201F21", "#262C2E", "#352626", "#372B27",
+	"#302C2E", "#392B2D", "#323229", "#3F3229",
+	"#38322E", "#2E333D", "#333A3D", "#473329",
+	"#40392C", "#40392E", "#47402C", "#47402E",
+	"#4E402C", "#4F402E", "#4E4738", "#584037",
+	"#65472D", "#6D5D3D", "#745530", "#755532",
+	"#745D32", "#746433", "#7C6C36", "#523152",
+	"#444842", "#4C5647", "#655D45", "#6D5D44",
+	"#6C5D4E", "#746C43", "#7C6C42", "#7C6C4B",
+	"#6B734B", "#73734B", "#7B7B4A", "#6B6C55",
+	"#696D5E", "#7B6C5D", "#6B7353", "#6A745D",
+	"#727B52", "#7B7B52", "#57746E", "#687466",
+	"#9C542B", "#9D5432", "#9D5B35", "#936B36",
+	"#AA7330", "#C45A27", "#D95223", "#D85A20",
+	"#DB5A23", "#E57037", "#836C4B", "#8C6B4B",
+	"#82735C", "#937352", "#817B63", "#817B6D",
+	"#927B63", "#D9893B", "#E49832", "#DFA133",
+	"#E5A037", "#F0AB3B", "#8A8A59", "#B29A58",
+	"#89826B", "#9A8262", "#888B7C", "#909A7A",
+	"#A28262", "#A18A69", "#A99968", "#99A160",
+	"#99A168", "#CA8148", "#EB8D43", "#C29160",
+	"#C29168", "#D1A977", "#C9B97F", "#F0E27B",
+	"#9F928B", "#C0B999", "#E6B88F", "#C8C187",
+	"#E0C886", "#F2CC85", "#F5DA83", "#ECDE9D",
+	"#F5D294", "#F5DA94", "#F4E784", "#F4E18A",
+	"#F4E193", "#E7D8A7", "#F1D4A5", "#F1DCA5",
+	"#F4DBAD", "#F1DCAE", "#F4DBB5", "#F5DBBD",
+	"#F4E2AD", "#F5E9AD", "#F4E3BE", "#F5EABE",
+	"#F7F0B6", "#D9D1C1", "#E0D0C0", "#E7D8C0",
+	"#F1DDC6", "#E8E1C0", "#F3EDC7", "#F6ECCE",
+	"#F8F2C7", "#EFEFD0"]
+
+class Crack():
+	def __init__(self,x,y,t):
+		#Set drawing surfaces 
+		self.csur = pygame.Surface((1,1))
+		self.ssur = pygame.Surface((1,1))
+		if sand_coloured:
+			col = pygame.Color(colours[randint(0,len(colours)-1)])
+			self.ssur.fill(col)
+		else:
+			col = sand_colour
+			self.ssur.fill(sand_colour)
+		if crack_sand_coloured:
+			self.csur.fill(col)
+		else:
+			self.csur.fill(fg_colour)
+		self.csur.set_alpha(100)
+		self.findStart(x,y,t)
+	
+	def findStart(self,x=-1,y=-1,t=-1):
+		global cgrid, cracked
+		if x != -1 and y != -1 and t !=-1:
+			px = x
+			py = y
+			a = t
+		else:
+			# See if it is a connected crack
+			if randint(1,100) <= connected_percent:
+				px,py = cracked[randint(0,len(cracked)-1)]
+				a = cgrid[px][py]
+				# Left or right
+				if randint(0,1) == 0:
+					a -= 90+randint(-dev_from_90,dev_from_90)
+				else:
+					a += 90+randint(-dev_from_90,dev_from_90)
+			else:
+				# New random crack
+				px = randint(1,dimx-1)
+				py = randint(1,dimy-1)
+				a = randint(0,360)
+		# See if it is curved
+		if randint(1,100) <= curve_percent:
+			self.curved = True
+			# Radius
+			r = 20 + randint(1,(dimx + dimy)/ 2)
+			# Left or right
+			if randint(0,1)==0:
+				r*=-1
+			# Increment and steps
+			self.inc =(step*360)/(2*r*pi)
+			self.xs = r*sin(step/r)
+			self.ys = r*(1-cos(step/r))
+		else:
+			self.curved=False
+		cgrid[x][y] = a
+		cracked.append((x,y))
+		self.x = px
+		self.y = py
+		self.t = a
+	
+	def move(self):
+		global cracked,cgrid
+		#Move crack
+		xold = self.x
+		yold = self.y
+		if self.curved == False:
+			self.x += 0.42*cos(self.t*pi/180)
+			self.y += 0.42*sin(self.t*pi/180)
+		else:
+			self.x +=self.ys*cos((self.t+90)*pi/180)
+			self.y +=self.ys*sin((self.t+90)*pi/180)
+			self.x +=self.xs*cos((self.t+90)*pi/180-pi/2)
+			self.y +=self.xs*sin((self.t+90)*pi/180-pi/2)
+			self.t += self.inc
+		#Calculate and  draw sand
+		if sand:
+			self.sand()
+		#Draw crack
+		if int(self.x) != int(xold) or int(self.y) != int(yold):
+			if vis_cracks:
+				screen.blit(self.csur,((int(self.x),int(self.y))))
+			#Collision detection
+			if self.x > 0 and self.x < dimx and self.y > 0 and self.y < dimy and cgrid[self.x][self.y] > 10000 :
+				cgrid[self.x][self.y]=int(self.t)
+				cracked.append((self.x,self.y))
+			else:
+				self.findStart()
+				if randint(1,100) <= new_crack:
+					makeCrack()
+	
+	def sand(self):
+		rx = self.x
+		ry = self.y
+		# Find step size and direction
+		if self.curved:
+			dx = (0.81 * sin(self.t*pi/180))
+			dy = (0.81 * cos(self.t *pi/180))
+		else:
+			dx = (0.81 * sin(self.t *pi/180))
+			dy = (0.81 * cos(self.t *pi/180))
+		#Check how far grains should go
+		rx += 2*dx
+		ry -= 2*dy
+		count = 0
+		while count < sand_range:
+			count +=1
+			rx += dx
+			ry -= dy
+			if rx <= 0 or rx >= dimx or ry <= 0 or ry >= dimy or cgrid[rx][ry] < 10000:
+				break
+		#Draw sand
+		alpha = colour_density*sqrt((rx - self.x)**2+(ry - self.y)**2)/sand_range
+		var = uniform(0.15,1.0) # Randomise length
+		for i in range(sand_grains):
+			self.ssur.set_alpha(alpha-int(i*alpha/sand_grains))
+			drawx = self.x + (rx - self.x) * var *i/sand_grains
+			drawy = self.y + (ry - self.y) * var *i/sand_grains
+			screen.blit(self.ssur,(drawx,drawy))
+
+def mousedown():
+	global mx,my
+	mx,my = pygame.mouse.get_pos()
+	
+def putpoint():
+	global num
+	m2x,m2y = pygame.mouse.get_pos()
+
+	if m2x == mx and m2y == my:
+		# No direction given
+		t = randint(1,360)
+	else:
+		# Direction from mouse
+		t = atan2((m2y-my),(m2x-mx))/pi*180
+
+	makeCrack(mx,my,t)
+
+def draw():
+	for n in range(num):
+		cracks[n].move() 
+
+def makeCrack(x=-1,y=-1,t=-1):
+
+        if y >= dimy:
+           y = dimy-1
+
+	global num,cracks
+	if num < max_cracks:
+		cracks.append(Crack(x,y,t))
+		num +=1
+	elif x != -1:
+		rnum = randint(0,max_cracks-1)
+		cracks[rnum].findStart(x,y,t)
+
+def begin():
+	global cgrid,cracks,cracked,num,date, iterations
+	iterations = 0
+	date = time.strftime("%d-%m-%Y_%H.%M.%S_")
+	cgrid = numpy.zeros([dimx,dimy],int)
+	cracks = []
+	cracked = []
+	num = 0
+	#clear grid
+	for y in range(dimy):
+		for x in range(dimx):
+			cgrid[x][y]=10001 
+	#make initial cracks
+	for k in range(initial_cracks):
+		x = randint(1, dimx-1)
+		y = randint(1, dimy-1)
+		t = randint(1,360)
+		makeCrack(x,y,t)
+	screen.fill(bg_colour)
+
+#Main loop
+begin()
+
+
+
+
+while 1:
+	deltat = clock.tick(FPS)
+	draw()
+	iterations +=1
+	if state == 1:
+		for event in pygame.event.get():
+			if event.type == QUIT:
+				state = 0
+			if event.type == MOUSEBUTTONDOWN:
+				if event.button == 1:
+					mousedown()
+				if event.button == 3:
+					begin()
+			if event.type == MOUSEBUTTONUP:
+				if event.button == 1:
+					putpoint()
+			if not hasattr(event, 'key'): continue
+			if event.key == K_ESCAPE:
+				state = 0
+			if event.key == K_s:
+				if event.type == KEYUP:
+					filepath = "./"+ date + str(iterations) + ".png"
+					pygame.image.save(screen, filepath)
+	if state == 0:
+		sys.exit(0)
+
+	scroll=scroll+inc_scroll;
+ 	if scroll > twidth:
+  	  scroll = 0
+        screen.blit(text_scrolled, (0-scroll,dimy+20))
+	
+	pygame.display.flip()

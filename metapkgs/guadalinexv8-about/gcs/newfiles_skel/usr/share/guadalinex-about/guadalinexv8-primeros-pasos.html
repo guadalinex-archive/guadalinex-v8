@@ -1,0 +1,169 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>Guadalinex v8 - Primeros pasos</title>
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+		<meta http-equiv="Content-Language" content="en"/>
+		<style type="text/css" media="screen">@import "css/generico-reset.css";</style>
+		<style type="text/css" media="screen">@import "css/generico-comun.css";</style>
+		<script type="text/javascript" src="js/jquery/jquery-1.2.6.js"></script>
+		<script type="text/javascript" src="js/vertical-scroll/core.js"></script>
+		<script type="text/javascript" src="js/vertical-scroll/jquery.localscroll.js"></script>
+		<script type="text/javascript" src="js/vertical-scroll/jquery.scrollTo.js"></script>
+		<script type="text/javascript" src="js/overlib.js"></script>
+	</head>
+	
+	<body id="top">
+
+
+	<!-- cabecera -->
+	<div id="cabecera">
+		<div class="cabecera">
+			<h1><span>Guadalinex v8</span></h1>
+			<div>
+				<ul>
+					<li><a href="#escritorio" title="Un vistazo al escritorio">Un vistazo al escritorio</a></li>
+<!-- -->				<!--	<li><a href="#escuchar" title="Escucha mientras pruebas">Escucha mientras pruebas</a></li> -->
+					<li><a href="#cambios" title="&iquest;Qu&eacute; ha cambiado en esta versi&oacute;n?">&iquest;Qu&eacute; ha cambiado en esta versi&oacute;n?</a></li>
+					<li><a href="#manual" title="Hojea el manual de usuario">Hojea la gu&iacute;a r&aacute;pida</a></li>
+					<li><a href="#personalizar" title="Personaliza tu Guadalinex">Personaliza tu Guadalinex</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	
+	<!-- contenedor general -->
+	<div id="contenedor-general">
+		
+		<!-- por donde empiezo -->
+		<div class="seccion">
+			<div id="empezar"></div>
+				<div class="seccion-interior">
+					<h2>&iquest;Por d&oacute;nde empiezo?</h2>
+					<p>Ya seas un recién llegado o un experto en Guadalinex, te proponemos una guía rápida de primeros pasos para conocer a fondo las ventajas de Guadalinex y las nuevas mejoras que se incluyen en esta versi&oacute;n 8. &iexcl;Sigue adelante!</p>
+					<div class="accesos-directos">
+						<a class="bajar" href="#escritorio" title="Siguiente secci&oacute;n"><span class="hide">Siguiente</span></a>
+						<div class="clear-right"></div>
+					</div>
+				</div>
+		</div>
+		
+		<!-- Un vistazo al escritorio -->
+		<div class="seccion">
+			<div id="escritorio"></div>
+			<div class="seccion-interior">
+				<h2>Un vistazo al escritorio</h2>
+				<p>Mueve el rat&oacute;n por encima de esta foto del escritorio y sabr&aacute;s para qu&eacute; sirven todos sus componentes.</p>
+				<p class="imagen">
+					<div id="overDiv" style="position:absolute; visibility:hidden; z-index:1000;"></div>
+					<map name="escritorio">
+						<!-- Icono G -->
+						<area shape=rect coords="1,1,14,15" href="javascript:void(0);" onmouseover="return overlib('Bienvenido a Guadalinex');" onmouseout="return nd();">
+						<!-- Icono menú -->
+						<area shape=rect coords="1,549,35,563" href="javascript:void(0);" onmouseover="return overlib('este es el <b>Menú</b>: <br><br>Guadalinex pone a tu disposición una larga lista de programas para oficina, diseño, ocio, etc.<br> También puedes ver tu carpeta personal y las propiedades del sistema.');" onmouseout="return nd();">
+						<!-- Icono accesos directos -->
+						<area shape=rect coords="37,550,121,563" href="javascript:void(0);" onmouseover="return overlib('puedes mostrar en la barra inferior los accesos directos de tus programas favoritos');" onmouseout="return nd();">
+						<!-- Icono área ventanas -->
+						<area shape=rect coords="138,551,590,561" href="javascript:void(0);" onmouseover="return overlib('barra donde aparecen las ventanas de las aplicaciones, documentos y carpetas que tengas abiertos');" onmouseout="return nd();">
+						<!-- Icono area de notificaciones -->
+						<area shape=rect coords="1,0,706,28" href="javascript:void(0);" onmouseover="return overlib('área de notificaciones.<br><br>en esta zona aparecerá el área de avisos y alertas');" onmouseout="return nd();">
+								
+						<!-- Icono red -->
+						<area shape=rect coords="635,522,645,560" href="javascript:void(0);" onmouseover="return overlib('este icono te permite conectarte a redes de todo tipo: con cable, WIFI y 3G');" onmouseout="return nd();">
+						<!-- Icono sonido/audio -->
+						<area shape=rect coords="607,550,623,563" href="javascript:void(0);" onmouseover="return overlib('con este botón controlas el volumen del altavoz');" onmouseout="return nd();">
+						
+						<!-- Icono fecha y hora -->
+						<area shape=rect coords="658,548,706,563" href="javascript:void(0);" onmouseover="return overlib('la fecha y hora actual');" onmouseout="return nd();">			
+												
+					
+									
+					
+						<!-- Logo Junta de Andalucía -->
+						<area shape=rect coords="295,486,417,544" href="javascript:void(0);" onmouseover="return overlib('La Junta de Andalucía respalda el proyecto Guadalinex');" onmouseout="return nd();">
+						<!-- EGG -->
+						<area shape=rect coords="455,269,466,281" href="javascript:void(0);" onmouseover="return overlib('efectivamente, este sigue siendo el punto de Guadalinex :-)');" onmouseout="return nd();">
+						<area shape=default href="http://www.guadalinex.org">
+					</map>
+					<img src="images/pantalla-01.jpg" usemap=#escritorio alt="Escritorio de Guadalinex v8"/>
+				</p>
+				<div class="accesos-directos">
+					<a class="bajar" href="#cambios" title="Siguiente secci&oacute;n"><span class="hide">Siguiente</span></a>
+					<a class="subir" href="#empezar" title="Subir"><span class="hide">Anterior</span></a>
+					<div class="clear-right"></div>
+				</div>
+			</div>
+		</div>
+			
+		
+		<div class="seccion">
+			<div id="cambios"></div>
+				<div class="seccion-interior">
+					<h2>&iquest;Qu&eacute; ha cambiado en esta versi&oacute;n?</h2>
+					<p>Conoce todas las <a href="guia-rapida.html#novedades">novedades</a> que incluimos en esta versi&oacute;n: un nuevo escritorio m&aacute;s atractivo y din&aacute;mico, varios dise&ntilde;os de escritorio, conexi&oacute;n directa con redes sociales, integración de DNI-e y muchas cosas m&aacute;s que te sorprender&aacute;n.</p>
+					<div class="accesos-directos">
+						<a class="bajar" href="#manual" title="Siguiente secci&oacute;n"><span class="hide">Siguiente</span></a>
+						<a class="subir" href="#escritorio" title="Subir"><span class="hide">Anterior</span></a>
+						<div class="clear-right"></div>
+					</div>
+			</div>
+		</div>
+			
+		<!-- Hojea el manual de usuario -->
+		<div class="seccion">
+			<div id="manual"></div>
+			<div class="seccion-interior">
+				<h2>Hojea la gu&iacute;a r&aacute;pida</h2>
+				<p>Guadalinex incluye una <a href="guia-rapida.html">gu&iacute;a r&aacute;pida</a> f&aacute;cil de entender sea cual sea tu nivel de conocimientos. También tienes disponible la <a href="http://www.guadalinex.org/guadapedia" target="_blank" title="ir a la Guadapedia">Guadapedia</a> con recetas para manejar los diferentes programas que incluye Guadalinex.</p>
+				<div class="accesos-directos">
+					<a class="bajar" href="#personalizar" title="Siguiente secci&oacute;n"><span class="hide">Siguiente</span></a>
+					<a class="subir" href="#cambios" title="Subir"><span class="hide">Anterior</span></a>
+					<div class="clear-right"></div>
+				</div>
+			</div>
+		</div>
+			
+		<!-- Hojea el manual de usuario -->
+		<div class="seccion">
+			<div id="personalizar"></div>
+			<div class="seccion-interior">
+				<h2>Personaliza tu Guadalinex</h2>
+
+				<div class="modulo-personalizar modulo-personalizar-internet">
+					<h3>Conéctate a Internet</h3>
+					<p>Si tu equipo no se conecta a tu red, visita primero tu dispositivo de conexiones.</p>
+					<p>Ahora pulsa el icono de redes del panel superior del escritorio y configura el tipo de conexi&oacute;n que vayas a usar (Red cableada, Inal&aacute;mbrica o 3G).</p>
+					
+				</div>
+				<div class="modulo-personalizar modulo-personalizar-escritorio">
+					<h3>Elige otro fondo de escritorio</h3>
+					<p>Guadalinex incluye varios fondos de escritorio para que elijas el que te m&aacute;s te guste. O personal&iacute;zalo con fotos de los tuyos, tu mascota, un paisaje...</p>
+					
+				</div>	
+												
+				<!--<div class="modulo-personalizar modulo-personalizar-menores">
+					<h3>Protege a los menores</h3>
+					<p>El ordenador e Internet son herramientas muy útiles, pero mal utilizadas también representan un peligro para los menores. Guadalinex incluye <i>Nanny</i>, una aplicación de <a href="/usr/share/guadalinex-user-manual/pages/manual/11-_navego_por_la_red_de_forma_rapida_y_segura/en_que_consiste_el_control_parental.html"><i>Control Parental</i></a> que te permitirá restringir el uso de Internet y de todo el ordenador a los horarios que decidas.</p>
+				</div>-->
+				<div class="modulo-personalizar modulo-personalizar-programas">
+					<h3>Instala más programas</h3>
+					<p>Aunque el sistema base ya incluye las aplicaciones de uso frecuente, hay muchísimos más programas que puedes instalar desde un disco suplementario o <a href="http://www.guadalinex.org/mas-programas">descargarlos desde Internet</a>.</p> 
+				</div>
+				<div class="accesos-directos">
+					<a class="subir" href="#manual" title="Subir"><span class="hide">Anterior</span></a>
+					<div class="clear-right"></div>
+				</div>
+				
+				
+			</div>
+		</div>
+	
+	</div>
+
+
+	</body>
+	
+	
+	
+	
+</html>
