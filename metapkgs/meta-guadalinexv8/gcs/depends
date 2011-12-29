@@ -31,7 +31,6 @@ guadalinexv8-standard-conf
 guadalinexv8-plymouth-theme
 guadalinexv8-firefox-conf
 guadalinexv8-example-content
-guadalinexv8-ubiquity-conf
 guadalinexv8-about
 guadalinexv8-first-start
 
@@ -260,8 +259,6 @@ ttf-thai-tlwg
 ttf-ubuntu-font-family
 ttf-unfonts-core
 ttf-wqy-microhei
-ubiquity-frontend-gtk
-ubiquity-slideshow-ubuntu
 ubuntu-mono
 unzip
 usb-modeswitch
