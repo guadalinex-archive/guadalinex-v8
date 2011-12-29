@@ -1,0 +1,27 @@
+# YAML 1.1
+# Fichero de configuración de paquetes de personalización de Guadalinex v6
+
+# Nombre del paquete (minúsculas-separado-con-guiones)
+name: guadalinexv8-imagewriter-conf
+
+# Autor 
+author: Álvaro Pinel <apinel@emergya.com>
+
+# Priority
+priority: optional
+
+# Section
+section: metapackages
+
+# Descripción corta
+shortdesc: "Modified to manage hybrid isos"
+
+# Descipción larga, las lineas han de estar separadas por "\n "
+longdesc: "Modified to manage hybrid isos and img files"
+
+# Versión del paquete
+version: v6
+
+# Cambios en esta versión
+changes:
+    - Initial release
