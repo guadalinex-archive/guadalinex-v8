@@ -1,0 +1,27 @@
+Index: newtrunk/common.inc
+===================================================================
+--- newtrunk.orig/common.inc	2010-04-12 09:29:35.000000000 +0200
++++ newtrunk/common.inc	2010-04-12 09:30:33.000000000 +0200
+@@ -994,8 +994,8 @@
+   font.normal setfont
+ 
+   /menu.text.normal    lightblue         def
+-  /menu.text.select    lightblue             def
+-  /boot.text.options   lightblue             def
++  /menu.text.select    realwhite             def
++  /boot.text.options   realwhite             def
+   /boot.text.normal    lightblue             def
+ 
+ 
+Index: newtrunk/panel.inc
+===================================================================
+--- newtrunk.orig/panel.inc	2010-04-12 09:29:33.000000000 +0200
++++ newtrunk/panel.inc	2010-04-12 09:31:01.000000000 +0200
+@@ -13,7 +13,7 @@
+ /panel.text.y	{ panel.y 5 add } def
+ /panel.font	font.normal def
+ /panel.normal	darkblue def
+-/panel.high	white def
++/panel.high	realwhite def
+ /panel.bg	black def
+ /panel.border	lightdotcolor def

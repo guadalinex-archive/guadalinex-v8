@@ -1,0 +1,27 @@
+Index: newtrunk/common.inc
+===================================================================
+--- newtrunk.orig/common.inc	2010-04-09 14:56:21.000000000 +0200
++++ newtrunk/common.inc	2010-04-09 14:56:47.000000000 +0200
+@@ -1379,6 +1379,8 @@
+ /dotcolor            0xa9bbcd          newcolor
+ /lightdotcolor       0xeff2f6          newcolor
+ /somegreen           0x78a424          newcolor
++/darkblue            0x004174          newcolor
++/realwhite            0xffffff          newcolor
+ 
+ /lightblue 0x7da3d1 def
+ 
+Index: newtrunk/panel.inc
+===================================================================
+--- newtrunk.orig/panel.inc	2010-04-09 14:56:34.000000000 +0200
++++ newtrunk/panel.inc	2010-04-09 14:57:22.000000000 +0200
+@@ -13,7 +13,8 @@
+ /panel.text.y	{ panel.y 5 add } def
+ /panel.font	font.normal def
+ /panel.normal	lightblue def
+-/panel.high	white def
++%/panel.high	white def
++/panel.high	darkblue def
+ /panel.bg	lightgray def
+ /panel.border	lightdotcolor def
+ 

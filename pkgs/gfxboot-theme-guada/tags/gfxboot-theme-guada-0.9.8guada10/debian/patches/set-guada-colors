@@ -1,0 +1,84 @@
+Index: newtrunk/common.inc
+===================================================================
+--- newtrunk.orig/common.inc	2010-04-09 15:10:13.000000000 +0200
++++ newtrunk/common.inc	2010-04-09 15:11:34.000000000 +0200
+@@ -994,9 +994,12 @@
+   font.normal setfont
+ 
+   /menu.text.normal    lightblue         def
+-  /menu.text.select    white             def
+-  /boot.text.options   white             def
+-  /boot.text.normal    white             def
++  /menu.text.select    lightblue             def
++  /boot.text.options   lightblue             def
++  /boot.text.normal    lightblue             def
++
++
++
+   /infobox.bg          lightgray         def
+   /infobox.text.normal black             def
+ 
+Index: newtrunk/help.inc
+===================================================================
+--- newtrunk.orig/help.inc	2010-04-09 15:10:33.000000000 +0200
++++ newtrunk/help.inc	2010-04-09 15:13:47.000000000 +0200
+@@ -9,14 +9,14 @@
+ 
+ /help.context "main" def
+ 
+-/help.light white def
++/help.light lightblue def
+ /help.dark black def
+ /help.font font.normal def
+ /help.normal.bg lightgray def
+ /help.normal.fg black def
+ /help.highlight.fg green def
+-/help.link.fg blue def
+-/help.link.selected.fg white def
++/help.link.fg lightblue def
++/help.link.selected.fg lightblue def
+ /help.link.selected.bg blue def
+ 
+ /help.x 20 def
+Index: newtrunk/panel.inc
+===================================================================
+--- newtrunk.orig/panel.inc	2010-04-09 15:10:25.000000000 +0200
++++ newtrunk/panel.inc	2010-04-09 15:13:02.000000000 +0200
+@@ -12,12 +12,14 @@
+ /panel.y        { clip.size exch pop panel.size exch pop sub 10 sub } def
+ /panel.text.y	{ panel.y 5 add } def
+ /panel.font	font.normal def
+-/panel.normal	lightblue def
+-%/panel.high	white def
++/panel.normal	darkblue def
++/panel.high	white def
+-/panel.high	darkblue def
+-/panel.bg	lightgray def
++/panel.bg	black def
+ /panel.border	lightdotcolor def
+ 
++
++
++
+ /.panel.full    1 def
+ /.panel.short   2 def
+ /.panel.both    .panel.full .panel.short or def
+Index: newtrunk/xmenu.inc
+===================================================================
+--- newtrunk.orig/xmenu.inc	2010-04-09 15:10:19.000000000 +0200
++++ newtrunk/xmenu.inc	2010-04-09 15:12:15.000000000 +0200
+@@ -10,12 +10,12 @@
+ %
+ /xmenu.vspace.default	{ xmenu .xm_list get length 15 ge { 2 } { 4 } ifelse } def
+ /xmenu.hspace		12 def
+-/xmenu.light		white def
++/xmenu.light		blue def
+ /xmenu.dark		black def
+ /xmenu.font		font.normal def
+ /xmenu.normal.bg	lightgray def
+ /xmenu.normal.fg	black def
+-/xmenu.selected.fg	white def
++/xmenu.selected.fg	lightblue def
+ /xmenu.selected.bg	0x6c6c6c newcolor
+ 
+ small_layout {
