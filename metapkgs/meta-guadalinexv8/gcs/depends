@@ -40,6 +40,7 @@ libmp3lame0
 avidemux
 #sun-java6-jre
 #sun-java6-jdk
+nouveau-firmware
 brasero
 baobab
 firefox
@@ -99,6 +100,7 @@ thunderbird
 gtg
 gcstar
 rhythmbox
+rhythmbox-plugins
 gstreamer0.10-fluendo-mp3
 wine
 playonlinux
