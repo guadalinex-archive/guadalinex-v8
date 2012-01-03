@@ -156,6 +156,7 @@ cups-ppdc
 dnsmasq-base
 dvd+rw-tools
 exiv2
+dkms
 file-roller
 foo2zjs
 foomatic-db-compressed-ppds
