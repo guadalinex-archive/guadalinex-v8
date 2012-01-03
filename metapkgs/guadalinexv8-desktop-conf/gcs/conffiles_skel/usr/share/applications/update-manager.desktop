@@ -6,6 +6,5 @@ Exec=/usr/bin/update-manager
 Icon=update-manager
 Terminal=false
 Type=Application
-NoDisplay=true
 Categories=System;
 X-Ubuntu-Gettext-Domain=update-manager
