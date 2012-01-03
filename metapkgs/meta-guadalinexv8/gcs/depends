@@ -48,6 +48,7 @@ firefox-locale-es
 festvox-palpc16k
 festvox-sflpc16k
 bash-completion
+gnome-system-monitor
 samba-common
 smbclient
 cifs-utils
