@@ -76,6 +76,7 @@ default-jre
 broadcom-sta-common
 unpaper
 dconf-tools
+gconf-editor
 pdal2
 python-pygame
 joe
