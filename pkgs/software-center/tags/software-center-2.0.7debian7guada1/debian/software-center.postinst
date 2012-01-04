@@ -1,0 +1,18 @@
+#!/bin/sh
+
+set -e
+
+#DEBHELPER#
+
+if [ "$1" = "triggered" ] || [ "$1" = "configure" ]; then
+
+    # update the application data
+    update-software-center --triggered "$2" || true
+
+    exit 0
+fi
+
+
+
+
+

@@ -1,0 +1,721 @@
+# Persian translation for software-center
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the software-center package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: software-center\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-11-21 21:04+0100\n"
+"PO-Revision-Date: 2009-10-30 22:55+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Persian <fa@li.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Launchpad-Export-Date: 2010-11-21 19:32+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ../data/ui/SoftwareCenter.ui.h:1
+msgid "&#xA9;2009-2010 Canonical"
+msgstr ""
+
+#: ../data/ui/SoftwareCenter.ui.h:2
+msgid "Copy _Web Link"
+msgstr "پیوند ـوبی کپی شود"
+
+#: ../data/ui/SoftwareCenter.ui.h:3
+msgid "Rebuilding application catalog..."
+msgstr ""
+
+#: ../data/ui/SoftwareCenter.ui.h:4
+msgid "Search..."
+msgstr ""
+
+#: ../data/ui/SoftwareCenter.ui.h:5
+msgid "Software Center _Help"
+msgstr "ـراهنمای مرکز نرم افزار"
+
+#: ../data/ui/SoftwareCenter.ui.h:6
+msgid "_All Software"
+msgstr "ـ‌همه ی نرم افزارها"
+
+#: ../data/ui/SoftwareCenter.ui.h:7
+msgid "_Canonical-Maintained Software"
+msgstr "ـنرم افزار نگهداری شده توسط کانونیکال"
+
+#: ../data/ui/SoftwareCenter.ui.h:8
+msgid "_Edit"
+msgstr "ـویرایش"
+
+#: ../data/ui/SoftwareCenter.ui.h:9
+msgid "_File"
+msgstr "ـپرونده"
+
+#: ../data/ui/SoftwareCenter.ui.h:10
+msgid "_Help"
+msgstr "ـراهنما"
+
+#: ../data/ui/SoftwareCenter.ui.h:11
+msgid "_Install"
+msgstr "ـنصب"
+
+#: ../data/ui/SoftwareCenter.ui.h:12
+msgid "_Software Sources..."
+msgstr ""
+
+#: ../data/ui/SoftwareCenter.ui.h:13
+msgid "_View"
+msgstr "ـنمایش"
+
+#: ../data/ubuntu-software-center.desktop.in.h:1
+msgid ""
+"Lets you choose from thousands of free applications available for Ubuntu"
+msgstr ""
+"به شما اجازه می دهد تا از هزاران نرم افزار رایگان قابل نصب در اوبونتو انتخاب "
+"کنید"
+
+#: ../data/ubuntu-software-center.desktop.in.h:2
+#: ../data/unbranded-software-center.desktop.in.h:2
+#: ../softwarecenter/distro/__init__.py:39
+msgid "Software Center"
+msgstr "مرکز نرم افزار"
+
+#: ../data/ubuntu-software-center.desktop.in.h:3
+#: ../softwarecenter/distro/Ubuntu.py:39
+msgid "Ubuntu Software Center"
+msgstr "مرکز نرم افزار اوبونتو"
+
+#: ../data/unbranded-software-center.desktop.in.h:1
+#, fuzzy
+msgid ""
+"Lets you choose from thousands of free applications available for your "
+"system "
+msgstr ""
+"به شما اجازه می دهد تا از هزاران نرم افزار رایگان قابل نصب در اوبونتو انتخاب "
+"کنید"
+
+#: ../data/software-center.menu.in.h:1
+msgid "3D"
+msgstr "سه بعدی"
+
+#: ../data/software-center.menu.in.h:2
+msgid "Accessories"
+msgstr "لوازم"
+
+#: ../data/software-center.menu.in.h:3
+msgid "Arcade"
+msgstr "یکنواخت"
+
+#: ../data/software-center.menu.in.h:4
+msgid "Astronomy"
+msgstr "ستاره شناسی"
+
+#: ../data/software-center.menu.in.h:5
+msgid "Biology"
+msgstr "بیولوژی"
+
+#: ../data/software-center.menu.in.h:6
+msgid "Board Games"
+msgstr "بازی های تخته ای"
+
+#: ../data/software-center.menu.in.h:7
+msgid "Card Games"
+msgstr "بازی های با کارت"
+
+#: ../data/software-center.menu.in.h:8
+msgid "Chat"
+msgstr "گپ"
+
+#: ../data/software-center.menu.in.h:9
+msgid "Chemistry"
+msgstr "شیمی"
+
+#: ../data/software-center.menu.in.h:10
+msgid "Computer Science &amp; Robotics"
+msgstr "علوم کامپیوتر،روبوتیک"
+
+#: ../data/software-center.menu.in.h:11
+msgid "Debugging"
+msgstr "دیباگ"
+
+#: ../data/software-center.menu.in.h:12
+msgid "Developer Tools"
+msgstr "ابزارهای توسعه"
+
+#: ../data/software-center.menu.in.h:13
+msgid "Drawing"
+msgstr "ترسیم"
+
+#: ../data/software-center.menu.in.h:14
+msgid "Education"
+msgstr "آموزشی"
+
+#: ../data/software-center.menu.in.h:15
+msgid "Electronics"
+msgstr "الکترونیک"
+
+#: ../data/software-center.menu.in.h:16
+msgid "Engineering"
+msgstr "مهندسی"
+
+#: ../data/software-center.menu.in.h:17
+msgid "File Sharing"
+msgstr "اشتراک گذاری پرونده"
+
+#: ../data/software-center.menu.in.h:18
+msgid "Fonts"
+msgstr "فونت‌ها"
+
+#: ../data/software-center.menu.in.h:19
+msgid "Games"
+msgstr "بازی ها"
+
+#: ../data/software-center.menu.in.h:20
+msgid "Geography"
+msgstr "جغرافیا"
+
+#: ../data/software-center.menu.in.h:21
+msgid "Geology"
+msgstr "زمین شناسی"
+
+#: ../data/software-center.menu.in.h:22
+msgid "Graphic Interface Design"
+msgstr "طراحی رابط گرافیکی"
+
+#: ../data/software-center.menu.in.h:23
+msgid "Graphics"
+msgstr "گرافیک"
+
+#: ../data/software-center.menu.in.h:24
+msgid "Haskell"
+msgstr "Haskell"
+
+#: ../data/software-center.menu.in.h:25
+msgid "IDEs"
+msgstr "آی دی ای ها"
+
+#: ../data/software-center.menu.in.h:26
+msgid "Internet"
+msgstr "اینترنت"
+
+#: ../data/software-center.menu.in.h:27
+msgid "Java"
+msgstr "جاوا"
+
+#: ../data/software-center.menu.in.h:28
+msgid "Libraries"
+msgstr "کتابخانه ها"
+
+#: ../data/software-center.menu.in.h:29
+msgid "Lisp"
+msgstr "زبان Lisp"
+
+#: ../data/software-center.menu.in.h:30
+msgid "Localization"
+msgstr "ترجمه ها"
+
+#: ../data/software-center.menu.in.h:31
+msgid "Mail"
+msgstr "نامه"
+
+#: ../data/software-center.menu.in.h:32
+msgid "Mathematics"
+msgstr "ریاضیات"
+
+#: ../data/software-center.menu.in.h:33
+msgid "Mono/CLI"
+msgstr "مونو"
+
+#: ../data/software-center.menu.in.h:34
+msgid "Multimedia"
+msgstr "رسانه ها"
+
+#: ../data/software-center.menu.in.h:35
+msgid "OCaml"
+msgstr "او‌سی‌ای‌ام‌ال"
+
+#: ../data/software-center.menu.in.h:36
+msgid "Office"
+msgstr "افیس"
+
+#: ../data/software-center.menu.in.h:37
+msgid "Painting &amp; Editing"
+msgstr "نقاشی و تغییر"
+
+#: ../data/software-center.menu.in.h:38
+msgid "Perl"
+msgstr "پرل"
+
+#: ../data/software-center.menu.in.h:39
+msgid "Photography"
+msgstr "عکاسی"
+
+#: ../data/software-center.menu.in.h:40
+msgid "Physics"
+msgstr "فیزیک"
+
+#: ../data/software-center.menu.in.h:41
+msgid "Profiling"
+msgstr "نمایه سازی"
+
+#: ../data/software-center.menu.in.h:42
+msgid "Publishing"
+msgstr "انتشار"
+
+#: ../data/software-center.menu.in.h:43
+msgid "Puzzles"
+msgstr "پازل(جورچین)"
+
+#: ../data/software-center.menu.in.h:44
+msgid "Python"
+msgstr "پیتون"
+
+#: ../data/software-center.menu.in.h:45
+msgid "Role Playing"
+msgstr "نقش بازی"
+
+#: ../data/software-center.menu.in.h:46
+msgid "Ruby"
+msgstr "روبی"
+
+#: ../data/software-center.menu.in.h:47
+msgid "Scanning &amp; OCR"
+msgstr "اوسی‌آر و اسکن"
+
+#: ../data/software-center.menu.in.h:48
+msgid "Science &amp; Engineering"
+msgstr "علوم و مهندسی"
+
+#: ../data/software-center.menu.in.h:49
+msgid "Simulation"
+msgstr "شبیه سازی"
+
+#: ../data/software-center.menu.in.h:50
+msgid "Sports"
+msgstr "ورزش"
+
+#: ../data/software-center.menu.in.h:51
+msgid "System"
+msgstr "سیستم"
+
+#: ../data/software-center.menu.in.h:52
+msgid "Themes &amp; Tweaks"
+msgstr "نمایه ها"
+
+#: ../data/software-center.menu.in.h:53
+msgid "Universal Access"
+msgstr "دسترسی کلی"
+
+#: ../data/software-center.menu.in.h:54
+msgid "Version Control"
+msgstr "واسط‌های کنترلی"
+
+#: ../data/software-center.menu.in.h:55
+msgid "Viewers"
+msgstr "نشان دهنده ها"
+
+#: ../data/software-center.menu.in.h:56
+msgid "Web Browsers"
+msgstr "مرورگرهای وب"
+
+#: ../data/software-center.menu.in.h:57
+msgid "Web Development"
+msgstr "توسعه ی وب"
+
+#: ../data/featured.menu.in.h:1
+msgid "Featured Applications"
+msgstr ""
+
+#: ../softwarecenter/app.py:148
+msgid "Sorry, can not open the software database"
+msgstr "متاسفم،امکان باز کردن پایگاه داده نرم افزار ها وجود ندارد"
+
+#: ../softwarecenter/app.py:149
+msgid "Please re-install the 'software-center' package."
+msgstr "لطفا بستهٔ ٬software-center٬ را دوباره نصب کنید."
+
+#: ../softwarecenter/backend/aptd.py:219
+msgid "Error"
+msgstr "خطا"
+
+#: ../softwarecenter/backend/channel.py:92
+msgid "Canonical Partners"
+msgstr "همکاران کانونیکال"
+
+#: ../softwarecenter/backend/channel.py:94
+msgid "Other"
+msgstr "دیگر"
+
+#. TRANSLATORS: List of "grey-listed" words sperated with ";"
+#. Do not translate this list directly. Instead,
+#. provide a list of words in your language that people are likely
+#. to include in a search but that should normally be ignored in
+#. the search.
+#: ../softwarecenter/db/database.py:39
+msgid "app;application;package;program;programme;suite;tool"
+msgstr "app;application;package;program;programme;suite;tool"
+
+#. if we don't have a package and it has no arch/component its
+#. not available for us
+#: ../softwarecenter/db/database.py:171
+#: ../softwarecenter/view/appdetailsview.py:212
+#, python-format
+msgid "Sorry, '%s' is not available for this type of computer (%s)."
+msgstr "متاسفانه '%s' برای این نوع رایانه در دسترس نیست (%s)."
+
+#: ../softwarecenter/distro/__init__.py:45
+#, fuzzy
+msgid ""
+"Lets you choose from thousands of free applications available for your "
+"system."
+msgstr ""
+"به شما اجازه می دهد تا از هزاران نرم افزار رایگان قابل نصب در اوبونتو انتخاب "
+"کنید"
+
+#: ../softwarecenter/distro/Debian.py:44
+#, fuzzy
+msgid "Provided by Debian"
+msgstr "تهیه شده توسط اوبونتو"
+
+#: ../softwarecenter/distro/Debian.py:47 ../softwarecenter/distro/Ubuntu.py:53
+#, python-format
+msgid "To remove %s, these items must be removed as well:"
+msgstr "برای پاک کردن بستهٔ %s،موارد زیر نیز باید حذف شوند:"
+
+#: ../softwarecenter/distro/Debian.py:49 ../softwarecenter/distro/Ubuntu.py:55
+msgid "Remove All"
+msgstr "حذف همه"
+
+#: ../softwarecenter/distro/Debian.py:56 ../softwarecenter/distro/Ubuntu.py:62
+#, python-format
+msgid ""
+"If you uninstall %s, future updates will not include new items in <b>%s</b> "
+"set. Are you sure you want to continue?"
+msgstr ""
+"اگر شما بستهٔ %s را حذف کنید،بستهٔ <b>%s</b> در هنگام به روزرسانی تغییری "
+"نخواهد نکرد.آیا می خواهید ادامه دهید؟"
+
+#: ../softwarecenter/distro/Debian.py:59 ../softwarecenter/distro/Debian.py:70
+#: ../softwarecenter/distro/Ubuntu.py:65 ../softwarecenter/distro/Ubuntu.py:76
+msgid "Remove Anyway"
+msgstr "به هر حال حذف کن"
+
+#: ../softwarecenter/distro/Debian.py:66
+#, python-format
+msgid ""
+"%s is a core application in Debian. Uninstalling it may cause future "
+"upgrades to be incomplete. Are you sure you want to continue?"
+msgstr ""
+"بستهٔ‌ %s نرم افزار اصلی در دبین می باشد.ممکن است حذف آن فعالیت رایانهٔ شما را "
+"مختل کند.آیا می خواهید ادامه دهید؟"
+
+#. generic message
+#: ../softwarecenter/distro/Debian.py:79 ../softwarecenter/distro/Ubuntu.py:85
+msgid "Installed"
+msgstr "نصب شده"
+
+#: ../softwarecenter/distro/Debian.py:91 ../softwarecenter/distro/Ubuntu.py:97
+msgid "Unknown"
+msgstr "نامعلوم"
+
+#: ../softwarecenter/distro/Debian.py:93 ../softwarecenter/distro/Ubuntu.py:99
+msgid "Open Source"
+msgstr ""
+
+#: ../softwarecenter/distro/Debian.py:95
+msgid "Open Source with proprietary parts"
+msgstr ""
+
+#: ../softwarecenter/distro/Debian.py:97
+#: ../softwarecenter/distro/Ubuntu.py:101
+msgid "Proprietary"
+msgstr "نرم افزار غیر آزاد"
+
+#: ../softwarecenter/distro/Debian.py:98
+#: ../softwarecenter/distro/Ubuntu.py:102
+#, python-format
+msgid "License: %s"
+msgstr ""
+
+#: ../softwarecenter/distro/Ubuntu.py:42
+msgid ""
+"Lets you choose from thousands of free applications available for Ubuntu."
+msgstr ""
+"به شما اجازه می دهد تا از هزاران نرم افزار رایگان قابل نصب در اوبونتو انتخاب "
+"کنید"
+
+#: ../softwarecenter/distro/Ubuntu.py:50
+msgid "Provided by Ubuntu"
+msgstr "تهیه شده توسط اوبونتو"
+
+#: ../softwarecenter/distro/Ubuntu.py:72
+#, python-format
+msgid ""
+"%s is a core application in Ubuntu. Uninstalling it may cause future "
+"upgrades to be incomplete. Are you sure you want to continue?"
+msgstr ""
+"بستهٔ‌ %s نرم افزار اصلی در اوبونتو می باشد.ممکن است حذف آن فعالیت رایانهٔ شما "
+"را مختل کند.آیا می خواهید ادامه دهید؟"
+
+#. TRANSLATORS: This text will be showed as price of the software
+#. its free
+#: ../softwarecenter/distro/Ubuntu.py:126
+#: ../softwarecenter/view/appdetailsview.py:500
+msgid "Free"
+msgstr "آزاد (رایگان)"
+
+#: ../softwarecenter/distro/Ubuntu.py:173
+#: ../softwarecenter/distro/Ubuntu.py:185
+#, python-format
+msgid ""
+"Canonical does no longer provide updates for %s in Ubuntu %s. Updates may be "
+"available in a newer version of Ubuntu."
+msgstr ""
+"کانونیکال دیگر برای بسته %s برای اوبونتو  %s به روزرسانی ندارد .به رسانی "
+"هایی ممکن است برای نسخه های جدید تر اوبونتو موجود باشند."
+
+#: ../softwarecenter/distro/Ubuntu.py:178
+#, python-format
+msgid ""
+"Canonical provides critical updates for %(appname)s until "
+"%(support_end_month_str)s %(support_end_year)s."
+msgstr ""
+"کانونیکال برای بستهٔ %(appname)s تا %(support_end_month_str)s "
+"%(support_end_year)s با همکاری توسعه دهنده ها بروزرسانی دارد."
+
+#: ../softwarecenter/distro/Ubuntu.py:190
+#, python-format
+msgid ""
+"Canonical provides critical updates supplied by the developers of "
+"%(appname)s until %(support_end_month_str)s %(support_end_year)s."
+msgstr ""
+"کانونیکال برای بستهٔ %(appname)s تا %(support_end_month_str)s "
+"%(support_end_year)s با همکاری توسعه دهنده ها بروزرسانی دارد."
+
+#: ../softwarecenter/distro/Ubuntu.py:200
+#, python-format
+msgid ""
+"Canonical does not provide updates for %s. Some updates may be provided by "
+"the third party vendor."
+msgstr ""
+"کانونبکال برای بستهٔ %s به روزرسانی ندارد.ممکن است به رسانی توسط سوم شخص "
+"ارایه شود."
+
+#: ../softwarecenter/distro/Ubuntu.py:204
+#, python-format
+msgid "Canonical provides critical updates for %s."
+msgstr "کانونبکال برای بستهٔ %s به روزرسانی های حساس را فراهم می کند."
+
+#: ../softwarecenter/distro/Ubuntu.py:206
+#, python-format
+msgid "Canonical provides critical updates supplied by the developers of %s."
+msgstr ""
+"کانونیکال به روزرسانی های حساس را برای بستهٔ %s با پشتیبانی توسعه دهندگان "
+"فراهم می کند."
+
+#: ../softwarecenter/distro/Ubuntu.py:209
+#, python-format
+msgid ""
+"Canonical does not provide updates for %s. Some updates may be provided by "
+"the Ubuntu community."
+msgstr ""
+"کانونیکال برای بستهٔ نرم افزاری %s به روزرسانی ندارد.در جامعهٔ اوبونتو ممکن "
+"است به روزرسانی وجود داشته باشد."
+
+#: ../softwarecenter/distro/Ubuntu.py:212
+#, python-format
+msgid "Application %s has an unknown maintenance status."
+msgstr ""
+
+#: ../softwarecenter/view/appdetailsview.py:85
+msgid "Description"
+msgstr "شرح"
+
+#: ../softwarecenter/view/appdetailsview.py:202
+#, python-format
+msgid ""
+"This software is available from the '%s' source, which you are not currently "
+"using."
+msgstr ""
+"این نرم افزار در منبع '%s' در دسترس است،که شما هم اکنون استفاده نمی کنید."
+
+#: ../softwarecenter/view/appdetailsview.py:207
+msgid ""
+"To show information about this item, the software catalog needs updating."
+msgstr ""
+"برای نمایش اطلاعات برای این مورد،گنجینه ی نرم افزاری باید به روزرسانی شود."
+
+#: ../softwarecenter/view/appdetailsview.py:264
+#: ../softwarecenter/view/appdetailsview.py:268
+msgid "Application Screenshot"
+msgstr "تصویر محیط برنامه"
+
+#: ../softwarecenter/view/appdetailsview.py:296
+#, python-format
+msgid "Version: %s (%s)"
+msgstr "نسخه: %s (%s)"
+
+#: ../softwarecenter/view/appdetailsview.py:311
+msgid "Website"
+msgstr "تارنما"
+
+#: ../softwarecenter/view/appdetailsview.py:317
+#, python-format
+msgid "Price: %s"
+msgstr ""
+
+#: ../softwarecenter/view/appdetailsview.py:331
+msgid "No screenshot available"
+msgstr "تصویری از محیط برنامه موجود نیست"
+
+#: ../softwarecenter/view/appdetailsview.py:369
+#, python-format
+msgid "%s - Screenshot"
+msgstr "%s - تصویر نمونه"
+
+#: ../softwarecenter/view/appdetailsview.py:492
+#: ../softwarecenter/view/appview.py:1146
+msgid "Remove"
+msgstr "حذف"
+
+#. 32, the pixbufoverlay height
+#: ../softwarecenter/view/appdetailsview.py:498
+#: ../softwarecenter/view/appview.py:1146
+msgid "Install"
+msgstr "نصب"
+
+#: ../softwarecenter/view/appdetailsview.py:501
+msgid "Install - Free"
+msgstr "نصب - رایگان"
+
+#. FIXME: deal with the EULA stuff
+#. FIXME: use a proper message here, but we are in string freeze
+#: ../softwarecenter/view/appdetailsview.py:515
+#: ../softwarecenter/view/appdetailsview.py:520
+msgid "Use This Source"
+msgstr "از این منبع استفاده کن"
+
+#: ../softwarecenter/view/appdetailsview.py:523
+msgid "Update Now"
+msgstr "هم اکنون برروزرسانی کن"
+
+#. draw number of reviews
+#: ../softwarecenter/view/appview.py:657
+#, python-format
+msgid "%s review"
+msgid_plural "%s reviews"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../softwarecenter/view/appview.py:1147
+msgid "More Info"
+msgstr "اطلاعات بیشتر"
+
+#. home button
+#: ../softwarecenter/view/availablepane.py:123
+#: ../softwarecenter/view/viewswitcher.py:201
+msgid "Get Software"
+msgstr "دریافت نرم افزار"
+
+#: ../softwarecenter/view/availablepane.py:242
+#: ../softwarecenter/view/installedpane.py:79
+#: ../softwarecenter/view/channelpane.py:86
+msgid "Search Results"
+msgstr "نتایج جست و جو"
+
+#: ../softwarecenter/view/availablepane.py:290
+#: ../softwarecenter/view/installedpane.py:158
+#: ../softwarecenter/view/channelpane.py:199
+#, python-format
+msgid "%s matching item"
+msgid_plural "%s matching items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../softwarecenter/view/availablepane.py:294
+#: ../softwarecenter/view/channelpane.py:203
+#, python-format
+msgid "%s item available"
+msgid_plural "%s items available"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../softwarecenter/view/catview.py:82 ../softwarecenter/view/catview.py:88
+msgid "Departments"
+msgstr "بخش ها"
+
+#: ../softwarecenter/view/dialogs.py:45
+msgid "Details"
+msgstr "نمایش جزئیات"
+
+#: ../softwarecenter/view/dialogs.py:83
+msgid "Cancel"
+msgstr "انصراف"
+
+#. FIXME: make this a generic pkgview widget
+#: ../softwarecenter/view/dialogs.py:96
+msgid "Dependency"
+msgstr ""
+
+#: ../softwarecenter/view/installedpane.py:84
+#: ../softwarecenter/view/viewswitcher.py:207
+msgid "Installed Software"
+msgstr "نرم افزار های نصب شده"
+
+#: ../softwarecenter/view/installedpane.py:162
+#, python-format
+msgid "%s item installed"
+msgid_plural "%s items installed"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../softwarecenter/view/viewswitcher.py:77
+msgid "Software sources"
+msgstr "منابع نرم افزار"
+
+#: ../softwarecenter/view/viewswitcher.py:227
+#: ../softwarecenter/view/viewswitcher.py:232
+#, python-format
+msgid "In Progress (%i)"
+msgstr "در جریان (%i)"
+
+#: ../softwarecenter/view/widgets/backforward.py:61
+msgid "History Navigation"
+msgstr "مرور تاریخچه"
+
+#: ../softwarecenter/view/widgets/backforward.py:62
+msgid "Navigate forwards and backwards."
+msgstr "تغییر نسیر به عقب و جلو"
+
+#: ../softwarecenter/view/widgets/backforward.py:76
+#: ../softwarecenter/view/widgets/backforward.py:90
+msgid "Back Button"
+msgstr "دکمه‌ی بازگشت"
+
+#: ../softwarecenter/view/widgets/backforward.py:77
+#: ../softwarecenter/view/widgets/backforward.py:91
+msgid "Navigates back."
+msgstr "بازگست به عقب."
+
+#: ../softwarecenter/view/widgets/backforward.py:82
+#: ../softwarecenter/view/widgets/backforward.py:96
+msgid "Forward Button"
+msgstr "دکمه‌ی حرکت به جلو"
+
+#: ../softwarecenter/view/widgets/backforward.py:83
+#: ../softwarecenter/view/widgets/backforward.py:97
+msgid "Navigates forward."
+msgstr "یک قدم به جلو"
+
+#: ../softwarecenter/view/widgets/pathbar_gtk_atk.py:54
+msgid "You are here:"
+msgstr "شما اینجا هستید:"
+
+#: ../softwarecenter/view/widgets/pathbar_gtk_atk.py:445
+#, python-format
+msgid "Navigates to the %s page."
+msgstr "ناوبری به صفحه %s"

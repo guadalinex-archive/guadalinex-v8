@@ -1,0 +1,45 @@
+.\"                                      Hey, EMACS: -*- nroff -*-
+.\" First parameter, NAME, should be all caps
+.\" Second parameter, SECTION, should be 1-8, maybe w/ subsection
+.\" other parameters are allowed: see man(7), man(1)
+.TH SOFTWARE-CENTER 1 "0.13" "October 2009"
+
+.SH NAME
+software-center \- manage software
+
+.SH SYNOPSIS
+.B software-center 
+[\fIoptions\fR] \fIPACKAGE\fR
+
+.SH DESCRIPTION
+\fBsoftware-center\fR a graphical interface for package management in Ubuntu.
+
+.SH OPTIONS
+Listed below are the command line options for \fBsoftware-center\fR:
+.TP
+\fB\-\-version\fR
+show program's version number and exit
+.TP
+\fB\-h\fR, \fB\-\-help\fR
+show this help message and exit
+.TP
+\fB\-\-debug\fR
+enable debug mode
+
+.SH ENVIRONMENT VARIABLES
+.TP
+PACKAGE
+Opens software-center at the page for PACKAGE
+
+.SH EXAMPLES
+.TP
+software-center
+Opens software-center at the lobby screen.
+.TP
+software-center gedit
+Opens software-center at the page for the gedit package.
+
+.SH AUTHOR
+\fBsoftware-center\fR was written by Michael Vogt <mvo@canonical.com>, and this manual page by Andrew Higginson <rugby471@gmail.com>.
+
+Both are released under the GNU General Public License, version 3 or later.

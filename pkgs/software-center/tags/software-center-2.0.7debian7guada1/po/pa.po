@@ -1,0 +1,699 @@
+# Punjabi translation for software-center
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the software-center package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: software-center\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-11-21 21:04+0100\n"
+"PO-Revision-Date: 2010-08-08 09:53+0000\n"
+"Last-Translator: A S Alam <aalam@users.sf.net>\n"
+"Language-Team: Punjabi <pa@li.org>\n"
+"Language: pa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2010-11-21 19:32+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ../data/ui/SoftwareCenter.ui.h:1
+msgid "&#xA9;2009-2010 Canonical"
+msgstr ""
+
+#: ../data/ui/SoftwareCenter.ui.h:2
+msgid "Copy _Web Link"
+msgstr "ਵੈੱਬ ਲਿੰਕ ਕਾਪੀ ਕਰੋ(_W)"
+
+#: ../data/ui/SoftwareCenter.ui.h:3
+msgid "Rebuilding application catalog..."
+msgstr "ਐਪਲੀਕੇਸ਼ਨ ਕੈਟਾਲਾਗ ਮੁੜ-ਬਣਾਇਆ ਜਾ ਰਿਹਾ ਹੈ..."
+
+#: ../data/ui/SoftwareCenter.ui.h:4
+msgid "Search..."
+msgstr "ਖੋਜ..."
+
+#: ../data/ui/SoftwareCenter.ui.h:5
+msgid "Software Center _Help"
+msgstr "ਸਾਫਟਵੇਅਰ ਸੈਂਟਰ ਮੱਦਦ(_H)"
+
+#: ../data/ui/SoftwareCenter.ui.h:6
+msgid "_All Software"
+msgstr "ਸਭ ਸਾਫਟਵੇਅਰ(_A)"
+
+#: ../data/ui/SoftwareCenter.ui.h:7
+msgid "_Canonical-Maintained Software"
+msgstr "ਕਨੋਨੀਕਲ ਵਲੋਂ ਪਰਬੰਧ ਅਧੀਨ ਸਾਫਟਵੇਅਰ(_C)"
+
+#: ../data/ui/SoftwareCenter.ui.h:8
+msgid "_Edit"
+msgstr "ਸੋਧ(_E)"
+
+#: ../data/ui/SoftwareCenter.ui.h:9
+msgid "_File"
+msgstr "ਫਾਇਲ(_F)"
+
+#: ../data/ui/SoftwareCenter.ui.h:10
+msgid "_Help"
+msgstr "ਮੱਦਦ(_H)"
+
+#: ../data/ui/SoftwareCenter.ui.h:11
+msgid "_Install"
+msgstr "ਇੰਸਟਾਲ(_I)"
+
+#: ../data/ui/SoftwareCenter.ui.h:12
+msgid "_Software Sources..."
+msgstr "ਸਾਫਟਵੇਅਰ ਸਰੋਤ(_S)..."
+
+#: ../data/ui/SoftwareCenter.ui.h:13
+msgid "_View"
+msgstr "ਵੇਖੋ(_V)"
+
+#: ../data/ubuntu-software-center.desktop.in.h:1
+msgid ""
+"Lets you choose from thousands of free applications available for Ubuntu"
+msgstr "ਉਬਤੂੰ ਉੱਤੇ ਉਪਲੱਬਧ ਹਜ਼ਾਰਾਂ ਮੁਫ਼ਤ ਐਪਲੀਕੇਸ਼ਨ 'ਚੋਂ ਤੁਹਾਨੂੰ ਚੋਣ ਕਰਨ ਦਿੰਦਾ ਹੈ"
+
+#: ../data/ubuntu-software-center.desktop.in.h:2
+#: ../data/unbranded-software-center.desktop.in.h:2
+#: ../softwarecenter/distro/__init__.py:39
+msgid "Software Center"
+msgstr "ਸਾਫਟਵੇਅਰ ਸੈਂਟਰ"
+
+#: ../data/ubuntu-software-center.desktop.in.h:3
+#: ../softwarecenter/distro/Ubuntu.py:39
+msgid "Ubuntu Software Center"
+msgstr "ਉਬਤੂੰ ਸਾਫਟਵੇਅਰ ਸੈਂਟਰ"
+
+#: ../data/unbranded-software-center.desktop.in.h:1
+#, fuzzy
+msgid ""
+"Lets you choose from thousands of free applications available for your "
+"system "
+msgstr "ਉਬਤੂੰ ਉੱਤੇ ਉਪਲੱਬਧ ਹਜ਼ਾਰਾਂ ਮੁਫ਼ਤ ਐਪਲੀਕੇਸ਼ਨ 'ਚੋਂ ਤੁਹਾਨੂੰ ਚੋਣ ਕਰਨ ਦਿੰਦਾ ਹੈ"
+
+#: ../data/software-center.menu.in.h:1
+msgid "3D"
+msgstr "3ਡੀ"
+
+#: ../data/software-center.menu.in.h:2
+msgid "Accessories"
+msgstr "ਸਹੂਲਤਾਂ"
+
+#: ../data/software-center.menu.in.h:3
+msgid "Arcade"
+msgstr "ਅਰਕਾਡੀ"
+
+#: ../data/software-center.menu.in.h:4
+msgid "Astronomy"
+msgstr "ਭਵਿੱਖਬਾਣੀ"
+
+#: ../data/software-center.menu.in.h:5
+msgid "Biology"
+msgstr "ਜੀਵ-ਵਿਗਿਆਨ"
+
+#: ../data/software-center.menu.in.h:6
+msgid "Board Games"
+msgstr "ਬੋਰਡ ਖੇਡਾਂ"
+
+#: ../data/software-center.menu.in.h:7
+msgid "Card Games"
+msgstr "ਤਾਸ਼"
+
+#: ../data/software-center.menu.in.h:8
+msgid "Chat"
+msgstr "ਗੱਲਾਂਬਾਤਾਂ"
+
+#: ../data/software-center.menu.in.h:9
+msgid "Chemistry"
+msgstr "ਰਸਾਇਣ ਵਿਗਿਆਨ"
+
+#: ../data/software-center.menu.in.h:10
+msgid "Computer Science &amp; Robotics"
+msgstr "ਕੰਪਿਊਟਰ ਵਿਗਿਆ ਤੇ ਰੋਬੋਟ"
+
+#: ../data/software-center.menu.in.h:11
+msgid "Debugging"
+msgstr "ਡੀਬੱਗ"
+
+#: ../data/software-center.menu.in.h:12
+msgid "Developer Tools"
+msgstr "ਡਿਵੈਲਪਰ ਟੂਲ"
+
+#: ../data/software-center.menu.in.h:13
+msgid "Drawing"
+msgstr "ਡਰਾਇੰਗ"
+
+#: ../data/software-center.menu.in.h:14
+msgid "Education"
+msgstr "ਸਿੱਖਿਆ"
+
+#: ../data/software-center.menu.in.h:15
+msgid "Electronics"
+msgstr "ਇਲੈਕਟਰੋਨਿਕਸ"
+
+#: ../data/software-center.menu.in.h:16
+msgid "Engineering"
+msgstr "ਇੰਜਿਨਅਰਿੰਗ"
+
+#: ../data/software-center.menu.in.h:17
+msgid "File Sharing"
+msgstr "ਫਾਇਲ ਸਾਂਝ"
+
+#: ../data/software-center.menu.in.h:18
+msgid "Fonts"
+msgstr "ਫੋਂਟ"
+
+#: ../data/software-center.menu.in.h:19
+msgid "Games"
+msgstr "ਖੇਡਾਂ"
+
+#: ../data/software-center.menu.in.h:20
+msgid "Geography"
+msgstr "ਭੂਗੋਲ"
+
+#: ../data/software-center.menu.in.h:21
+msgid "Geology"
+msgstr ""
+
+#: ../data/software-center.menu.in.h:22
+msgid "Graphic Interface Design"
+msgstr "ਗਰਾਫਿਕਸ ਇੰਟਰਫੇਸ ਡਿਜ਼ਾਇਨ"
+
+#: ../data/software-center.menu.in.h:23
+msgid "Graphics"
+msgstr "ਗਰਾਫਿਕਸ"
+
+#: ../data/software-center.menu.in.h:24
+msgid "Haskell"
+msgstr "Haskell"
+
+#: ../data/software-center.menu.in.h:25
+msgid "IDEs"
+msgstr "IDE"
+
+#: ../data/software-center.menu.in.h:26
+msgid "Internet"
+msgstr "ਇੰਟਰਨੈੱਟ"
+
+#: ../data/software-center.menu.in.h:27
+msgid "Java"
+msgstr "ਜਾਵਾ"
+
+#: ../data/software-center.menu.in.h:28
+msgid "Libraries"
+msgstr "ਲਾਇਬਰੇਰੀਆਂ"
+
+#: ../data/software-center.menu.in.h:29
+msgid "Lisp"
+msgstr "Lisp"
+
+#: ../data/software-center.menu.in.h:30
+msgid "Localization"
+msgstr "ਲੋਕਲਾਈਜ਼ੇਸ਼ਨ"
+
+#: ../data/software-center.menu.in.h:31
+msgid "Mail"
+msgstr "ਮੇਲ"
+
+#: ../data/software-center.menu.in.h:32
+msgid "Mathematics"
+msgstr "ਗਣਿਤ"
+
+#: ../data/software-center.menu.in.h:33
+msgid "Mono/CLI"
+msgstr "ਮੋਨੋ/CLI"
+
+#: ../data/software-center.menu.in.h:34
+msgid "Multimedia"
+msgstr "ਮਲਟੀਮੀਡਿਆ"
+
+#: ../data/software-center.menu.in.h:35
+msgid "OCaml"
+msgstr "OCaml"
+
+#: ../data/software-center.menu.in.h:36
+msgid "Office"
+msgstr "ਦਫਤਰ"
+
+#: ../data/software-center.menu.in.h:37
+msgid "Painting &amp; Editing"
+msgstr "ਚਿੱਤਰਕਾਰੀ ਤੇ ਸੰਪਾਦਨ"
+
+#: ../data/software-center.menu.in.h:38
+msgid "Perl"
+msgstr "ਪਰਲ"
+
+#: ../data/software-center.menu.in.h:39
+msgid "Photography"
+msgstr "ਫੋਟੋਗਰਾਫ਼ੀ"
+
+#: ../data/software-center.menu.in.h:40
+msgid "Physics"
+msgstr "ਭੌਤਿਕ ਵਿਗਿਆਨ"
+
+#: ../data/software-center.menu.in.h:41
+msgid "Profiling"
+msgstr "ਪਰੋਫਾਇਲਿੰਗ"
+
+#: ../data/software-center.menu.in.h:42
+msgid "Publishing"
+msgstr "ਪਬਲਿਸ਼ਿੰਗ"
+
+#: ../data/software-center.menu.in.h:43
+msgid "Puzzles"
+msgstr "ਬੁਝਾਰਤਾਂ"
+
+#: ../data/software-center.menu.in.h:44
+msgid "Python"
+msgstr "ਪਾਈਥਨ"
+
+#: ../data/software-center.menu.in.h:45
+msgid "Role Playing"
+msgstr "ਰੋਲ ਕਰਨਾ"
+
+#: ../data/software-center.menu.in.h:46
+msgid "Ruby"
+msgstr "ਰੂਬੀ"
+
+#: ../data/software-center.menu.in.h:47
+msgid "Scanning &amp; OCR"
+msgstr "ਸੈਕਨ ਤੇ OCR"
+
+#: ../data/software-center.menu.in.h:48
+msgid "Science &amp; Engineering"
+msgstr "ਵਿਗਿਆਨ ਤੇ ਇੰਜਨਅਰਿੰਗ"
+
+#: ../data/software-center.menu.in.h:49
+msgid "Simulation"
+msgstr "ਸਿਮੂਲੇਸ਼ਨ"
+
+#: ../data/software-center.menu.in.h:50
+msgid "Sports"
+msgstr "ਖੇਡਾਂ"
+
+#: ../data/software-center.menu.in.h:51
+msgid "System"
+msgstr "ਸਿਸਟਮ"
+
+#: ../data/software-center.menu.in.h:52
+msgid "Themes &amp; Tweaks"
+msgstr "ਥੀਮ ਤੇ ਟਵਿਕ"
+
+#: ../data/software-center.menu.in.h:53
+msgid "Universal Access"
+msgstr "ਯੂਨੀਵਰਸਲ ਅਸੈੱਸ"
+
+#: ../data/software-center.menu.in.h:54
+msgid "Version Control"
+msgstr "ਵਰਜਨ ਕੰਟਰੋਲ"
+
+#: ../data/software-center.menu.in.h:55
+msgid "Viewers"
+msgstr "ਦਰਸ਼ਕ"
+
+#: ../data/software-center.menu.in.h:56
+msgid "Web Browsers"
+msgstr "ਵੈੱਬ ਬਰਾਊਜ਼ਰ"
+
+#: ../data/software-center.menu.in.h:57
+msgid "Web Development"
+msgstr "ਵੈੱਬ ਡਿਵੈਲਪਮੈਂਟ"
+
+#: ../data/featured.menu.in.h:1
+msgid "Featured Applications"
+msgstr ""
+
+#: ../softwarecenter/app.py:148
+msgid "Sorry, can not open the software database"
+msgstr "ਅਫਸੋਸ, ਸਾਫਟਵੇਅਰ ਡਾਟਾਬੇਸ ਖੋਲ੍ਹਿਆ ਨਹੀਂ ਜਾ ਸਕਦਾ"
+
+#: ../softwarecenter/app.py:149
+msgid "Please re-install the 'software-center' package."
+msgstr "'software-center' ਪੈਕੇਜ ਮੁੜ-ਇੰਸਟਾਲ ਕਰੋ ਜੀ।"
+
+#: ../softwarecenter/backend/aptd.py:219
+msgid "Error"
+msgstr "ਗਲਤੀ"
+
+#: ../softwarecenter/backend/channel.py:92
+msgid "Canonical Partners"
+msgstr "ਕਨੋਨੀਕਲ ਹਿੱਸੇਦਾਰ"
+
+#: ../softwarecenter/backend/channel.py:94
+msgid "Other"
+msgstr "ਹੋਰ"
+
+#. TRANSLATORS: List of "grey-listed" words sperated with ";"
+#. Do not translate this list directly. Instead,
+#. provide a list of words in your language that people are likely
+#. to include in a search but that should normally be ignored in
+#. the search.
+#: ../softwarecenter/db/database.py:39
+msgid "app;application;package;program;programme;suite;tool"
+msgstr ""
+
+#. if we don't have a package and it has no arch/component its
+#. not available for us
+#: ../softwarecenter/db/database.py:171
+#: ../softwarecenter/view/appdetailsview.py:212
+#, python-format
+msgid "Sorry, '%s' is not available for this type of computer (%s)."
+msgstr "ਅਫਸੋਸ, '%s' ਇਸ ਕਿਸਮ ਦੇ ਕੰਪਿਊਟਰ ਲਈ ਉਪਲੱਬਧ ਨਹੀਂ ਹੈ (%s)।"
+
+#: ../softwarecenter/distro/__init__.py:45
+#, fuzzy
+msgid ""
+"Lets you choose from thousands of free applications available for your "
+"system."
+msgstr "ਤੁਹਾਨੂੰ ਉਬਤੂੰ ਉੱਤੇ ਚੁਣਨ ਲਈ ਹਜ਼ਾਰਾਂ ਮੁਫ਼ਤ ਐਪਲੀਕੇਸ਼ਨਾਂ ਹਨ।"
+
+#: ../softwarecenter/distro/Debian.py:44
+#, fuzzy
+msgid "Provided by Debian"
+msgstr "ਉਬਤੂੰ ਵਲੋਂ ਦਿੱਤੇ"
+
+#: ../softwarecenter/distro/Debian.py:47 ../softwarecenter/distro/Ubuntu.py:53
+#, python-format
+msgid "To remove %s, these items must be removed as well:"
+msgstr "%s ਹਟਾਉਣ ਲਈ, ਇਨ੍ਹਾਂ ਆਈਟਮਾਂ ਨੂੰ ਵੀ ਹਟਾਉਣਾ ਲਾਜ਼ਮੀ ਹੈ:"
+
+#: ../softwarecenter/distro/Debian.py:49 ../softwarecenter/distro/Ubuntu.py:55
+msgid "Remove All"
+msgstr "ਸਭ ਹਟਾਓ"
+
+#: ../softwarecenter/distro/Debian.py:56 ../softwarecenter/distro/Ubuntu.py:62
+#, python-format
+msgid ""
+"If you uninstall %s, future updates will not include new items in <b>%s</b> "
+"set. Are you sure you want to continue?"
+msgstr ""
+
+#: ../softwarecenter/distro/Debian.py:59 ../softwarecenter/distro/Debian.py:70
+#: ../softwarecenter/distro/Ubuntu.py:65 ../softwarecenter/distro/Ubuntu.py:76
+msgid "Remove Anyway"
+msgstr "ਕਿਵੇਂ ਵੀ ਹਟਾਓ"
+
+#: ../softwarecenter/distro/Debian.py:66
+#, python-format
+msgid ""
+"%s is a core application in Debian. Uninstalling it may cause future "
+"upgrades to be incomplete. Are you sure you want to continue?"
+msgstr ""
+"%s ਡੇਬੀਅਨ ਦੀ ਮੁੱਢਲੀ ਐਪਲੀਕੇਸ਼ਨ ਹੈ। ਇਸ ਨੂੰ ਹਟਾਉਣ ਨਾਲ ਭਵਿੱਖ ਦੇ ਅੱਪਗਰੇਡ ਅਧੂਰੇ ਹੋ ਸਕਦੇ ਹਨ। ਕੀ ਤੁਸੀਂ "
+"ਜਾਰੀ ਰੱਖਣਾ ਚਾਹੁੰਦੇ ਹੋ?"
+
+#. generic message
+#: ../softwarecenter/distro/Debian.py:79 ../softwarecenter/distro/Ubuntu.py:85
+msgid "Installed"
+msgstr "ਇੰਸਟਾਲ ਹੋਏ"
+
+#: ../softwarecenter/distro/Debian.py:91 ../softwarecenter/distro/Ubuntu.py:97
+msgid "Unknown"
+msgstr "ਅਣਜਾਣ"
+
+#: ../softwarecenter/distro/Debian.py:93 ../softwarecenter/distro/Ubuntu.py:99
+msgid "Open Source"
+msgstr "ਓਪਨ ਸਰੋਤ"
+
+#: ../softwarecenter/distro/Debian.py:95
+msgid "Open Source with proprietary parts"
+msgstr ""
+
+#: ../softwarecenter/distro/Debian.py:97
+#: ../softwarecenter/distro/Ubuntu.py:101
+msgid "Proprietary"
+msgstr "ਪਰੌਪਰੇਟਰੀ"
+
+#: ../softwarecenter/distro/Debian.py:98
+#: ../softwarecenter/distro/Ubuntu.py:102
+#, python-format
+msgid "License: %s"
+msgstr "ਲਾਈਸੈਂਸ: %s"
+
+#: ../softwarecenter/distro/Ubuntu.py:42
+msgid ""
+"Lets you choose from thousands of free applications available for Ubuntu."
+msgstr "ਤੁਹਾਨੂੰ ਉਬਤੂੰ ਉੱਤੇ ਚੁਣਨ ਲਈ ਹਜ਼ਾਰਾਂ ਮੁਫ਼ਤ ਐਪਲੀਕੇਸ਼ਨਾਂ ਹਨ।"
+
+#: ../softwarecenter/distro/Ubuntu.py:50
+msgid "Provided by Ubuntu"
+msgstr "ਉਬਤੂੰ ਵਲੋਂ ਦਿੱਤੇ"
+
+#: ../softwarecenter/distro/Ubuntu.py:72
+#, python-format
+msgid ""
+"%s is a core application in Ubuntu. Uninstalling it may cause future "
+"upgrades to be incomplete. Are you sure you want to continue?"
+msgstr ""
+"%s ਉਬਤੂੰ ਦੀ ਮੁੱਢਲੀ ਐਪਲੀਕੇਸ਼ਨ ਹੈ। ਇਸ ਨੂੰ ਹਟਾਉਣ ਨਾਲ ਭਵਿੱਖ ਦੇ ਅੱਪਗਰੇਡ ਅਧੂਰੇ ਹੋ ਸਕਦੇ ਹਨ। ਕੀ ਤੁਸੀਂ "
+"ਜਾਰੀ ਰੱਖਣਾ ਚਾਹੁੰਦੇ ਹੋ?"
+
+#. TRANSLATORS: This text will be showed as price of the software
+#. its free
+#: ../softwarecenter/distro/Ubuntu.py:126
+#: ../softwarecenter/view/appdetailsview.py:500
+msgid "Free"
+msgstr "ਮੁਫ਼ਤ"
+
+#: ../softwarecenter/distro/Ubuntu.py:173
+#: ../softwarecenter/distro/Ubuntu.py:185
+#, python-format
+msgid ""
+"Canonical does no longer provide updates for %s in Ubuntu %s. Updates may be "
+"available in a newer version of Ubuntu."
+msgstr ""
+"ਕਨੋਨੀਕਲ %s ਲਈ ਉਬਤੂੰ %s ਵਿੱਚ ਅੱਪਡੇਟ ਨਹੀਂ ਦਿੰਦਾ ਹੈ। ਉਬਤੂੰ ਦੇ ਨਵੇਂ ਵਰਜਨ ਲਈ ਅੱਪਡੇਟ ਉਪਲੱਬਧ ਹੋ ਸਕਦੇ "
+"ਹਨ।"
+
+#: ../softwarecenter/distro/Ubuntu.py:178
+#, python-format
+msgid ""
+"Canonical provides critical updates for %(appname)s until "
+"%(support_end_month_str)s %(support_end_year)s."
+msgstr ""
+
+#: ../softwarecenter/distro/Ubuntu.py:190
+#, python-format
+msgid ""
+"Canonical provides critical updates supplied by the developers of "
+"%(appname)s until %(support_end_month_str)s %(support_end_year)s."
+msgstr ""
+
+#: ../softwarecenter/distro/Ubuntu.py:200
+#, python-format
+msgid ""
+"Canonical does not provide updates for %s. Some updates may be provided by "
+"the third party vendor."
+msgstr ""
+
+#: ../softwarecenter/distro/Ubuntu.py:204
+#, python-format
+msgid "Canonical provides critical updates for %s."
+msgstr "ਕਨੋਨੀਕਲ %s  ਲਈ ਨਾਜ਼ੁਕ ਅੱਪਡੇਟ ਉਪਲੱਬਧ ਕਰਵਾਉਂਦਾ ਹੈ।"
+
+#: ../softwarecenter/distro/Ubuntu.py:206
+#, python-format
+msgid "Canonical provides critical updates supplied by the developers of %s."
+msgstr ""
+
+#: ../softwarecenter/distro/Ubuntu.py:209
+#, python-format
+msgid ""
+"Canonical does not provide updates for %s. Some updates may be provided by "
+"the Ubuntu community."
+msgstr ""
+
+#: ../softwarecenter/distro/Ubuntu.py:212
+#, python-format
+msgid "Application %s has an unknown maintenance status."
+msgstr ""
+
+#: ../softwarecenter/view/appdetailsview.py:85
+msgid "Description"
+msgstr "ਵੇਰਵਾ"
+
+#: ../softwarecenter/view/appdetailsview.py:202
+#, python-format
+msgid ""
+"This software is available from the '%s' source, which you are not currently "
+"using."
+msgstr ""
+
+#: ../softwarecenter/view/appdetailsview.py:207
+msgid ""
+"To show information about this item, the software catalog needs updating."
+msgstr ""
+
+#: ../softwarecenter/view/appdetailsview.py:264
+#: ../softwarecenter/view/appdetailsview.py:268
+msgid "Application Screenshot"
+msgstr "ਐਪਲੀਕੇਸ਼ਨ ਸਕਰੀਨਸ਼ਾਟ"
+
+#: ../softwarecenter/view/appdetailsview.py:296
+#, python-format
+msgid "Version: %s (%s)"
+msgstr "ਵਰਜਨ: %s (%s)"
+
+#: ../softwarecenter/view/appdetailsview.py:311
+msgid "Website"
+msgstr "ਵੈੱਬਸਾਈਟ"
+
+#: ../softwarecenter/view/appdetailsview.py:317
+#, python-format
+msgid "Price: %s"
+msgstr ""
+
+#: ../softwarecenter/view/appdetailsview.py:331
+msgid "No screenshot available"
+msgstr "ਕੋਈ ਸਕਰੀਨਸ਼ਾਟ ਉਪਲੱਬਧ ਨਹੀਂ"
+
+#: ../softwarecenter/view/appdetailsview.py:369
+#, python-format
+msgid "%s - Screenshot"
+msgstr "%s - ਸਕਰੀਨਸ਼ਾਟ"
+
+#: ../softwarecenter/view/appdetailsview.py:492
+#: ../softwarecenter/view/appview.py:1146
+msgid "Remove"
+msgstr "ਹਟਾਓ"
+
+#. 32, the pixbufoverlay height
+#: ../softwarecenter/view/appdetailsview.py:498
+#: ../softwarecenter/view/appview.py:1146
+msgid "Install"
+msgstr "ਇੰਸਟਾਲ"
+
+#: ../softwarecenter/view/appdetailsview.py:501
+msgid "Install - Free"
+msgstr "ਇੰਸਟਾਲ - ਮੁਫ਼ਤ"
+
+#. FIXME: deal with the EULA stuff
+#. FIXME: use a proper message here, but we are in string freeze
+#: ../softwarecenter/view/appdetailsview.py:515
+#: ../softwarecenter/view/appdetailsview.py:520
+msgid "Use This Source"
+msgstr "ਇਹ ਸਰੋਤ ਵਰਤੋਂ"
+
+#: ../softwarecenter/view/appdetailsview.py:523
+msgid "Update Now"
+msgstr "ਹੁਣੇ ਅੱਪਡੇਟ"
+
+#. draw number of reviews
+#: ../softwarecenter/view/appview.py:657
+#, python-format
+msgid "%s review"
+msgid_plural "%s reviews"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../softwarecenter/view/appview.py:1147
+msgid "More Info"
+msgstr "ਹੋਰ ਜਾਣਕਾਰੀ"
+
+#. home button
+#: ../softwarecenter/view/availablepane.py:123
+#: ../softwarecenter/view/viewswitcher.py:201
+msgid "Get Software"
+msgstr "ਸਾਫਟਵੇਅਰ ਲਵੋ"
+
+#: ../softwarecenter/view/availablepane.py:242
+#: ../softwarecenter/view/installedpane.py:79
+#: ../softwarecenter/view/channelpane.py:86
+msgid "Search Results"
+msgstr "ਖੋਜ ਨਤੀਜੇ"
+
+#: ../softwarecenter/view/availablepane.py:290
+#: ../softwarecenter/view/installedpane.py:158
+#: ../softwarecenter/view/channelpane.py:199
+#, python-format
+msgid "%s matching item"
+msgid_plural "%s matching items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../softwarecenter/view/availablepane.py:294
+#: ../softwarecenter/view/channelpane.py:203
+#, python-format
+msgid "%s item available"
+msgid_plural "%s items available"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../softwarecenter/view/catview.py:82 ../softwarecenter/view/catview.py:88
+msgid "Departments"
+msgstr "ਵਿਭਾਗ"
+
+#: ../softwarecenter/view/dialogs.py:45
+msgid "Details"
+msgstr "ਵੇਰਵਾ"
+
+#: ../softwarecenter/view/dialogs.py:83
+msgid "Cancel"
+msgstr "ਰੱਦ ਕਰੋ"
+
+#. FIXME: make this a generic pkgview widget
+#: ../softwarecenter/view/dialogs.py:96
+msgid "Dependency"
+msgstr "ਨਿਰਭਰਤਾ"
+
+#: ../softwarecenter/view/installedpane.py:84
+#: ../softwarecenter/view/viewswitcher.py:207
+msgid "Installed Software"
+msgstr "ਇੰਸਟਾਲ ਹੋਏ ਸਾਫਟਵੇਅਰ"
+
+#: ../softwarecenter/view/installedpane.py:162
+#, python-format
+msgid "%s item installed"
+msgid_plural "%s items installed"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../softwarecenter/view/viewswitcher.py:77
+msgid "Software sources"
+msgstr "ਸਾਫਟਵੇਅਰ ਸਰੋਤ"
+
+#: ../softwarecenter/view/viewswitcher.py:227
+#: ../softwarecenter/view/viewswitcher.py:232
+#, python-format
+msgid "In Progress (%i)"
+msgstr "ਜਾਰੀ ਹੈ (%i)"
+
+#: ../softwarecenter/view/widgets/backforward.py:61
+msgid "History Navigation"
+msgstr "ਅਤੀਤ ਨੇਵੀਗੇਸ਼ਨ"
+
+#: ../softwarecenter/view/widgets/backforward.py:62
+msgid "Navigate forwards and backwards."
+msgstr "ਅੱਗੇ ਤੇ ਪਿੱਛੇ ਜਾਓ।"
+
+#: ../softwarecenter/view/widgets/backforward.py:76
+#: ../softwarecenter/view/widgets/backforward.py:90
+msgid "Back Button"
+msgstr "ਪਿੱਛੇ ਬਟਨ"
+
+#: ../softwarecenter/view/widgets/backforward.py:77
+#: ../softwarecenter/view/widgets/backforward.py:91
+msgid "Navigates back."
+msgstr "ਪਿੱਛੇ ਜਾਓ।"
+
+#: ../softwarecenter/view/widgets/backforward.py:82
+#: ../softwarecenter/view/widgets/backforward.py:96
+msgid "Forward Button"
+msgstr "ਅੱਗੇ ਬਟਨ"
+
+#: ../softwarecenter/view/widgets/backforward.py:83
+#: ../softwarecenter/view/widgets/backforward.py:97
+msgid "Navigates forward."
+msgstr "ਅੱਗੇ ਜਾਓ।"
+
+#: ../softwarecenter/view/widgets/pathbar_gtk_atk.py:54
+msgid "You are here:"
+msgstr "ਤੁਸੀਂ ਇੱਥੇ ਹੋ:"
+
+#: ../softwarecenter/view/widgets/pathbar_gtk_atk.py:445
+#, python-format
+msgid "Navigates to the %s page."
+msgstr ""

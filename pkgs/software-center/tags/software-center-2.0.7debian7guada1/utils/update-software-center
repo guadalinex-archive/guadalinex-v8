@@ -1,0 +1,138 @@
+#!/usr/bin/python
+# Copyright (C) 2009 Canonical
+#
+# Authors:
+#  Michael Vogt
+#
+# This program is free software; you can redistribute it and/or modify it under
+# the terms of the GNU General Public License as published by the Free Software
+# Foundation; version 3.
+#
+# This program is distributed in the hope that it will be useful, but WITHOUT
+# ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+# FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more
+# details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program; if not, write to the Free Software Foundation, Inc.,
+# 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
+
+
+import apt
+import locale
+import gettext
+import logging
+import os
+import os.path
+import sys
+import time
+import xapian
+
+from optparse import OptionParser
+
+from softwarecenter.enums import *
+from softwarecenter.db.update import rebuild_database
+
+# dbus may not be available during a upgrade so we 
+# only set it up if its there
+try:
+    import dbus
+    import dbus.service
+    import glib
+    import gobject # without gobject it will crash
+    from dbus.mainloop.glib import DBusGMainLoop
+except ImportError:
+    pass
+
+# add a bit of extra time between sending the "we-rebuild-the-db-now"
+# signal and the actual rebuilding to help the applications to shutdown
+# the DB access
+APP_CATCHUP_DELAY = 2
+
+# the language pack directory that we need for the triggers checking
+LANGPACKDIR = "/usr/share/locale-langpack"
+
+class UpdateSoftwarecenterDbus(dbus.service.Object):
+    """ 
+    This is a helper to provide the UpdateSoftwarecenterIFace
+    """
+    def __init__(self, bus_name,
+                 object_path='/com/ubuntu/Softwarecenter'):
+        dbus.service.Object.__init__(self, bus_name, object_path)
+
+    @dbus.service.method('com.ubuntu.Softwarecenter')
+    def IsRebuilding(self):
+        return True
+    @dbus.service.signal(dbus_interface='com.ubuntu.Softwarecenter',
+                         signature='b')
+    def DatabaseRebuilding(self, isRebuilding):
+        logging.debug("Sending DatabaseRebuilding signal '%s'" % isRebuilding)
+
+
+if __name__ == "__main__":
+    try:
+        locale.setlocale(locale.LC_ALL, "")
+    except Exception, e:
+        logging.warn("setlocale failed with '%s'" % e) 
+
+    # parser
+    parser = OptionParser()
+    parser.add_option("--triggered", "", default="",
+                      help="triggered from dpkg")
+    parser.add_option("--debug", "", action="store_true", default=False,
+                      help="show debug output")
+    (options, args) = parser.parse_args()
+
+    #logging.basicConfig(level=logging.INFO)
+    if options.debug:
+        logging.basicConfig(level=logging.DEBUG)
+
+    # check if we are dpkg triggered because of langpack change
+    # and avoid unneeded database rebuilds by checking the timestamp
+    # of the app-install-data mo file
+    if options.triggered and options.triggered == LANGPACKDIR:
+        logging.debug("triggered with '%s'" % options.triggered)
+        mofile = gettext.find("app-install-data")
+        if not mofile:
+            logging.info("no translation information in database needed")
+            sys.exit(0)
+        mo_time = os.path.getctime(mofile)
+        pathname = os.path.join(XAPIAN_BASE_PATH, "xapian")
+        if os.path.exists(pathname):
+            db = xapian.Database(pathname)
+            mo_db_time = db.get_metadata("app-install-mo-time")
+            logging.debug("mo_time: %s db_mo_time: %s" % (mo_time, mo_db_time))
+            if str(mo_time) == mo_db_time:
+                logging.info("translation information in database is up-to-date")
+                sys.exit(0)
+
+    # setup dbus
+    dbus_controller = None
+    try:
+        DBusGMainLoop(set_as_default=True)
+        bus = dbus.SystemBus()
+        bus_name = dbus.service.BusName('com.ubuntu.Softwarecenter', bus)
+        dbus_controller = UpdateSoftwarecenterDbus(bus_name)
+        dbus_controller.DatabaseRebuilding(True)
+        time.sleep(APP_CATCHUP_DELAY)
+    except:
+        logging.warn("Failed to setup dbus (ignoring)")
+
+    # rebuild and send signal when done
+    try:
+        # setup path
+        pathname = os.path.join(XAPIAN_BASE_PATH, "xapian")
+        if not os.path.exists(pathname):
+            os.makedirs(pathname)
+        # rebuild the database, the default context is run to ensure
+        # dbus querries are processed
+        rebuild_database(pathname)
+    finally:
+        # signal that the xapian db is valid again
+        if dbus_controller:
+            time.sleep(APP_CATCHUP_DELAY)
+            dbus_controller.DatabaseRebuilding(False)
+            context = glib.main_context_default()
+            while context.pending():
+                context.iteration()
+    

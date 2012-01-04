@@ -1,0 +1,713 @@
+# Icelandic translation for software-center
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the software-center package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: software-center\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-11-21 21:04+0100\n"
+"PO-Revision-Date: 2010-04-14 11:08+0000\n"
+"Last-Translator: Baldur <baldurpet@gmail.com>\n"
+"Language-Team: Icelandic <is@li.org>\n"
+"Language: is\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2010-11-21 19:32+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ../data/ui/SoftwareCenter.ui.h:1
+#, fuzzy
+msgid "&#xA9;2009-2010 Canonical"
+msgstr "&#xA9;2009 Canonical"
+
+#: ../data/ui/SoftwareCenter.ui.h:2
+msgid "Copy _Web Link"
+msgstr "Afrita _tengil"
+
+#: ../data/ui/SoftwareCenter.ui.h:3
+msgid "Rebuilding application catalog..."
+msgstr "Bý til lista yfir forrit..."
+
+#: ../data/ui/SoftwareCenter.ui.h:4
+msgid "Search..."
+msgstr "Leita..."
+
+#: ../data/ui/SoftwareCenter.ui.h:5
+msgid "Software Center _Help"
+msgstr "Forrit _hjálp"
+
+#: ../data/ui/SoftwareCenter.ui.h:6
+msgid "_All Software"
+msgstr "_Allur hugbúnaður"
+
+#: ../data/ui/SoftwareCenter.ui.h:7
+msgid "_Canonical-Maintained Software"
+msgstr "_Canonical hugbúnaður"
+
+#: ../data/ui/SoftwareCenter.ui.h:8
+msgid "_Edit"
+msgstr "_Breyta"
+
+#: ../data/ui/SoftwareCenter.ui.h:9
+msgid "_File"
+msgstr "_Skrá"
+
+#: ../data/ui/SoftwareCenter.ui.h:10
+msgid "_Help"
+msgstr "_Aðstoð"
+
+#: ../data/ui/SoftwareCenter.ui.h:11
+msgid "_Install"
+msgstr "_Setja upp"
+
+#: ../data/ui/SoftwareCenter.ui.h:12
+msgid "_Software Sources..."
+msgstr "_Hugbúnaðarupptök..."
+
+#: ../data/ui/SoftwareCenter.ui.h:13
+msgid "_View"
+msgstr "S_koða"
+
+#: ../data/ubuntu-software-center.desktop.in.h:1
+msgid ""
+"Lets you choose from thousands of free applications available for Ubuntu"
+msgstr "Sækja mörg þúsund ókeypis forrit fyrir Ubuntu í gegnum netið"
+
+#: ../data/ubuntu-software-center.desktop.in.h:2
+#: ../data/unbranded-software-center.desktop.in.h:2
+#: ../softwarecenter/distro/__init__.py:39
+msgid "Software Center"
+msgstr "Forrit"
+
+#: ../data/ubuntu-software-center.desktop.in.h:3
+#: ../softwarecenter/distro/Ubuntu.py:39
+msgid "Ubuntu Software Center"
+msgstr "Ubuntu forrit"
+
+#: ../data/unbranded-software-center.desktop.in.h:1
+#, fuzzy
+msgid ""
+"Lets you choose from thousands of free applications available for your "
+"system "
+msgstr "Sækja mörg þúsund ókeypis forrit fyrir Ubuntu í gegnum netið"
+
+#: ../data/software-center.menu.in.h:1
+msgid "3D"
+msgstr "Þrívídd"
+
+#: ../data/software-center.menu.in.h:2
+msgid "Accessories"
+msgstr "Aukahlutir"
+
+#: ../data/software-center.menu.in.h:3
+msgid "Arcade"
+msgstr "Spilakassaleikir"
+
+#: ../data/software-center.menu.in.h:4
+msgid "Astronomy"
+msgstr "Stjörnufræði"
+
+#: ../data/software-center.menu.in.h:5
+msgid "Biology"
+msgstr "Líffræði"
+
+#: ../data/software-center.menu.in.h:6
+msgid "Board Games"
+msgstr "Borðspil"
+
+#: ../data/software-center.menu.in.h:7
+msgid "Card Games"
+msgstr "Spil"
+
+#: ../data/software-center.menu.in.h:8
+msgid "Chat"
+msgstr "Spjallforrit"
+
+#: ../data/software-center.menu.in.h:9
+msgid "Chemistry"
+msgstr "Efnafræði"
+
+#: ../data/software-center.menu.in.h:10
+msgid "Computer Science &amp; Robotics"
+msgstr "Tölvunarfræði &amp; vélmenni"
+
+#: ../data/software-center.menu.in.h:11
+msgid "Debugging"
+msgstr "Aflúsun"
+
+#: ../data/software-center.menu.in.h:12
+msgid "Developer Tools"
+msgstr "Hugbúnaðartól"
+
+#: ../data/software-center.menu.in.h:13
+msgid "Drawing"
+msgstr "Teiknihugbúnaður"
+
+#: ../data/software-center.menu.in.h:14
+msgid "Education"
+msgstr "Kennsla"
+
+#: ../data/software-center.menu.in.h:15
+msgid "Electronics"
+msgstr "Rafeindatækni"
+
+#: ../data/software-center.menu.in.h:16
+msgid "Engineering"
+msgstr "Verkfræði"
+
+#: ../data/software-center.menu.in.h:17
+msgid "File Sharing"
+msgstr "Skráaskipti"
+
+#: ../data/software-center.menu.in.h:18
+msgid "Fonts"
+msgstr "Leturgerðir"
+
+#: ../data/software-center.menu.in.h:19
+msgid "Games"
+msgstr "Leikir"
+
+#: ../data/software-center.menu.in.h:20
+msgid "Geography"
+msgstr "Landafræði"
+
+#: ../data/software-center.menu.in.h:21
+msgid "Geology"
+msgstr "Jarðfræði"
+
+#: ../data/software-center.menu.in.h:22
+msgid "Graphic Interface Design"
+msgstr "Myndrænt viðmót"
+
+#: ../data/software-center.menu.in.h:23
+msgid "Graphics"
+msgstr "Myndvinnsla"
+
+#: ../data/software-center.menu.in.h:24
+msgid "Haskell"
+msgstr "Haskell"
+
+#: ../data/software-center.menu.in.h:25
+msgid "IDEs"
+msgstr "Forritunarumhverfi"
+
+#: ../data/software-center.menu.in.h:26
+msgid "Internet"
+msgstr "Internetið"
+
+#: ../data/software-center.menu.in.h:27
+msgid "Java"
+msgstr "Java"
+
+#: ../data/software-center.menu.in.h:28
+msgid "Libraries"
+msgstr "Forritasafn"
+
+#: ../data/software-center.menu.in.h:29
+msgid "Lisp"
+msgstr "Lisp"
+
+#: ../data/software-center.menu.in.h:30
+msgid "Localization"
+msgstr "Staðsetning"
+
+#: ../data/software-center.menu.in.h:31
+msgid "Mail"
+msgstr "Póstur"
+
+#: ../data/software-center.menu.in.h:32
+msgid "Mathematics"
+msgstr "Stærðfræði"
+
+#: ../data/software-center.menu.in.h:33
+msgid "Mono/CLI"
+msgstr "Mono/CLI"
+
+#: ../data/software-center.menu.in.h:34
+msgid "Multimedia"
+msgstr "Margmiðlun"
+
+#: ../data/software-center.menu.in.h:35
+msgid "OCaml"
+msgstr "OCaml"
+
+#: ../data/software-center.menu.in.h:36
+msgid "Office"
+msgstr "Skrifstofan"
+
+#: ../data/software-center.menu.in.h:37
+msgid "Painting &amp; Editing"
+msgstr "Málningarvinna"
+
+#: ../data/software-center.menu.in.h:38
+msgid "Perl"
+msgstr "Perl"
+
+#: ../data/software-center.menu.in.h:39
+msgid "Photography"
+msgstr "Ljósmyndun"
+
+#: ../data/software-center.menu.in.h:40
+msgid "Physics"
+msgstr "Eðlisfræði"
+
+#: ../data/software-center.menu.in.h:41
+msgid "Profiling"
+msgstr "Notkunarmynstur"
+
+#: ../data/software-center.menu.in.h:42
+msgid "Publishing"
+msgstr "Útgáfustarfsemi"
+
+#: ../data/software-center.menu.in.h:43
+msgid "Puzzles"
+msgstr "Þrautir"
+
+#: ../data/software-center.menu.in.h:44
+msgid "Python"
+msgstr "Python"
+
+#: ../data/software-center.menu.in.h:45
+msgid "Role Playing"
+msgstr "Hlutverkaleikir"
+
+#: ../data/software-center.menu.in.h:46
+msgid "Ruby"
+msgstr "Ruby"
+
+#: ../data/software-center.menu.in.h:47
+msgid "Scanning &amp; OCR"
+msgstr "Skönnun &amp; ljóslestrarletur"
+
+#: ../data/software-center.menu.in.h:48
+msgid "Science &amp; Engineering"
+msgstr "Vísindi &amp; verkfræði"
+
+#: ../data/software-center.menu.in.h:49
+msgid "Simulation"
+msgstr "Hermileikir"
+
+#: ../data/software-center.menu.in.h:50
+msgid "Sports"
+msgstr "Íþróttaleikir"
+
+#: ../data/software-center.menu.in.h:51
+msgid "System"
+msgstr "Kerfi"
+
+#: ../data/software-center.menu.in.h:52
+msgid "Themes &amp; Tweaks"
+msgstr "Útlit &amp; stillingar"
+
+#: ../data/software-center.menu.in.h:53
+msgid "Universal Access"
+msgstr "Auðveldur aðgangur"
+
+#: ../data/software-center.menu.in.h:54
+msgid "Version Control"
+msgstr "Vinnustjórnun"
+
+#: ../data/software-center.menu.in.h:55
+msgid "Viewers"
+msgstr "Skoðarar"
+
+#: ../data/software-center.menu.in.h:56
+msgid "Web Browsers"
+msgstr "Netvafrar"
+
+#: ../data/software-center.menu.in.h:57
+msgid "Web Development"
+msgstr "Vefþróun"
+
+#: ../data/featured.menu.in.h:1
+msgid "Featured Applications"
+msgstr "Sérstök forrit"
+
+#: ../softwarecenter/app.py:148
+msgid "Sorry, can not open the software database"
+msgstr "Það tókst ekki að opna gagnahirsluna"
+
+#: ../softwarecenter/app.py:149
+msgid "Please re-install the 'software-center' package."
+msgstr "Settu pakkann ‚software-center‘ upp aftur."
+
+#: ../softwarecenter/backend/aptd.py:219
+msgid "Error"
+msgstr "Villa"
+
+#: ../softwarecenter/backend/channel.py:92
+msgid "Canonical Partners"
+msgstr "Samstarfsaðilar Canonical"
+
+#: ../softwarecenter/backend/channel.py:94
+msgid "Other"
+msgstr "Annað"
+
+#. TRANSLATORS: List of "grey-listed" words sperated with ";"
+#. Do not translate this list directly. Instead,
+#. provide a list of words in your language that people are likely
+#. to include in a search but that should normally be ignored in
+#. the search.
+#: ../softwarecenter/db/database.py:39
+msgid "app;application;package;program;programme;suite;tool"
+msgstr "app;application;package;program;programme;suite;tool;forrit;*forrit"
+
+#. if we don't have a package and it has no arch/component its
+#. not available for us
+#: ../softwarecenter/db/database.py:171
+#: ../softwarecenter/view/appdetailsview.py:212
+#, python-format
+msgid "Sorry, '%s' is not available for this type of computer (%s)."
+msgstr "‚%s‘ virkar því miður ekki fyrir þessa tegund tölva (%s)."
+
+#: ../softwarecenter/distro/__init__.py:45
+#, fuzzy
+msgid ""
+"Lets you choose from thousands of free applications available for your "
+"system."
+msgstr "Gerir þér kleift að sækja mörg þúsund ókeypis forrit í gegnum netið."
+
+#: ../softwarecenter/distro/Debian.py:44
+msgid "Provided by Debian"
+msgstr "Debian sér um þjónustu"
+
+#: ../softwarecenter/distro/Debian.py:47 ../softwarecenter/distro/Ubuntu.py:53
+#, python-format
+msgid "To remove %s, these items must be removed as well:"
+msgstr "Þú verður að fjarlægja eftirfarandi hluti ef þú vilt fjarlægja %s:"
+
+#: ../softwarecenter/distro/Debian.py:49 ../softwarecenter/distro/Ubuntu.py:55
+msgid "Remove All"
+msgstr "Fjarlægja allt"
+
+#: ../softwarecenter/distro/Debian.py:56 ../softwarecenter/distro/Ubuntu.py:62
+#, python-format
+msgid ""
+"If you uninstall %s, future updates will not include new items in <b>%s</b> "
+"set. Are you sure you want to continue?"
+msgstr ""
+"Ef þú fjarlægir %s þá munu uppfærslur í framtíðinni ekki innihalda nýja "
+"hluti sem tengjast <b>%s</b>. Viltu halda áfram?"
+
+#: ../softwarecenter/distro/Debian.py:59 ../softwarecenter/distro/Debian.py:70
+#: ../softwarecenter/distro/Ubuntu.py:65 ../softwarecenter/distro/Ubuntu.py:76
+msgid "Remove Anyway"
+msgstr "Fjarlægja samt"
+
+#: ../softwarecenter/distro/Debian.py:66
+#, python-format
+msgid ""
+"%s is a core application in Debian. Uninstalling it may cause future "
+"upgrades to be incomplete. Are you sure you want to continue?"
+msgstr ""
+"%s er mikilvægt forrit í Debian. Það gæti valdið vandamálum í framtíðinni ef "
+"þú fjarlægir það. Viltu örugglega halda áfram?"
+
+#. generic message
+#: ../softwarecenter/distro/Debian.py:79 ../softwarecenter/distro/Ubuntu.py:85
+msgid "Installed"
+msgstr "Uppsett"
+
+#: ../softwarecenter/distro/Debian.py:91 ../softwarecenter/distro/Ubuntu.py:97
+msgid "Unknown"
+msgstr "Óþekkt"
+
+#: ../softwarecenter/distro/Debian.py:93 ../softwarecenter/distro/Ubuntu.py:99
+msgid "Open Source"
+msgstr "Opinn hugbúnaður"
+
+#: ../softwarecenter/distro/Debian.py:95
+msgid "Open Source with proprietary parts"
+msgstr "Opinn hugbúnaður með ófrjálsum hlutum"
+
+#: ../softwarecenter/distro/Debian.py:97
+#: ../softwarecenter/distro/Ubuntu.py:101
+msgid "Proprietary"
+msgstr "Séreignarhugbúnaður"
+
+#: ../softwarecenter/distro/Debian.py:98
+#: ../softwarecenter/distro/Ubuntu.py:102
+#, python-format
+msgid "License: %s"
+msgstr "Leyfi: %s"
+
+#: ../softwarecenter/distro/Ubuntu.py:42
+msgid ""
+"Lets you choose from thousands of free applications available for Ubuntu."
+msgstr "Gerir þér kleift að sækja mörg þúsund ókeypis forrit í gegnum netið."
+
+#: ../softwarecenter/distro/Ubuntu.py:50
+msgid "Provided by Ubuntu"
+msgstr "Ubuntu sér um þjónustu"
+
+#: ../softwarecenter/distro/Ubuntu.py:72
+#, python-format
+msgid ""
+"%s is a core application in Ubuntu. Uninstalling it may cause future "
+"upgrades to be incomplete. Are you sure you want to continue?"
+msgstr ""
+"%s er mikilvægur hluti af Ubuntu. Ef þú ákveður að fjarlægja þetta þá "
+"eykurðu líkurnar á því að eitthvað fari úrskeiðis þegar þú uppfærir tölvuna "
+"í framtíðinni. Viltu örugglega halda áfram?"
+
+#. TRANSLATORS: This text will be showed as price of the software
+#. its free
+#: ../softwarecenter/distro/Ubuntu.py:126
+#: ../softwarecenter/view/appdetailsview.py:500
+msgid "Free"
+msgstr "Ókeypis"
+
+#: ../softwarecenter/distro/Ubuntu.py:173
+#: ../softwarecenter/distro/Ubuntu.py:185
+#, python-format
+msgid ""
+"Canonical does no longer provide updates for %s in Ubuntu %s. Updates may be "
+"available in a newer version of Ubuntu."
+msgstr ""
+"Canonical sér ekki um að viðhalda %s í Ubuntu %s. Það er mögulegt að "
+"uppfærslur séu fáanlegar í nýrri útgáfum af Ubuntu."
+
+#: ../softwarecenter/distro/Ubuntu.py:178
+#, python-format
+msgid ""
+"Canonical provides critical updates for %(appname)s until "
+"%(support_end_month_str)s %(support_end_year)s."
+msgstr ""
+"Canonical sér um nauðsynlegar uppfærslur fyrir %(appname)s þangað til "
+"%(support_end_month_str)s %(support_end_year)s."
+
+#: ../softwarecenter/distro/Ubuntu.py:190
+#, python-format
+msgid ""
+"Canonical provides critical updates supplied by the developers of "
+"%(appname)s until %(support_end_month_str)s %(support_end_year)s."
+msgstr ""
+"Canonical sér um nauðsynlegar uppfærslur frá þeim sem buggu til %(appname)s "
+"þangað til %(support_end_month_str)s %(support_end_year)s."
+
+#: ../softwarecenter/distro/Ubuntu.py:200
+#, python-format
+msgid ""
+"Canonical does not provide updates for %s. Some updates may be provided by "
+"the third party vendor."
+msgstr ""
+"Canonical viðheldur %s ekki lengur. Það er hugsanlegt að einhver þriðji "
+"aðili muni sjá um halda því við áfram."
+
+#: ../softwarecenter/distro/Ubuntu.py:204
+#, python-format
+msgid "Canonical provides critical updates for %s."
+msgstr "Canonical sér um að viðhalda %s með nauðsynlegum uppfærslum."
+
+#: ../softwarecenter/distro/Ubuntu.py:206
+#, python-format
+msgid "Canonical provides critical updates supplied by the developers of %s."
+msgstr ""
+"Canonical sér um að viðhalda %s með nauðsynlegum uppfærslum frá þeim sem "
+"bjuggu það til."
+
+#: ../softwarecenter/distro/Ubuntu.py:209
+#, python-format
+msgid ""
+"Canonical does not provide updates for %s. Some updates may be provided by "
+"the Ubuntu community."
+msgstr ""
+"Canonical viðheldur %s ekki. Það er hugsanlegt að Ubuntu samfélagið sjái um "
+"uppfærslur."
+
+#: ../softwarecenter/distro/Ubuntu.py:212
+#, python-format
+msgid "Application %s has an unknown maintenance status."
+msgstr "Ekki er vitað hver sér um %s."
+
+#: ../softwarecenter/view/appdetailsview.py:85
+msgid "Description"
+msgstr "Lýsing"
+
+#: ../softwarecenter/view/appdetailsview.py:202
+#, python-format
+msgid ""
+"This software is available from the '%s' source, which you are not currently "
+"using."
+msgstr "Þessi hugbúnaður er fáanlegur frá ‚%s‘ sem þú notar ekki."
+
+#: ../softwarecenter/view/appdetailsview.py:207
+msgid ""
+"To show information about this item, the software catalog needs updating."
+msgstr ""
+"Þú verður að uppfæra hugbúnaðarlistann til að fá upplýsingar um þennan hlut."
+
+#: ../softwarecenter/view/appdetailsview.py:264
+#: ../softwarecenter/view/appdetailsview.py:268
+msgid "Application Screenshot"
+msgstr "Mynd af forritinu"
+
+#: ../softwarecenter/view/appdetailsview.py:296
+#, python-format
+msgid "Version: %s (%s)"
+msgstr "Útgáfa: %s (%s)"
+
+#: ../softwarecenter/view/appdetailsview.py:311
+msgid "Website"
+msgstr "Vefsíða"
+
+#: ../softwarecenter/view/appdetailsview.py:317
+#, python-format
+msgid "Price: %s"
+msgstr "Verð: %s"
+
+#: ../softwarecenter/view/appdetailsview.py:331
+msgid "No screenshot available"
+msgstr "Engin mynd fannst"
+
+#: ../softwarecenter/view/appdetailsview.py:369
+#, python-format
+msgid "%s - Screenshot"
+msgstr "%s - mynd"
+
+#: ../softwarecenter/view/appdetailsview.py:492
+#: ../softwarecenter/view/appview.py:1146
+msgid "Remove"
+msgstr "Fjarlægja"
+
+#. 32, the pixbufoverlay height
+#: ../softwarecenter/view/appdetailsview.py:498
+#: ../softwarecenter/view/appview.py:1146
+msgid "Install"
+msgstr "Setja upp"
+
+#: ../softwarecenter/view/appdetailsview.py:501
+msgid "Install - Free"
+msgstr "Setja upp - ókeypis"
+
+#. FIXME: deal with the EULA stuff
+#. FIXME: use a proper message here, but we are in string freeze
+#: ../softwarecenter/view/appdetailsview.py:515
+#: ../softwarecenter/view/appdetailsview.py:520
+msgid "Use This Source"
+msgstr "Nota þetta hugbúnaðarsafn"
+
+#: ../softwarecenter/view/appdetailsview.py:523
+msgid "Update Now"
+msgstr "Uppfæra núna"
+
+#. draw number of reviews
+#: ../softwarecenter/view/appview.py:657
+#, python-format
+msgid "%s review"
+msgid_plural "%s reviews"
+msgstr[0] "%s umsögn"
+msgstr[1] "%s umsagnir"
+
+#: ../softwarecenter/view/appview.py:1147
+msgid "More Info"
+msgstr "Frekari upplýsingar"
+
+#. home button
+#: ../softwarecenter/view/availablepane.py:123
+#: ../softwarecenter/view/viewswitcher.py:201
+msgid "Get Software"
+msgstr "Sækja hugbúnað"
+
+#: ../softwarecenter/view/availablepane.py:242
+#: ../softwarecenter/view/installedpane.py:79
+#: ../softwarecenter/view/channelpane.py:86
+msgid "Search Results"
+msgstr "Leitarniðurstöður"
+
+#: ../softwarecenter/view/availablepane.py:290
+#: ../softwarecenter/view/installedpane.py:158
+#: ../softwarecenter/view/channelpane.py:199
+#, python-format
+msgid "%s matching item"
+msgid_plural "%s matching items"
+msgstr[0] "%s hlutur sem passaði við"
+msgstr[1] "%s hlutir sem passaði við"
+
+#: ../softwarecenter/view/availablepane.py:294
+#: ../softwarecenter/view/channelpane.py:203
+#, python-format
+msgid "%s item available"
+msgid_plural "%s items available"
+msgstr[0] "%s hlutur fáanlegur"
+msgstr[1] "%s hlutir fáanlegir"
+
+#: ../softwarecenter/view/catview.py:82 ../softwarecenter/view/catview.py:88
+msgid "Departments"
+msgstr "Flokkar"
+
+#: ../softwarecenter/view/dialogs.py:45
+msgid "Details"
+msgstr "Upplýsingar"
+
+#: ../softwarecenter/view/dialogs.py:83
+msgid "Cancel"
+msgstr "Hætta við"
+
+#. FIXME: make this a generic pkgview widget
+#: ../softwarecenter/view/dialogs.py:96
+msgid "Dependency"
+msgstr "Ákvæði"
+
+#: ../softwarecenter/view/installedpane.py:84
+#: ../softwarecenter/view/viewswitcher.py:207
+msgid "Installed Software"
+msgstr "Uppsettur hugbúnaður"
+
+#: ../softwarecenter/view/installedpane.py:162
+#, python-format
+msgid "%s item installed"
+msgid_plural "%s items installed"
+msgstr[0] "%s hlutur settur upp"
+msgstr[1] "%s hlutir settir upp"
+
+#: ../softwarecenter/view/viewswitcher.py:77
+msgid "Software sources"
+msgstr "Hugbúnaðarsöfn"
+
+#: ../softwarecenter/view/viewswitcher.py:227
+#: ../softwarecenter/view/viewswitcher.py:232
+#, python-format
+msgid "In Progress (%i)"
+msgstr "Að sækja (%i)"
+
+#: ../softwarecenter/view/widgets/backforward.py:61
+msgid "History Navigation"
+msgstr "Saga"
+
+#: ../softwarecenter/view/widgets/backforward.py:62
+msgid "Navigate forwards and backwards."
+msgstr "Fer fram og til baka"
+
+#: ../softwarecenter/view/widgets/backforward.py:76
+#: ../softwarecenter/view/widgets/backforward.py:90
+msgid "Back Button"
+msgstr "Til baka-takki"
+
+#: ../softwarecenter/view/widgets/backforward.py:77
+#: ../softwarecenter/view/widgets/backforward.py:91
+msgid "Navigates back."
+msgstr "Fer til baka."
+
+#: ../softwarecenter/view/widgets/backforward.py:82
+#: ../softwarecenter/view/widgets/backforward.py:96
+msgid "Forward Button"
+msgstr "Áfram-takki"
+
+#: ../softwarecenter/view/widgets/backforward.py:83
+#: ../softwarecenter/view/widgets/backforward.py:97
+msgid "Navigates forward."
+msgstr "Fer áfram."
+
+#: ../softwarecenter/view/widgets/pathbar_gtk_atk.py:54
+msgid "You are here:"
+msgstr "Þú ert hér:"
+
+#: ../softwarecenter/view/widgets/pathbar_gtk_atk.py:445
+#, python-format
+msgid "Navigates to the %s page."
+msgstr "Fer á síðu %s."

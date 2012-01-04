@@ -1,0 +1,705 @@
+# Thai translation for software-store
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the software-store package.
+# Sira Nokyoonhtong <gumaraa@gmail.com>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: software-store\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-11-21 21:04+0100\n"
+"PO-Revision-Date: 2010-07-20 09:42+0000\n"
+"Last-Translator: SiraNokyoongtong <gumaraa@gmail.com>\n"
+"Language-Team: Thai <ubuntu-th@lists.launchpad.net>\n"
+"Language: th\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Launchpad-Export-Date: 2010-11-21 19:32+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ../data/ui/SoftwareCenter.ui.h:1
+#, fuzzy
+msgid "&#xA9;2009-2010 Canonical"
+msgstr "&#xA9;2009 Canonical"
+
+#: ../data/ui/SoftwareCenter.ui.h:2
+msgid "Copy _Web Link"
+msgstr "คัดลอกเ_ว็บลิงก์"
+
+#: ../data/ui/SoftwareCenter.ui.h:3
+msgid "Rebuilding application catalog..."
+msgstr "กำลังจัดทำหมวดโปรแกรมใหม่..."
+
+#: ../data/ui/SoftwareCenter.ui.h:4
+msgid "Search..."
+msgstr "ค้นหา..."
+
+#: ../data/ui/SoftwareCenter.ui.h:5
+msgid "Software Center _Help"
+msgstr "_วิธีใช้ศูนย์ซอฟต์แวร์"
+
+#: ../data/ui/SoftwareCenter.ui.h:6
+msgid "_All Software"
+msgstr "ซอฟต์แวร์_ทั้งหมด"
+
+#: ../data/ui/SoftwareCenter.ui.h:7
+msgid "_Canonical-Maintained Software"
+msgstr "ซอฟต์แวร์ที่ _Canonical ดูแล"
+
+#: ../data/ui/SoftwareCenter.ui.h:8
+msgid "_Edit"
+msgstr "แ_ก้ไข"
+
+#: ../data/ui/SoftwareCenter.ui.h:9
+msgid "_File"
+msgstr "แ_ฟ้ม"
+
+#: ../data/ui/SoftwareCenter.ui.h:10
+msgid "_Help"
+msgstr "_วิธีใช้"
+
+#: ../data/ui/SoftwareCenter.ui.h:11
+msgid "_Install"
+msgstr "_ติดตั้ง"
+
+#: ../data/ui/SoftwareCenter.ui.h:12
+msgid "_Software Sources..."
+msgstr "แ_หล่งซอฟต์แวร์..."
+
+#: ../data/ui/SoftwareCenter.ui.h:13
+msgid "_View"
+msgstr "มุม_มอง"
+
+#: ../data/ubuntu-software-center.desktop.in.h:1
+msgid ""
+"Lets you choose from thousands of free applications available for Ubuntu"
+msgstr "ให้คุณเลือกโปรแกรมฟรีกว่าพันรายการสำหรับ Ubuntu"
+
+#: ../data/ubuntu-software-center.desktop.in.h:2
+#: ../data/unbranded-software-center.desktop.in.h:2
+#: ../softwarecenter/distro/__init__.py:39
+msgid "Software Center"
+msgstr "ศูนย์ซอฟต์แวร์"
+
+#: ../data/ubuntu-software-center.desktop.in.h:3
+#: ../softwarecenter/distro/Ubuntu.py:39
+msgid "Ubuntu Software Center"
+msgstr "ศูนย์ซอฟต์แวร์ Ubuntu"
+
+#: ../data/unbranded-software-center.desktop.in.h:1
+#, fuzzy
+msgid ""
+"Lets you choose from thousands of free applications available for your "
+"system "
+msgstr "ให้คุณเลือกโปรแกรมฟรีกว่าพันรายการสำหรับ Ubuntu"
+
+#: ../data/software-center.menu.in.h:1
+msgid "3D"
+msgstr "3 มิติ"
+
+#: ../data/software-center.menu.in.h:2
+msgid "Accessories"
+msgstr "เครื่องใช้ไม้สอย"
+
+#: ../data/software-center.menu.in.h:3
+msgid "Arcade"
+msgstr "เกมอาเขต"
+
+#: ../data/software-center.menu.in.h:4
+msgid "Astronomy"
+msgstr "ดาราศาสตร์"
+
+#: ../data/software-center.menu.in.h:5
+msgid "Biology"
+msgstr "ชีววิทยา"
+
+#: ../data/software-center.menu.in.h:6
+msgid "Board Games"
+msgstr "เกมกระดาน"
+
+#: ../data/software-center.menu.in.h:7
+msgid "Card Games"
+msgstr "เกมไพ่"
+
+#: ../data/software-center.menu.in.h:8
+msgid "Chat"
+msgstr "สนทนา"
+
+#: ../data/software-center.menu.in.h:9
+msgid "Chemistry"
+msgstr "เคมี"
+
+#: ../data/software-center.menu.in.h:10
+msgid "Computer Science &amp; Robotics"
+msgstr "วิทยาการคอมพิวเตอร์และหุ่นยนต์"
+
+#: ../data/software-center.menu.in.h:11
+msgid "Debugging"
+msgstr "การดีบั๊ก"
+
+#: ../data/software-center.menu.in.h:12
+msgid "Developer Tools"
+msgstr "เครื่องมือพัฒนา"
+
+#: ../data/software-center.menu.in.h:13
+msgid "Drawing"
+msgstr "งานวาด"
+
+#: ../data/software-center.menu.in.h:14
+msgid "Education"
+msgstr "การศึกษา"
+
+#: ../data/software-center.menu.in.h:15
+msgid "Electronics"
+msgstr "อิเลกทรอนิค"
+
+#: ../data/software-center.menu.in.h:16
+msgid "Engineering"
+msgstr "วิศวกรรม"
+
+#: ../data/software-center.menu.in.h:17
+msgid "File Sharing"
+msgstr "การแบ่งปันแฟ้ม"
+
+#: ../data/software-center.menu.in.h:18
+msgid "Fonts"
+msgstr "แบบอักษร"
+
+#: ../data/software-center.menu.in.h:19
+msgid "Games"
+msgstr "เกม"
+
+#: ../data/software-center.menu.in.h:20
+msgid "Geography"
+msgstr "ภูมิศาสตร์"
+
+#: ../data/software-center.menu.in.h:21
+msgid "Geology"
+msgstr "ธรณีวิทยา"
+
+#: ../data/software-center.menu.in.h:22
+msgid "Graphic Interface Design"
+msgstr "ออกแบบส่วนติดต่อผู้ใช้แบบกราฟิก"
+
+#: ../data/software-center.menu.in.h:23
+msgid "Graphics"
+msgstr "กราฟิกส์"
+
+#: ../data/software-center.menu.in.h:24
+msgid "Haskell"
+msgstr "Haskell"
+
+#: ../data/software-center.menu.in.h:25
+msgid "IDEs"
+msgstr "IDEs"
+
+#: ../data/software-center.menu.in.h:26
+msgid "Internet"
+msgstr "อินเทอร์เน็ต"
+
+#: ../data/software-center.menu.in.h:27
+msgid "Java"
+msgstr "จาวา"
+
+#: ../data/software-center.menu.in.h:28
+msgid "Libraries"
+msgstr "ไลบรารี"
+
+#: ../data/software-center.menu.in.h:29
+msgid "Lisp"
+msgstr "Lisp"
+
+#: ../data/software-center.menu.in.h:30
+msgid "Localization"
+msgstr "การทำให้เข้ากับท้องถิ่น"
+
+#: ../data/software-center.menu.in.h:31
+msgid "Mail"
+msgstr "เมล"
+
+#: ../data/software-center.menu.in.h:32
+msgid "Mathematics"
+msgstr "คณิตศาสตร์"
+
+#: ../data/software-center.menu.in.h:33
+msgid "Mono/CLI"
+msgstr "Mono/CLI"
+
+#: ../data/software-center.menu.in.h:34
+msgid "Multimedia"
+msgstr "มัลติมีเดีย"
+
+#: ../data/software-center.menu.in.h:35
+msgid "OCaml"
+msgstr "OCaml"
+
+#: ../data/software-center.menu.in.h:36
+msgid "Office"
+msgstr "สำนักงาน"
+
+#: ../data/software-center.menu.in.h:37
+msgid "Painting &amp; Editing"
+msgstr "การวาดภาพและแก้ไข"
+
+#: ../data/software-center.menu.in.h:38
+msgid "Perl"
+msgstr "ภาษาเพิร์ล"
+
+#: ../data/software-center.menu.in.h:39
+msgid "Photography"
+msgstr "การถ่ายภาพ"
+
+#: ../data/software-center.menu.in.h:40
+msgid "Physics"
+msgstr "ฟิสิกส์"
+
+#: ../data/software-center.menu.in.h:41
+msgid "Profiling"
+msgstr "การวัดประสิทธิภาพ"
+
+#: ../data/software-center.menu.in.h:42
+msgid "Publishing"
+msgstr "สิ่งพิมพ์"
+
+#: ../data/software-center.menu.in.h:43
+msgid "Puzzles"
+msgstr "เกมปริศนา"
+
+#: ../data/software-center.menu.in.h:44
+msgid "Python"
+msgstr "ภาษาไพธอน"
+
+#: ../data/software-center.menu.in.h:45
+msgid "Role Playing"
+msgstr "สวมบทบาท"
+
+#: ../data/software-center.menu.in.h:46
+msgid "Ruby"
+msgstr "ภาษารูบี้"
+
+#: ../data/software-center.menu.in.h:47
+msgid "Scanning &amp; OCR"
+msgstr "การสแกนและ OCR"
+
+#: ../data/software-center.menu.in.h:48
+msgid "Science &amp; Engineering"
+msgstr "วิทยาศาสตร์และวิศวกรรมศาสตร์"
+
+#: ../data/software-center.menu.in.h:49
+msgid "Simulation"
+msgstr "จำลองสถานการณ์"
+
+#: ../data/software-center.menu.in.h:50
+msgid "Sports"
+msgstr "กีฬา"
+
+#: ../data/software-center.menu.in.h:51
+msgid "System"
+msgstr "ระบบ"
+
+#: ../data/software-center.menu.in.h:52
+msgid "Themes &amp; Tweaks"
+msgstr "ชุดตกแต่งและปรับแต่ง"
+
+#: ../data/software-center.menu.in.h:53
+msgid "Universal Access"
+msgstr "สิ่งอำนวยความสะดวก"
+
+#: ../data/software-center.menu.in.h:54
+msgid "Version Control"
+msgstr "ควบคุมรุ่น"
+
+#: ../data/software-center.menu.in.h:55
+msgid "Viewers"
+msgstr "โปรแกรมแสดงภาพ"
+
+#: ../data/software-center.menu.in.h:56
+msgid "Web Browsers"
+msgstr "เว็บเบราว์เซอร์"
+
+#: ../data/software-center.menu.in.h:57
+msgid "Web Development"
+msgstr "การพัฒนาเว็บ"
+
+#: ../data/featured.menu.in.h:1
+msgid "Featured Applications"
+msgstr "โปรแกรมแนะนำ"
+
+#: ../softwarecenter/app.py:148
+msgid "Sorry, can not open the software database"
+msgstr "ขออภัย เปิดฐานข้อมูลซอฟต์แวร์ไม่ได้"
+
+#: ../softwarecenter/app.py:149
+msgid "Please re-install the 'software-center' package."
+msgstr "โปรดติดตั้งแพกเกจ 'software-center' ซ้ำ"
+
+#: ../softwarecenter/backend/aptd.py:219
+msgid "Error"
+msgstr "ผิดพลาด"
+
+#: ../softwarecenter/backend/channel.py:92
+msgid "Canonical Partners"
+msgstr "พันธมิตรของ Canonical"
+
+#: ../softwarecenter/backend/channel.py:94
+msgid "Other"
+msgstr "อื่นๆ"
+
+#. TRANSLATORS: List of "grey-listed" words sperated with ";"
+#. Do not translate this list directly. Instead,
+#. provide a list of words in your language that people are likely
+#. to include in a search but that should normally be ignored in
+#. the search.
+#: ../softwarecenter/db/database.py:39
+msgid "app;application;package;program;programme;suite;tool"
+msgstr "app;application;package;program;programme;suite;tool"
+
+#. if we don't have a package and it has no arch/component its
+#. not available for us
+#: ../softwarecenter/db/database.py:171
+#: ../softwarecenter/view/appdetailsview.py:212
+#, python-format
+msgid "Sorry, '%s' is not available for this type of computer (%s)."
+msgstr "ขออภัย '%s' ไม่มีสำหรับคอมพิวเตอร์ประเภทนี้ (%s)"
+
+#: ../softwarecenter/distro/__init__.py:45
+#, fuzzy
+msgid ""
+"Lets you choose from thousands of free applications available for your "
+"system."
+msgstr "ให้คุณเลือกโปรแกรมฟรีกว่าพันรายการสำหรับ Ubuntu"
+
+#: ../softwarecenter/distro/Debian.py:44
+msgid "Provided by Debian"
+msgstr "ดูแลโดย Debian"
+
+#: ../softwarecenter/distro/Debian.py:47 ../softwarecenter/distro/Ubuntu.py:53
+#, python-format
+msgid "To remove %s, these items must be removed as well:"
+msgstr "เพื่อถอดถอน %s รายการเหล่านี้ต้องถูกถอดถอนไปด้วย:"
+
+#: ../softwarecenter/distro/Debian.py:49 ../softwarecenter/distro/Ubuntu.py:55
+msgid "Remove All"
+msgstr "ถอดถอนทั้งหมด"
+
+#: ../softwarecenter/distro/Debian.py:56 ../softwarecenter/distro/Ubuntu.py:62
+#, python-format
+msgid ""
+"If you uninstall %s, future updates will not include new items in <b>%s</b> "
+"set. Are you sure you want to continue?"
+msgstr ""
+"ถ้าคุณถอดถอน %s การปรับปรุงในครั้งถัดไป จะไม่มีการปรับปรุงชุด <b>%s</b> รวมอยู่ด้วย "
+"คุณแน่ใจหรือไม่ที่จะดำเนินการต่อ?"
+
+#: ../softwarecenter/distro/Debian.py:59 ../softwarecenter/distro/Debian.py:70
+#: ../softwarecenter/distro/Ubuntu.py:65 ../softwarecenter/distro/Ubuntu.py:76
+msgid "Remove Anyway"
+msgstr "ถอดถอนโดยไม่สนใจคำเตือน"
+
+#: ../softwarecenter/distro/Debian.py:66
+#, python-format
+msgid ""
+"%s is a core application in Debian. Uninstalling it may cause future "
+"upgrades to be incomplete. Are you sure you want to continue?"
+msgstr ""
+"%s เป็นโปรแกรมหลักใน Debian การถอนออกอาจมีผลให้การปรับรุ่นครั้งหน้าไม่สมบูรณ์ "
+"คุณแน่ใจหรือไม่ที่จะดำเนินการต่อ?"
+
+#. generic message
+#: ../softwarecenter/distro/Debian.py:79 ../softwarecenter/distro/Ubuntu.py:85
+msgid "Installed"
+msgstr "ติดตั้งแล้ว"
+
+#: ../softwarecenter/distro/Debian.py:91 ../softwarecenter/distro/Ubuntu.py:97
+msgid "Unknown"
+msgstr "ไม่ทราบ"
+
+#: ../softwarecenter/distro/Debian.py:93 ../softwarecenter/distro/Ubuntu.py:99
+msgid "Open Source"
+msgstr "โอเพนซอร์ซ"
+
+#: ../softwarecenter/distro/Debian.py:95
+msgid "Open Source with proprietary parts"
+msgstr "โอเพนซอร์สมีส่วนที่เป็นเชิงพาณิชย์"
+
+#: ../softwarecenter/distro/Debian.py:97
+#: ../softwarecenter/distro/Ubuntu.py:101
+msgid "Proprietary"
+msgstr "เชิงพาณิชย์"
+
+#: ../softwarecenter/distro/Debian.py:98
+#: ../softwarecenter/distro/Ubuntu.py:102
+#, python-format
+msgid "License: %s"
+msgstr "สัญญาอนุญาต: %s"
+
+#: ../softwarecenter/distro/Ubuntu.py:42
+msgid ""
+"Lets you choose from thousands of free applications available for Ubuntu."
+msgstr "ให้คุณเลือกโปรแกรมฟรีกว่าพันรายการสำหรับ Ubuntu"
+
+#: ../softwarecenter/distro/Ubuntu.py:50
+msgid "Provided by Ubuntu"
+msgstr "ดูแลโดย Ubuntu"
+
+#: ../softwarecenter/distro/Ubuntu.py:72
+#, python-format
+msgid ""
+"%s is a core application in Ubuntu. Uninstalling it may cause future "
+"upgrades to be incomplete. Are you sure you want to continue?"
+msgstr ""
+"%s เป็นโปรแกรมหลักใน Ubuntu การถอดถอนมัน อาจทำให้การปรับรุ่นครั้งหน้าไม่สมบูรณ์ "
+"คุณแน่ใจหรือไม่ที่จะดำเนินการต่อ?"
+
+#. TRANSLATORS: This text will be showed as price of the software
+#. its free
+#: ../softwarecenter/distro/Ubuntu.py:126
+#: ../softwarecenter/view/appdetailsview.py:500
+msgid "Free"
+msgstr "เสรี"
+
+#: ../softwarecenter/distro/Ubuntu.py:173
+#: ../softwarecenter/distro/Ubuntu.py:185
+#, python-format
+msgid ""
+"Canonical does no longer provide updates for %s in Ubuntu %s. Updates may be "
+"available in a newer version of Ubuntu."
+msgstr ""
+"Canonical ไม่ได้เป็นผู้ให้การสนับสนุนการปรับปรุงระยะยาวสำหรับ %s ใน Ubuntu %s "
+"การปรับปรุงอาจมีอีกครั้งใน Ubuntu รุ่นที่ใหม่กว่า"
+
+#: ../softwarecenter/distro/Ubuntu.py:178
+#, python-format
+msgid ""
+"Canonical provides critical updates for %(appname)s until "
+"%(support_end_month_str)s %(support_end_year)s."
+msgstr ""
+"Canonical เป็นผู้ให้การสนับสนุนการปรับปรุงในส่วนที่สำคัญสำหรับ %(appname)s ไปจนถึง "
+"%(support_end_month_str)s %(support_end_year)s"
+
+#: ../softwarecenter/distro/Ubuntu.py:190
+#, python-format
+msgid ""
+"Canonical provides critical updates supplied by the developers of "
+"%(appname)s until %(support_end_month_str)s %(support_end_year)s."
+msgstr ""
+"Canonical เป็นผู้ให้การสนับสนุนการปรับปรุงที่สำคัญ โดยนักพัฒนาของ %(appname)s ไปจนถึง "
+"%(support_end_month_str)s %(support_end_year)s"
+
+#: ../softwarecenter/distro/Ubuntu.py:200
+#, python-format
+msgid ""
+"Canonical does not provide updates for %s. Some updates may be provided by "
+"the third party vendor."
+msgstr ""
+"Canonical ไม่ได้เป็นผู้ให้การสนับสนุนการปรับปรุงสำหรับ %s "
+"การปรับปรุงอาจได้รับการสนับสนุนโดยผู้ให้บริการรายอื่น"
+
+#: ../softwarecenter/distro/Ubuntu.py:204
+#, python-format
+msgid "Canonical provides critical updates for %s."
+msgstr "Canonical เป็นผู้ให้การสนับสนุนการปรับปรุงที่สำคัญ สำหรับ %s"
+
+#: ../softwarecenter/distro/Ubuntu.py:206
+#, python-format
+msgid "Canonical provides critical updates supplied by the developers of %s."
+msgstr "Canonical เป็นผู้ให้การสนับสนุนการปรับปรุงที่สำคัญ โดยนักพัฒนาของ %s"
+
+#: ../softwarecenter/distro/Ubuntu.py:209
+#, python-format
+msgid ""
+"Canonical does not provide updates for %s. Some updates may be provided by "
+"the Ubuntu community."
+msgstr ""
+"Canonical ไม่ได้เป็นผู้ให้การสนับสนุนการปรับปรุง %s การปรับปรุงอาจได้รับการสนับสนุนโดยชุมชน "
+"Ubuntu"
+
+#: ../softwarecenter/distro/Ubuntu.py:212
+#, python-format
+msgid "Application %s has an unknown maintenance status."
+msgstr "โปรแกรม %s ไม่พบสถานะการดูแล"
+
+#: ../softwarecenter/view/appdetailsview.py:85
+msgid "Description"
+msgstr "รายละเอียด"
+
+#: ../softwarecenter/view/appdetailsview.py:202
+#, python-format
+msgid ""
+"This software is available from the '%s' source, which you are not currently "
+"using."
+msgstr "ซอฟต์แวร์นี้สามารถติดตั้งได้จากแหล่ง '%s' ซึ่งเป็นแหล่งที่คุณยังไม่ได้เปิดใช้"
+
+#: ../softwarecenter/view/appdetailsview.py:207
+msgid ""
+"To show information about this item, the software catalog needs updating."
+msgstr "เพื่อแสดงข้อมูลเกี่ยวกับรายการนี้ ต้องปรับปรุงแค็ตตาล็อกซอฟต์แวร์ก่อน"
+
+#: ../softwarecenter/view/appdetailsview.py:264
+#: ../softwarecenter/view/appdetailsview.py:268
+msgid "Application Screenshot"
+msgstr "ภาพหน้าจอโปรแกรม"
+
+#: ../softwarecenter/view/appdetailsview.py:296
+#, python-format
+msgid "Version: %s (%s)"
+msgstr "รุ่น: %s (%s)"
+
+#: ../softwarecenter/view/appdetailsview.py:311
+msgid "Website"
+msgstr "เว็บไซต์"
+
+#: ../softwarecenter/view/appdetailsview.py:317
+#, python-format
+msgid "Price: %s"
+msgstr "ราคา: %s"
+
+#: ../softwarecenter/view/appdetailsview.py:331
+msgid "No screenshot available"
+msgstr "ไม่มีภาพหน้าจอ"
+
+#: ../softwarecenter/view/appdetailsview.py:369
+#, python-format
+msgid "%s - Screenshot"
+msgstr "%s - ภาพหน้าจอ"
+
+#: ../softwarecenter/view/appdetailsview.py:492
+#: ../softwarecenter/view/appview.py:1146
+msgid "Remove"
+msgstr "ถอดถอน"
+
+#. 32, the pixbufoverlay height
+#: ../softwarecenter/view/appdetailsview.py:498
+#: ../softwarecenter/view/appview.py:1146
+msgid "Install"
+msgstr "ติดตั้ง"
+
+#: ../softwarecenter/view/appdetailsview.py:501
+msgid "Install - Free"
+msgstr "ติดตั้ง - ฟรี"
+
+#. FIXME: deal with the EULA stuff
+#. FIXME: use a proper message here, but we are in string freeze
+#: ../softwarecenter/view/appdetailsview.py:515
+#: ../softwarecenter/view/appdetailsview.py:520
+msgid "Use This Source"
+msgstr "ใช้แหล่งนี้"
+
+#: ../softwarecenter/view/appdetailsview.py:523
+msgid "Update Now"
+msgstr "ปรับปรุงเดี๋ยวนี้"
+
+#. draw number of reviews
+#: ../softwarecenter/view/appview.py:657
+#, python-format
+msgid "%s review"
+msgid_plural "%s reviews"
+msgstr[0] "ทบทวนแล้ว %s ครั้ง"
+
+#: ../softwarecenter/view/appview.py:1147
+msgid "More Info"
+msgstr "ข้อมูลเพิ่มเติม"
+
+#. home button
+#: ../softwarecenter/view/availablepane.py:123
+#: ../softwarecenter/view/viewswitcher.py:201
+msgid "Get Software"
+msgstr "รับซอฟต์แวร์"
+
+#: ../softwarecenter/view/availablepane.py:242
+#: ../softwarecenter/view/installedpane.py:79
+#: ../softwarecenter/view/channelpane.py:86
+msgid "Search Results"
+msgstr "ผลการค้นหา"
+
+#: ../softwarecenter/view/availablepane.py:290
+#: ../softwarecenter/view/installedpane.py:158
+#: ../softwarecenter/view/channelpane.py:199
+#, python-format
+msgid "%s matching item"
+msgid_plural "%s matching items"
+msgstr[0] "%s รายการที่เข้ากัน"
+
+#: ../softwarecenter/view/availablepane.py:294
+#: ../softwarecenter/view/channelpane.py:203
+#, python-format
+msgid "%s item available"
+msgid_plural "%s items available"
+msgstr[0] "%s รายการ ที่ใช้ได้"
+
+#: ../softwarecenter/view/catview.py:82 ../softwarecenter/view/catview.py:88
+msgid "Departments"
+msgstr "หมวด"
+
+#: ../softwarecenter/view/dialogs.py:45
+msgid "Details"
+msgstr "รายละเอียด"
+
+#: ../softwarecenter/view/dialogs.py:83
+msgid "Cancel"
+msgstr "ยกเลิก"
+
+#. FIXME: make this a generic pkgview widget
+#: ../softwarecenter/view/dialogs.py:96
+msgid "Dependency"
+msgstr "สิ่งที่ต้องใช้"
+
+#: ../softwarecenter/view/installedpane.py:84
+#: ../softwarecenter/view/viewswitcher.py:207
+msgid "Installed Software"
+msgstr "ซอฟต์แวร์ที่ติดตั้งแล้ว"
+
+#: ../softwarecenter/view/installedpane.py:162
+#, python-format
+msgid "%s item installed"
+msgid_plural "%s items installed"
+msgstr[0] "%s รายการ ที่ติดตั้งแล้ว"
+
+#: ../softwarecenter/view/viewswitcher.py:77
+msgid "Software sources"
+msgstr "แหล่งซอฟต์แวร์"
+
+#: ../softwarecenter/view/viewswitcher.py:227
+#: ../softwarecenter/view/viewswitcher.py:232
+#, python-format
+msgid "In Progress (%i)"
+msgstr "กำลังดำเนินการ (%i)"
+
+#: ../softwarecenter/view/widgets/backforward.py:61
+msgid "History Navigation"
+msgstr "ดูประวัติ"
+
+#: ../softwarecenter/view/widgets/backforward.py:62
+msgid "Navigate forwards and backwards."
+msgstr "ดูก่อนหน้า และย้อนหลัง"
+
+#: ../softwarecenter/view/widgets/backforward.py:76
+#: ../softwarecenter/view/widgets/backforward.py:90
+msgid "Back Button"
+msgstr "ปุ่มย้อนกลับ"
+
+#: ../softwarecenter/view/widgets/backforward.py:77
+#: ../softwarecenter/view/widgets/backforward.py:91
+msgid "Navigates back."
+msgstr "ท่องดูย้อนกลับ"
+
+#: ../softwarecenter/view/widgets/backforward.py:82
+#: ../softwarecenter/view/widgets/backforward.py:96
+msgid "Forward Button"
+msgstr "ปุ่มต่อไป"
+
+#: ../softwarecenter/view/widgets/backforward.py:83
+#: ../softwarecenter/view/widgets/backforward.py:97
+msgid "Navigates forward."
+msgstr "ท่องดูต่อไป"
+
+#: ../softwarecenter/view/widgets/pathbar_gtk_atk.py:54
+msgid "You are here:"
+msgstr "คุณอยู่ที่นี่:"
+
+#: ../softwarecenter/view/widgets/pathbar_gtk_atk.py:445
+#, python-format
+msgid "Navigates to the %s page."
+msgstr "ไปยังหน้า %s"

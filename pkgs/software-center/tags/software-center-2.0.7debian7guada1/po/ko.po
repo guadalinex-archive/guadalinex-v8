@@ -1,0 +1,709 @@
+# Korean translation for software-store
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the software-store package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: software-store\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-11-21 21:04+0100\n"
+"PO-Revision-Date: 2010-07-26 05:46+0000\n"
+"Last-Translator: Seung Soo, Ha <sungsuha@gmail.com>\n"
+"Language-Team: Korean <ko@li.org>\n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Launchpad-Export-Date: 2010-11-21 19:32+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ../data/ui/SoftwareCenter.ui.h:1
+#, fuzzy
+msgid "&#xA9;2009-2010 Canonical"
+msgstr "&#xA9;2009 케노니칼"
+
+#: ../data/ui/SoftwareCenter.ui.h:2
+msgid "Copy _Web Link"
+msgstr "웹 주소 복사(_W)"
+
+#: ../data/ui/SoftwareCenter.ui.h:3
+msgid "Rebuilding application catalog..."
+msgstr "응용 프로그램 카탈로그를 다시 빌드하는 중..."
+
+#: ../data/ui/SoftwareCenter.ui.h:4
+msgid "Search..."
+msgstr "찾기..."
+
+#: ../data/ui/SoftwareCenter.ui.h:5
+msgid "Software Center _Help"
+msgstr "소프트웨어 센터 도움말(_H)"
+
+#: ../data/ui/SoftwareCenter.ui.h:6
+msgid "_All Software"
+msgstr "모든 소프트웨어(_A)"
+
+#: ../data/ui/SoftwareCenter.ui.h:7
+msgid "_Canonical-Maintained Software"
+msgstr "케노니칼이 관리하는 소프트웨어(_C)"
+
+#: ../data/ui/SoftwareCenter.ui.h:8
+msgid "_Edit"
+msgstr "편집(_E)"
+
+#: ../data/ui/SoftwareCenter.ui.h:9
+msgid "_File"
+msgstr "파일(_F)"
+
+#: ../data/ui/SoftwareCenter.ui.h:10
+msgid "_Help"
+msgstr "도움말(_H)"
+
+#: ../data/ui/SoftwareCenter.ui.h:11
+msgid "_Install"
+msgstr "설치(_I)"
+
+#: ../data/ui/SoftwareCenter.ui.h:12
+msgid "_Software Sources..."
+msgstr "소프트웨어 소스(_S)..."
+
+#: ../data/ui/SoftwareCenter.ui.h:13
+msgid "_View"
+msgstr "보기(_V)"
+
+#: ../data/ubuntu-software-center.desktop.in.h:1
+msgid ""
+"Lets you choose from thousands of free applications available for Ubuntu"
+msgstr "우분투에서는 수많은 자유 프로그램을 선택할 수 있습니다"
+
+#: ../data/ubuntu-software-center.desktop.in.h:2
+#: ../data/unbranded-software-center.desktop.in.h:2
+#: ../softwarecenter/distro/__init__.py:39
+msgid "Software Center"
+msgstr "소프트웨어 센터"
+
+#: ../data/ubuntu-software-center.desktop.in.h:3
+#: ../softwarecenter/distro/Ubuntu.py:39
+msgid "Ubuntu Software Center"
+msgstr "우분투 소프트웨어 센터"
+
+#: ../data/unbranded-software-center.desktop.in.h:1
+#, fuzzy
+msgid ""
+"Lets you choose from thousands of free applications available for your "
+"system "
+msgstr "우분투에서는 수많은 자유 프로그램을 선택할 수 있습니다"
+
+#: ../data/software-center.menu.in.h:1
+msgid "3D"
+msgstr "3D"
+
+#: ../data/software-center.menu.in.h:2
+msgid "Accessories"
+msgstr "보조 프로그램"
+
+#: ../data/software-center.menu.in.h:3
+msgid "Arcade"
+msgstr "아케이드"
+
+#: ../data/software-center.menu.in.h:4
+msgid "Astronomy"
+msgstr "천문"
+
+#: ../data/software-center.menu.in.h:5
+msgid "Biology"
+msgstr "생물학"
+
+#: ../data/software-center.menu.in.h:6
+msgid "Board Games"
+msgstr "보드 게임"
+
+#: ../data/software-center.menu.in.h:7
+msgid "Card Games"
+msgstr "카드 게임"
+
+#: ../data/software-center.menu.in.h:8
+msgid "Chat"
+msgstr "채팅"
+
+#: ../data/software-center.menu.in.h:9
+msgid "Chemistry"
+msgstr "화학"
+
+#: ../data/software-center.menu.in.h:10
+msgid "Computer Science &amp; Robotics"
+msgstr "컴퓨터 과학 및 로봇"
+
+#: ../data/software-center.menu.in.h:11
+msgid "Debugging"
+msgstr "디버깅"
+
+#: ../data/software-center.menu.in.h:12
+msgid "Developer Tools"
+msgstr "개발자 도구"
+
+#: ../data/software-center.menu.in.h:13
+msgid "Drawing"
+msgstr "그림"
+
+#: ../data/software-center.menu.in.h:14
+msgid "Education"
+msgstr "교육"
+
+#: ../data/software-center.menu.in.h:15
+msgid "Electronics"
+msgstr "전자"
+
+#: ../data/software-center.menu.in.h:16
+msgid "Engineering"
+msgstr "공학"
+
+#: ../data/software-center.menu.in.h:17
+msgid "File Sharing"
+msgstr "파일공유"
+
+#: ../data/software-center.menu.in.h:18
+msgid "Fonts"
+msgstr "글꼴"
+
+#: ../data/software-center.menu.in.h:19
+msgid "Games"
+msgstr "게임"
+
+#: ../data/software-center.menu.in.h:20
+msgid "Geography"
+msgstr "지리학"
+
+#: ../data/software-center.menu.in.h:21
+msgid "Geology"
+msgstr "지질학"
+
+#: ../data/software-center.menu.in.h:22
+msgid "Graphic Interface Design"
+msgstr "그래픽 인터페이스 디자인"
+
+#: ../data/software-center.menu.in.h:23
+msgid "Graphics"
+msgstr "그래픽"
+
+#: ../data/software-center.menu.in.h:24
+msgid "Haskell"
+msgstr "해스켈"
+
+#: ../data/software-center.menu.in.h:25
+msgid "IDEs"
+msgstr "통합 개발 환경"
+
+#: ../data/software-center.menu.in.h:26
+msgid "Internet"
+msgstr "인터넷"
+
+#: ../data/software-center.menu.in.h:27
+msgid "Java"
+msgstr "자바"
+
+#: ../data/software-center.menu.in.h:28
+msgid "Libraries"
+msgstr "라이브러리"
+
+#: ../data/software-center.menu.in.h:29
+msgid "Lisp"
+msgstr "Lisp"
+
+#: ../data/software-center.menu.in.h:30
+msgid "Localization"
+msgstr "지역화"
+
+#: ../data/software-center.menu.in.h:31
+msgid "Mail"
+msgstr "메일"
+
+#: ../data/software-center.menu.in.h:32
+msgid "Mathematics"
+msgstr "수학"
+
+#: ../data/software-center.menu.in.h:33
+msgid "Mono/CLI"
+msgstr "Mono/CLI"
+
+#: ../data/software-center.menu.in.h:34
+msgid "Multimedia"
+msgstr "멀티미디어"
+
+#: ../data/software-center.menu.in.h:35
+msgid "OCaml"
+msgstr "OCaml"
+
+#: ../data/software-center.menu.in.h:36
+msgid "Office"
+msgstr "오피스"
+
+#: ../data/software-center.menu.in.h:37
+msgid "Painting &amp; Editing"
+msgstr "그림 및 편집"
+
+#: ../data/software-center.menu.in.h:38
+msgid "Perl"
+msgstr "Perl"
+
+#: ../data/software-center.menu.in.h:39
+msgid "Photography"
+msgstr "사진 촬영"
+
+#: ../data/software-center.menu.in.h:40
+msgid "Physics"
+msgstr "물리학"
+
+#: ../data/software-center.menu.in.h:41
+msgid "Profiling"
+msgstr "프로파일링"
+
+#: ../data/software-center.menu.in.h:42
+msgid "Publishing"
+msgstr "출판"
+
+#: ../data/software-center.menu.in.h:43
+msgid "Puzzles"
+msgstr "퍼즐"
+
+#: ../data/software-center.menu.in.h:44
+msgid "Python"
+msgstr "파이썬"
+
+#: ../data/software-center.menu.in.h:45
+msgid "Role Playing"
+msgstr "롤 플레잉"
+
+#: ../data/software-center.menu.in.h:46
+msgid "Ruby"
+msgstr "루비"
+
+#: ../data/software-center.menu.in.h:47
+msgid "Scanning &amp; OCR"
+msgstr "스캐닝 및 OCR"
+
+#: ../data/software-center.menu.in.h:48
+msgid "Science &amp; Engineering"
+msgstr "과학 및 공학"
+
+#: ../data/software-center.menu.in.h:49
+msgid "Simulation"
+msgstr "시뮬레이션"
+
+#: ../data/software-center.menu.in.h:50
+msgid "Sports"
+msgstr "스포츠"
+
+#: ../data/software-center.menu.in.h:51
+msgid "System"
+msgstr "시스템"
+
+#: ../data/software-center.menu.in.h:52
+msgid "Themes &amp; Tweaks"
+msgstr "테마 및 트윅"
+
+#: ../data/software-center.menu.in.h:53
+msgid "Universal Access"
+msgstr "보편적 접근성"
+
+#: ../data/software-center.menu.in.h:54
+msgid "Version Control"
+msgstr "버전 관리"
+
+#: ../data/software-center.menu.in.h:55
+msgid "Viewers"
+msgstr "뷰어"
+
+#: ../data/software-center.menu.in.h:56
+msgid "Web Browsers"
+msgstr "웹 브라우저"
+
+#: ../data/software-center.menu.in.h:57
+msgid "Web Development"
+msgstr "웹 개발"
+
+#: ../data/featured.menu.in.h:1
+msgid "Featured Applications"
+msgstr "주요 응용 프로그램"
+
+#: ../softwarecenter/app.py:148
+msgid "Sorry, can not open the software database"
+msgstr "죄송합니다. 소프트웨어 데이터베이스를 열 수 없습니다"
+
+#: ../softwarecenter/app.py:149
+msgid "Please re-install the 'software-center' package."
+msgstr "'software-center' 패키지를 다시 설치하십시오."
+
+#: ../softwarecenter/backend/aptd.py:219
+msgid "Error"
+msgstr "오류"
+
+#: ../softwarecenter/backend/channel.py:92
+msgid "Canonical Partners"
+msgstr "케노니칼 파트너"
+
+#: ../softwarecenter/backend/channel.py:94
+msgid "Other"
+msgstr "기타"
+
+#. TRANSLATORS: List of "grey-listed" words sperated with ";"
+#. Do not translate this list directly. Instead,
+#. provide a list of words in your language that people are likely
+#. to include in a search but that should normally be ignored in
+#. the search.
+#: ../softwarecenter/db/database.py:39
+msgid "app;application;package;program;programme;suite;tool"
+msgstr "app;application;package;program;programme;suite;tool"
+
+#. if we don't have a package and it has no arch/component its
+#. not available for us
+#: ../softwarecenter/db/database.py:171
+#: ../softwarecenter/view/appdetailsview.py:212
+#, python-format
+msgid "Sorry, '%s' is not available for this type of computer (%s)."
+msgstr ""
+"죄송합니다. '%s'은(는) 이러한 컴퓨터 종류(%s)에서는 사용할 수 없습니다."
+
+#: ../softwarecenter/distro/__init__.py:45
+#, fuzzy
+msgid ""
+"Lets you choose from thousands of free applications available for your "
+"system."
+msgstr ""
+"우분투에서 사용할 수 있는 수천 가지 자유 프로그램을 선택할 수 있습니다."
+
+#: ../softwarecenter/distro/Debian.py:44
+#, fuzzy
+msgid "Provided by Debian"
+msgstr "우분투에서 제공"
+
+#: ../softwarecenter/distro/Debian.py:47 ../softwarecenter/distro/Ubuntu.py:53
+#, python-format
+msgid "To remove %s, these items must be removed as well:"
+msgstr "%s을(를) 제거하기 위해서는  다음 항목들도 함께 제거해야 합니다:"
+
+#: ../softwarecenter/distro/Debian.py:49 ../softwarecenter/distro/Ubuntu.py:55
+msgid "Remove All"
+msgstr "모두 제거"
+
+#: ../softwarecenter/distro/Debian.py:56 ../softwarecenter/distro/Ubuntu.py:62
+#, python-format
+msgid ""
+"If you uninstall %s, future updates will not include new items in <b>%s</b> "
+"set. Are you sure you want to continue?"
+msgstr ""
+"%s을(를) 제거하면 <b>%s</b> 내의 항목들은 더 이상 업데이트되지 않습니다. 계"
+"속 하시겠습니까?"
+
+#: ../softwarecenter/distro/Debian.py:59 ../softwarecenter/distro/Debian.py:70
+#: ../softwarecenter/distro/Ubuntu.py:65 ../softwarecenter/distro/Ubuntu.py:76
+msgid "Remove Anyway"
+msgstr "그래도 제거"
+
+#: ../softwarecenter/distro/Debian.py:66
+#, python-format
+msgid ""
+"%s is a core application in Debian. Uninstalling it may cause future "
+"upgrades to be incomplete. Are you sure you want to continue?"
+msgstr ""
+"%s 는 데비안의 핵심 응용 프로그램입니다. 이것을 제거하는 것은 앞으로의 업그레"
+"이드를 불완전하게 만들 수도 있습니다. 계속하시겠습니까?"
+
+#. generic message
+#: ../softwarecenter/distro/Debian.py:79 ../softwarecenter/distro/Ubuntu.py:85
+msgid "Installed"
+msgstr "설치함"
+
+#: ../softwarecenter/distro/Debian.py:91 ../softwarecenter/distro/Ubuntu.py:97
+msgid "Unknown"
+msgstr "알 수 없음"
+
+#: ../softwarecenter/distro/Debian.py:93 ../softwarecenter/distro/Ubuntu.py:99
+msgid "Open Source"
+msgstr "오픈소스"
+
+#: ../softwarecenter/distro/Debian.py:95
+msgid "Open Source with proprietary parts"
+msgstr "독점적인 부분을 포함한 오픈 소스"
+
+#: ../softwarecenter/distro/Debian.py:97
+#: ../softwarecenter/distro/Ubuntu.py:101
+msgid "Proprietary"
+msgstr "독점"
+
+#: ../softwarecenter/distro/Debian.py:98
+#: ../softwarecenter/distro/Ubuntu.py:102
+#, python-format
+msgid "License: %s"
+msgstr "라이선스: %s"
+
+#: ../softwarecenter/distro/Ubuntu.py:42
+msgid ""
+"Lets you choose from thousands of free applications available for Ubuntu."
+msgstr ""
+"우분투에서 사용할 수 있는 수천 가지 자유 프로그램을 선택할 수 있습니다."
+
+#: ../softwarecenter/distro/Ubuntu.py:50
+msgid "Provided by Ubuntu"
+msgstr "우분투에서 제공"
+
+#: ../softwarecenter/distro/Ubuntu.py:72
+#, python-format
+msgid ""
+"%s is a core application in Ubuntu. Uninstalling it may cause future "
+"upgrades to be incomplete. Are you sure you want to continue?"
+msgstr ""
+"%s은(는) 우분투의 핵심 프로그램입니다. 이를 제거하면 이후의 업그레이드가 불완"
+"전해질 수 있습니다. 계속 하시겠습니까?"
+
+#. TRANSLATORS: This text will be showed as price of the software
+#. its free
+#: ../softwarecenter/distro/Ubuntu.py:126
+#: ../softwarecenter/view/appdetailsview.py:500
+msgid "Free"
+msgstr "무료"
+
+#: ../softwarecenter/distro/Ubuntu.py:173
+#: ../softwarecenter/distro/Ubuntu.py:185
+#, python-format
+msgid ""
+"Canonical does no longer provide updates for %s in Ubuntu %s. Updates may be "
+"available in a newer version of Ubuntu."
+msgstr ""
+"Canonical은 %s에 대한 업데이트를 더이상 제공하지 않습니다;우분투 %s. 업데이트"
+"는 새로운 버전의 우분투에서만 가능합니다."
+
+#: ../softwarecenter/distro/Ubuntu.py:178
+#, python-format
+msgid ""
+"Canonical provides critical updates for %(appname)s until "
+"%(support_end_month_str)s %(support_end_year)s."
+msgstr ""
+"Canonical은 %(support_end_year)s년 %(support_end_month_str)s까지 %(appname)s"
+"의 중요 업데이트를 제공합니다."
+
+#: ../softwarecenter/distro/Ubuntu.py:190
+#, python-format
+msgid ""
+"Canonical provides critical updates supplied by the developers of "
+"%(appname)s until %(support_end_month_str)s %(support_end_year)s."
+msgstr ""
+"Canonical은 %(support_end_year)s년 %(support_end_month_str)s까지 %(appname)s"
+"의 개발자들이 만든 중요 업데이트를 제공합니다."
+
+#: ../softwarecenter/distro/Ubuntu.py:200
+#, python-format
+msgid ""
+"Canonical does not provide updates for %s. Some updates may be provided by "
+"the third party vendor."
+msgstr ""
+"Canonical은 %s의 업데이트를 제공하지 않습니다. 써드 파티 업체에서 업데이트를 "
+"제공할 수 있습니다."
+
+#: ../softwarecenter/distro/Ubuntu.py:204
+#, python-format
+msgid "Canonical provides critical updates for %s."
+msgstr "Canonical은 %s의 중요 업데이트를 제공합니다."
+
+#: ../softwarecenter/distro/Ubuntu.py:206
+#, python-format
+msgid "Canonical provides critical updates supplied by the developers of %s."
+msgstr "Canonical은 %s의 개발자들이 만든 중요 업데이트를 제공합니다."
+
+#: ../softwarecenter/distro/Ubuntu.py:209
+#, python-format
+msgid ""
+"Canonical does not provide updates for %s. Some updates may be provided by "
+"the Ubuntu community."
+msgstr ""
+"Canonical은 %s의 업데이트를 제공하지 않습니다. 우분투 커뮤니티에서 업데이트"
+"를 제공할 수 있습니다."
+
+#: ../softwarecenter/distro/Ubuntu.py:212
+#, python-format
+msgid "Application %s has an unknown maintenance status."
+msgstr "응용 프로그램 %s 의 유지보수 상태를 알 수 없습니다."
+
+#: ../softwarecenter/view/appdetailsview.py:85
+msgid "Description"
+msgstr "설명"
+
+#: ../softwarecenter/view/appdetailsview.py:202
+#, python-format
+msgid ""
+"This software is available from the '%s' source, which you are not currently "
+"using."
+msgstr "이 소프트웨어는 현재 사용하지 않는 '%s' 소스에서 사용할 수 있습니다."
+
+#: ../softwarecenter/view/appdetailsview.py:207
+msgid ""
+"To show information about this item, the software catalog needs updating."
+msgstr "이 항목의 정보를 표시하기 위해 소프트웨어 목록을 업데이트해야 합니다."
+
+#: ../softwarecenter/view/appdetailsview.py:264
+#: ../softwarecenter/view/appdetailsview.py:268
+msgid "Application Screenshot"
+msgstr "프로그램 스크린샷"
+
+#: ../softwarecenter/view/appdetailsview.py:296
+#, python-format
+msgid "Version: %s (%s)"
+msgstr "버전: %s (%s)"
+
+#: ../softwarecenter/view/appdetailsview.py:311
+msgid "Website"
+msgstr "웹 사이트"
+
+#: ../softwarecenter/view/appdetailsview.py:317
+#, python-format
+msgid "Price: %s"
+msgstr "가격: %s"
+
+#: ../softwarecenter/view/appdetailsview.py:331
+msgid "No screenshot available"
+msgstr "스크린샷이 없습니다"
+
+#: ../softwarecenter/view/appdetailsview.py:369
+#, python-format
+msgid "%s - Screenshot"
+msgstr "%s - 미리보기"
+
+#: ../softwarecenter/view/appdetailsview.py:492
+#: ../softwarecenter/view/appview.py:1146
+msgid "Remove"
+msgstr "제거"
+
+#. 32, the pixbufoverlay height
+#: ../softwarecenter/view/appdetailsview.py:498
+#: ../softwarecenter/view/appview.py:1146
+msgid "Install"
+msgstr "설치"
+
+#: ../softwarecenter/view/appdetailsview.py:501
+msgid "Install - Free"
+msgstr "설치 - 무료"
+
+#. FIXME: deal with the EULA stuff
+#. FIXME: use a proper message here, but we are in string freeze
+#: ../softwarecenter/view/appdetailsview.py:515
+#: ../softwarecenter/view/appdetailsview.py:520
+msgid "Use This Source"
+msgstr "이 소스 사용"
+
+#: ../softwarecenter/view/appdetailsview.py:523
+msgid "Update Now"
+msgstr "지금 업데이트"
+
+#. draw number of reviews
+#: ../softwarecenter/view/appview.py:657
+#, python-format
+msgid "%s review"
+msgid_plural "%s reviews"
+msgstr[0] "%s개의 리뷰"
+
+#: ../softwarecenter/view/appview.py:1147
+msgid "More Info"
+msgstr "정보 더 보기"
+
+#. home button
+#: ../softwarecenter/view/availablepane.py:123
+#: ../softwarecenter/view/viewswitcher.py:201
+msgid "Get Software"
+msgstr "소프트웨어 설치"
+
+#: ../softwarecenter/view/availablepane.py:242
+#: ../softwarecenter/view/installedpane.py:79
+#: ../softwarecenter/view/channelpane.py:86
+msgid "Search Results"
+msgstr "검색 결과"
+
+#: ../softwarecenter/view/availablepane.py:290
+#: ../softwarecenter/view/installedpane.py:158
+#: ../softwarecenter/view/channelpane.py:199
+#, python-format
+msgid "%s matching item"
+msgid_plural "%s matching items"
+msgstr[0] "%s개의 항목 일치"
+
+#: ../softwarecenter/view/availablepane.py:294
+#: ../softwarecenter/view/channelpane.py:203
+#, python-format
+msgid "%s item available"
+msgid_plural "%s items available"
+msgstr[0] "%s개의 항목 이용 가능"
+
+#: ../softwarecenter/view/catview.py:82 ../softwarecenter/view/catview.py:88
+msgid "Departments"
+msgstr "분야"
+
+#: ../softwarecenter/view/dialogs.py:45
+msgid "Details"
+msgstr "자세한 정보"
+
+#: ../softwarecenter/view/dialogs.py:83
+msgid "Cancel"
+msgstr "취소"
+
+#. FIXME: make this a generic pkgview widget
+#: ../softwarecenter/view/dialogs.py:96
+msgid "Dependency"
+msgstr "의존"
+
+#: ../softwarecenter/view/installedpane.py:84
+#: ../softwarecenter/view/viewswitcher.py:207
+msgid "Installed Software"
+msgstr "설치된 소프트웨어"
+
+#: ../softwarecenter/view/installedpane.py:162
+#, python-format
+msgid "%s item installed"
+msgid_plural "%s items installed"
+msgstr[0] "%s개의 항목이 설치됨"
+
+#: ../softwarecenter/view/viewswitcher.py:77
+msgid "Software sources"
+msgstr "소프트웨어 소스"
+
+#: ../softwarecenter/view/viewswitcher.py:227
+#: ../softwarecenter/view/viewswitcher.py:232
+#, python-format
+msgid "In Progress (%i)"
+msgstr "진행 중 (%i)"
+
+#: ../softwarecenter/view/widgets/backforward.py:61
+msgid "History Navigation"
+msgstr "가본 페이지"
+
+#: ../softwarecenter/view/widgets/backforward.py:62
+msgid "Navigate forwards and backwards."
+msgstr "앞뒤로 가기"
+
+#: ../softwarecenter/view/widgets/backforward.py:76
+#: ../softwarecenter/view/widgets/backforward.py:90
+msgid "Back Button"
+msgstr "뒤로 가기 버튼"
+
+#: ../softwarecenter/view/widgets/backforward.py:77
+#: ../softwarecenter/view/widgets/backforward.py:91
+msgid "Navigates back."
+msgstr "뒤로 가기"
+
+#: ../softwarecenter/view/widgets/backforward.py:82
+#: ../softwarecenter/view/widgets/backforward.py:96
+msgid "Forward Button"
+msgstr "앞으로 가기 버튼"
+
+#: ../softwarecenter/view/widgets/backforward.py:83
+#: ../softwarecenter/view/widgets/backforward.py:97
+msgid "Navigates forward."
+msgstr "앞으로 가기"
+
+#: ../softwarecenter/view/widgets/pathbar_gtk_atk.py:54
+msgid "You are here:"
+msgstr "현재위치:"
+
+#: ../softwarecenter/view/widgets/pathbar_gtk_atk.py:445
+#, python-format
+msgid "Navigates to the %s page."
+msgstr "%s번째 페이지로 가기"

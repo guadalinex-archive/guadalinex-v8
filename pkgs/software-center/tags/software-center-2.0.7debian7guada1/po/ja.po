@@ -1,0 +1,713 @@
+# Japanese translation for software-store
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the software-store package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: software-store\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-11-21 21:04+0100\n"
+"PO-Revision-Date: 2010-04-14 15:14+0000\n"
+"Last-Translator: Fumihito YOSHIDA <hito@kugutsu.org>\n"
+"Language-Team: Japanese <ja@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Launchpad-Export-Date: 2010-11-21 19:32+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ../data/ui/SoftwareCenter.ui.h:1
+#, fuzzy
+msgid "&#xA9;2009-2010 Canonical"
+msgstr "&#xA9;2009 Canonical"
+
+#: ../data/ui/SoftwareCenter.ui.h:2
+msgid "Copy _Web Link"
+msgstr "Webリンクをコピー(_W)"
+
+#: ../data/ui/SoftwareCenter.ui.h:3
+msgid "Rebuilding application catalog..."
+msgstr "アプリケーション・カタログを再構築しています..."
+
+#: ../data/ui/SoftwareCenter.ui.h:4
+msgid "Search..."
+msgstr "検索..."
+
+#: ../data/ui/SoftwareCenter.ui.h:5
+msgid "Software Center _Help"
+msgstr "ソフトウェアセンターのヘルプ(_H)"
+
+#: ../data/ui/SoftwareCenter.ui.h:6
+msgid "_All Software"
+msgstr "すべてのソフトウェア(_A)"
+
+#: ../data/ui/SoftwareCenter.ui.h:7
+msgid "_Canonical-Maintained Software"
+msgstr "Canonical のメンテナンスするソフトウェア(_C)"
+
+#: ../data/ui/SoftwareCenter.ui.h:8
+msgid "_Edit"
+msgstr "編集(_E)"
+
+#: ../data/ui/SoftwareCenter.ui.h:9
+msgid "_File"
+msgstr "ファイル(_F)"
+
+#: ../data/ui/SoftwareCenter.ui.h:10
+msgid "_Help"
+msgstr "ヘルプ(_H)"
+
+#: ../data/ui/SoftwareCenter.ui.h:11
+msgid "_Install"
+msgstr "インストール(_I)"
+
+#: ../data/ui/SoftwareCenter.ui.h:12
+msgid "_Software Sources..."
+msgstr "ソフトウェア・ソース(_S)..."
+
+#: ../data/ui/SoftwareCenter.ui.h:13
+msgid "_View"
+msgstr "表示(_V)"
+
+#: ../data/ubuntu-software-center.desktop.in.h:1
+msgid ""
+"Lets you choose from thousands of free applications available for Ubuntu"
+msgstr ""
+"Ubuntuで利用可能なたくさんのフリー・アプリケーションの中から選択しましょう"
+
+#: ../data/ubuntu-software-center.desktop.in.h:2
+#: ../data/unbranded-software-center.desktop.in.h:2
+#: ../softwarecenter/distro/__init__.py:39
+msgid "Software Center"
+msgstr "ソフトウェアセンター"
+
+#: ../data/ubuntu-software-center.desktop.in.h:3
+#: ../softwarecenter/distro/Ubuntu.py:39
+msgid "Ubuntu Software Center"
+msgstr "Ubuntuソフトウェアセンター"
+
+#: ../data/unbranded-software-center.desktop.in.h:1
+#, fuzzy
+msgid ""
+"Lets you choose from thousands of free applications available for your "
+"system "
+msgstr ""
+"Ubuntuで利用可能なたくさんのフリー・アプリケーションの中から選択しましょう"
+
+#: ../data/software-center.menu.in.h:1
+msgid "3D"
+msgstr "3D"
+
+#: ../data/software-center.menu.in.h:2
+msgid "Accessories"
+msgstr "アクセサリ"
+
+#: ../data/software-center.menu.in.h:3
+msgid "Arcade"
+msgstr "アーケード"
+
+#: ../data/software-center.menu.in.h:4
+msgid "Astronomy"
+msgstr "天文学"
+
+#: ../data/software-center.menu.in.h:5
+msgid "Biology"
+msgstr "生物学"
+
+#: ../data/software-center.menu.in.h:6
+msgid "Board Games"
+msgstr "ボードゲーム"
+
+#: ../data/software-center.menu.in.h:7
+msgid "Card Games"
+msgstr "カードゲーム"
+
+#: ../data/software-center.menu.in.h:8
+msgid "Chat"
+msgstr "チャット"
+
+#: ../data/software-center.menu.in.h:9
+msgid "Chemistry"
+msgstr "化学"
+
+#: ../data/software-center.menu.in.h:10
+msgid "Computer Science &amp; Robotics"
+msgstr "コンピュータサイエンス &amp; ロボティクス"
+
+#: ../data/software-center.menu.in.h:11
+msgid "Debugging"
+msgstr "デバッグ"
+
+#: ../data/software-center.menu.in.h:12
+msgid "Developer Tools"
+msgstr "開発ツール"
+
+#: ../data/software-center.menu.in.h:13
+msgid "Drawing"
+msgstr "ドロー"
+
+#: ../data/software-center.menu.in.h:14
+msgid "Education"
+msgstr "教育・教養"
+
+#: ../data/software-center.menu.in.h:15
+msgid "Electronics"
+msgstr "電子工学"
+
+#: ../data/software-center.menu.in.h:16
+msgid "Engineering"
+msgstr "エンジニアリング"
+
+#: ../data/software-center.menu.in.h:17
+msgid "File Sharing"
+msgstr "ファイル共有"
+
+#: ../data/software-center.menu.in.h:18
+msgid "Fonts"
+msgstr "フォント"
+
+#: ../data/software-center.menu.in.h:19
+msgid "Games"
+msgstr "ゲーム"
+
+#: ../data/software-center.menu.in.h:20
+msgid "Geography"
+msgstr "地理学"
+
+#: ../data/software-center.menu.in.h:21
+msgid "Geology"
+msgstr "地質学"
+
+#: ../data/software-center.menu.in.h:22
+msgid "Graphic Interface Design"
+msgstr "GUIデザイン"
+
+#: ../data/software-center.menu.in.h:23
+msgid "Graphics"
+msgstr "グラフィック"
+
+#: ../data/software-center.menu.in.h:24
+msgid "Haskell"
+msgstr "Haskell"
+
+#: ../data/software-center.menu.in.h:25
+msgid "IDEs"
+msgstr "統合開発環境"
+
+#: ../data/software-center.menu.in.h:26
+msgid "Internet"
+msgstr "インターネット"
+
+#: ../data/software-center.menu.in.h:27
+msgid "Java"
+msgstr "Java"
+
+#: ../data/software-center.menu.in.h:28
+msgid "Libraries"
+msgstr "ライブラリ"
+
+#: ../data/software-center.menu.in.h:29
+msgid "Lisp"
+msgstr "Lisp"
+
+#: ../data/software-center.menu.in.h:30
+msgid "Localization"
+msgstr "ローカライズ"
+
+#: ../data/software-center.menu.in.h:31
+msgid "Mail"
+msgstr "メール"
+
+#: ../data/software-center.menu.in.h:32
+msgid "Mathematics"
+msgstr "数学"
+
+#: ../data/software-center.menu.in.h:33
+msgid "Mono/CLI"
+msgstr "Mono/CLI"
+
+#: ../data/software-center.menu.in.h:34
+msgid "Multimedia"
+msgstr "マルチメディア"
+
+#: ../data/software-center.menu.in.h:35
+msgid "OCaml"
+msgstr "OCaml"
+
+#: ../data/software-center.menu.in.h:36
+msgid "Office"
+msgstr "オフィス"
+
+#: ../data/software-center.menu.in.h:37
+msgid "Painting &amp; Editing"
+msgstr "ペイント &amp; 編集"
+
+#: ../data/software-center.menu.in.h:38
+msgid "Perl"
+msgstr "Perl"
+
+#: ../data/software-center.menu.in.h:39
+msgid "Photography"
+msgstr "写真"
+
+#: ../data/software-center.menu.in.h:40
+msgid "Physics"
+msgstr "物理学"
+
+#: ../data/software-center.menu.in.h:41
+msgid "Profiling"
+msgstr "プロファイリング"
+
+#: ../data/software-center.menu.in.h:42
+msgid "Publishing"
+msgstr "出版"
+
+#: ../data/software-center.menu.in.h:43
+msgid "Puzzles"
+msgstr "パズル"
+
+#: ../data/software-center.menu.in.h:44
+msgid "Python"
+msgstr "Python"
+
+#: ../data/software-center.menu.in.h:45
+msgid "Role Playing"
+msgstr "ロール・プレイング"
+
+#: ../data/software-center.menu.in.h:46
+msgid "Ruby"
+msgstr "Ruby"
+
+#: ../data/software-center.menu.in.h:47
+msgid "Scanning &amp; OCR"
+msgstr "スキャン &amp; OCR"
+
+#: ../data/software-center.menu.in.h:48
+msgid "Science &amp; Engineering"
+msgstr "科学 &amp; 工学"
+
+#: ../data/software-center.menu.in.h:49
+msgid "Simulation"
+msgstr "シミュレーション"
+
+#: ../data/software-center.menu.in.h:50
+msgid "Sports"
+msgstr "スポーツ"
+
+#: ../data/software-center.menu.in.h:51
+msgid "System"
+msgstr "システム"
+
+#: ../data/software-center.menu.in.h:52
+msgid "Themes &amp; Tweaks"
+msgstr "テーマ &amp; カスタマイズ"
+
+#: ../data/software-center.menu.in.h:53
+msgid "Universal Access"
+msgstr "ユニバーサル・アクセス"
+
+#: ../data/software-center.menu.in.h:54
+msgid "Version Control"
+msgstr "バージョン管理"
+
+#: ../data/software-center.menu.in.h:55
+msgid "Viewers"
+msgstr "ビューア"
+
+#: ../data/software-center.menu.in.h:56
+msgid "Web Browsers"
+msgstr "Web ブラウザ"
+
+#: ../data/software-center.menu.in.h:57
+msgid "Web Development"
+msgstr "Web開発"
+
+#: ../data/featured.menu.in.h:1
+msgid "Featured Applications"
+msgstr "注目のアプリケーション"
+
+#: ../softwarecenter/app.py:148
+msgid "Sorry, can not open the software database"
+msgstr "すみませんが、ソフトウェア・データベースを開けません"
+
+#: ../softwarecenter/app.py:149
+msgid "Please re-install the 'software-center' package."
+msgstr "'software-center' パッケージを再インストールしてください。"
+
+#: ../softwarecenter/backend/aptd.py:219
+msgid "Error"
+msgstr "エラー"
+
+#: ../softwarecenter/backend/channel.py:92
+msgid "Canonical Partners"
+msgstr "Canonical のパートナー"
+
+#: ../softwarecenter/backend/channel.py:94
+msgid "Other"
+msgstr "その他"
+
+#. TRANSLATORS: List of "grey-listed" words sperated with ";"
+#. Do not translate this list directly. Instead,
+#. provide a list of words in your language that people are likely
+#. to include in a search but that should normally be ignored in
+#. the search.
+#: ../softwarecenter/db/database.py:39
+msgid "app;application;package;program;programme;suite;tool"
+msgstr "アプリ;アプリケーション;パッケージ;プログラム;スイート;ツール"
+
+#. if we don't have a package and it has no arch/component its
+#. not available for us
+#: ../softwarecenter/db/database.py:171
+#: ../softwarecenter/view/appdetailsview.py:212
+#, python-format
+msgid "Sorry, '%s' is not available for this type of computer (%s)."
+msgstr "すみません、'%s' は、この種類のコンピュータ (%s) では利用できません。"
+
+#: ../softwarecenter/distro/__init__.py:45
+#, fuzzy
+msgid ""
+"Lets you choose from thousands of free applications available for your "
+"system."
+msgstr ""
+"Ubuntuで利用可能なたくさんのフリー・アプリケーションから選択しましょう。"
+
+#: ../softwarecenter/distro/Debian.py:44
+msgid "Provided by Debian"
+msgstr "Debian 提供のソフトウェア"
+
+#: ../softwarecenter/distro/Debian.py:47 ../softwarecenter/distro/Ubuntu.py:53
+#, python-format
+msgid "To remove %s, these items must be removed as well:"
+msgstr "%s を削除するには、以下のアイテムも削除する必要があります:"
+
+#: ../softwarecenter/distro/Debian.py:49 ../softwarecenter/distro/Ubuntu.py:55
+msgid "Remove All"
+msgstr "すべて削除"
+
+#: ../softwarecenter/distro/Debian.py:56 ../softwarecenter/distro/Ubuntu.py:62
+#, python-format
+msgid ""
+"If you uninstall %s, future updates will not include new items in <b>%s</b> "
+"set. Are you sure you want to continue?"
+msgstr ""
+"%s をアンインストールした場合、将来のアップデートでは %s セットにある新規アイ"
+"テムは含まれません。本当に操作を続けますか?"
+
+#: ../softwarecenter/distro/Debian.py:59 ../softwarecenter/distro/Debian.py:70
+#: ../softwarecenter/distro/Ubuntu.py:65 ../softwarecenter/distro/Ubuntu.py:76
+msgid "Remove Anyway"
+msgstr "とにかく削除する"
+
+#: ../softwarecenter/distro/Debian.py:66
+#, python-format
+msgid ""
+"%s is a core application in Debian. Uninstalling it may cause future "
+"upgrades to be incomplete. Are you sure you want to continue?"
+msgstr ""
+"%s は Debian の主要なアプリケーションです。アンインストールすると将来アップグ"
+"レードが不完全になる原因となります。本当に続けますか?"
+
+#. generic message
+#: ../softwarecenter/distro/Debian.py:79 ../softwarecenter/distro/Ubuntu.py:85
+msgid "Installed"
+msgstr "インストール済み"
+
+#: ../softwarecenter/distro/Debian.py:91 ../softwarecenter/distro/Ubuntu.py:97
+msgid "Unknown"
+msgstr "不明"
+
+#: ../softwarecenter/distro/Debian.py:93 ../softwarecenter/distro/Ubuntu.py:99
+msgid "Open Source"
+msgstr "オープンソース"
+
+#: ../softwarecenter/distro/Debian.py:95
+msgid "Open Source with proprietary parts"
+msgstr "プロプライエタリなものを含んだオープンソースソフトウェア"
+
+#: ../softwarecenter/distro/Debian.py:97
+#: ../softwarecenter/distro/Ubuntu.py:101
+msgid "Proprietary"
+msgstr "プロプライエタリ"
+
+#: ../softwarecenter/distro/Debian.py:98
+#: ../softwarecenter/distro/Ubuntu.py:102
+#, python-format
+msgid "License: %s"
+msgstr "ライセンス: %s"
+
+#: ../softwarecenter/distro/Ubuntu.py:42
+msgid ""
+"Lets you choose from thousands of free applications available for Ubuntu."
+msgstr ""
+"Ubuntuで利用可能なたくさんのフリー・アプリケーションから選択しましょう。"
+
+#: ../softwarecenter/distro/Ubuntu.py:50
+msgid "Provided by Ubuntu"
+msgstr "Ubuntu 提供のソフトウェア"
+
+#: ../softwarecenter/distro/Ubuntu.py:72
+#, python-format
+msgid ""
+"%s is a core application in Ubuntu. Uninstalling it may cause future "
+"upgrades to be incomplete. Are you sure you want to continue?"
+msgstr ""
+"%s は Ubuntu の主要なアプリケーションです。アンインストールすると将来アップグ"
+"レードが不完全になる原因となります。本当に続けますか?"
+
+#. TRANSLATORS: This text will be showed as price of the software
+#. its free
+#: ../softwarecenter/distro/Ubuntu.py:126
+#: ../softwarecenter/view/appdetailsview.py:500
+msgid "Free"
+msgstr "無料"
+
+#: ../softwarecenter/distro/Ubuntu.py:173
+#: ../softwarecenter/distro/Ubuntu.py:185
+#, python-format
+msgid ""
+"Canonical does no longer provide updates for %s in Ubuntu %s. Updates may be "
+"available in a newer version of Ubuntu."
+msgstr ""
+"Canonicalはもはや、%s のアップデートをUbuntu %s に対して提供していません。お"
+"そらく新しいバージョンのUbuntuで提供されているでしょう。"
+
+#: ../softwarecenter/distro/Ubuntu.py:178
+#, python-format
+msgid ""
+"Canonical provides critical updates for %(appname)s until "
+"%(support_end_month_str)s %(support_end_year)s."
+msgstr ""
+"Canonical は %(appname)s の重要なアップデートを  %(support_end_year)s 年 "
+"%(support_end_month_str)s まで提供します。"
+
+#: ../softwarecenter/distro/Ubuntu.py:190
+#, python-format
+msgid ""
+"Canonical provides critical updates supplied by the developers of "
+"%(appname)s until %(support_end_month_str)s %(support_end_year)s."
+msgstr ""
+"Canonical は %(appname)s の開発者から提供される重要なアップデートを  "
+"%(support_end_year)s 年 %(support_end_month_str)s まで提供します。"
+
+#: ../softwarecenter/distro/Ubuntu.py:200
+#, python-format
+msgid ""
+"Canonical does not provide updates for %s. Some updates may be provided by "
+"the third party vendor."
+msgstr ""
+"Canonical は %s のアップデートを提供しません。アップデートの一部はサードパー"
+"ティベンダによって提供されるかもしれません。"
+
+#: ../softwarecenter/distro/Ubuntu.py:204
+#, python-format
+msgid "Canonical provides critical updates for %s."
+msgstr "Canonical は %s の重要なアップデートを提供します。"
+
+#: ../softwarecenter/distro/Ubuntu.py:206
+#, python-format
+msgid "Canonical provides critical updates supplied by the developers of %s."
+msgstr "Canonical は %s の開発者から提供された重要なアップデートを提供します。"
+
+#: ../softwarecenter/distro/Ubuntu.py:209
+#, python-format
+msgid ""
+"Canonical does not provide updates for %s. Some updates may be provided by "
+"the Ubuntu community."
+msgstr ""
+"Canonical は %s のアップデートを提供しません。アップデートの一部は Ubuntu コ"
+"ミュニティによって提供されるかもしれません。"
+
+#: ../softwarecenter/distro/Ubuntu.py:212
+#, python-format
+msgid "Application %s has an unknown maintenance status."
+msgstr "アプリケーション %s のメンテナンス状態は不明です。"
+
+#: ../softwarecenter/view/appdetailsview.py:85
+msgid "Description"
+msgstr "詳細"
+
+#: ../softwarecenter/view/appdetailsview.py:202
+#, python-format
+msgid ""
+"This software is available from the '%s' source, which you are not currently "
+"using."
+msgstr ""
+"このソフトウェアは '%s' ソースから利用できますが、このソースは現在有効になっ"
+"ていません。"
+
+#: ../softwarecenter/view/appdetailsview.py:207
+msgid ""
+"To show information about this item, the software catalog needs updating."
+msgstr ""
+"このアイテムに関する情報を表示するには、ソフトウェア・カタログを更新してくだ"
+"さい。"
+
+#: ../softwarecenter/view/appdetailsview.py:264
+#: ../softwarecenter/view/appdetailsview.py:268
+msgid "Application Screenshot"
+msgstr "アプリケーションのスクリーンショット"
+
+#: ../softwarecenter/view/appdetailsview.py:296
+#, python-format
+msgid "Version: %s (%s)"
+msgstr "バージョン: %s (%s)"
+
+#: ../softwarecenter/view/appdetailsview.py:311
+msgid "Website"
+msgstr "ウェブサイト"
+
+#: ../softwarecenter/view/appdetailsview.py:317
+#, python-format
+msgid "Price: %s"
+msgstr "価格: %s"
+
+#: ../softwarecenter/view/appdetailsview.py:331
+msgid "No screenshot available"
+msgstr "スクリーンショットはありません"
+
+#: ../softwarecenter/view/appdetailsview.py:369
+#, python-format
+msgid "%s - Screenshot"
+msgstr "%s - スクリーンショット"
+
+#: ../softwarecenter/view/appdetailsview.py:492
+#: ../softwarecenter/view/appview.py:1146
+msgid "Remove"
+msgstr "削除"
+
+#. 32, the pixbufoverlay height
+#: ../softwarecenter/view/appdetailsview.py:498
+#: ../softwarecenter/view/appview.py:1146
+msgid "Install"
+msgstr "インストール"
+
+#: ../softwarecenter/view/appdetailsview.py:501
+msgid "Install - Free"
+msgstr "インストール - フリー"
+
+#. FIXME: deal with the EULA stuff
+#. FIXME: use a proper message here, but we are in string freeze
+#: ../softwarecenter/view/appdetailsview.py:515
+#: ../softwarecenter/view/appdetailsview.py:520
+msgid "Use This Source"
+msgstr "このソースを利用する"
+
+#: ../softwarecenter/view/appdetailsview.py:523
+msgid "Update Now"
+msgstr "いますぐアップデート"
+
+#. draw number of reviews
+#: ../softwarecenter/view/appview.py:657
+#, python-format
+msgid "%s review"
+msgid_plural "%s reviews"
+msgstr[0] "%s 件のレビュー"
+
+#: ../softwarecenter/view/appview.py:1147
+msgid "More Info"
+msgstr "詳細情報"
+
+#. home button
+#: ../softwarecenter/view/availablepane.py:123
+#: ../softwarecenter/view/viewswitcher.py:201
+msgid "Get Software"
+msgstr "ソフトウェアの入手"
+
+#: ../softwarecenter/view/availablepane.py:242
+#: ../softwarecenter/view/installedpane.py:79
+#: ../softwarecenter/view/channelpane.py:86
+msgid "Search Results"
+msgstr "検索結果"
+
+#: ../softwarecenter/view/availablepane.py:290
+#: ../softwarecenter/view/installedpane.py:158
+#: ../softwarecenter/view/channelpane.py:199
+#, python-format
+msgid "%s matching item"
+msgid_plural "%s matching items"
+msgstr[0] "%s 個のアイテムが該当します"
+
+#: ../softwarecenter/view/availablepane.py:294
+#: ../softwarecenter/view/channelpane.py:203
+#, python-format
+msgid "%s item available"
+msgid_plural "%s items available"
+msgstr[0] "%s 個のアイテムが利用できます"
+
+#: ../softwarecenter/view/catview.py:82 ../softwarecenter/view/catview.py:88
+msgid "Departments"
+msgstr "分類"
+
+#: ../softwarecenter/view/dialogs.py:45
+msgid "Details"
+msgstr "詳細"
+
+#: ../softwarecenter/view/dialogs.py:83
+msgid "Cancel"
+msgstr "キャンセル"
+
+#. FIXME: make this a generic pkgview widget
+#: ../softwarecenter/view/dialogs.py:96
+msgid "Dependency"
+msgstr "依存関係"
+
+#: ../softwarecenter/view/installedpane.py:84
+#: ../softwarecenter/view/viewswitcher.py:207
+msgid "Installed Software"
+msgstr "インストール済みソフトウェア"
+
+#: ../softwarecenter/view/installedpane.py:162
+#, python-format
+msgid "%s item installed"
+msgid_plural "%s items installed"
+msgstr[0] "%s 個のアイテムをインストールしました"
+
+#: ../softwarecenter/view/viewswitcher.py:77
+msgid "Software sources"
+msgstr "ソフトウェア・ソース"
+
+#: ../softwarecenter/view/viewswitcher.py:227
+#: ../softwarecenter/view/viewswitcher.py:232
+#, python-format
+msgid "In Progress (%i)"
+msgstr "進行中 (%i)"
+
+#: ../softwarecenter/view/widgets/backforward.py:61
+msgid "History Navigation"
+msgstr "ナビゲーションの履歴"
+
+#: ../softwarecenter/view/widgets/backforward.py:62
+msgid "Navigate forwards and backwards."
+msgstr "ページを進む・戻る"
+
+#: ../softwarecenter/view/widgets/backforward.py:76
+#: ../softwarecenter/view/widgets/backforward.py:90
+msgid "Back Button"
+msgstr "戻る ボタン"
+
+#: ../softwarecenter/view/widgets/backforward.py:77
+#: ../softwarecenter/view/widgets/backforward.py:91
+msgid "Navigates back."
+msgstr "前に戻る"
+
+#: ../softwarecenter/view/widgets/backforward.py:82
+#: ../softwarecenter/view/widgets/backforward.py:96
+msgid "Forward Button"
+msgstr "進む ボタン"
+
+#: ../softwarecenter/view/widgets/backforward.py:83
+#: ../softwarecenter/view/widgets/backforward.py:97
+msgid "Navigates forward."
+msgstr "次に進む"
+
+#: ../softwarecenter/view/widgets/pathbar_gtk_atk.py:54
+msgid "You are here:"
+msgstr "現在地:"
+
+#: ../softwarecenter/view/widgets/pathbar_gtk_atk.py:445
+#, python-format
+msgid "Navigates to the %s page."
+msgstr "%s ページに移動"

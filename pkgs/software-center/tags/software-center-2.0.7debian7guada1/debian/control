@@ -1,0 +1,59 @@
+Source: software-center
+Section: gnome
+Priority: optional
+Maintainer: Julian Andres Klode <jak@debian.org>
+Build-Depends: debhelper (>= 7.0.50),
+               dpkg-dev (>= 1.15.1~),
+               lsb-release,
+               gettext,
+               intltool,
+               po4a,
+               python,
+               python-central,
+               python-distutils-extra,
+               python-setuptools
+Standards-Version: 3.9.1
+XS-Python-Version: current
+Vcs-Bzr: http://bazaar.launchpad.net/~juliank/software-center/debian/
+
+Package: software-center
+Architecture: all
+Depends: ${python:Depends},
+         ${misc:Depends},
+         app-install-data (>= 0.4.0),
+         gnome-icon-theme,
+         gnome-menus,
+         lsb-release,
+         python-xapian,
+         python-apt (>= 0.7.93.1),
+         python-aptdaemon (>= 0.11+bzr342),
+         python-aptdaemon-gtk,
+         python-dbus,
+         policykit-1,
+         policykit-1-gnome | policykit-1-kde,
+         python-gtk2,
+         python-webkit,
+         python-xdg,
+         python-gconf,
+         aptdaemon (>= 0.11+bzr322)
+Recommends: apt-xapian-index, update-notifier, software-properties-gtk
+Conflicts: software-store, gnome-app-install (<< 1)
+Replaces: software-store, gnome-app-install
+Provides: software-store, gnome-app-install
+XB-Python-Version: ${python:Versions}
+Description: Utility for browsing, installing, and removing applications
+ The Software Center lets you browse and install thousands of free
+ applications. You can view available applications by category, or
+ search quickly by name or description. You can also examine the
+ applications already installed, and remove those you no longer need.
+ .
+ To install or remove software using the Center, you need administrator
+ access on the computer.
+
+Package: gnome-app-install
+Architecture: all
+Depends: software-center
+Section: oldlibs
+Description: dummy upgrade package for gnome-app-install -> software-center
+ This is a transitional package so that gnome-app-install users get
+ software-center on upgrades. It can be safely removed.

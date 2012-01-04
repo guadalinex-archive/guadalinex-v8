@@ -1,0 +1,32 @@
+[type: python] software-center
+[type. python] utils/update-software-center
+[type: gettext/glade] data/ui/SoftwareCenter.ui
+data/ubuntu-software-center.desktop.in
+data/unbranded-software-center.desktop.in
+[type: gettext/xml] data/software-center.menu.in
+[type: gettext/xml] data/featured.menu.in
+softwarecenter/__init__.py
+softwarecenter/app.py
+softwarecenter/SimpleGtkbuilderApp.py
+softwarecenter/apt/aptcache.py
+softwarecenter/backend/aptd.py
+softwarecenter/backend/channel.py
+softwarecenter/db/database.py
+softwarecenter/db/update.py
+softwarecenter/distro/__init__.py
+softwarecenter/distro/Debian.py
+softwarecenter/distro/Ubuntu.py
+softwarecenter/view/__init__.py
+softwarecenter/view/appdetailsview.py
+softwarecenter/view/appview.py
+softwarecenter/view/availablepane.py
+softwarecenter/view/catview.py
+softwarecenter/view/dialogs.py
+softwarecenter/view/installed_view.py
+softwarecenter/view/installedpane.py
+softwarecenter/view/pendingview.py
+softwarecenter/view/softwarepane.py
+softwarecenter/view/channelpane.py
+softwarecenter/view/viewswitcher.py
+softwarecenter/view/widgets/backforward.py
+softwarecenter/view/widgets/pathbar_gtk_atk.py

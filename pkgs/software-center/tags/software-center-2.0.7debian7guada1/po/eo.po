@@ -1,0 +1,712 @@
+# Esperanto translation for software-store
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the software-store package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: software-store\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-11-21 21:04+0100\n"
+"PO-Revision-Date: 2010-07-20 09:42+0000\n"
+"Last-Translator: Gary Lasker <gary.lasker@canonical.com>\n"
+"Language-Team: Esperanto <eo@li.org>\n"
+"Language: eo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2010-11-21 19:32+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ../data/ui/SoftwareCenter.ui.h:1
+#, fuzzy
+msgid "&#xA9;2009-2010 Canonical"
+msgstr "&#xA9;2009 Canonical"
+
+#: ../data/ui/SoftwareCenter.ui.h:2
+msgid "Copy _Web Link"
+msgstr "Kopii _ligilon"
+
+#: ../data/ui/SoftwareCenter.ui.h:3
+msgid "Rebuilding application catalog..."
+msgstr "Rekonstruas aplikaĵan katalogon..."
+
+#: ../data/ui/SoftwareCenter.ui.h:4
+msgid "Search..."
+msgstr "Serĉi..."
+
+#: ../data/ui/SoftwareCenter.ui.h:5
+msgid "Software Center _Help"
+msgstr "Programareja _Helpo"
+
+#: ../data/ui/SoftwareCenter.ui.h:6
+msgid "_All Software"
+msgstr "_Ĉiuj programoj"
+
+#: ../data/ui/SoftwareCenter.ui.h:7
+msgid "_Canonical-Maintained Software"
+msgstr "Programaro prizorgata de _Canonical"
+
+#: ../data/ui/SoftwareCenter.ui.h:8
+msgid "_Edit"
+msgstr "_Redakti"
+
+#: ../data/ui/SoftwareCenter.ui.h:9
+msgid "_File"
+msgstr "_Dosiero"
+
+#: ../data/ui/SoftwareCenter.ui.h:10
+msgid "_Help"
+msgstr "_Helpo"
+
+#: ../data/ui/SoftwareCenter.ui.h:11
+msgid "_Install"
+msgstr "_Instali"
+
+#: ../data/ui/SoftwareCenter.ui.h:12
+msgid "_Software Sources..."
+msgstr "_Programaraj fontoj..."
+
+#: ../data/ui/SoftwareCenter.ui.h:13
+msgid "_View"
+msgstr "_Vido"
+
+#: ../data/ubuntu-software-center.desktop.in.h:1
+msgid ""
+"Lets you choose from thousands of free applications available for Ubuntu"
+msgstr "Lasas vin elekti el miloj da senkostaj aplikaĵoj haveblaj por Ubuntu"
+
+#: ../data/ubuntu-software-center.desktop.in.h:2
+#: ../data/unbranded-software-center.desktop.in.h:2
+#: ../softwarecenter/distro/__init__.py:39
+msgid "Software Center"
+msgstr "Programarejo"
+
+#: ../data/ubuntu-software-center.desktop.in.h:3
+#: ../softwarecenter/distro/Ubuntu.py:39
+msgid "Ubuntu Software Center"
+msgstr "Ubuntu-programarejo"
+
+#: ../data/unbranded-software-center.desktop.in.h:1
+#, fuzzy
+msgid ""
+"Lets you choose from thousands of free applications available for your "
+"system "
+msgstr "Lasas vin elekti el miloj da senkostaj aplikaĵoj haveblaj por Ubuntu"
+
+#: ../data/software-center.menu.in.h:1
+msgid "3D"
+msgstr "Tridimensia"
+
+#: ../data/software-center.menu.in.h:2
+msgid "Accessories"
+msgstr "Utilaĵoj"
+
+#: ../data/software-center.menu.in.h:3
+msgid "Arcade"
+msgstr "Arkado"
+
+#: ../data/software-center.menu.in.h:4
+msgid "Astronomy"
+msgstr "Astronomio"
+
+#: ../data/software-center.menu.in.h:5
+msgid "Biology"
+msgstr "Biologio"
+
+#: ../data/software-center.menu.in.h:6
+msgid "Board Games"
+msgstr "Tabulludoj"
+
+#: ../data/software-center.menu.in.h:7
+msgid "Card Games"
+msgstr "Kartludoj"
+
+#: ../data/software-center.menu.in.h:8
+msgid "Chat"
+msgstr "Babilado"
+
+#: ../data/software-center.menu.in.h:9
+msgid "Chemistry"
+msgstr "Kemio"
+
+#: ../data/software-center.menu.in.h:10
+msgid "Computer Science &amp; Robotics"
+msgstr "Komputilscienco &amp; robotoj"
+
+#: ../data/software-center.menu.in.h:11
+msgid "Debugging"
+msgstr "Sencimigo"
+
+#: ../data/software-center.menu.in.h:12
+msgid "Developer Tools"
+msgstr "Programistaj iloj"
+
+#: ../data/software-center.menu.in.h:13
+msgid "Drawing"
+msgstr "Desegno"
+
+#: ../data/software-center.menu.in.h:14
+msgid "Education"
+msgstr "Edukado"
+
+#: ../data/software-center.menu.in.h:15
+msgid "Electronics"
+msgstr "Elektroniko"
+
+#: ../data/software-center.menu.in.h:16
+msgid "Engineering"
+msgstr "Inĝenierado"
+
+#: ../data/software-center.menu.in.h:17
+msgid "File Sharing"
+msgstr "Dosier-kunhavigo"
+
+#: ../data/software-center.menu.in.h:18
+msgid "Fonts"
+msgstr "Tiparoj"
+
+#: ../data/software-center.menu.in.h:19
+msgid "Games"
+msgstr "Ludoj"
+
+#: ../data/software-center.menu.in.h:20
+msgid "Geography"
+msgstr "Geografio"
+
+#: ../data/software-center.menu.in.h:21
+msgid "Geology"
+msgstr "Geologio"
+
+#: ../data/software-center.menu.in.h:22
+msgid "Graphic Interface Design"
+msgstr "Skizado de grafikaj interfacoj"
+
+#: ../data/software-center.menu.in.h:23
+msgid "Graphics"
+msgstr "Grafiko"
+
+#: ../data/software-center.menu.in.h:24
+msgid "Haskell"
+msgstr "Haskell"
+
+#: ../data/software-center.menu.in.h:25
+msgid "IDEs"
+msgstr "Evoluigaj ilaroj"
+
+#: ../data/software-center.menu.in.h:26
+msgid "Internet"
+msgstr "Interreto"
+
+#: ../data/software-center.menu.in.h:27
+msgid "Java"
+msgstr "Ĝavo"
+
+#: ../data/software-center.menu.in.h:28
+msgid "Libraries"
+msgstr "Bibliotekoj"
+
+#: ../data/software-center.menu.in.h:29
+msgid "Lisp"
+msgstr "Lisp"
+
+#: ../data/software-center.menu.in.h:30
+msgid "Localization"
+msgstr "Asimilado"
+
+#: ../data/software-center.menu.in.h:31
+msgid "Mail"
+msgstr "Retpoŝto"
+
+#: ../data/software-center.menu.in.h:32
+msgid "Mathematics"
+msgstr "Matematiko"
+
+#: ../data/software-center.menu.in.h:33
+msgid "Mono/CLI"
+msgstr "Mono/KLI"
+
+#: ../data/software-center.menu.in.h:34
+msgid "Multimedia"
+msgstr "Plurmedio"
+
+#: ../data/software-center.menu.in.h:35
+msgid "OCaml"
+msgstr "OCami"
+
+#: ../data/software-center.menu.in.h:36
+msgid "Office"
+msgstr "Oficejo"
+
+#: ../data/software-center.menu.in.h:37
+msgid "Painting &amp; Editing"
+msgstr "Pentrado &amp; redaktado"
+
+#: ../data/software-center.menu.in.h:38
+msgid "Perl"
+msgstr "Perl"
+
+#: ../data/software-center.menu.in.h:39
+msgid "Photography"
+msgstr "Fotado"
+
+#: ../data/software-center.menu.in.h:40
+msgid "Physics"
+msgstr "Fiziko"
+
+#: ../data/software-center.menu.in.h:41
+msgid "Profiling"
+msgstr "Karakterizado"
+
+#: ../data/software-center.menu.in.h:42
+msgid "Publishing"
+msgstr "Publikigo"
+
+#: ../data/software-center.menu.in.h:43
+msgid "Puzzles"
+msgstr "Puzloj"
+
+#: ../data/software-center.menu.in.h:44
+msgid "Python"
+msgstr "Python"
+
+#: ../data/software-center.menu.in.h:45
+msgid "Role Playing"
+msgstr "Rolludado"
+
+#: ../data/software-center.menu.in.h:46
+msgid "Ruby"
+msgstr "Ruby"
+
+#: ../data/software-center.menu.in.h:47
+msgid "Scanning &amp; OCR"
+msgstr "Skanado &amp; tekstrekono"
+
+#: ../data/software-center.menu.in.h:48
+msgid "Science &amp; Engineering"
+msgstr "Scienco &amp; enĝinierado"
+
+#: ../data/software-center.menu.in.h:49
+msgid "Simulation"
+msgstr "Simulado"
+
+#: ../data/software-center.menu.in.h:50
+msgid "Sports"
+msgstr "Sporto"
+
+#: ../data/software-center.menu.in.h:51
+msgid "System"
+msgstr "Sistemo"
+
+#: ../data/software-center.menu.in.h:52
+msgid "Themes &amp; Tweaks"
+msgstr "Etosoj &amp; optimumigoj"
+
+#: ../data/software-center.menu.in.h:53
+msgid "Universal Access"
+msgstr "Universala atingo"
+
+#: ../data/software-center.menu.in.h:54
+msgid "Version Control"
+msgstr "Versikontrolo"
+
+#: ../data/software-center.menu.in.h:55
+msgid "Viewers"
+msgstr "Vidigiloj"
+
+#: ../data/software-center.menu.in.h:56
+msgid "Web Browsers"
+msgstr "Ret-foliumiloj"
+
+#: ../data/software-center.menu.in.h:57
+msgid "Web Development"
+msgstr "Reta programado"
+
+#: ../data/featured.menu.in.h:1
+msgid "Featured Applications"
+msgstr "Rekomendataj aplikaĵoj"
+
+#: ../softwarecenter/app.py:148
+msgid "Sorry, can not open the software database"
+msgstr "Bedaŭrinde ne eblis malfermi la programar-datumbazon"
+
+#: ../softwarecenter/app.py:149
+msgid "Please re-install the 'software-center' package."
+msgstr "Bonvolu reinstali la pakaĵon 'software-center'."
+
+#: ../softwarecenter/backend/aptd.py:219
+msgid "Error"
+msgstr "Eraro"
+
+#: ../softwarecenter/backend/channel.py:92
+msgid "Canonical Partners"
+msgstr "Partneroj de Canonical"
+
+#: ../softwarecenter/backend/channel.py:94
+msgid "Other"
+msgstr "Aliaj"
+
+#. TRANSLATORS: List of "grey-listed" words sperated with ";"
+#. Do not translate this list directly. Instead,
+#. provide a list of words in your language that people are likely
+#. to include in a search but that should normally be ignored in
+#. the search.
+#: ../softwarecenter/db/database.py:39
+msgid "app;application;package;program;programme;suite;tool"
+msgstr "apl;aplikaĵo;pakaĵo;programo;programaro;ilo"
+
+#. if we don't have a package and it has no arch/component its
+#. not available for us
+#: ../softwarecenter/db/database.py:171
+#: ../softwarecenter/view/appdetailsview.py:212
+#, python-format
+msgid "Sorry, '%s' is not available for this type of computer (%s)."
+msgstr "'%s' bedaŭrinde ne haveblas por ĉi tia komputilo (%s)."
+
+#: ../softwarecenter/distro/__init__.py:45
+#, fuzzy
+msgid ""
+"Lets you choose from thousands of free applications available for your "
+"system."
+msgstr "Lasas vin elekti milojn da senkostaj aplikaĵoj haveblaj por Ubuntu."
+
+#: ../softwarecenter/distro/Debian.py:44
+msgid "Provided by Debian"
+msgstr "Provizita de Debian"
+
+#: ../softwarecenter/distro/Debian.py:47 ../softwarecenter/distro/Ubuntu.py:53
+#, python-format
+msgid "To remove %s, these items must be removed as well:"
+msgstr "Por forigi %s, ĉi tiuj elementoj devas ankaŭ esti forigataj:"
+
+#: ../softwarecenter/distro/Debian.py:49 ../softwarecenter/distro/Ubuntu.py:55
+msgid "Remove All"
+msgstr "Forigi Ĉiujn"
+
+#: ../softwarecenter/distro/Debian.py:56 ../softwarecenter/distro/Ubuntu.py:62
+#, python-format
+msgid ""
+"If you uninstall %s, future updates will not include new items in <b>%s</b> "
+"set. Are you sure you want to continue?"
+msgstr ""
+"Se vi malinstalas %s-n, estontaj ĝisdatigoj ne inkluzivos novajn elementojn "
+"en <b>%s</b>-aro. Ĉu vi certe volas daŭrigi?"
+
+#: ../softwarecenter/distro/Debian.py:59 ../softwarecenter/distro/Debian.py:70
+#: ../softwarecenter/distro/Ubuntu.py:65 ../softwarecenter/distro/Ubuntu.py:76
+msgid "Remove Anyway"
+msgstr "Tamen forigi"
+
+#: ../softwarecenter/distro/Debian.py:66
+#, python-format
+msgid ""
+"%s is a core application in Debian. Uninstalling it may cause future "
+"upgrades to be incomplete. Are you sure you want to continue?"
+msgstr ""
+"%s estas kerna aplikaĵo en Debian. Malinstalo de ĝi eble kaŭzas nekompletajn "
+"ĝisdatigojn estonte. Ĉu vi vere volas daŭrigi?"
+
+#. generic message
+#: ../softwarecenter/distro/Debian.py:79 ../softwarecenter/distro/Ubuntu.py:85
+msgid "Installed"
+msgstr "Instalita"
+
+#: ../softwarecenter/distro/Debian.py:91 ../softwarecenter/distro/Ubuntu.py:97
+msgid "Unknown"
+msgstr "Nekonata"
+
+#: ../softwarecenter/distro/Debian.py:93 ../softwarecenter/distro/Ubuntu.py:99
+msgid "Open Source"
+msgstr "Libera Programaro"
+
+#: ../softwarecenter/distro/Debian.py:95
+msgid "Open Source with proprietary parts"
+msgstr "Malfermita kodo kun fermitaj partoj"
+
+#: ../softwarecenter/distro/Debian.py:97
+#: ../softwarecenter/distro/Ubuntu.py:101
+msgid "Proprietary"
+msgstr "Mallibera"
+
+#: ../softwarecenter/distro/Debian.py:98
+#: ../softwarecenter/distro/Ubuntu.py:102
+#, python-format
+msgid "License: %s"
+msgstr "Permesilo: %s"
+
+#: ../softwarecenter/distro/Ubuntu.py:42
+msgid ""
+"Lets you choose from thousands of free applications available for Ubuntu."
+msgstr "Lasas vin elekti milojn da senkostaj aplikaĵoj haveblaj por Ubuntu."
+
+#: ../softwarecenter/distro/Ubuntu.py:50
+msgid "Provided by Ubuntu"
+msgstr "Provizita de Ubuntu"
+
+#: ../softwarecenter/distro/Ubuntu.py:72
+#, python-format
+msgid ""
+"%s is a core application in Ubuntu. Uninstalling it may cause future "
+"upgrades to be incomplete. Are you sure you want to continue?"
+msgstr ""
+"%s estas kerna aplikaĵo en Ubuntu. Malinstalo de ĝi kaŭzas ke estontaj "
+"promocioj estos nekompletaj. Ĉu vi certe volas daŭrigi?"
+
+#. TRANSLATORS: This text will be showed as price of the software
+#. its free
+#: ../softwarecenter/distro/Ubuntu.py:126
+#: ../softwarecenter/view/appdetailsview.py:500
+msgid "Free"
+msgstr "Senkosta"
+
+#: ../softwarecenter/distro/Ubuntu.py:173
+#: ../softwarecenter/distro/Ubuntu.py:185
+#, python-format
+msgid ""
+"Canonical does no longer provide updates for %s in Ubuntu %s. Updates may be "
+"available in a newer version of Ubuntu."
+msgstr ""
+"Canonical ne plu provizas ĝisdatigojn por %s en Ubuntu %s. Ĝisdatigoj povas "
+"esti haveblaj en pli nova versio de Ubuntu."
+
+#: ../softwarecenter/distro/Ubuntu.py:178
+#, python-format
+msgid ""
+"Canonical provides critical updates for %(appname)s until "
+"%(support_end_month_str)s %(support_end_year)s."
+msgstr ""
+"Canonical provizas kritikajn ĝisdatigojn por %(appname)s ĝis "
+"%(support_end_month_str)s %(support_end_year)s."
+
+#: ../softwarecenter/distro/Ubuntu.py:190
+#, python-format
+msgid ""
+"Canonical provides critical updates supplied by the developers of "
+"%(appname)s until %(support_end_month_str)s %(support_end_year)s."
+msgstr ""
+"Canonical provizas kritikajn ĝisdatigojn havigatajn de la programistoj de "
+"%(appname)s ĝis %(support_end_month_str)s %(support_end_year)s."
+
+#: ../softwarecenter/distro/Ubuntu.py:200
+#, python-format
+msgid ""
+"Canonical does not provide updates for %s. Some updates may be provided by "
+"the third party vendor."
+msgstr ""
+"Canonical ne provizas ĝisdatigojn por %s. Kelkaj ĝisdatigoj povas esti "
+"provizataj de ekstera liveranto."
+
+#: ../softwarecenter/distro/Ubuntu.py:204
+#, python-format
+msgid "Canonical provides critical updates for %s."
+msgstr "Canonical provizas kritikajn ĝisdatigojn por %s."
+
+#: ../softwarecenter/distro/Ubuntu.py:206
+#, python-format
+msgid "Canonical provides critical updates supplied by the developers of %s."
+msgstr ""
+"Canonical provizas kritikajn ĝisdatigojn havigatajn de la programistoj de %s."
+
+#: ../softwarecenter/distro/Ubuntu.py:209
+#, python-format
+msgid ""
+"Canonical does not provide updates for %s. Some updates may be provided by "
+"the Ubuntu community."
+msgstr ""
+"Canonical ne provizas ĝisdatigojn por %s. Kelkaj ĝisdatigoj povas esti "
+"provizataj de la Ubuntu-komunumo."
+
+#: ../softwarecenter/distro/Ubuntu.py:212
+#, python-format
+msgid "Application %s has an unknown maintenance status."
+msgstr "Aplikaĵo %s havas nekonatan prizorgan staton."
+
+#: ../softwarecenter/view/appdetailsview.py:85
+msgid "Description"
+msgstr "Priskribo"
+
+#: ../softwarecenter/view/appdetailsview.py:202
+#, python-format
+msgid ""
+"This software is available from the '%s' source, which you are not currently "
+"using."
+msgstr "Ĉi tiu programaro estas havebla el la fonto '%s', kiun vi nun ne uzas."
+
+#: ../softwarecenter/view/appdetailsview.py:207
+msgid ""
+"To show information about this item, the software catalog needs updating."
+msgstr ""
+"Por montri informojn pri ĉi tiu ero, necesas ĝisdatigi la programaran "
+"katalogon."
+
+#: ../softwarecenter/view/appdetailsview.py:264
+#: ../softwarecenter/view/appdetailsview.py:268
+msgid "Application Screenshot"
+msgstr "Aplikaĵa ekranbildo"
+
+#: ../softwarecenter/view/appdetailsview.py:296
+#, python-format
+msgid "Version: %s (%s)"
+msgstr "Versio: %s (%s)"
+
+#: ../softwarecenter/view/appdetailsview.py:311
+msgid "Website"
+msgstr "Retejo"
+
+#: ../softwarecenter/view/appdetailsview.py:317
+#, python-format
+msgid "Price: %s"
+msgstr "Prezo: %s"
+
+#: ../softwarecenter/view/appdetailsview.py:331
+msgid "No screenshot available"
+msgstr "Ne disponeblas ekranbildo"
+
+#: ../softwarecenter/view/appdetailsview.py:369
+#, python-format
+msgid "%s - Screenshot"
+msgstr "%s - Ekranbildo"
+
+#: ../softwarecenter/view/appdetailsview.py:492
+#: ../softwarecenter/view/appview.py:1146
+msgid "Remove"
+msgstr "Forigi"
+
+#. 32, the pixbufoverlay height
+#: ../softwarecenter/view/appdetailsview.py:498
+#: ../softwarecenter/view/appview.py:1146
+msgid "Install"
+msgstr "Instali"
+
+#: ../softwarecenter/view/appdetailsview.py:501
+msgid "Install - Free"
+msgstr "Instali - senkoste"
+
+#. FIXME: deal with the EULA stuff
+#. FIXME: use a proper message here, but we are in string freeze
+#: ../softwarecenter/view/appdetailsview.py:515
+#: ../softwarecenter/view/appdetailsview.py:520
+msgid "Use This Source"
+msgstr "Uzi ĉi tiun fonton"
+
+#: ../softwarecenter/view/appdetailsview.py:523
+msgid "Update Now"
+msgstr "Ĝisdatigi nun"
+
+#. draw number of reviews
+#: ../softwarecenter/view/appview.py:657
+#, python-format
+msgid "%s review"
+msgid_plural "%s reviews"
+msgstr[0] "%s recenzo"
+msgstr[1] "%s recenzoj"
+
+#: ../softwarecenter/view/appview.py:1147
+msgid "More Info"
+msgstr "Pliaj informoj"
+
+#. home button
+#: ../softwarecenter/view/availablepane.py:123
+#: ../softwarecenter/view/viewswitcher.py:201
+msgid "Get Software"
+msgstr "Akiri programaron"
+
+#: ../softwarecenter/view/availablepane.py:242
+#: ../softwarecenter/view/installedpane.py:79
+#: ../softwarecenter/view/channelpane.py:86
+msgid "Search Results"
+msgstr "Serĉrezultoj"
+
+#: ../softwarecenter/view/availablepane.py:290
+#: ../softwarecenter/view/installedpane.py:158
+#: ../softwarecenter/view/channelpane.py:199
+#, python-format
+msgid "%s matching item"
+msgid_plural "%s matching items"
+msgstr[0] "%s kongruanta elemento"
+msgstr[1] "%s kongruantaj elementoj"
+
+#: ../softwarecenter/view/availablepane.py:294
+#: ../softwarecenter/view/channelpane.py:203
+#, python-format
+msgid "%s item available"
+msgid_plural "%s items available"
+msgstr[0] "%s elemento havebla"
+msgstr[1] "%s elementoj haveblaj"
+
+#: ../softwarecenter/view/catview.py:82 ../softwarecenter/view/catview.py:88
+msgid "Departments"
+msgstr "Fakoj"
+
+#: ../softwarecenter/view/dialogs.py:45
+msgid "Details"
+msgstr "Detaloj"
+
+#: ../softwarecenter/view/dialogs.py:83
+msgid "Cancel"
+msgstr "Nuligi"
+
+#. FIXME: make this a generic pkgview widget
+#: ../softwarecenter/view/dialogs.py:96
+msgid "Dependency"
+msgstr "Dependeco"
+
+#: ../softwarecenter/view/installedpane.py:84
+#: ../softwarecenter/view/viewswitcher.py:207
+msgid "Installed Software"
+msgstr "Instalita programaro"
+
+#: ../softwarecenter/view/installedpane.py:162
+#, python-format
+msgid "%s item installed"
+msgid_plural "%s items installed"
+msgstr[0] "%s ero instalita"
+msgstr[1] "%s eroj instalitaj"
+
+#: ../softwarecenter/view/viewswitcher.py:77
+msgid "Software sources"
+msgstr "Programar-fontoj"
+
+#: ../softwarecenter/view/viewswitcher.py:227
+#: ../softwarecenter/view/viewswitcher.py:232
+#, python-format
+msgid "In Progress (%i)"
+msgstr "Farata (%i)"
+
+#: ../softwarecenter/view/widgets/backforward.py:61
+msgid "History Navigation"
+msgstr "Foliumi historion"
+
+#: ../softwarecenter/view/widgets/backforward.py:62
+msgid "Navigate forwards and backwards."
+msgstr "Foliumi antaŭen kaj malantaŭen."
+
+#: ../softwarecenter/view/widgets/backforward.py:76
+#: ../softwarecenter/view/widgets/backforward.py:90
+msgid "Back Button"
+msgstr "Malantaŭen-butono"
+
+#: ../softwarecenter/view/widgets/backforward.py:77
+#: ../softwarecenter/view/widgets/backforward.py:91
+msgid "Navigates back."
+msgstr "Foliumas malantaŭen."
+
+#: ../softwarecenter/view/widgets/backforward.py:82
+#: ../softwarecenter/view/widgets/backforward.py:96
+msgid "Forward Button"
+msgstr "Antaŭen-butono"
+
+#: ../softwarecenter/view/widgets/backforward.py:83
+#: ../softwarecenter/view/widgets/backforward.py:97
+msgid "Navigates forward."
+msgstr "Foliumas antaŭen."
+
+#: ../softwarecenter/view/widgets/pathbar_gtk_atk.py:54
+msgid "You are here:"
+msgstr "Vi estas ĉi tie:"
+
+#: ../softwarecenter/view/widgets/pathbar_gtk_atk.py:445
+#, python-format
+msgid "Navigates to the %s page."
+msgstr "Foliumas al la %s-a paĝo."

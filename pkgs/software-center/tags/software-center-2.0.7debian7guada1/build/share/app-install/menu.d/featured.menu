@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Menu>
+  <Menu>
+    <Name>Featured Applications</Name>
+    <Name xml:lang="af">Aanbeveelde programme</Name>
+    <Name xml:lang="ar">تطبيقات مزكاة</Name>
+    <Name xml:lang="ast">Aplicaciones destacaes</Name>
+    <Name xml:lang="be">Папулярныя дадаткі</Name>
+    <Name xml:lang="bg">Топ програми</Name>
+    <Name xml:lang="bn">নির্বাচিত অ্যাপ্লিকেশনসমূহ</Name>
+    <Name xml:lang="br">Arloadoù kinniget</Name>
+    <Name xml:lang="bs">Istaknute aplikacije</Name>
+    <Name xml:lang="ca">Aplicacions destacades</Name>
+    <Name xml:lang="crh">Fariqaviy Uyğulamalar</Name>
+    <Name xml:lang="cs">Oblíbené aplikace</Name>
+    <Name xml:lang="csb">Wëprzédnioné aplikacëje</Name>
+    <Name xml:lang="da">Fremhævede programmer</Name>
+    <Name xml:lang="de">Ausgesuchte Anwendungen</Name>
+    <Name xml:lang="el">Προτεινόμενες εφαρμογές</Name>
+    <Name xml:lang="en_AU">Featured Applications</Name>
+    <Name xml:lang="en_CA">Featured Applications</Name>
+    <Name xml:lang="en_GB">Featured Applications</Name>
+    <Name xml:lang="eo">Rekomendataj aplikaĵoj</Name>
+    <Name xml:lang="es">Aplicaciones destacadas</Name>
+    <Name xml:lang="et">Soovitatud rakendused</Name>
+    <Name xml:lang="eu">Nabarmendutako aplikazioak</Name>
+    <Name xml:lang="fi">Suositellut sovellukset</Name>
+    <Name xml:lang="fr">Applications phares</Name>
+    <Name xml:lang="fy">Oanbefelle programma's</Name>
+    <Name xml:lang="gl">Aplicativos destacados</Name>
+    <Name xml:lang="gv">Claaghyn ard</Name>
+    <Name xml:lang="he">יישומים מוצעים</Name>
+    <Name xml:lang="hi">अनुप्रयोग विशेषताएं</Name>
+    <Name xml:lang="hr">Popularne aplikacije</Name>
+    <Name xml:lang="hu">Kiemelt alkalmazások</Name>
+    <Name xml:lang="id">Aplikasi Unggulan</Name>
+    <Name xml:lang="is">Sérstök forrit</Name>
+    <Name xml:lang="it">Applicazioni consigliate</Name>
+    <Name xml:lang="ja">注目のアプリケーション</Name>
+    <Name xml:lang="kk">Функционалды бағдарламалар</Name>
+    <Name xml:lang="kn">ವಿಶೇಷ ಅನ್ವಯಿಕಗಳು</Name>
+    <Name xml:lang="ko">주요 응용 프로그램</Name>
+    <Name xml:lang="lb">Ervirgehuewen Applikatiounen</Name>
+    <Name xml:lang="lt">Populiariausios programos</Name>
+    <Name xml:lang="lv">Lietotņu izlase</Name>
+    <Name xml:lang="mk">Препорачани апликации</Name>
+    <Name xml:lang="ms">Aplikasi-aplikasi Utama</Name>
+    <Name xml:lang="nb">Utvalgte programmer</Name>
+    <Name xml:lang="nds">Unnerstütte Programme</Name>
+    <Name xml:lang="nl">Aanbevolen toepassingen</Name>
+    <Name xml:lang="nn">Framheva programvare</Name>
+    <Name xml:lang="oc">Aplicacions màgers</Name>
+    <Name xml:lang="pl">Programy wyróżnione</Name>
+    <Name xml:lang="pt">Aplicações em Destaque</Name>
+    <Name xml:lang="pt_BR">Aplicativos destacados</Name>
+    <Name xml:lang="ro">Aplicații recomandate</Name>
+    <Name xml:lang="ru">Рекомендуемые приложения</Name>
+    <Name xml:lang="sk">Odporúčané aplikácie</Name>
+    <Name xml:lang="sl">Priporočeni programi</Name>
+    <Name xml:lang="sq">Programet e Përafërta</Name>
+    <Name xml:lang="sr">Издвојени програми</Name>
+    <Name xml:lang="sv">Rekommenderade program</Name>
+    <Name xml:lang="te">ముఖపత్ర స్థాయిపొందిన అనువర్తనాలు</Name>
+    <Name xml:lang="th">โปรแกรมแนะนำ</Name>
+    <Name xml:lang="tr">Öne Çıkan Uygulamalar</Name>
+    <Name xml:lang="ug">ئالقىشلىنىۋاتقان دېتاللار</Name>
+    <Name xml:lang="uk">Рекомендовані програми</Name>
+    <Name xml:lang="vi">Ứng dụng được đề cao</Name>
+    <Name xml:lang="zh_CN">特色应用程序</Name>
+    <Name xml:lang="zh_HK">特色應用程式</Name>
+    <Name xml:lang="zh_TW">特色應用程式</Name>
+    <SCIcon>gtk-about</SCIcon>
+    <Include>
+      <Or>
+	<SCPkgname>cheese</SCPkgname>
+	<SCPkgname>homebank</SCPkgname>
+	<SCPkgname>stellarium</SCPkgname>
+	<SCPkgname>gnome-do</SCPkgname>
+	<SCPkgname>deja-dup</SCPkgname>
+	<SCPkgname>gimp</SCPkgname>
+	<SCPkgname>inkscape</SCPkgname>
+	<SCPkgname>blender</SCPkgname>
+	<SCPkgname>audacity</SCPkgname>
+	<SCPkgname>gufw</SCPkgname>
+	<SCPkgname>frozen-bubble</SCPkgname>
+	<SCPkgname>fretsonfire-game</SCPkgname>
+	<SCPkgname>pingus</SCPkgname>
+	<SCPkgname>moovida</SCPkgname>
+	<SCPkgname>liferea</SCPkgname>
+	<SCPkgname>arista</SCPkgname>
+	<SCPkgname>gtg</SCPkgname>
+	<SCPkgname>freeciv</SCPkgname>
+	<SCPkgname>supertuxcart</SCPkgname>
+	<SCPkgname>tumiki-fighters</SCPkgname>
+	<SCPkgname>tuxpaint</SCPkgname>
+      </Or>
+    </Include>
+  </Menu>
+</Menu>

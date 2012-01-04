@@ -1,0 +1,709 @@
+# Estonian translation for software-store
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the software-store package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: software-store\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-11-21 21:04+0100\n"
+"PO-Revision-Date: 2010-07-20 09:42+0000\n"
+"Last-Translator: Gary Lasker <gary.lasker@canonical.com>\n"
+"Language-Team: Estonian <et@li.org>\n"
+"Language: et\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2010-11-21 19:32+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ../data/ui/SoftwareCenter.ui.h:1
+#, fuzzy
+msgid "&#xA9;2009-2010 Canonical"
+msgstr "&#xA9;2009 Canonical"
+
+#: ../data/ui/SoftwareCenter.ui.h:2
+msgid "Copy _Web Link"
+msgstr "Kopeeri _veebilink"
+
+#: ../data/ui/SoftwareCenter.ui.h:3
+msgid "Rebuilding application catalog..."
+msgstr "Rakenduste kataloogi taasloomine..."
+
+#: ../data/ui/SoftwareCenter.ui.h:4
+msgid "Search..."
+msgstr "Otsimine..."
+
+#: ../data/ui/SoftwareCenter.ui.h:5
+msgid "Software Center _Help"
+msgstr "Tarkvarakeskuse _abi"
+
+#: ../data/ui/SoftwareCenter.ui.h:6
+msgid "_All Software"
+msgstr "_Kogu tarkvara"
+
+#: ../data/ui/SoftwareCenter.ui.h:7
+msgid "_Canonical-Maintained Software"
+msgstr "_Canonicali hallatav tarkvara"
+
+#: ../data/ui/SoftwareCenter.ui.h:8
+msgid "_Edit"
+msgstr "_Redigeerimine"
+
+#: ../data/ui/SoftwareCenter.ui.h:9
+msgid "_File"
+msgstr "_Fail"
+
+#: ../data/ui/SoftwareCenter.ui.h:10
+msgid "_Help"
+msgstr "_Abi"
+
+#: ../data/ui/SoftwareCenter.ui.h:11
+msgid "_Install"
+msgstr "_Paigalda"
+
+#: ../data/ui/SoftwareCenter.ui.h:12
+msgid "_Software Sources..."
+msgstr "_Tarkvaraallikad..."
+
+#: ../data/ui/SoftwareCenter.ui.h:13
+msgid "_View"
+msgstr "_Vaade"
+
+#: ../data/ubuntu-software-center.desktop.in.h:1
+msgid ""
+"Lets you choose from thousands of free applications available for Ubuntu"
+msgstr "Laseb sul valida tuhandete tasuta rakenduste vahel Ubuntule."
+
+#: ../data/ubuntu-software-center.desktop.in.h:2
+#: ../data/unbranded-software-center.desktop.in.h:2
+#: ../softwarecenter/distro/__init__.py:39
+msgid "Software Center"
+msgstr "Tarkvarakeskus"
+
+#: ../data/ubuntu-software-center.desktop.in.h:3
+#: ../softwarecenter/distro/Ubuntu.py:39
+msgid "Ubuntu Software Center"
+msgstr "Ubuntu tarkvarakeskus"
+
+#: ../data/unbranded-software-center.desktop.in.h:1
+#, fuzzy
+msgid ""
+"Lets you choose from thousands of free applications available for your "
+"system "
+msgstr "Laseb sul valida tuhandete tasuta rakenduste vahel Ubuntule."
+
+#: ../data/software-center.menu.in.h:1
+msgid "3D"
+msgstr "3D"
+
+#: ../data/software-center.menu.in.h:2
+msgid "Accessories"
+msgstr "Tarvikud"
+
+#: ../data/software-center.menu.in.h:3
+msgid "Arcade"
+msgstr "Võistlusmängud"
+
+#: ../data/software-center.menu.in.h:4
+msgid "Astronomy"
+msgstr "Astronoomia"
+
+#: ../data/software-center.menu.in.h:5
+msgid "Biology"
+msgstr "Bioloogia"
+
+#: ../data/software-center.menu.in.h:6
+msgid "Board Games"
+msgstr "Lauamängud"
+
+#: ../data/software-center.menu.in.h:7
+msgid "Card Games"
+msgstr "Kaardimängud"
+
+#: ../data/software-center.menu.in.h:8
+msgid "Chat"
+msgstr "Vestlustarkvara"
+
+#: ../data/software-center.menu.in.h:9
+msgid "Chemistry"
+msgstr "Keemia"
+
+#: ../data/software-center.menu.in.h:10
+msgid "Computer Science &amp; Robotics"
+msgstr "Arvutiteadused ja robootika"
+
+#: ../data/software-center.menu.in.h:11
+msgid "Debugging"
+msgstr "Silumine"
+
+#: ../data/software-center.menu.in.h:12
+msgid "Developer Tools"
+msgstr "Arendustööriistad"
+
+#: ../data/software-center.menu.in.h:13
+msgid "Drawing"
+msgstr "Joonistamine"
+
+#: ../data/software-center.menu.in.h:14
+msgid "Education"
+msgstr "Õppeprogrammid"
+
+#: ../data/software-center.menu.in.h:15
+msgid "Electronics"
+msgstr "Elektroonika"
+
+#: ../data/software-center.menu.in.h:16
+msgid "Engineering"
+msgstr "Tehnikateadus"
+
+#: ../data/software-center.menu.in.h:17
+msgid "File Sharing"
+msgstr "Failijagamine"
+
+#: ../data/software-center.menu.in.h:18
+msgid "Fonts"
+msgstr "Šriftid"
+
+#: ../data/software-center.menu.in.h:19
+msgid "Games"
+msgstr "Mängud"
+
+#: ../data/software-center.menu.in.h:20
+msgid "Geography"
+msgstr "Geograafia"
+
+#: ../data/software-center.menu.in.h:21
+msgid "Geology"
+msgstr "Geoloogia"
+
+#: ../data/software-center.menu.in.h:22
+msgid "Graphic Interface Design"
+msgstr "Graafilise kasutajaliidese kujundus"
+
+#: ../data/software-center.menu.in.h:23
+msgid "Graphics"
+msgstr "Graafika"
+
+#: ../data/software-center.menu.in.h:24
+msgid "Haskell"
+msgstr "Haskell"
+
+#: ../data/software-center.menu.in.h:25
+msgid "IDEs"
+msgstr "Integreeritud arenduskeskkonnad"
+
+#: ../data/software-center.menu.in.h:26
+msgid "Internet"
+msgstr "Internet"
+
+#: ../data/software-center.menu.in.h:27
+msgid "Java"
+msgstr "Java"
+
+#: ../data/software-center.menu.in.h:28
+msgid "Libraries"
+msgstr "Teegid"
+
+#: ../data/software-center.menu.in.h:29
+msgid "Lisp"
+msgstr "Lisp"
+
+#: ../data/software-center.menu.in.h:30
+msgid "Localization"
+msgstr "Tõlkimine"
+
+#: ../data/software-center.menu.in.h:31
+msgid "Mail"
+msgstr "E-post"
+
+#: ../data/software-center.menu.in.h:32
+msgid "Mathematics"
+msgstr "Matemaatika"
+
+#: ../data/software-center.menu.in.h:33
+msgid "Mono/CLI"
+msgstr "Mono/käsurida"
+
+#: ../data/software-center.menu.in.h:34
+msgid "Multimedia"
+msgstr "Multimeedia"
+
+#: ../data/software-center.menu.in.h:35
+msgid "OCaml"
+msgstr "OCaml"
+
+#: ../data/software-center.menu.in.h:36
+msgid "Office"
+msgstr "Kontoritöö"
+
+#: ../data/software-center.menu.in.h:37
+msgid "Painting &amp; Editing"
+msgstr "Joonistamine &amp; redigeerimine"
+
+#: ../data/software-center.menu.in.h:38
+msgid "Perl"
+msgstr "Perl"
+
+#: ../data/software-center.menu.in.h:39
+msgid "Photography"
+msgstr "Fotograafia"
+
+#: ../data/software-center.menu.in.h:40
+msgid "Physics"
+msgstr "Füüsika"
+
+#: ../data/software-center.menu.in.h:41
+msgid "Profiling"
+msgstr "Profileerimine"
+
+#: ../data/software-center.menu.in.h:42
+msgid "Publishing"
+msgstr "Kirjastamine"
+
+#: ../data/software-center.menu.in.h:43
+msgid "Puzzles"
+msgstr "Pusled"
+
+#: ../data/software-center.menu.in.h:44
+msgid "Python"
+msgstr "Python"
+
+#: ../data/software-center.menu.in.h:45
+msgid "Role Playing"
+msgstr "Rollimängud"
+
+#: ../data/software-center.menu.in.h:46
+msgid "Ruby"
+msgstr "Ruby"
+
+#: ../data/software-center.menu.in.h:47
+msgid "Scanning &amp; OCR"
+msgstr "Skannimine ja tekstituvastus"
+
+#: ../data/software-center.menu.in.h:48
+msgid "Science &amp; Engineering"
+msgstr "Teadus ja tehnika"
+
+#: ../data/software-center.menu.in.h:49
+msgid "Simulation"
+msgstr "Simulatsioon"
+
+#: ../data/software-center.menu.in.h:50
+msgid "Sports"
+msgstr "Sport"
+
+#: ../data/software-center.menu.in.h:51
+msgid "System"
+msgstr "Süsteem"
+
+#: ../data/software-center.menu.in.h:52
+msgid "Themes &amp; Tweaks"
+msgstr "Teemad &amp; kohendused"
+
+#: ../data/software-center.menu.in.h:53
+msgid "Universal Access"
+msgstr "Universaalne ligipääs"
+
+#: ../data/software-center.menu.in.h:54
+msgid "Version Control"
+msgstr "Versioonihaldus"
+
+#: ../data/software-center.menu.in.h:55
+msgid "Viewers"
+msgstr "Näitajad"
+
+#: ../data/software-center.menu.in.h:56
+msgid "Web Browsers"
+msgstr "Veebibrauserid"
+
+#: ../data/software-center.menu.in.h:57
+msgid "Web Development"
+msgstr "Veebiarendus"
+
+#: ../data/featured.menu.in.h:1
+msgid "Featured Applications"
+msgstr "Soovitatud rakendused"
+
+#: ../softwarecenter/app.py:148
+msgid "Sorry, can not open the software database"
+msgstr "Kahjuks pole võimalik tarkvara andmebaasi avada"
+
+#: ../softwarecenter/app.py:149
+msgid "Please re-install the 'software-center' package."
+msgstr "Palun paigalda uuesti pakett 'software-center'."
+
+#: ../softwarecenter/backend/aptd.py:219
+msgid "Error"
+msgstr "Tõrge"
+
+#: ../softwarecenter/backend/channel.py:92
+msgid "Canonical Partners"
+msgstr "Canonicali partnerid"
+
+#: ../softwarecenter/backend/channel.py:94
+msgid "Other"
+msgstr "Varia"
+
+#. TRANSLATORS: List of "grey-listed" words sperated with ";"
+#. Do not translate this list directly. Instead,
+#. provide a list of words in your language that people are likely
+#. to include in a search but that should normally be ignored in
+#. the search.
+#: ../softwarecenter/db/database.py:39
+msgid "app;application;package;program;programme;suite;tool"
+msgstr "rakendus;programm;pakk;pakett;tööriist;vahend"
+
+#. if we don't have a package and it has no arch/component its
+#. not available for us
+#: ../softwarecenter/db/database.py:171
+#: ../softwarecenter/view/appdetailsview.py:212
+#, python-format
+msgid "Sorry, '%s' is not available for this type of computer (%s)."
+msgstr "Kahjuks ei ole '%s' sinu arvutitüübi jaoks saadaval (%s)."
+
+#: ../softwarecenter/distro/__init__.py:45
+#, fuzzy
+msgid ""
+"Lets you choose from thousands of free applications available for your "
+"system."
+msgstr "Laseb sul valida tuhandete tasuta rakenduste vahel Ubuntu jaoks."
+
+#: ../softwarecenter/distro/Debian.py:44
+msgid "Provided by Debian"
+msgstr "Debian tagatud"
+
+#: ../softwarecenter/distro/Debian.py:47 ../softwarecenter/distro/Ubuntu.py:53
+#, python-format
+msgid "To remove %s, these items must be removed as well:"
+msgstr "%s eemaldamiseks peab eemaldama ka järgmised esemed:"
+
+#: ../softwarecenter/distro/Debian.py:49 ../softwarecenter/distro/Ubuntu.py:55
+msgid "Remove All"
+msgstr "Eemalda kõik"
+
+#: ../softwarecenter/distro/Debian.py:56 ../softwarecenter/distro/Ubuntu.py:62
+#, python-format
+msgid ""
+"If you uninstall %s, future updates will not include new items in <b>%s</b> "
+"set. Are you sure you want to continue?"
+msgstr ""
+"%s eemaldamisel ei kaasata tulevikus enam uuendamisel <b>%s</b> rühma "
+"kuuluvaid üksuseid. Oled kindel, et tahad jätkata?"
+
+#: ../softwarecenter/distro/Debian.py:59 ../softwarecenter/distro/Debian.py:70
+#: ../softwarecenter/distro/Ubuntu.py:65 ../softwarecenter/distro/Ubuntu.py:76
+msgid "Remove Anyway"
+msgstr "Eemalda ikkagi"
+
+#: ../softwarecenter/distro/Debian.py:66
+#, python-format
+msgid ""
+"%s is a core application in Debian. Uninstalling it may cause future "
+"upgrades to be incomplete. Are you sure you want to continue?"
+msgstr ""
+"%s on Debiani tuumrakendus. Selle eemaldamine võib muuta edasised uuendused "
+"mittetäielikuks. Kas tahad kindlasti jätkata?"
+
+#. generic message
+#: ../softwarecenter/distro/Debian.py:79 ../softwarecenter/distro/Ubuntu.py:85
+msgid "Installed"
+msgstr "Paigaldatud"
+
+#: ../softwarecenter/distro/Debian.py:91 ../softwarecenter/distro/Ubuntu.py:97
+msgid "Unknown"
+msgstr "Teadmata"
+
+#: ../softwarecenter/distro/Debian.py:93 ../softwarecenter/distro/Ubuntu.py:99
+msgid "Open Source"
+msgstr "Avatud lähtekoodiga"
+
+#: ../softwarecenter/distro/Debian.py:95
+msgid "Open Source with proprietary parts"
+msgstr "Avatud lähtekood koos kinnisega"
+
+#: ../softwarecenter/distro/Debian.py:97
+#: ../softwarecenter/distro/Ubuntu.py:101
+msgid "Proprietary"
+msgstr "Firmaomane"
+
+#: ../softwarecenter/distro/Debian.py:98
+#: ../softwarecenter/distro/Ubuntu.py:102
+#, python-format
+msgid "License: %s"
+msgstr "Litsents: %s"
+
+#: ../softwarecenter/distro/Ubuntu.py:42
+msgid ""
+"Lets you choose from thousands of free applications available for Ubuntu."
+msgstr "Laseb sul valida tuhandete tasuta rakenduste vahel Ubuntu jaoks."
+
+#: ../softwarecenter/distro/Ubuntu.py:50
+msgid "Provided by Ubuntu"
+msgstr "Ubuntu tagatud"
+
+#: ../softwarecenter/distro/Ubuntu.py:72
+#, python-format
+msgid ""
+"%s is a core application in Ubuntu. Uninstalling it may cause future "
+"upgrades to be incomplete. Are you sure you want to continue?"
+msgstr ""
+"%s on Ubuntu tuumas olev programm. Selle eemaldamine võib põhjustada "
+"tulevikus mittetäielikke uuendamisi. Kas oled kindel, et tahad jätkata?"
+
+#. TRANSLATORS: This text will be showed as price of the software
+#. its free
+#: ../softwarecenter/distro/Ubuntu.py:126
+#: ../softwarecenter/view/appdetailsview.py:500
+msgid "Free"
+msgstr "Tasuta"
+
+#: ../softwarecenter/distro/Ubuntu.py:173
+#: ../softwarecenter/distro/Ubuntu.py:185
+#, python-format
+msgid ""
+"Canonical does no longer provide updates for %s in Ubuntu %s. Updates may be "
+"available in a newer version of Ubuntu."
+msgstr ""
+"Canonical ei paku Ubuntu %s-s  enam pakile %s uuendusi. Uuemas Ubuntu "
+"versiooni võivad uuendused saadaval olla."
+
+#: ../softwarecenter/distro/Ubuntu.py:178
+#, python-format
+msgid ""
+"Canonical provides critical updates for %(appname)s until "
+"%(support_end_month_str)s %(support_end_year)s."
+msgstr ""
+"Canonical pakub turvakriitilisi uuendusi rakendusele %(appname)s kuni "
+"%(support_end_month_str)s %(support_end_year)s."
+
+#: ../softwarecenter/distro/Ubuntu.py:190
+#, python-format
+msgid ""
+"Canonical provides critical updates supplied by the developers of "
+"%(appname)s until %(support_end_month_str)s %(support_end_year)s."
+msgstr ""
+"Canonical pakub rakenduse enda arendajate turvakriitilisi uuendusi "
+"rakendusele %(appname)s kuni %(support_end_month_str)s %(support_end_year)s."
+
+#: ../softwarecenter/distro/Ubuntu.py:200
+#, python-format
+msgid ""
+"Canonical does not provide updates for %s. Some updates may be provided by "
+"the third party vendor."
+msgstr ""
+"Canonical ei paku uuendusi rakendusele %s. Mõned uuendused võivad olla "
+"saadaval kolmanda osapoole pakkujatelt."
+
+#: ../softwarecenter/distro/Ubuntu.py:204
+#, python-format
+msgid "Canonical provides critical updates for %s."
+msgstr "Canonical pakub rakendusele %s turvakriitilisi uuendusi."
+
+#: ../softwarecenter/distro/Ubuntu.py:206
+#, python-format
+msgid "Canonical provides critical updates supplied by the developers of %s."
+msgstr "Canonical pakub rakenduse %s arendajate turvakriitilisi uuendusi."
+
+#: ../softwarecenter/distro/Ubuntu.py:209
+#, python-format
+msgid ""
+"Canonical does not provide updates for %s. Some updates may be provided by "
+"the Ubuntu community."
+msgstr ""
+"Canonical ei paku uuendusi rakendusele %s. Mõningaid uuendusi pruugib "
+"pakkuda Ubuntu kogukond."
+
+#: ../softwarecenter/distro/Ubuntu.py:212
+#, python-format
+msgid "Application %s has an unknown maintenance status."
+msgstr "Rakenduse %s haldamise olek pole teada."
+
+#: ../softwarecenter/view/appdetailsview.py:85
+msgid "Description"
+msgstr "Kirjeldus"
+
+#: ../softwarecenter/view/appdetailsview.py:202
+#, python-format
+msgid ""
+"This software is available from the '%s' source, which you are not currently "
+"using."
+msgstr "Takrvara on saadaval '%s' allikast, mida sa praegu ei kasuta."
+
+#: ../softwarecenter/view/appdetailsview.py:207
+msgid ""
+"To show information about this item, the software catalog needs updating."
+msgstr "Selle kirje kohta teabe kuvamiseks tuleb tarkvarakataloogi uuendada."
+
+#: ../softwarecenter/view/appdetailsview.py:264
+#: ../softwarecenter/view/appdetailsview.py:268
+msgid "Application Screenshot"
+msgstr "Rakenduse kuvatõmmis"
+
+#: ../softwarecenter/view/appdetailsview.py:296
+#, python-format
+msgid "Version: %s (%s)"
+msgstr "Versioon: %s (%s)"
+
+#: ../softwarecenter/view/appdetailsview.py:311
+msgid "Website"
+msgstr "Veebileht"
+
+#: ../softwarecenter/view/appdetailsview.py:317
+#, python-format
+msgid "Price: %s"
+msgstr "Hind: %s"
+
+#: ../softwarecenter/view/appdetailsview.py:331
+msgid "No screenshot available"
+msgstr "Kuvatõmmist pole"
+
+#: ../softwarecenter/view/appdetailsview.py:369
+#, python-format
+msgid "%s - Screenshot"
+msgstr "%s - Kuvatõmmis"
+
+#: ../softwarecenter/view/appdetailsview.py:492
+#: ../softwarecenter/view/appview.py:1146
+msgid "Remove"
+msgstr "Eemalda"
+
+#. 32, the pixbufoverlay height
+#: ../softwarecenter/view/appdetailsview.py:498
+#: ../softwarecenter/view/appview.py:1146
+msgid "Install"
+msgstr "Paigalda"
+
+#: ../softwarecenter/view/appdetailsview.py:501
+msgid "Install - Free"
+msgstr "Paigalda tasuta"
+
+#. FIXME: deal with the EULA stuff
+#. FIXME: use a proper message here, but we are in string freeze
+#: ../softwarecenter/view/appdetailsview.py:515
+#: ../softwarecenter/view/appdetailsview.py:520
+msgid "Use This Source"
+msgstr "Kasuta seda allikat"
+
+#: ../softwarecenter/view/appdetailsview.py:523
+msgid "Update Now"
+msgstr "Uuenda kohe"
+
+#. draw number of reviews
+#: ../softwarecenter/view/appview.py:657
+#, python-format
+msgid "%s review"
+msgid_plural "%s reviews"
+msgstr[0] "%s arvustus"
+msgstr[1] "%s arvustust"
+
+#: ../softwarecenter/view/appview.py:1147
+msgid "More Info"
+msgstr "Rohkem infot"
+
+#. home button
+#: ../softwarecenter/view/availablepane.py:123
+#: ../softwarecenter/view/viewswitcher.py:201
+msgid "Get Software"
+msgstr "Tarkvara hankimine"
+
+#: ../softwarecenter/view/availablepane.py:242
+#: ../softwarecenter/view/installedpane.py:79
+#: ../softwarecenter/view/channelpane.py:86
+msgid "Search Results"
+msgstr "Otsingutulemused"
+
+#: ../softwarecenter/view/availablepane.py:290
+#: ../softwarecenter/view/installedpane.py:158
+#: ../softwarecenter/view/channelpane.py:199
+#, python-format
+msgid "%s matching item"
+msgid_plural "%s matching items"
+msgstr[0] "%s sobiv kirje"
+msgstr[1] "%s sobivat kirjet"
+
+#: ../softwarecenter/view/availablepane.py:294
+#: ../softwarecenter/view/channelpane.py:203
+#, python-format
+msgid "%s item available"
+msgid_plural "%s items available"
+msgstr[0] "%s toode saadaval"
+msgstr[1] "%s toodet saadaval"
+
+#: ../softwarecenter/view/catview.py:82 ../softwarecenter/view/catview.py:88
+msgid "Departments"
+msgstr "Kategooriad"
+
+#: ../softwarecenter/view/dialogs.py:45
+msgid "Details"
+msgstr "Täpsemalt"
+
+#: ../softwarecenter/view/dialogs.py:83
+msgid "Cancel"
+msgstr "Katkesta"
+
+#. FIXME: make this a generic pkgview widget
+#: ../softwarecenter/view/dialogs.py:96
+msgid "Dependency"
+msgstr "Sõltuvus"
+
+#: ../softwarecenter/view/installedpane.py:84
+#: ../softwarecenter/view/viewswitcher.py:207
+msgid "Installed Software"
+msgstr "Paigaldatud tarkvara"
+
+#: ../softwarecenter/view/installedpane.py:162
+#, python-format
+msgid "%s item installed"
+msgid_plural "%s items installed"
+msgstr[0] "%s pakett paigaldatud"
+msgstr[1] "%s paketti paigaldatud"
+
+#: ../softwarecenter/view/viewswitcher.py:77
+msgid "Software sources"
+msgstr "Tarkvaraallikad"
+
+#: ../softwarecenter/view/viewswitcher.py:227
+#: ../softwarecenter/view/viewswitcher.py:232
+#, python-format
+msgid "In Progress (%i)"
+msgstr "Pooleli (%i)"
+
+#: ../softwarecenter/view/widgets/backforward.py:61
+msgid "History Navigation"
+msgstr "Liikumise ajalugu"
+
+#: ../softwarecenter/view/widgets/backforward.py:62
+msgid "Navigate forwards and backwards."
+msgstr "Edasi ja tagasi liikumine."
+
+#: ../softwarecenter/view/widgets/backforward.py:76
+#: ../softwarecenter/view/widgets/backforward.py:90
+msgid "Back Button"
+msgstr "Tagasi nupp"
+
+#: ../softwarecenter/view/widgets/backforward.py:77
+#: ../softwarecenter/view/widgets/backforward.py:91
+msgid "Navigates back."
+msgstr "Tagasi liikumine."
+
+#: ../softwarecenter/view/widgets/backforward.py:82
+#: ../softwarecenter/view/widgets/backforward.py:96
+msgid "Forward Button"
+msgstr "Edasi nupp"
+
+#: ../softwarecenter/view/widgets/backforward.py:83
+#: ../softwarecenter/view/widgets/backforward.py:97
+msgid "Navigates forward."
+msgstr "Edasi liikumine."
+
+#: ../softwarecenter/view/widgets/pathbar_gtk_atk.py:54
+msgid "You are here:"
+msgstr "Sina oled siin:"
+
+#: ../softwarecenter/view/widgets/pathbar_gtk_atk.py:445
+#, python-format
+msgid "Navigates to the %s page."
+msgstr "Liikumine %s leheküljele."

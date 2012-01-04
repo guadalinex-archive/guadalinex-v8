@@ -1,0 +1,724 @@
+# Albanian translation for software-store
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the software-store package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: software-store\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-11-21 21:04+0100\n"
+"PO-Revision-Date: 2010-07-20 09:41+0000\n"
+"Last-Translator: Vilson Gjeci <vilsongjeci@gmail.com>\n"
+"Language-Team: Albanian <sq@li.org>\n"
+"Language: sq\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2010-11-21 19:32+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ../data/ui/SoftwareCenter.ui.h:1
+#, fuzzy
+msgid "&#xA9;2009-2010 Canonical"
+msgstr "&#xA9;2009 Canonical"
+
+#: ../data/ui/SoftwareCenter.ui.h:2
+msgid "Copy _Web Link"
+msgstr "Kopjo _Lidhjen e Internetit"
+
+#: ../data/ui/SoftwareCenter.ui.h:3
+msgid "Rebuilding application catalog..."
+msgstr "Duke rindërtuar katalogun e programeve..."
+
+#: ../data/ui/SoftwareCenter.ui.h:4
+msgid "Search..."
+msgstr "Kërko..."
+
+#: ../data/ui/SoftwareCenter.ui.h:5
+msgid "Software Center _Help"
+msgstr "_Ndihma e Qendrës së Programeve"
+
+#: ../data/ui/SoftwareCenter.ui.h:6
+msgid "_All Software"
+msgstr "_Të Gjitha Programet"
+
+#: ../data/ui/SoftwareCenter.ui.h:7
+msgid "_Canonical-Maintained Software"
+msgstr "_Programet që Mirëmbahen nga Canonical"
+
+#: ../data/ui/SoftwareCenter.ui.h:8
+msgid "_Edit"
+msgstr "_Modifiko"
+
+#: ../data/ui/SoftwareCenter.ui.h:9
+msgid "_File"
+msgstr "_Skedar"
+
+#: ../data/ui/SoftwareCenter.ui.h:10
+msgid "_Help"
+msgstr "_Ndihmë"
+
+#: ../data/ui/SoftwareCenter.ui.h:11
+msgid "_Install"
+msgstr "_Instalo"
+
+#: ../data/ui/SoftwareCenter.ui.h:12
+msgid "_Software Sources..."
+msgstr "_Burimet e Programeve..."
+
+#: ../data/ui/SoftwareCenter.ui.h:13
+msgid "_View"
+msgstr "_Shfaq"
+
+#: ../data/ubuntu-software-center.desktop.in.h:1
+msgid ""
+"Lets you choose from thousands of free applications available for Ubuntu"
+msgstr ""
+"Ju lë të zgjidhni mes mijëra programeve falas të disponueshëm për Ubuntu."
+
+#: ../data/ubuntu-software-center.desktop.in.h:2
+#: ../data/unbranded-software-center.desktop.in.h:2
+#: ../softwarecenter/distro/__init__.py:39
+msgid "Software Center"
+msgstr "Qendra e Programeve"
+
+#: ../data/ubuntu-software-center.desktop.in.h:3
+#: ../softwarecenter/distro/Ubuntu.py:39
+msgid "Ubuntu Software Center"
+msgstr "Qendra e Programeve të Ubuntu"
+
+#: ../data/unbranded-software-center.desktop.in.h:1
+#, fuzzy
+msgid ""
+"Lets you choose from thousands of free applications available for your "
+"system "
+msgstr ""
+"Ju lë të zgjidhni mes mijëra programeve falas të disponueshëm për Ubuntu."
+
+#: ../data/software-center.menu.in.h:1
+msgid "3D"
+msgstr "3D"
+
+#: ../data/software-center.menu.in.h:2
+msgid "Accessories"
+msgstr "Aksesorët"
+
+#: ../data/software-center.menu.in.h:3
+msgid "Arcade"
+msgstr "Arcade"
+
+#: ../data/software-center.menu.in.h:4
+msgid "Astronomy"
+msgstr "Astronomia"
+
+#: ../data/software-center.menu.in.h:5
+msgid "Biology"
+msgstr "Biologjia"
+
+#: ../data/software-center.menu.in.h:6
+msgid "Board Games"
+msgstr "Lojëra për Tavolinë"
+
+#: ../data/software-center.menu.in.h:7
+msgid "Card Games"
+msgstr "Lojëra me Letra"
+
+#: ../data/software-center.menu.in.h:8
+msgid "Chat"
+msgstr "Bisedo"
+
+#: ../data/software-center.menu.in.h:9
+msgid "Chemistry"
+msgstr "Kimia"
+
+#: ../data/software-center.menu.in.h:10
+msgid "Computer Science &amp; Robotics"
+msgstr "Shkenca Kompjuterike &amp; Robotika"
+
+#: ../data/software-center.menu.in.h:11
+msgid "Debugging"
+msgstr "Duke gjurmuar gabimin"
+
+#: ../data/software-center.menu.in.h:12
+msgid "Developer Tools"
+msgstr "Mjete Krijuese"
+
+#: ../data/software-center.menu.in.h:13
+msgid "Drawing"
+msgstr "Vizatim"
+
+#: ../data/software-center.menu.in.h:14
+msgid "Education"
+msgstr "Edukimi"
+
+#: ../data/software-center.menu.in.h:15
+msgid "Electronics"
+msgstr "Elektronika"
+
+#: ../data/software-center.menu.in.h:16
+msgid "Engineering"
+msgstr "Inxhinieri"
+
+#: ../data/software-center.menu.in.h:17
+msgid "File Sharing"
+msgstr "Ndarje e Skedarëve"
+
+#: ../data/software-center.menu.in.h:18
+msgid "Fonts"
+msgstr "Gërmat"
+
+#: ../data/software-center.menu.in.h:19
+msgid "Games"
+msgstr "Lojërat"
+
+#: ../data/software-center.menu.in.h:20
+msgid "Geography"
+msgstr "Gjeografia"
+
+#: ../data/software-center.menu.in.h:21
+msgid "Geology"
+msgstr "Gjeologjia"
+
+#: ../data/software-center.menu.in.h:22
+msgid "Graphic Interface Design"
+msgstr "Dizenjim i Ndërfaqeve Grafike"
+
+#: ../data/software-center.menu.in.h:23
+msgid "Graphics"
+msgstr "Grafikët"
+
+#: ../data/software-center.menu.in.h:24
+msgid "Haskell"
+msgstr "Haskell"
+
+#: ../data/software-center.menu.in.h:25
+msgid "IDEs"
+msgstr "IDE-të"
+
+#: ../data/software-center.menu.in.h:26
+msgid "Internet"
+msgstr "Interneti"
+
+#: ../data/software-center.menu.in.h:27
+msgid "Java"
+msgstr "Java"
+
+#: ../data/software-center.menu.in.h:28
+msgid "Libraries"
+msgstr "Libraritë"
+
+#: ../data/software-center.menu.in.h:29
+msgid "Lisp"
+msgstr "Lisp"
+
+#: ../data/software-center.menu.in.h:30
+msgid "Localization"
+msgstr "Lokalizimi"
+
+#: ../data/software-center.menu.in.h:31
+msgid "Mail"
+msgstr "Posta"
+
+#: ../data/software-center.menu.in.h:32
+msgid "Mathematics"
+msgstr "Matematika"
+
+#: ../data/software-center.menu.in.h:33
+msgid "Mono/CLI"
+msgstr "Mono/CLI"
+
+#: ../data/software-center.menu.in.h:34
+msgid "Multimedia"
+msgstr "Multimedia"
+
+#: ../data/software-center.menu.in.h:35
+msgid "OCaml"
+msgstr "OCaml"
+
+#: ../data/software-center.menu.in.h:36
+msgid "Office"
+msgstr "Zyra"
+
+#: ../data/software-center.menu.in.h:37
+msgid "Painting &amp; Editing"
+msgstr "Vizatim &amp; Modifikim"
+
+#: ../data/software-center.menu.in.h:38
+msgid "Perl"
+msgstr "Perl"
+
+#: ../data/software-center.menu.in.h:39
+msgid "Photography"
+msgstr "Fotografia"
+
+#: ../data/software-center.menu.in.h:40
+msgid "Physics"
+msgstr "Fizika"
+
+#: ../data/software-center.menu.in.h:41
+msgid "Profiling"
+msgstr "Profilizimi"
+
+#: ../data/software-center.menu.in.h:42
+msgid "Publishing"
+msgstr "Publikimi"
+
+#: ../data/software-center.menu.in.h:43
+msgid "Puzzles"
+msgstr "Puzzles"
+
+#: ../data/software-center.menu.in.h:44
+msgid "Python"
+msgstr "Python"
+
+#: ../data/software-center.menu.in.h:45
+msgid "Role Playing"
+msgstr "Lojë me Role"
+
+#: ../data/software-center.menu.in.h:46
+msgid "Ruby"
+msgstr "Ruby"
+
+#: ../data/software-center.menu.in.h:47
+msgid "Scanning &amp; OCR"
+msgstr "Skanimi &amp; OCR"
+
+#: ../data/software-center.menu.in.h:48
+msgid "Science &amp; Engineering"
+msgstr "Shkenca &amp; Inxhinieria"
+
+#: ../data/software-center.menu.in.h:49
+msgid "Simulation"
+msgstr "Stimulim"
+
+#: ../data/software-center.menu.in.h:50
+msgid "Sports"
+msgstr "Sportet"
+
+#: ../data/software-center.menu.in.h:51
+msgid "System"
+msgstr "Sistemi"
+
+#: ../data/software-center.menu.in.h:52
+msgid "Themes &amp; Tweaks"
+msgstr "Temat &amp; Përmirësimet"
+
+#: ../data/software-center.menu.in.h:53
+msgid "Universal Access"
+msgstr "Hyrje Universale"
+
+#: ../data/software-center.menu.in.h:54
+msgid "Version Control"
+msgstr "Kontrolli i Versionit"
+
+#: ../data/software-center.menu.in.h:55
+msgid "Viewers"
+msgstr "Shfaqës"
+
+#: ../data/software-center.menu.in.h:56
+msgid "Web Browsers"
+msgstr "Shfletues Interneti"
+
+#: ../data/software-center.menu.in.h:57
+msgid "Web Development"
+msgstr "Zhvillimi i Web"
+
+#: ../data/featured.menu.in.h:1
+msgid "Featured Applications"
+msgstr "Programet e Përafërta"
+
+#: ../softwarecenter/app.py:148
+msgid "Sorry, can not open the software database"
+msgstr "Më vjen keq, nuk mund të hap bazën e të dhenave të programeve"
+
+#: ../softwarecenter/app.py:149
+msgid "Please re-install the 'software-center' package."
+msgstr ""
+"Ju lutemi instaloni dhe nje herë paketën 'software-center' (Qendra e "
+"programeve)."
+
+#: ../softwarecenter/backend/aptd.py:219
+msgid "Error"
+msgstr "Gabim"
+
+#: ../softwarecenter/backend/channel.py:92
+msgid "Canonical Partners"
+msgstr "Partnerët e Canonical"
+
+#: ../softwarecenter/backend/channel.py:94
+msgid "Other"
+msgstr "Tjetër"
+
+#. TRANSLATORS: List of "grey-listed" words sperated with ";"
+#. Do not translate this list directly. Instead,
+#. provide a list of words in your language that people are likely
+#. to include in a search but that should normally be ignored in
+#. the search.
+#: ../softwarecenter/db/database.py:39
+msgid "app;application;package;program;programme;suite;tool"
+msgstr ""
+"app;application;package;program;programe;suite;tool;paketa;aplikacione;mjete;"
+"vegla"
+
+#. if we don't have a package and it has no arch/component its
+#. not available for us
+#: ../softwarecenter/db/database.py:171
+#: ../softwarecenter/view/appdetailsview.py:212
+#, python-format
+msgid "Sorry, '%s' is not available for this type of computer (%s)."
+msgstr ""
+"Më vjen keq, '%s' nuk është i disponueshëm për këtë lloj kompjuteri (%s)."
+
+#: ../softwarecenter/distro/__init__.py:45
+#, fuzzy
+msgid ""
+"Lets you choose from thousands of free applications available for your "
+"system."
+msgstr ""
+"Ju lë të zgjidhni mes mijëra programeve falas të disponueshëm për Ubuntu."
+
+#: ../softwarecenter/distro/Debian.py:44
+msgid "Provided by Debian"
+msgstr "Mundësuar nga Debian"
+
+#: ../softwarecenter/distro/Debian.py:47 ../softwarecenter/distro/Ubuntu.py:53
+#, python-format
+msgid "To remove %s, these items must be removed as well:"
+msgstr "Për të hequr %s, duhen hequr dhe:"
+
+#: ../softwarecenter/distro/Debian.py:49 ../softwarecenter/distro/Ubuntu.py:55
+msgid "Remove All"
+msgstr "Hiqi të Gjitha"
+
+#: ../softwarecenter/distro/Debian.py:56 ../softwarecenter/distro/Ubuntu.py:62
+#, python-format
+msgid ""
+"If you uninstall %s, future updates will not include new items in <b>%s</b> "
+"set. Are you sure you want to continue?"
+msgstr ""
+"Nëse ç'instaloni %s, përditësimet e mëvonshme nuk do të përfshijnë artikuj "
+"të rinj në grupin <b>%s</b>. Jeni të sigurtë që dëshironi të vazhdoni?"
+
+#: ../softwarecenter/distro/Debian.py:59 ../softwarecenter/distro/Debian.py:70
+#: ../softwarecenter/distro/Ubuntu.py:65 ../softwarecenter/distro/Ubuntu.py:76
+msgid "Remove Anyway"
+msgstr "Hiqe Gjithësesi"
+
+#: ../softwarecenter/distro/Debian.py:66
+#, python-format
+msgid ""
+"%s is a core application in Debian. Uninstalling it may cause future "
+"upgrades to be incomplete. Are you sure you want to continue?"
+msgstr ""
+"%s është një program bazë në Debian. Ç'instalimi i tij mund të bëjë që "
+"përditësimet e mëvonshme të mos jenë të kompletuara. Jeni të sigurtë që "
+"dëshironi të vazhdoni?"
+
+#. generic message
+#: ../softwarecenter/distro/Debian.py:79 ../softwarecenter/distro/Ubuntu.py:85
+msgid "Installed"
+msgstr "I Instaluar"
+
+#: ../softwarecenter/distro/Debian.py:91 ../softwarecenter/distro/Ubuntu.py:97
+msgid "Unknown"
+msgstr "I Panjohur"
+
+#: ../softwarecenter/distro/Debian.py:93 ../softwarecenter/distro/Ubuntu.py:99
+msgid "Open Source"
+msgstr "Burim i Hapur"
+
+#: ../softwarecenter/distro/Debian.py:95
+msgid "Open Source with proprietary parts"
+msgstr "Burim i Hapur me pjesë në pronësi"
+
+#: ../softwarecenter/distro/Debian.py:97
+#: ../softwarecenter/distro/Ubuntu.py:101
+msgid "Proprietary"
+msgstr "Në Pronësi"
+
+#: ../softwarecenter/distro/Debian.py:98
+#: ../softwarecenter/distro/Ubuntu.py:102
+#, python-format
+msgid "License: %s"
+msgstr "Liçensa: %s"
+
+#: ../softwarecenter/distro/Ubuntu.py:42
+msgid ""
+"Lets you choose from thousands of free applications available for Ubuntu."
+msgstr ""
+"Ju lë të zgjidhni mes mijëra programeve falas të disponueshëm për Ubuntu."
+
+#: ../softwarecenter/distro/Ubuntu.py:50
+msgid "Provided by Ubuntu"
+msgstr "Mundësuar nga Ubuntu"
+
+#: ../softwarecenter/distro/Ubuntu.py:72
+#, python-format
+msgid ""
+"%s is a core application in Ubuntu. Uninstalling it may cause future "
+"upgrades to be incomplete. Are you sure you want to continue?"
+msgstr ""
+"%s është një program bazë në Ubuntu. Ç'instalimi i tij mund të bëjë që "
+"përditësimet e mëvonshme të mos jenë të kompletuara. Jeni të sigurtë që "
+"dëshironi të vazhdoni?"
+
+#. TRANSLATORS: This text will be showed as price of the software
+#. its free
+#: ../softwarecenter/distro/Ubuntu.py:126
+#: ../softwarecenter/view/appdetailsview.py:500
+msgid "Free"
+msgstr "Falas"
+
+#: ../softwarecenter/distro/Ubuntu.py:173
+#: ../softwarecenter/distro/Ubuntu.py:185
+#, python-format
+msgid ""
+"Canonical does no longer provide updates for %s in Ubuntu %s. Updates may be "
+"available in a newer version of Ubuntu."
+msgstr ""
+"Canonical nuk jep më përditësime për %s në Ubuntu %s. Përditësimet mund të "
+"jenë të disponueshme në një version të ri të Ubuntu."
+
+#: ../softwarecenter/distro/Ubuntu.py:178
+#, python-format
+msgid ""
+"Canonical provides critical updates for %(appname)s until "
+"%(support_end_month_str)s %(support_end_year)s."
+msgstr ""
+"Canonical jep përditësime kritike për %(appname)s deri në "
+"%(support_end_month_str)s %(support_end_year)s."
+
+#: ../softwarecenter/distro/Ubuntu.py:190
+#, python-format
+msgid ""
+"Canonical provides critical updates supplied by the developers of "
+"%(appname)s until %(support_end_month_str)s %(support_end_year)s."
+msgstr ""
+"Canonical jep përditësime kritike të dhëna nga zhvilluesit e %(appname)s "
+"deri në %(support_end_month_str)s %(support_end_year)s."
+
+#: ../softwarecenter/distro/Ubuntu.py:200
+#, python-format
+msgid ""
+"Canonical does not provide updates for %s. Some updates may be provided by "
+"the third party vendor."
+msgstr ""
+"Canonical nuk jep përditësime për %s. Disa përditësime mund të jepen nga një "
+"pale e tretë."
+
+#: ../softwarecenter/distro/Ubuntu.py:204
+#, python-format
+msgid "Canonical provides critical updates for %s."
+msgstr "Canonical jep përditësime kritike për %s."
+
+#: ../softwarecenter/distro/Ubuntu.py:206
+#, python-format
+msgid "Canonical provides critical updates supplied by the developers of %s."
+msgstr "Canonical jep përditësime kritike të krijuara nga zhvilluesit e %s."
+
+#: ../softwarecenter/distro/Ubuntu.py:209
+#, python-format
+msgid ""
+"Canonical does not provide updates for %s. Some updates may be provided by "
+"the Ubuntu community."
+msgstr ""
+"Canonical nuk jep përditësime për %s. Disa përditësime mund të jepen ga "
+"komuniteti i Ubuntu."
+
+#: ../softwarecenter/distro/Ubuntu.py:212
+#, python-format
+msgid "Application %s has an unknown maintenance status."
+msgstr "Programi %s ka një status të panjohur mirëmbajtjeje."
+
+#: ../softwarecenter/view/appdetailsview.py:85
+msgid "Description"
+msgstr "Përshkrimi"
+
+#: ../softwarecenter/view/appdetailsview.py:202
+#, python-format
+msgid ""
+"This software is available from the '%s' source, which you are not currently "
+"using."
+msgstr ""
+"Ky program është i disponueshëm nga burimi '%s', të cilin ju nuk po e "
+"përdorni për momentin."
+
+#: ../softwarecenter/view/appdetailsview.py:207
+msgid ""
+"To show information about this item, the software catalog needs updating."
+msgstr ""
+"Për të shfaqur informacion rreth kësij artikulli, katalogu i programeve ka "
+"nevojë për përditësim."
+
+#: ../softwarecenter/view/appdetailsview.py:264
+#: ../softwarecenter/view/appdetailsview.py:268
+msgid "Application Screenshot"
+msgstr "Pamje e Programit"
+
+#: ../softwarecenter/view/appdetailsview.py:296
+#, python-format
+msgid "Version: %s (%s)"
+msgstr "Versioni: %s (%s)"
+
+#: ../softwarecenter/view/appdetailsview.py:311
+msgid "Website"
+msgstr "Faqja web"
+
+#: ../softwarecenter/view/appdetailsview.py:317
+#, python-format
+msgid "Price: %s"
+msgstr "Çmimi: %s"
+
+#: ../softwarecenter/view/appdetailsview.py:331
+msgid "No screenshot available"
+msgstr "Nuk ka foto të disponueshme të ekranit"
+
+#: ../softwarecenter/view/appdetailsview.py:369
+#, python-format
+msgid "%s - Screenshot"
+msgstr "%s - Pamje e Ekranit"
+
+#: ../softwarecenter/view/appdetailsview.py:492
+#: ../softwarecenter/view/appview.py:1146
+msgid "Remove"
+msgstr "Hiqe"
+
+#. 32, the pixbufoverlay height
+#: ../softwarecenter/view/appdetailsview.py:498
+#: ../softwarecenter/view/appview.py:1146
+msgid "Install"
+msgstr "Instalo"
+
+#: ../softwarecenter/view/appdetailsview.py:501
+msgid "Install - Free"
+msgstr "Instalimi - I Lirë"
+
+#. FIXME: deal with the EULA stuff
+#. FIXME: use a proper message here, but we are in string freeze
+#: ../softwarecenter/view/appdetailsview.py:515
+#: ../softwarecenter/view/appdetailsview.py:520
+msgid "Use This Source"
+msgstr "Përdor Këtë Burim"
+
+#: ../softwarecenter/view/appdetailsview.py:523
+msgid "Update Now"
+msgstr "Përditëso Tani"
+
+#. draw number of reviews
+#: ../softwarecenter/view/appview.py:657
+#, python-format
+msgid "%s review"
+msgid_plural "%s reviews"
+msgstr[0] "%s shqyrtim"
+msgstr[1] "%s shqyrtime"
+
+#: ../softwarecenter/view/appview.py:1147
+msgid "More Info"
+msgstr "Më tepër Informacion"
+
+#. home button
+#: ../softwarecenter/view/availablepane.py:123
+#: ../softwarecenter/view/viewswitcher.py:201
+msgid "Get Software"
+msgstr "Merr Programe"
+
+#: ../softwarecenter/view/availablepane.py:242
+#: ../softwarecenter/view/installedpane.py:79
+#: ../softwarecenter/view/channelpane.py:86
+msgid "Search Results"
+msgstr "Rezultatet e Kërkimit"
+
+#: ../softwarecenter/view/availablepane.py:290
+#: ../softwarecenter/view/installedpane.py:158
+#: ../softwarecenter/view/channelpane.py:199
+#, python-format
+msgid "%s matching item"
+msgid_plural "%s matching items"
+msgstr[0] "%s artikull që përputhet"
+msgstr[1] "%s artikuj që përputhen"
+
+#: ../softwarecenter/view/availablepane.py:294
+#: ../softwarecenter/view/channelpane.py:203
+#, python-format
+msgid "%s item available"
+msgid_plural "%s items available"
+msgstr[0] "%s temë e disponueshme"
+msgstr[1] "%s tema të disponueshme"
+
+#: ../softwarecenter/view/catview.py:82 ../softwarecenter/view/catview.py:88
+msgid "Departments"
+msgstr "Departamentet"
+
+#: ../softwarecenter/view/dialogs.py:45
+msgid "Details"
+msgstr "Detajet"
+
+#: ../softwarecenter/view/dialogs.py:83
+msgid "Cancel"
+msgstr "Anullo"
+
+#. FIXME: make this a generic pkgview widget
+#: ../softwarecenter/view/dialogs.py:96
+msgid "Dependency"
+msgstr "Vartësi"
+
+#: ../softwarecenter/view/installedpane.py:84
+#: ../softwarecenter/view/viewswitcher.py:207
+msgid "Installed Software"
+msgstr "Programet e Instaluara"
+
+#: ../softwarecenter/view/installedpane.py:162
+#, python-format
+msgid "%s item installed"
+msgid_plural "%s items installed"
+msgstr[0] "%s temë u instalua"
+msgstr[1] "%s tema u instaluan"
+
+#: ../softwarecenter/view/viewswitcher.py:77
+msgid "Software sources"
+msgstr "Burimet e programeve"
+
+#: ../softwarecenter/view/viewswitcher.py:227
+#: ../softwarecenter/view/viewswitcher.py:232
+#, python-format
+msgid "In Progress (%i)"
+msgstr "Në Përparim (%i)"
+
+#: ../softwarecenter/view/widgets/backforward.py:61
+msgid "History Navigation"
+msgstr "Lundrimi i Historisë"
+
+#: ../softwarecenter/view/widgets/backforward.py:62
+msgid "Navigate forwards and backwards."
+msgstr "Lundro para dhe pas."
+
+#: ../softwarecenter/view/widgets/backforward.py:76
+#: ../softwarecenter/view/widgets/backforward.py:90
+msgid "Back Button"
+msgstr "Butoni Mbrapa"
+
+#: ../softwarecenter/view/widgets/backforward.py:77
+#: ../softwarecenter/view/widgets/backforward.py:91
+msgid "Navigates back."
+msgstr "Lundron pas."
+
+#: ../softwarecenter/view/widgets/backforward.py:82
+#: ../softwarecenter/view/widgets/backforward.py:96
+msgid "Forward Button"
+msgstr "Butoni Përpara"
+
+#: ../softwarecenter/view/widgets/backforward.py:83
+#: ../softwarecenter/view/widgets/backforward.py:97
+msgid "Navigates forward."
+msgstr "Lundron përpara."
+
+#: ../softwarecenter/view/widgets/pathbar_gtk_atk.py:54
+msgid "You are here:"
+msgstr "Ju jeni këtu:"
+
+#: ../softwarecenter/view/widgets/pathbar_gtk_atk.py:445
+#, python-format
+msgid "Navigates to the %s page."
+msgstr "Lundron tek faqja %s."

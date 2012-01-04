@@ -1,0 +1,720 @@
+# Belarusian translation for software-store
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the software-store package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: software-store\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-11-21 21:04+0100\n"
+"PO-Revision-Date: 2010-05-20 12:35+0000\n"
+"Last-Translator: Iryna Nikanchuk <defragbrain@gmail.com>\n"
+"Language-Team: Belarusian <be@li.org>\n"
+"Language: be\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Launchpad-Export-Date: 2010-11-21 19:32+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ../data/ui/SoftwareCenter.ui.h:1
+#, fuzzy
+msgid "&#xA9;2009-2010 Canonical"
+msgstr "&#xA9;2009 Canonical"
+
+#: ../data/ui/SoftwareCenter.ui.h:2
+msgid "Copy _Web Link"
+msgstr "Капіяваць спас_ылку на сайт"
+
+#: ../data/ui/SoftwareCenter.ui.h:3
+msgid "Rebuilding application catalog..."
+msgstr "Перабудаваньне каталёга дастасаваньняў..."
+
+#: ../data/ui/SoftwareCenter.ui.h:4
+msgid "Search..."
+msgstr "Шукаць..."
+
+#: ../data/ui/SoftwareCenter.ui.h:5
+msgid "Software Center _Help"
+msgstr "Даведка праграмнага цэнтра"
+
+#: ../data/ui/SoftwareCenter.ui.h:6
+msgid "_All Software"
+msgstr "_Усе праграмы"
+
+#: ../data/ui/SoftwareCenter.ui.h:7
+msgid "_Canonical-Maintained Software"
+msgstr "_Праграмы якія падтрымлівае Canonical"
+
+#: ../data/ui/SoftwareCenter.ui.h:8
+msgid "_Edit"
+msgstr "_Рэдагаваць"
+
+#: ../data/ui/SoftwareCenter.ui.h:9
+msgid "_File"
+msgstr "_Файл"
+
+#: ../data/ui/SoftwareCenter.ui.h:10
+msgid "_Help"
+msgstr "_Даведка"
+
+#: ../data/ui/SoftwareCenter.ui.h:11
+msgid "_Install"
+msgstr "_Устанавіць"
+
+#: ../data/ui/SoftwareCenter.ui.h:12
+msgid "_Software Sources..."
+msgstr "_Крыніцы праграмаў..."
+
+#: ../data/ui/SoftwareCenter.ui.h:13
+msgid "_View"
+msgstr "_Выгляд"
+
+#: ../data/ubuntu-software-center.desktop.in.h:1
+msgid ""
+"Lets you choose from thousands of free applications available for Ubuntu"
+msgstr "Прадастаўляе вам выбар з тысячаў вольных праграм для Ubuntu"
+
+#: ../data/ubuntu-software-center.desktop.in.h:2
+#: ../data/unbranded-software-center.desktop.in.h:2
+#: ../softwarecenter/distro/__init__.py:39
+msgid "Software Center"
+msgstr "Праграмны цэнтр"
+
+#: ../data/ubuntu-software-center.desktop.in.h:3
+#: ../softwarecenter/distro/Ubuntu.py:39
+msgid "Ubuntu Software Center"
+msgstr "Праграмны цэнтр Ubuntu"
+
+#: ../data/unbranded-software-center.desktop.in.h:1
+#, fuzzy
+msgid ""
+"Lets you choose from thousands of free applications available for your "
+"system "
+msgstr "Прадастаўляе вам выбар з тысячаў вольных праграм для Ubuntu"
+
+#: ../data/software-center.menu.in.h:1
+msgid "3D"
+msgstr "3D"
+
+#: ../data/software-center.menu.in.h:2
+msgid "Accessories"
+msgstr "Аксэсуары"
+
+#: ../data/software-center.menu.in.h:3
+msgid "Arcade"
+msgstr "Аркады"
+
+#: ../data/software-center.menu.in.h:4
+msgid "Astronomy"
+msgstr "Астраномія"
+
+#: ../data/software-center.menu.in.h:5
+msgid "Biology"
+msgstr "Біялогія"
+
+#: ../data/software-center.menu.in.h:6
+msgid "Board Games"
+msgstr "Настольныя гульні"
+
+#: ../data/software-center.menu.in.h:7
+msgid "Card Games"
+msgstr "Гульні ў карты"
+
+#: ../data/software-center.menu.in.h:8
+msgid "Chat"
+msgstr "Чат"
+
+#: ../data/software-center.menu.in.h:9
+msgid "Chemistry"
+msgstr "Хімія"
+
+#: ../data/software-center.menu.in.h:10
+msgid "Computer Science &amp; Robotics"
+msgstr "Інфарматыка &amp; Робататэхніка"
+
+#: ../data/software-center.menu.in.h:11
+msgid "Debugging"
+msgstr "Адладка"
+
+#: ../data/software-center.menu.in.h:12
+msgid "Developer Tools"
+msgstr "Прылады распрацоўшчыка"
+
+#: ../data/software-center.menu.in.h:13
+msgid "Drawing"
+msgstr "Маляваньне"
+
+#: ../data/software-center.menu.in.h:14
+msgid "Education"
+msgstr "Адукацыя"
+
+#: ../data/software-center.menu.in.h:15
+msgid "Electronics"
+msgstr "Электроніка"
+
+#: ../data/software-center.menu.in.h:16
+msgid "Engineering"
+msgstr "Інжынерная справа"
+
+#: ../data/software-center.menu.in.h:17
+msgid "File Sharing"
+msgstr "Агульны доступ да файлаў"
+
+#: ../data/software-center.menu.in.h:18
+msgid "Fonts"
+msgstr "Шрыфты"
+
+#: ../data/software-center.menu.in.h:19
+msgid "Games"
+msgstr "Гульні"
+
+#: ../data/software-center.menu.in.h:20
+msgid "Geography"
+msgstr "Геаграфія"
+
+#: ../data/software-center.menu.in.h:21
+msgid "Geology"
+msgstr "Геалогія"
+
+#: ../data/software-center.menu.in.h:22
+msgid "Graphic Interface Design"
+msgstr "Дастасаваньні для працы з выявамі"
+
+#: ../data/software-center.menu.in.h:23
+msgid "Graphics"
+msgstr "Графіка"
+
+#: ../data/software-center.menu.in.h:24
+msgid "Haskell"
+msgstr "Haskell"
+
+#: ../data/software-center.menu.in.h:25
+msgid "IDEs"
+msgstr "Інтэграваныя сродкі распрацоўкі (IDE)"
+
+#: ../data/software-center.menu.in.h:26
+msgid "Internet"
+msgstr "Інтэрнэт"
+
+#: ../data/software-center.menu.in.h:27
+msgid "Java"
+msgstr "Java"
+
+#: ../data/software-center.menu.in.h:28
+msgid "Libraries"
+msgstr "Бібліятэкі"
+
+#: ../data/software-center.menu.in.h:29
+msgid "Lisp"
+msgstr "Lisp"
+
+#: ../data/software-center.menu.in.h:30
+msgid "Localization"
+msgstr "Лакалізацыя"
+
+#: ../data/software-center.menu.in.h:31
+msgid "Mail"
+msgstr "Пошта"
+
+#: ../data/software-center.menu.in.h:32
+msgid "Mathematics"
+msgstr "Матэматыка"
+
+#: ../data/software-center.menu.in.h:33
+msgid "Mono/CLI"
+msgstr "Mono/CLI"
+
+#: ../data/software-center.menu.in.h:34
+msgid "Multimedia"
+msgstr "Мультымэдыя"
+
+#: ../data/software-center.menu.in.h:35
+msgid "OCaml"
+msgstr "OCaml"
+
+#: ../data/software-center.menu.in.h:36
+msgid "Office"
+msgstr "Офіс"
+
+#: ../data/software-center.menu.in.h:37
+msgid "Painting &amp; Editing"
+msgstr "Маляваньне і рэдагаваньне"
+
+#: ../data/software-center.menu.in.h:38
+msgid "Perl"
+msgstr "Perl"
+
+#: ../data/software-center.menu.in.h:39
+msgid "Photography"
+msgstr "Фатаграфія"
+
+#: ../data/software-center.menu.in.h:40
+msgid "Physics"
+msgstr "Фізыка"
+
+#: ../data/software-center.menu.in.h:41
+msgid "Profiling"
+msgstr "Прафіляваньне"
+
+#: ../data/software-center.menu.in.h:42
+msgid "Publishing"
+msgstr "Выдавецтва"
+
+#: ../data/software-center.menu.in.h:43
+msgid "Puzzles"
+msgstr "Галаваломкі"
+
+#: ../data/software-center.menu.in.h:44
+msgid "Python"
+msgstr "Python"
+
+#: ../data/software-center.menu.in.h:45
+msgid "Role Playing"
+msgstr "Ралявыя гульні"
+
+#: ../data/software-center.menu.in.h:46
+msgid "Ruby"
+msgstr "Ruby"
+
+#: ../data/software-center.menu.in.h:47
+msgid "Scanning &amp; OCR"
+msgstr "Сканаваньне &amp; Распазнаньне тэксту"
+
+#: ../data/software-center.menu.in.h:48
+msgid "Science &amp; Engineering"
+msgstr "Навука &amp; Праектаваньне"
+
+#: ../data/software-center.menu.in.h:49
+msgid "Simulation"
+msgstr "Сымулятары"
+
+#: ../data/software-center.menu.in.h:50
+msgid "Sports"
+msgstr "Спартовыя"
+
+#: ../data/software-center.menu.in.h:51
+msgid "System"
+msgstr "Сыстэма"
+
+#: ../data/software-center.menu.in.h:52
+msgid "Themes &amp; Tweaks"
+msgstr "Тэмы &amp; Пашыраныя наладкі"
+
+#: ../data/software-center.menu.in.h:53
+msgid "Universal Access"
+msgstr "Унівэрсальны доступ"
+
+#: ../data/software-center.menu.in.h:54
+msgid "Version Control"
+msgstr "Кантроль вэрсыяў"
+
+#: ../data/software-center.menu.in.h:55
+msgid "Viewers"
+msgstr "Праграмы прагляду"
+
+#: ../data/software-center.menu.in.h:56
+msgid "Web Browsers"
+msgstr "Аглядальнікі інтэрнэту"
+
+#: ../data/software-center.menu.in.h:57
+msgid "Web Development"
+msgstr "Web-распрацоўка"
+
+#: ../data/featured.menu.in.h:1
+msgid "Featured Applications"
+msgstr "Папулярныя дадаткі"
+
+#: ../softwarecenter/app.py:148
+msgid "Sorry, can not open the software database"
+msgstr "Нажаль, немагчыма адчыніць базу даньняў праграмы"
+
+#: ../softwarecenter/app.py:149
+msgid "Please re-install the 'software-center' package."
+msgstr "Калі ласка, паспрабуйце пераўсталяваць пакет 'software-center'"
+
+#: ../softwarecenter/backend/aptd.py:219
+msgid "Error"
+msgstr "Памылка"
+
+#: ../softwarecenter/backend/channel.py:92
+msgid "Canonical Partners"
+msgstr "Партнёры Canonical"
+
+#: ../softwarecenter/backend/channel.py:94
+msgid "Other"
+msgstr "Іншыя"
+
+#. TRANSLATORS: List of "grey-listed" words sperated with ";"
+#. Do not translate this list directly. Instead,
+#. provide a list of words in your language that people are likely
+#. to include in a search but that should normally be ignored in
+#. the search.
+#: ../softwarecenter/db/database.py:39
+msgid "app;application;package;program;programme;suite;tool"
+msgstr "праграма;дастасаваньне;дастасаванне;прылада;аплікацыя"
+
+#. if we don't have a package and it has no arch/component its
+#. not available for us
+#: ../softwarecenter/db/database.py:171
+#: ../softwarecenter/view/appdetailsview.py:212
+#, python-format
+msgid "Sorry, '%s' is not available for this type of computer (%s)."
+msgstr "Прабачце, «%s» недаступны для Вашай архітэктуры кампутара (%s)."
+
+#: ../softwarecenter/distro/__init__.py:45
+#, fuzzy
+msgid ""
+"Lets you choose from thousands of free applications available for your "
+"system."
+msgstr "Прадастаўляе вам выбар з тысяч вольных праграм для Ubuntu."
+
+#: ../softwarecenter/distro/Debian.py:44
+msgid "Provided by Debian"
+msgstr "Прадастаўляецца Debian"
+
+#: ../softwarecenter/distro/Debian.py:47 ../softwarecenter/distro/Ubuntu.py:53
+#, python-format
+msgid "To remove %s, these items must be removed as well:"
+msgstr "Выдаленьне %s закране таксама наступныя праграмы:"
+
+#: ../softwarecenter/distro/Debian.py:49 ../softwarecenter/distro/Ubuntu.py:55
+msgid "Remove All"
+msgstr "Выдаліць усё"
+
+#: ../softwarecenter/distro/Debian.py:56 ../softwarecenter/distro/Ubuntu.py:62
+#, python-format
+msgid ""
+"If you uninstall %s, future updates will not include new items in <b>%s</b> "
+"set. Are you sure you want to continue?"
+msgstr ""
+"Калі вы выдаліце %s, то будучыя абнаўленьні ня будуць уключаць новыя "
+"элементы ў <b>%s</b>. Працягнуць?"
+
+#: ../softwarecenter/distro/Debian.py:59 ../softwarecenter/distro/Debian.py:70
+#: ../softwarecenter/distro/Ubuntu.py:65 ../softwarecenter/distro/Ubuntu.py:76
+msgid "Remove Anyway"
+msgstr "Выдаліць у любым выпадку"
+
+#: ../softwarecenter/distro/Debian.py:66
+#, python-format
+msgid ""
+"%s is a core application in Debian. Uninstalling it may cause future "
+"upgrades to be incomplete. Are you sure you want to continue?"
+msgstr ""
+"%s — важнае дастасаваньне. Калі яго выдаліць, то будучыя абнаўленьні сыстэмы "
+"будуць няпоўнымі. Працягнуць?"
+
+#. generic message
+#: ../softwarecenter/distro/Debian.py:79 ../softwarecenter/distro/Ubuntu.py:85
+msgid "Installed"
+msgstr "Усталявана"
+
+#: ../softwarecenter/distro/Debian.py:91 ../softwarecenter/distro/Ubuntu.py:97
+msgid "Unknown"
+msgstr "Невядома"
+
+#: ../softwarecenter/distro/Debian.py:93 ../softwarecenter/distro/Ubuntu.py:99
+msgid "Open Source"
+msgstr "Open Source"
+
+#: ../softwarecenter/distro/Debian.py:95
+msgid "Open Source with proprietary parts"
+msgstr "Вольнае праграмнае забесьпячэньне з закрытымі часткамі"
+
+#: ../softwarecenter/distro/Debian.py:97
+#: ../softwarecenter/distro/Ubuntu.py:101
+msgid "Proprietary"
+msgstr "Прыватнаўласная"
+
+#: ../softwarecenter/distro/Debian.py:98
+#: ../softwarecenter/distro/Ubuntu.py:102
+#, python-format
+msgid "License: %s"
+msgstr "Ліцэнзыя: %s"
+
+#: ../softwarecenter/distro/Ubuntu.py:42
+msgid ""
+"Lets you choose from thousands of free applications available for Ubuntu."
+msgstr "Прадастаўляе вам выбар з тысяч вольных праграм для Ubuntu."
+
+#: ../softwarecenter/distro/Ubuntu.py:50
+msgid "Provided by Ubuntu"
+msgstr "Прадастаўляецца Ubuntu"
+
+#: ../softwarecenter/distro/Ubuntu.py:72
+#, python-format
+msgid ""
+"%s is a core application in Ubuntu. Uninstalling it may cause future "
+"upgrades to be incomplete. Are you sure you want to continue?"
+msgstr ""
+"%s з'яўляецца базавым дастасаваньнем Ubuntu. У выпадку яго выдаленьня могуць "
+"узьнікнуць праблемы знастцпным абнаўленьнем сыстэмы. Выдаліць дастасаваньне?"
+
+#. TRANSLATORS: This text will be showed as price of the software
+#. its free
+#: ../softwarecenter/distro/Ubuntu.py:126
+#: ../softwarecenter/view/appdetailsview.py:500
+msgid "Free"
+msgstr "Бясплатна"
+
+#: ../softwarecenter/distro/Ubuntu.py:173
+#: ../softwarecenter/distro/Ubuntu.py:185
+#, python-format
+msgid ""
+"Canonical does no longer provide updates for %s in Ubuntu %s. Updates may be "
+"available in a newer version of Ubuntu."
+msgstr ""
+"Canonical больш не забяспечвае абнаўленьні для %s ва Ubuntu %s. Магчыма "
+"абнаўленьні  даступныя ў пазьнейшых вэрсіях Ubuntu."
+
+#: ../softwarecenter/distro/Ubuntu.py:178
+#, python-format
+msgid ""
+"Canonical provides critical updates for %(appname)s until "
+"%(support_end_month_str)s %(support_end_year)s."
+msgstr ""
+"Canonical забясьпечвае крытычныя абнаўленьні для %(appname)s да "
+"%(support_end_month_str)s %(support_end_year)s."
+
+#: ../softwarecenter/distro/Ubuntu.py:190
+#, python-format
+msgid ""
+"Canonical provides critical updates supplied by the developers of "
+"%(appname)s until %(support_end_month_str)s %(support_end_year)s."
+msgstr ""
+"Canonical падае крытычныя абнаўленьні ад распрацоўшчыкаў %(appname)s да"
+"%(support_end_month_str)s %(support_end_year)s."
+
+#: ../softwarecenter/distro/Ubuntu.py:200
+#, python-format
+msgid ""
+"Canonical does not provide updates for %s. Some updates may be provided by "
+"the third party vendor."
+msgstr ""
+"Кампанія Canonical не прадастаўляе абнаўленьняў для %s. Некаторыя "
+"абнаўленьні могуць прадастаўляцца трэцімі асобамі."
+
+#: ../softwarecenter/distro/Ubuntu.py:204
+#, python-format
+msgid "Canonical provides critical updates for %s."
+msgstr "Canonical забясьпечвае крытычныя абнаўленьні для % s."
+
+#: ../softwarecenter/distro/Ubuntu.py:206
+#, python-format
+msgid "Canonical provides critical updates supplied by the developers of %s."
+msgstr ""
+"Кампанія Canonical прадастаўляе крытычныя абнаўленьні, напісаныя "
+"распрацоўшчыкамі %s."
+
+#: ../softwarecenter/distro/Ubuntu.py:209
+#, python-format
+msgid ""
+"Canonical does not provide updates for %s. Some updates may be provided by "
+"the Ubuntu community."
+msgstr ""
+"Кампанія Canonical не прадастаўляе абнаўленьняў для %s. Некаторыя "
+"абнаўленьні могуць прадастаўляцца суполкай Ubuntu."
+
+#: ../softwarecenter/distro/Ubuntu.py:212
+#, python-format
+msgid "Application %s has an unknown maintenance status."
+msgstr "Дастасаваньне %s мае невядомы стан падтрымкі"
+
+#: ../softwarecenter/view/appdetailsview.py:85
+msgid "Description"
+msgstr "Апісаньне"
+
+#: ../softwarecenter/view/appdetailsview.py:202
+#, python-format
+msgid ""
+"This software is available from the '%s' source, which you are not currently "
+"using."
+msgstr ""
+"Гэта дастасаваньне даступна з крыніцы «%s», якая ў дадзены момант не "
+"выкарыстоўваецца."
+
+#: ../softwarecenter/view/appdetailsview.py:207
+msgid ""
+"To show information about this item, the software catalog needs updating."
+msgstr ""
+"Каб паказаць інфармацыю для дадзенага элемента, неабходна абнавіць каталёг "
+"дастасаваньняў."
+
+#: ../softwarecenter/view/appdetailsview.py:264
+#: ../softwarecenter/view/appdetailsview.py:268
+msgid "Application Screenshot"
+msgstr "Здымак вакна дастасаваньня"
+
+#: ../softwarecenter/view/appdetailsview.py:296
+#, python-format
+msgid "Version: %s (%s)"
+msgstr "Вэрсія: %s (%s)"
+
+#: ../softwarecenter/view/appdetailsview.py:311
+msgid "Website"
+msgstr "Вэб-сайт"
+
+#: ../softwarecenter/view/appdetailsview.py:317
+#, python-format
+msgid "Price: %s"
+msgstr "Цана: %s"
+
+#: ../softwarecenter/view/appdetailsview.py:331
+msgid "No screenshot available"
+msgstr "Здымак экрану адсутнічае"
+
+#: ../softwarecenter/view/appdetailsview.py:369
+#, python-format
+msgid "%s - Screenshot"
+msgstr "Здымак %s"
+
+#: ../softwarecenter/view/appdetailsview.py:492
+#: ../softwarecenter/view/appview.py:1146
+msgid "Remove"
+msgstr "Выдаліць"
+
+#. 32, the pixbufoverlay height
+#: ../softwarecenter/view/appdetailsview.py:498
+#: ../softwarecenter/view/appview.py:1146
+msgid "Install"
+msgstr "Устанавіць"
+
+#: ../softwarecenter/view/appdetailsview.py:501
+msgid "Install - Free"
+msgstr "Усталяваць - бясплатна"
+
+#. FIXME: deal with the EULA stuff
+#. FIXME: use a proper message here, but we are in string freeze
+#: ../softwarecenter/view/appdetailsview.py:515
+#: ../softwarecenter/view/appdetailsview.py:520
+msgid "Use This Source"
+msgstr "Выкарыстоўваць гэту крыніцу"
+
+#: ../softwarecenter/view/appdetailsview.py:523
+msgid "Update Now"
+msgstr "Абнавіць зараз"
+
+#. draw number of reviews
+#: ../softwarecenter/view/appview.py:657
+#, python-format
+msgid "%s review"
+msgid_plural "%s reviews"
+msgstr[0] "%s агляд"
+msgstr[1] "%s агляды"
+msgstr[2] "%s аглядаў"
+
+#: ../softwarecenter/view/appview.py:1147
+msgid "More Info"
+msgstr "Падрабязьней"
+
+#. home button
+#: ../softwarecenter/view/availablepane.py:123
+#: ../softwarecenter/view/viewswitcher.py:201
+msgid "Get Software"
+msgstr "Атрымаць праграмы"
+
+#: ../softwarecenter/view/availablepane.py:242
+#: ../softwarecenter/view/installedpane.py:79
+#: ../softwarecenter/view/channelpane.py:86
+msgid "Search Results"
+msgstr "Вынікі пошуку"
+
+#: ../softwarecenter/view/availablepane.py:290
+#: ../softwarecenter/view/installedpane.py:158
+#: ../softwarecenter/view/channelpane.py:199
+#, python-format
+msgid "%s matching item"
+msgid_plural "%s matching items"
+msgstr[0] "%s супадзеньне"
+msgstr[1] "%s супадзеньні"
+msgstr[2] "%s супадзеньняў"
+
+#: ../softwarecenter/view/availablepane.py:294
+#: ../softwarecenter/view/channelpane.py:203
+#, python-format
+msgid "%s item available"
+msgid_plural "%s items available"
+msgstr[0] "%s элемент даступен"
+msgstr[1] "%s элементы даступны"
+msgstr[2] "%s элементаў даступна"
+
+#: ../softwarecenter/view/catview.py:82 ../softwarecenter/view/catview.py:88
+msgid "Departments"
+msgstr "Падзелы"
+
+#: ../softwarecenter/view/dialogs.py:45
+msgid "Details"
+msgstr "Падрабязнасьці"
+
+#: ../softwarecenter/view/dialogs.py:83
+msgid "Cancel"
+msgstr "Скасаваць"
+
+#. FIXME: make this a generic pkgview widget
+#: ../softwarecenter/view/dialogs.py:96
+msgid "Dependency"
+msgstr "Залежнасць"
+
+#: ../softwarecenter/view/installedpane.py:84
+#: ../softwarecenter/view/viewswitcher.py:207
+msgid "Installed Software"
+msgstr "Усталяваныя праграмы"
+
+#: ../softwarecenter/view/installedpane.py:162
+#, python-format
+msgid "%s item installed"
+msgid_plural "%s items installed"
+msgstr[0] "%s элемэнт усталяваны"
+msgstr[1] "%s элемэнта усталявана"
+msgstr[2] "%s элемэнтаў усталявана"
+
+#: ../softwarecenter/view/viewswitcher.py:77
+msgid "Software sources"
+msgstr "Крыніцы дастасаваньняў"
+
+#: ../softwarecenter/view/viewswitcher.py:227
+#: ../softwarecenter/view/viewswitcher.py:232
+#, python-format
+msgid "In Progress (%i)"
+msgstr "У працэсе (%i)"
+
+#: ../softwarecenter/view/widgets/backforward.py:61
+msgid "History Navigation"
+msgstr "Гісторыя пераходаў"
+
+#: ../softwarecenter/view/widgets/backforward.py:62
+msgid "Navigate forwards and backwards."
+msgstr "Пераход наперад і назад"
+
+#: ../softwarecenter/view/widgets/backforward.py:76
+#: ../softwarecenter/view/widgets/backforward.py:90
+msgid "Back Button"
+msgstr "Кнопка Назад"
+
+#: ../softwarecenter/view/widgets/backforward.py:77
+#: ../softwarecenter/view/widgets/backforward.py:91
+msgid "Navigates back."
+msgstr "Вярнуцца назад."
+
+#: ../softwarecenter/view/widgets/backforward.py:82
+#: ../softwarecenter/view/widgets/backforward.py:96
+msgid "Forward Button"
+msgstr "Кнопка Наперад"
+
+#: ../softwarecenter/view/widgets/backforward.py:83
+#: ../softwarecenter/view/widgets/backforward.py:97
+msgid "Navigates forward."
+msgstr "Пераход наперад."
+
+#: ../softwarecenter/view/widgets/pathbar_gtk_atk.py:54
+msgid "You are here:"
+msgstr "Вы знаходзіцеся тут:"
+
+#: ../softwarecenter/view/widgets/pathbar_gtk_atk.py:445
+#, python-format
+msgid "Navigates to the %s page."
+msgstr "Пераход на %s старонку."

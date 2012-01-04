@@ -1,0 +1,221 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" $text_direction>
+<head>
+ <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+ <title></title>
+
+ <script type="text/javascript">
+  function changeTitle(title) { 
+    document.title = title; 
+  }
+  function fadeIn(objId,opacity) {
+    obj = document.getElementById(objId);
+    if (opacity <= 100) {
+      setOpacity(obj, opacity);
+      opacity += 10;
+      window.setTimeout("fadeIn('"+objId+"',"+opacity+")", 100);
+    }
+  }
+  function showThumbnail(){
+    document.getElementById("screenshot_wrap").style.display = 'block';
+    
+  }
+  function showProgress(show) {
+    obj=document.getElementById("action_progress"); 
+    obj1=document.getElementById("action_progress_total"); 
+    if (show == true) {
+      obj.style.visibility = 'visible';
+      obj1.style.visibility = 'visible';
+    } else {
+      obj.style.visibility = 'hidden';
+      obj1.style.visibility = 'hidden';
+    }
+  }
+  function updateProgress(progress) {
+    obj=document.getElementById("action_progress"); 
+    obj.style.width=progress+"%";
+  }
+  
+  function setOpacity(obj, opacity) {
+    opacity = (opacity == 100)?99.999:opacity;
+    obj.style.opacity = opacity/100;
+  }
+  
+  function action_button_clicked() {
+    document.getElementById("button_$action_button_value").disabled = true;
+    changeTitle("call:on_button_${action_button_value}_clicked");
+  }
+  function enable_action_button() {
+    document.getElementById("button_$action_button_value").disabled = false;
+  }
+  function disable_action_button() {
+    document.getElementById("button_$action_button_value").disabled = true;
+  }
+ 
+ </script>
+
+  <style type="text/css">
+    *{ -khtml-user-drag:none;}
+    body {
+      margin: 0; 
+      padding: 1em 12px;
+      font-family:${font_family};
+      font-size:${font_size};
+      font-weight:${font_weight};
+      font-style:${font_style};
+    }
+    #wrap{ width:500px; margin:0 auto; padding: 0 15px 0 15px; }
+    #header{ padding-left:76px }
+    h1 {
+      font-size:140%; 
+      margin: 0 0 0.1em;
+    }
+    h2 {
+      font-size:80%;
+      margin:0 0 0.3em 0;
+      font-weight:normal;
+    }
+    #description {
+      font-size: 80%;
+      clear:left;
+    }
+    #icon {
+      margin-left:-76px;
+      width:64px;
+      height:64px;
+      z-index:-1;
+      background: url('file:$iconpath') top center no-repeat;
+      position:absolute;
+      -webkit-background-clip: border-box;
+      -webkit-background-origin: border-box;
+      -webkit-background-size: ${icon_width}px ${icon_height}px;
+    }
+  
+    #screenshot_wrap{
+      display:none;
+    }
+    .screenshot {
+      overflow:hidden;
+      -webkit-box-shadow: rgba(0, 0, 0, 0.4) -4px 2px 10px;
+      
+      display:inline-block;
+      max-width:500px;
+      max-height:375px;
+      
+      text-align:center;
+      -khtml-user-drag:none;
+    }
+    .screenshot a{
+      cursor: -webkit-zoom-in;
+    }
+    #installed_icon {       
+      visibility:${installed};
+      -khtml-user-drag:none;
+      vertical-align:middle;
+    }
+    #install_info{
+      padding:0;
+      margin:0;
+      font-size:70%; 
+    }
+    #package_information { 
+      font-size:70%; 
+    }
+    #maintainance_time { 
+      font-size:70%; 
+    }
+    #license { 
+      font-size:70%; 
+    }
+    #price { 
+      font-size:70%; 
+    }
+    #button_homepage { 
+      display:block;
+      visibility:${homepage_button_visibility};
+      border:0;
+      background:0;
+      text-decoration:underline;
+      font-size:80%; 
+      padding:0;
+      margin:1em 0;
+    }
+    
+    #action_progress_total {
+       margin-top:5px;
+       -webkit-border-radius:5px;
+       visibility:hidden;
+       border: 2px solid #dad7d3;
+       width:330px;
+       height:8px;
+       margin-bottom:.7em;
+    }
+    #action_progress {
+       -webkit-border-radius:3px;
+       visibility:hidden;
+       border-color: #e24912;
+       background-color: #e24912;
+       height:8px;
+      
+    } 
+    label{
+      padding-top:-10px;
+    }
+    
+    .action_button { 
+      font-size:1em;
+      margin-left:0;
+      margin-top:0.2em;
+      visibility:${action_button_visible}; 
+    }
+    #meta{ color: #AAA; width:100%;}
+    #meta td{width:50%}
+    #package_information{ text-align:right; }
+ </style>
+
+ </head>
+
+<body class="${body_class}">
+  <div id="wrap">
+  <div id="header">
+      <div id="icon">
+        
+      </div>
+     <h1 tabindex="0">$appname</h1>
+     <h2 tabindex="0">$summary</h2>
+     <input type="button" id="button_${action_button_value}" 
+          class="action_button"
+	  alt="$action_button_label"
+          value="$action_button_label"
+          onclick='action_button_clicked()'
+      />
+      <label for="button_${action_button_value}" id="install_info">
+        <img id="installed_icon" src="file:${software_installed_icon}"/> $action_button_description
+      </label>
+      <div id="action_progress_total"><div id="action_progress"></div></div>
+   </div>
+    
+   
+   <div id="description">$description</div>
+   <input type="button" id="button_homepage" value="$homepage"
+    onclick='changeTitle("call:on_button_homepage_clicked")'
+    />
+   <div id="screenshot_wrap">
+     <div id="screenshot" class="screenshot">
+       <a href="#" onclick='changeTitle("call:on_screenshot_thumbnail_clicked")'>
+           <img src="${screenshot_large_url}" id="screenshot_img"/>
+       </a>
+     </div>
+  </div>
+   <p tabindex="0" id="maintainance_time">$maintainance_time</p>
+   <table id="meta">
+     <tr >
+       <td tabindex="0" id="license">$license</td>   
+       <td tabindex="0" id="package_information">$package_information</td>
+     </td>
+   </table>
+  </div>
+
+</body>
+</html>

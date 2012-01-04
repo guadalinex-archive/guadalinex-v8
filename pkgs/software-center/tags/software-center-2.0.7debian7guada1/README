@@ -1,0 +1,44 @@
+
+== aptdaemon ==
+ * the dbus limits for the system bus are rather low, this means that
+   adding  <limit name="max_match_rules_per_connection">512</limit> 
+   and using something bigger than 512 is a good idea
+
+== applications.menu ==
+
+The menu file parser understands:
+Category, And, Or, Not
+
+The following additional XML filters are definied:
+SCType - e.g. "Applicatin"
+SCChannel - e.g. "lucid-partner"
+SCSection - e.g. "net"
+SCPkgname - e.g. "gimp"
+
+Additional .menu files can be added in:
+/usr/share/app-install/menu.d 
+that software-center will read and parse.
+
+== XAPIAN ==
+
+The following special prefixes are used:
+
+AA - application name (Abiword)
+AP - package name (abiword)
+AS - archive pocket (main)
+AE - archive section (mail, base, ...)
+AC - category (AudioVideo)
+AT - type (Application)
+AH - channel 
+
+The following values are used:
+
+XAPIAN_VALUE_PKGNAME - pkgname
+XAPIAN_VALUE_ICON - icon name
+XAPIAN_VALUE_GETTEXT_DOMAIN - gettext domain
+XAPIAN_VALUE_ARCHIVE_SECTION - archive section (main, restricted, universe, multiverse)
+XAPIAN_VALUE_ARCHIVE_ARCH - architectures (seperated with ",", e.g. i386,amd64) - may be empty
+XAPIAN_VALUE_POPCON - popcon data
+XAPIAN_VALUE_SUMMARY - summary text
+XAPIAN_VALUE_ARCHIVE_CHANNEL - channel (third party)
+XAPIAN_VALUE_DESKTOP_FILE - the desktop file that the information comes from

@@ -1,0 +1,722 @@
+# Malay translation for software-center
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the software-center package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: software-center\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-11-21 21:04+0100\n"
+"PO-Revision-Date: 2010-05-24 14:49+0000\n"
+"Last-Translator: myromance123 <Unknown>\n"
+"Language-Team: Malay <ms@li.org>\n"
+"Language: ms\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2010-11-21 19:32+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ../data/ui/SoftwareCenter.ui.h:1
+#, fuzzy
+msgid "&#xA9;2009-2010 Canonical"
+msgstr "&#xA9;2009 Canonical"
+
+#: ../data/ui/SoftwareCenter.ui.h:2
+msgid "Copy _Web Link"
+msgstr "Salin _Tautan Web"
+
+#: ../data/ui/SoftwareCenter.ui.h:3
+msgid "Rebuilding application catalog..."
+msgstr "Membina semula katalog aplikasi..."
+
+#: ../data/ui/SoftwareCenter.ui.h:4
+msgid "Search..."
+msgstr "Cari..."
+
+#: ../data/ui/SoftwareCenter.ui.h:5
+msgid "Software Center _Help"
+msgstr "_Bantuan Pusat Perisian"
+
+#: ../data/ui/SoftwareCenter.ui.h:6
+msgid "_All Software"
+msgstr "_Semua Perisian"
+
+#: ../data/ui/SoftwareCenter.ui.h:7
+msgid "_Canonical-Maintained Software"
+msgstr "_Perisian Dipelihara-Canonical"
+
+#: ../data/ui/SoftwareCenter.ui.h:8
+msgid "_Edit"
+msgstr "_Ubah"
+
+#: ../data/ui/SoftwareCenter.ui.h:9
+msgid "_File"
+msgstr "_Fail"
+
+#: ../data/ui/SoftwareCenter.ui.h:10
+msgid "_Help"
+msgstr "_Bantuan"
+
+#: ../data/ui/SoftwareCenter.ui.h:11
+msgid "_Install"
+msgstr "_Pasang"
+
+#: ../data/ui/SoftwareCenter.ui.h:12
+msgid "_Software Sources..."
+msgstr "_Sumber perisian..."
+
+#: ../data/ui/SoftwareCenter.ui.h:13
+msgid "_View"
+msgstr "_Papar"
+
+#: ../data/ubuntu-software-center.desktop.in.h:1
+msgid ""
+"Lets you choose from thousands of free applications available for Ubuntu"
+msgstr ""
+"Membolehkan anda memilih daripada beribu-ribu aplikasi percuma yang "
+"disediakan untuk Ubuntu"
+
+#: ../data/ubuntu-software-center.desktop.in.h:2
+#: ../data/unbranded-software-center.desktop.in.h:2
+#: ../softwarecenter/distro/__init__.py:39
+msgid "Software Center"
+msgstr "Pusat Perisian"
+
+#: ../data/ubuntu-software-center.desktop.in.h:3
+#: ../softwarecenter/distro/Ubuntu.py:39
+msgid "Ubuntu Software Center"
+msgstr "Pusat Perisian Ubuntu"
+
+#: ../data/unbranded-software-center.desktop.in.h:1
+#, fuzzy
+msgid ""
+"Lets you choose from thousands of free applications available for your "
+"system "
+msgstr ""
+"Membolehkan anda memilih daripada beribu-ribu aplikasi percuma yang "
+"disediakan untuk Ubuntu"
+
+#: ../data/software-center.menu.in.h:1
+msgid "3D"
+msgstr "3D"
+
+#: ../data/software-center.menu.in.h:2
+msgid "Accessories"
+msgstr "Aksesori"
+
+#: ../data/software-center.menu.in.h:3
+msgid "Arcade"
+msgstr "Arked"
+
+#: ../data/software-center.menu.in.h:4
+msgid "Astronomy"
+msgstr "Astronomi"
+
+#: ../data/software-center.menu.in.h:5
+msgid "Biology"
+msgstr "Biologi"
+
+#: ../data/software-center.menu.in.h:6
+msgid "Board Games"
+msgstr "Permainan Papan"
+
+#: ../data/software-center.menu.in.h:7
+msgid "Card Games"
+msgstr "Permainan Kad"
+
+#: ../data/software-center.menu.in.h:8
+msgid "Chat"
+msgstr "Chat"
+
+#: ../data/software-center.menu.in.h:9
+msgid "Chemistry"
+msgstr "Kimia"
+
+#: ../data/software-center.menu.in.h:10
+msgid "Computer Science &amp; Robotics"
+msgstr "Sains Komputer &amp; Robotics"
+
+#: ../data/software-center.menu.in.h:11
+msgid "Debugging"
+msgstr "Nyahpepijat"
+
+#: ../data/software-center.menu.in.h:12
+msgid "Developer Tools"
+msgstr "Alatan Pembangun Perisian"
+
+#: ../data/software-center.menu.in.h:13
+msgid "Drawing"
+msgstr "Lukisan"
+
+#: ../data/software-center.menu.in.h:14
+msgid "Education"
+msgstr "Pendidikan"
+
+#: ../data/software-center.menu.in.h:15
+msgid "Electronics"
+msgstr "Elektronik"
+
+#: ../data/software-center.menu.in.h:16
+msgid "Engineering"
+msgstr "Kejuruteraan"
+
+#: ../data/software-center.menu.in.h:17
+msgid "File Sharing"
+msgstr "Perkongsian Fail"
+
+#: ../data/software-center.menu.in.h:18
+msgid "Fonts"
+msgstr "Bentuk Huruf (font)"
+
+#: ../data/software-center.menu.in.h:19
+msgid "Games"
+msgstr "Permainan"
+
+#: ../data/software-center.menu.in.h:20
+msgid "Geography"
+msgstr "Geografi"
+
+#: ../data/software-center.menu.in.h:21
+msgid "Geology"
+msgstr "Geologi"
+
+#: ../data/software-center.menu.in.h:22
+msgid "Graphic Interface Design"
+msgstr "Memereka Grafik Antaramuka"
+
+#: ../data/software-center.menu.in.h:23
+msgid "Graphics"
+msgstr "Grafik"
+
+#: ../data/software-center.menu.in.h:24
+msgid "Haskell"
+msgstr "Haskell"
+
+#: ../data/software-center.menu.in.h:25
+msgid "IDEs"
+msgstr "IDEs"
+
+#: ../data/software-center.menu.in.h:26
+msgid "Internet"
+msgstr "Internet"
+
+#: ../data/software-center.menu.in.h:27
+msgid "Java"
+msgstr "Java"
+
+#: ../data/software-center.menu.in.h:28
+msgid "Libraries"
+msgstr "Pustaka"
+
+#: ../data/software-center.menu.in.h:29
+msgid "Lisp"
+msgstr "Lisp"
+
+#: ../data/software-center.menu.in.h:30
+msgid "Localization"
+msgstr "Menyetempatkan"
+
+#: ../data/software-center.menu.in.h:31
+msgid "Mail"
+msgstr "Mel"
+
+#: ../data/software-center.menu.in.h:32
+msgid "Mathematics"
+msgstr "Matematik"
+
+#: ../data/software-center.menu.in.h:33
+msgid "Mono/CLI"
+msgstr "Mono/CLI"
+
+#: ../data/software-center.menu.in.h:34
+msgid "Multimedia"
+msgstr "Multimedia"
+
+#: ../data/software-center.menu.in.h:35
+msgid "OCaml"
+msgstr "OCaml"
+
+#: ../data/software-center.menu.in.h:36
+msgid "Office"
+msgstr "Pejabat"
+
+#: ../data/software-center.menu.in.h:37
+msgid "Painting &amp; Editing"
+msgstr "Lukisan &amp; Penyuntingan"
+
+#: ../data/software-center.menu.in.h:38
+msgid "Perl"
+msgstr "Perl"
+
+#: ../data/software-center.menu.in.h:39
+msgid "Photography"
+msgstr "Fotografi"
+
+#: ../data/software-center.menu.in.h:40
+msgid "Physics"
+msgstr "Fizik"
+
+#: ../data/software-center.menu.in.h:41
+msgid "Profiling"
+msgstr "Pengambilan Butiran"
+
+#: ../data/software-center.menu.in.h:42
+msgid "Publishing"
+msgstr "Penerbitan"
+
+#: ../data/software-center.menu.in.h:43
+msgid "Puzzles"
+msgstr "Teka Teki"
+
+#: ../data/software-center.menu.in.h:44
+msgid "Python"
+msgstr "Python"
+
+#: ../data/software-center.menu.in.h:45
+msgid "Role Playing"
+msgstr "Permainan Watak"
+
+#: ../data/software-center.menu.in.h:46
+msgid "Ruby"
+msgstr "Ruby"
+
+#: ../data/software-center.menu.in.h:47
+msgid "Scanning &amp; OCR"
+msgstr "Pengimbasan &amp; OCR"
+
+#: ../data/software-center.menu.in.h:48
+msgid "Science &amp; Engineering"
+msgstr "Sains &amp; Kejuruteraan"
+
+#: ../data/software-center.menu.in.h:49
+msgid "Simulation"
+msgstr "Simulasi"
+
+#: ../data/software-center.menu.in.h:50
+msgid "Sports"
+msgstr "Sukan"
+
+#: ../data/software-center.menu.in.h:51
+msgid "System"
+msgstr "Sistem"
+
+#: ../data/software-center.menu.in.h:52
+msgid "Themes &amp; Tweaks"
+msgstr "Tema &amp; Pengubahan"
+
+#: ../data/software-center.menu.in.h:53
+msgid "Universal Access"
+msgstr "Akses Universal"
+
+#: ../data/software-center.menu.in.h:54
+msgid "Version Control"
+msgstr "Pengawalan Versi"
+
+#: ../data/software-center.menu.in.h:55
+msgid "Viewers"
+msgstr "Pemapar"
+
+#: ../data/software-center.menu.in.h:56
+msgid "Web Browsers"
+msgstr "Pelayar Web"
+
+#: ../data/software-center.menu.in.h:57
+msgid "Web Development"
+msgstr "Pembangunan Web"
+
+#: ../data/featured.menu.in.h:1
+msgid "Featured Applications"
+msgstr "Aplikasi-aplikasi Utama"
+
+#: ../softwarecenter/app.py:148
+msgid "Sorry, can not open the software database"
+msgstr "Maaf, anda tidak boleh membuka pangkalan data perisian itu"
+
+#: ../softwarecenter/app.py:149
+msgid "Please re-install the 'software-center' package."
+msgstr "Sila pasang semula pakej 'software-center'"
+
+#: ../softwarecenter/backend/aptd.py:219
+msgid "Error"
+msgstr "Ralat"
+
+#: ../softwarecenter/backend/channel.py:92
+msgid "Canonical Partners"
+msgstr "Rakan-rakan Canonical"
+
+#: ../softwarecenter/backend/channel.py:94
+msgid "Other"
+msgstr "Lain-lain"
+
+#. TRANSLATORS: List of "grey-listed" words sperated with ";"
+#. Do not translate this list directly. Instead,
+#. provide a list of words in your language that people are likely
+#. to include in a search but that should normally be ignored in
+#. the search.
+#: ../softwarecenter/db/database.py:39
+msgid "app;application;package;program;programme;suite;tool"
+msgstr "app;application;package;program;programme;suite;tool"
+
+#. if we don't have a package and it has no arch/component its
+#. not available for us
+#: ../softwarecenter/db/database.py:171
+#: ../softwarecenter/view/appdetailsview.py:212
+#, python-format
+msgid "Sorry, '%s' is not available for this type of computer (%s)."
+msgstr "Maaf, '%s' tidak ada untuk komputer jenis ini (%s)."
+
+#: ../softwarecenter/distro/__init__.py:45
+#, fuzzy
+msgid ""
+"Lets you choose from thousands of free applications available for your "
+"system."
+msgstr ""
+"Membolehkan anda memilih antara beribu-ribu aplikasi percuma yang disediakan "
+"untuk Ubuntu."
+
+#: ../softwarecenter/distro/Debian.py:44
+msgid "Provided by Debian"
+msgstr "Disediakan oleh Debian"
+
+#: ../softwarecenter/distro/Debian.py:47 ../softwarecenter/distro/Ubuntu.py:53
+#, python-format
+msgid "To remove %s, these items must be removed as well:"
+msgstr "Untuk membuang %s, perisian-perisian ini juga perlu dibuang sekaligus."
+
+#: ../softwarecenter/distro/Debian.py:49 ../softwarecenter/distro/Ubuntu.py:55
+msgid "Remove All"
+msgstr "Buang Semua"
+
+#: ../softwarecenter/distro/Debian.py:56 ../softwarecenter/distro/Ubuntu.py:62
+#, python-format
+msgid ""
+"If you uninstall %s, future updates will not include new items in <b>%s</b> "
+"set. Are you sure you want to continue?"
+msgstr ""
+"Jika anda membuang %s, barang baru dalam set <b>%s</b> tidak akan dimasukkan "
+"dalam kemaskini di masa hadapan  . Adakah anda pasti mahu teruskan juga?"
+
+#: ../softwarecenter/distro/Debian.py:59 ../softwarecenter/distro/Debian.py:70
+#: ../softwarecenter/distro/Ubuntu.py:65 ../softwarecenter/distro/Ubuntu.py:76
+msgid "Remove Anyway"
+msgstr "Buang Juga"
+
+#: ../softwarecenter/distro/Debian.py:66
+#, python-format
+msgid ""
+"%s is a core application in Debian. Uninstalling it may cause future "
+"upgrades to be incomplete. Are you sure you want to continue?"
+msgstr ""
+"%s adalah aplikasi asas didalam Debian. Membuangkannya mungkin akan "
+"menjadikan kemaskini tidak lengkap pada masa depan. Adakah anda pasti anda "
+"ingin teruskan?"
+
+#. generic message
+#: ../softwarecenter/distro/Debian.py:79 ../softwarecenter/distro/Ubuntu.py:85
+msgid "Installed"
+msgstr "Telah Dipasang"
+
+#: ../softwarecenter/distro/Debian.py:91 ../softwarecenter/distro/Ubuntu.py:97
+msgid "Unknown"
+msgstr "Gagal dikenalpasti"
+
+#: ../softwarecenter/distro/Debian.py:93 ../softwarecenter/distro/Ubuntu.py:99
+msgid "Open Source"
+msgstr "Sumber Terbuka"
+
+#: ../softwarecenter/distro/Debian.py:95
+msgid "Open Source with proprietary parts"
+msgstr "Sumber Terbuka dengan bahagian yang berkenaan dengan pemilik"
+
+#: ../softwarecenter/distro/Debian.py:97
+#: ../softwarecenter/distro/Ubuntu.py:101
+msgid "Proprietary"
+msgstr "Proprietari"
+
+#: ../softwarecenter/distro/Debian.py:98
+#: ../softwarecenter/distro/Ubuntu.py:102
+#, python-format
+msgid "License: %s"
+msgstr "Lesen: %s"
+
+#: ../softwarecenter/distro/Ubuntu.py:42
+msgid ""
+"Lets you choose from thousands of free applications available for Ubuntu."
+msgstr ""
+"Membolehkan anda memilih antara beribu-ribu aplikasi percuma yang disediakan "
+"untuk Ubuntu."
+
+#: ../softwarecenter/distro/Ubuntu.py:50
+msgid "Provided by Ubuntu"
+msgstr "Disediakan oleh Ubuntu"
+
+#: ../softwarecenter/distro/Ubuntu.py:72
+#, python-format
+msgid ""
+"%s is a core application in Ubuntu. Uninstalling it may cause future "
+"upgrades to be incomplete. Are you sure you want to continue?"
+msgstr ""
+"%s adalah aplikasi teras dalam Ubuntu. Naiktaraf di masa hadapan mungkin "
+"tidak akan lengkap jika membuangnya. Adakah anda pasti mahu buangkan juga?"
+
+#. TRANSLATORS: This text will be showed as price of the software
+#. its free
+#: ../softwarecenter/distro/Ubuntu.py:126
+#: ../softwarecenter/view/appdetailsview.py:500
+msgid "Free"
+msgstr "Percuma"
+
+#: ../softwarecenter/distro/Ubuntu.py:173
+#: ../softwarecenter/distro/Ubuntu.py:185
+#, python-format
+msgid ""
+"Canonical does no longer provide updates for %s in Ubuntu %s. Updates may be "
+"available in a newer version of Ubuntu."
+msgstr ""
+"Canonical sudah tidak lagi menyediakan kemaskini untuk %s dalam Ubuntu %s. "
+"Kemaskini mungkin boleh diperolehi dalam versi terbaru Ubuntu."
+
+#: ../softwarecenter/distro/Ubuntu.py:178
+#, python-format
+msgid ""
+"Canonical provides critical updates for %(appname)s until "
+"%(support_end_month_str)s %(support_end_year)s."
+msgstr ""
+"Canonical menyediakan kemaskini kritikal untuk %(appname)s sehingga "
+"%(support_end_month_str)s %(support_end_year)s."
+
+#: ../softwarecenter/distro/Ubuntu.py:190
+#, python-format
+msgid ""
+"Canonical provides critical updates supplied by the developers of "
+"%(appname)s until %(support_end_month_str)s %(support_end_year)s."
+msgstr ""
+"Canonical menyediakan kemaskini kritikal yang dibekalkan oleh pembangun "
+"%(appname)s sehingga %(support_end_month_str)s %(support_end_year)s."
+
+#: ../softwarecenter/distro/Ubuntu.py:200
+#, python-format
+msgid ""
+"Canonical does not provide updates for %s. Some updates may be provided by "
+"the third party vendor."
+msgstr ""
+"Canonical tidak menyediakan kemaskini untuk %s. Kemaskini mungkin disediakan "
+"oleh vendor pihak ketiga."
+
+#: ../softwarecenter/distro/Ubuntu.py:204
+#, python-format
+msgid "Canonical provides critical updates for %s."
+msgstr "Canonical menyediakan kemaskini kritikal untuk %s."
+
+#: ../softwarecenter/distro/Ubuntu.py:206
+#, python-format
+msgid "Canonical provides critical updates supplied by the developers of %s."
+msgstr ""
+"Canonical menyediakan kemaskini kritikal yang dibekalkan oleh pembangun %s."
+
+#: ../softwarecenter/distro/Ubuntu.py:209
+#, python-format
+msgid ""
+"Canonical does not provide updates for %s. Some updates may be provided by "
+"the Ubuntu community."
+msgstr ""
+"Canonical tidak menyediakan kemaskini untuk %s. Beberapa kemaskini mungkin "
+"disediakan oleh komuniti Ubuntu."
+
+#: ../softwarecenter/distro/Ubuntu.py:212
+#, python-format
+msgid "Application %s has an unknown maintenance status."
+msgstr "Aplikasi %s ada keadaan penyelenggaraan yang tidak dikenali."
+
+#: ../softwarecenter/view/appdetailsview.py:85
+msgid "Description"
+msgstr "Huraian"
+
+#: ../softwarecenter/view/appdetailsview.py:202
+#, python-format
+msgid ""
+"This software is available from the '%s' source, which you are not currently "
+"using."
+msgstr ""
+"Perisian ini terdapat pada sumber '%s', yang anda bukan sedang mengguna."
+
+#: ../softwarecenter/view/appdetailsview.py:207
+msgid ""
+"To show information about this item, the software catalog needs updating."
+msgstr ""
+"Untuk menunjukkan informasi mengenai benda ini, katalog perisian perlu "
+"dikemaskini."
+
+#: ../softwarecenter/view/appdetailsview.py:264
+#: ../softwarecenter/view/appdetailsview.py:268
+msgid "Application Screenshot"
+msgstr "Cekupan skrin Aplikasi"
+
+#: ../softwarecenter/view/appdetailsview.py:296
+#, python-format
+msgid "Version: %s (%s)"
+msgstr "Versi: %s (%s)"
+
+#: ../softwarecenter/view/appdetailsview.py:311
+msgid "Website"
+msgstr "Laman web"
+
+#: ../softwarecenter/view/appdetailsview.py:317
+#, python-format
+msgid "Price: %s"
+msgstr "Harga: %s"
+
+#: ../softwarecenter/view/appdetailsview.py:331
+msgid "No screenshot available"
+msgstr "Tiada cekupan skrin"
+
+#: ../softwarecenter/view/appdetailsview.py:369
+#, python-format
+msgid "%s - Screenshot"
+msgstr "%s - Cekupan Skrin"
+
+#: ../softwarecenter/view/appdetailsview.py:492
+#: ../softwarecenter/view/appview.py:1146
+msgid "Remove"
+msgstr "Buang"
+
+#. 32, the pixbufoverlay height
+#: ../softwarecenter/view/appdetailsview.py:498
+#: ../softwarecenter/view/appview.py:1146
+msgid "Install"
+msgstr "Pasang"
+
+#: ../softwarecenter/view/appdetailsview.py:501
+msgid "Install - Free"
+msgstr "Pasang - Percuma"
+
+#. FIXME: deal with the EULA stuff
+#. FIXME: use a proper message here, but we are in string freeze
+#: ../softwarecenter/view/appdetailsview.py:515
+#: ../softwarecenter/view/appdetailsview.py:520
+msgid "Use This Source"
+msgstr "Guna Sumber Ini"
+
+#: ../softwarecenter/view/appdetailsview.py:523
+msgid "Update Now"
+msgstr "Kemaskini Sekarang"
+
+#. draw number of reviews
+#: ../softwarecenter/view/appview.py:657
+#, python-format
+msgid "%s review"
+msgid_plural "%s reviews"
+msgstr[0] "ulas %s"
+msgstr[1] "ulasan %s"
+
+#: ../softwarecenter/view/appview.py:1147
+msgid "More Info"
+msgstr "Lebih maklumat"
+
+#. home button
+#: ../softwarecenter/view/availablepane.py:123
+#: ../softwarecenter/view/viewswitcher.py:201
+msgid "Get Software"
+msgstr "Dapatkan Perisian"
+
+#: ../softwarecenter/view/availablepane.py:242
+#: ../softwarecenter/view/installedpane.py:79
+#: ../softwarecenter/view/channelpane.py:86
+msgid "Search Results"
+msgstr "Hasil Carian"
+
+#: ../softwarecenter/view/availablepane.py:290
+#: ../softwarecenter/view/installedpane.py:158
+#: ../softwarecenter/view/channelpane.py:199
+#, python-format
+msgid "%s matching item"
+msgid_plural "%s matching items"
+msgstr[0] "%s aplikasi sesuai"
+msgstr[1] "%s aplikasi sesuai"
+
+#: ../softwarecenter/view/availablepane.py:294
+#: ../softwarecenter/view/channelpane.py:203
+#, python-format
+msgid "%s item available"
+msgid_plural "%s items available"
+msgstr[0] "%s aplikasi tersedia"
+msgstr[1] "%s aplikasi tersedia"
+
+#: ../softwarecenter/view/catview.py:82 ../softwarecenter/view/catview.py:88
+msgid "Departments"
+msgstr "Kategori"
+
+#: ../softwarecenter/view/dialogs.py:45
+msgid "Details"
+msgstr "Butiran"
+
+#: ../softwarecenter/view/dialogs.py:83
+msgid "Cancel"
+msgstr "Batal"
+
+#. FIXME: make this a generic pkgview widget
+#: ../softwarecenter/view/dialogs.py:96
+msgid "Dependency"
+msgstr "Kebergantungan"
+
+#: ../softwarecenter/view/installedpane.py:84
+#: ../softwarecenter/view/viewswitcher.py:207
+msgid "Installed Software"
+msgstr "Perisian Sudah Terpasang"
+
+#: ../softwarecenter/view/installedpane.py:162
+#, python-format
+msgid "%s item installed"
+msgid_plural "%s items installed"
+msgstr[0] "%s benda dipasang"
+msgstr[1] "%s benda dipasang"
+
+#: ../softwarecenter/view/viewswitcher.py:77
+msgid "Software sources"
+msgstr "Sumber perisian"
+
+#: ../softwarecenter/view/viewswitcher.py:227
+#: ../softwarecenter/view/viewswitcher.py:232
+#, python-format
+msgid "In Progress (%i)"
+msgstr "Sedang dilaksanakan (%i)"
+
+#: ../softwarecenter/view/widgets/backforward.py:61
+msgid "History Navigation"
+msgstr "Navigasi Sejarah"
+
+#: ../softwarecenter/view/widgets/backforward.py:62
+msgid "Navigate forwards and backwards."
+msgstr "Mengemudi ke depan dan belakang."
+
+#: ../softwarecenter/view/widgets/backforward.py:76
+#: ../softwarecenter/view/widgets/backforward.py:90
+msgid "Back Button"
+msgstr "Butang ke Belakang"
+
+#: ../softwarecenter/view/widgets/backforward.py:77
+#: ../softwarecenter/view/widgets/backforward.py:91
+msgid "Navigates back."
+msgstr "Mengemudi ke belakang."
+
+#: ../softwarecenter/view/widgets/backforward.py:82
+#: ../softwarecenter/view/widgets/backforward.py:96
+msgid "Forward Button"
+msgstr "Butang ke Depat"
+
+#: ../softwarecenter/view/widgets/backforward.py:83
+#: ../softwarecenter/view/widgets/backforward.py:97
+msgid "Navigates forward."
+msgstr "Mengemudi ke depan."
+
+#: ../softwarecenter/view/widgets/pathbar_gtk_atk.py:54
+msgid "You are here:"
+msgstr "Anda berada disini:"
+
+#: ../softwarecenter/view/widgets/pathbar_gtk_atk.py:445
+#, python-format
+msgid "Navigates to the %s page."
+msgstr "Mengemudi ke muka surat %s."

@@ -1,0 +1,694 @@
+# Malayalam translation for software-center
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the software-center package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: software-center\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-11-21 21:04+0100\n"
+"PO-Revision-Date: 2010-08-29 11:55+0000\n"
+"Last-Translator: Sadiq <sadiqpkp@gmail.com>\n"
+"Language-Team: Malayalam <ml@li.org>\n"
+"Language: ml\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2010-11-21 19:32+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ../data/ui/SoftwareCenter.ui.h:1
+#, fuzzy
+msgid "&#xA9;2009-2010 Canonical"
+msgstr "&#xA9;2009 കനോനികൽ"
+
+#: ../data/ui/SoftwareCenter.ui.h:2
+msgid "Copy _Web Link"
+msgstr ""
+
+#: ../data/ui/SoftwareCenter.ui.h:3
+msgid "Rebuilding application catalog..."
+msgstr ""
+
+#: ../data/ui/SoftwareCenter.ui.h:4
+msgid "Search..."
+msgstr "തെരയുക..."
+
+#: ../data/ui/SoftwareCenter.ui.h:5
+msgid "Software Center _Help"
+msgstr "സോഫ്റ്റ്‌‌വെയർ സെന്റർ സഹായം (_H)"
+
+#: ../data/ui/SoftwareCenter.ui.h:6
+msgid "_All Software"
+msgstr "_എല്ലാ സോഫ്റ്റ്‌‌വെയറും"
+
+#: ../data/ui/SoftwareCenter.ui.h:7
+msgid "_Canonical-Maintained Software"
+msgstr ""
+
+#: ../data/ui/SoftwareCenter.ui.h:8
+msgid "_Edit"
+msgstr "മാറ്റം വരുത്തുക (_E)"
+
+#: ../data/ui/SoftwareCenter.ui.h:9
+msgid "_File"
+msgstr "_ഫയല്‍"
+
+#: ../data/ui/SoftwareCenter.ui.h:10
+msgid "_Help"
+msgstr "_സഹായം"
+
+#: ../data/ui/SoftwareCenter.ui.h:11
+msgid "_Install"
+msgstr "_ഇന്‍സ്റ്റോള്‍ ചെയ്യുക"
+
+#: ../data/ui/SoftwareCenter.ui.h:12
+msgid "_Software Sources..."
+msgstr ""
+
+#: ../data/ui/SoftwareCenter.ui.h:13
+msgid "_View"
+msgstr "_കാണുക"
+
+#: ../data/ubuntu-software-center.desktop.in.h:1
+msgid ""
+"Lets you choose from thousands of free applications available for Ubuntu"
+msgstr ""
+
+#: ../data/ubuntu-software-center.desktop.in.h:2
+#: ../data/unbranded-software-center.desktop.in.h:2
+#: ../softwarecenter/distro/__init__.py:39
+msgid "Software Center"
+msgstr "സോഫ്റ്റ്‌‌വെയർ സെന്റർ"
+
+#: ../data/ubuntu-software-center.desktop.in.h:3
+#: ../softwarecenter/distro/Ubuntu.py:39
+msgid "Ubuntu Software Center"
+msgstr "ഉബുണ്ടു സോഫ്റ്റ്‌‌വെയർ സെന്റർ"
+
+#: ../data/unbranded-software-center.desktop.in.h:1
+#, fuzzy
+msgid ""
+"Lets you choose from thousands of free applications available for your "
+"system "
+msgstr "ഉബുണ്ടുവിനു ലഭ്യമായ ആയിരക്കണക്കിനു സൌജന്യ പ്രയോഗങ്ങളില്‍ നിന്നും നിങ്ങള്‍ക്ക് തിരഞ്ഞെടുക്കാം."
+
+#: ../data/software-center.menu.in.h:1
+msgid "3D"
+msgstr "ത്രിമാന"
+
+#: ../data/software-center.menu.in.h:2
+msgid "Accessories"
+msgstr "ആക്സസറീസ്"
+
+#: ../data/software-center.menu.in.h:3
+msgid "Arcade"
+msgstr "ആര്‍കേഡ്"
+
+#: ../data/software-center.menu.in.h:4
+msgid "Astronomy"
+msgstr "ജ്യോതിശാസ്ത്രം"
+
+#: ../data/software-center.menu.in.h:5
+msgid "Biology"
+msgstr "ജീവശാസ്ത്രം"
+
+#: ../data/software-center.menu.in.h:6
+msgid "Board Games"
+msgstr "ബോര്‍ഡ് കളികള്‍"
+
+#: ../data/software-center.menu.in.h:7
+msgid "Card Games"
+msgstr "ചീട്ടു് കളികള്‍"
+
+#: ../data/software-center.menu.in.h:8
+msgid "Chat"
+msgstr "ചാറ്റ്"
+
+#: ../data/software-center.menu.in.h:9
+msgid "Chemistry"
+msgstr "കെമിസ്ട്രി"
+
+#: ../data/software-center.menu.in.h:10
+msgid "Computer Science &amp; Robotics"
+msgstr ""
+
+#: ../data/software-center.menu.in.h:11
+msgid "Debugging"
+msgstr "ഡീബഗ്ഗ് ചെയ്യുന്നു"
+
+#: ../data/software-center.menu.in.h:12
+msgid "Developer Tools"
+msgstr ""
+
+#: ../data/software-center.menu.in.h:13
+msgid "Drawing"
+msgstr "ചിത്രരചന"
+
+#: ../data/software-center.menu.in.h:14
+msgid "Education"
+msgstr "വിദ്യാഭ്യാസം"
+
+#: ../data/software-center.menu.in.h:15
+msgid "Electronics"
+msgstr "ഇലക്ട്രോണിക്സ്"
+
+#: ../data/software-center.menu.in.h:16
+msgid "Engineering"
+msgstr "എഞ്ചിനിയറിംങ്"
+
+#: ../data/software-center.menu.in.h:17
+msgid "File Sharing"
+msgstr "ഫയല്‍ പങ്കിടല്‍"
+
+#: ../data/software-center.menu.in.h:18
+msgid "Fonts"
+msgstr "അക്ഷരസഞ്ചയങ്ങള്‍"
+
+#: ../data/software-center.menu.in.h:19
+msgid "Games"
+msgstr "കളികള്‍"
+
+#: ../data/software-center.menu.in.h:20
+msgid "Geography"
+msgstr "ഭൂമിശാസ്ത്രം"
+
+#: ../data/software-center.menu.in.h:21
+msgid "Geology"
+msgstr "ജിയോളജി"
+
+#: ../data/software-center.menu.in.h:22
+msgid "Graphic Interface Design"
+msgstr ""
+
+#: ../data/software-center.menu.in.h:23
+msgid "Graphics"
+msgstr "ഗ്രാഫിക്സ്"
+
+#: ../data/software-center.menu.in.h:24
+msgid "Haskell"
+msgstr "ഹാസ്കല്‍"
+
+#: ../data/software-center.menu.in.h:25
+msgid "IDEs"
+msgstr "IDE"
+
+#: ../data/software-center.menu.in.h:26
+msgid "Internet"
+msgstr "ഇന്റര്‍നെറ്റ്"
+
+#: ../data/software-center.menu.in.h:27
+msgid "Java"
+msgstr "ജാവാ"
+
+#: ../data/software-center.menu.in.h:28
+msgid "Libraries"
+msgstr "ലൈബ്രറികള്‍"
+
+#: ../data/software-center.menu.in.h:29
+msgid "Lisp"
+msgstr "ലിസ്പ്‌"
+
+#: ../data/software-center.menu.in.h:30
+msgid "Localization"
+msgstr ""
+
+#: ../data/software-center.menu.in.h:31
+msgid "Mail"
+msgstr "മെയില്‍"
+
+#: ../data/software-center.menu.in.h:32
+msgid "Mathematics"
+msgstr "ഗണിതശാസ്ത്രം"
+
+#: ../data/software-center.menu.in.h:33
+msgid "Mono/CLI"
+msgstr ""
+
+#: ../data/software-center.menu.in.h:34
+msgid "Multimedia"
+msgstr "മള്‍ട്ടീമീഡിയ"
+
+#: ../data/software-center.menu.in.h:35
+msgid "OCaml"
+msgstr ""
+
+#: ../data/software-center.menu.in.h:36
+msgid "Office"
+msgstr "ഓഫീസ്"
+
+#: ../data/software-center.menu.in.h:37
+msgid "Painting &amp; Editing"
+msgstr ""
+
+#: ../data/software-center.menu.in.h:38
+msgid "Perl"
+msgstr "പേള്‍"
+
+#: ../data/software-center.menu.in.h:39
+msgid "Photography"
+msgstr "ഫോട്ടോഗ്രഫി"
+
+#: ../data/software-center.menu.in.h:40
+msgid "Physics"
+msgstr "ഫിസിക്സ്"
+
+#: ../data/software-center.menu.in.h:41
+msgid "Profiling"
+msgstr ""
+
+#: ../data/software-center.menu.in.h:42
+msgid "Publishing"
+msgstr "പബ്ലിഷിംഗ്"
+
+#: ../data/software-center.menu.in.h:43
+msgid "Puzzles"
+msgstr ""
+
+#: ../data/software-center.menu.in.h:44
+msgid "Python"
+msgstr "പൈതണ്‍"
+
+#: ../data/software-center.menu.in.h:45
+msgid "Role Playing"
+msgstr ""
+
+#: ../data/software-center.menu.in.h:46
+msgid "Ruby"
+msgstr "റൂബി"
+
+#: ../data/software-center.menu.in.h:47
+msgid "Scanning &amp; OCR"
+msgstr ""
+
+#: ../data/software-center.menu.in.h:48
+msgid "Science &amp; Engineering"
+msgstr ""
+
+#: ../data/software-center.menu.in.h:49
+msgid "Simulation"
+msgstr "അനുകരണം"
+
+#: ../data/software-center.menu.in.h:50
+msgid "Sports"
+msgstr "കായികം"
+
+#: ../data/software-center.menu.in.h:51
+msgid "System"
+msgstr "സിസ്റ്റം"
+
+#: ../data/software-center.menu.in.h:52
+msgid "Themes &amp; Tweaks"
+msgstr ""
+
+#: ../data/software-center.menu.in.h:53
+msgid "Universal Access"
+msgstr "സാര്‍വ്വജനിക ലഭ്യത"
+
+#: ../data/software-center.menu.in.h:54
+msgid "Version Control"
+msgstr ""
+
+#: ../data/software-center.menu.in.h:55
+msgid "Viewers"
+msgstr "കാഴ്ചക്കാര്‍"
+
+#: ../data/software-center.menu.in.h:56
+msgid "Web Browsers"
+msgstr ""
+
+#: ../data/software-center.menu.in.h:57
+msgid "Web Development"
+msgstr "വെബ് വികസനം‌"
+
+#: ../data/featured.menu.in.h:1
+msgid "Featured Applications"
+msgstr ""
+
+#: ../softwarecenter/app.py:148
+msgid "Sorry, can not open the software database"
+msgstr "ക്ഷമിക്കണം, സോഫ്റ്റ്‌‌വെയർ ഡാറ്റാബേസ് തുറക്കാന്‍ കഴിയുന്നില്ല"
+
+#: ../softwarecenter/app.py:149
+msgid "Please re-install the 'software-center' package."
+msgstr "ദയവായി 'software-center' പാക്കേജ് വീണ്ടും  ഇന്‍സ്റ്റാള്‍ ചെയ്യുക"
+
+#: ../softwarecenter/backend/aptd.py:219
+msgid "Error"
+msgstr "പിശകു്"
+
+#: ../softwarecenter/backend/channel.py:92
+msgid "Canonical Partners"
+msgstr ""
+
+#: ../softwarecenter/backend/channel.py:94
+msgid "Other"
+msgstr "മറ്റുള്ളവ"
+
+#. TRANSLATORS: List of "grey-listed" words sperated with ";"
+#. Do not translate this list directly. Instead,
+#. provide a list of words in your language that people are likely
+#. to include in a search but that should normally be ignored in
+#. the search.
+#: ../softwarecenter/db/database.py:39
+msgid "app;application;package;program;programme;suite;tool"
+msgstr ""
+
+#. if we don't have a package and it has no arch/component its
+#. not available for us
+#: ../softwarecenter/db/database.py:171
+#: ../softwarecenter/view/appdetailsview.py:212
+#, python-format
+msgid "Sorry, '%s' is not available for this type of computer (%s)."
+msgstr ""
+
+#: ../softwarecenter/distro/__init__.py:45
+#, fuzzy
+msgid ""
+"Lets you choose from thousands of free applications available for your "
+"system."
+msgstr "ഉബുണ്ടുവിനു ലഭ്യമായ ആയിരക്കണക്കിനു സൌജന്യ പ്രയോഗങ്ങളില്‍ നിന്നും നിങ്ങള്‍ക്ക് തിരഞ്ഞെടുക്കാം."
+
+#: ../softwarecenter/distro/Debian.py:44
+msgid "Provided by Debian"
+msgstr ""
+
+#: ../softwarecenter/distro/Debian.py:47 ../softwarecenter/distro/Ubuntu.py:53
+#, python-format
+msgid "To remove %s, these items must be removed as well:"
+msgstr ""
+
+#: ../softwarecenter/distro/Debian.py:49 ../softwarecenter/distro/Ubuntu.py:55
+msgid "Remove All"
+msgstr "എല്ലാം നീക്കം ചെയ്യുക"
+
+#: ../softwarecenter/distro/Debian.py:56 ../softwarecenter/distro/Ubuntu.py:62
+#, python-format
+msgid ""
+"If you uninstall %s, future updates will not include new items in <b>%s</b> "
+"set. Are you sure you want to continue?"
+msgstr ""
+
+#: ../softwarecenter/distro/Debian.py:59 ../softwarecenter/distro/Debian.py:70
+#: ../softwarecenter/distro/Ubuntu.py:65 ../softwarecenter/distro/Ubuntu.py:76
+msgid "Remove Anyway"
+msgstr ""
+
+#: ../softwarecenter/distro/Debian.py:66
+#, python-format
+msgid ""
+"%s is a core application in Debian. Uninstalling it may cause future "
+"upgrades to be incomplete. Are you sure you want to continue?"
+msgstr ""
+
+#. generic message
+#: ../softwarecenter/distro/Debian.py:79 ../softwarecenter/distro/Ubuntu.py:85
+msgid "Installed"
+msgstr "ഇന്‍സ്റ്റോള്‍ ചെയ്തിരിക്കുന്ന"
+
+#: ../softwarecenter/distro/Debian.py:91 ../softwarecenter/distro/Ubuntu.py:97
+msgid "Unknown"
+msgstr "അറിയപ്പെടാത്ത"
+
+#: ../softwarecenter/distro/Debian.py:93 ../softwarecenter/distro/Ubuntu.py:99
+msgid "Open Source"
+msgstr "ഓപ്പൺ സോർസ്"
+
+#: ../softwarecenter/distro/Debian.py:95
+msgid "Open Source with proprietary parts"
+msgstr ""
+
+#: ../softwarecenter/distro/Debian.py:97
+#: ../softwarecenter/distro/Ubuntu.py:101
+msgid "Proprietary"
+msgstr ""
+
+#: ../softwarecenter/distro/Debian.py:98
+#: ../softwarecenter/distro/Ubuntu.py:102
+#, python-format
+msgid "License: %s"
+msgstr "അനുമതിപത്രം : %s"
+
+#: ../softwarecenter/distro/Ubuntu.py:42
+msgid ""
+"Lets you choose from thousands of free applications available for Ubuntu."
+msgstr "ഉബുണ്ടുവിനു ലഭ്യമായ ആയിരക്കണക്കിനു സൌജന്യ പ്രയോഗങ്ങളില്‍ നിന്നും നിങ്ങള്‍ക്ക് തിരഞ്ഞെടുക്കാം."
+
+#: ../softwarecenter/distro/Ubuntu.py:50
+msgid "Provided by Ubuntu"
+msgstr ""
+
+#: ../softwarecenter/distro/Ubuntu.py:72
+#, python-format
+msgid ""
+"%s is a core application in Ubuntu. Uninstalling it may cause future "
+"upgrades to be incomplete. Are you sure you want to continue?"
+msgstr ""
+
+#. TRANSLATORS: This text will be showed as price of the software
+#. its free
+#: ../softwarecenter/distro/Ubuntu.py:126
+#: ../softwarecenter/view/appdetailsview.py:500
+msgid "Free"
+msgstr "സൗജന്യം"
+
+#: ../softwarecenter/distro/Ubuntu.py:173
+#: ../softwarecenter/distro/Ubuntu.py:185
+#, python-format
+msgid ""
+"Canonical does no longer provide updates for %s in Ubuntu %s. Updates may be "
+"available in a newer version of Ubuntu."
+msgstr ""
+
+#: ../softwarecenter/distro/Ubuntu.py:178
+#, python-format
+msgid ""
+"Canonical provides critical updates for %(appname)s until "
+"%(support_end_month_str)s %(support_end_year)s."
+msgstr ""
+
+#: ../softwarecenter/distro/Ubuntu.py:190
+#, python-format
+msgid ""
+"Canonical provides critical updates supplied by the developers of "
+"%(appname)s until %(support_end_month_str)s %(support_end_year)s."
+msgstr ""
+
+#: ../softwarecenter/distro/Ubuntu.py:200
+#, python-format
+msgid ""
+"Canonical does not provide updates for %s. Some updates may be provided by "
+"the third party vendor."
+msgstr ""
+
+#: ../softwarecenter/distro/Ubuntu.py:204
+#, python-format
+msgid "Canonical provides critical updates for %s."
+msgstr ""
+
+#: ../softwarecenter/distro/Ubuntu.py:206
+#, python-format
+msgid "Canonical provides critical updates supplied by the developers of %s."
+msgstr ""
+
+#: ../softwarecenter/distro/Ubuntu.py:209
+#, python-format
+msgid ""
+"Canonical does not provide updates for %s. Some updates may be provided by "
+"the Ubuntu community."
+msgstr ""
+"%s അപ്ഡേറ്റുകള്‍ കാനോനിക്കല്‍ നല്‍കുന്നില്ല. ചില അപ്ഡേറ്റുകള്‍ ഉബുണ്ടു സമൂഹം  വഴി ലഭ്യമായേക്കാം ."
+
+#: ../softwarecenter/distro/Ubuntu.py:212
+#, python-format
+msgid "Application %s has an unknown maintenance status."
+msgstr ""
+
+#: ../softwarecenter/view/appdetailsview.py:85
+msgid "Description"
+msgstr "വിവരണം"
+
+#: ../softwarecenter/view/appdetailsview.py:202
+#, python-format
+msgid ""
+"This software is available from the '%s' source, which you are not currently "
+"using."
+msgstr ""
+
+#: ../softwarecenter/view/appdetailsview.py:207
+msgid ""
+"To show information about this item, the software catalog needs updating."
+msgstr ""
+
+#: ../softwarecenter/view/appdetailsview.py:264
+#: ../softwarecenter/view/appdetailsview.py:268
+msgid "Application Screenshot"
+msgstr "ആപ്ലിക്കേഷന്റെ സ്ക്രീന്‍ഷോട്ട്"
+
+#: ../softwarecenter/view/appdetailsview.py:296
+#, python-format
+msgid "Version: %s (%s)"
+msgstr "വേർഷൻ: %s (%s)"
+
+#: ../softwarecenter/view/appdetailsview.py:311
+msgid "Website"
+msgstr "വെബ്സൈറ്റ്"
+
+#: ../softwarecenter/view/appdetailsview.py:317
+#, python-format
+msgid "Price: %s"
+msgstr "വില: %s"
+
+#: ../softwarecenter/view/appdetailsview.py:331
+msgid "No screenshot available"
+msgstr ""
+
+#: ../softwarecenter/view/appdetailsview.py:369
+#, python-format
+msgid "%s - Screenshot"
+msgstr "%s - സ്‌‌ക്രീന്‍ഷോട്ട്"
+
+#: ../softwarecenter/view/appdetailsview.py:492
+#: ../softwarecenter/view/appview.py:1146
+msgid "Remove"
+msgstr "നീക്കം ചെയ്യുക"
+
+#. 32, the pixbufoverlay height
+#: ../softwarecenter/view/appdetailsview.py:498
+#: ../softwarecenter/view/appview.py:1146
+msgid "Install"
+msgstr "ഇന്‍സ്റ്റാള്‍"
+
+#: ../softwarecenter/view/appdetailsview.py:501
+msgid "Install - Free"
+msgstr "ഇന്‍സ്റ്റാള്‍ - ഫ്രീ"
+
+#. FIXME: deal with the EULA stuff
+#. FIXME: use a proper message here, but we are in string freeze
+#: ../softwarecenter/view/appdetailsview.py:515
+#: ../softwarecenter/view/appdetailsview.py:520
+msgid "Use This Source"
+msgstr ""
+
+#: ../softwarecenter/view/appdetailsview.py:523
+msgid "Update Now"
+msgstr ""
+
+#. draw number of reviews
+#: ../softwarecenter/view/appview.py:657
+#, python-format
+msgid "%s review"
+msgid_plural "%s reviews"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../softwarecenter/view/appview.py:1147
+msgid "More Info"
+msgstr ""
+
+#. home button
+#: ../softwarecenter/view/availablepane.py:123
+#: ../softwarecenter/view/viewswitcher.py:201
+msgid "Get Software"
+msgstr ""
+
+#: ../softwarecenter/view/availablepane.py:242
+#: ../softwarecenter/view/installedpane.py:79
+#: ../softwarecenter/view/channelpane.py:86
+msgid "Search Results"
+msgstr "തിരയല്‍ ഫലങ്ങള്‍"
+
+#: ../softwarecenter/view/availablepane.py:290
+#: ../softwarecenter/view/installedpane.py:158
+#: ../softwarecenter/view/channelpane.py:199
+#, python-format
+msgid "%s matching item"
+msgid_plural "%s matching items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../softwarecenter/view/availablepane.py:294
+#: ../softwarecenter/view/channelpane.py:203
+#, python-format
+msgid "%s item available"
+msgid_plural "%s items available"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../softwarecenter/view/catview.py:82 ../softwarecenter/view/catview.py:88
+msgid "Departments"
+msgstr "വിഭാഗങ്ങള്‍"
+
+#: ../softwarecenter/view/dialogs.py:45
+msgid "Details"
+msgstr "വിശദാംശങ്ങള്‍"
+
+#: ../softwarecenter/view/dialogs.py:83
+msgid "Cancel"
+msgstr "റദ്ദാക്കുക"
+
+#. FIXME: make this a generic pkgview widget
+#: ../softwarecenter/view/dialogs.py:96
+msgid "Dependency"
+msgstr ""
+
+#: ../softwarecenter/view/installedpane.py:84
+#: ../softwarecenter/view/viewswitcher.py:207
+msgid "Installed Software"
+msgstr "ഇന്‍സ്റ്റാൾ ചെയ്തിട്ടുള്ള സോഫ്റ്റ്‌‌വെയറുകൾ"
+
+#: ../softwarecenter/view/installedpane.py:162
+#, python-format
+msgid "%s item installed"
+msgid_plural "%s items installed"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../softwarecenter/view/viewswitcher.py:77
+msgid "Software sources"
+msgstr "സോഫ്റ്റ്‌വെയര്‍ സ്രോതസ്സുകള്‍"
+
+#: ../softwarecenter/view/viewswitcher.py:227
+#: ../softwarecenter/view/viewswitcher.py:232
+#, python-format
+msgid "In Progress (%i)"
+msgstr ""
+
+#: ../softwarecenter/view/widgets/backforward.py:61
+msgid "History Navigation"
+msgstr ""
+
+#: ../softwarecenter/view/widgets/backforward.py:62
+msgid "Navigate forwards and backwards."
+msgstr ""
+
+#: ../softwarecenter/view/widgets/backforward.py:76
+#: ../softwarecenter/view/widgets/backforward.py:90
+msgid "Back Button"
+msgstr ""
+
+#: ../softwarecenter/view/widgets/backforward.py:77
+#: ../softwarecenter/view/widgets/backforward.py:91
+msgid "Navigates back."
+msgstr ""
+
+#: ../softwarecenter/view/widgets/backforward.py:82
+#: ../softwarecenter/view/widgets/backforward.py:96
+msgid "Forward Button"
+msgstr ""
+
+#: ../softwarecenter/view/widgets/backforward.py:83
+#: ../softwarecenter/view/widgets/backforward.py:97
+msgid "Navigates forward."
+msgstr ""
+
+#: ../softwarecenter/view/widgets/pathbar_gtk_atk.py:54
+msgid "You are here:"
+msgstr "നിങ്ങൾ ഇവിടെയാണ്‌"
+
+#: ../softwarecenter/view/widgets/pathbar_gtk_atk.py:445
+#, python-format
+msgid "Navigates to the %s page."
+msgstr ""

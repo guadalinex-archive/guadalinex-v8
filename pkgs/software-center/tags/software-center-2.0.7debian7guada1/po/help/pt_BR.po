@@ -1,0 +1,674 @@
+# Brazilian Portuguese translation for software-center-doc
+# This file is distributed under the same license as the software-center-doc package.
+# Sérgio Cipolla <secipolla@gmail.com>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: software-center-doc\n"
+"POT-Creation-Date: 2010-11-21 21:31+0100\n"
+"PO-Revision-Date: 2010-11-22 17:08-0300\n"
+"Last-Translator: Sérgio Cipolla <secipolla@gmail.com>\n"
+"Language-Team: Brazilian Portuguese <<pt_BR@li.org>>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: Portuguese\n"
+"X-Poedit-Country: BRAZIL\n"
+
+#. type: Attribute 'lang' of: <book>
+#: help/C/software-center.xml:18
+msgid "en"
+msgstr "pt_BR"
+
+#. type: Content of: <omf><resource><title>
+#: help/C/software-center.xml:22 help/C/software-center-C.omf:8
+msgid "Software Center"
+msgstr "Central de Aplicativos"
+
+#
+#
+#
+#   <copyright>
+#    <year>2010</year>
+#    <holder>Sérgio Cipolla (Brazilian Portuguese translation)</holder>
+#   </copyright>
+#
+#.  translators: uncomment this:
+#.   <copyright>
+#.    <year>2000</year>
+#.    <holder>ME-THE-TRANSLATOR (Latin translation)</holder>
+#.   </copyright>
+#.   
+#.  An address can be added to the publisher information.  If a role is
+#.      not specified, the publisher/author is the same for all versions of the
+#.      document.  
+#.  This file  contains link to license for the documentation (GNU FDL), and
+#.         other legal stuff such as "NO WARRANTY" statement. Please do not change
+#.         any of this. 
+#. type: Content of: <book><bookinfo>
+#: help/C/software-center.xml:34
+msgid ""
+"<publisher> <publishername>Ubuntu Documentation Project</publishername> </"
+"publisher> &legal;"
+msgstr ""
+"<publisher> <publishername>Projeto de Documentação do Ubuntu</publishername> "
+"</publisher> &legal;"
+
+#. type: Content of: <book><bookinfo><authorgroup><author><firstname>
+#: help/C/software-center.xml:43
+msgid "Michael"
+msgstr "Michael"
+
+#. type: Content of: <book><bookinfo><authorgroup><author><surname>
+#: help/C/software-center.xml:44
+msgid "Vogt"
+msgstr "Vogt"
+
+#. type: Content of: <omf><resource><creator>
+#: help/C/software-center.xml:45 help/C/software-center-C.omf:5
+msgid "mvo@ubuntu.com"
+msgstr "mvo@ubuntu.com"
+
+#. type: Content of: <book><bookinfo><authorgroup><author><firstname>
+#: help/C/software-center.xml:48
+msgid "Matthew"
+msgstr "Matthew"
+
+#. type: Content of: <book><bookinfo><authorgroup><author><firstname>
+#: help/C/software-center.xml:49
+msgid "Paul"
+msgstr "Paul"
+
+#. type: Content of: <book><bookinfo><authorgroup><author><surname>
+#: help/C/software-center.xml:50
+msgid "Thomas"
+msgstr "Thomas"
+
+#. type: Content of: <book><bookinfo><authorgroup><author><email>
+#: help/C/software-center.xml:51
+msgid "mpt@ubuntu.com"
+msgstr "mpt@ubuntu.com"
+
+#. type: Content of: <book><bookinfo><authorgroup><author><firstname>
+#: help/C/software-center.xml:54
+msgid "Andrew"
+msgstr "Andrew"
+
+#. type: Content of: <book><bookinfo><authorgroup><author><surname>
+#: help/C/software-center.xml:55
+msgid "Higginson"
+msgstr "Higginson"
+
+#. type: Content of: <book><bookinfo><authorgroup><author><email>
+#: help/C/software-center.xml:56
+msgid "rugby471@gmail.com"
+msgstr "rugby471@gmail.com"
+
+#. type: Content of: <book><bookinfo><abstract><para>
+#: help/C/software-center.xml:60
+msgid "How to install and remove software."
+msgstr "Como instalar e remover aplicativos."
+
+#. type: Content of: <book><chapter><title>
+#: help/C/software-center.xml:67
+msgid "What is Software Center?"
+msgstr "O que é a Central de Aplicativos?"
+
+#. type: Content of: <book><chapter><para>
+#: help/C/software-center.xml:69
+msgid ""
+"Software Center is a virtual catalog of thousands of free applications and "
+"other software to make your computer more useful."
+msgstr ""
+"A Central de Aplicativos é um catálogo virtual de milhares de aplicativos "
+"feitos para tornar o seu computador mais útil."
+
+#. type: Content of: <book><chapter><para>
+#: help/C/software-center.xml:73
+msgid ""
+"You can find software by category or by searching, and you can install an "
+"item with the click of a button."
+msgstr ""
+"Você pode encontrar aplicativos por categoria ou através de uma busca e você "
+"pode instalar um item com um clique de um botão."
+
+#. type: Content of: <book><chapter><para>
+#: help/C/software-center.xml:77
+msgid ""
+"The Center also lets you examine the software installed on the computer "
+"already, and remove anything you no longer need."
+msgstr ""
+"A Central ainda permite-lhe examinar os aplicativos já instalados no "
+"computador e remover qualquer coisa de que você não mais necessite."
+
+#. type: Content of: <book><chapter><title>
+#: help/C/software-center.xml:83
+msgid "Installing software"
+msgstr "Instalando aplicativos"
+
+#. type: Content of: <book><chapter><para>
+#: help/C/software-center.xml:85
+msgid ""
+"To install something with Software Center, you need administrator access and "
+"a working Internet connection.  (If you set up the operating system on this "
+"computer yourself, you have administrator access automatically.)"
+msgstr ""
+"Para instalar algo com a Central de Aplicativos você necessita de acesso à "
+"conta de administrador e uma conexão com a Internet.  (Se você mesmo "
+"instalou o sistema operacional neste computador, você recebeu acesso à conta "
+"de administrador automaticamente.)"
+
+#. type: Content of: <book><chapter><orderedlist><listitem><para>
+#: help/C/software-center.xml:93
+msgid ""
+"In the <guilabel>Get Software</guilabel> section, find the thing you want to "
+"install.  If you already know its name, try typing the name in the search "
+"field.  Or try searching for the type of program you want (like &#8220;"
+"spreadsheet&#8221;).  Otherwise, browse the list of departments."
+msgstr ""
+"Na seção <guilabel>Obter aplicativos</guilabel>, encontre o que você quer "
+"instalar.  Se você já sabe o seu nome, tente digitá-lo no campo de busca.  "
+"Ou tente procurar pelo tipo de aplicativo que você quer (como &#8220;"
+"planilha de cálculo&#8221;).  Ou então navegue pela lista de departamentos."
+
+#. type: Content of: <book><chapter><orderedlist><listitem><para>
+#: help/C/software-center.xml:103
+msgid "Select the item in the list, and choose <guilabel>More Info</guilabel>."
+msgstr ""
+"Selecione o item na lista e escolha <guilabel>Mais informações</guilabel>."
+
+#. type: Content of: <book><chapter><orderedlist><listitem><para>
+#: help/C/software-center.xml:109
+msgid ""
+"Choose <guilabel>Install</guilabel>.  You may need to enter the "
+"administrative password before the installation can begin."
+msgstr ""
+"Escolha <guilabel>Instalar</guilabel>.  Pode ser que você precise digitar a "
+"senha de administrador para que a instalação possa iniciar."
+
+#. type: Content of: <book><chapter><para>
+#: help/C/software-center.xml:116
+msgid ""
+"How long something takes to install depends on how large it is, and the "
+"speed of your computer and Internet connection."
+msgstr ""
+"Quanto tempo leva para algo ser instalado depende do seu tamanho e das "
+"velocidades do seu computador e da conexão com a Internet."
+
+#. type: Content of: <book><chapter><para>
+#: help/C/software-center.xml:120
+msgid ""
+"When the screen changes to say &#8220;Installed&#8221;, the software is "
+"ready to use."
+msgstr ""
+"Quando a janela mudar e exibir &#8220;Instalado&#8221;, o aplicativo está "
+"pronto para ser usado."
+
+#. type: Content of: <book><chapter><itemizedlist><listitem><para>
+#: help/C/software-center.xml:124
+msgid "<xref linkend=\"launching\" endterm=\"launching-title\"/>"
+msgstr "<xref linkend=\"launching\" endterm=\"launching-title\"/>"
+
+#. type: Content of: <book><chapter><itemizedlist><listitem><para>
+#: help/C/software-center.xml:125
+msgid "<xref linkend=\"missing\" endterm=\"missing-title\"/>"
+msgstr "<xref linkend=\"missing\" endterm=\"missing-title\"/>"
+
+#. type: Content of: <book><chapter><title>
+#: help/C/software-center.xml:130
+msgid "Using a program once it&#8217;s installed"
+msgstr "Usando um aplicativo após a sua instalação"
+
+#. type: Content of: <book><chapter><para>
+#: help/C/software-center.xml:132
+msgid ""
+"Most installed applications appear in the <guimenu>Applications</guimenu> "
+"menu in the corner of the screen, in the same category as they came from in "
+"the Software Center."
+msgstr ""
+"A maioria dos aplicativos instalados aparece no menu <guimenu>Aplicativos</"
+"guimenu> no canto superior esquerdo da tela, na mesma categoria da qual eles "
+"vieram da Central de Aplicativos."
+
+#. type: Content of: <book><chapter><para>
+#: help/C/software-center.xml:137
+msgid ""
+"For example, if you installed a program from the <guilabel>Office</guilabel> "
+"department, it will appear inside <menuchoice><guimenu>Applications</"
+"guimenu> <guisubmenu>Office</guisubmenu></menuchoice>."
+msgstr ""
+"Por exemplo, se você instalou um aplicativo do departamento "
+"<guilabel>Escritório</guilabel>, ele aparecerá em "
+"<menuchoice><guimenu>Aplicativos</guimenu> <guisubmenu>Escritório</"
+"guisubmenu></menuchoice>."
+
+#. type: Content of: <book><chapter><para>
+#: help/C/software-center.xml:143
+msgid ""
+"Utilities for changing settings may appear inside "
+"<menuchoice><guimenu>System</guimenu> <guisubmenu>Preferences</guisubmenu></"
+"menuchoice> or <menuchoice><guimenu>System</guimenu> "
+"<guisubmenu>Administration</guisubmenu></menuchoice>."
+msgstr ""
+"Utilitários para modificar preferências podem aparecer em "
+"<menuchoice><guimenu>Sistema</guimenu> <guisubmenu>Preferências</"
+"guisubmenu></menuchoice> ou <menuchoice><guimenu>Sistema</guimenu> "
+"<guisubmenu>Administração</guisubmenu></menuchoice>."
+
+#. type: Content of: <book><chapter><title>
+#: help/C/software-center.xml:151
+msgid "Removing software"
+msgstr "Removendo aplicativos"
+
+#. type: Content of: <book><chapter><para>
+#: help/C/software-center.xml:153
+msgid ""
+"To remove software, you need administrator access.  (If you set up the "
+"operating system on this computer yourself, you have administrator access "
+"automatically.)"
+msgstr ""
+"Para remover aplicativos você necessita de acesso à conta de administrador.  "
+"(Se você mesmo instalou o sistema operacional neste computador, você recebeu "
+"acesso à conta de administrador automaticamente.)"
+
+#. type: Content of: <book><chapter><orderedlist><listitem><para>
+#: help/C/software-center.xml:160
+msgid ""
+"In the <guilabel>Installed Software</guilabel> section, find the item you "
+"want to remove."
+msgstr ""
+"Na seção <guilabel>Aplicativos instalados</guilabel>, encontre o item que "
+"quer remover."
+
+#. type: Content of: <book><chapter><orderedlist><listitem><para>
+#: help/C/software-center.xml:166
+msgid ""
+"Select the item in the list, and choose <guilabel>Remove</guilabel>.  You "
+"may need to enter the administrative password."
+msgstr ""
+"Selecione o item na lista e escolha <guilabel>Remover</guilabel>.  Pode ser "
+"que você precise digitar a senha de administrador."
+
+#. type: Content of: <book><chapter><para>
+#: help/C/software-center.xml:172
+msgid ""
+"If a program is open when you remove it, usually it will stay open even "
+"after it is removed.  As soon as you close it, it will no longer be "
+"available."
+msgstr ""
+"Se um aplicativo estiver aberto quando você o remover, geralmente ele "
+"permanecerá aberto mesmo após ser removido.  Tão logo você o feche, ele não "
+"estará mais disponível."
+
+#. type: Content of: <book><chapter><itemizedlist><listitem><para>
+#: help/C/software-center.xml:177
+msgid "<xref linkend=\"metapackages\" endterm=\"metapackages-title\"/>"
+msgstr "<xref linkend=\"metapackages\" endterm=\"metapackages-title\"/>"
+
+#. type: Content of: <book><chapter><title>
+#: help/C/software-center.xml:182
+msgid "Why is it asking me to remove several programs together?"
+msgstr ""
+"Porque ele está me dizendo que deve remover vários aplicativos ao mesmo "
+"tempo?"
+
+#. type: Content of: <book><chapter><para>
+#: help/C/software-center.xml:184
+msgid ""
+"Sometimes if you try to remove one item, the Software Center will warn you "
+"that other items will be removed too.  There are two main reasons this "
+"happens."
+msgstr ""
+"Algumas vezes se você tenta remover um item, a Central de Aplicativos vai "
+"lhe avisar que outros itens também serão removidos.  Há duas razões "
+"principais para que isso aconteça."
+
+#. type: Content of: <book><chapter><itemizedlist><listitem><para>
+#: help/C/software-center.xml:191
+msgid ""
+"If you remove an application, any add-ons or accessories for that "
+"application usually will be removed too."
+msgstr ""
+"Se você remove um aplicativo, quaisquer complementos ou acessórios para "
+"aquele aplicativo também serão removidos."
+
+#. type: Content of: <book><chapter><itemizedlist><listitem><para>
+#: help/C/software-center.xml:197
+msgid ""
+"Multiple applications are sometimes provided as a single package.  If any of "
+"them are installed, all of them are installed.  And if any of them are "
+"removed, all of them are removed.  Software Center cannot remove them "
+"individually, because it has no instructions on how to separate them."
+msgstr ""
+"Às vezes vários aplicativos são providos em um único pacote.  Se um deles é "
+"instalado, todos são instalados.  E se um deles é removido, todos são "
+"removidos.  A Central de Aplicativos não pode removê-los individualmente "
+"pois não possui instruções sobre como separá-los."
+
+#. type: Content of: <book><chapter><para>
+#: help/C/software-center.xml:206
+msgid ""
+"You can use the <guilabel>Main Menu</guilabel> settings to hide unwanted "
+"items without removing them from the computer.  In GNOME, you can find "
+"<guilabel>Main Menu</guilabel> inside <menuchoice><guimenu>System</guimenu> "
+"<guisubmenu>Preferences</guisubmenu></menuchoice>."
+msgstr ""
+"Você pode usar as configurações do <guilabel>Menu principal</guilabel> para "
+"ocultar itens indesejados sem removê-los do computador.  No GNOME, você pode "
+"encontrar o <guilabel>Menu principal</guilabel> em "
+"<menuchoice><guimenu>Sistema</guimenu> <guisubmenu>Preferências</"
+"guisubmenu></menuchoice>"
+
+#. type: Content of: <book><chapter><itemizedlist><listitem><para>
+#: help/C/software-center.xml:214
+msgid ""
+"<ulink url=\"ghelp:user-guide?menu-editor\" >Customizing the menu bar</ulink>"
+msgstr ""
+"<ulink url=\"ghelp:user-guide?menu-editor\" >Personalizando a barra de menu</"
+"ulink>"
+
+#. type: Content of: <book><chapter><title>
+#: help/C/software-center.xml:246
+msgid "Why are all the programs free?"
+msgstr "Porque todos os aplicativos são grátis?"
+
+#. type: Content of: <book><chapter><para>
+#: help/C/software-center.xml:248
+msgid "Currently, all software in Software Center is free of charge."
+msgstr "Atualmente todos os aplicativos na Central de Aplicativos são grátis."
+
+#. type: Content of: <book><chapter><para>
+#: help/C/software-center.xml:251
+msgid ""
+"Most of this software is developed as <firstterm>open source</firstterm>, "
+"which means anyone is allowed to alter it and redistribute it for any "
+"price.  Ubuntu developers, Debian developers, and others package the "
+"software available in Software Center, and make it available to you for free."
+msgstr ""
+"A maioria desses aplicativos é desenvolvida com o <firstterm>código aberto</"
+"firstterm>, o que significa que qualquer pessoa pode alterá-los e "
+"redistribuí-los por qualquer preço.  Os desenvolvedores do Ubuntu, do Debian "
+"e outros empacotam os aplicativos disponíveis na Central de Aplicativos e "
+"tornam-nos disponíveis para você gratuitamente."
+
+#. type: Content of: <book><chapter><title>
+#: help/C/software-center.xml:261
+msgid "What if a program I want isn&#8217;t available?"
+msgstr "E se um aplicativo que eu quiser não estiver disponível?"
+
+#. type: Content of: <book><chapter><para>
+#: help/C/software-center.xml:263
+msgid ""
+"First, check that <menuchoice><guimenu>View</guimenu> <guimenuitem>All "
+"Software</guimenuitem></menuchoice> is selected."
+msgstr ""
+"Primeiramente verifique se <menuchoice><guimenu>Ver</guimenu> "
+"<guimenuitem>Todos os aplicativos</guimenuitem></menuchoice> está "
+"selecionado."
+
+#. type: Content of: <book><chapter><para>
+#: help/C/software-center.xml:267
+msgid ""
+"If the software you want still isn&#8217;t there, but you know that it runs "
+"on this operating system, try contacting the original developers of the "
+"program to ask if they can help make it available."
+msgstr ""
+"Se o aplicativo que você quer ainda não está lá mas você sabe que ele "
+"funciona neste sistema operacional, tente contatar os desenvolvedores "
+"originais do aplicativo e perguntar se eles podem ajudar a torná-lo "
+"disponível."
+
+#. type: Content of: <book><chapter><para>
+#: help/C/software-center.xml:273
+msgid ""
+"If a program is available for other operating systems but not for this one, "
+"let the developers know that you&#8217;re interested in running it on this "
+"operating system."
+msgstr ""
+"Se um aplicativo estiver disponível para outros sistemas operacionais mas "
+"não para este aqui, faça com que os seus desenvolvedores saibam que você "
+"está interessado em usá-lo neste sistema operacional."
+
+#. type: Content of: <book><chapter><title>
+#: help/C/software-center.xml:280
+msgid "What if a program doesn&#8217;t work?"
+msgstr "E se um aplicativo não funcionar?"
+
+#. type: Content of: <book><chapter><para>
+#: help/C/software-center.xml:282
+msgid ""
+"With tens of thousands of programs in Software Center, there&#8217;s always "
+"the chance that a few of them won&#8217;t work properly on your computer."
+msgstr ""
+"Com dezenas de milhares de aplicativos na Central de Aplicativos, sempre há "
+"uma chance de que alguns não funcionem bem no seu computador."
+
+#. type: Content of: <book><chapter><para>
+#: help/C/software-center.xml:287
+msgid ""
+"If you are familiar with reporting bugs in software, you can help out by "
+"reporting the problem to the developers, see <ulink url=\"http://www.debian."
+"org/Bugs/Reporting\"> http://www.debian.org/Bugs/Reporting</ulink> for "
+"information on how to report a bug in Debian. If you do not run Debian, but "
+"a distribution based on it, you might need to report the bug to another "
+"address."
+msgstr ""
+"Se você estiver familiarizado com o relato de erros em aplicativos, você "
+"pode ajudar relatando o problema aos desenvolvedores. Veja em <ulink url="
+"\"http://www.debian.org/Bugs/Reporting\"> http://www.debian.org/Bugs/"
+"Reporting</ulink> como relatar um erro no Debian.  Se você não estiver "
+"usando o Debian, mas uma distribuição baseada nele, você talvez tenha de "
+"relatar o erro em outro lugar."
+
+#. type: Content of: <book><chapter><para>
+#: help/C/software-center.xml:296
+msgid ""
+"Otherwise, look through the Center for another program to do what you want."
+msgstr ""
+"Ou então procure na Central por algum outro aplicativo que faça o que você "
+"quer."
+
+#. type: Content of: <book><chapter><itemizedlist><listitem><para>
+#: help/C/software-center.xml:299
+msgid "<xref linkend=\"removing\" endterm=\"removing-title\"/>"
+msgstr "<xref linkend=\"removing\" endterm=\"removing-title\"/>"
+
+#. type: Content of: <legalnotice><para>
+#: help/C/legal.xml:3
+msgid ""
+"Permission is granted to copy, distribute and/or modify this document under "
+"the terms of the GNU Free Documentation License (GFDL), Version 1.1 or any "
+"later version published by the Free Software Foundation with no Invariant "
+"Sections, no Front-Cover Texts, and no Back-Cover Texts.  You can find a "
+"copy of the GFDL at this <ulink type=\"help\" url=\"ghelp:fdl\">link</ulink> "
+"or in the file COPYING-DOCS distributed with this manual."
+msgstr ""
+"Permissão é concedida para copiar, distribuir e/ou modificar este documento "
+"sob os termos da GNU Free Documentation License (GFDL), Versão 1.1 ou "
+"qualquer versão mais recente publicada pela Free Software Foundation sem "
+"seções invariantes e sem textos de capa ou contracapa.  Você pode encontrar "
+"uma cópia da GFDL nesse <ulink type=\"help\" url=\"ghelp:fdl\">link</ulink> "
+"ou no arquivo COPYING-DOCS distribuído com este manual."
+
+#. type: Content of: <legalnotice><para>
+#: help/C/legal.xml:12
+msgid ""
+"This manual is part of a collection of GNOME manuals distributed under the "
+"GFDL.  If you want to distribute this manual separately from the collection, "
+"you can do so by adding a copy of the license to the manual, as described in "
+"section 6 of the license."
+msgstr ""
+"Este manual é parte da coleção de manuais do GNOME distribuídos sob a GFDL.  "
+"Se você quiser distribuir este manual separadamente da coleção, você pode "
+"fazê-lo juntando uma cópia da licença ao manual, como descrito na seção 6 da "
+"licença."
+
+#. type: Content of: <legalnotice><para>
+#: help/C/legal.xml:20
+msgid ""
+"Many of the names used by companies to distinguish their products and "
+"services are claimed as trademarks. Where those names appear in any GNOME "
+"documentation, and the members of the GNOME Documentation Project are made "
+"aware of those trademarks, then the names are in capital letters or initial "
+"capital letters."
+msgstr ""
+"Muitos nomes usados pelas companhias para distinguir os seus produtos e "
+"serviços são reivindicados como marca registrada. Onde esses nomes "
+"aparecerem em qualquer documento do GNOME e os membros do Projeto de "
+"Documentação do GNOME estiverem cientes dessas marcas registradas, eles "
+"estarão em letras maiúsculas ou com as letras iniciais em maiúsculas."
+
+#. type: Content of: <legalnotice><para><orderedlist><listitem><para>
+#: help/C/legal.xml:35
+msgid ""
+"DOCUMENT IS PROVIDED ON AN \"AS IS\" BASIS, WITHOUT WARRANTY OF ANY KIND, "
+"EITHER EXPRESSED OR IMPLIED, INCLUDING, WITHOUT LIMITATION, WARRANTIES THAT "
+"THE DOCUMENT OR MODIFIED VERSION OF THE DOCUMENT IS FREE OF DEFECTS "
+"MERCHANTABLE, FIT FOR A PARTICULAR PURPOSE OR NON-INFRINGING. THE ENTIRE "
+"RISK AS TO THE QUALITY, ACCURACY, AND PERFORMANCE OF THE DOCUMENT OR "
+"MODIFIED VERSION OF THE DOCUMENT IS WITH YOU. SHOULD ANY DOCUMENT OR "
+"MODIFIED VERSION PROVE DEFECTIVE IN ANY RESPECT, YOU (NOT THE INITIAL "
+"WRITER, AUTHOR OR ANY CONTRIBUTOR) ASSUME THE COST OF ANY NECESSARY "
+"SERVICING, REPAIR OR CORRECTION. THIS DISCLAIMER OF WARRANTY CONSTITUTES AN "
+"ESSENTIAL PART OF THIS LICENSE. NO USE OF ANY DOCUMENT OR MODIFIED VERSION "
+"OF THE DOCUMENT IS AUTHORIZED HEREUNDER EXCEPT UNDER THIS DISCLAIMER; AND"
+msgstr ""
+"O DOCUMENTO É FORNECIDO \"COMO ESTÁ\", SEM GARANTIA DE QUALQUER TIPO, "
+"EXPRESSA OU IMPLÍCITA, INCLUINDO, SEM LIMITAÇÃO, AS GARANTIAS DE QUE O "
+"DOCUMENTO OU VERSÃO MODIFICADA DO MESMO ESTÁ LIVRE DE DEFEITOS, É "
+"COMERCIÁVEL, PRÓPRIO PARA UM FIM ESPECÍFICO OU NÃO INFRATOR. TODO RISCO "
+"QUANTO À QUALIDADE, PRECISÃO E DESEMPENHO DO DOCUMENTO OU VERSÃO MODIFICADA "
+"É SEU. SE ALGUM DOCUMENTO OU VERSÃO MODIFICADA MOSTRAR-SE COM DEFEITOS EM "
+"QUALQUER CASO, VOCÊ (NÃO O ESCRITOR INICIAL, AUTOR OU QUALQUER CONTRIBUINTE) "
+"ASSUME O CUSTO DE QUALQUER MANUTENÇÃO NECESSÁRIA, REPAROS OU CORREÇÕES. ESTE "
+"AVISO DE GARANTIA CONSTITUI PARTE ESSENCIAL DA LICENÇA. NENHUM USO DE "
+"QUALQUER DOCUMENTO OU VERSÃO MODIFICADA DO DOCUMENTO ESTÁ AUTORIZADO EXCETO "
+"DE ACORDO COM ESTA CONDIÇÃO; E"
+
+#. type: Content of: <legalnotice><para><orderedlist><listitem><para>
+#: help/C/legal.xml:55
+msgid ""
+"UNDER NO CIRCUMSTANCES AND UNDER NO LEGAL THEORY, WHETHER IN TORT (INCLUDING "
+"NEGLIGENCE), CONTRACT, OR OTHERWISE, SHALL THE AUTHOR, INITIAL WRITER, ANY "
+"CONTRIBUTOR, OR ANY DISTRIBUTOR OF THE DOCUMENT OR MODIFIED VERSION OF THE "
+"DOCUMENT, OR ANY SUPPLIER OF ANY OF SUCH PARTIES, BE LIABLE TO ANY PERSON "
+"FOR ANY DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES OF "
+"ANY CHARACTER INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF GOODWILL, "
+"WORK STOPPAGE, COMPUTER FAILURE OR MALFUNCTION, OR ANY AND ALL OTHER DAMAGES "
+"OR LOSSES ARISING OUT OF OR RELATING TO USE OF THE DOCUMENT AND MODIFIED "
+"VERSIONS OF THE DOCUMENT, EVEN IF SUCH PARTY SHALL HAVE BEEN INFORMED OF THE "
+"POSSIBILITY OF SUCH DAMAGES."
+msgstr ""
+"EM HIPÓTESE ALGUMA E SOB NENHUMA TEORIA JURÍDICA, MESMO EM DELITO (INCLUINDO "
+"NEGLIGÊNCIA), CONTRATO OU NÃO, O AUTOR, ESCRITOR INICIAL, QUALQUER "
+"CONTRIBUINTE OU QUALQUER DISTRIBUIDOR DO DOCUMENTO OU VERSÃO MODIFICADA DO "
+"DOCUMENTO OU QUALQUER FORNECEDOR DE UMA DESSAS PARTES, SERÁ RESPONSÁVEL POR "
+"QUALQUER PESSOA POR QUAISQUER DANOS DIRETOS, INDIRETOS, ESPECIAIS, "
+"INCIDENTAIS OU DE QUALQUER TIPO INCLUINDO, SEM LIMITAÇÃO, DANOS PARA A PERDA "
+"DE BOA VONTADE, PARADA DE TRABALHO, FALHA DE COMPUTADOR OU QUAISQUER OUTROS "
+"DANOS OU PREJUÍZOS DECORRENTES DE OU EM RELAÇÃO AO USO DO DOCUMENTO E VERSÃO "
+"MODIFICADA DO DOCUMENTO, MESMO QUE ESSA PARTE TENHA SIDO INFORMADA DA "
+"POSSIBILIDADE DE TAIS DANOS."
+
+#. type: Content of: <legalnotice><para>
+#: help/C/legal.xml:29
+msgid ""
+"DOCUMENT AND MODIFIED VERSIONS OF THE DOCUMENT ARE PROVIDED UNDER THE TERMS "
+"OF THE GNU FREE DOCUMENTATION LICENSE WITH THE FURTHER UNDERSTANDING THAT: "
+"<placeholder type=\"orderedlist\" id=\"0\"/>"
+msgstr ""
+"O DOCUMENTO E VERSÕES MODIFICADAS DO DOCUMENTO SÃO FORNECIDOS NOS TERMOS DA "
+"LICENÇA DE DOCUMENTAÇÃO LIVRE GNU (\"GNU FREE DOCUMENTATION LICENSE\") COM "
+"ENTENDIMENTOS POSTERIORES QUE: <placeholder type=\"orderedlist\" id=\"0\"/>"
+
+#. type: Content of: <omf><resource>
+#: help/C/software-center-C.omf:10
+msgid "<date> 2009-09-07 </date>"
+msgstr "<date> 09-07-2009 </date>"
+
+#. type: Content of: <omf><resource><description>
+#: help/C/software-center-C.omf:17
+msgid "How to manage applications on your system"
+msgstr "Como gerenciar aplicativos no seu sistema"
+
+#. type: Content of: <omf><resource>
+#: help/C/software-center-C.omf:19
+msgid "<type> user's guide </type>"
+msgstr "<type> guia do usuário </type>"
+
+#~ msgid ""
+#~ "If you are using Ubuntu Netbook Edition, an application appears in its "
+#~ "category on the home screen."
+#~ msgstr ""
+#~ "Se você está usando o Ubuntu Netbook Edition, um aplicativo aparece na "
+#~ "sua categoria na tela inicial."
+
+#~ msgid ""
+#~ "Some items, such as media playback or Web browser plugins, do not appear "
+#~ "in the menus.  They are used automatically when Ubuntu needs them.  For a "
+#~ "Web browser plugin, you may need to close the browser and reopen it "
+#~ "before the plugin will be used."
+#~ msgstr ""
+#~ "Alguns itens como codecs de mídia ou plugins para o navegador da web não "
+#~ "aparecem nos menus.  Eles são usados automaticamente quando o Ubuntu "
+#~ "deles necessita.  Para um plugin de um navegador da web, você pode "
+#~ "precisar fechar e reabrir o navegador para que o plugin possa ser usado."
+
+#~ msgid "What is &#8220;Canonical-maintained&#8221;?"
+#~ msgstr "O que é &#8220;Mantido pela Canonical&#8221;?"
+
+#~ msgid ""
+#~ "Some of the software available in Ubuntu Software Center is maintained by "
+#~ "Canonical.  Canonical engineers ensure that security fixes and other "
+#~ "critical updates are provided for these programs."
+#~ msgstr ""
+#~ "Alguns dos aplicativos disponíveis na Central de Aplicativos do Ubuntu "
+#~ "são mantidos pela Canonical.  Os engenheiros da Canonical asseguram que "
+#~ "correções de segurança e outras atualizações críticas sejam providas para "
+#~ "esses aplicativos."
+
+#~ msgid ""
+#~ "Other software is maintained by the Ubuntu developer community.  Any "
+#~ "updates are provided on a best-effort basis."
+#~ msgstr ""
+#~ "Outros aplicativos são mantidos pela comunidade de desenvolvedores do "
+#~ "Ubuntu.  Quaisquer atualizações são providas com base no seu melhor "
+#~ "esforço."
+
+#~ msgid "What is &#8220;Canonical Partners&#8221;?"
+#~ msgstr "O que são os &#8220;Parceiros da Canonical&#8221;?"
+
+#~ msgid ""
+#~ "<guilabel>Canonical Partners</guilabel> shows software from vendors who "
+#~ "have worked with Canonical to make their software available for Ubuntu."
+#~ msgstr ""
+#~ "<guilabel>Parceiros da Canonical</guilabel> exibe aplicativos de "
+#~ "fornecedores que trabalharam com a Canonical para tornar seus aplicativos "
+#~ "disponíveis no Ubuntu."
+
+#~ msgid ""
+#~ "You can install this software in the same way as any other software in "
+#~ "Ubuntu Software Center."
+#~ msgstr ""
+#~ "Você pode instalar esses aplicativos do mesmo modo que qualquer outro na "
+#~ "Central de Aplicativos do Ubuntu."
+
+#~ msgid ""
+#~ "In a future version of Ubuntu, the Center will also allow software "
+#~ "purchases."
+#~ msgstr ""
+#~ "Numa versão futura do Ubuntu, a Central também possibilitará a compra de "
+#~ "aplicativos."
+
+#~ msgid ""
+#~ "If you are familiar with reporting bugs in software, you can help out by "
+#~ "reporting the problem to the Ubuntu developers.  Most programs have a "
+#~ "<guimenuitem>Report a Problem</guimenuitem> item in their <guimenu>Help</"
+#~ "guimenu> menu."
+#~ msgstr ""
+#~ "Se você estiver familiarizado com a reportagem de erros em aplicativos, "
+#~ "você pode ajudar relatando o problema para os desenvolvedores do Ubuntu.  "
+#~ "A maioria dos aplicativos possui um item <guimenuitem>Relatar um "
+#~ "problema</guimenuitem> no seu menu <guimenu>Ajuda</guimenu>."

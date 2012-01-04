@@ -1,0 +1,82 @@
+#!/usr/bin/python
+# Copyright (C) 2009 Canonical
+#
+# Authors:
+#  Michael Vogt
+#
+# This program is free software; you can redistribute it and/or modify it under
+# the terms of the GNU General Public License as published by the Free Software
+# Foundation; version 3.
+#
+# This program is distributed in the hope that it will be useful, but WITHOUT
+# ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+# FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more
+# details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program; if not, write to the Free Software Foundation, Inc.,
+# 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
+
+# don't change this, gst is later loaded by something and gets 
+# rather upset if pygst.require was not called
+#
+# thread init is also required otherwise both gst and webkit are unhappy
+# <magic>
+import pygtk
+pygtk.require ("2.0")
+import gobject
+gobject.threads_init()
+import gtk
+try:
+    import pygst
+    pygst.require ("0.10")
+    import gst
+except:
+    pass
+# </magic>
+
+import gettext
+import logging
+import os
+
+from softwarecenter.enums import *
+from softwarecenter.version import *
+
+from optparse import OptionParser
+
+if __name__ == "__main__":
+
+    parser = OptionParser("usage: %prog [options] package", 
+                          version="%prog "+VERSION)
+    parser.add_option("--debug", dest="debug", action="store_true",
+                      help="enable debug mode", default=False)
+    parser.add_option("--force-rtl", action="store_true",
+                      help="force rtl mode (useful for debugging)", 
+                      default=False)
+    (options, args) = parser.parse_args()
+
+    if options.debug:
+        logging.basicConfig(level=logging.DEBUG)
+    else:
+        logging.basicConfig(level=logging.INFO)
+    
+    # override text direction for testing purposes
+    if options.force_rtl:
+        gtk.widget_set_default_direction(gtk.TEXT_DIR_RTL)
+
+    #logging.basicConfig(level=logging.DEBUG)
+    logging.basicConfig(level=logging.INFO)
+
+    if os.path.exists("./data/ui/SoftwareCenter.ui"):
+        logging.info("Using data (UI, xapian) from current dir")
+        datadir = "./data"
+        xapian_base_path = datadir
+    else:
+        datadir = "/usr/share/software-center/"
+        xapian_base_path = XAPIAN_BASE_PATH
+    
+    from softwarecenter.app import SoftwareCenterApp
+    
+    app = SoftwareCenterApp(datadir, xapian_base_path)
+    app.run(args)
+
