@@ -1,0 +1,2 @@
+?package(watermain):needs="X11" section="Apps/System"\
+  title="watermain" longtitle="watermain: seleccionador de mirrors" command="/usr/sbin/watermain"

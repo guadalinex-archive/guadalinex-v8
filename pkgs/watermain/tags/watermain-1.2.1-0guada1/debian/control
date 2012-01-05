@@ -1,0 +1,25 @@
+Source: watermain
+Section: admin
+Priority: optional
+XSBC-Original-Maintainer: Alfonso de Cala Bravo <alfonso@el-magnifico.org>
+Maintainer: Junta de Andalucía <packmaster@guadalinex.org>
+Build-Depends: debhelper (>= 4.0.0), docbook, docbook-xsl, python-dev, xsltproc
+XS-Python-Version: >= 2.5
+Standards-Version: 3.8.0
+Homepage: http://launchpad.net/watermaine
+Vcs-Browser: http://codebrowse.launchpad.net/~guadalinex-members/watermain/trunk/changes
+Vcs-Bzr: http://bazaar.launchpad.net/~guadalinex-members/watermain/trunk
+
+Package: watermain
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ${python:Depends}, apt (>= 0.6), python-gtk2
+Description: debian mirror's selector
+ Watermain allows an easy mirror selection and automatic 
+ sources.list rewriting according with a simple combo 
+ box choice.
+ .
+ Available mirrors list is downloadable via http thru a 
+ mouse click.
+ .
+ Watermain was developed for the Andalusian Local 
+ Government's distribution, Guadalinex (Ubuntu based).

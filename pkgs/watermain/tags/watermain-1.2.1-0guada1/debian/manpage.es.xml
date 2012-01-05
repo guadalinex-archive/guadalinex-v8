@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<!DOCTYPE refentry PUBLIC "-//OASIS//DTD DocBook XML V4.2//EN"
+"/usr/share/sgml/docbook/dtd/4.2/docbookx.dtd" [
+
+<!--
+
+Process this file with an XSLT processor: `xsltproc \
+-''-nonet /usr/share/sgml/docbook/stylesheet/xsl/nwalsh/\
+manpages/docbook.xsl manpage.dbk'.  A manual page
+<package>.<section> will be generated.  You may view the
+manual page with: nroff -man <package>.<section> | less'.  A
+typical entry in a Makefile or Makefile.am is:
+
+DB2MAN=/usr/share/sgml/docbook/stylesheet/xsl/nwalsh/\
+manpages/docbook.xsl
+XP=xsltproc -''-nonet
+
+manpage.1: manpage.dbk
+        $(XP) $(DB2MAN) $<
+    
+The xsltproc binary is found in the xsltproc package.  The
+XSL files are in docbook-xsl.  Please remember that if you
+create the nroff version in one of the debian/rules file
+targets (such as build), you will need to include xsltproc
+and docbook-xsl in your Build-Depends control field.
+
+-->
+
+  <!-- Fill in your name for FIRSTNAME and SURNAME. -->
+  <!ENTITY dhfirstname "<firstname>Junta</firstname>">
+  <!ENTITY dhsurname   "<surname>de Andalucía</surname>">
+  <!-- Please adjust the date whenever revising the manpage. -->
+  <!ENTITY dhdate      "<date>octubre 19, 2005</date>">
+  <!-- SECTION should be 1-8, maybe w/ subsection other parameters are
+       allowed: see man(7), man(1). -->
+  <!ENTITY dhsection   "<manvolnum>8</manvolnum>">
+  <!ENTITY dhemail     "<email>packmaster@guadalinex.org</email>">
+  <!ENTITY dhusername  "Junta de Andalucía">
+  <!ENTITY dhucpackage "<refentrytitle>WATERMAIN</refentrytitle>">
+  <!ENTITY dhpackage   "watermain">
+
+  <!ENTITY debian      "<productname>Debian</productname>">
+  <!ENTITY gnu         "<acronym>GNU</acronym>">
+  <!ENTITY gpl         "&gnu; <acronym>GPL</acronym>">
+]>
+
+<refentry>
+  <refentryinfo>
+    <address>
+      &dhemail;
+    </address>
+    <author>
+      &dhfirstname;
+      &dhsurname;
+    </author>
+    <copyright>
+      <year>2003</year>
+      <holder>&dhusername;</holder>
+    </copyright>
+    &dhdate;
+  </refentryinfo>
+  <refmeta>
+    &dhucpackage;
+
+    &dhsection;
+  </refmeta>
+  <refnamediv>
+    <refname>&dhpackage;</refname>
+
+    <refpurpose>programa para la selección de mirrors</refpurpose>
+  </refnamediv>
+  <refsynopsisdiv>
+    <cmdsynopsis>
+      <command>&dhpackage;</command>
+    </cmdsynopsis>
+  </refsynopsisdiv>
+  <refsect1>
+    <title>DESCRIPCIÓN</title>
+
+    <para>Esta página de manual documenta someramente 
+      el comando <command>&dhpackage;</command>.</para>
+
+    <para><command>&dhpackage;</command> es un programa que
+	permite realizar una selección sencilla de mirrors y la
+	escritura automática de sources.list 
+	con una simple elección en un cuadro combinado.
+    </para>
+
+  </refsect1>
+  <refsect1>
+    <title>VER TAMBIÉN</title>
+
+    <para>apt (8), apt-get (8), synaptic (8).</para>
+
+  </refsect1>
+ <refsect1>
+    <title>AUTOR</title>
+
+    <para>Esta página de manual fue escrita por &dhusername; &dhemail; para
+        el sistema &debian; (pero podría ser usada por terceross).  Se garantiza el
+        permiso  para copiar, distribuir y/o modificar este documento bajo
+        los términos de la &gnu; General Public License, Version 2 o cualquier otra versión
+        posterior publicada por la Free Software Foundation.
+    </para>
+        <para>
+          En sistemas Debian, el texto completo de la GNU General Public
+          License se encontra en /usr/share/common-licenses/GPL.
+        </para>
+
+  </refsect1>
+</refentry>
+

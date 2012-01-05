@@ -1,0 +1,7 @@
+watermain for Debian
+--------------------
+
+In order to build the package, you must rename 
+mirror-selector to watermain-1.0.
+
+ -- Junta de Andalucía <packmaster@guadalinex.org>, Wed, 19 Oct 2005 10:03:19 +0200

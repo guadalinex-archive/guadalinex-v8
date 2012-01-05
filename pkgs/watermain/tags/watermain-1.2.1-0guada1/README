@@ -1,0 +1,9 @@
+WATERMAIN SAMPLE FILE. DO NOT USE IN REAL DISTROS.
+
+- watermain.list is made of sections
+- Every section starts with #TITLE: (or #TITLE=) and ends with #END
+- Case is important!
+- Lines outside sections are ignored
+- Enclose the urls needed for sources.list in a section
+- Add a unique #ID to allow watermain highlighting the actual mirror
+- Move it to /etc/watermain.list
