@@ -1,0 +1,7 @@
+{
+    "shell-version": ["3.2"],
+    "uuid": "gnome-shell-classic-menus@emergya.com",
+    "name": "gnome-shell-classic-menus",
+    "description": "Classic style menus",
+    "url": "http://www.guadalinex.org"
+}

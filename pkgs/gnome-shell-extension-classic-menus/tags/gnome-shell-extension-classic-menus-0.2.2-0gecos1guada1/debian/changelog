@@ -1,0 +1,47 @@
+gnome-shell-extension-classic-menus (0.2.2-0gecos1guada1) oneiric; urgency=low
+
+  * Fixed bub to launch submenu to left if can't show to right
+
+ -- Álvaro Pinel <apinel@emergya.com>  Thu, 05 Jan 2012 13:23:29 +0000
+
+gnome-shell-extension-classic-menus (0.2.1-0gecos1guada2) oneiric; urgency=low
+
+  * Fixed mouse pointer init 
+
+ -- Álvaro Pinel <apinel@emergya.com>  Tue, 27 Dec 2011 17:28:16 +0000
+
+gnome-shell-extension-classic-menus (0.2.1-0gecos1guada1) oneiric; urgency=low
+
+  * Fixed minnor bugs
+
+ -- Álvaro Pinel <apinel@emergya.com>  Fri, 25 Nov 2011 11:24:50 +0000
+
+gnome-shell-extension-classic-menus (0.2.1-0gecos1) oneiric; urgency=low
+
+  * Version 0.2.1 for GnomeShell 3.2.x branches.
+
+ -- Antonio Hernández <ahernandez@emergya.com>  Fri, 25 Nov 2011 09:51:53 +0100
+
+gnome-shell-extension-classic-menus (0.2-0gecos1) oneiric; urgency=low
+
+  * Version 0.2 for GnomeShell 3.2.x branches.
+
+ -- Antonio Hernández <ahernandez@emergya.com>  Wed, 23 Nov 2011 12:07:16 +0100
+
+gnome-shell-extension-classic-menus (0.1-0gecos1) natty; urgency=low
+
+  * Version 0.1 for GnomeShell 3.1.x branches.
+
+ -- Antonio Hernández <ahernandez@emergya.com>  Thu, 27 Oct 2011 14:04:29 +0200
+
+gnome-shell-extension-classic-menus (0.0.1-0gecos1) natty; urgency=low
+
+  * Version 0.0.1 for GnomeShell 3.0.x branches.
+
+ -- Antonio Hernández <ahernandez@emergya.com>  Thu, 27 Oct 2011 14:02:09 +0200
+
+gnome-shell-extension-classic-menus (0.1-0gecos1) unstable; urgency=low
+
+    * Initial upstream release
+
+ -- Roberto C. Morano <rcmorano@emergya.es>  Fri, 16 Sept 2011 12:21:11 +0200
