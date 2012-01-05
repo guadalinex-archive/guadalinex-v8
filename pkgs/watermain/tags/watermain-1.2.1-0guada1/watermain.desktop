@@ -13,5 +13,5 @@ Terminal=false
 Type=Application
 Icon=/usr/share/icons/watermain/watermain.svg
 StartupNotify=true
-Categories=GNOME;Application;System;Settings;
+Categories=System;
 
