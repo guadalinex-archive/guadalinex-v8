@@ -229,6 +229,12 @@ network-manager-gnome
 network-manager-pptp-gnome
 #ntfsprogs
 ntfs-3g
+fuse-utils
+libfuse2
+libgcrypt11
+libgnutls26
+libgpg-error0
+libtasn1-3
 ntpdate
 nvidia-common
 pcmciautils
