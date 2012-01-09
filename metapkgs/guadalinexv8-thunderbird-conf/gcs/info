@@ -1,0 +1,27 @@
+# YAML 1.1
+# Fichero de configuración de paquetes de personalización de Guadalinex v6
+
+# Nombre del paquete (minúsculas-separado-con-guiones)
+name: guadalinexv8-thunderbird-conf
+
+# Autor 
+author: Álvaro Pinel <apinel@emergya.com>
+
+# Priority
+priority: optional
+
+# Section
+section: metapackages
+
+# Descripción corta
+shortdesc: "Thunderbird customized for Guadalinex"
+
+# Descipción larga, las lineas han de estar separadas por "\n "
+longdesc: "Thunderbird customized for Guadalinex with extensions: lightning and enigmail"
+
+# Versión del paquete
+version: v8
+
+# Cambios en esta versión
+changes:
+    - Initial release
