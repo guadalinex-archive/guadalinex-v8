@@ -1,0 +1,17 @@
+Source: gnome-shell-extension-classic-menus
+Section: utils
+Priority: optional
+Maintainer: Guadalinex Team <packmaster@guadalinex.org>
+Uploaders: Roberto C. Morano <rcmorano@emergya.com>
+Build-Depends: cdbs (>= 0.4.90), debhelper (>= 7)
+Standards-Version: 3.9.2
+Homepage: https://launchpad.net/gnome-shell-extension-classic-menus
+Vcs-Browser: http://codebrowse.launchpad.net/~guadalinex-members/gnome-shell-extension-classic-menus/trunk/changes
+Vcs-Bzr: http://bazaar.launchpad.net/~guadalinex-members/gnome-shell-extension-classic-menus/trunk
+
+
+Package: gnome-shell-extension-classic-menus
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, gnome-shell
+Description: gnome-shell extension that provices gnome2-like menus.
+ gnome-shell extension that provices gnome2-like menus.

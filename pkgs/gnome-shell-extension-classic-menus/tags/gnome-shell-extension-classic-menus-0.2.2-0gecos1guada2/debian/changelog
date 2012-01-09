@@ -1,0 +1,23 @@
+gnome-shell-extension-classic-menus (0.2.2-0gecos1guada2) oneiric; urgency=low
+
+  * Fixed minor bugs
+
+ -- Álvaro Pinel <apinel@emergya.com>  Mon, 09 Jan 2012 13:06:55 +0000
+
+gnome-shell-extension-classic-menus (0.2.2-0gecos1) oneiric; urgency=low
+
+  * Updated upstream to version 0.2.2
+
+ -- Antonio Hernández <ahernandez@emergya.com>  Mon, 09 Jan 2012 13:24:46 +0100
+
+gnome-shell-extension-classic-menus (0.2-0gecos1) natty; urgency=low
+
+  * Updated upstream to version 0.2
+
+ -- Antonio Hernández <ahernandez@emergya.com>  Tue, 20 Sep 2011 14:35:40 +0200
+
+gnome-shell-extension-classic-menus (0.1-0gecos1) unstable; urgency=low
+
+    * Initial upstream release
+
+ -- Roberto C. Morano <rcmorano@emergya.es>  Fri, 16 Sept 2011 12:21:11 +0200
