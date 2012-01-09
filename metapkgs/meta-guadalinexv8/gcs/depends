@@ -105,6 +105,7 @@ gcstar
 rhythmbox
 rhythmbox-plugins
 gstreamer0.10-fluendo-mp3
+gstreamer0.10-ffmpeg
 wine
 playonlinux
 onboard
