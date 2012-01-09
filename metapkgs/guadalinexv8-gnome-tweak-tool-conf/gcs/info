@@ -1,0 +1,27 @@
+# YAML 1.1
+# Fichero de configuración de paquetes de personalización de Guadalinex v6
+
+# Nombre del paquete (minúsculas-separado-con-guiones)
+name: guadalinexv8-gnome-tweak-tool-conf
+
+# Autor 
+author: Álvaro Pinel <apinel@emergya.com
+
+# Priority
+priority: optional
+
+# Section
+section: metapackages
+
+# Descripción corta
+shortdesc: "Fixed width window"
+
+# Descipción larga, las lineas han de estar separadas por "\n "
+longdesc: "Fixed width window of gnome tweak tool"
+
+# Versión del paquete
+version: v8
+
+# Cambios en esta versión
+changes:
+    - Initial release
