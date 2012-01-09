@@ -227,7 +227,8 @@ nautilus-share
 network-manager
 network-manager-gnome
 network-manager-pptp-gnome
-ntfsprogs
+#ntfsprogs
+ntfs-3g
 ntpdate
 nvidia-common
 pcmciautils
