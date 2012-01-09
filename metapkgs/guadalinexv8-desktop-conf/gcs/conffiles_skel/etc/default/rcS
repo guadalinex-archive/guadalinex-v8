@@ -18,7 +18,7 @@ SULOGIN=no
 DELAYLOGIN=no
 
 # assume that the BIOS clock is set to UTC time (recommended)
-UTC=no
+UTC=yes
 
 # be more verbose during the boot process
 VERBOSE=no
