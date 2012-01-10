@@ -76,7 +76,9 @@ p7zip-rar
 comgt
 locate
 default-jre
-broadcom-sta-common
+#broadcom-sta-common
+firmware-b43-installer
+gnome-font-viewer
 unpaper
 dconf-tools
 gconf-editor
