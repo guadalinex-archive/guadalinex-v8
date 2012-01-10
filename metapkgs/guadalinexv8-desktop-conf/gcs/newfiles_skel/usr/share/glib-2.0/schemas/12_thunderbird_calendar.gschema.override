@@ -1,2 +1,4 @@
-[/org/gnome/desktop/applications/office/calendar]
+[org.gnome.desktop.applications.office.calendar]
+exec='thunderbird'
+[org.gnome.desktop.applications.office.tasks]
 exec='thunderbird'
