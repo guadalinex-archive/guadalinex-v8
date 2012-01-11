@@ -1,13 +1,15 @@
 #!/usr/bin/env xdg-open
 [Desktop Entry]
 Name=Startup Disk Creator
+Name[es]=Creador de memoria USB de arranque
 GenericName=Startup Disk Creato
 Comment=Create a startup disk using a CD or disc image
+Comment[es]=Creación de memoria USB arrancable con Guadalinex
 Exec=usb-creator-gtk
 Icon=guada-ubiquity
 Terminal=false
 Type=Application
-NoDisplay=true
+#NoDisplay=true
 Encoding=UTF-8
 Categories=System;
 X-Ubuntu-Gettext-Domain=usbcreator
