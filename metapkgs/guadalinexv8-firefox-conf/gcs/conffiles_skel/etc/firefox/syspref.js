@@ -10,6 +10,8 @@ user_pref("browser.startup.homepage", "file:///usr/share/guadalinex-about/index.
 user_pref("startup.homepage_welcome_url", "");
 //Desactiva la ventana de "Conoce tus derechos" 
 user_pref("browser.rights.3.shown", true);
+//Corrige useragent.locale
+user_pref("general.useragent.locale", "es-ES");
 
 
 
