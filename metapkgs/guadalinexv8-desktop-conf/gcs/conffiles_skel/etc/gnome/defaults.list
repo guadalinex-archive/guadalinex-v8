@@ -172,6 +172,7 @@ inode/directory=nautilus.desktop
 misc/ultravox=rhythmbox.desktop
 multipart/x-zip=file-roller.desktop
 text/abiword=abiword.desktop
+text/calendar=thunderbird.desktop
 text/comma-separated-values=libreoffice-calc.desktop
 text/csv=libreoffice-calc.desktop
 text/html=firefox.desktop
