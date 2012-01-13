@@ -62,6 +62,7 @@ htop
 iotop
 iftop
 pidgin
+linux-headers-generic
 sflphone-client-gnome
 powertop
 nmap
@@ -86,6 +87,7 @@ python-pygame
 joe
 #mc
 vlc
+gnome-contacts
 #ekiga
 #nautilus-sendto-empathy
 libmpg123-0
