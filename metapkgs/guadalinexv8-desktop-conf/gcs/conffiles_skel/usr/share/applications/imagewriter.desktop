@@ -1,8 +1,0 @@
-[Desktop Entry]
-Version=1.0
-Type=Application
-Terminal=false
-Icon=gtk-execute
-Exec=gksu imagewriter
-Name=Creador de USB de arranque (ImageWriter)
-Categories=GNOME;GTK;Utility
