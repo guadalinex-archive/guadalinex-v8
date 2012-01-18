@@ -42,6 +42,7 @@ brasero
 baobab
 #c
 c3270
+calibre-bin
 cifs-utils
 comgt
 cups-pdf
@@ -92,13 +93,16 @@ gwibber
 #h
 htop
 #i
+ical2sqlite
 iftop
 iotop
 #j
 joe
 #l
+libimobiledevice2
 libmp3lame0
 libmpg123-0
+libmtp-common
 libsdl-mixer1.2
 libsdl-ttf2.0-0
 linux-headers-generic
@@ -106,6 +110,7 @@ locate
 #m
 mc
 metapixel
+mtp-tools
 #n
 netcat
 nmap
