@@ -9,6 +9,7 @@ Standards-Version: 3.8.3
 Homepage: http://launchpad.net/grubaker2
 Vcs-Browser: http://codebrowse.launchpad.net/~guadalinex-members/grubaker2/trunk/changes
 Vcs-Bzr: http://bazaar.launchpad.net/~guadalinex-members/grubaker2/trunk
+XS-Python-Version: current
 
 Package: grubaker2
 Architecture: any
