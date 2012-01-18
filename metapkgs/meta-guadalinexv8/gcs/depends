@@ -237,6 +237,7 @@ network-manager-gnome
 network-manager-pptp-gnome
 #ntfsprogs
 ntfs-3g
+nfs-common
 ntpdate
 nvidia-common
 pcmciautils
