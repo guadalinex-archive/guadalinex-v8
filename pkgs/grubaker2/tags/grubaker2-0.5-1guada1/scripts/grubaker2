@@ -1,0 +1,264 @@
+#!/usr/bin/python2.7
+# -*- coding: UTF8 -*-
+
+# grubaker2 0.1
+# author: Alfonso E.M. alfonso@el-magnifico.org
+# date: 23/Mar/2010
+
+import re
+import pygtk
+pygtk.require ('2.0')
+import gtk, gtk.glade
+import os, subprocess
+import locale
+import gettext
+
+PREFIX="/"
+PREFIX="../testing/"
+
+gettext.install("grubaker2")
+gtk.glade.textdomain("grubaker2")
+gtk.glade.bindtextdomain("grubaker2")
+
+class GrubMenu:
+  """ This class reads current grub configuration and loads an array with menu items 
+  """
+  def __init__(self,filename=PREFIX+"/boot/grub/grub.cfg"):
+    self.filename=filename
+    self.menuentry=[]
+    self.load_file()
+    return	  
+
+  def load_file(self):
+    try:
+      file=open(self.filename)
+    except:
+      print _("ERROR: current  grub configuration is not readable")
+      return
+    
+    for line in file:
+      r=re.search('^menuentry\s+["\'](.*)["\']\s+',line)
+      if r:
+          title = r.group(1)
+	  self.menuentry.append(title)
+    return
+
+class GrubConfigItem:
+  """ A configuration item from grub defaults config file.
+  """
+  key=""
+  value=""
+  status=""
+  linenumber=""
+  pass
+
+class GrubDefaults:
+  """ A class containing default configuration for grub extracted from /etc/default/grub
+      reading from and writing to file methods are included
+  """
+  def __init__(self,filename=PREFIX+"/etc/default/grub"):
+    self.config={}
+    self.filename=filename
+    self.load_file()
+    return	  
+
+  def load_file(self):
+    try:
+      file=open(self.filename)
+    except:
+      print _("ERROR: default grub configuration is not readable")
+      return
+    
+    self.filecontent=file.readlines()   
+
+    linenumber=0
+    for line in self.filecontent:
+      r=re.search('^(.?)(GRUB_.*)=(.*)$',line) # extract "GRUB_" keywords and values, even if they are commented out
+      if r:
+         configitem=GrubConfigItem()
+         configitem.status=r.group(1)
+         configitem.key=r.group(2)
+         configitem.value=r.group(3)
+         configitem.linenumber=linenumber
+         self.config[configitem.key]=configitem
+      linenumber+=1
+    return
+
+  def set_value(self,key,value):
+    if self.config.has_key(key):
+      self.config[key].value = value
+      if self.config[key].status != "":
+        self.config[key].status = ""
+    else:
+      configitem=GrubConfigItem()
+      configitem.status=""
+      configitem.key=key
+      configitem.value=value
+      configitem.linenumber=-1
+      self.config[key] = configitem
+
+    self.save_line(self.config[key].linenumber,self.config[key].status,self.config[key].key,self.config[key].value)
+
+
+  def unset_value(self,key):
+    if self.config.has_key(key):
+      self.config[key].status = "#"
+      self.save_line(self.config[key].linenumber,self.config[key].status,self.config[key].key,self.config[key].value)
+      	 
+
+  def save_line(self,linenumber,status,key,value):
+    if linenumber >= 0:
+      self.filecontent[linenumber]="%s%s=%s\n" % (status,key,value)
+
+
+  def save_file(self):
+# Save defaults to file
+    try:
+      file=open(self.filename,"w")
+    except:
+      print _("ERROR: default grub configuration is not writable")
+      return
+# write original config with modificated lines
+    for line in self.filecontent:
+      file.write(line)
+# write new lines
+    for key,item in self.config.iteritems():
+      if item.linenumber==-1:
+        line=item.status+item.key+"="+item.value
+        file.write(line)
+
+    file.close
+
+    return   
+
+
+  def update_grub(self):
+    status=subprocess.call([PREFIX+"/usr/sbin/update-grub"])
+    return status
+	
+	
+class Gui:
+  def __init__(self,grubdefaults,grubmenu):
+		"""
+		In this init the main window is displayed
+		"""
+		dic = {
+			 "on_button_cancel_clicked" : (self.quit),
+			 "on_button_ok_clicked" : (self.save),
+                         "on_window_main_destroy" : (self.quit), 
+		}
+
+		self.grubdefaults=grubdefaults
+
+		self.grubmenu=grubmenu
+
+		glade1 = gtk.Builder()
+		glade1.add_from_file(PREFIX+"/usr/share/grubaker2/grubaker2.ui")
+		glade1.connect_signals(dic)
+
+
+		self.combo_menuentry=glade1.get_object("combo_menuentry")
+                self.check_hidden=glade1.get_object("check_hidden")
+                self.check_sound=glade1.get_object("check_sound")
+                self.spin_timeout=glade1.get_object("spin_timeout")
+		adjustment = gtk.Adjustment(value=0, lower=0, upper=999, step_incr=1, page_incr=10)
+                self.spin_timeout.configure(adjustment,climb_rate=0,digits=0)
+
+                # load combobox with menu entries from current configuration file
+        	self.list_menuentry = gtk.ListStore(str,int)
+
+                n=0
+		for item in grubmenu.menuentry:
+		  self.list_menuentry.append([item,n])
+		  n+=1
+
+		self.combo_menuentry.set_model(model=self.list_menuentry)
+ 		cell = gtk.CellRendererText()
+	        self.combo_menuentry.pack_start(cell, True)
+        	self.combo_menuentry.add_attribute(cell, 'text', 0)
+
+                # select default item in bootable systems combobox
+                if grubdefaults.config.has_key("GRUB_DEFAULT") and grubdefaults.config["GRUB_DEFAULT"].status=="":
+                  self.combo_menuentry.set_active(int(grubdefaults.config["GRUB_DEFAULT"].value))
+                else:
+                  self.combo_menuentry.set_active(0)
+
+                # check/uncheck current options
+                if grubdefaults.config.has_key("GRUB_HIDDEN_TIMEOUT_QUIET") and grubdefaults.config["GRUB_HIDDEN_TIMEOUT_QUIET"].status=="" and grubdefaults.config["GRUB_HIDDEN_TIMEOUT_QUIET"].value.lower()=='true':
+                  self.check_hidden.set_active(1)
+                if grubdefaults.config.has_key("GRUB_INIT_TUNE") and grubdefaults.config["GRUB_INIT_TUNE"].status=="":
+                  self.check_sound.set_active(1)
+
+                # set boot timeout current value
+                if grubdefaults.config.has_key("GRUB_TIMEOUT") and grubdefaults.config["GRUB_TIMEOUT"].status=="":
+                  timeout=self.grubdefaults.config["GRUB_TIMEOUT"].value
+                  timeout=timeout.replace('"','')
+                  timeout=timeout.replace("'",'')
+                  timeout=int(timeout)
+                  self.spin_timeout.set_value(timeout)
+
+  def alert(self,message):
+         dialog = gtk.MessageDialog(None, gtk.DIALOG_MODAL, gtk.MESSAGE_INFO, gtk.BUTTONS_CLOSE, message)
+         dialog.run()
+         return dialog
+
+  def save(self,widget):
+          # save selected bootable system
+          selection=self.combo_menuentry.get_active()
+      	  title=self.list_menuentry[selection][0]
+          id=self.list_menuentry[selection][1]
+          print title,id
+          self.grubdefaults.set_value("GRUB_DEFAULT",id)
+
+          # save timeout
+          self.grubdefaults.set_value("GRUB_TIMEOUT",self.spin_timeout.get_value_as_int())
+
+          # save checks
+          if self.check_hidden.get_active():
+            self.grubdefaults.set_value("GRUB_HIDDEN_TIMEOUT_QUIET","True")
+          else:
+            self.grubdefaults.set_value("GRUB_HIDDEN_TIMEOUT_QUIET","False")
+      
+          if self.check_sound.get_active():
+            self.grubdefaults.set_value("GRUB_INIT_TUNE",'"480 440 1"')
+          else:
+            self.grubdefaults.unset_value("GRUB_INIT_TUNE")
+
+          self.grubdefaults.save_file()
+          status=self.grubdefaults.update_grub()
+
+          if status==0:
+            message=_("Boot menu rebuilt")
+          else: 
+            message=_("Boot menu rebuilding failed")					
+          windows=self.alert(message)
+          windows.destroy()
+          
+	  self.quit()
+
+  def run(self):
+    gtk.main()
+
+  def quit(*args):
+    if hasattr(gtk, 'main_quit'):
+      gtk.main_quit()
+    else:
+      gtk.mainquit()
+
+
+
+# Main
+def main():
+
+# Current menu configuration
+  grubmenu=GrubMenu()
+
+# Default options
+  grubdefaults=GrubDefaults()
+  app=Gui(grubdefaults,grubmenu)
+  app.run()
+	  
+
+if __name__ == '__main__':
+	main()
+
