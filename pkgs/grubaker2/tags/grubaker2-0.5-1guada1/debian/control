@@ -4,7 +4,7 @@ Priority: optional
 XSBC-Original-Maintainer: Alfonso de Cala <alfonso.cala@juntadeandalucia.es>
 Maintainer: Junta de Andalucía <packmaster@guadalinex.org>
 Uploaders: Roberto C. Morano <rcmorano@emergya.es>, Álvaro Pinel <apinel@emergya.com>
-Build-Depends: debhelper (>= 7), cdbs, gettext, python-distutils-extra
+Build-Depends: debhelper (>= 7), cdbs, gettext, python-distutils-extra, python-central
 Standards-Version: 3.8.3
 Homepage: http://launchpad.net/grubaker2
 Vcs-Browser: http://codebrowse.launchpad.net/~guadalinex-members/grubaker2/trunk/changes
