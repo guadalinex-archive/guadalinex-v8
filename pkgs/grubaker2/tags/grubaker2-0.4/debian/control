@@ -12,6 +12,6 @@ Vcs-Bzr: http://bazaar.launchpad.net/~guadalinex-members/grubaker2/trunk
 
 Package: grubaker2
 Architecture: any
-Depends: python, python-gtk2
+Depends: python2.7, python-gtk2
 Description: Graphical tool to customize grub2
  Useful GUI to customize some Grub2 aspects in a graphical way.
