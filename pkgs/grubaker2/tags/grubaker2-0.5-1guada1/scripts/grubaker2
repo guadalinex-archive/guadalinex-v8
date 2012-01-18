@@ -14,7 +14,6 @@ import locale
 import gettext
 
 PREFIX="/"
-PREFIX="../testing/"
 
 gettext.install("grubaker2")
 gtk.glade.textdomain("grubaker2")
