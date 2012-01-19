@@ -37,9 +37,11 @@ audacity
 at-spi2-core
 avidemux
 #b
+b43-fwcutter
 bash-completion
 brasero
 baobab
+bcmwl-kernel-source
 #c
 c3270
 calibre-bin
@@ -61,7 +63,6 @@ evolution-data-server
 #f
 firefox
 firefox-locale-es
-firmware-b43-lpphy-installer
 festvox-palpc16k
 festvox-sflpc16k
 freegemas
