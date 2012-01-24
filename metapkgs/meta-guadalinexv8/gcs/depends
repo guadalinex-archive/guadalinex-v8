@@ -106,6 +106,7 @@ libmpg123-0
 libmtp-common
 libsdl-mixer1.2
 libsdl-ttf2.0-0
+libsox-fmt-all
 linux-headers-generic
 locate
 #m
@@ -138,6 +139,7 @@ simplemag
 simple-scan
 smbclient
 software-center
+sox
 speech-dispatcher
 synaptic
 #t
