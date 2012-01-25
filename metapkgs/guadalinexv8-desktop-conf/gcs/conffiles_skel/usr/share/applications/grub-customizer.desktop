@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name=Grub Customizer
+Name[es]=Personalización del menú GRUB2
+Comment=Customize the bootloader (GRUB2 or BURG)
+Comment[es]=Personalización del menú GRUB2
+Exec=grub-customizer
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+StartupNotify=false
+Categories=System;
+Icon=grub-customizer
+X-Ubuntu-Gettext-Domain=grub-customizer
