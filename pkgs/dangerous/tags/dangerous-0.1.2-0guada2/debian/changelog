@@ -1,0 +1,23 @@
+dangerous (0.1.2-0guada1) lucid; urgency=low
+
+  * New upstream version
+
+ -- Roberto C. Morano <rcmorano@emergya.es>  Mon, 07 Jun 2010 10:12:44 +0100
+
+dangerous (0.1.1-0guada1) lucid; urgency=low
+
+  * dangerous.desktop: changed categories
+
+ -- Roberto C. Morano <rcmorano@emergya.es>  Tue, 02 Jun 2010 15:38:21 +0100
+
+dangerous (0.1-0guada2) lucid; urgency=low
+
+  * debian/control: added missing depend python-configobj
+
+ -- Roberto C. Morano <rcmorano@emergya.es>  Tue, 02 Jun 2010 15:22:56 +0100
+
+dangerous (0.1-0guada1) lucid; urgency=low
+
+  * Initial upstream release.
+
+ -- Roberto C. Morano <rcmorano@emergya.es>  Tue, 01 Jun 2010 12:42:23 +0100
