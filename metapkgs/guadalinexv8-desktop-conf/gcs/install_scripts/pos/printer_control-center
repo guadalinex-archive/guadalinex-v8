@@ -1,0 +1,3 @@
+if [ -e /usr/lib/control-center-1/panels/libprinters.so ];then
+        mv /usr/lib/control-center-1/panels/libprinters.so /usr/lib/control-center-1/
+fi
