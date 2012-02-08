@@ -1,3 +1,0 @@
-# PSM Certificate Override Settings file
-# This is a generated file!  Do not edit.
-ws003.juntadeandalucia.es:443	OID.2.16.840.1.101.3.4.2.1	A9:8F:4B:A0:34:1B:18:84:4F:62:41:6A:0D:25:A9:68:8B:71:39:52:83:91:20:EE:08:7F:75:62:75:96:DD:26	U	AAAAAAAAAAAAAAAEAAAAODyyHekwNjELMAkGA1UEBhMCRVMxDTALBgNVBAoTBEZO  TVQxGDAWBgNVBAsTD0ZOTVQgQ2xhc2UgMiBDQQ==
