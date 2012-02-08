@@ -1,4 +1,4 @@
-if [ ! -h /etc/skel/Compartido ]
+if [ ! -h /home/compartido ]
 then
 	ln -s /home/compartido /etc/skel/Compartido
 fi
