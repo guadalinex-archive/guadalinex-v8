@@ -1,3 +1,4 @@
 if [ -d /home/compartido ];then
         chmod 1777 /home/compartido
+        chmod 1777 /etc/skel/Compartido
 fi
