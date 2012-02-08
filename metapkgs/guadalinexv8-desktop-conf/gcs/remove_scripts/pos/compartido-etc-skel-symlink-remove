@@ -1,0 +1,4 @@
+if [ -d /etc/skel/Compartido ]
+then
+        rm -r /etc/skel/Compartido
+fi
