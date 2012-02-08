@@ -1,5 +1,9 @@
-if [ ! -h /home/compartido ]
+if [ ! -d /etc/skel/Compartido ]
 then
         mkdir /etc/skel/Compartido
+fi
+
+if [ ! -h /home/compartido ]
+then
 	ln -s /home/compartido /etc/skel/Compartido
 fi
