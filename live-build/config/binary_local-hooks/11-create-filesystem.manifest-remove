@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# packages that should be removed on the installed system
+LIVE_PACKAGES="ubiquity-frontend-gtk ubiquity-ubuntu-artwork ubiquity-casper ubiquity oem-config-gtk apt-clone archdetect-deb btrfs-tools casper casper-guada cifs-utils cryptsetup dmraid dpkg-repack ecryptfs-utils jfsutils keyutils language-pack-en language-pack-en-base language-pack-es language-pack-es-base language-pack-gnome-en language-pack-gnome-en-base localechooser-data lupin-casper rdate reiserfsprogs unionfs-fuse user-setup xfsprogs"
+
+for pkg in $LIVE_PACKAGES
+do
+    echo $pkg >> binary/casper/filesystem.manifest-remove
+done

@@ -1,0 +1,7 @@
+#!/bin/bash
+
+#Borrar resto de repos antiguos de generación
+
+rm -f /var/cache/apt/archives/*
+
+exit 0

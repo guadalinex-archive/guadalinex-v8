@@ -1,0 +1,14 @@
+d-i clock-setup/utc boolean false
+d-i time/zone string Europe/Madrid
+ubiquity languagechooser/language-name-fb select Spanish
+ubiquity languagechooser/language-name select Spanish
+ubiquity languagechooser/language-name-ascii select Spanish
+ubiquity localechooser/languagelist select es
+ubiquity countrychooser/shortlist select ES
+ubiquity countrychooser/countryname select Spain
+ubiquity countrychooser/country-name string Spain
+ubiquity tzconfig/gmt boolean false
+ubiquity time/zone select Europe/Madrid
+ubiquity ubiquity/success_command string /usr/share/guada-ubiquity/final_fixes.sh
+ubiquity ubiquity/install/success_command string /usr/share/guada-ubiquity/final_fixes.sh
+
