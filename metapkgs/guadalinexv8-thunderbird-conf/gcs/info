@@ -17,7 +17,7 @@ section: metapackages
 shortdesc: "Thunderbird customized for Guadalinex"
 
 # Descipción larga, las lineas han de estar separadas por "\n "
-longdesc: "Thunderbird customized for Guadalinex with extensions: lightning and enigmail"
+longdesc: "Thunderbird customized for Guadalinex with extensions: lightning and enigmaili for diary"
 
 # Versión del paquete
 version: v8
