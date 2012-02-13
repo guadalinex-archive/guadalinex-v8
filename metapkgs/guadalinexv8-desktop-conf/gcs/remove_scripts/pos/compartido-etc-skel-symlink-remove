@@ -1,4 +1,9 @@
-if [ -d /etc/skel/Compartido ]
+if [ -e /etc/skel/Compartido ]
 then
         rm -r /etc/skel/Compartido
+fi
+
+if [ -e /home/compartido ]
+then
+        rm -r /home/compartido
 fi
