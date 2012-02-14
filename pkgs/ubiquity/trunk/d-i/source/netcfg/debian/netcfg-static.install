@@ -1,2 +1,0 @@
-base-installer.d usr/lib
-finish-install.d/55netcfg-network-manager usr/lib/finish-install.d

@@ -1,3 +1,0 @@
-localechooser languagemap translation-check usr/bin
-post-base-installer.d finish-install.d usr/lib
-debian/short-tmp/shortlists etc
