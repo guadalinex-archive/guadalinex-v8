@@ -1,0 +1,4 @@
+if [ -d /etc/skel/.thunderbird/* ]; then
+    rm -rf /etc/skel/.thunderbird/*
+fi
+
