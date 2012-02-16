@@ -1,0 +1,479 @@
+# Albanian translation for ubiquity-slideshow-ubuntu
+# Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
+# This file is distributed under the same license as the ubiquity-slideshow-ubuntu package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ubiquity-slideshow-ubuntu\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2011-09-28 16:17+0200\n"
+"PO-Revision-Date: 2011-09-27 05:04+0000\n"
+"Last-Translator: Vilson Gjeci <vilsongjeci@gmail.com>\n"
+"Language-Team: Albanian <sq@li.org>\n"
+"Language: sq\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2011-10-03 09:07+0000\n"
+"X-Generator: Launchpad (build 14071)\n"
+
+#. type: Content of: <div><h1>
+#: slideshows/oem-config-ubuntu/slides/accessibility.html:1
+msgid "Customise Ubuntu"
+msgstr "Përshtat Ubuntu"
+
+#. type: Content of: <div><div><div><p>
+#: slideshows/oem-config-ubuntu/slides/accessibility.html:8
+msgid ""
+"At the heart of Ubuntu’s philosophy is a belief that computing is for "
+"everyone. With advanced accessibility tools and options like your preferred "
+"color scheme, text size, and language, Ubuntu is for anyone. Whoever you "
+"are, and wherever you are."
+msgstr ""
+"Në zemër të filozofisë së Ubuntu është besimi se kompjuteri është për "
+"gjithkënd. Me mjete të avancuara të hyrjes dhe me opsione si skema juaj e "
+"preferuar e ngjyrave, përmasa e tekstit dhe gjuha, Ubuntu është për "
+"gjithkënd. Kushdo që jeni dhe kudo që jeni."
+
+#. type: Content of: <div><div><div><h2>
+#: slideshows/oem-config-ubuntu/slides/accessibility.html:12
+msgid "Customisation options"
+msgstr "Opsionet e përshtatjes"
+
+#. type: Content of: <div><div><div><ul><li><p>
+#: slideshows/oem-config-ubuntu/slides/accessibility.html:16
+msgid "Appearance"
+msgstr "Paraqitja"
+
+#. type: Content of: <div><div><div><ul><li><p>
+#: slideshows/oem-config-ubuntu/slides/accessibility.html:20
+msgid "Assistive technologies"
+msgstr "Teknologjitë ndihmëse"
+
+#. type: Content of: <div><div><div><ul><li><p>
+#: slideshows/oem-config-ubuntu/slides/accessibility.html:24
+msgid "Language support"
+msgstr "Mbështetja gjuhësore"
+
+#. type: Content of: <div><h1>
+#: slideshows/oem-config-ubuntu/slides/browse.html:1
+msgid "Browse the web"
+msgstr "Shfleto internetin"
+
+#. type: Content of: <div><div><div><p>
+#: slideshows/oem-config-ubuntu/slides/browse.html:8
+msgid ""
+"Ubuntu includes Mozilla Firefox for fast, safe web browsing. You can also "
+"choose alternative browsers from the Ubuntu Software Center."
+msgstr ""
+"Ubuntu përfshin Mozilla Firefox, për shfletim të shpejtë dhe të sigurtë. Ju "
+"mund të zgjidhni gjithashtu shfletues alternativë nga Qendra e Programeve të "
+"Ubuntu."
+
+#. type: Content of: <div><div><div><h2>
+#: slideshows/oem-config-ubuntu/slides/browse.html:12
+#: slideshows/oem-config-ubuntu/slides/music.html:12
+#: slideshows/oem-config-ubuntu/slides/office.html:12
+#: slideshows/oem-config-ubuntu/slides/photos.html:12
+msgid "Included software"
+msgstr "Programet e përfshira"
+
+#. type: Content of: <div><div><div><ul><li><p>
+#: slideshows/oem-config-ubuntu/slides/browse.html:16
+msgid "Firefox web browser"
+msgstr "Shfletuesi i rrjetit Firefox"
+
+#. type: Content of: <div><div><div><h2>
+#: slideshows/oem-config-ubuntu/slides/browse.html:19
+#: slideshows/oem-config-ubuntu/slides/photos.html:19
+msgid "Supported software"
+msgstr "Programet e mbështetura"
+
+#. type: Content of: <div><div><div><ul><li><p>
+#: slideshows/oem-config-ubuntu/slides/browse.html:23
+msgid "Flash"
+msgstr "Flash"
+
+#. type: Content of: <div><div><div><ul><li><p>
+#: slideshows/oem-config-ubuntu/slides/browse.html:27
+msgid "Chromium"
+msgstr "Chromium"
+
+#. type: Content of: <div><h1>
+#: slideshows/oem-config-ubuntu/slides/gethelp.html:1
+msgid "Any questions?"
+msgstr "Keni pyetje?"
+
+#. type: Content of: <div><div><div><p>
+#: slideshows/oem-config-ubuntu/slides/gethelp.html:8
+msgid ""
+"Check out <a href=\"http://askubuntu.com/\">Ask Ubuntu</a>, the best place "
+"to get an answer about Ubuntu. With most questions already answered, and "
+"thousands of people ready to help, you’ll be sorted in no time at all. And "
+"if you need an answer on a deadline, Canonical offers <a href=\"http://www."
+"ubuntu.com/support\">commercial support</a> to business users. Browse to <a "
+"href=\"http://www.ubuntu.com/support\">ubuntu.com/support</a> to explore "
+"your other options."
+msgstr ""
+"Kontrolloni <a href=\"http://askubuntu.com/\">Pyet Ubuntu-n</a>, vendi më i "
+"mirë për të marrë një përgjigje për Ubuntu. Me shumicën e pyetjeve të "
+"përgjigjura tashmë dhe me mijëra njerëz të gatshëm për të ndihmuar, ju do të "
+"gjeni zgjidhje për një kohë të shkurtër. Dhe nëse doni një përgjigje "
+"urgjente, Canonical ofron <a href=\"http://www.ubuntu.com/support"
+"\">mbështetje komerciale</a> për përdoruesit e biznesit. Shfletoni <a href="
+"\"http://www.ubuntu.com/support\">ubuntu.com/support</a> Për të eksploruar "
+"opsionet e tjera për ju."
+
+#. type: Content of: <div><h1>
+#: slideshows/oem-config-ubuntu/slides/mobilise.html:1
+msgid "Your own personal cloud"
+msgstr "Reja juaj personale"
+
+#. type: Content of: <div><div><div><p>
+#: slideshows/oem-config-ubuntu/slides/mobilise.html:8
+msgid ""
+"An <a href=\"https://one.ubuntu.com/services/\">Ubuntu One Free</a> account "
+"gives you 5GB of cloud storage, so you can store and sync your files and "
+"photos across devices and access them wherever you are in the world. Easily "
+"share them with friends, family and colleagues. Take a photo on your mobile "
+"phone and immediately see it on your desktop, or add <a href=\"https://one."
+"ubuntu.com/services/music/\">Music Streaming</a> for mobile to enjoy your "
+"music on the move."
+msgstr ""
+"Një <a href=\"https://one.ubuntu.com/services/\">Llogari Falas e Ubuntu One</"
+"a> ju jep 5 GB ruajtjeje në re, kështu që ju mund të ruani dhe sinkronizoni "
+"skedarët tuaj dhe fotot në shumë pajisje dhe ti merrni ato kudo që jeni "
+"nëpër botë. Ti shpërndani ato me lehtësi nëpër miq, familje dhe kolegë. "
+"Merrni një foto me celularin tuaj mobil dhe menjëherë shikojeni atë në "
+"desktopin tuaj, ose shtoni <a href=\"https://one.ubuntu.com/services/music/"
+"\">Shfletim të Muzikës</a> për celularët që të shijoni muzikën tuaj kur jeni "
+"në lëvizje."
+
+#. type: Content of: <div><h1>
+#: slideshows/oem-config-ubuntu/slides/music.html:1
+msgid "Take your music with you"
+msgstr "Merre muzikën tënde me vete"
+
+#. type: Content of: <div><div><div><p>
+#: slideshows/oem-config-ubuntu/slides/music.html:8
+msgid ""
+"Ubuntu comes with the amazing Banshee music player. With advanced playback "
+"options and the Ubuntu One music store built in, it’s simple to queue up the "
+"perfect songs. And it works great with CDs and portable music players, so "
+"you can enjoy all your music wherever you go."
+msgstr ""
+"Ubuntu vjen me luajtësin e mrekullueshëm të muzikës Banshee. Me opsione të "
+"avancuara luajtjeje dhe me dyqanin e muzikës së Ubuntu One të ndërtuar në "
+"të, është e thjeshtë të merrni këngët perfekte. Dhe punon shumë mirë me CD-"
+"të dhe me luajtësit portativë të muzikës, kështu që ju mund të shijoni "
+"muzikën tuaj kudo që shkoni."
+
+#. type: Content of: <div><div><div><ul><li><p>
+#: slideshows/oem-config-ubuntu/slides/music.html:16
+msgid "Banshee Music Player"
+msgstr "Luajtësi i Muzikës Banshee"
+
+#. type: Content of: <div><div><div><ul><li><p>
+#: slideshows/oem-config-ubuntu/slides/music.html:20
+msgid "Ubuntu One Music Store"
+msgstr "Dyqani i Muzikës i Ubuntu"
+
+#. type: Content of: <div><h1>
+#: slideshows/oem-config-ubuntu/slides/office.html:1
+msgid "Write and present for free"
+msgstr "Shkruaj dhe prezanto falas"
+
+#. type: Content of: <div><div><div><p>
+#: slideshows/oem-config-ubuntu/slides/office.html:8
+msgid ""
+"LibreOffice is a free office suite packed with everything you’ll need to "
+"create impressive documents, spreadsheets, and presentations. LibreOffice "
+"tries its best to work with other office software, and it uses the "
+"OpenDocument standards for far-reaching compatibility."
+msgstr ""
+"LibreOffice është një program falas për zyrën i mbushur me gjithçka që do "
+"t'iu nevojitej për të krijuar dokumente, fletë llogarie dhe prezantime "
+"mbreslënëse. LibreOffice bën ç'është e mundur për të punuar me programet e "
+"tjera për zyrën dhe përdor standartet e OpenDocument për kompatibilitet të "
+"gjithanshëm."
+
+#. type: Content of: <div><div><div><ul><li><p>
+#: slideshows/oem-config-ubuntu/slides/office.html:16
+msgid "LibreOffice"
+msgstr "LibreOffice"
+
+#. type: Content of: <div><div><div><ul><li><p>
+#: slideshows/oem-config-ubuntu/slides/office.html:20
+msgid "Tomboy Notes"
+msgstr "Shënime Tomboy"
+
+#. type: Content of: <div><h1>
+#: slideshows/oem-config-ubuntu/slides/photos.html:1
+msgid "Have fun with your photos"
+msgstr "Kënaquni me fotot tuaja"
+
+#. type: Content of: <div><div><div><p>
+#: slideshows/oem-config-ubuntu/slides/photos.html:8
+msgid ""
+"Shotwell is a handy photo manager that is ready for your gadgets. Connect a "
+"camera or a phone to transfer your photos, then it’s easy to share them and "
+"keep them safe. If you’re feeling creative, you can try lots of photo apps "
+"from the Ubuntu Software Center."
+msgstr ""
+"Showtell është një menaxhues i përdorshëm fotosh që është gati për mjetet e "
+"tuah. Lidhni një kamera apo telefon për të transferuar fotot tuaja, pastaj "
+"është e lehtë ti shpërndani ato dhe ti mbani të sigurta. Nëse ndiheni "
+"krijues, ju mund të provoni shumë programe për fotot nga Qendra e Programeve "
+"të Ubuntu."
+
+#. type: Content of: <div><div><div><ul><li><p>
+#: slideshows/oem-config-ubuntu/slides/photos.html:16
+msgid "Shotwell Photo Manager"
+msgstr "Shotwell Menaxher Fotosh"
+
+#. type: Content of: <div><div><div><ul><li><p>
+#: slideshows/oem-config-ubuntu/slides/photos.html:23
+msgid "GIMP Image Editor"
+msgstr "Redaktuesi i Pamjeve GIMP"
+
+#. type: Content of: <div><div><div><ul><li><p>
+#: slideshows/oem-config-ubuntu/slides/photos.html:27
+msgid "Pitivi Video Editor"
+msgstr "Pitivi Modifikues Videosh"
+
+#. type: Content of: <div><h1>
+#: slideshows/oem-config-ubuntu/slides/social.html:1
+msgid "Stay connected"
+msgstr "Qëndro i lidhur"
+
+#. type: Content of: <div><div><div><p>
+#: slideshows/oem-config-ubuntu/slides/social.html:8
+msgid ""
+"The Ubuntu Message Indicator gives you an eagle-eye view of incoming "
+"messages from all applications and social networks. See at a glance when "
+"there’s something new to read, regardless how it arrived."
+msgstr ""
+"Treguesi i Mesazheve të Ubuntu ju jep një parapamje të mesazheve që ju vijnë "
+"nga të gjitha programet dhe rrjetet shoqërore. Shikoni menjëherë nëse ka "
+"diçka të re për të lexuar, pavarësisht se si mbërriti."
+
+#. type: Content of: <div><div><div><h2>
+#: slideshows/oem-config-ubuntu/slides/social.html:12
+msgid "Supported services"
+msgstr "Shërbimet e mbështetura"
+
+#. type: Content of: <div><div><div><ul><li><p>
+#: slideshows/oem-config-ubuntu/slides/social.html:16
+msgid "Twitter"
+msgstr "Twitter"
+
+#. type: Content of: <div><div><div><ul><li><p>
+#: slideshows/oem-config-ubuntu/slides/social.html:20
+msgid "Facebook"
+msgstr "Facebook"
+
+#. type: Content of: <div><div><div><ul><li><p>
+#: slideshows/oem-config-ubuntu/slides/social.html:24
+msgid "Identi.ca"
+msgstr "Identi.ca"
+
+#. type: Content of: <div><h1>
+#: slideshows/oem-config-ubuntu/slides/usc.html:1
+msgid "Find even more software"
+msgstr "Gjeni akoma më tepër programe"
+
+#. type: Content of: <div><div><div><p>
+#: slideshows/oem-config-ubuntu/slides/usc.html:8
+msgid ""
+"The Ubuntu Software Center has thousands of new applications ready for your "
+"computer. Just type what you want or explore the categories like games, "
+"science, and education. It is easy to download new stuff and write reviews "
+"to share your experiences."
+msgstr ""
+"Qendra e Programeve të Ubuntu ka mijëra programe të reja të gatshme për "
+"kompjuterin tuaj. Thjesht shtypni ç'dëshironi ose eksploroni kategoritë siç "
+"janë lojërat, shkenca dhe edukimi. Është e lehtë të shkarkoni gjëra të reja "
+"dhe të shkruani përshtypje për të shpërndarë përvojën tuaj."
+
+#. type: Content of: <div><h1>
+#: slideshows/oem-config-ubuntu/slides/welcome.html:1
+msgid "Welcome"
+msgstr "Mirë se erdhët"
+
+#. type: Content of: <div><div><div><p>
+#: slideshows/oem-config-ubuntu/slides/welcome.html:8
+msgid ""
+"Thank you for choosing Ubuntu 11.10. This version brings some exciting "
+"changes including a totally redesigned desktop interface, Unity. While "
+"Ubuntu is configured, this slideshow will show you around."
+msgstr ""
+"Faleminderit që zgjodhët Ubuntu 11.10. Ky version sjell disa ndryshime "
+"emocionuese, duke përfshirë një ndërfaqe tërësisht të ridizenjuar për "
+"desktopin, Unity. Ndërkohë që Ubuntu konfigurohet, kjo paraqitje do t'iu "
+"tregojë disa gjëra."
+
+#~ msgid "Appearance preferences"
+#~ msgstr "Preferencat e pamjes"
+
+#~ msgid ""
+#~ "Ubuntu includes Mozilla Firefox for fast, safe web browsing. You can also "
+#~ "choose alternative browsers from Ubuntu Software Center."
+#~ msgstr ""
+#~ "Ubuntu përfshin Mozilla Firefox për shfletim të shpejtë dhe të sigurtë të "
+#~ "internetit. Ju gjithashtu mund të zgjidhni një shfletues të tëjerë "
+#~ "alternativë në Qendrën e Programeve të Ubuntu."
+
+#~ msgid "Email and chat"
+#~ msgstr "Email dhe bisedimi"
+
+#~ msgid "Empathy IM"
+#~ msgstr "Empathy IM"
+
+#~ msgid "Evolution Mail"
+#~ msgstr "Posta e Evolution"
+
+#~ msgid "Skype"
+#~ msgstr "Skype"
+
+#~ msgid "Social from the start"
+#~ msgstr "Shoqëror që nga fillimi"
+
+#~ msgid "Thank you"
+#~ msgstr "Faleminderit"
+
+#~ msgid "Mobilise your digital life"
+#~ msgstr "Mobilizo jetën tënde digitale"
+
+#~ msgid "Write and present with ease"
+#~ msgstr "Shkruaj dhe prezanto me lehtësi"
+
+#~ msgid "Some of our favourites"
+#~ msgstr "Disa nga favoritet tuaja"
+
+#~ msgid "Inkscape"
+#~ msgstr "Inkscape"
+
+#~ msgid "Stellarium"
+#~ msgstr "Stellarium"
+
+#~ msgid "Frozen Bubble"
+#~ msgstr "Frozen Bubble"
+
+#~ msgid ""
+#~ "At the heart of Ubuntu&#8217;s philosophy is a belief that computing is "
+#~ "for everyone. With advanced accessibility tools and many options like "
+#~ "your preferred fonts, colour schemes, and languages, Ubuntu is all about "
+#~ "working for real people."
+#~ msgstr ""
+#~ "Në zemër të filozofisë së Ubuntu&#8217;s është besimi se kompjuteri është "
+#~ "për gjithkënd. Me mjete të përparuara hyrjeje dhe me shumë opsione siç "
+#~ "janë gërmat tuaja të preferuara, skemat e ngjyrave dhe gjuhët, Ubuntu bën "
+#~ "ç'është e mundur që të punojë për njerëzit e vërtetë."
+
+#~ msgid ""
+#~ "The Messaging Menu has lots of features to make online communication "
+#~ "effortless. Chat helps you log in to all your instant messaging accounts "
+#~ "including MSN, Jabber, and Facebook. Your contacts appear in the same "
+#~ "place, ready for text or video chat."
+#~ msgstr ""
+#~ "Menuja e Mesazheve ka shumë mjete që e bëjnë komunikimin online të lehtë. "
+#~ "Çati ju mundëson që të hyni në të gjitha llogaritë tuaja të mesazheve të "
+#~ "menjëhershme duke përfshirë MSN, Jabber dhe Facebook. Kontaktet tuaja "
+#~ "shfaqen në të njëjtin vend, gati për bisedë me tekst apo me video."
+
+#~ msgid ""
+#~ "Thanks again for choosing Ubuntu. Ubuntu is designed to be easy and safe, "
+#~ "so don&#8217;t hesitate to explore! If you have any questions, try the "
+#~ "Help menu in most applications or browse to <a href=\"http://www.ubuntu."
+#~ "com/support\">ubuntu.com/support</a> to explore your other options. We "
+#~ "hope you enjoy Ubuntu."
+#~ msgstr ""
+#~ "Faleminderit përsëri që zgjodhët Ubuntu. Ubuntu është dizenjuar për të "
+#~ "qenë i lehtë dhe i sigurtë, kështu që mo&#8217;s hezitoni të eksploroni! "
+#~ "Nëse keni ndonjë pyetje, provoni menunë e Ndihmës në shumicën e "
+#~ "programeve ose shfletoni <a href=\"http://www.ubuntu.com/support\">ubuntu."
+#~ "com/support</a> për të eksploruar opsionet e tjera. Shpresojmë që t'iu "
+#~ "pëlqejë Ubuntu."
+
+#~ msgid ""
+#~ "All Ubuntu users get a free <a href=\"https://one.ubuntu.com/\">Ubuntu "
+#~ "One</a> account. Ubuntu One allows you to sync all kinds of files online "
+#~ "so you can access them anywhere. Sync bookmarks, contacts, music, and "
+#~ "pictures across all your computers. Take everything everywhere with "
+#~ "Ubuntu One."
+#~ msgstr ""
+#~ "Të gjithë përdoruesit e Ubuntu marrin një llogari falas të <a href="
+#~ "\"https://one.ubuntu.com/\">Ubuntu One</a>. Ubuntu One ju lejon që të "
+#~ "sinkronizoni të gjitha llojet e skedarëve online në mënyrë që ju të mund "
+#~ "ti keni ato kudo. Sinkronizoni libërshënuesit, kontaktet, muzikën dhe "
+#~ "fotografitë me të gjithë kompjuterat tuaj. Merrni gjithçka kudo me Ubuntu "
+#~ "One."
+
+#~ msgid ""
+#~ "Ubuntu comes with the amazing Banshee music player. With advanced "
+#~ "playback options and the Ubuntu One music store built in, it&#8217;s "
+#~ "simple to queue up the perfect songs. And it works great with CDs and "
+#~ "portable music players, so you can enjoy all your music wherever you go."
+#~ msgstr ""
+#~ "Ubuntu vjen me luajtësin e mrekullueshëm të muzikës Banshee. Me opsionet "
+#~ "për luajtje të avancuar dhe me dyqanin e muzikës së Ubuntu One të "
+#~ "bashkangjitur, ësht&#8217;ë e thjeshtë të ruani këngët perfekte. Luan "
+#~ "shumë mirë me CD-të dhe me luajtësit portabël të muzikës, kështu që ju "
+#~ "mund të shijoni të gjithë muzikën tuaj kudo që shkoni."
+
+#~ msgid ""
+#~ "LibreOffice is a free office suite packed with everything you&#8217;ll "
+#~ "need to create impressive documents, spreadsheets, and presentations. "
+#~ "LibreOffice tries its best to work with other office software, and it "
+#~ "uses the OpenDocument standards for far-reaching compatibility."
+#~ msgstr ""
+#~ "LibreOffice është një program falas për zyrën i paketuar me çdo gjë që "
+#~ "ju&#8217; nevojitet për të krijuar dokumente mbreslënëse, tabela dhe "
+#~ "prezantime. LibreOffice bën ç'është e mundur që të punojë me programet e "
+#~ "tjera për zyrën dhe përdor standartet e OpenDocument për kompatibilitet "
+#~ "largpamës."
+
+#~ msgid ""
+#~ "Shotwell is a handy photo manager that is ready for your gadgets. Connect "
+#~ "a camera or a phone to transfer your photos, then it&#8217;s easy to "
+#~ "share them and keep them safe. If you&#8217;re feeling creative, you can "
+#~ "try lots of photo apps from the Ubuntu Software Centre."
+#~ msgstr ""
+#~ "Shotwell është një menaxhues i mirë fotosh që është gati për mjetet "
+#~ "tuaja. Lidhni një kamera apo telefon për të transferuar fotot tuaja, "
+#~ "pastaj është e lehtë ti shpërndani ato dhe ti mbani të sigurta. Nëse "
+#~ "ndiheni krijues, ju mund të provoni shumë programe për fotot nga Qendra e "
+#~ "Programeve të Ubuntu."
+
+#~ msgid ""
+#~ "The Me Menu is your instant connection to web services like Facebook and "
+#~ "Twitter. Just set up your accounts to log in and share with friends. "
+#~ "Anything sent to you appears in the Messaging Menu so you can reply when "
+#~ "you want."
+#~ msgstr ""
+#~ "Menuja Me është lidhja juaj e menjëhershme me shërbimet e web si Facebook "
+#~ "apo Twitter. Thjesht hapni llogaritë tuaja për të hyrë dhe folur me "
+#~ "miqtë. Çdo gjë që ju dërgohet do të shfaqet në Menunë e Mesazheve, kështu "
+#~ "që ju mund të përgjigjeni kur të dëshironi."
+
+#~ msgid ""
+#~ "The Ubuntu Software Centre has thousands of new applications ready for "
+#~ "your computer. Just type what you want or explore the categories like "
+#~ "games, science, and education. It is simple to download new stuff and "
+#~ "write reviews to share your experiences."
+#~ msgstr ""
+#~ "Qendra e Programeve të Ubuntu ka mijëra programe të reja gati për "
+#~ "kompjuterin tuaj. Thjesht shtypni çfarë dëshironi për të eksploruar "
+#~ "kategoritë si lojërat, shkenca dhe edukimi. Është e thjeshtë të shkarkoni "
+#~ "gjëra të reja dhe të shkruani vlerësime për të përhapur përvojën tuaj."
+
+#~ msgid ""
+#~ "Thank you for choosing Ubuntu 11.04. This version brings some exciting "
+#~ "changes including a totally redesigned desktop interface, Unity. While "
+#~ "Ubuntu is configured, this slideshow will show you around."
+#~ msgstr ""
+#~ "Faleminderit që zgjodhët Ubuntu 11.04. Ky version sjell disa ndryshime "
+#~ "emocionuese duke përfshirë një ndërfaqe tërësisht të ridizenjuar për "
+#~ "desktopin, Unity. Ndërkohë që Ubuntu konfigurohet, këto mesazhe do t'iu "
+#~ "tregojnë për të."

@@ -1,0 +1,312 @@
+# Latvian translation for ubiquity-slideshow-ubuntu
+# Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
+# This file is distributed under the same license as the ubiquity-slideshow-ubuntu package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ubiquity-slideshow-ubuntu\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2011-09-28 16:17+0200\n"
+"PO-Revision-Date: 2011-09-28 10:39+0000\n"
+"Last-Translator: Rūdolfs Mazurs <Unknown>\n"
+"Language-Team: Latvian <lv@li.org>\n"
+"Language: lv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2011-10-03 09:06+0000\n"
+"X-Generator: Launchpad (build 14071)\n"
+
+#. type: Content of: <div><h1>
+#: slideshows/oem-config-ubuntu/slides/accessibility.html:1
+msgid "Customise Ubuntu"
+msgstr "Pielāgojiet Ubuntu sev"
+
+#. type: Content of: <div><div><div><p>
+#: slideshows/oem-config-ubuntu/slides/accessibility.html:8
+msgid ""
+"At the heart of Ubuntu’s philosophy is a belief that computing is for "
+"everyone. With advanced accessibility tools and options like your preferred "
+"color scheme, text size, and language, Ubuntu is for anyone. Whoever you "
+"are, and wherever you are."
+msgstr ""
+"Ubuntu filozofijas pamatā ir uzskats, ka ikviens var lietot datoru. Ar "
+"paplašinātiem pieejamības rīkiem un opcijām, piemēram, vēlamā krāsu shēma, "
+"teksta izmērs un valoda, Ubuntu ir piemērots ikvienam."
+
+#. type: Content of: <div><div><div><h2>
+#: slideshows/oem-config-ubuntu/slides/accessibility.html:12
+msgid "Customisation options"
+msgstr "Pielāgošanas iespējas"
+
+#. type: Content of: <div><div><div><ul><li><p>
+#: slideshows/oem-config-ubuntu/slides/accessibility.html:16
+msgid "Appearance"
+msgstr "Izskats"
+
+#. type: Content of: <div><div><div><ul><li><p>
+#: slideshows/oem-config-ubuntu/slides/accessibility.html:20
+msgid "Assistive technologies"
+msgstr "Asistējošās tehnoloģijas"
+
+#. type: Content of: <div><div><div><ul><li><p>
+#: slideshows/oem-config-ubuntu/slides/accessibility.html:24
+msgid "Language support"
+msgstr "Valodu atbalsts"
+
+#. type: Content of: <div><h1>
+#: slideshows/oem-config-ubuntu/slides/browse.html:1
+msgid "Browse the web"
+msgstr "Pārlūkojiet tīmekli"
+
+#. type: Content of: <div><div><div><p>
+#: slideshows/oem-config-ubuntu/slides/browse.html:8
+msgid ""
+"Ubuntu includes Mozilla Firefox for fast, safe web browsing. You can also "
+"choose alternative browsers from the Ubuntu Software Center."
+msgstr ""
+"Ubuntu iekļauj Mozilla Firefox ātrai un drošai tīmekļa pārlūkošanai. Jūs "
+"varat izvēlēties arī citus pārlūkus no Ubuntu programmatūras centra."
+
+#. type: Content of: <div><div><div><h2>
+#: slideshows/oem-config-ubuntu/slides/browse.html:12
+#: slideshows/oem-config-ubuntu/slides/music.html:12
+#: slideshows/oem-config-ubuntu/slides/office.html:12
+#: slideshows/oem-config-ubuntu/slides/photos.html:12
+msgid "Included software"
+msgstr "Iekļautā programmatūra"
+
+#. type: Content of: <div><div><div><ul><li><p>
+#: slideshows/oem-config-ubuntu/slides/browse.html:16
+msgid "Firefox web browser"
+msgstr "Firefox tīmekļa pārlūks"
+
+#. type: Content of: <div><div><div><h2>
+#: slideshows/oem-config-ubuntu/slides/browse.html:19
+#: slideshows/oem-config-ubuntu/slides/photos.html:19
+msgid "Supported software"
+msgstr "Atbalstītā programmatūra"
+
+#. type: Content of: <div><div><div><ul><li><p>
+#: slideshows/oem-config-ubuntu/slides/browse.html:23
+msgid "Flash"
+msgstr "Flash"
+
+#. type: Content of: <div><div><div><ul><li><p>
+#: slideshows/oem-config-ubuntu/slides/browse.html:27
+msgid "Chromium"
+msgstr "Chromium"
+
+#. type: Content of: <div><h1>
+#: slideshows/oem-config-ubuntu/slides/gethelp.html:1
+msgid "Any questions?"
+msgstr "Kādi jautājumi?"
+
+#. type: Content of: <div><div><div><p>
+#: slideshows/oem-config-ubuntu/slides/gethelp.html:8
+msgid ""
+"Check out <a href=\"http://askubuntu.com/\">Ask Ubuntu</a>, the best place "
+"to get an answer about Ubuntu. With most questions already answered, and "
+"thousands of people ready to help, you’ll be sorted in no time at all. And "
+"if you need an answer on a deadline, Canonical offers <a href=\"http://www."
+"ubuntu.com/support\">commercial support</a> to business users. Browse to <a "
+"href=\"http://www.ubuntu.com/support\">ubuntu.com/support</a> to explore "
+"your other options."
+msgstr ""
+"Apskatiet <a href=\"http://askubuntu.com/\">Ask Ubuntu</a>, labākā vieta, "
+"kur iegūt atbildes par Ubuntu. Tajā vairums jautājumu jau ir atbildēti un "
+"tūkstošiem cilvēku, kas ir gatavi palīdzēt. Un ja jums atbilde ir vajadzīga "
+"termiņā, Canonical piedāvā <a href=\"http://www.ubuntu.com/support"
+"\">komerciālu atbalstu</a> biznesa lietotājiem. Dodieties uz <a href="
+"\"http://www.ubuntu.com/support\">ubuntu.com/support</a>, lai apskatītu "
+"citas opcijas."
+
+#. type: Content of: <div><h1>
+#: slideshows/oem-config-ubuntu/slides/mobilise.html:1
+msgid "Your own personal cloud"
+msgstr "Jūsu personīgais mākonis"
+
+#. type: Content of: <div><div><div><p>
+#: slideshows/oem-config-ubuntu/slides/mobilise.html:8
+msgid ""
+"An <a href=\"https://one.ubuntu.com/services/\">Ubuntu One Free</a> account "
+"gives you 5GB of cloud storage, so you can store and sync your files and "
+"photos across devices and access them wherever you are in the world. Easily "
+"share them with friends, family and colleagues. Take a photo on your mobile "
+"phone and immediately see it on your desktop, or add <a href=\"https://one."
+"ubuntu.com/services/music/\">Music Streaming</a> for mobile to enjoy your "
+"music on the move."
+msgstr ""
+"<a href=\"https://one.ubuntu.com/services/\">Ubuntu One Free</a> konts dod "
+"jums 5GB vietas mākoņa krātuvē, ar ko var uzglabāt un sinhronizēt failus un "
+"fotogrāfijas starp dažādām ierīcēm un piekļūt tiem tiem no jebkuras vietas "
+"pasaulē. Viegli dalieties ar tiem starp draugiem, ģimeni un kolēģiem. "
+"Uzņemiet fotogrāfijas ar mobilo tālruni un uzreiz redziet tās uz sava "
+"datora, vai pievienojiet <a href=\"https://one.ubuntu.com/services/music/"
+"\">Mūzikas straumēšanu</a> mobilajiem tālruņiem un izbaudiet savu mūziku "
+"ceļā."
+
+#. type: Content of: <div><h1>
+#: slideshows/oem-config-ubuntu/slides/music.html:1
+msgid "Take your music with you"
+msgstr "Ņemiet līdzi savu mūziku"
+
+#. type: Content of: <div><div><div><p>
+#: slideshows/oem-config-ubuntu/slides/music.html:8
+msgid ""
+"Ubuntu comes with the amazing Banshee music player. With advanced playback "
+"options and the Ubuntu One music store built in, it’s simple to queue up the "
+"perfect songs. And it works great with CDs and portable music players, so "
+"you can enjoy all your music wherever you go."
+msgstr ""
+"Ubuntu komplektā ir lieliskais Banshee mūzikas atskaņotājs. Ar "
+"paplašinātajām opcijām un iebūvēto Ubuntu One mūzikas veikalu, ir viegli "
+"sarindot perfektās dziesmas. Tas strādā lieliski ar CD un portatīviem "
+"mūzikas atskaņotājiem, lai jūs varētu izbaudīt savu mūziku lai kurp jūs "
+"dotos."
+
+#. type: Content of: <div><div><div><ul><li><p>
+#: slideshows/oem-config-ubuntu/slides/music.html:16
+msgid "Banshee Music Player"
+msgstr "Banshee mūzikas atskaņotājs"
+
+#. type: Content of: <div><div><div><ul><li><p>
+#: slideshows/oem-config-ubuntu/slides/music.html:20
+msgid "Ubuntu One Music Store"
+msgstr "Ubuntu One mūzikas veikals"
+
+#. type: Content of: <div><h1>
+#: slideshows/oem-config-ubuntu/slides/office.html:1
+msgid "Write and present for free"
+msgstr "Rakstiet un prezentējiet par brīvu"
+
+#. type: Content of: <div><div><div><p>
+#: slideshows/oem-config-ubuntu/slides/office.html:8
+msgid ""
+"LibreOffice is a free office suite packed with everything you’ll need to "
+"create impressive documents, spreadsheets, and presentations. LibreOffice "
+"tries its best to work with other office software, and it uses the "
+"OpenDocument standards for far-reaching compatibility."
+msgstr ""
+"LibreOffice ir brīva biroja programmatūras svīta, kurā ir viss, kas ir "
+"nepieciešams, lai izveidotu izteiksmīgus dokumentus, izklājlapas un "
+"prezentācijas. LibreOffice tiecas pēc vislabākās savietojamības ar citu "
+"biroja programmatūru, un izmanto OpenDocument standartu, lai sasniegtu "
+"visplašāko savietojamību."
+
+#. type: Content of: <div><div><div><ul><li><p>
+#: slideshows/oem-config-ubuntu/slides/office.html:16
+msgid "LibreOffice"
+msgstr "LibreOffice"
+
+#. type: Content of: <div><div><div><ul><li><p>
+#: slideshows/oem-config-ubuntu/slides/office.html:20
+msgid "Tomboy Notes"
+msgstr "Tomboy piezīmes"
+
+#. type: Content of: <div><h1>
+#: slideshows/oem-config-ubuntu/slides/photos.html:1
+msgid "Have fun with your photos"
+msgstr "Fotopriekam"
+
+#. type: Content of: <div><div><div><p>
+#: slideshows/oem-config-ubuntu/slides/photos.html:8
+msgid ""
+"Shotwell is a handy photo manager that is ready for your gadgets. Connect a "
+"camera or a phone to transfer your photos, then it’s easy to share them and "
+"keep them safe. If you’re feeling creative, you can try lots of photo apps "
+"from the Ubuntu Software Center."
+msgstr ""
+"Shotwell ir parocīgs fotogrāfiju pārvaldnieks, kas ir gatavs jūsu ierīcēm. "
+"Pievienojiet kameru vai tālruni un pārsūtiet savas fotogrāfijas, tad ar tām "
+"var viegli dalīties un paturēt drošībā. Ja jums ir radošs noskaņojums, varat "
+"izmēģināt vairākas fotogrāfiju lietotnes no Ubuntu programmatūras centra."
+
+#. type: Content of: <div><div><div><ul><li><p>
+#: slideshows/oem-config-ubuntu/slides/photos.html:16
+msgid "Shotwell Photo Manager"
+msgstr "Shotwell fotogrāfiju pārvaldnieks"
+
+#. type: Content of: <div><div><div><ul><li><p>
+#: slideshows/oem-config-ubuntu/slides/photos.html:23
+msgid "GIMP Image Editor"
+msgstr "GIMP attēlu redaktors"
+
+#. type: Content of: <div><div><div><ul><li><p>
+#: slideshows/oem-config-ubuntu/slides/photos.html:27
+msgid "Pitivi Video Editor"
+msgstr "Pitivi video redaktors"
+
+#. type: Content of: <div><h1>
+#: slideshows/oem-config-ubuntu/slides/social.html:1
+msgid "Stay connected"
+msgstr "Uzturiet sakarus"
+
+#. type: Content of: <div><div><div><p>
+#: slideshows/oem-config-ubuntu/slides/social.html:8
+msgid ""
+"The Ubuntu Message Indicator gives you an eagle-eye view of incoming "
+"messages from all applications and social networks. See at a glance when "
+"there’s something new to read, regardless how it arrived."
+msgstr ""
+"Ubuntu ziņojumu indikators dod pārskatu pār ienākošajiem ziņojumiem no visām "
+"lietotnēm un sociālajiem tīkliem. Uzreiz redziet, kad ir pieejams kaut kas "
+"lasāms, lai no kurienes tas būtu pienācis."
+
+#. type: Content of: <div><div><div><h2>
+#: slideshows/oem-config-ubuntu/slides/social.html:12
+msgid "Supported services"
+msgstr "Atbalstītie servisi"
+
+#. type: Content of: <div><div><div><ul><li><p>
+#: slideshows/oem-config-ubuntu/slides/social.html:16
+msgid "Twitter"
+msgstr "Twitter"
+
+#. type: Content of: <div><div><div><ul><li><p>
+#: slideshows/oem-config-ubuntu/slides/social.html:20
+msgid "Facebook"
+msgstr "Facebook"
+
+#. type: Content of: <div><div><div><ul><li><p>
+#: slideshows/oem-config-ubuntu/slides/social.html:24
+msgid "Identi.ca"
+msgstr "Identi.ca"
+
+#. type: Content of: <div><h1>
+#: slideshows/oem-config-ubuntu/slides/usc.html:1
+msgid "Find even more software"
+msgstr "Atrodiet vēl vairāk programmatūras"
+
+#. type: Content of: <div><div><div><p>
+#: slideshows/oem-config-ubuntu/slides/usc.html:8
+msgid ""
+"The Ubuntu Software Center has thousands of new applications ready for your "
+"computer. Just type what you want or explore the categories like games, "
+"science, and education. It is easy to download new stuff and write reviews "
+"to share your experiences."
+msgstr ""
+"Ubuntu programmatūras centrā ir tūkstošiem jaunu lietotņu, kuras var uzlikt "
+"uz jūsu datora. Vienkārši ierakstiet, ko vēlaties, vai pārlūkojiet "
+"kategorijas, piemēram, spēles, zinātne un izglītība. Jaunu lietu lejupielāde "
+"un recenziju rakstīšana ir vienkārša."
+
+#. type: Content of: <div><h1>
+#: slideshows/oem-config-ubuntu/slides/welcome.html:1
+msgid "Welcome"
+msgstr "Esiet sveicināti"
+
+#. type: Content of: <div><div><div><p>
+#: slideshows/oem-config-ubuntu/slides/welcome.html:8
+msgid ""
+"Thank you for choosing Ubuntu 11.10. This version brings some exciting "
+"changes including a totally redesigned desktop interface, Unity. While "
+"Ubuntu is configured, this slideshow will show you around."
+msgstr ""
+"Paldies, ka izvēlējāties Ubuntu 11.10. Šajā versijā ir vairākas aizraujošas "
+"izmaiņas, tai skaitā pilnībā pārveidota darbvirsmas saskarne — Unity. Kamēr "
+"Ubuntu tiek konfigurēts, šī slīdrāde parādīs, kas kur atrodas."
+
+#~ msgid "Social from the start"
+#~ msgstr "Sabiedrisks no dabas"

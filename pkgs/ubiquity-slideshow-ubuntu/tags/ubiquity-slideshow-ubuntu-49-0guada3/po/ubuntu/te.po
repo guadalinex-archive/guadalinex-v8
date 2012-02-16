@@ -1,0 +1,419 @@
+# Telugu translation for ubiquity-slideshow-ubuntu
+# Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
+# This file is distributed under the same license as the ubiquity-slideshow-ubuntu package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ubiquity-slideshow-ubuntu\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2011-09-28 16:16+0200\n"
+"PO-Revision-Date: 2011-09-15 01:56+0000\n"
+"Last-Translator: Praveen Illa <mail2ipn@gmail.com>\n"
+"Language-Team: Telugu <te@li.org>\n"
+"Language: te\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2011-10-03 09:07+0000\n"
+"X-Generator: Launchpad (build 14071)\n"
+
+#. type: Content of: <div><h1>
+#: slideshows/ubuntu/slides/accessibility.html:1
+msgid "Customise Ubuntu"
+msgstr "ఉబుంటుని మలచుకో"
+
+#. type: Content of: <div><div><div><p>
+#: slideshows/ubuntu/slides/accessibility.html:8
+msgid ""
+"At the heart of Ubuntu’s philosophy is a belief that computing is for "
+"everyone. With advanced accessibility tools and options like your preferred "
+"color scheme, text size, and language, Ubuntu is for anyone. Whoever you "
+"are, and wherever you are."
+msgstr ""
+
+#. type: Content of: <div><div><div><h2>
+#: slideshows/ubuntu/slides/accessibility.html:12
+msgid "Customisation options"
+msgstr "మలచుకొనుటకు అవకాశాలు"
+
+#. type: Content of: <div><div><div><ul><li><p>
+#: slideshows/ubuntu/slides/accessibility.html:16
+msgid "Appearance"
+msgstr "కనిపించువిధం"
+
+#. type: Content of: <div><div><div><ul><li><p>
+#: slideshows/ubuntu/slides/accessibility.html:20
+msgid "Assistive technologies"
+msgstr "తోడ్పాటు సాంకేతికాలు"
+
+#. type: Content of: <div><div><div><ul><li><p>
+#: slideshows/ubuntu/slides/accessibility.html:24
+msgid "Language support"
+msgstr "భాష తోడ్పాటు"
+
+#. type: Content of: <div><h1>
+#: slideshows/ubuntu/slides/browse.html:1
+msgid "Browse the web"
+msgstr "వెబ్  విహరణ"
+
+#. type: Content of: <div><div><div><p>
+#: slideshows/ubuntu/slides/browse.html:8
+msgid ""
+"Ubuntu includes Mozilla Firefox for fast, safe web browsing. You can also "
+"choose alternative browsers from the Ubuntu Software Center."
+msgstr ""
+
+#. type: Content of: <div><div><div><h2>
+#: slideshows/ubuntu/slides/browse.html:12
+#: slideshows/ubuntu/slides/music.html:12
+#: slideshows/ubuntu/slides/office.html:12
+#: slideshows/ubuntu/slides/photos.html:12
+msgid "Included software"
+msgstr "జతగావున్న సాఫ్ట్వేర్"
+
+#. type: Content of: <div><div><div><ul><li><p>
+#: slideshows/ubuntu/slides/browse.html:16
+msgid "Firefox web browser"
+msgstr "ఫైర్ఫాక్స్ వెబ్ విహరిణి"
+
+#. type: Content of: <div><div><div><h2>
+#: slideshows/ubuntu/slides/browse.html:19
+#: slideshows/ubuntu/slides/photos.html:19
+msgid "Supported software"
+msgstr "తోడ్పాటువున్న సాఫ్ట్వేర్"
+
+#. type: Content of: <div><div><div><ul><li><p>
+#: slideshows/ubuntu/slides/browse.html:23
+msgid "Flash"
+msgstr "ఫ్లాష్"
+
+#. type: Content of: <div><div><div><ul><li><p>
+#: slideshows/ubuntu/slides/browse.html:27
+msgid "Chromium"
+msgstr "క్రోమియమ్"
+
+#. type: Content of: <div><h1>
+#: slideshows/ubuntu/slides/gethelp.html:1
+msgid "Any questions?"
+msgstr "ఏమైనా సందేహాలున్నాయా?"
+
+#. type: Content of: <div><div><div><p>
+#: slideshows/ubuntu/slides/gethelp.html:8
+msgid ""
+"Check out <a href=\"http://askubuntu.com/\">Ask Ubuntu</a>, the best place "
+"to get an answer about Ubuntu. With most questions already answered, and "
+"thousands of people ready to help, you’ll be sorted in no time at all. And "
+"if you need an answer on a deadline, Canonical offers <a href=\"http://www."
+"ubuntu.com/support\">commercial support</a> to business users. Browse to <a "
+"href=\"http://www.ubuntu.com/support\">ubuntu.com/support</a> to explore "
+"your other options."
+msgstr ""
+
+#. type: Content of: <div><h1>
+#: slideshows/ubuntu/slides/mobilise.html:1
+msgid "Your own personal cloud"
+msgstr ""
+
+#. type: Content of: <div><div><div><p>
+#: slideshows/ubuntu/slides/mobilise.html:8
+msgid ""
+"An <a href=\"https://one.ubuntu.com/services/\">Ubuntu One Free</a> account "
+"gives you 5GB of cloud storage, so you can store and sync your files and "
+"photos across devices and access them wherever you are in the world. Easily "
+"share them with friends, family and colleagues. Take a photo on your mobile "
+"phone and immediately see it on your desktop, or add <a href=\"https://one."
+"ubuntu.com/services/music/\">Music Streaming</a> for mobile to enjoy your "
+"music on the move."
+msgstr ""
+
+#. type: Content of: <div><h1>
+#: slideshows/ubuntu/slides/music.html:1
+msgid "Take your music with you"
+msgstr "మీ సంగీతం మీతో పాటే తీసుకెళ్లండి"
+
+#. type: Content of: <div><div><div><p>
+#: slideshows/ubuntu/slides/music.html:8
+msgid ""
+"Ubuntu comes with the amazing Banshee music player. With advanced playback "
+"options and the Ubuntu One music store built in, it’s simple to queue up the "
+"perfect songs. And it works great with CDs and portable music players, so "
+"you can enjoy all your music wherever you go."
+msgstr ""
+
+#. type: Content of: <div><div><div><ul><li><p>
+#: slideshows/ubuntu/slides/music.html:16
+msgid "Banshee Music Player"
+msgstr "బన్‌షీ సంగీత ప్లేయర్"
+
+#. type: Content of: <div><div><div><ul><li><p>
+#: slideshows/ubuntu/slides/music.html:20
+msgid "Ubuntu One Music Store"
+msgstr "ఉబుంటు ఒన్ సంగీత దుకాణం"
+
+#. type: Content of: <div><h1>
+#: slideshows/ubuntu/slides/office.html:1
+msgid "Write and present for free"
+msgstr ""
+
+#. type: Content of: <div><div><div><p>
+#: slideshows/ubuntu/slides/office.html:8
+msgid ""
+"LibreOffice is a free office suite packed with everything you’ll need to "
+"create impressive documents, spreadsheets, and presentations. LibreOffice "
+"tries its best to work with other office software, and it uses the "
+"OpenDocument standards for far-reaching compatibility."
+msgstr ""
+
+#. type: Content of: <div><div><div><ul><li><p>
+#: slideshows/ubuntu/slides/office.html:16
+msgid "LibreOffice"
+msgstr "లిబ్రెఆఫీస్"
+
+#. type: Content of: <div><div><div><ul><li><p>
+#: slideshows/ubuntu/slides/office.html:20
+msgid "Tomboy Notes"
+msgstr "టోంబాయ్ నోట్స్"
+
+#. type: Content of: <div><h1>
+#: slideshows/ubuntu/slides/photos.html:1
+msgid "Have fun with your photos"
+msgstr "మీ ఫొటోలతో ఆనందంగావుండండి"
+
+#. type: Content of: <div><div><div><p>
+#: slideshows/ubuntu/slides/photos.html:8
+msgid ""
+"Shotwell is a handy photo manager that is ready for your gadgets. Connect a "
+"camera or a phone to transfer your photos, then it’s easy to share them and "
+"keep them safe. If you’re feeling creative, you can try lots of photo apps "
+"from the Ubuntu Software Center."
+msgstr ""
+
+#. type: Content of: <div><div><div><ul><li><p>
+#: slideshows/ubuntu/slides/photos.html:16
+msgid "Shotwell Photo Manager"
+msgstr "షాట్వెల్ ఫొటో మేనేజర్"
+
+#. type: Content of: <div><div><div><ul><li><p>
+#: slideshows/ubuntu/slides/photos.html:23
+msgid "GIMP Image Editor"
+msgstr "గింప్ బొమ్మ కూర్పరి"
+
+#. type: Content of: <div><div><div><ul><li><p>
+#: slideshows/ubuntu/slides/photos.html:27
+msgid "Pitivi Video Editor"
+msgstr "పిటివి వీడియో ఎడిటర్"
+
+#. type: Content of: <div><h1>
+#: slideshows/ubuntu/slides/social.html:1
+msgid "Stay connected"
+msgstr "అనుసంధానమై ఉండండి"
+
+#. type: Content of: <div><div><div><p>
+#: slideshows/ubuntu/slides/social.html:8
+msgid ""
+"The Ubuntu Message Indicator gives you an eagle-eye view of incoming "
+"messages from all applications and social networks. See at a glance when "
+"there’s something new to read, regardless how it arrived."
+msgstr ""
+
+#. type: Content of: <div><div><div><h2>
+#: slideshows/ubuntu/slides/social.html:12
+msgid "Supported services"
+msgstr "మద్దతుకల సేవలు"
+
+#. type: Content of: <div><div><div><ul><li><p>
+#: slideshows/ubuntu/slides/social.html:16
+msgid "Twitter"
+msgstr "ట్విట్టర్"
+
+#. type: Content of: <div><div><div><ul><li><p>
+#: slideshows/ubuntu/slides/social.html:20
+msgid "Facebook"
+msgstr "ఫేస్బుక్"
+
+#. type: Content of: <div><div><div><ul><li><p>
+#: slideshows/ubuntu/slides/social.html:24
+msgid "Identi.ca"
+msgstr "ఐడంటి.కా"
+
+#. type: Content of: <div><h1>
+#: slideshows/ubuntu/slides/usc.html:1
+msgid "Find even more software"
+msgstr "ఇంకా  సాఫ్ట్వేర్ కనుగొనండి"
+
+#. type: Content of: <div><div><div><p>
+#: slideshows/ubuntu/slides/usc.html:8
+msgid ""
+"The Ubuntu Software Center has thousands of new applications ready for your "
+"computer. Just type what you want or explore the categories like games, "
+"science, and education. It is easy to download new stuff and write reviews "
+"to share your experiences."
+msgstr ""
+
+#. type: Content of: <div><h1>
+#: slideshows/ubuntu/slides/welcome.html:1
+msgid "Welcome to Ubuntu 11.10"
+msgstr "ఉబుంటు 11.10 కి స్వాగతం"
+
+#. type: Content of: <div><div><div><p>
+#: slideshows/ubuntu/slides/welcome.html:8
+msgid ""
+"Ubuntu is packed with features to make your computer delightful to use. This "
+"version consolidates the Unity desktop interface; a brand new way to find "
+"and manage your applications. Now with more features and faster. We’d like "
+"to show some cool things to look for in your new operating system."
+msgstr ""
+
+#~ msgid "Email and chat"
+#~ msgstr "ఇమెయిల్ మరియు ఛాట్"
+
+#~ msgid "Appearance preferences"
+#~ msgstr "రూప ఇష్టాలు"
+
+#~ msgid ""
+#~ "Ubuntu includes Mozilla Firefox for fast, safe web browsing. You can also "
+#~ "choose alternative browsers from Ubuntu Software Center."
+#~ msgstr ""
+#~ "త్వరితమైన మరియు భద్రతగల వెబ్ వీక్షణకు మొజిల్లా ఫైర్ఫాక్స్  కలిగివుంది. ఉబుంటు సాఫ్ట్వేర్ కేంద్రంలో ఇతర "
+#~ "విహరిణులను ఎంపికచేసుకోవచ్చు."
+
+#~ msgid "Skype"
+#~ msgstr "స్కైప్"
+
+#~ msgid "Empathy IM"
+#~ msgstr "ఎంపథీ IM"
+
+#~ msgid "Evolution Mail"
+#~ msgstr "ఎవల్యూషన్ మెయిల్"
+
+#~ msgid "Social from the start"
+#~ msgstr "ప్రారంభంతోనే సామాజిక సౌలభ్యాలు"
+
+#~ msgid "Thank you"
+#~ msgstr "ధన్యవాదాలు"
+
+#~ msgid "Welcome to Ubuntu 11.04"
+#~ msgstr "ఉబుంటు 11.04కి స్వాగతం"
+
+#~ msgid "Inkscape"
+#~ msgstr "ఇంక్‌స్కేప్"
+
+#~ msgid ""
+#~ "Ubuntu comes with the amazing Banshee music player. With advanced "
+#~ "playback options and the Ubuntu One music store built in, it&#8217;s "
+#~ "simple to queue up the perfect songs. And it works great with CDs and "
+#~ "portable music players, so you can enjoy all your music wherever you go."
+#~ msgstr ""
+#~ "అద్భుతమైన బన్షీ సంగీత సాధనంతో ఉబుంటు వస్తున్నది. ఆధునిక సౌలభ్యాలు మరియు ఉబుంటు ఒన్ సంగీత "
+#~ "దుకాణం కలిగి వుండి, మంచి పాటలు వినటం చాలా సులభం. CD లు మరియు చిన్న సంగీత సాధనాలతో చక్కగా "
+#~ "పనిచేస్తుంది. మీరెక్కడికెళ్లినా మీ సంగీతం వింటూ ఆనందించవచ్చు."
+
+#~ msgid ""
+#~ "At the heart of Ubuntu&#8217;s philosophy is a belief that computing is "
+#~ "for everyone. With advanced accessibility tools and many options like "
+#~ "your preferred fonts, colour schemes, and languages, Ubuntu is all about "
+#~ "working for real people."
+#~ msgstr ""
+#~ "ఉబుంటు యొక్క హృదయంలో వున్న తత్వం  ఏంటంటే కంప్యూటర్ ప్రక్రియ అందరికోసం. ఉన్నత అందుబాటు "
+#~ "సాధనాలు మరియు ఇష్టమైన ఖతులు, రంగుల పద్ధతులు, భాషలలాంటి ఇతర ఎంపికలతో, ఉబుంటు అంటే నిజంగా "
+#~ "ప్రజలకు వుపయోగపడటమే."
+
+#~ msgid ""
+#~ "The Messaging Menu has lots of features to make online communication "
+#~ "effortless. Chat helps you log in to all your instant messaging accounts "
+#~ "including MSN, Jabber, and Facebook. Your contacts appear in the same "
+#~ "place, ready for text or video chat."
+#~ msgstr ""
+#~ "సందేశ మెనూలో చాలా సౌలభ్యాలవలన మీ ఆన్లైన్ ప్రసారం చాలా సుఖం. ఛాట్ ద్వారా MSN, జాబర్, ఫేస్బుక్ లాంటి మీ "
+#~ "సత్వర సందేశిని ఖాతాలలో లాగిన్ అవవచ్చు. పాఠ లేక వీడియో ఛాట్ కి సిద్ధంగా. మీ సంపర్కాలు అదే ప్రదేశంలో "
+#~ "కనబడతాయి,"
+
+#~ msgid ""
+#~ "Thanks again for choosing Ubuntu. Ubuntu is designed to be easy and safe, "
+#~ "so don&#8217;t hesitate to explore! If you have any questions, try the "
+#~ "Help menu in most applications or browse to <a href=\"http://www.ubuntu."
+#~ "com/support\">ubuntu.com/support</a> to explore your other options. We "
+#~ "hope you enjoy Ubuntu."
+#~ msgstr ""
+#~ "ఉబుంటు ఎంపికకు ధన్యవాదాలు. చాలా సులభం మరియు భద్రంగా వుండటానికి ఉబుంటు రూపకల్పన జరిగింది, "
+#~ "అందువలన  వాడటంలో సంకోచించవద్దు!  మీ సందేహాలకు, అనువర్తనాలలో సహాయం మెనూ చూడండి లేక  ఇతర "
+#~ "అవకాశాలకోసం <a href=\"http://www.ubuntu.com/support\">ఉబుంటు సహాయ వెబ్ పేజీ</a>  "
+#~ "చూడండి.  మీరు ఉబుంటుతో ఆనందంగా వుంటారని మా ఆశ."
+
+#~ msgid "Mobilise your digital life"
+#~ msgstr "మీ డిజిటల్ జీవనాన్ని మీతో పాటే తీసుకెళ్ళండి."
+
+#~ msgid ""
+#~ "All Ubuntu users get a free <a href=\"https://one.ubuntu.com/\">Ubuntu "
+#~ "One</a> account. Ubuntu One allows you to sync all kinds of files online "
+#~ "so you can access them anywhere. Sync bookmarks, contacts, music, and "
+#~ "pictures across all your computers. Take everything everywhere with "
+#~ "Ubuntu One."
+#~ msgstr ""
+#~ "ఉబుంటు వాడుకరులందరకు ఉచిత <a href=\"https://one.ubuntu.com/\">ఉబుంటు ఒన్ </"
+#~ "a> ఖాతా సదుపాయం వుంది. దీనివలన మీ అన్ని రకాల ఫైళ్లను ఆన్లైన్ లో వుంచుకొని, మీరు ఎక్కడినుండైనా "
+#~ "వాడవచ్చు. ఇష్టాంశాలు, సంపర్కాలు, సంగీతం, బొమ్మలు మీరు వాడే ఏ కంప్యూటరు నుండైనా ఆన్లైన్ లో "
+#~ "పెట్టండి మరియు వాడండి.  ఉబుంటు ఒన్ తో ప్రతీది ఎక్కడికైనా తీసుకెళ్లండి ."
+
+#~ msgid "Write and present with ease"
+#~ msgstr "సులభంగా రాయండి మరియు ప్రదర్శించండి"
+
+#~ msgid "Frozen Bubble"
+#~ msgstr "ఫ్రోజెన్ బబుల్"
+
+#~ msgid "Stellarium"
+#~ msgstr "స్టెల్లారియమ్"
+
+#~ msgid ""
+#~ "Ubuntu is packed with features to make your computer delightful to use. "
+#~ "This version introduces the Unity desktop interface; a brand new way to "
+#~ "find and manage your applications. We&#8217;d like to show some cool "
+#~ "things to look for in your new operating system."
+#~ msgstr ""
+#~ "మీ కంప్యూటర్ ని వాడడం ఆనందమయం కావడానికి కావలసిన సౌలభ్యాలను ఉబుంటు కలిగి వుంది. ఈ రూపాంతరంతో  "
+#~ "యూనిటీ రంగస్థల అంతర్ముఖం పరిచయం చేస్తున్నాము. దీనితో మీ అనువర్తనాలను వెతకటం మరియు వాడడం చాలా "
+#~ "సులభం. మీ కొత్త నిర్వహణ వ్యవస్థలో కనబడే ఆకర్షణీయమైన వాటిని చూపుతాము."
+
+#~ msgid ""
+#~ "Shotwell is a handy photo manager that is ready for your gadgets. Connect "
+#~ "a camera or a phone to transfer your photos, then it&#8217;s easy to "
+#~ "share them and keep them safe. If you&#8217;re feeling creative, you can "
+#~ "try lots of photo apps from the Ubuntu Software Centre."
+#~ msgstr ""
+#~ "షాట్వెల్  మీ పనిముట్లుతో పనిచేసే ఒక  చక్కని ఫొటో నిర్వాహకి. మీ కెమేరా లేక ఫోన్ సంధానించి మీ ఫొటోలు బదిలీ "
+#~ "చేయండి. అప్పుడు వాటిని పంచుకోవటం చాలా సులభం  మరియ భద్రంగా వుంచవచ్చు. మీ సృజనశీలతగా వుంటే, "
+#~ "ఉబుంటు సాఫ్ట్వేర్ కేంద్రం నుండి చాలా ఫోటో అనువర్తనాలను ప్రయత్నించవచ్చు."
+
+#~ msgid ""
+#~ "LibreOffice is a free office suite packed with everything you&#8217;ll "
+#~ "need to create impressive documents, spreadsheets, and presentations. "
+#~ "LibreOffice tries its best to work with other office software, and it "
+#~ "uses the OpenDocument standards for far-reaching compatibility."
+#~ msgstr ""
+#~ "లిబ్రెఆఫీస్ ఒక కార్యాలయ అనువర్తనాల సముదాయం. దీనితో మీరు అందమైన పత్రాలు, స్ప్రడ్ షీట్లు, "
+#~ "ప్రజంటేషన్లు చేయవచ్చు.  ఇతర కార్యాలయ అనువర్తనాలతో  ఇది చక్కగా పనిచేస్తుంది మరియు గొప్ప "
+#~ "సానుకూలతకొరకు ప్రామాణిక ఒపెన్ డాక్యుమెంట్ స్టాండర్డ్స వాడుతుంది."
+
+#~ msgid "Some of our favourites"
+#~ msgstr "మాకిష్టమైన వాటిలో కొన్ని"
+
+#~ msgid ""
+#~ "The Ubuntu Software Centre has thousands of new applications ready for "
+#~ "your computer. Just type what you want or explore the categories like "
+#~ "games, science, and education. It is simple to download new stuff and "
+#~ "write reviews to share your experiences."
+#~ msgstr ""
+#~ "ఉబుంటు సాఫ్ట్వేర్ కేంద్రంలో వేలకొలది కొత్త అనువర్తనాలు మీ కంప్యూటర్ కి సరిపొయ్యేవి వున్నాయి. మీకు "
+#~ "కావలసినది టైప్ చెయ్యండి లేక  ఆటలు, విజ్ఞానం మరియు విద్య లాంటి వివిధ వర్గాల ద్వారా మీకు కావలసినదానికోసం "
+#~ "చూడండి. కొత్తవాటిని పొందటం మీ అనుభవాలను సమీక్షలద్వారా పంచుకోవటం చాలా సులభం."
+
+#~ msgid ""
+#~ "The Me Menu is your instant connection to web services like Facebook and "
+#~ "Twitter. Just set up your accounts to log in and share with friends. "
+#~ "Anything sent to you appears in the Messaging Menu so you can reply when "
+#~ "you want."
+#~ msgstr ""
+#~ "'మీ మెనూ' ఫేస్బుక్ మరియు ట్విట్టర్ లాంటి వెబ్ సేవలకు సత్వర సంధానం. మీరు లాగిన్ కావలసిన ఖాతాలను "
+#~ "సిద్ధపరచుకోండి ఆ తరువాత మీ స్నేహితులతో పంచుకోండి. మీకు పంపబడిన ఏదైనా మెసేజింగ్ మెనూలో "
+#~ "కనబడుతుంది, మీరు ఎప్పుడు కావాలంటే అప్పుడు ప్రత్యుత్తరము ఇవ్వవచ్చు."
