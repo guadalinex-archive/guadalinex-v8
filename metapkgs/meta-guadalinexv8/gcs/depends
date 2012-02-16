@@ -29,7 +29,7 @@ guadalinexv8-grub2-conf
 guadalinexv8-lightdm-conf
 guadalinexv8-plymouth-theme
 guadalinexv8-standard-conf
-#guadalinexv8-thunderbird-conf
+guadalinexv8-thunderbird-conf
 
 ##APPS
 #a
