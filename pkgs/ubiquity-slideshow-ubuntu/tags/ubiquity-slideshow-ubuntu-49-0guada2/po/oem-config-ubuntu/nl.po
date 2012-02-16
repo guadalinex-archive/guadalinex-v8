@@ -1,0 +1,476 @@
+# Dutch translation for ubiquity-slideshow-ubuntu
+# Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
+# This file is distributed under the same license as the ubiquity-slideshow-ubuntu package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ubiquity-slideshow-ubuntu\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2011-09-28 16:17+0200\n"
+"PO-Revision-Date: 2011-09-27 13:53+0000\n"
+"Last-Translator: Redmar <redmar@ubuntu-nl.org>\n"
+"Language-Team: Dutch <nl@li.org>\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2011-10-03 09:07+0000\n"
+"X-Generator: Launchpad (build 14071)\n"
+
+#. type: Content of: <div><h1>
+#: slideshows/oem-config-ubuntu/slides/accessibility.html:1
+msgid "Customise Ubuntu"
+msgstr "Ubuntu aanpassen"
+
+#. type: Content of: <div><div><div><p>
+#: slideshows/oem-config-ubuntu/slides/accessibility.html:8
+msgid ""
+"At the heart of Ubuntu’s philosophy is a belief that computing is for "
+"everyone. With advanced accessibility tools and options like your preferred "
+"color scheme, text size, and language, Ubuntu is for anyone. Whoever you "
+"are, and wherever you are."
+msgstr ""
+"De kern van de Ubuntu-filosofie is dat computers er voor iedereen moeten "
+"zijn. Met geavanceerde toegankelijkheidshulpmiddelen en vele opties voor het "
+"aanpassen van lettertypen, kleurenschema's en talen is Ubuntu een systeem "
+"voor iedereen."
+
+#. type: Content of: <div><div><div><h2>
+#: slideshows/oem-config-ubuntu/slides/accessibility.html:12
+msgid "Customisation options"
+msgstr "Opties voor het aanpassen"
+
+#. type: Content of: <div><div><div><ul><li><p>
+#: slideshows/oem-config-ubuntu/slides/accessibility.html:16
+msgid "Appearance"
+msgstr "Verschijning"
+
+#. type: Content of: <div><div><div><ul><li><p>
+#: slideshows/oem-config-ubuntu/slides/accessibility.html:20
+msgid "Assistive technologies"
+msgstr "Assisterende technologieën"
+
+#. type: Content of: <div><div><div><ul><li><p>
+#: slideshows/oem-config-ubuntu/slides/accessibility.html:24
+msgid "Language support"
+msgstr "Taalondersteuning"
+
+#. type: Content of: <div><h1>
+#: slideshows/oem-config-ubuntu/slides/browse.html:1
+msgid "Browse the web"
+msgstr "Op het web surfen"
+
+#. type: Content of: <div><div><div><p>
+#: slideshows/oem-config-ubuntu/slides/browse.html:8
+msgid ""
+"Ubuntu includes Mozilla Firefox for fast, safe web browsing. You can also "
+"choose alternative browsers from the Ubuntu Software Center."
+msgstr ""
+"Ubuntu wordt geleverd met Mozilla Firefox, waarmee u snel en veilig op het "
+"web kunt surfen. U kunt in het Ubuntu softwarecentrum ook andere browsers "
+"kiezen."
+
+#. type: Content of: <div><div><div><h2>
+#: slideshows/oem-config-ubuntu/slides/browse.html:12
+#: slideshows/oem-config-ubuntu/slides/music.html:12
+#: slideshows/oem-config-ubuntu/slides/office.html:12
+#: slideshows/oem-config-ubuntu/slides/photos.html:12
+msgid "Included software"
+msgstr "Meegeleverde software"
+
+#. type: Content of: <div><div><div><ul><li><p>
+#: slideshows/oem-config-ubuntu/slides/browse.html:16
+msgid "Firefox web browser"
+msgstr "Firefox webbrowser"
+
+#. type: Content of: <div><div><div><h2>
+#: slideshows/oem-config-ubuntu/slides/browse.html:19
+#: slideshows/oem-config-ubuntu/slides/photos.html:19
+msgid "Supported software"
+msgstr "Ondersteunde software"
+
+#. type: Content of: <div><div><div><ul><li><p>
+#: slideshows/oem-config-ubuntu/slides/browse.html:23
+msgid "Flash"
+msgstr "Flash"
+
+#. type: Content of: <div><div><div><ul><li><p>
+#: slideshows/oem-config-ubuntu/slides/browse.html:27
+msgid "Chromium"
+msgstr "Chromium"
+
+#. type: Content of: <div><h1>
+#: slideshows/oem-config-ubuntu/slides/gethelp.html:1
+msgid "Any questions?"
+msgstr "Vragen?"
+
+#. type: Content of: <div><div><div><p>
+#: slideshows/oem-config-ubuntu/slides/gethelp.html:8
+msgid ""
+"Check out <a href=\"http://askubuntu.com/\">Ask Ubuntu</a>, the best place "
+"to get an answer about Ubuntu. With most questions already answered, and "
+"thousands of people ready to help, you’ll be sorted in no time at all. And "
+"if you need an answer on a deadline, Canonical offers <a href=\"http://www."
+"ubuntu.com/support\">commercial support</a> to business users. Browse to <a "
+"href=\"http://www.ubuntu.com/support\">ubuntu.com/support</a> to explore "
+"your other options."
+msgstr ""
+"Bezoek <a href=\"http://askubuntu.com/\">Ask Ubuntu</a>, de beste plek om "
+"antwoord te krijgen op vragen over Ubuntu. Doordat de meeste vragen al "
+"beantwoord zijn, en er duizenden mensen klaar staan om u te helpen, zult u "
+"in een mum of tijd geholpen zijn. En als u binnen een bepaalde termijn "
+"antwoord moet hebben, dan biedt Canonical <a href=\"http://www.ubuntu.com/"
+"support\">commerciële ondersteuning</a> aan zakelijke gebruikers. Bezoek <a "
+"href=\"http://www.ubuntu.com/support\">ubuntu.com/support</a> om andere "
+"mogelijkheden te verkennen."
+
+#. type: Content of: <div><h1>
+#: slideshows/oem-config-ubuntu/slides/mobilise.html:1
+msgid "Your own personal cloud"
+msgstr "Uw persoonlijke cloud"
+
+#. type: Content of: <div><div><div><p>
+#: slideshows/oem-config-ubuntu/slides/mobilise.html:8
+msgid ""
+"An <a href=\"https://one.ubuntu.com/services/\">Ubuntu One Free</a> account "
+"gives you 5GB of cloud storage, so you can store and sync your files and "
+"photos across devices and access them wherever you are in the world. Easily "
+"share them with friends, family and colleagues. Take a photo on your mobile "
+"phone and immediately see it on your desktop, or add <a href=\"https://one."
+"ubuntu.com/services/music/\">Music Streaming</a> for mobile to enjoy your "
+"music on the move."
+msgstr ""
+"Met een <a href=\"https://one.ubuntu.com/services/\">Ubuntu One Free</a>-"
+"account krijgt u 5GB cloudopslag; hierdoor kunt u uw bestanden en foto's "
+"bewaren en synchroniseren tussen verschillende apparaten. Bovendien heeft u "
+"toegang tot deze bestanden, waar ter wereld u ook bent. Deel ze op "
+"eenvoudige wijze met vrienden, familie en collega's. Neem een foto met uw "
+"mobiele telefoon en bekijk deze direct op uw computer, of voeg <a href="
+"\"https://one.ubuntu.com/services/music/\">Music Streaming</a> toe om te "
+"genieten van uw muziek wanneer u op pad bent."
+
+#. type: Content of: <div><h1>
+#: slideshows/oem-config-ubuntu/slides/music.html:1
+msgid "Take your music with you"
+msgstr "Neem uw muziek mee"
+
+#. type: Content of: <div><div><div><p>
+#: slideshows/oem-config-ubuntu/slides/music.html:8
+msgid ""
+"Ubuntu comes with the amazing Banshee music player. With advanced playback "
+"options and the Ubuntu One music store built in, it’s simple to queue up the "
+"perfect songs. And it works great with CDs and portable music players, so "
+"you can enjoy all your music wherever you go."
+msgstr ""
+"Ubuntu bevat de geweldige muziekspeler Banshee. De uitgebreide "
+"afspeelmogelijkheden en de ingebouwde Ubuntu One muziekwinkel maken het "
+"samenstellen van de ideale muziekverzameling eenvoudig. Ook gaat het "
+"uitstekend om met cd's en draagbare muziekspelers, zodat u van al uw muziek "
+"kunt genieten waar u ook bent."
+
+#. type: Content of: <div><div><div><ul><li><p>
+#: slideshows/oem-config-ubuntu/slides/music.html:16
+msgid "Banshee Music Player"
+msgstr "Banshee muziekspeler"
+
+#. type: Content of: <div><div><div><ul><li><p>
+#: slideshows/oem-config-ubuntu/slides/music.html:20
+msgid "Ubuntu One Music Store"
+msgstr "Ubuntu One muziekwinkel"
+
+#. type: Content of: <div><h1>
+#: slideshows/oem-config-ubuntu/slides/office.html:1
+msgid "Write and present for free"
+msgstr "Kosteloos schrijven en presenteren"
+
+#. type: Content of: <div><div><div><p>
+#: slideshows/oem-config-ubuntu/slides/office.html:8
+msgid ""
+"LibreOffice is a free office suite packed with everything you’ll need to "
+"create impressive documents, spreadsheets, and presentations. LibreOffice "
+"tries its best to work with other office software, and it uses the "
+"OpenDocument standards for far-reaching compatibility."
+msgstr ""
+"LibreOffice is een kosteloos kantoorpakket dat alles bevat wat nodig is om "
+"indrukwekkende documenten, rekenbladen en presentaties te maken. LibreOffice "
+"doet er alles aan om met andere kantoorsoftware te werken, en om zo "
+"compatibel mogelijk te zijn gebruikt het de OpenDocument-standaarden."
+
+#. type: Content of: <div><div><div><ul><li><p>
+#: slideshows/oem-config-ubuntu/slides/office.html:16
+msgid "LibreOffice"
+msgstr "LibreOffice"
+
+#. type: Content of: <div><div><div><ul><li><p>
+#: slideshows/oem-config-ubuntu/slides/office.html:20
+msgid "Tomboy Notes"
+msgstr "Tomboy notities"
+
+#. type: Content of: <div><h1>
+#: slideshows/oem-config-ubuntu/slides/photos.html:1
+msgid "Have fun with your photos"
+msgstr "Beleef plezier aan uw foto's"
+
+#. type: Content of: <div><div><div><p>
+#: slideshows/oem-config-ubuntu/slides/photos.html:8
+msgid ""
+"Shotwell is a handy photo manager that is ready for your gadgets. Connect a "
+"camera or a phone to transfer your photos, then it’s easy to share them and "
+"keep them safe. If you’re feeling creative, you can try lots of photo apps "
+"from the Ubuntu Software Center."
+msgstr ""
+"Shotwell is een handig fotobeheerprogramma, klaar voor al uw gadgets. Sluit "
+"een camera of telefoon aan om uw foto's over te zetten; zo kunt u ze "
+"eenvoudig delen en veilig bewaren. Als u een een creatieve bui bent kunt u "
+"een van de vele fototoepassingen die zich in het Ubuntu softwarecentrum "
+"bevinden uitproberen."
+
+#. type: Content of: <div><div><div><ul><li><p>
+#: slideshows/oem-config-ubuntu/slides/photos.html:16
+msgid "Shotwell Photo Manager"
+msgstr "Shotwell fotobeheer"
+
+#. type: Content of: <div><div><div><ul><li><p>
+#: slideshows/oem-config-ubuntu/slides/photos.html:23
+msgid "GIMP Image Editor"
+msgstr "GIMP Image Editor"
+
+#. type: Content of: <div><div><div><ul><li><p>
+#: slideshows/oem-config-ubuntu/slides/photos.html:27
+msgid "Pitivi Video Editor"
+msgstr "Pitivi videobewerker"
+
+#. type: Content of: <div><h1>
+#: slideshows/oem-config-ubuntu/slides/social.html:1
+msgid "Stay connected"
+msgstr "Verbonden blijven"
+
+#. type: Content of: <div><div><div><p>
+#: slideshows/oem-config-ubuntu/slides/social.html:8
+msgid ""
+"The Ubuntu Message Indicator gives you an eagle-eye view of incoming "
+"messages from all applications and social networks. See at a glance when "
+"there’s something new to read, regardless how it arrived."
+msgstr ""
+"De Ubuntu berichtenindiciator geeft u een overzicht van inkomende berichten "
+"van alle toepassingen en sociale netwerken. Zie in een oogopslag of er iets "
+"nieuw is, ongeacht hoe het binnenkomt."
+
+#. type: Content of: <div><div><div><h2>
+#: slideshows/oem-config-ubuntu/slides/social.html:12
+msgid "Supported services"
+msgstr "Ondersteunde diensten"
+
+#. type: Content of: <div><div><div><ul><li><p>
+#: slideshows/oem-config-ubuntu/slides/social.html:16
+msgid "Twitter"
+msgstr "Twitter"
+
+#. type: Content of: <div><div><div><ul><li><p>
+#: slideshows/oem-config-ubuntu/slides/social.html:20
+msgid "Facebook"
+msgstr "Facebook"
+
+#. type: Content of: <div><div><div><ul><li><p>
+#: slideshows/oem-config-ubuntu/slides/social.html:24
+msgid "Identi.ca"
+msgstr "Identi.ca"
+
+#. type: Content of: <div><h1>
+#: slideshows/oem-config-ubuntu/slides/usc.html:1
+msgid "Find even more software"
+msgstr "Ontdek nog meer software"
+
+#. type: Content of: <div><div><div><p>
+#: slideshows/oem-config-ubuntu/slides/usc.html:8
+msgid ""
+"The Ubuntu Software Center has thousands of new applications ready for your "
+"computer. Just type what you want or explore the categories like games, "
+"science, and education. It is easy to download new stuff and write reviews "
+"to share your experiences."
+msgstr ""
+"Het Ubuntu softwarecentrum heeft duizenden nieuwe toepassingen voor u klaar "
+"staan. Typ in wat u wilt, of verken categorieën zoals spelletjes, wetenschap "
+"en educatie. Het is eenvoudig nieuwe programma's te downloaden en "
+"beoordelingen te schrijven om uw ervaringen te delen."
+
+#. type: Content of: <div><h1>
+#: slideshows/oem-config-ubuntu/slides/welcome.html:1
+msgid "Welcome"
+msgstr "Welkom"
+
+#. type: Content of: <div><div><div><p>
+#: slideshows/oem-config-ubuntu/slides/welcome.html:8
+msgid ""
+"Thank you for choosing Ubuntu 11.10. This version brings some exciting "
+"changes including a totally redesigned desktop interface, Unity. While "
+"Ubuntu is configured, this slideshow will show you around."
+msgstr ""
+"Bedankt voor het kiezen van Ubuntu 11.10. Deze versie brengt een aantal "
+"interessante wijzigingen met zich mee, waaronder een geheel nieuwe "
+"bureaubladomgeving, Unity. Deze diavoorstelling zal u een rondleiding van de "
+"mogelijkheden geven, terwijl uw systeem geconfigureerd wordt."
+
+#~ msgid "Appearance preferences"
+#~ msgstr "Uiterlijk-voorkeuren"
+
+#~ msgid "Email and chat"
+#~ msgstr "E-mail en chatten"
+
+#~ msgid "Evolution Mail"
+#~ msgstr "Evolution e-mail"
+
+#~ msgid "Skype"
+#~ msgstr "Skype"
+
+#~ msgid "Social from the start"
+#~ msgstr "Sociaal vanaf het begin"
+
+#~ msgid "Mobilise your digital life"
+#~ msgstr "Mobiliseer uw digitale leven"
+
+#~ msgid "Write and present with ease"
+#~ msgstr "Gemakkelijk schrijven en presenteren"
+
+#~ msgid "Some of our favourites"
+#~ msgstr "Enkele van onze favorieten"
+
+#~ msgid ""
+#~ "The Me Menu is your instant connection to web services like Facebook and "
+#~ "Twitter. Just set up your accounts to log in and share with friends. "
+#~ "Anything sent to you appears in the Messaging Menu so you can reply when "
+#~ "you want."
+#~ msgstr ""
+#~ "Via het Me-menu kunt u direct verbinding maken met webdiensten zoals "
+#~ "Facebook en Twitter. Stel uw accounts in om u bij webdiensten aan te "
+#~ "melden en met vrienden te praten.  Alles wat naar u toegestuurd wordt, "
+#~ "verschijnt in het berichtenmenu zodat u kunt antwoorden wanneer het u "
+#~ "uitkomt."
+
+#~ msgid "Inkscape"
+#~ msgstr "Inkscape"
+
+#~ msgid "Stellarium"
+#~ msgstr "Stellarium"
+
+#~ msgid "Frozen Bubble"
+#~ msgstr "Frozen Bubble"
+
+#~ msgid ""
+#~ "At the heart of Ubuntu&#8217;s philosophy is a belief that computing is "
+#~ "for everyone. With advanced accessibility tools and many options like "
+#~ "your preferred fonts, colour schemes, and languages, Ubuntu is all about "
+#~ "working for real people."
+#~ msgstr ""
+#~ "De kern van de Ubuntu-filosofie is, dat computers er voor iedereen moeten "
+#~ "zijn. Uitgebreide toegankelijkheidshulpmiddelen en vele opties voor het "
+#~ "naar wens aanpassen van lettertypen, kleurenschema's en talen, maakt van "
+#~ "Ubuntu een systeem voor iedereen."
+
+#~ msgid ""
+#~ "Ubuntu includes Mozilla Firefox for fast, safe web browsing. You can also "
+#~ "choose alternative browsers from Ubuntu Software Center."
+#~ msgstr ""
+#~ "Ubuntu komt met Mozilla Firefox om snel en veilig te kunnen surfen. U "
+#~ "kunt ook andere browsers kiezen uit het Ubuntu softwarecentrum."
+
+#~ msgid "Empathy IM"
+#~ msgstr "Empathy chatprogramma"
+
+#~ msgid ""
+#~ "Shotwell is a handy photo manager that is ready for your gadgets. Connect "
+#~ "a camera or a phone to transfer your photos, then it&#8217;s easy to "
+#~ "share them and keep them safe. If you&#8217;re feeling creative, you can "
+#~ "try lots of photo apps from the Ubuntu Software Centre."
+#~ msgstr ""
+#~ "Shotwell is een handig fotobeheerprogramma dat klaar is voor al uw "
+#~ "gadgets. Sluit een camera of telefoon aan om uw foto's over te zetten,  "
+#~ "ze gemakkelijk  te delen en veilig te bewaren. Uit uw creativiteit met de "
+#~ "vele fotobewerkingsprogramma's beschikbaar in het Ubuntu softwarecentrum."
+
+#~ msgid ""
+#~ "The Messaging Menu has lots of features to make online communication "
+#~ "effortless. Chat helps you log in to all your instant messaging accounts "
+#~ "including MSN, Jabber, and Facebook. Your contacts appear in the same "
+#~ "place, ready for text or video chat."
+#~ msgstr ""
+#~ "Het berichtenmenu heeft vele functies om online communicatie moeiteloos "
+#~ "te laten verlopen. Via het chatprogramma kunt u al uw chat-accounts "
+#~ "gebruiken, zoals MSN, Jabber en Facebook. U vindt hier ook uw contacten, "
+#~ "klaar om tekst- of videogesprekken mee te voeren."
+
+#~ msgid "Thank you"
+#~ msgstr "Bedankt"
+
+#~ msgid ""
+#~ "Thanks again for choosing Ubuntu. Ubuntu is designed to be easy and safe, "
+#~ "so don&#8217;t hesitate to explore! If you have any questions, try the "
+#~ "Help menu in most applications or browse to <a href=\"http://www.ubuntu."
+#~ "com/support\">ubuntu.com/support</a> to explore your other options. We "
+#~ "hope you enjoy Ubuntu."
+#~ msgstr ""
+#~ "Nogmaals bedankt dat u heeft gekozen voor Ubuntu. Ubuntu is ontworpen om "
+#~ "veilig en toegankelijk te zijn, dus aarzel niet om op ontdekking te gaan. "
+#~ "Met eventuele vragen kunt u terecht in het hulpmenu  van de meeste "
+#~ "toepassingen, of ga naar <a href=\"http://www.ubuntu.com/support\">ubuntu."
+#~ "com/support</a> voor verdere ondersteuning.  We hopen dat u zult genieten "
+#~ "van  Ubuntu!"
+
+#~ msgid ""
+#~ "All Ubuntu users get a free <a href=\"https://one.ubuntu.com/\">Ubuntu "
+#~ "One</a> account. Ubuntu One allows you to sync all kinds of files online "
+#~ "so you can access them anywhere. Sync bookmarks, contacts, music, and "
+#~ "pictures across all your computers. Take everything everywhere with "
+#~ "Ubuntu One."
+#~ msgstr ""
+#~ "Alle Ubuntu-gebruikers krijgen een gratis <a href=\"https://one.ubuntu."
+#~ "com/\">Ubuntu One</a>-account. Ubuntu One gebruikt u om gegevens online "
+#~ "te synchroniseren, zodat u deze overal vandaan kunt bereiken. "
+#~ "Synchroniseer bladwijzers, contacten, muziek en afbeeldingen met al uw "
+#~ "computers. Neem alles overal mee met Ubuntu One."
+
+#~ msgid ""
+#~ "Thank you for choosing Ubuntu 11.04. This version brings some exciting "
+#~ "changes including a totally redesigned desktop interface, Unity. While "
+#~ "Ubuntu is configured, this slideshow will show you around."
+#~ msgstr ""
+#~ "Ubuntu biedt vele mogelijkheden die het gebruik van de computer aangenaam "
+#~ "maken. Deze uitgave introduceert de werkomgeving Unity; een nieuwe manier "
+#~ "om uw toepassingen te vinden en te beheren. Graag laten wij u enkele "
+#~ "handige functies van uw nieuwe besturingssysteem zien."
+
+#~ msgid ""
+#~ "The Ubuntu Software Centre has thousands of new applications ready for "
+#~ "your computer. Just type what you want or explore the categories like "
+#~ "games, science, and education. It is simple to download new stuff and "
+#~ "write reviews to share your experiences."
+#~ msgstr ""
+#~ "In het Ubuntu softwarecentrum vindt u duizenden beschikbare toepassingen "
+#~ "voor uw computer, klaar om te installeren. Zoek naar wat u wilt, of "
+#~ "blader door de categorieën als spelletjes, wetenschap en internet. Nieuwe "
+#~ "software downloaden is zeer eenvoudig, bovendien kunt u beoordelingen "
+#~ "schrijven om uw ervaringen te delen."
+
+#~ msgid ""
+#~ "LibreOffice is a free office suite packed with everything you&#8217;ll "
+#~ "need to create impressive documents, spreadsheets, and presentations. "
+#~ "LibreOffice tries its best to work with other office software, and it "
+#~ "uses the OpenDocument standards for far-reaching compatibility."
+#~ msgstr ""
+#~ "LibreOffice is een kosteloos kantoorpakket, met alle benodigdheden voor "
+#~ "het maken van indrukwekkende documenten, spreadsheets en presentaties. "
+#~ "LibreOffice probeert zo goed mogelijk compatibel te zijn met andere "
+#~ "kantoorpakketten middels de OpenDocument-standaard."
+
+#~ msgid ""
+#~ "Ubuntu comes with the amazing Banshee music player. With advanced "
+#~ "playback options and the Ubuntu One music store built in, it&#8217;s "
+#~ "simple to queue up the perfect songs. And it works great with CDs and "
+#~ "portable music players, so you can enjoy all your music wherever you go."
+#~ msgstr ""
+#~ "Ubuntu bevat de geweldige muziekspeler Banshee. De uitgebreide "
+#~ "afspeelmogelijkheden en de Ubuntu One muziekwinkel maken het eenvoudig om "
+#~ "de ideale muziekverzameling samen te stellen. Het kan tevens uitstekend "
+#~ "overweg met cd's en draagbare muziekspelers, dus u kunt genieten van al "
+#~ "uw muziek, waar u ook gaat."
