@@ -39,6 +39,7 @@ avidemux
 #b
 b43-fwcutter
 bash-completion
+blueman
 brasero
 baobab
 bcmwl-kernel-source
@@ -120,6 +121,7 @@ netcat
 nmap
 nouveau-firmware
 #o
+obexfs
 onboard
 #p
 p7zip-rar
