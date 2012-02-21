@@ -79,10 +79,12 @@ gksu
 gimp
 gnome-contacts
 gnome-dictionary
+gnome-disk-utility
 gnome-font-viewer
 gnome-online-accounts
 gnome-orca
 gnome-paint
+gnome-search-tool
 gnome-sudoku
 gnome-system-monitor
 gparted
@@ -136,6 +138,7 @@ rhythmbox
 rhythmbox-plugins
 #s
 samba-common
+samba-tools
 seahorse
 sflphone-client-gnome
 simplemag
