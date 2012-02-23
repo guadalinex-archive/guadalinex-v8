@@ -1,0 +1,25 @@
+Format: http://anonscm.debian.org/viewvc/dep/web/deps/dep5.mdwn?revision=174&view=co
+Upstream-Name: pdal 
+Upstream-Contact: David Amián Valle <damian@emergya.com>, Antonio Hernandez Díaz <ahernandez@emergya.com>
+Source: https://code.launchpad.net/~pdal-team/pdal/trunk
+
+Files: *
+Copyright: 2011 by Junta de Andalucía <packmaster@guadalinex.org>
+License: 
+ This program is free software; you can redistribute it
+ and/or modify it under the terms of the GNU General Public
+ License as published by the Free Software Foundation; either
+ version 2 of the License, or (at your option) any later
+ version.
+ .
+ This program is distributed in the hope that it will be
+ useful, but WITHOUT ANY WARRANTY; without even the implied
+ warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+ PURPOSE.  See the GNU General Public License for more
+ details.
+
+On Debian systems, the complete text of the GNU General
+Public License can be found in `/usr/share/common-licenses/GPL-2'.
+The Debian packaging is Copyright (C) 2011, David Amian Valle 
+<damian@emergya.com> and Juanje Ojeda <jojeda@emergya.es> and
+is licensed under the GPL-2, see `/usr/share/common-licenses/GPL-2'.

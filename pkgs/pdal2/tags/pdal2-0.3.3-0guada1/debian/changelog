@@ -1,0 +1,48 @@
+pdal2 (0.3.3-0guada1) oneiric; urgency=low
+
+  * Fixed status bar
+
+ -- Álvaro Pinel <apinel@emergya.com>  Thu, 23 Feb 2012 10:40:51 +0000
+
+pdal2 (0.3.2-1ubuntu2guada1) oneiric; urgency=low
+
+  * Imported to Guadalinex v8
+
+ -- Álvaro Pinel <apinel@emergya.com>  Wed, 14 Dec 2011 17:54:08 +0000
+
+pdal2 (0.3.2-1ubuntu2) oneiric; urgency=low
+
+  * Updated depends
+
+ -- David Amian <damian@emergya.com>  Tue, 13 Dec 2011 18:32:16 +0100
+
+pdal2 (0.3.2-1ubuntu1) oneiric; urgency=low
+
+  * Updated upstream code 
+
+ -- David Amian <damian@emergya.com>  Wed, 07 Dec 2011 18:29:19 +0100
+
+pdal2 (0.3.1-1ubuntu1) oneiric; urgency=low
+
+  * Updated upstream code 
+
+ -- David Amian <damian@emergya.com>  Wed, 26 Oct 2011 18:43:41 +0200
+
+pdal2 (0.2-1ubuntu2) oneiric; urgency=low
+
+  * Renamed package
+
+ -- David Amian <damian@emergya.com>  Mon, 24 Oct 2011 17:36:50 +0200
+
+pdal (0.2-1ubuntu1) oneiric; urgency=low
+
+  * Merged from unstable
+
+ -- David Amian <damian@emergya.com>  Mon, 24 Oct 2011 12:11:20 +0200
+
+pdal (0.2-1) unstable; urgency=low
+
+  * First debianized 
+
+ -- David Amian <damian@emergya.com>  Mon, 24 Oct 2011 12:10:22 +0200
+

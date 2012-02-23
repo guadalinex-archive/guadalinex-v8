@@ -1,0 +1,22 @@
+Source: pdal2
+Section: utils
+Priority: optional
+XSBC-Original-Maintainer: Junta de Andalucía <packmaster@guadalinex.org>
+Maintainer: David Amián Valle <damian@emergya.com>
+Uploaders: David Amián Valle <damian@emergya.com>,
+           Antonio Hernandez Díaz <ahernandez@emergya.com>,
+           Roberto C. Morano <rcmorano@emergya.es>,
+           Álvaro Pinel <apinel@emergya.com>
+Build-Depends: debhelper (>= 7), cdbs (>=0.4.43), python-all-dev (>=2.3.5-11), python-support
+Build-Depends-Indep: python-central (>=0.5.6), gettext, python-distutils-extra
+Standards-Version: 3.9.2
+Homepage: http://launchpad.net/pdal
+Vcs-Browser: http://codebrowse.launchpad.net/~pdal-team/pdal/trunk/changes
+Vcs-Bzr: http://bazaar.launchpad.net/~pdal-team/pdal/trunk
+XS-Python-Version: current
+
+Package: pdal2
+Architecture: all
+Depends: ${misc:Depends}, python (>=2.6), gir1.2-notify-0.7, udev, gir1.2-gudev-1.0, python-dbus
+Description: Pluggable Device Action Launcher (PDAL)
+ PDAL - An easy-for-everybody way to run scripts when you plug or unplug a device.
