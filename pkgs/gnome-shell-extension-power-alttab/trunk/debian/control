@@ -1,4 +1,4 @@
-Source: gnome-shell-extension-power-altTab
+Source: gnome-shell-extension-power-alttab
 Section: utils
 Priority: optional
 Maintainer: Guadalinex Team <packmaster@guadalinex.org>
@@ -7,7 +7,7 @@ Build-Depends: cdbs (>= 0.4.90), debhelper (>= 7), quilt (>=0.48)
 Standards-Version: 3.9.2
 Homepage: https://github.com/emerinohdz/PowerAltTab
 
-Package: gnome-shell-extension-power-altTab
+Package: gnome-shell-extension-power-alttab
 Architecture: all
 Depends: ${shlibs:Depends}, ${misc:Depends}, gnome-shell
 Description: gnome-shell extension that provides old alt-tab behavior.
