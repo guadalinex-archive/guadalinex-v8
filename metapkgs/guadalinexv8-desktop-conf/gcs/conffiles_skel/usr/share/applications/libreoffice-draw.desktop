@@ -1,7 +1,7 @@
 [Desktop Entry]
 Version=1.0
 Terminal=false
-Icon=libreoffice34-draw
+Icon=libreoffice-draw
 Type=Application
 Categories=Office;Graphics;
 Exec=libreoffice --draw %U

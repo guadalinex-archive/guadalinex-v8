@@ -1,7 +1,7 @@
 [Desktop Entry]
 Version=1.0
 Terminal=false
-Icon=libreoffice34-writer
+Icon=libreoffice-writer
 Type=Application
 Categories=Office;
 Exec=libreoffice --writer %U

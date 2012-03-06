@@ -1,7 +1,7 @@
 [Desktop Entry]
 Version=1.0
 Terminal=false
-Icon=libreoffice34-math
+Icon=libreoffice-math
 Type=Application
 Categories=Office;
 Exec=libreoffice --math %U
