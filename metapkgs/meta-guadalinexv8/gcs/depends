@@ -165,6 +165,7 @@ usb-creator-gtk
 #v
 vim
 vlc
+vlc-plugin-pulse
 #w
 watermain
 wine
