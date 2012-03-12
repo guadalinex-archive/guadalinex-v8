@@ -1,0 +1,27 @@
+# YAML 1.1
+# Fichero de configuración de paquetes de personalización de Guadalinex v6
+
+# Nombre del paquete (minúsculas-separado-con-guiones)
+name: guadalinexv8-update-conf
+
+# Autor 
+author: Álvaro Pinel <apinel@emergya.com>
+
+# Priority
+priority: optional
+
+# Section
+section: metapackages
+
+# Descripción corta
+shortdesc: "Metapackage for new release configuration"
+
+# Descipción larga, las lineas han de estar separadas por "\n "
+longdesc: "Metapackage that configures Guadalinex v8 for a new release"
+
+# Versión del paquete
+version: v8
+
+# Cambios en esta versión
+changes:
+    - Initial release
