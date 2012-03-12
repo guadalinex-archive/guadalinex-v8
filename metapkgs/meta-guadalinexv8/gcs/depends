@@ -33,6 +33,7 @@ guadalinexv8-thunderbird-conf
 
 ##APPS
 #a
+apt-xapian-index
 audacity
 at-spi2-core
 avidemux
@@ -161,6 +162,7 @@ thunderbird-locale-es-es
 tree
 #u
 unpaper
+update-notifier
 usb-creator-gtk
 #v
 vim
