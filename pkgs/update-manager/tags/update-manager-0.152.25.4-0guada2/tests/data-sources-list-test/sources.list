@@ -1,0 +1,7 @@
+
+# main repo
+deb http://ports.ubuntu.com/ubuntu-ports/ hardy main restricted multiverse universe
+deb http://ports.ubuntu.com/ubuntu-ports/ hardy main restricted multiverse
+deb-src http://archive.ubuntu.com/ubuntu/ hardy main restricted multiverse
+
+deb http://ports.ubuntu.com/ubuntu-ports/ hardy-security main restricted universe multiverse

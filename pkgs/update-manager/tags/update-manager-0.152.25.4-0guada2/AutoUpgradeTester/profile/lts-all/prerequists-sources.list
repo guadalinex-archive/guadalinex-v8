@@ -1,0 +1,5 @@
+# sources.list fragment for pre-requists (one with countrymirror, one fallback)
+deb http://archive.ubuntu.com/ubuntu dapper-backports main/debian-installer
+#deb http://archive.ubuntu.com/ubuntu feisty-backports main/debian-installer
+# below is just for testing
+#deb http://archive.dogfood.launchpad.net/ubuntu feisty-backports main/debian-installer

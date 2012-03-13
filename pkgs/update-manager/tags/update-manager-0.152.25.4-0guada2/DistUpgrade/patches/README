@@ -1,0 +1,17 @@
+This dir can be used to drop *ed* script as patches (we can not use
+patch as its not part of the default install) to fixup stuff that is
+problematic during the upgrade (like doc-base and
+/usr/sbin/install-docs).
+
+The files have the format _path_to_binary.orig_md5sum.result_md5sum
+
+The upgrader will check for binaries with the matching md5sum and
+apply the patches if the md5sum is correct (first --dry-run to 
+ensure it applies cleanly).
+
+Caveats:
+- it does *not* do binary patching
+- the md5sum calculation in python is not efficient, so do
+  *not* patch huge files
+- the ed implementation is in python and reads the full file
+  into memory so only use it for smallish files

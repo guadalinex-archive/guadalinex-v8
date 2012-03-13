@@ -1,0 +1,4 @@
+var/cache/auto-upgrade-tester
+usr/bin
+etc/default
+etc/init

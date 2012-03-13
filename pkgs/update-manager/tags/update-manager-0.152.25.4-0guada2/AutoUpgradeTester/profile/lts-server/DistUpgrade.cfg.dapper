@@ -1,0 +1,53 @@
+[View]
+#View=DistUpgradeViewGtk
+View=DistUpgradeViewNonInteractive
+Depends=python-gnupginterface
+
+# Distro contains global information about the upgrade
+[Distro]
+# the meta-pkgs we support
+MetaPkgs=ubuntu-standard
+BaseMetaPkgs=ubuntu-minimal
+Demotions=demotions.cfg
+RemoveEssentialOk=sysvinit
+AllowUnauthenticated=yes
+
+[Files]
+BackupExt=distUpgrade
+
+[ubuntu-standard]
+KeyDependencies=w3m, wget
+
+[Sources]
+From=dapper
+To=hardy
+ValidOrigin=Ubuntu
+ValidMirrors = mirrors.cfg
+
+[Network]
+MaxRetries=3
+
+[PreRequists]
+Packages=release-upgrader-apt,release-upgrader-dpkg
+SourcesList=prerequists-sources.dapper.list
+SourcesList-ia64=prerequists-sources.dapper-ports.list
+SourcesList-hppa=prerequists-sources.dapper-ports.list
+
+[NonInteractive]
+ProfileName=server
+BasePkg = ubuntu-standard
+AdditionalPkgs = pkgs.cfg
+Mirror = http://archive.ubuntu.com/ubuntu
+Proxy=http://192.168.1.1:3128/
+ForceOverwrite=no
+SSHKey=ssh-key
+BaseImage=jeos/dapper-i386.qcow2
+SwapImage=jeos/swap.qcow2
+Components=main,restricted
+Pockets=security,updates
+UpgradeFromDistOnBoostrap=true
+CacheBaseImage=yes
+RealReboot=yes
+; WARNING: if AddRepo is used, remember to set Distro/AllowUnauthenticted too
+;AddRepo=local_testing.list
+;PreRequistsFiles=backports/release-upgrader-apt_0.7.9ubuntu1_i386.udeb, backports/release-upgrader-dpkg_1.14.5ubuntu11.6_i386.udeb

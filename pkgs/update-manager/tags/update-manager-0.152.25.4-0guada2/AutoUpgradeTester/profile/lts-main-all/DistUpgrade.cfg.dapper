@@ -1,0 +1,65 @@
+[View]
+#View=DistUpgradeViewGtk
+View=DistUpgradeViewNonInteractive
+
+# Distro contains global information about the upgrade
+[Distro]
+# the meta-pkgs we support
+MetaPkgs=ubuntu-desktop, kubuntu-desktop, edubuntu-desktop, xubuntu-desktop
+BaseMetaPkgs=ubuntu-minimal, ubuntu-standard
+PostUpgradePurge=xorg-common, libgl1-mesa
+Demotions=demoted.cfg
+RemoveEssentialOk=sysvinit
+RemovalBlacklistFile=removal_blacklist.cfg
+
+# information about the individual meta-pkgs
+[ubuntu-desktop]
+KeyDependencies=gdm, gnome-panel, ubuntu-artwork
+# those pkgs will be marked remove right after the distUpgrade in the cache
+PostUpgradeRemove=xchat, xscreensaver
+
+[kubuntu-desktop]
+KeyDependencies=kdm, kicker, kubuntu-artwork-usplash
+# those packages are marked as obsolete right after the upgrade
+ForcedObsoletes=ivman
+
+[edubuntu-desktop]
+KeyDependencies=edubuntu-artwork, tuxpaint
+
+[xubuntu-desktop]
+KeyDependencies=xubuntu-artwork-usplash, xubuntu-default-settings, xfce4
+
+
+[Files]
+BackupExt=distUpgrade
+
+[Sources]
+From=dapper
+To=hardy
+ValidOrigin=Ubuntu
+ValidMirrors = mirrors.cfg
+
+[Network]
+MaxRetries=3
+
+[PreRequists]
+Packages=release-upgrader-apt,release-upgrader-dpkg
+SourcesList=prerequists-sources.list
+
+[NonInteractive]
+ProfileName = main-all
+BasePkg = ubuntu-standard
+AdditionalPkgs = pkgs.cfg
+Mirror = http://archive.ubuntu.com/ubuntu
+Proxy=http://192.168.1.1:3128/
+ForceOverwrite=yes
+CacheTarball=yes
+PostBootstrapScript=install_all.py
+Components=main,restricted
+Pockets=security,updates
+BaseImage=jeos/dapper-i386.qcow2
+CacheBaseImage=yes
+SwapImage=jeos/swap.qcow2
+UpgradeFromDistOnBootstrap=true
+SSHKey=ssh-key
+ReadReboot=yes

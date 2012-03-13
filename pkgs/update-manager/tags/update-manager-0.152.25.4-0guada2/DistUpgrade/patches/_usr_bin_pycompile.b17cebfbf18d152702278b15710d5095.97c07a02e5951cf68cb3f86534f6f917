@@ -1,0 +1,80 @@
+278a
+        if process.returncode not in (None, 0):
+            rv = process.returncode
+    sys.exit(rv)
+.
+276a
+    rv = 0
+.
+271c
+            compile(files, versions,
+                    options.force, options.optimize, e_patterns)
+.
+265c
+        compile(files, versions,
+                options.force, options.optimize, e_patterns)
+.
+258c
+                compile(files, compile_versions, options.force,
+                        options.optimize, e_patterns)
+.
+238c
+    if options.vrange and options.vrange[0] == options.vrange[1] and\
+       options.vrange != (None, None) and\
+       exists("/usr/bin/python%d.%d" % options.vrange[0]):
+        # specific version requested, use it even if it's not in SUPPORTED
+        versions = set(options.vrange[:1])
+    else:
+        versions = get_requested_versions(options.vrange, available=True)
+.
+207a
+    parser.add_option('-f', '--force', action='store_true', dest='force',
+        default=False, help='force rebuild even if timestamps are up-to-date')
+    parser.add_option('-O', action='store_true', dest='optimize',
+        default=False, help="byte-compile to .pyo files")
+.
+194c
+            try:
+                pipe = STDINS[version]
+            except KeyError:
+                # `pycompile /usr/lib/` invoked, add missing worker
+                pipe = py_compile(version, optimize, WORKERS)
+                pipe.next()
+                STDINS[version] = pipe
+.
+191,192c
+        cfn = fn + 'c' if (__debug__ or not optimize) else 'o'
+        if exists(cfn) and not force:
+            ftime = os.stat(fn).st_mtime
+            try:
+                ctime = os.stat(cfn).st_mtime
+            except os.error:
+                ctime = 0
+            if (ctime > ftime):
+                continue
+.
+185c
+            coroutine = py_compile(version, optimize, WORKERS)
+.
+180c
+def compile(files, versions, force, optimize, e_patterns=None):
+.
+170c
+    cmd = "python%s%s -m py_compile -" \
+        % (version, '' if (__debug__ or not optimize) else ' -O')
+.
+167c
+def py_compile(version, optimize, workers):
+.
+31c
+from subprocess import PIPE, STDOUT, Popen
+.
+27a
+import os
+.
+5a
+# Copyright © 2010 Canonical Ltd
+.
+2c
+# -*- coding: utf-8 -*-
+.

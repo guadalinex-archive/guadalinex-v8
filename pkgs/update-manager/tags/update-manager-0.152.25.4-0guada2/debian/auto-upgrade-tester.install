@@ -1,0 +1,8 @@
+# normal binaries et all
+debian/tmp/usr/lib/python*/*-packages/AutoUpgradeTester
+debian/tmp/usr/bin/auto-upgrade-tester
+debian/tmp/usr/share/auto-upgrade-tester
+# the jenkins stuff
+AutoUpgradeTester/auto-upgrade-tester-jenkins-slave usr/bin
+AutoUpgradeTester/jenkins/auto-upgrade-tester-jenkins-slave etc/default
+AutoUpgradeTester/jenkins/auto-upgrade-tester-jenkins-slave.conf etc/init/

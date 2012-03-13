@@ -1,0 +1,2684 @@
+# Uighur translation for update-manager
+# Copyright (c) 2008 Rosetta Contributors and Canonical Ltd 2008
+# This file is distributed under the same license as the update-manager package.
+# Gheyret T.Kenji <gheyret@gmail.com>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: update-manager\n"
+"Report-Msgid-Bugs-To: sebastian.heinlein@web.de\n"
+"POT-Creation-Date: 2011-10-18 03:11+0000\n"
+"PO-Revision-Date: 2011-09-26 23:04+0000\n"
+"Last-Translator: Gheyret T.Kenji <Unknown>\n"
+"Language-Team: Uyghur Computer Science Association <UKIJ@yahoogroups.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Launchpad-Export-Date: 2011-10-18 14:53+0000\n"
+"X-Generator: Launchpad (build 14157)\n"
+
+#. TRANSLATORS: download size is 0
+#: ../DistUpgrade/utils.py:416 ../UpdateManager/Core/utils.py:416
+msgid "0 kB"
+msgstr "0 kB"
+
+#. TRANSLATORS: download size of very small updates
+#: ../DistUpgrade/utils.py:419 ../UpdateManager/Core/utils.py:419
+msgid "1 kB"
+msgstr "1 kB"
+
+#. TRANSLATORS: download size of small updates, e.g. "250 kB"
+#: ../DistUpgrade/utils.py:422 ../UpdateManager/Core/utils.py:422
+#, python-format
+msgid "%.0f kB"
+msgstr "%.0f kB"
+
+#. TRANSLATORS: download size of updates, e.g. "2.3 MB"
+#: ../DistUpgrade/utils.py:425 ../UpdateManager/Core/utils.py:425
+#, python-format
+msgid "%.1f MB"
+msgstr "%.1f MB"
+
+#. TRANSLATORS: %s is a country
+#: ../DistUpgrade/distro.py:210 ../DistUpgrade/distro.py:438
+#, python-format
+msgid "Server for %s"
+msgstr "%s نىڭ مۇلازىمېتىرى"
+
+#. More than one server is used. Since we don't handle this case
+#. in the user interface we set "custom servers" to true and
+#. append a list of all used servers
+#: ../DistUpgrade/distro.py:228 ../DistUpgrade/distro.py:234
+#: ../DistUpgrade/distro.py:250
+msgid "Main server"
+msgstr "ئاساسى مۇلازىمېتىر"
+
+#: ../DistUpgrade/distro.py:254
+msgid "Custom servers"
+msgstr "ئىختىيارىچە مۇلازىمېتىرلار"
+
+#: ../DistUpgrade/DistUpgradeAptCdrom.py:141
+msgid "Could not calculate sources.list entry"
+msgstr "sources.list  دىكى مەزمۇنلارنى ھېسابلىغىلى بولمىدى"
+
+#: ../DistUpgrade/DistUpgradeAptCdrom.py:244
+msgid ""
+"Unable to locate any package files, perhaps this is not a Ubuntu Disc or the "
+"wrong architecture?"
+msgstr ""
+"بوغچا ھۆججىتى يوقكەن. قارىغاندا بۇ Ubuntu دىسكىسى ئەمەس ئوخشايدۇ، ياكى نەشرى "
+"خاتا ئوخشايدۇ."
+
+#: ../DistUpgrade/DistUpgradeAptCdrom.py:287
+msgid "Failed to add the CD"
+msgstr "CDنى قوشۇش مەغلۇپ بولدى."
+
+#: ../DistUpgrade/DistUpgradeAptCdrom.py:288
+#, python-format
+msgid ""
+"There was a error adding the CD, the upgrade will abort. Please report this "
+"as a bug if this is a valid Ubuntu CD.\n"
+"\n"
+"The error message was:\n"
+"'%s'"
+msgstr ""
+"CD قوشۇۋاتقانلا خاتالىق كۆرۈلدى. upgrade قىلىش توختىتىلىدۇ. ئەگەر بۇ CD "
+"رەسمىي Ubuntu نىڭ CD بولسا، بۇنى كەمتۈك مەلۇماتى قىلىپ يوللاڭ\n"
+"\n"
+"خاتالىق تۆۋەندىكىچە:\n"
+"\n"
+"'%s'"
+
+#: ../DistUpgrade/DistUpgradeCache.py:138
+msgid "Remove package in bad state"
+msgid_plural "Remove packages in bad state"
+msgstr[0] "بۇزۇلغان بوغچىلارنى ئۆچۈر"
+
+#: ../DistUpgrade/DistUpgradeCache.py:141
+#, python-format
+msgid ""
+"The package '%s' is in an inconsistent state and needs to be reinstalled, "
+"but no archive can be found for it. Do you want to remove this package now "
+"to continue?"
+msgid_plural ""
+"The packages '%s' are in an inconsistent state and need to be reinstalled, "
+"but no archives can be found for them. Do you want to remove these packages "
+"now to continue?"
+msgstr[0] ""
+"بوغچا '%s' (لار)  زىددىيەتلىك ھالەتتە ئىكەن، قايتا ئورنىتىش زۆرۈر ئىكەن. "
+"بىراق ئۇنىڭ ئارخىپى تېپىلمىدى. بۇ بولاق(لار)نى ئۆچۈرۈپ مەشغۇلاتنى "
+"داۋاملاشتۇرامسىز؟"
+
+#. FIXME: not ideal error message, but we just reuse a
+#. existing one here to avoid a new string
+#: ../DistUpgrade/DistUpgradeCache.py:239
+msgid "The server may be overloaded"
+msgstr "مۇلازىمېتىرنىڭ يۈكى ئېشىپ كەتكەندەك قىلىدۇ."
+
+#: ../DistUpgrade/DistUpgradeCache.py:352
+msgid "Broken packages"
+msgstr "بۇزۇلغان بوغچىلار"
+
+#: ../DistUpgrade/DistUpgradeCache.py:353
+msgid ""
+"Your system contains broken packages that couldn't be fixed with this "
+"software. Please fix them first using synaptic or apt-get before proceeding."
+msgstr ""
+"سىستېمىڭىزدا بۇ پروگرامما بىلەن تۈزەتكىلى بولمايدىغان بۇزۇلغان بوغچىلار بار "
+"ئىكەن. مەشغۇلاتنى داۋام قىلىشتىن ئاۋۋال بۇ مەسىلىنى synaptic ياكى apt-get نى "
+"ئىشلىتىپ تۈزىتىڭ."
+
+#. FIXME: change the text to something more useful
+#: ../DistUpgrade/DistUpgradeCache.py:648
+#, python-format
+msgid ""
+"An unresolvable problem occurred while calculating the upgrade:\n"
+"%s\n"
+"\n"
+" This can be caused by:\n"
+" * Upgrading to a pre-release version of Ubuntu\n"
+" * Running the current pre-release version of Ubuntu\n"
+" * Unofficial software packages not provided by Ubuntu\n"
+"\n"
+msgstr ""
+"upgrade نى ھېسابلاۋاتقاندا ھەل قىلغىلى بولمايدىغان مەسىلە كۆرۈلدى:\n"
+"%s\n"
+"\n"
+" بۇ تۆۋەندىكى سەۋەبلەردىن بولۇشى مۇمكىن:\n"
+" * Ubuntu نىڭ pre-release نى ئورنىتىش\n"
+" * Ubuntu نىڭ pre-release نى ئىجرا قىلىش\n"
+" * Ubuntu تەمىنلىمىگەن يۇمشاق دېتال بوغچىسىنى ئىشلىتىش\n"
+"\n"
+
+#: ../DistUpgrade/DistUpgradeCache.py:658
+msgid "This is most likely a transient problem, please try again later."
+msgstr "بۇ ۋاقىتلىق مەسىلىدەك قىلىدۇ، كېيىن يەنە قايتا سىناپ كۆرۈڭ."
+
+#: ../DistUpgrade/DistUpgradeCache.py:661
+msgid ""
+"If none of this applies, then please report this bug using the command "
+"'ubuntu-bug update-manager' in a terminal."
+msgstr ""
+"ھېچقايسى ئىشلىمىسە، تېرمىنالدا تۇرۇپ ‹ubuntu-bug update-manager› بۇيرۇقىنى "
+"ئىشلىتىپ كەمتۈك مەلۇم قىلىڭ."
+
+#: ../DistUpgrade/DistUpgradeCache.py:666
+#: ../UpdateManager/UpdateManager.py:1023
+msgid "Could not calculate the upgrade"
+msgstr "يېڭىلاشنى ھېسابلاش مەغلۇپ بولدى"
+
+#: ../DistUpgrade/DistUpgradeCache.py:717
+msgid "Error authenticating some packages"
+msgstr "بەزى بوغچىلارنى دەلىللەشتە خاتالىق كۆرۈلدى."
+
+#: ../DistUpgrade/DistUpgradeCache.py:718
+msgid ""
+"It was not possible to authenticate some packages. This may be a transient "
+"network problem. You may want to try again later. See below for a list of "
+"unauthenticated packages."
+msgstr ""
+"بىر قىسىم بوغچىلارنى دەلىللىگىلى بولمىدى. بۇ ۋاقىتلىق مەسىلە. كېيىن يەنە "
+"سىناپ كۆرسىڭىز بولىدۇ. دەلىللەش  مۇمكىن بولمىغان بولاقلار تۆۋەندىكىچە:"
+
+#: ../DistUpgrade/DistUpgradeCache.py:738
+#, python-format
+msgid ""
+"The package '%s' is marked for removal but it is in the removal blacklist."
+msgstr ""
+"بوغچا '%s' غا ئۆچۈرۈش بەلگىسى قويۇلۇپتۇ، بىراق ئۇ ئۆچۈرۈش قارا تىزىملىكىدە "
+"بار ئىكەن."
+
+#: ../DistUpgrade/DistUpgradeCache.py:742
+#, python-format
+msgid "The essential package '%s' is marked for removal."
+msgstr "زۆرۈر بولغان '%s' بوغچىغا ئۆچۈرۈش بەلگىسى قويۇلۇپتۇ."
+
+#: ../DistUpgrade/DistUpgradeCache.py:751
+#, python-format
+msgid "Trying to install blacklisted version '%s'"
+msgstr "قارا تىزىملىكتىكى نەشرى '%s' نى ئورناتماقچى بولۇۋاتىدۇ"
+
+#: ../DistUpgrade/DistUpgradeCache.py:869
+#, python-format
+msgid "Can't install '%s'"
+msgstr "'%s' نى قاچىلىيالمىدى"
+
+#: ../DistUpgrade/DistUpgradeCache.py:870
+msgid ""
+"It was impossible to install a required package. Please report this as a bug "
+"using 'ubuntu-bug update-manager' in a terminal."
+msgstr ""
+"تەلەپ قىلىنغان بوغچىنى ئورناتقىلى بولمىدى. تېرمىنالدا «ubuntu-bug update-"
+"manager» بۇيرۇقىنى ئىجرا قىلىپ، كەمتۈك مەلۇماتى يوللاڭ."
+
+#. FIXME: provide a list
+#: ../DistUpgrade/DistUpgradeCache.py:881
+msgid "Can't guess meta-package"
+msgstr "meta بوغچىلارنى قىياس قىلغىلى بولمىدى"
+
+#: ../DistUpgrade/DistUpgradeCache.py:882
+msgid ""
+"Your system does not contain a ubuntu-desktop, kubuntu-desktop, xubuntu-"
+"desktop or edubuntu-desktop package and it was not possible to detect which "
+"version of Ubuntu you are running.\n"
+" Please install one of the packages above first using synaptic or apt-get "
+"before proceeding."
+msgstr ""
+"سىستېمىڭىزدا ubuntu-desktop، kubuntu-desktop، xubuntu-desktop ياكى edubuntu-"
+"desktop بوغچىلىرى يوق ئىكەن ھەم Ubuntu  نىڭ قايسى نەشرى ئىكەنلىكىنىمۇ "
+"بىلگىلى بولمىدى.\n"
+"synaptic ياكى  apt-get نى ئىشلىتىپ يۇقىرىقىلارنىڭ بىرەرىنىڭ بوغچىلىرىنى "
+"ئورنىتىپ مەشغۇلاتنى داۋاملاشتۇرۇڭ."
+
+#: ../DistUpgrade/DistUpgradeController.py:100
+msgid "Reading cache"
+msgstr "غەملەكنى ئوقۇۋاتىدۇ"
+
+#: ../DistUpgrade/DistUpgradeController.py:205
+msgid "Unable to get exclusive lock"
+msgstr "باشقىلارنى چەتكە قاقىدىغان قۇلۇپقا ئېرىشەلمىدى"
+
+#: ../DistUpgrade/DistUpgradeController.py:206
+msgid ""
+"This usually means that another package management application (like apt-get "
+"or aptitude) already running. Please close that application first."
+msgstr ""
+"بۇ باشقا بىر بوغچا باشقۇرۇش پروگراممىسى(apt-get ياكى aptitude)نىڭ ئىجرا "
+"بولۇۋاتقانلىقىدىن دېرەك بېرىدۇ. ئاۋۋال شۇنى ئاخىرلاشتۇرۇڭ."
+
+#: ../DistUpgrade/DistUpgradeController.py:239
+msgid "Upgrading over remote connection not supported"
+msgstr "يىراقتىن باغلىنىپ يېڭىلاشنى قوللىمايدۇ"
+
+#: ../DistUpgrade/DistUpgradeController.py:240
+msgid ""
+"You are running the upgrade over a remote ssh connection with a frontend "
+"that does not support this. Please try a text mode upgrade with 'do-release-"
+"upgrade'.\n"
+"\n"
+"The upgrade will abort now. Please try without ssh."
+msgstr ""
+"ssh باغلىنىشى ئارقىلىق upgrade قىلىۋېتىپسىز بىراق، بۇ پروگرامما ssh "
+"باغلىنىشىنى قوللىمايدۇ. تېكىست ھالەتتە(تېرمىنالدا) 'do-release-upgrade' نى "
+"ئىجرا قىلىڭ.\n"
+"\n"
+"upgrade ھازىر ئەمەلدىن قالدۇرىدۇ. ssh نى ئىشلەتمەي سىناپ كۆرۈڭ."
+
+#: ../DistUpgrade/DistUpgradeController.py:254
+msgid "Continue running under SSH?"
+msgstr "SSH نى ئىشلىتىپ ئىجرا قىلىۋاتىدۇ، داۋاملاشتۇرامسىز؟"
+
+#: ../DistUpgrade/DistUpgradeController.py:255
+#, python-format
+msgid ""
+"This session appears to be running under ssh. It is not recommended to "
+"perform a upgrade over ssh currently because in case of failure it is harder "
+"to recover.\n"
+"\n"
+"If you continue, an additional ssh daemon will be started at port '%s'.\n"
+"Do you want to continue?"
+msgstr ""
+"بۇ session ssh نى ئىشلىتىپ ئىجرا قىلىنىۋېتىپتۇ. upgrade  مەشغۇلاتىنى ssh نى "
+"ئىسلىتىپ ئېلىپ بېرىش تەۋسىيە قىلىنمايدۇ. چۈنكى خاتالىق چىقىپ قالسا ئەسلىگە "
+"كەلتۈرمەك قىيىن.\n"
+"\n"
+"ئەگەر داۋاملاشتۇرۇلسا، باشقا بىر ssh daemon نى '%s' نومۇرلۇق ئېغىزدا ئىجرا "
+"قىلىنىدۇ.\n"
+"داۋاملاشتۇرامسىز؟"
+
+#: ../DistUpgrade/DistUpgradeController.py:269
+msgid "Starting additional sshd"
+msgstr "باشقا بىر ssh daemon نى قوزغىلىۋاتىدۇ."
+
+#: ../DistUpgrade/DistUpgradeController.py:270
+#, python-format
+msgid ""
+"To make recovery in case of failure easier, an additional sshd will be "
+"started on port '%s'. If anything goes wrong with the running ssh you can "
+"still connect to the additional one.\n"
+msgstr ""
+"خاتالىق چىققاندا ئەسلىگە كەلتۈرۈشكە ئوڭاي بولسۇن ئۈچۈن، باشقا بىر sshd '%s' "
+"نومۇرلۇق ئېغىزدا قوزغىتىلىدۇ. ھازىرقى ئىجرا بولۇۋاتقان ssh دا خاتالىق "
+"كۆرۈلسىمۇ بۇ يېڭى قوشۇلغان ssh غا باغلىنىپ مەشغۇلاتنى داۋاملاشتۇرغىلى "
+"بولىدۇ.\n"
+
+#: ../DistUpgrade/DistUpgradeController.py:278
+#, python-format
+msgid ""
+"If you run a firewall, you may need to temporarily open this port. As this "
+"is potentially dangerous it's not done automatically. You can open the port "
+"with e.g.:\n"
+"'%s'"
+msgstr ""
+"ئەگەر سىز توساقتام(firewall) نى ئىجرا قىلىۋاتقان بولسىڭىز، ۋاقتىنچە بۇ "
+"ئېغىزنى ئېچىۋېتىشىڭىز كېرەك. بۇ خەتەرلىك بولغاچقا ئاپتوماتىك قىلغىلى "
+"بولمايدۇ. تۆۋەندىكىدەك قىلسىڭىز بۇ ئېغىزنى ئېچىۋېتەلەيسىز:\n"
+"«%s»"
+
+#: ../DistUpgrade/DistUpgradeController.py:349
+#: ../DistUpgrade/DistUpgradeController.py:394
+msgid "Can not upgrade"
+msgstr "يېڭىلىغىلى بولمايدۇ"
+
+#: ../DistUpgrade/DistUpgradeController.py:350
+#, python-format
+msgid "An upgrade from '%s' to '%s' is not supported with this tool."
+msgstr "بۇ قورال %s' دىن '%s' غا upgrade قىلىشنى قوللىمايدۇ."
+
+#: ../DistUpgrade/DistUpgradeController.py:359
+msgid "Sandbox setup failed"
+msgstr "Sandbox  مۇھىتىنى تەڭشەش مەغلۇپ بولدى"
+
+#: ../DistUpgrade/DistUpgradeController.py:360
+msgid "It was not possible to create the sandbox environment."
+msgstr "Sandbox  مۇھىتىنى قۇرۇش مۇمكىن بولمىدى"
+
+#: ../DistUpgrade/DistUpgradeController.py:366
+msgid "Sandbox mode"
+msgstr "Sandbox  ھالىتى"
+
+#: ../DistUpgrade/DistUpgradeController.py:367
+#, python-format
+msgid ""
+"This upgrade is running in sandbox (test) mode. All changes are written to "
+"'%s' and will be lost on the next reboot.\n"
+"\n"
+"*No* changes written to a systemdir from now until the next reboot are "
+"permanent."
+msgstr ""
+"upgrade مەشغۇلاتى Sandbox(سىناق) ھالىتىدە ئىجرا قىلىنىۋاتىدۇ. ھەممە "
+"ئۆزگىرىشلەر '%s'  غا يېزىلىدۇ. قايتا قوزغىتىلغاندا ھەممىسى يوقىلىدۇ.\n"
+"\n"
+"قايتا قوزغىتىلغۇچە بولغان ئارىلىقتا systemdir غا يېزىلغان نەرسىلەر ھەممىسى "
+"ۋاقىتلىقتۇر."
+
+#: ../DistUpgrade/DistUpgradeController.py:395
+msgid ""
+"Your python install is corrupted. Please fix the '/usr/bin/python' symlink."
+msgstr ""
+"ئورنىتىلغان python سىستېمىسى بۇزۇلۇپتۇ. '/usr/bin/python' دېگەن symlink نى "
+"تۈزىتىڭ."
+
+#: ../DistUpgrade/DistUpgradeController.py:421
+msgid "Package 'debsig-verify' is installed"
+msgstr "'debsig-verify' دېگەن بوغچا ئورنىتىلىپتۇ."
+
+#: ../DistUpgrade/DistUpgradeController.py:422
+msgid ""
+"The upgrade can not continue with that package installed.\n"
+"Please remove it with synaptic or 'apt-get remove debsig-verify' first and "
+"run the upgrade again."
+msgstr ""
+"ئاۋۇ ئورنىتىلغان بوغچىلار بار ھالەتتە upgrade قىلىشنى داۋاملاشتۇرغىلى "
+"بولمايدۇ .\n"
+"ئاۋۋال ئۇنى synaptic ياكى 'apt-get remove debsig-verify' دېگەن بۇيرۇق "
+"ئارقىلىق ئۆچۈرۈۋېتىپ ئاندىن upgrade قىلىشنى ئىجرا قىلىڭ."
+
+#: ../DistUpgrade/DistUpgradeController.py:432
+msgid "Include latest updates from the Internet?"
+msgstr "ئەڭ يېڭى يېڭىلانما ئۇچۇرلىرىنى ئىنتېرنېتتىن ئالامسىز؟"
+
+#: ../DistUpgrade/DistUpgradeController.py:433
+msgid ""
+"The upgrade system can use the internet to automatically download the latest "
+"updates and install them during the upgrade.  If you have a network "
+"connection this is highly recommended.\n"
+"\n"
+"The upgrade will take longer, but when it is complete, your system will be "
+"fully up to date.  You can choose not to do this, but you should install the "
+"latest updates soon after upgrading.\n"
+"If you answer 'no' here, the network is not used at all."
+msgstr ""
+"upgrade سىستېمىسى upgrade قىلىۋاتقاندا ئەڭ يېڭى يېڭىلاشلارنى ئىنتېرنېتتىن "
+"ئاپتوماتىك چۈشۈرىدۇ ۋە  ئۇنى ئورنىتىدۇ. ئىنتېرنېت باغلىنىشى بولسا بۇ بەكمۇ "
+"ئاددىي ھەم سىزگە بۇنى تەۋسىيە قىلىمىز\n"
+"\n"
+"upgrade قىلىشقا ئۇزۇن ۋاقىت كېتىدۇ، بىراق تاماملانغاندا، سىزنىڭ سىستېمىڭىز "
+"تولۇق ئەڭ يېڭى ھالەتتە بولغان بولىدۇ. سىز بۇنداق قىلماسلىقنىمۇ "
+"تاللىيالايسىز. بىراق upgrade قىلىش تاماملانغاندا ئەڭ يېڭى يېڭىلاشلارنى "
+"ئورنىتىشىڭىز كېرەك.\n"
+"ئەگەر بۇ يەردە «ياق(no)» دەپ جاۋاب بەرسىڭىز، ئىنتېرنېت ئىشلىتىلمەيدۇ."
+
+#: ../DistUpgrade/DistUpgradeController.py:653
+#, python-format
+msgid "disabled on upgrade to %s"
+msgstr "%s غا upgrade قىلىش چەكلەنگەن"
+
+#: ../DistUpgrade/DistUpgradeController.py:680
+msgid "No valid mirror found"
+msgstr "ئىناۋەتلىك تەسۋىر تېپىلمىدى"
+
+#: ../DistUpgrade/DistUpgradeController.py:681
+#, python-format
+msgid ""
+"While scanning your repository information no mirror entry for the upgrade "
+"was found. This can happen if you run a internal mirror or if the mirror "
+"information is out of date.\n"
+"\n"
+"Do you want to rewrite your 'sources.list' file anyway? If you choose 'Yes' "
+"here it will update all '%s' to '%s' entries.\n"
+"If you select 'No' the upgrade will cancel."
+msgstr ""
+"خەزىنە ئۇچۇردىن upgrade ئۈچۈن ئىشىتىلىدىغان ئەينەك مۇلازىمېتىرنى تاپقىلى "
+"بولمىدى. بۇ ئىچكى ئەينەك مۇلازىمېتىر ئىشلىتىش ياكى ئەينەك مۇلازىمېتىر ئۇچۇرى "
+"كونىراپ قېلىشتىن كېلىپ چىقىدۇ.\n"
+"\n"
+"'sources.list' نى قايتا يازسۇنمۇ؟ ئەگەر 'Yes' تاللانسا، '%s' لارنىڭ ھەممىسى "
+"'%s'  يېڭىلىنىدۇ.\n"
+"ئەگەر 'No' تاللانسا upgrade ئەمەلدىن قالدۇرۇلىدۇ."
+
+#. hm, still nothing useful ...
+#: ../DistUpgrade/DistUpgradeController.py:701
+msgid "Generate default sources?"
+msgstr "كۆڭۈلدىكى مەنبەلەرنى قۇرسۇنمۇ؟"
+
+#: ../DistUpgrade/DistUpgradeController.py:702
+#, python-format
+msgid ""
+"After scanning your 'sources.list' no valid entry for '%s' was found.\n"
+"\n"
+"Should default entries for '%s' be added? If you select 'No', the upgrade "
+"will cancel."
+msgstr ""
+"'sources.list' نى تەكشۈرۈش ئارقىلىق، ئۇنىڭدىن '%s' مۇناسىۋەتلىك مەزمۇن "
+"تېپىلمىدى.\n"
+"\n"
+"'%s' نىڭغا مۇناسىۋەتلىك كۆڭۈلدىكى مەزمۇننى قوشۇلسۇنمۇ؟ جاۋابىڭىز 'No'«ياق» "
+"بولسا، upgrade ئەمەلدىن قالدۇرۇلىدۇ."
+
+#: ../DistUpgrade/DistUpgradeController.py:737
+msgid "Repository information invalid"
+msgstr "خەزىنە ئۇچۇرى ئىناۋەتسىز"
+
+#: ../DistUpgrade/DistUpgradeController.py:738
+msgid ""
+"Upgrading the repository information resulted in a invalid file. Please "
+"report this as a bug using the command 'ubuntu-bug update-manager' in a "
+"terminal."
+msgstr ""
+"زۆرۈر بوغچىنى ئورناتقىلى بولمىدى. تېرمىنالدا تۇرۇپ ‹ubuntu-bug update-"
+"manager› بۇيرۇقىنى ئىشلىتىپ كەمتۈك مەلۇم قىلىڭ."
+
+#: ../DistUpgrade/DistUpgradeController.py:746
+msgid "Third party sources disabled"
+msgstr "ئۈچىنچى تەرەپ يۇمشاق دېتاللىرى تاقالغان"
+
+#: ../DistUpgrade/DistUpgradeController.py:747
+msgid ""
+"Some third party entries in your sources.list were disabled. You can re-"
+"enable them after the upgrade with the 'software-properties' tool or your "
+"package manager."
+msgstr ""
+"sources.list ئىچىدىكى بىر قىسىم ئۈچىنچى تەرەپ مەزمۇنلىرى ئىناۋەتسىز قىلىندى. "
+"upgrade تاماملانغاندا ئۇنى 'software-properties' قورالى ياكى بوغچا باشقۇ "
+"بىلەن قايتا ئىناۋەتلىك قىلغىلى بولىدۇ."
+
+#: ../DistUpgrade/DistUpgradeController.py:787
+msgid "Package in inconsistent state"
+msgid_plural "Packages in inconsistent state"
+msgstr[0] "بوغچىلار باغلاشمىغان ھالەتتە"
+
+#: ../DistUpgrade/DistUpgradeController.py:790
+#, python-format
+msgid ""
+"The package '%s' is in an inconsistent state and needs to be reinstalled, "
+"but no archive can be found for it. Please reinstall the package manually or "
+"remove it from the system."
+msgid_plural ""
+"The packages '%s' are in an inconsistent state and need to be reinstalled, "
+"but no archive can be found for them. Please reinstall the packages manually "
+"or remove them from the system."
+msgstr[0] ""
+"بوغچا '%s' (لار) باغلاشمىغان ھالەتتە ئىكەن، ئۇ(لار)نى قايتا ئورنىتىش كېرەك "
+"ئىدى. بىراق، ئۇنىڭ ئارخىپى تېپىلمىدى. ئۇنى قولدا قايتا ئورنىتىڭ ياكى "
+"سىستېمىدىن ئۆچۈرۈۋېتىڭ."
+
+#: ../DistUpgrade/DistUpgradeController.py:838
+msgid "Error during update"
+msgstr "يېڭىلاۋاتقاندا خاتالىق كۆرۈلدى"
+
+#: ../DistUpgrade/DistUpgradeController.py:839
+msgid ""
+"A problem occurred during the update. This is usually some sort of network "
+"problem, please check your network connection and retry."
+msgstr ""
+"يېڭىلاش جەريانىدا ئازراق مەسىلە كۆرۈلدى. بۇ كوپ ھاللاردا تورنىڭ سەۋەبىدىن "
+"كېلىپ چىقىدۇ. تور باغلىنىشىنى تەكشۈرۈپ قايتا قىلىڭ."
+
+#. print "on_button_install_clicked"
+#: ../DistUpgrade/DistUpgradeController.py:848
+#: ../UpdateManager/UpdateManager.py:747
+msgid "Not enough free disk space"
+msgstr "دىسكىدىكى بىكار بوشلۇق يېتەرلىك ئەمەس"
+
+#: ../DistUpgrade/DistUpgradeController.py:849
+#, python-format
+msgid ""
+"The upgrade has aborted. The upgrade needs a total of %s free space on disk "
+"'%s'. Please free at least an additional %s of disk space on '%s'. Empty "
+"your trash and remove temporary packages of former installations using 'sudo "
+"apt-get clean'."
+msgstr ""
+"upgrade توختىتىلدى. upgrade ئۈچۈن جەمئىي %s بىكار بوشلۇق '%s' دىسكىدا بولۇشى "
+"كېرەك.  ئەڭ ئاز دېگەندە يەنە %s بىكار بوشلۇقنى دىسكا '%s' دا پەيدا قىلىڭ. "
+"بۇنىڭ ئۈچۈن ئەخلەت ساندۇقنى تازىلاڭ، 'sudo apt-get clean' نى ئىشلىتىپ "
+"ۋاقىتلىق بوغچىلارنى ئۆچۈرۈڭ."
+
+#. calc the dist-upgrade and see if the removals are ok/expected
+#. do the dist-upgrade
+#: ../DistUpgrade/DistUpgradeController.py:878
+#: ../DistUpgrade/DistUpgradeController.py:1630
+msgid "Calculating the changes"
+msgstr "ئۆزگىرىشلەرنى ئېنىقلاۋاتىدۇ"
+
+#. ask the user
+#: ../DistUpgrade/DistUpgradeController.py:910
+msgid "Do you want to start the upgrade?"
+msgstr "Upgrade نى باشلامسىز؟"
+
+#: ../DistUpgrade/DistUpgradeController.py:976
+msgid "Upgrade canceled"
+msgstr "Upgrade نى ئەمەلدىن قالدۇردى"
+
+#: ../DistUpgrade/DistUpgradeController.py:977
+msgid ""
+"The upgrade will cancel now and the original system state will be restored. "
+"You can resume the upgrade at a later time."
+msgstr ""
+"يۈكسەلدۈرۈش مەشغۇلاتى ئەمەلدىن قالدۇرۇلۇپ، ئەسلى سىستېما ئەسلىگە "
+"كەلتۈرۈلىدۇ. يۈكسەلدۈرۈش مەشغۇلاتىنى كېيىن يەنە قىلگىلى بولىدۇ."
+
+#: ../DistUpgrade/DistUpgradeController.py:983
+#: ../DistUpgrade/DistUpgradeController.py:1109
+msgid "Could not download the upgrades"
+msgstr "Upgrade لارنى چۈشۈرگىلى بولمىدى"
+
+#: ../DistUpgrade/DistUpgradeController.py:984
+msgid ""
+"The upgrade has aborted. Please check your Internet connection or "
+"installation media and try again. All files downloaded so far have been kept."
+msgstr ""
+"يۈكسەلدۈرۈش ئۈزۈلۈپ قالدى. ئىنتېرنېت باغلىنىشىنى ياكى ئورنىتىش دىسكىسىنى "
+"تەكشۈرۈڭ ۋە قايتا سىناڭ. چۈشۈرۈلگەن بارلىق ھۆججەتلەر ساقلىنىپ قالىدۇ."
+
+#. FIXME: strings are not good, but we are in string freeze
+#. currently
+#: ../DistUpgrade/DistUpgradeController.py:1060
+#: ../DistUpgrade/DistUpgradeController.py:1097
+#: ../DistUpgrade/DistUpgradeController.py:1202
+msgid "Error during commit"
+msgstr "commit قىلىۋاتقاندا خاتالىق كۆرۈلدى"
+
+#. generate a new cache
+#: ../DistUpgrade/DistUpgradeController.py:1062
+#: ../DistUpgrade/DistUpgradeController.py:1099
+#: ../DistUpgrade/DistUpgradeController.py:1241
+msgid "Restoring original system state"
+msgstr "ئەسلىدىكى سىستېما ھالىتىگە قايتۇرۇش"
+
+#: ../DistUpgrade/DistUpgradeController.py:1063
+#: ../DistUpgrade/DistUpgradeController.py:1078
+#: ../DistUpgrade/DistUpgradeController.py:1100
+msgid "Could not install the upgrades"
+msgstr "يېڭىلىنىش قاچىلانمىدى"
+
+#. invoke the frontend now and show a error message
+#: ../DistUpgrade/DistUpgradeController.py:1068
+msgid ""
+"The upgrade has aborted. Your system could be in an unusable state. A "
+"recovery will run now (dpkg --configure -a)."
+msgstr ""
+"upgrade توختىتىلدى. سىستېمىڭىز ئىشلەتكىلى بولمايدىغان ھالەتكە چۈشۈپ قالىدۇ. "
+"ئەسلىگە كەلتۈرۈش مەشغۇلاتى(dpkg --configure -a) ھازىرلا ئېلىپ بېرىلىدۇ."
+
+#: ../DistUpgrade/DistUpgradeController.py:1073
+#, python-format
+msgid ""
+"\n"
+"\n"
+"Please report this bug using the command 'ubuntu-bug update-manager' in a "
+"terminal and include the files in /var/log/dist-upgrade/ in the bug report.\n"
+"%s"
+msgstr ""
+"\n"
+"\n"
+"تېرمىنالدا «ubuntu-bug update-manager» بۇيرۇقىنى ئىجرا قىلىپ، كەمتۈك "
+"مەلۇماتى يوللاڭ. مەلۇماتقا /var/log/dist-upgrade/  دىكى ھۆججەتلەرنى قوشۇڭ.\n"
+"%s"
+
+#: ../DistUpgrade/DistUpgradeController.py:1110
+msgid ""
+"The upgrade has aborted. Please check your Internet connection or "
+"installation media and try again. "
+msgstr ""
+"upgrade توختىتىلدى. ئىنتېرنېت باغلىنىشىنى ياكى ئورنىتىش دىسكىسىنى تەكشۈرۈڭ "
+"ۋە قايتا قىلىڭ. "
+
+#: ../DistUpgrade/DistUpgradeController.py:1190
+msgid "Remove obsolete packages?"
+msgstr "كېرەكسىز بوغچىلارنى ئۆچۈرسۇنمۇ؟"
+
+#: ../DistUpgrade/DistUpgradeController.py:1191
+#: ../DistUpgrade/DistUpgrade.ui.h:22
+msgid "_Keep"
+msgstr "ساقلاپ قال(_K)"
+
+#: ../DistUpgrade/DistUpgradeController.py:1191
+msgid "_Remove"
+msgstr "ئۆچۈر(_R)"
+
+#: ../DistUpgrade/DistUpgradeController.py:1203
+msgid ""
+"A problem occurred during the clean-up. Please see the below message for "
+"more information. "
+msgstr ""
+"تازىلاۋاتقاندا مەسىلە كۆرۈلدى. تەپسىلىي ئەھۋالنى تۆۋەندىكى ئۇچۇردىن كۆرۈڭ "
+
+#. FIXME: instead of error out, fetch and install it
+#. here
+#: ../DistUpgrade/DistUpgradeController.py:1279
+msgid "Required depends is not installed"
+msgstr "زۆرۈر بېقىنمىلار ئورنىتىلمىغان"
+
+#: ../DistUpgrade/DistUpgradeController.py:1280
+#, python-format
+msgid "The required dependency '%s' is not installed. "
+msgstr "زۆرۈر بېقىنما  '%s' ئورنىتىلمىغان. "
+
+#. sanity check (check for ubuntu-desktop, brokenCache etc)
+#. then open the cache (again)
+#: ../DistUpgrade/DistUpgradeController.py:1527
+#: ../DistUpgrade/DistUpgradeController.py:1597
+msgid "Checking package manager"
+msgstr "بوغچا باشقۇرغۇچنى تەكشۈرۈۋاتىدۇ"
+
+#: ../DistUpgrade/DistUpgradeController.py:1532
+msgid "Preparing the upgrade failed"
+msgstr "يېڭىلاشقا تەييارلىنىش مەغلۇپ بولدى"
+
+#: ../DistUpgrade/DistUpgradeController.py:1533
+msgid ""
+"Preparing the system for the upgrade failed. Please report this using the "
+"command 'ubuntu-bug update-manager' in a terminal and include the files in "
+"/var/log/dist-upgrade/ in the bug report."
+msgstr ""
+"يۈكسەلدۈرۈش ئۈچۈن تەييارلىق قىلىش مەغلۇپ بولدى.  بۇ كەمتۈكنى تېرمىنالدا "
+"‹ubuntu-bug update-manager› بۇيرۇقىنى ئىشلىتىپ مەلۇم قىلىڭ، كەمتۈككە "
+"/var/log/dist-upgrade/ دىكى ھۆججەتلەرنى قوشۇڭ."
+
+#: ../DistUpgrade/DistUpgradeController.py:1549
+msgid "Getting upgrade prerequisites failed"
+msgstr "upgrade قىلىشقا زۆرۈر بولغان مەزمۇنلارنى ئېلىش مەغلۇپ بولدى."
+
+#: ../DistUpgrade/DistUpgradeController.py:1550
+msgid ""
+"The system was unable to get the prerequisites for the upgrade. The upgrade "
+"will abort now and restore the original system state.\n"
+"\n"
+"Please report this as a bug using the command 'ubuntu-bug update-manager' in "
+"a terminal and include the files in /var/log/dist-upgrade/ in the bug report."
+msgstr ""
+"يۈكسەلدۈرۈشكە كېرەكلىك ئۇچۇرلارغا ئېرىشكىلى بولمىدى. يۈكسەلدۈرۈشنى توختىتىپ، "
+"سىستېمىنى ئەسلىدىكى ھالىتىگە قايتۇرىدۇ.\n"
+"\n"
+"تېرمىنالدا «ubuntu-bug update-manager» بۇيرۇقىنى ئىجرا قىلىپ، كەمتۈك "
+"مەلۇماتى يوللاڭ. مەلۇماتقا /var/log/dist-upgrade/  دىكى ھۆججەتلەرنى قوشۇڭ."
+
+#: ../DistUpgrade/DistUpgradeController.py:1581
+msgid "Updating repository information"
+msgstr "خەزىنە ئۇچۇرىنى يېڭىلاۋاتىدۇ"
+
+#: ../DistUpgrade/DistUpgradeController.py:1588
+msgid "Failed to add the cdrom"
+msgstr "cdrom نى قوشۇش مەغلۇپ بولدى."
+
+#: ../DistUpgrade/DistUpgradeController.py:1589
+msgid "Sorry, adding the cdrom was not successful."
+msgstr "كەچۈرۈڭ، cdrom قوشۇش مۇۋەپپەقىيەتلىك بولمىدى."
+
+#: ../DistUpgrade/DistUpgradeController.py:1617
+msgid "Invalid package information"
+msgstr "ئىناۋەتسىز بوغچا ئۇچۇرى"
+
+#: ../DistUpgrade/DistUpgradeController.py:1618
+#, python-format
+msgid ""
+"After your package information was updated the essential package '%s' can "
+"not be found anymore.\n"
+"This indicates a serious error, please report this bug using the command "
+"'ubuntu-bug update-manager' in a terminal and include the files in "
+"/var/log/dist-upgrade/ in the bug report."
+msgstr ""
+"بوغچا ئۇچۇرىنى يېڭىلاپ بولغاندا، زۆرۈر بولغان «%s» دېگەن بوغچا تېپىلمىدى.\n"
+"بۇ ئىنتايىن ئېغىر مەسىلە بولغاچقا، تېرمىنالدا «ubuntu-bug update-manager» "
+"بۇيرۇقىنى ئىجرا قىلىپ، كەمتۈك مەلۇماتى يوللاڭ. مەلۇماتقا /var/log/dist-"
+"upgrade/  دىكى ھۆججەتلەرنى قوشۇڭ."
+
+#: ../DistUpgrade/DistUpgradeController.py:1636
+#: ../DistUpgrade/DistUpgradeController.py:1689
+msgid "Fetching"
+msgstr "ئېلىۋاتىدۇ"
+
+#: ../DistUpgrade/DistUpgradeController.py:1642
+#: ../DistUpgrade/DistUpgradeController.py:1693
+msgid "Upgrading"
+msgstr "Upgrade قىلىۋاتىدۇ"
+
+#. don't abort here, because it would restore the sources.list
+#: ../DistUpgrade/DistUpgradeController.py:1647
+#: ../DistUpgrade/DistUpgradeController.py:1695
+#: ../DistUpgrade/DistUpgradeController.py:1702
+#: ../DistUpgrade/DistUpgradeController.py:1713
+msgid "Upgrade complete"
+msgstr "Upgrade تامام"
+
+#: ../DistUpgrade/DistUpgradeController.py:1648
+#: ../DistUpgrade/DistUpgradeController.py:1696
+#: ../DistUpgrade/DistUpgradeController.py:1703
+msgid ""
+"The upgrade has completed but there were errors during the upgrade process."
+msgstr ""
+"نەشرنى ئۆرلىتىش تاماملاندى، بىراق نەشرىنى ئۆرلىتىش جەريانىدا خاتالىق كۆرۈلدى."
+
+#: ../DistUpgrade/DistUpgradeController.py:1655
+msgid "Searching for obsolete software"
+msgstr "كېرەكسىز دېتاللارنى ئىزدەۋاتىدۇ"
+
+#: ../DistUpgrade/DistUpgradeController.py:1664
+msgid "System upgrade is complete."
+msgstr "سىستېمىنى Upgrade قىلىش تاماملاندى."
+
+#: ../DistUpgrade/DistUpgradeController.py:1714
+msgid "The partial upgrade was completed."
+msgstr "قىسمى upgrade قىلىش تاماملاندى."
+
+#: ../DistUpgrade/DistUpgradeQuirks.py:201
+msgid "evms in use"
+msgstr "evms ئىشلىتىلىۋاتىدۇ"
+
+#: ../DistUpgrade/DistUpgradeQuirks.py:202
+msgid ""
+"Your system uses the 'evms' volume manager in /proc/mounts. The 'evms' "
+"software is no longer supported, please switch it off and run the upgrade "
+"again when this is done."
+msgstr ""
+"سىستېمىدىكى /proc/mounts دا 'evms' دىسكا باشقۇرغۇ ئىشلىتىلىپتۇ. 'evms' "
+"يۇمشاق دېتالىنى بۇنىڭدىن ئىشلەتكىلى بولمايدۇ، ئۇنى ئېتىۋېتىپ، ئاندىن upgrade "
+"نى قايتا ئىجرا قىلىڭ."
+
+#: ../DistUpgrade/DistUpgradeQuirks.py:506
+msgid "Your graphics hardware may not be fully supported in Ubuntu 11.04."
+msgstr ""
+"سىزنىڭ گرافىك قاتتىق دېتالىڭىزنى ئۇبۇنتۇ 11.04 تولۇق قوللىماسلىقى مۇمكىن."
+
+#: ../DistUpgrade/DistUpgradeQuirks.py:508
+msgid ""
+"The support in Ubuntu 11.04 for your intel graphics hardware is limited and "
+"you may encounter problems after the upgrade. Do you want to continue with "
+"the upgrade?"
+msgstr ""
+
+#: ../DistUpgrade/DistUpgradeQuirks.py:528
+#: ../DistUpgrade/DistUpgradeQuirks.py:556
+#: ../DistUpgrade/DistUpgradeQuirks.py:583
+msgid ""
+"Upgrading may reduce desktop effects, and performance in games and other "
+"graphically intensive programs."
+msgstr ""
+"Upgrade قىلىنسا ئۈستەليۈزى ئۈنۈمى، ئويۇنلار ۋە باشقا گرافىكىلىق "
+"پروگراممىلارنىڭ ئىقتىدارىدا ئاجىزلاش بولىدۇ."
+
+#: ../DistUpgrade/DistUpgradeQuirks.py:532
+#: ../DistUpgrade/DistUpgradeQuirks.py:560
+msgid ""
+"This computer is currently using the NVIDIA 'nvidia' graphics driver. No "
+"version of this driver is available that works with your video card in "
+"Ubuntu 10.04 LTS.\n"
+"\n"
+"Do you want to continue?"
+msgstr ""
+"كومپيۇتېرىڭىزدا NVIDIA 'nvidia' گرافىك قوزغىتىش پروگراممىسى "
+"ئىشلىتىلىۋېتىپتۇ. Ubuntu 10.04 LTS نەشرىدە بۇنىڭغا ماس كېلىدىغان قوزغىتىش "
+"پروگراممىسى يوق. .\n"
+"\n"
+"داۋاملاشتۇرامسىز?"
+
+#: ../DistUpgrade/DistUpgradeQuirks.py:587
+msgid ""
+"This computer is currently using the AMD 'fglrx' graphics driver. No version "
+"of this driver is available that works with your hardware in Ubuntu 10.04 "
+"LTS.\n"
+"\n"
+"Do you want to continue?"
+msgstr ""
+"كومپيۇتېرىڭىزدا AMD 'fglrx' گرافىك قوزغىتىش پروگراممىسى ئىشلىتىلىۋېتىپتۇ. "
+"Ubuntu 10.04 LTS نەشرىدە بۇنىڭغا ماس كېلىدىغان قوزغىتىش پروگراممىسى يوق. .\n"
+"\n"
+"داۋاملاشتۇرامسىز?"
+
+#: ../DistUpgrade/DistUpgradeQuirks.py:617
+msgid "No i686 CPU"
+msgstr "i686 تىپلىق CPU ئەمەس"
+
+#: ../DistUpgrade/DistUpgradeQuirks.py:618
+msgid ""
+"Your system uses an i586 CPU or a CPU that does not have the 'cmov' "
+"extension. All packages were built with optimizations requiring i686 as the "
+"minimal architecture. It is not possible to upgrade your system to a new "
+"Ubuntu release with this hardware."
+msgstr ""
+"سىستېمىڭىزدىكى CPU نىڭ تىپى i586 ئىكەن، بۇنىڭدا 'cmov' كېڭەيتىلمىسى يوق. "
+"بارلىق بوغچىلار i686 تىپلىق CPU نى ئىشلىتىپ ئەلالاشتۇرۇش ئىقتىدارىنى "
+"ئىشلىتىپ قۇرۇلغان. بۇ كومپيۇتېرىڭىزدا، سىستېمىڭىزنى Ubuntu نىڭ يېڭى نەشرىگە "
+"ئۆرلىتەلمەيسىز."
+
+#: ../DistUpgrade/DistUpgradeQuirks.py:654
+msgid "No ARMv6 CPU"
+msgstr "ARMv6 تىپىدىكى CPU ئەمەس"
+
+#: ../DistUpgrade/DistUpgradeQuirks.py:655
+msgid ""
+"Your system uses an ARM CPU that is older than the ARMv6 architecture. All "
+"packages in karmic were built with optimizations requiring ARMv6 as the "
+"minimal architecture. It is not possible to upgrade your system to a new "
+"Ubuntu release with this hardware."
+msgstr ""
+"سىزنىڭ كومپيۇتېرىڭىز ARM CPU نى ئىشلىتىۋېتىپتۇ، بۇ ARMv6 architecture دىن "
+"كونا. karmic تىكى بارلىق بوغچىلار ARMv6 غا ماسلاشتۇرۇلغان بولۇپ، "
+"كومپيۇتېرىڭىزدا ئىشلەتكىلى بولمايدۇ. شۇڭا سىستېمىنى يېڭىلىيالمايسىز."
+
+#: ../DistUpgrade/DistUpgradeQuirks.py:675
+msgid "No init available"
+msgstr "init يوقكەن"
+
+#: ../DistUpgrade/DistUpgradeQuirks.py:676
+msgid ""
+"Your system appears to be a virtualised environment without an init daemon, "
+"e.g. Linux-VServer. Ubuntu 10.04 LTS cannot function within this type of "
+"environment, requiring an update to your virtual machine configuration "
+"first.\n"
+"\n"
+"Are you sure you want to continue?"
+msgstr ""
+"سىستېمىڭىز init daemon يوق، مەۋھۇم مۇھىتتەك قىلىدۇ يەنى e.g. Linux-VServer "
+"دەك. Ubuntu 10.04 LTS دا بۇنداق مۇھىتتا ئىشلىمەيدۇ. ئالدى بىلەن مەۋھۇم "
+"ماشىنىنىڭ تەڭشىكىنى يېڭىلاش تەلەپ قىلىنىدۇ.\n"
+"\n"
+"داۋاملاشتۇرامسىز?"
+
+#: ../DistUpgrade/DistUpgradeMain.py:45
+msgid "Sandbox upgrade using aufs"
+msgstr "aufs نى ئىشلىتىپ Sandbox upgrade قىلىش"
+
+#: ../DistUpgrade/DistUpgradeMain.py:47
+msgid "Use the given path to search for a cdrom with upgradable packages"
+msgstr ""
+"upgrade قىلغىلى بولىدىغان بوغچا بار  cdrom نى ئىزدەش ئۈچۈن بېرىلگەن يولنى "
+"ئىشلەتسۇن"
+
+#: ../DistUpgrade/DistUpgradeMain.py:53
+msgid ""
+"Use frontend. Currently available: \n"
+"DistUpgradeViewText, DistUpgradeViewGtk, DistUpgradeViewKDE"
+msgstr ""
+"frontend ئىشلىتىڭ. ھازىر ئىشلەتكىلى بولىدىغان پروگراممىلار: \n"
+"DistUpgradeViewText, DistUpgradeViewGtk, DistUpgradeViewKDE"
+
+#: ../DistUpgrade/DistUpgradeMain.py:56
+msgid "*DEPRECATED* this option will be ignored"
+msgstr "*DEPRECATED* تاللانمىسىغا پەرۋا قىلمايدۇ"
+
+#: ../DistUpgrade/DistUpgradeMain.py:59
+msgid "Perform a partial upgrade only (no sources.list rewriting)"
+msgstr "قىسمى upgrade نىلا قىلىش(sources.list نى ئۆزگەرتمەيدۇ)"
+
+#: ../DistUpgrade/DistUpgradeMain.py:62
+msgid "Disable GNU screen support"
+msgstr "GNU screen قوللىشىنى ئىناۋەتسىز قىل"
+
+#: ../DistUpgrade/DistUpgradeMain.py:64
+msgid "Set datadir"
+msgstr "datadir نى تەڭشەش"
+
+#. print "mediaChange %s %s" % (medium, drive)
+#: ../DistUpgrade/DistUpgradeViewGtk.py:114
+#: ../DistUpgrade/DistUpgradeViewGtk3.py:117
+#: ../DistUpgrade/DistUpgradeViewKDE.py:189
+#: ../UpdateManager/DistUpgradeFetcherKDE.py:147
+#, python-format
+msgid "Please insert '%s' into the drive '%s'"
+msgstr "'%s' نى قوزغاتقۇچ '%s' غا سېلىڭ"
+
+#: ../DistUpgrade/DistUpgradeViewGtk.py:135
+#: ../DistUpgrade/DistUpgradeViewGtk3.py:138
+#: ../DistUpgrade/DistUpgradeViewKDE.py:203
+msgid "Fetching is complete"
+msgstr "ئېلىش تاماملاندى"
+
+#: ../DistUpgrade/DistUpgradeViewGtk.py:146
+#: ../DistUpgrade/DistUpgradeViewGtk3.py:149
+#: ../DistUpgrade/DistUpgradeViewKDE.py:216
+#, python-format
+msgid "Fetching file %li of %li at %sB/s"
+msgstr "ھۆججەت ئېلىۋاتىدۇ %li / %li(تېزلىك %sB/s)"
+
+#: ../DistUpgrade/DistUpgradeViewGtk.py:149
+#: ../DistUpgrade/DistUpgradeViewGtk.py:295
+#: ../DistUpgrade/DistUpgradeViewGtk3.py:152
+#: ../DistUpgrade/DistUpgradeViewGtk3.py:301
+#: ../DistUpgrade/DistUpgradeViewKDE.py:217
+#: ../DistUpgrade/DistUpgradeViewKDE.py:361
+#, python-format
+msgid "About %s remaining"
+msgstr "تەخمىنەن %s  قالدى"
+
+#: ../DistUpgrade/DistUpgradeViewGtk.py:152
+#: ../DistUpgrade/DistUpgradeViewGtk3.py:155
+#: ../DistUpgrade/DistUpgradeViewKDE.py:219
+#, python-format
+msgid "Fetching file %li of %li"
+msgstr "ھۆججەت ئېلىۋاتىدۇ %li / %li"
+
+#. FIXME: add support for the timeout
+#. of the terminal (to display something useful then)
+#. -> longer term, move this code into python-apt
+#: ../DistUpgrade/DistUpgradeViewGtk.py:183
+#: ../DistUpgrade/DistUpgradeViewGtk3.py:186
+#: ../DistUpgrade/DistUpgradeViewKDE.py:253
+msgid "Applying changes"
+msgstr "ئۆزگەرتىشلەرنى قوللىنىۋاتىدۇ"
+
+#. we do not report followup errors from earlier failures
+#: ../DistUpgrade/DistUpgradeViewGtk.py:208
+#: ../DistUpgrade/DistUpgradeViewGtk3.py:211
+#: ../DistUpgrade/DistUpgradeViewKDE.py:266
+msgid "dependency problems - leaving unconfigured"
+msgstr "بېقىنىش مەسىلىسى - سەپلەنمىدى"
+
+#: ../DistUpgrade/DistUpgradeViewGtk.py:213
+#: ../DistUpgrade/DistUpgradeViewGtk3.py:216
+#: ../DistUpgrade/DistUpgradeViewKDE.py:268
+#, python-format
+msgid "Could not install '%s'"
+msgstr "'%s' ئورناتقىلى بولمىدى"
+
+#: ../DistUpgrade/DistUpgradeViewGtk.py:214
+#: ../DistUpgrade/DistUpgradeViewGtk3.py:217
+#: ../DistUpgrade/DistUpgradeViewKDE.py:269
+#, python-format
+msgid ""
+"The upgrade will continue but the '%s' package may not be in a working "
+"state. Please consider submitting a bug report about it."
+msgstr ""
+"upgrade داۋاملاشتۇرۇلىدۇ، بىراق بوغچا '%s' ئىشلىمەسلىكى مۇمكىن. بۇ ھەقتە "
+"كەمتۈك دوكلاتى يوللاشنى ئويلىشىپ كۆرۈڭ."
+
+#. self.expander.set_expanded(True)
+#: ../DistUpgrade/DistUpgradeViewGtk.py:231
+#: ../DistUpgrade/DistUpgradeViewGtk3.py:234
+#: ../DistUpgrade/DistUpgradeViewKDE.py:290
+#, python-format
+msgid ""
+"Replace the customized configuration file\n"
+"'%s'?"
+msgstr ""
+"customize قىلىنغان سەپلىمە ھۆججەت '%s'\n"
+"نى ئالماشتۇرسۇنمۇ؟"
+
+#: ../DistUpgrade/DistUpgradeViewGtk.py:232
+#: ../DistUpgrade/DistUpgradeViewGtk3.py:235
+#: ../DistUpgrade/DistUpgradeViewKDE.py:291
+msgid ""
+"You will lose any changes you have made to this configuration file if you "
+"choose to replace it with a newer version."
+msgstr ""
+"سەپلىمە ھۆججەتنى يېڭى نەشرگە ئالماشتۇرۇشنى تاللىسىڭىز، كونىسىدىكى "
+"ئۆزگىرىشلەرنىڭ ھەممىسى يوق بولىدۇ."
+
+#: ../DistUpgrade/DistUpgradeViewGtk.py:250
+#: ../DistUpgrade/DistUpgradeViewGtk3.py:253
+#: ../DistUpgrade/DistUpgradeViewKDE.py:313
+msgid "The 'diff' command was not found"
+msgstr "'diff' بۇيرۇقى تېپىلمىدى"
+
+#: ../DistUpgrade/DistUpgradeViewGtk.py:463
+#: ../DistUpgrade/DistUpgradeViewGtk3.py:469
+#: ../DistUpgrade/DistUpgradeViewText.py:90
+msgid "A fatal error occurred"
+msgstr "ئېغىر خاتالىق يۈز بەردى"
+
+#: ../DistUpgrade/DistUpgradeViewGtk.py:464
+#: ../DistUpgrade/DistUpgradeViewGtk3.py:470
+msgid ""
+"Please report this as a bug (if you haven't already) and include the files "
+"/var/log/dist-upgrade/main.log and /var/log/dist-upgrade/apt.log in your "
+"report. The upgrade has aborted.\n"
+"Your original sources.list was saved in /etc/apt/sources.list.distUpgrade."
+msgstr ""
+"بۇنى كەمتۈك دەپ قاراپ مەلۇم قىلىڭ. ھەم مەلۇماتقا  /var/log/dist-"
+"upgrade/main.log ۋە /var/log/dist-upgrade/apt.log نى قوشۇپ ئەۋەتىڭ. upgrade "
+"توختىتىلدى.\n"
+"ئەسلىدىكى sources.list ھۆججىتى /etc/apt/sources.list.distUpgrade قىلىپ "
+"ساقلاندى."
+
+#: ../DistUpgrade/DistUpgradeViewGtk.py:481
+#: ../DistUpgrade/DistUpgradeViewGtk3.py:487
+msgid "Ctrl-c pressed"
+msgstr "Ctrl-c بېسىلدى"
+
+#: ../DistUpgrade/DistUpgradeViewGtk.py:482
+#: ../DistUpgrade/DistUpgradeViewGtk3.py:488
+msgid ""
+"This will abort the operation and may leave the system in a broken state. "
+"Are you sure you want to do that?"
+msgstr ""
+"بۇ مەشغۇلاتنى بىكار قىلىشى ھەمدە سىستېمىنى پالەچ ھالغا چۈشۈرۈپ قويۇشى "
+"مۇمكىن. مەشغۇلاتىڭىزنى جەزملەشتۈرەمسىز؟"
+
+#. append warning
+#: ../DistUpgrade/DistUpgradeViewGtk.py:630
+#: ../DistUpgrade/DistUpgradeViewGtk3.py:621
+msgid "To prevent data loss close all open applications and documents."
+msgstr ""
+"سانلىق ئاساسلارنىڭ يوقالماسلىقى ئۈچۈن بارلىق پروگرامما ۋە پۈتۈكلەرنى "
+"ئېتىۋېتىڭ"
+
+#: ../DistUpgrade/DistUpgradeViewGtk.py:644
+#: ../DistUpgrade/DistUpgradeViewGtk3.py:635
+#, python-format
+msgid "No longer supported by Canonical (%s)"
+msgstr "Canonical (%s) ئەمدى تېخنىكىلىق ياردەم بەرمەيدۇ"
+
+#: ../DistUpgrade/DistUpgradeViewGtk.py:645
+#: ../DistUpgrade/DistUpgradeViewGtk3.py:636
+#, python-format
+msgid "<b>Downgrade (%s)</b>"
+msgstr "<b>Downgrade (%s)</b>"
+
+#: ../DistUpgrade/DistUpgradeViewGtk.py:646
+#: ../DistUpgrade/DistUpgradeViewGtk3.py:637
+#, python-format
+msgid "Remove (%s)"
+msgstr "ئۆچۈرۈش (%s)"
+
+#: ../DistUpgrade/DistUpgradeViewGtk.py:647
+#: ../DistUpgrade/DistUpgradeViewGtk3.py:638
+#, python-format
+msgid "No longer needed (%s)"
+msgstr "ئەمدى زۆرۈر ئەمەس (%s)"
+
+#: ../DistUpgrade/DistUpgradeViewGtk.py:648
+#: ../DistUpgrade/DistUpgradeViewGtk3.py:639
+#, python-format
+msgid "Install (%s)"
+msgstr "ئورنىتىش (%s)"
+
+#: ../DistUpgrade/DistUpgradeViewGtk.py:649
+#: ../DistUpgrade/DistUpgradeViewGtk3.py:640
+#, python-format
+msgid "Upgrade (%s)"
+msgstr "Upgrade قىلىش(%s)"
+
+#. change = QMessageBox.question(None, _("Media Change"), msg, QMessageBox.Ok, QMessageBox.Cancel)
+#: ../DistUpgrade/DistUpgradeViewKDE.py:190
+#: ../UpdateManager/DistUpgradeFetcherKDE.py:149
+msgid "Media Change"
+msgstr "ۋاسىتە ئۆزگەرتىش"
+
+#: ../DistUpgrade/DistUpgradeViewKDE.py:325
+msgid "Show Difference >>>"
+msgstr "پەرقنى كۆرسىتىش"
+
+#: ../DistUpgrade/DistUpgradeViewKDE.py:328
+msgid "<<< Hide Difference"
+msgstr "<<< پەرقنى يوشۇرۇش"
+
+#: ../DistUpgrade/DistUpgradeViewKDE.py:543
+msgid "Error"
+msgstr "خاتالىق"
+
+#: ../DistUpgrade/DistUpgradeViewKDE.py:555
+msgid "&Cancel"
+msgstr "ۋاز كەچ(&C)"
+
+#: ../DistUpgrade/DistUpgradeViewKDE.py:557
+#: ../DistUpgrade/DistUpgradeViewKDE.py:799
+msgid "&Close"
+msgstr "ياپ(&C)"
+
+#: ../DistUpgrade/DistUpgradeViewKDE.py:603
+msgid "Show Terminal >>>"
+msgstr "تېرمىنالنى كۆرسىتىش >>>"
+
+#: ../DistUpgrade/DistUpgradeViewKDE.py:606
+msgid "<<< Hide Terminal"
+msgstr "<<< تېرمىنالنى يوشۇرۇش"
+
+#: ../DistUpgrade/DistUpgradeViewKDE.py:686
+msgid "Information"
+msgstr "ئۇچۇر"
+
+#: ../DistUpgrade/DistUpgradeViewKDE.py:737
+#: ../DistUpgrade/DistUpgradeViewKDE.py:782
+#: ../DistUpgrade/DistUpgradeViewKDE.py:785 ../DistUpgrade/DistUpgrade.ui.h:11
+msgid "Details"
+msgstr "تەپسىلاتلار"
+
+#: ../DistUpgrade/DistUpgradeViewKDE.py:763
+#, python-format
+msgid "No longer supported %s"
+msgstr "ئەمدى تەخنىكىلىق يادەم بەرىلمەيدۇ %s"
+
+#: ../DistUpgrade/DistUpgradeViewKDE.py:765
+#, python-format
+msgid "Remove %s"
+msgstr "%s نى ئۆچۈرۈش"
+
+#: ../DistUpgrade/DistUpgradeViewKDE.py:767
+#: ../DistUpgrade/DistUpgradeViewText.py:179
+#, python-format
+msgid "Remove (was auto installed) %s"
+msgstr "(ئاپتوماتىك ئورنىتىلغان)%s نى ئۆچۈرۈش"
+
+#: ../DistUpgrade/DistUpgradeViewKDE.py:769
+#, python-format
+msgid "Install %s"
+msgstr "%s نى ئورنىتىش"
+
+#: ../DistUpgrade/DistUpgradeViewKDE.py:771
+#, python-format
+msgid "Upgrade %s"
+msgstr "%s نى Upgrade قىلىش"
+
+#: ../DistUpgrade/DistUpgradeViewKDE.py:795
+#: ../DistUpgrade/DistUpgradeViewText.py:227
+msgid "Restart required"
+msgstr "قايتا قوزغىتىش زۆرۈر"
+
+#: ../DistUpgrade/DistUpgradeViewKDE.py:795
+msgid "<b><big>Restart the system to complete the upgrade</big></b>"
+msgstr ""
+"<b><big>upgrade نى تاماملاش ئۈچۈن سىستېمىنى قايتا قوزغىتىش زۆرۈر</big></b>"
+
+#: ../DistUpgrade/DistUpgradeViewKDE.py:798 ../DistUpgrade/DistUpgrade.ui.h:25
+#: ../data/gtkbuilder/UpdateManager.ui.h:32
+msgid "_Restart Now"
+msgstr "ھازىر قايتا قوزغات(_R)"
+
+#. FIXME make this user friendly
+#: ../DistUpgrade/DistUpgradeViewKDE.py:816
+msgid ""
+"<b><big>Cancel the running upgrade?</big></b>\n"
+"\n"
+"The system could be in an unusable state if you cancel the upgrade. You are "
+"strongly advised to resume the upgrade."
+msgstr ""
+"سىستېمىڭىز ئىشلەتكىلى بولمايدىغان ھالەتكە چۈشۈپ قالىدۇ. upgrade نى "
+"داۋاملاشتۇرۇشىڭىزنى كۈچلۈك تەۋسىيە قىلىمىز."
+
+#: ../DistUpgrade/DistUpgradeViewKDE.py:820
+msgid "Cancel Upgrade?"
+msgstr "Upgrade نى ئەمەلدىن قالدۇرامسىز؟"
+
+#: ../DistUpgrade/DistUpgradeView.py:59
+#, python-format
+msgid "%li day"
+msgid_plural "%li days"
+msgstr[0] "%li كۈن"
+
+#: ../DistUpgrade/DistUpgradeView.py:61
+#, python-format
+msgid "%li hour"
+msgid_plural "%li hours"
+msgstr[0] "%li سائەت"
+
+#: ../DistUpgrade/DistUpgradeView.py:63
+#, python-format
+msgid "%li minute"
+msgid_plural "%li minutes"
+msgstr[0] "%li مىنۇت"
+
+#: ../DistUpgrade/DistUpgradeView.py:64
+#, python-format
+msgid "%li second"
+msgid_plural "%li seconds"
+msgstr[0] "%li سېكۇنت"
+
+#. TRANSLATORS: you can alter the ordering of the remaining time
+#. information here if you shuffle %(str_days)s %(str_hours)s %(str_minutes)s
+#. around. Make sure to keep all '$(str_*)s' in the translated string
+#. and do NOT change anything appart from the ordering.
+#. 
+#. %(str_hours)s will be either "1 hour" or "2 hours" depending on the
+#. plural form
+#. 
+#. Note: most western languages will not need to change this
+#: ../DistUpgrade/DistUpgradeView.py:80
+#, python-format
+msgid "%(str_days)s %(str_hours)s"
+msgstr "%(str_days)s %(str_hours)s"
+
+#. TRANSLATORS: you can alter the ordering of the remaining time
+#. information here if you shuffle %(str_hours)s %(str_minutes)s
+#. around. Make sure to keep all '$(str_*)s' in the translated string
+#. and do NOT change anything appart from the ordering.
+#. 
+#. %(str_hours)s will be either "1 hour" or "2 hours" depending on the
+#. plural form
+#. 
+#. Note: most western languages will not need to change this
+#: ../DistUpgrade/DistUpgradeView.py:98
+#, python-format
+msgid "%(str_hours)s %(str_minutes)s"
+msgstr "%(str_hours)s %(str_minutes)s"
+
+#. 56 kbit
+#. 1Mbit = 1024 kbit
+#: ../DistUpgrade/DistUpgradeView.py:147
+#, python-format
+msgid ""
+"This download will take about %s with a 1Mbit DSL connection and about %s "
+"with a 56k modem."
+msgstr ""
+"چۈشۈرۈشكە كېتىدىغان ۋاقىت: 1MBit لىق DSL  دا تەخمىنەن %s، 56Kb مودېمدا "
+"تەخمىنەن %s"
+
+#. if we have a estimated speed, use it
+#: ../DistUpgrade/DistUpgradeView.py:151
+#, python-format
+msgid "This download will take about %s with your connection. "
+msgstr "چۈشۈرۈشكە تەخمىنەن %s كېتىدۇ. "
+
+#: ../DistUpgrade/DistUpgradeView.py:253 ../DistUpgrade/DistUpgrade.ui.h:16
+msgid "Preparing to upgrade"
+msgstr "upgrade قا تەييارلىنىۋاتىدۇ"
+
+#: ../DistUpgrade/DistUpgradeView.py:254
+msgid "Getting new software channels"
+msgstr "يېڭى يۇمشاق دېتال قانىلىغا ئېرىشىش"
+
+#: ../DistUpgrade/DistUpgradeView.py:255 ../DistUpgrade/DistUpgrade.ui.h:14
+msgid "Getting new packages"
+msgstr "يېڭى بوغچىغا ئېرىشىش"
+
+#: ../DistUpgrade/DistUpgradeView.py:256 ../DistUpgrade/DistUpgrade.ui.h:15
+msgid "Installing the upgrades"
+msgstr "upgrade نى قاچىلاش"
+
+#: ../DistUpgrade/DistUpgradeView.py:257 ../DistUpgrade/DistUpgrade.ui.h:10
+msgid "Cleaning up"
+msgstr "پاكىزلاۋاتىدۇ"
+
+#: ../DistUpgrade/DistUpgradeView.py:342
+#, python-format
+msgid ""
+"%(amount)d installed package is no longer supported by Canonical. You can "
+"still get support from the community."
+msgid_plural ""
+"%(amount)d installed packages are no longer supported by Canonical. You can "
+"still get support from the community."
+msgstr[0] ""
+"ئورنىتىلغان %(amount)d بوغچىغا Canonical ئەمدى تېخنىكىلىق ياردەم بەرمەيدۇ، "
+"ياردەمنى Ubuntu جامائىتى بېرىدۇ."
+
+#. FIXME: make those two separate lines to make it clear
+#. that the "%" applies to the result of ngettext
+#: ../DistUpgrade/DistUpgradeView.py:351
+#, python-format
+msgid "%d package is going to be removed."
+msgid_plural "%d packages are going to be removed."
+msgstr[0] "%d دانە بوغچا ئۆچۈرۈلمەكچى"
+
+#: ../DistUpgrade/DistUpgradeView.py:356
+#, python-format
+msgid "%d new package is going to be installed."
+msgid_plural "%d new packages are going to be installed."
+msgstr[0] "%d دانە يېڭى بوغچا ئورنىتىلماقچى"
+
+#: ../DistUpgrade/DistUpgradeView.py:362
+#, python-format
+msgid "%d package is going to be upgraded."
+msgid_plural "%d packages are going to be upgraded."
+msgstr[0] "%d دانە يېڭى بوغچا upgrade قىلىنماقچى"
+
+#: ../DistUpgrade/DistUpgradeView.py:367
+#, python-format
+msgid ""
+"\n"
+"\n"
+"You have to download a total of %s. "
+msgstr ""
+"\n"
+"\n"
+"جەمئىي %s چۈشۈرۈش زۆرۈر "
+
+#: ../DistUpgrade/DistUpgradeView.py:371
+msgid ""
+"Fetching and installing the upgrade can take several hours. Once the "
+"download has finished, the process cannot be cancelled."
+msgstr ""
+"upgrade نى ئېلىش ئېلىش ۋە ئورنىتىش ئۈچۈن نەچچە سائەت ۋاقىت كېتىدۇ. چۈشۈرۈش "
+"تاماملانغاندىن كېيىن upgrade نى ئەمەلدىن قالدۇرۇش مۇمكىن بولمايدۇ."
+
+#. FIXME: this should go into DistUpgradeController
+#: ../DistUpgrade/DistUpgradeView.py:377 ../UpdateManager/UpdateManager.py:664
+msgid "Your system is up-to-date"
+msgstr "سىستېمىڭىز ئەڭ يېڭى ھالەتتە"
+
+#: ../DistUpgrade/DistUpgradeView.py:378
+msgid ""
+"There are no upgrades available for your system. The upgrade will now be "
+"canceled."
+msgstr "سىستېمىڭىزنى upgrade قىلىشنىڭ ھاجىتى يوق. upgrade توختىتىلىدۇ"
+
+#: ../DistUpgrade/DistUpgradeView.py:391
+msgid "Reboot required"
+msgstr "قايتا قوزغىتىش زۆرۈر"
+
+#: ../DistUpgrade/DistUpgradeView.py:392
+msgid ""
+"The upgrade is finished and a reboot is required. Do you want to do this now?"
+msgstr "upgrade قىلىش تاماملاندى، قايتا قوزغىتىش زۆرۈر. قايتا قوزغىتامسىز؟"
+
+#: ../DistUpgrade/DistUpgradeFetcherCore.py:131
+#: ../DistUpgrade/DistUpgradeFetcherCore.py:132
+#: ../UpdateManager/Core/DistUpgradeFetcherCore.py:131
+#: ../UpdateManager/Core/DistUpgradeFetcherCore.py:132
+msgid "Could not run the upgrade tool"
+msgstr "upgrade قورالىنى ئىجرا قىلغىلى بولمىدى"
+
+#: ../DistUpgrade/DistUpgradeFetcherCore.py:132
+#: ../UpdateManager/Core/DistUpgradeFetcherCore.py:132
+msgid ""
+"This is most likely a bug in the upgrade tool. Please report it as a bug "
+"using the command 'ubuntu-bug update-manager'."
+msgstr ""
+"يۈكسەلدۈرۈش قورالىدا كەمتۈك باردەك قىلىدۇ. بۇ كەمتۈكنى ‹ubuntu-bug update-"
+"manager› بۇيرۇقىنى ئىشلىتىپ مەلۇم قىلىڭ"
+
+#: ../DistUpgrade/DistUpgradeFetcherCore.py:207
+#: ../UpdateManager/Core/DistUpgradeFetcherCore.py:207
+msgid "Upgrade tool signature"
+msgstr "Upgrade قورالى ئىمزاسى"
+
+#: ../DistUpgrade/DistUpgradeFetcherCore.py:214
+#: ../UpdateManager/Core/DistUpgradeFetcherCore.py:214
+msgid "Upgrade tool"
+msgstr "upgrade قورالى"
+
+#: ../DistUpgrade/DistUpgradeFetcherCore.py:248
+#: ../UpdateManager/Core/DistUpgradeFetcherCore.py:248
+msgid "Failed to fetch"
+msgstr "ئېلىش مەغلۇپ بولدى"
+
+#: ../DistUpgrade/DistUpgradeFetcherCore.py:249
+#: ../UpdateManager/Core/DistUpgradeFetcherCore.py:249
+msgid "Fetching the upgrade failed. There may be a network problem. "
+msgstr "upgrade نى ئېلىش مەغلۇپ بولدى. توردا مەسىلە باردەك قىلىدۇ. "
+
+#: ../DistUpgrade/DistUpgradeFetcherCore.py:253
+#: ../UpdateManager/Core/DistUpgradeFetcherCore.py:253
+msgid "Failed to extract"
+msgstr "يېيىش مەغلۇپ بولدى"
+
+#: ../DistUpgrade/DistUpgradeFetcherCore.py:254
+#: ../UpdateManager/Core/DistUpgradeFetcherCore.py:254
+msgid ""
+"Extracting the upgrade failed. There may be a problem with the network or "
+"with the server. "
+msgstr ""
+"upgrade نى يېيىش مەغلۇپ بولدى. توردا ياكى مۇلازىمېتىردا مەسىلە باردەك "
+"قىلىدۇ. "
+
+#: ../DistUpgrade/DistUpgradeFetcherCore.py:259
+#: ../UpdateManager/Core/DistUpgradeFetcherCore.py:259
+msgid "Verification failed"
+msgstr "ئىسپاتلاش مەغلۇپ بولدى"
+
+#: ../DistUpgrade/DistUpgradeFetcherCore.py:260
+#: ../UpdateManager/Core/DistUpgradeFetcherCore.py:260
+msgid ""
+"Verifying the upgrade failed.  There may be a problem with the network or "
+"with the server. "
+msgstr ""
+"upgrade نى تەكشۈرۈش مەغلۇپ بولدى. تور ياكى مۇلازىمېتىردا مەسىلە باردەك "
+"قىلىدۇ. "
+
+#: ../DistUpgrade/DistUpgradeFetcherCore.py:265
+#: ../UpdateManager/Core/DistUpgradeFetcherCore.py:265
+msgid "Authentication failed"
+msgstr "دەلىللەش مەغلۇپ بولدى"
+
+#: ../DistUpgrade/DistUpgradeFetcherCore.py:266
+#: ../UpdateManager/Core/DistUpgradeFetcherCore.py:266
+msgid ""
+"Authenticating the upgrade failed. There may be a problem with the network "
+"or with the server. "
+msgstr ""
+"upgrade نى دەلىللەش مەغلۇپ بولدى. تور ياكى مۇلازىمېتىردا مەسىلە باردەك "
+"قىلىدۇ. "
+
+#: ../DistUpgrade/DistUpgradeFetcherCore.py:280
+#: ../DistUpgrade/DistUpgradeFetcherCore.py:286
+#: ../UpdateManager/Core/DistUpgradeFetcherCore.py:280
+#: ../UpdateManager/Core/DistUpgradeFetcherCore.py:286
+msgid "Can not run the upgrade"
+msgstr "upgrade ئىجرا قىلغىلى بولمىدى"
+
+#: ../DistUpgrade/DistUpgradeFetcherCore.py:281
+#: ../UpdateManager/Core/DistUpgradeFetcherCore.py:281
+msgid ""
+"This usually is caused by a system where /tmp is mounted noexec. Please "
+"remount without noexec and run the upgrade again."
+msgstr ""
+
+#: ../DistUpgrade/DistUpgradeFetcherCore.py:287
+#: ../UpdateManager/Core/DistUpgradeFetcherCore.py:287
+#, python-format
+msgid "The error message is '%s'."
+msgstr "خاتالىق ئۇچۇرى '%s'."
+
+#: ../DistUpgrade/DistUpgradeViewText.py:91
+msgid ""
+"Please report this as a bug and include the files /var/log/dist-"
+"upgrade/main.log and /var/log/dist-upgrade/apt.log in your report. The "
+"upgrade has aborted.\n"
+"Your original sources.list was saved in /etc/apt/sources.list.distUpgrade."
+msgstr ""
+"بۇنى كەمتۈك دەپ قاراپ مەلۇم قىلىڭ. ھەم مەلۇماتقا  /var/log/dist-"
+"upgrade/main.log ۋە /var/log/dist-upgrade/apt.log نى قوشۇپ ئەۋەتىڭ. upgrade "
+"توختىتىلدى.\n"
+"ئەسلىدىكى sources.list ھۆججىتى /etc/apt/sources.list.distUpgrade قىلىپ "
+"ساقلاندى."
+
+#: ../DistUpgrade/DistUpgradeViewText.py:115
+msgid "Aborting"
+msgstr "توختىتىۋاتىدۇ"
+
+#: ../DistUpgrade/DistUpgradeViewText.py:120
+msgid "Demoted:\n"
+msgstr "تۆۋەنلىتىلدى:\n"
+
+#: ../DistUpgrade/DistUpgradeViewText.py:127
+msgid "To continue please press [ENTER]"
+msgstr "داۋاملاشتۇرۇش ئۈچۈن [ENTER] نى بېسىڭ"
+
+#: ../DistUpgrade/DistUpgradeViewText.py:155
+#: ../DistUpgrade/DistUpgradeViewText.py:193
+#: ../DistUpgrade/DistUpgradeViewText.py:200
+msgid "Continue [yN] "
+msgstr "داۋاملاشتۇرۇش[yN] "
+
+#: ../DistUpgrade/DistUpgradeViewText.py:155
+#: ../DistUpgrade/DistUpgradeViewText.py:193
+msgid "Details [d]"
+msgstr "تەپسىلاتلار[d]"
+
+#. TRANSLATORS: the "y" is "yes"
+#. TRANSLATORS: first letter of a positive (yes) answer
+#: ../DistUpgrade/DistUpgradeViewText.py:159
+#: ../DistUpgrade/DistUpgradeViewText.py:203
+msgid "y"
+msgstr "y"
+
+#. TRANSLATORS: the "n" is "no"
+#. TRANSLATORS: first letter of a negative (no) answer
+#: ../DistUpgrade/DistUpgradeViewText.py:162
+#: ../DistUpgrade/DistUpgradeViewText.py:210
+msgid "n"
+msgstr "n"
+
+#. TRANSLATORS: the "d" is "details"
+#: ../DistUpgrade/DistUpgradeViewText.py:165
+msgid "d"
+msgstr "d"
+
+#: ../DistUpgrade/DistUpgradeViewText.py:170
+#, python-format
+msgid "No longer supported: %s\n"
+msgstr "بۇنىڭدىن كېيىن ئىشلەتكىلى بولمايدۇ: %s\n"
+
+#: ../DistUpgrade/DistUpgradeViewText.py:175
+#, python-format
+msgid "Remove: %s\n"
+msgstr "ئۆچۈرۈش: %s\n"
+
+#: ../DistUpgrade/DistUpgradeViewText.py:185
+#, python-format
+msgid "Install: %s\n"
+msgstr "ئورنىتىش: %s\n"
+
+#: ../DistUpgrade/DistUpgradeViewText.py:190
+#, python-format
+msgid "Upgrade: %s\n"
+msgstr "Upgrade: %s\n"
+
+#: ../DistUpgrade/DistUpgradeViewText.py:207
+msgid "Continue [Yn] "
+msgstr "داۋاملاشتۇرۇش: [Yn] "
+
+#: ../DistUpgrade/DistUpgradeViewText.py:228
+msgid ""
+"To finish the upgrade, a restart is required.\n"
+"If you select 'y' the system will be restarted."
+msgstr ""
+"upgrade تاماملاش ئۈچۈن قايتا قوزغىتىش زۆرۈردۇر.\n"
+"'y' نى تاللىسىڭىز سىستېما قايتا قوزغىلىدۇ."
+
+#: ../DistUpgrade/DistUpgrade.ui.h:1
+msgid "    "
+msgstr "    "
+
+#: ../DistUpgrade/DistUpgrade.ui.h:2
+msgid ""
+"<b><big>Cancel the running upgrade?</big></b>\n"
+"\n"
+"The system could be in an unusable state if you cancel the upgrade. You are "
+"strongly adviced to resume the upgrade."
+msgstr ""
+"<b><big>ئىجرا قىلىۋاتقان upgrade نى ئەمەلدىن قالدۇرامسىز؟</big></b>\n"
+"\n"
+"ئەگەر ئەمەلدىن قالدۇرسىڭىز سىستېمىڭىز ئىشلەتكىلى بولمايدىغان ھالەتكە چۈشۈپ "
+"قالىدۇ. upgrade نى داۋاملاشتۇرۇشىڭىزنى كۈچلۈك تەۋسىيە قىلىمىز."
+
+#: ../DistUpgrade/DistUpgrade.ui.h:5
+msgid ""
+"<b><big>Restart the system to complete the upgrade</big></b>\n"
+"\n"
+"Please save your work before continuing."
+msgstr ""
+"<b><big>upgrade نى تاماملاش ئۈچۈن سىستېمىنى قايتا قوزغىتىدۇ.</big></b>\n"
+"\n"
+"شۇڭا ئاۋۋال ھازىرقى ساقلاشقا تېگىشلىك مەزمۇنلارنى ساقلىۋېلىڭ."
+
+#: ../DistUpgrade/DistUpgrade.ui.h:8
+msgid "<b><big>Start the upgrade?</big></b>"
+msgstr "<b><big>upgrade نى باشلامسىز؟</big></b>"
+
+#: ../DistUpgrade/DistUpgrade.ui.h:9
+msgid "<b><big>Upgrading Ubuntu to version 11.10</big></b>"
+msgstr "<b><big>ئۇبۇنتۇ 11.10 نەشرىگە يۈكسەلدۈرۈش</big></b>"
+
+#: ../DistUpgrade/DistUpgrade.ui.h:12
+msgid "Difference between the files"
+msgstr "ھۆججەتلەر ئارىسىدىكى پەرق"
+
+#: ../DistUpgrade/DistUpgrade.ui.h:13
+msgid "Distribution Upgrade"
+msgstr "Distribution نى Upgrade قىلىش"
+
+#: ../DistUpgrade/DistUpgrade.ui.h:17
+msgid "Restarting the computer"
+msgstr "كومپيۇتېرنى قايتا قوزغىتىش"
+
+#: ../DistUpgrade/DistUpgrade.ui.h:18
+msgid "Setting new software channels"
+msgstr "يېڭى يۇمشاق دېتال قانىلىنى تەڭشەش"
+
+#: ../DistUpgrade/DistUpgrade.ui.h:19
+msgid "Terminal"
+msgstr "تېرمىنال"
+
+#: ../DistUpgrade/DistUpgrade.ui.h:20
+msgid "_Cancel Upgrade"
+msgstr "upgrade نى ئەمەلدىن قالدۇر(_C)"
+
+#: ../DistUpgrade/DistUpgrade.ui.h:21
+msgid "_Continue"
+msgstr "داۋاملاشتۇر(_C)"
+
+#: ../DistUpgrade/DistUpgrade.ui.h:23
+msgid "_Replace"
+msgstr "ئالماشتۇر(_R)"
+
+#: ../DistUpgrade/DistUpgrade.ui.h:24
+msgid "_Report Bug"
+msgstr "كەمتۈك مەلۇم قىلىش(_R)"
+
+#: ../DistUpgrade/DistUpgrade.ui.h:26
+msgid "_Resume Upgrade"
+msgstr "Upgrade نى  داۋاملاشتۇر"
+
+#: ../DistUpgrade/DistUpgrade.ui.h:27
+msgid "_Start Upgrade"
+msgstr "upgrade نى باشلا(_S)"
+
+#: ../UpdateManager/backend/InstallBackendSynaptic.py:55
+msgid "Please wait, this can take some time."
+msgstr "ساقلاڭ، ئازراق ۋاقىت كېتىدۇ"
+
+#: ../UpdateManager/backend/InstallBackendSynaptic.py:57
+msgid "Update is complete"
+msgstr "يېڭىلاش تاماملاندى"
+
+#: ../UpdateManager/DistUpgradeFetcher.py:108
+#: ../UpdateManager/DistUpgradeFetcherKDE.py:102
+msgid "Could not find the release notes"
+msgstr "نەشر ئۇچۇرلىرى تېپىلمىدى"
+
+#: ../UpdateManager/DistUpgradeFetcher.py:109
+#: ../UpdateManager/DistUpgradeFetcherKDE.py:103
+msgid "The server may be overloaded. "
+msgstr "مۇلازىمېتىرنىڭ يۈكى ئېشىپ كەتكەندەك قىلىدۇ. "
+
+#: ../UpdateManager/DistUpgradeFetcher.py:119
+#: ../UpdateManager/DistUpgradeFetcherKDE.py:107
+msgid "Could not download the release notes"
+msgstr "نەشر ئۇچۇرلىرى چۈشۈرەلمىدى"
+
+#: ../UpdateManager/DistUpgradeFetcher.py:120
+#: ../UpdateManager/DistUpgradeFetcherKDE.py:108
+msgid "Please check your internet connection."
+msgstr "ئىنتېرنېت باغلىنىشىنى تەكشۈرۈڭ"
+
+#: ../UpdateManager/DistUpgradeFetcherKDE.py:61
+#: ../UpdateManager/DistUpgradeFetcherKDE.py:84
+msgid "Upgrade"
+msgstr "Upgrade قىل"
+
+#: ../UpdateManager/DistUpgradeFetcherKDE.py:88
+#: ../data/gtkbuilder/UpdateManager.ui.h:13
+#: ../data/gtkbuilder/UpgradePromptDialog.ui.h:4
+msgid "Release Notes"
+msgstr "تارقىتىش چۈشەندۈرۈشى"
+
+#: ../UpdateManager/DistUpgradeFetcherKDE.py:127
+#: ../UpdateManager/DistUpgradeFetcherKDE.py:140
+#: ../UpdateManager/DistUpgradeFetcherKDE.py:142
+msgid "Downloading additional package files..."
+msgstr "قوشۇمچە بولاق ھۆججەتلىرىنى چۈشۈرۈۋاتىدۇ..."
+
+#: ../UpdateManager/DistUpgradeFetcherKDE.py:140
+#, python-format
+msgid "File %s of %s at %sB/s"
+msgstr "ھۆججەت%s / %s (%sB/s)"
+
+#: ../UpdateManager/DistUpgradeFetcherKDE.py:142
+#, python-format
+msgid "File %s of %s"
+msgstr "ھۆججەت %s / %s"
+
+#: ../UpdateManager/ChangelogViewer.py:73
+msgid "Open Link in Browser"
+msgstr "ئۇلانمىنى توركۆرگۈدە ئېچىش"
+
+#: ../UpdateManager/ChangelogViewer.py:76
+msgid "Copy Link to Clipboard"
+msgstr "ئۇلانمىنى Clipboard كۆچۈرۈش"
+
+#: ../UpdateManager/GtkProgress.py:159
+#, python-format
+msgid "Downloading file %(current)li of %(total)li with %(speed)s/s"
+msgstr "ھۆججەت چۈشۈرۈۋاتىدۇ %(current)li / %(total)li  تېزلىكى %(speed)s/s"
+
+#: ../UpdateManager/GtkProgress.py:164
+#, python-format
+msgid "Downloading file %(current)li of %(total)li"
+msgstr "ھۆججەت چۈشۈرۈۋاتىدۇ %(current)li / %(total)li"
+
+#: ../UpdateManager/UpdateManager.py:105 ../do-release-upgrade:90
+msgid "Your Ubuntu release is not supported anymore."
+msgstr "سىز ئىشلىتىۋاتقان Ubuntu غا ئەمدى تېخنىكىلىق ياردەم تەمىنلەنمەيدۇ."
+
+#: ../UpdateManager/UpdateManager.py:106
+msgid ""
+"You will not get any further security fixes or critical updates. Please "
+"upgrade to a later version of Ubuntu Linux."
+msgstr ""
+"بۇنىڭدىن كېيىن بىخەتەرلىك ياكى مۇھىم يېڭىلاشلارنى ئېلىپ بارالمايسىز. "
+"ئىشلىتىۋاتقان Ubuntu نى ئەڭ يېڭى نەشرىگە يۈكسەلدۈرۈڭ."
+
+#: ../UpdateManager/UpdateManager.py:114
+msgid "Upgrade information"
+msgstr "upgrade ئۇچۇرى"
+
+#. upload_archive = version_match.group(2).strip()
+#: ../UpdateManager/UpdateManager.py:389
+#, python-format
+msgid "Version %s: \n"
+msgstr "نەشرى %s: \n"
+
+#: ../UpdateManager/UpdateManager.py:445
+msgid ""
+"No network connection detected, you can not download changelog information."
+msgstr ""
+"تور باغلىنىشى تېپىلمىدى، ئۆزگىرىش خاتىرىسى ئۇچۇرنى چۈشۈرگىلى بولمايدۇ."
+
+#: ../UpdateManager/UpdateManager.py:453
+msgid "Downloading list of changes..."
+msgstr "ئۆزگىرىشلەرنىڭ تىزىملىكىنى چۈشۈرۈۋاتىدۇ..."
+
+#: ../UpdateManager/UpdateManager.py:497
+msgid "_Deselect All"
+msgstr "ھېچنېمىنى تاللىما(_D)"
+
+#: ../UpdateManager/UpdateManager.py:503
+msgid "Select _All"
+msgstr "ھەممىنى تاللا(_A)"
+
+#: ../UpdateManager/UpdateManager.py:552
+#, python-format
+msgid "%(count)s update has been selected."
+msgid_plural "%(count)s updates have been selected."
+msgstr[0] "%(count)s دانە يېڭىلانما تاللاندى."
+
+#: ../UpdateManager/UpdateManager.py:556
+#, python-format
+msgid "%s will be downloaded."
+msgstr "%s چۈشۈرۈلىدۇ."
+
+#: ../UpdateManager/UpdateManager.py:568
+msgid "The update has already been downloaded, but not installed"
+msgid_plural "The updates have already been downloaded, but not installed"
+msgstr[0] "يېڭىلانمىلار چۈشۈرۈلگەن ئىكەن، بىراق ئورنىتىلماپتۇ"
+
+#: ../UpdateManager/UpdateManager.py:573
+msgid "There are no updates to install"
+msgstr "ئورنىتىدىغان يېڭىلانمىلار يوق"
+
+#. TRANSLATORS: this allows to switch the order of the count of
+#. updates and the download size string (if needed)
+#: ../UpdateManager/UpdateManager.py:579
+#, python-format
+msgid "%(count_str)s %(download_str)s"
+msgstr "%(count_str)s %(download_str)s"
+
+#: ../UpdateManager/UpdateManager.py:586
+msgid "Unknown download size."
+msgstr "چۈشۈرۈش چوڭلۇقى نامەلۇم."
+
+#: ../UpdateManager/UpdateManager.py:612
+msgid ""
+"It is unknown when the package information was updated last. Please click "
+"the 'Check' button to update the information."
+msgstr ""
+"بوغچا ئۇچۇرىنىڭ قاچان يېڭىلانغانلىقى نامەلۇم. ‹تەكشۈر› توپچىسىنى ئىشلىتىپ "
+"ئۇچۇرلارنى يېڭىلاڭ."
+
+#: ../UpdateManager/UpdateManager.py:618
+#, python-format
+msgid ""
+"The package information was last updated %(days_ago)s days ago.\n"
+"Press the 'Check' button below to check for new software updates."
+msgstr ""
+"بوغچا ئۇچۇرى ئەڭ ئاخىرقى قېتىملىق يېڭىلانغان ۋاقتى %(days_ago)s كۈن بۇرۇن.\n"
+"تۆۋەندىكى «تەكشۈر» توپچىسىنى بېسىپ يۇمشاق دېتاللارنىڭ يېڭىلانمىسىنى تەكشۈرۈڭ."
+
+#: ../UpdateManager/UpdateManager.py:623
+#, python-format
+msgid "The package information was last updated %(days_ago)s day ago."
+msgid_plural ""
+"The package information was last updated %(days_ago)s days ago."
+msgstr[0] "بوغچا ئۇچۇرلىرى %(days_ago)s كۈن بۇرۇن يېڭىلانغان."
+
+#: ../UpdateManager/UpdateManager.py:627
+#, python-format
+msgid "The package information was last updated %(hours_ago)s hour ago."
+msgid_plural ""
+"The package information was last updated %(hours_ago)s hours ago."
+msgstr[0] "بوغچا ئۇچۇرلىرى %(hours_ago)s سائەت بۇرۇن يېڭىلانغان."
+
+#. TRANSLATORS: only in plural form, as %s minutes ago is one of 15, 30, 45 minutes ago
+#: ../UpdateManager/UpdateManager.py:632 ../UpdateManager/UpdateManager.py:634
+#: ../UpdateManager/UpdateManager.py:636
+#, python-format
+msgid "The package information was last updated about %s minutes ago."
+msgstr "بوغچا ئۇچۇرى %s مىنۇت ئىلگىرى يېڭىلانغان."
+
+#: ../UpdateManager/UpdateManager.py:638
+msgid "The package information was just updated."
+msgstr "بوغچا ئۇچۇرى ھازىرلا يېڭىلانغان."
+
+#: ../UpdateManager/UpdateManager.py:658
+#: ../data/gtkbuilder/UpdateManager.ui.h:22
+msgid ""
+"Software updates correct errors, eliminate security vulnerabilities and "
+"provide new features."
+msgstr ""
+"يۇمشاق دېتال يېڭىلانمىلىرى خاتالىقلارنى تۈزىتىدۇ، بىخەتەرلىكتىكى بوشلۇقلارنى "
+"يوق قىلىدۇ، يېڭى ئىقتىدارلارنى تەمىنلەيدۇ."
+
+#: ../UpdateManager/UpdateManager.py:677
+msgid "Software updates may be available for your computer."
+msgstr ""
+"سىزنىڭ كومپيۇتېرىڭىزدا ئىشلەتكىلى بولىدىغان يېڭىلانمىلار بار بولۇشى مۇمكىن."
+
+#: ../UpdateManager/UpdateManager.py:685
+msgid "Welcome to Ubuntu"
+msgstr "Ubuntu غا مەرھابا"
+
+#: ../UpdateManager/UpdateManager.py:687
+msgid ""
+"These software updates have been issued since this version of Ubuntu was "
+"released. If you don't want to install them now, choose \"Update Manager\" "
+"from Applications later."
+msgstr ""
+
+#: ../UpdateManager/UpdateManager.py:689
+msgid ""
+"These software updates have been issued since this version of Ubuntu was "
+"released. If you don't want to install them now, choose \"Update Manager\" "
+"from the Administration Menu later."
+msgstr ""
+
+#: ../UpdateManager/UpdateManager.py:692
+msgid "Software updates are available for this computer"
+msgstr "مەزكۇر كومپيۇتېردىكى يۇمشاق دېتاللارنىڭ يېڭىلانمىلىرى بار"
+
+#: ../UpdateManager/UpdateManager.py:694
+msgid ""
+"If you don't want to install them now, choose \"Update Manager\" from "
+"Applications later."
+msgstr ""
+"ئەگەر ھازىر ئورناتقۇڭىز بولمىسا، كېيىن پروگرامما تىزىمىدىن «يېڭىلانما "
+"باشقۇرغۇ(Update Manager)» نى تاللىسىڭىز بولىدۇ."
+
+#: ../UpdateManager/UpdateManager.py:696
+msgid ""
+"If you don't want to install them now, choose \"Update Manager\" from the "
+"Administration menu later."
+msgstr ""
+"ئۇلارنى ھازىر ئورناتقۇڭىز كەلمىسە، كېيىن سىستېما تىزىملىكىدىكى «باشقۇرۇش» "
+"نىڭ ئىچىدىكى \"Update Manager\" نى تاللىسىڭىز بولىدۇ."
+
+#: ../UpdateManager/UpdateManager.py:748
+#, python-format
+msgid ""
+"The upgrade needs a total of %s free space on disk '%s'. Please free at "
+"least an additional %s of disk space on '%s'. Empty your trash and remove "
+"temporary packages of former installations using 'sudo apt-get clean'."
+msgstr ""
+"upgrade ئۈچۈن جەمئىي %s بىكار بوشلۇق '%s' دىسكىدا بولۇشى كېرەك. ئەڭ ئاز "
+"دېگەندە يەنە %s بىكار بوشلۇقنى دىسكا '%s' دا پەيدا قىلىڭ. بۇنىڭ ئۈچۈن ئەخلەت "
+"ساندۇقنى تازىلاڭ، 'sudo apt-get clean' نى ئىشلىتىپ ۋاقىتلىق بوغچىلارنى "
+"ئۆچۈرۈڭ."
+
+#: ../UpdateManager/UpdateManager.py:773
+msgid ""
+"The computer needs to restart to finish installing updates. Please save your "
+"work before continuing."
+msgstr ""
+"يېڭىلاشنى تاماملاش ئۈچۈن كومپيۇتېرنى قايتا قوزغىتىش زۆرۈر. شۇڭا ھازىر "
+"قىلىۋاتقان ئىشلىرىڭىزنى ساقلىۋېلىڭ."
+
+#: ../UpdateManager/UpdateManager.py:837
+msgid "Reading package information"
+msgstr "بوغچا ئۇچۇرىنى ئوقۇۋاتىدۇ"
+
+#: ../UpdateManager/UpdateManager.py:852
+msgid "Connecting..."
+msgstr "باغلىنىۋاتىدۇ..."
+
+#: ../UpdateManager/UpdateManager.py:869
+msgid "You may not be able to check for updates or download new updates."
+msgstr ""
+"يېڭىلانمىلارنى تەكشۈرەلمەسلىكىڭىز ياكى يېڭىلانمىلارنى چۈشۈرەلمەسلىكىڭىز "
+"مۇمكىن."
+
+#: ../UpdateManager/UpdateManager.py:994
+msgid "Could not initialize the package information"
+msgstr "بوغچا ئۇچۇرىنى دەسلەپلەشتۈرگىلى بولمىدى"
+
+#: ../UpdateManager/UpdateManager.py:995
+msgid ""
+"An unresolvable problem occurred while initializing the package "
+"information.\n"
+"\n"
+"Please report this bug against the 'update-manager' package and include the "
+"following error message:\n"
+msgstr ""
+"بوغچىلارنى دەسلەپلەشتۈرۈۋاتقاندا، ھەل قىلغىلى بولمايدىغان مەسىلە كۆرۈلدى.\n"
+"\n"
+"'update-manager' بوغچا ھەققىدە كەمتۈك مەلۇماتى يوللاڭ. ھەم مەلۇماتقا  "
+"تۆۋەندىكى ئۇچۇرلارنى قوشۇپ ئەۋەتىڭ:\n"
+
+#: ../UpdateManager/UpdateManager.py:1024
+msgid ""
+"An unresolvable problem occurred while calculating the upgrade.\n"
+"\n"
+"Please report this bug against the 'update-manager' package and include the "
+"following error message:"
+msgstr ""
+"upgrade نى ھېسابلاۋاتقاندا، ھەل قىلغىلى بولمايدىغان مەسىلە كۆرۈلدى.\n"
+"\n"
+"'update-manager' بوغچا ھەققىدە كەمتۈك مەلۇماتى يوللاڭ. ھەم مەلۇماتقا  "
+"تۆۋەندىكى ئۇچۇرلارنى قوشۇپ ئەۋەتىڭ:"
+
+#: ../UpdateManager/UpdateManager.py:1049
+msgid " (New install)"
+msgstr " (يېڭىدىن ئورنىتىش)"
+
+#. TRANSLATORS: the b stands for Bytes
+#: ../UpdateManager/UpdateManager.py:1056
+#, python-format
+msgid "(Size: %s)"
+msgstr "(چوڭلۇقى: %s)"
+
+#: ../UpdateManager/UpdateManager.py:1058
+#, python-format
+msgid "From version %(old_version)s to %(new_version)s"
+msgstr "%(old_version)s نەشرىدىن %(new_version)s گە"
+
+#: ../UpdateManager/UpdateManager.py:1062
+#, python-format
+msgid "Version %s"
+msgstr "نەشر %s"
+
+#: ../UpdateManager/UpdateManager.py:1093 ../do-release-upgrade:102
+msgid "Release upgrade not possible right now"
+msgstr "ھازىر Release upgrade قىلىش مۇمكىن ئەمەس"
+
+#: ../UpdateManager/UpdateManager.py:1094 ../do-release-upgrade:103
+#, c-format, python-format
+msgid ""
+"The release upgrade can not be performed currently, please try again later. "
+"The server reported: '%s'"
+msgstr ""
+"نۆۋەتتە release upgrade مەشغۇلاتىنى ئېلىپ بېرىشقا بولمىدى. كېيىن قايتا سىناپ "
+"كۆرۈڭ. مۇلازىمېتىر تۆۋەندىكىنى مەلۇم قىلدى: '%s'"
+
+#: ../UpdateManager/UpdateManager.py:1096 ../check-new-release-gtk:116
+msgid "Downloading the release upgrade tool"
+msgstr "نەشر upgrade قورالىنى چۈشۈرۈۋاتىدۇ"
+
+#: ../UpdateManager/UpdateManager.py:1103
+#, python-format
+msgid "<b>New Ubuntu release '%s' is available</b>"
+msgstr "<b>يېڭى Ubuntu نەشرى '%s' بار ئىكەن</b>"
+
+#. we assert a clean cache
+#: ../UpdateManager/UpdateManager.py:1142
+msgid "Software index is broken"
+msgstr "يۇمشاق دېتال ئىندېكسى بۇزۇلغان"
+
+#: ../UpdateManager/UpdateManager.py:1143
+msgid ""
+"It is impossible to install or remove any software. Please use the package "
+"manager \"Synaptic\" or run \"sudo apt-get install -f\" in a terminal to fix "
+"this issue at first."
+msgstr ""
+"ھېچقانداق يۇمشاق دېتالنى ئۆچۈرۈشكە ياكى ئورنىتىشقا بولمايدۇ. شۇڭا ئالدى "
+"بىلەن \"Synaptic\" ياكى تېرمىنالدا \"sudo apt-get install -f\" نى ئىجرا "
+"قىلىپ بۇ مەسىلىنى تۈزۈتۈڭ."
+
+#: ../UpdateManager/UnitySupport.py:57
+msgid "Check for Updates"
+msgstr "يېڭىلانمىلار بارمۇ تەكشۈر"
+
+#: ../UpdateManager/UnitySupport.py:66
+msgid "Install All Available Updates"
+msgstr "بار بولغان بارلىق يېڭىلانمىلارنى ئورنىتىش"
+
+#: ../UpdateManagerText/UpdateManagerText.py:31
+msgid "Cancel"
+msgstr "ۋاز كەچ"
+
+#: ../UpdateManagerText/UpdateManagerText.py:32
+msgid "Install"
+msgstr "ئورنات"
+
+#: ../UpdateManagerText/UpdateManagerText.py:50
+msgid "Building Updates List"
+msgstr "يېڭىلانمىلار تىزىملىكىنى قۇرۇۋاتىدۇ"
+
+#: ../UpdateManagerText/UpdateManagerText.py:53
+msgid ""
+"\n"
+"A normal upgrade can not be calculated, please run: \n"
+"  sudo apt-get dist-upgrade\n"
+"\n"
+"\n"
+"This can be caused by:\n"
+" * A previous upgrade which didn't complete\n"
+" * Problems with some of the installed software\n"
+" * Unofficial software packages not provided by Ubuntu\n"
+" * Normal changes of a pre-release version of Ubuntu"
+msgstr ""
+"\n"
+"نورمال upgrade قىلىشنى ھېسابلىغىلى بولمىدى، تۆۋەندىكى بۇيرۇقنى ئىجرا قىلىڭ: "
+"\n"
+"  sudo apt-get dist-upgrade\n"
+"\n"
+"\n"
+"بۇنداق بولۇشتىكى سەۋەب:\n"
+" * ئالدىنقى قېتىملىق upgrade قىلىش تاماملانمىغان\n"
+" * ئورنىتىلغان بىر قىسىم يۇمشاق دېتاللاردا مەسىلە بار\n"
+" * Ubuntu تەمىنلىمىگەن بىر قىسىم يۇمشاق دېتال بوغچىلىرى بار\n"
+" * Ubuntu نىڭ pre-release نەشرىدىكى ئۆزگىرىشلەر"
+
+#: ../UpdateManagerText/UpdateManagerText.py:122
+msgid "Downloading changelog"
+msgstr "ئۆزگەرتىش خاتىرىسىنى چۈشۈرۈۋاتىدۇ"
+
+#: ../UpdateManager/Core/MyCache.py:128
+#, python-format
+msgid "Other updates (%s)"
+msgstr "باشقا يېڭىلانمىلار (%s)"
+
+#: ../UpdateManager/Core/MyCache.py:283
+#, python-format
+msgid ""
+"Changes for the versions:\n"
+"Installed version: %s\n"
+"Available version: %s\n"
+"\n"
+msgstr ""
+"نەشردىكى ئۆزگىرىشلەر:\n"
+"ئورنىتىلغان نەشرى:%s\n"
+"ئىشلەتكىلى بولىدىغان نەشرى:%s\n"
+"\n"
+
+#: ../UpdateManager/Core/MyCache.py:297
+msgid "This update does not come from a source that supports changelogs."
+msgstr ""
+
+#: ../UpdateManager/Core/MyCache.py:303 ../UpdateManager/Core/MyCache.py:324
+msgid ""
+"Failed to download the list of changes. \n"
+"Please check your Internet connection."
+msgstr ""
+"ئۆزگىرىش تىزىملىكىنى چۈشۈرۈش مەغلۇپ بولدى.\n"
+"ئىنتېرنېت باغلىنىشىڭىزنى تەكشۈرۈڭ."
+
+#: ../UpdateManager/Core/MyCache.py:313
+#, python-format
+msgid ""
+"The changelog does not contain any relevant changes.\n"
+"\n"
+"Please use http://launchpad.net/ubuntu/+source/%s/%s/+changelog\n"
+"until the changes become available or try again later."
+msgstr ""
+"ئۆزگەرتىش خاتىرىسىدە مۇناسىۋەتلىك ئۆزگىرىشلەر يوق.\n"
+"\n"
+"http://launchpad.net/ubuntu/+source/%s/%s/+changelog\n"
+"ئۆزگەرتىش خاتىرىسى تەييار بولغۇچە ئىشلىتىڭ ياكى كېيىن يەنە سىناپ كۆرۈڭ."
+
+#: ../UpdateManager/Core/MyCache.py:318
+#, python-format
+msgid ""
+"The list of changes is not available yet.\n"
+"\n"
+"Please use http://launchpad.net/ubuntu/+source/%s/%s/+changelog\n"
+"until the changes become available or try again later."
+msgstr ""
+"ئۆزگىرىشلەرنىڭ تىزىملىكىنى تېخى ئىشلەتكىلى بولمايدۇ.\n"
+"\n"
+"http://launchpad.net/ubuntu/+source/%s/%s/+changelog نىڭغا بېرىڭ\n"
+"ئۆزگەرتىش خاتىرىسى تەييار بولغۇچە ئىشلىتىڭ ياكى كېيىن يەنە سىناپ كۆرۈڭ."
+
+#: ../UpdateManager/Core/UpdateList.py:49
+msgid "Failed to detect distribution"
+msgstr "distribution نى بايقاش مەغلۇپ بولدى"
+
+#: ../UpdateManager/Core/UpdateList.py:50
+#, python-format
+msgid "A error '%s' occurred while checking what system you are using."
+msgstr ""
+"قايسى سىستېمىنى ئىشلىتىۋاتقانلىقىڭىزنى تەكشۈرۈۋاتقاندا '%s' دېگەن خاتالىق "
+"كۆرۈلدى"
+
+#: ../UpdateManager/Core/UpdateList.py:61
+msgid "Important security updates"
+msgstr "بىخەتەرلىككە مۇناسىۋەتلىك مۇھىم يېڭىلانمىلار"
+
+#: ../UpdateManager/Core/UpdateList.py:62
+msgid "Recommended updates"
+msgstr "تەۋسىيىلىك يېڭىلانمىلار"
+
+#: ../UpdateManager/Core/UpdateList.py:63
+msgid "Proposed updates"
+msgstr "تەكلىپلىك يېڭىلانمىلار"
+
+#: ../UpdateManager/Core/UpdateList.py:64
+msgid "Backports"
+msgstr "Backports"
+
+#: ../UpdateManager/Core/UpdateList.py:65
+msgid "Distribution updates"
+msgstr "Distribution يېڭىلانمىلىرى"
+
+#: ../UpdateManager/Core/UpdateList.py:70
+msgid "Other updates"
+msgstr "باشقا يېڭىلانمىلار"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:1
+msgid ""
+"<b><big>You must check for updates manually</big></b>\n"
+"\n"
+"Your system does not check for updates automatically. You can configure this "
+"behavior in <i>Software Sources</i> on the <i>Updates</i> tab."
+msgstr ""
+"<b><big>يېڭىلانمىلارنى قولدا تەكشۈرۈشىڭىز زۆرۈر</big></b>\n"
+"\n"
+"سىستېمىڭىز يېڭىلانمىلارنى ئاپتوماتىك تەكشۈرمەيدۇ. ئاپتوماتىك تەكشۈرىدىغان "
+"قىلىش ئۈچۈن <i>يېڭىلانمىلار</i> بەتكۈچىدىكى <i>يۇمشاق دېتال مەنبەلىرى</i>نى "
+"تەڭشىسىڭىز بولىدۇ."
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:4
+msgid "<big><b>Not all updates can be installed</b></big>"
+msgstr "<b><big>ھەممە يېڭىلانمىلارنى ئورناتقىلى بولمايدۇ</b></big>"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:5
+msgid "<big><b>Running on battery</b></big>"
+msgstr "<b><big>باتارېيىدە مېڭىۋاتىدۇ</b></big>"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:6
+msgid "<big><b>Starting Update Manager</b></big>"
+msgstr "<big><b>Update Manager قوزغىلىۋاتىدۇ</b></big>"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:7
+msgid "Changes"
+msgstr "ئۆزگىرىشلەر"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:8
+msgid "Chec_k"
+msgstr "تەكشۈرۈش(_K)"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:9
+msgid "Co_ntinue"
+msgstr "داۋاملاشتۇر(_N)"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:10
+msgid "Description"
+msgstr "چۈشەندۈرۈلۈشى"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:11
+msgid "Description of update"
+msgstr "يېڭىلانمىنىڭ چۈشەندۈرۈلۈشى"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:12
+msgid "It’s safer to connect the computer to AC power before updating."
+msgstr ""
+"يېڭىلاشتىن ئاۋۋال كومپيۇتېرنى AC(سىرتقى توك مەنبەسى) گە ئۇلاپ قويسىڭىز "
+"بىخەتەر بولىدۇ."
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:14
+msgid ""
+"Run a partial upgrade, to install as many updates as possible. \n"
+"\n"
+"This can be caused by:\n"
+" * A previous upgrade which didn't complete\n"
+" * Problems with some of the installed software\n"
+" * Unofficial software packages not provided by Ubuntu\n"
+" * Normal changes of a pre-release version of Ubuntu"
+msgstr ""
+"ئامالنىڭ بارىچە كۆپرەك يېڭىلانمىلارنى ئورنىتىش ئۈچۈن، قىسمى upgrade نى ئىجرا "
+"قىلىڭ. \n"
+"\n"
+"بۇنداق بولۇشتىكى سەۋەب:\n"
+" * ئالدىنقى قېتىملىق upgrade قىلىش تاماملانمىغان\n"
+" * ئورنىتىلغان بىر قىسىم يۇمشاق دېتاللاردا مەسىلە بار\n"
+" * Ubuntu تەمىنلىمىگەن بىر قىسىم يۇمشاق دېتال بوغچىلىرى بار\n"
+" * Ubuntu نىڭ pre-release نەشرىدىكى ئۆزگىرىشلەر"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:21
+#: ../data/gtkbuilder/UpgradePromptDialog.ui.h:5
+msgid "Show progress of individual files"
+msgstr "ھەر بىر ھۆججەتنىڭ بىر تەرەپ قىلىش جەريانىنى كۆرسەتسۇن"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:23
+msgid "Starting Update Manager"
+msgstr "Update Manager قوزغىلىۋاتىدۇ"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:24
+msgid "U_pgrade"
+msgstr "Upgrade(_P)"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:25
+#: ../data/update-manager.desktop.in.h:3
+msgid "Update Manager"
+msgstr "Update Manager"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:26
+msgid "You are connected via a wireless modem."
+msgstr "سىمسىز مودېم ئارىلىق باغلاندىڭىز"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:27
+msgid ""
+"You are connected via roaming and may be charged for the data consumed by "
+"this update."
+msgstr ""
+"كەزمە مۇلازىمەت ئارقىلىق باغلىنىۋاتىسىز. يېڭىلاشتا سانلىق-مەلۇمات ئالاقىسى "
+"ئۈچۈن جىقراق پۇل كېتىشى مۇمكىن."
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:28
+msgid "Your system is running on battery. Are you sure you want to continue?"
+msgstr "سىستېمىڭىز باتارېيىدە مېڭىۋاتىدۇ. داۋاملاشتۇرامسىز؟"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:29
+msgid "_Hide this information in the future"
+msgstr "كېيىن بۇ ئۇچۇرنى يوشۇر(_I)"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:30
+msgid "_Install Updates"
+msgstr "يېڭىلانمىلارنى ئورنات(_I)"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:31
+msgid "_Partial Upgrade"
+msgstr "قىسمى Upgrade(_P)"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:33
+msgid "_Settings..."
+msgstr "تەڭشەك…"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:34
+msgid "_Upgrade"
+msgstr "Upgrade(_U)"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:35
+msgid "updates"
+msgstr "يېڭىلانمىلار"
+
+#: ../data/gtkbuilder/UpgradePromptDialog.ui.h:1
+msgid ""
+"<b>A new version of Ubuntu is available. Would you like to upgrade?</b>"
+msgstr "<b>Ubuntu يېڭى نەشرى بار ئىكەن، upgrade قىلامسىز؟</b>"
+
+#: ../data/gtkbuilder/UpgradePromptDialog.ui.h:2
+msgid "Ask Me Later"
+msgstr "كېيىن سورىغىن"
+
+#: ../data/gtkbuilder/UpgradePromptDialog.ui.h:3
+msgid "Don't Upgrade"
+msgstr "Upgrade قىلما"
+
+#: ../data/gtkbuilder/UpgradePromptDialog.ui.h:6
+msgid "Yes, Upgrade Now"
+msgstr "ھەئە، ھازىرلا Upgrade قىل"
+
+#: ../data/gtkbuilder/UpgradePromptDialog.ui.h:7
+msgid ""
+"You can upgrade at a later time by opening Update Manager and click on "
+"\"Upgrade\"."
+msgstr ""
+"Update Manager دىكى \"Upgrade\" نى چېكىش ئارقىلىق كېيىن يەنە upgrade "
+"قىلالايسىز."
+
+#: ../data/gtkbuilder/UpgradePromptDialog.ui.h:8
+msgid "You have declined to upgrade to the new Ubuntu"
+msgstr "يېڭى Ubuntu غا upgrade قىلىشنى رەت قىلدىڭىز"
+
+#: ../data/update-manager.desktop.in.h:1
+msgid "Show and install available updates"
+msgstr "بار بولغان يېڭىلانمىلارنى كۆرسىتىش ۋە ئورنىتىش"
+
+#: ../data/update-manager.desktop.in.h:2
+msgid "Software Updates"
+msgstr "يۇمشاق دېتال يېڭىلاش"
+
+#: ../update-manager:54 ../do-release-upgrade:41
+msgid "Show version and exit"
+msgstr "نەشرىنى كۆرسىتىپ چېكىنىش"
+
+#: ../update-manager:57
+msgid "Directory that contains the data files"
+msgstr "سانلىق ئاساس ھۆججەتلىرىنى ئوز ئىچىگە ئالغان مۇندەرىجە"
+
+#: ../update-manager:60
+msgid "Check if a new Ubuntu release is available"
+msgstr "Ubuntu نىڭ يېڭى نەشرى بارمۇ-يوق تەكشۈرۈش"
+
+#: ../update-manager:63 ../do-release-upgrade:44 ../check-new-release-gtk:176
+msgid "Check if upgrading to the latest devel release is possible"
+msgstr "مۇمكىن ئىجادىيەت باسقۇچىدىكى نەشرنى تەكشۈرسۇن"
+
+#: ../update-manager:67
+msgid "Upgrade using the latest proposed version of the release upgrader"
+msgstr "ئەڭ يېڭى نەشرىدە تەۋسىيە قىلىنغان upgrader نى ئىشلىتىپ upgrade قىلىش"
+
+#: ../update-manager:74
+msgid "Do not focus on map when starting"
+msgstr "قوزغالغاندا كۆزنەك فوكۇسلانمىسۇن"
+
+#: ../update-manager:77
+msgid "Try to run a dist-upgrade"
+msgstr "dist-upgrade نى ئىجرا قىلىپ بېقىش"
+
+#: ../update-manager:80
+msgid "Do not check for updates when starting"
+msgstr "باشلانغاندا يېڭىلانمىلارنى تەكشۈرمە"
+
+#: ../update-manager:84 ../do-release-upgrade:60
+msgid "Test upgrade with a sandbox aufs overlay"
+msgstr "sandbox aufs overlay بىلەن upgrade نى سىناپ بېقىش"
+
+#: ../update-manager:104
+msgid "Running partial upgrade"
+msgstr "قىسمى upgrade نى ئىجرا قىلىۋاتىدۇ"
+
+#: ../do-release-upgrade:48 ../check-new-release-gtk:180
+msgid ""
+"Try upgrading to the latest release using the upgrader from $distro-proposed"
+msgstr ""
+"$distro-proposed دىكى upgrader نى ئىشلىتىپ ئەڭ يېڭى نەشرىگە upgrade قىلىپ "
+"بېقىڭ."
+
+#: ../do-release-upgrade:52
+msgid ""
+"Run in a special upgrade mode.\n"
+"Currently 'desktop' for regular upgrades of a desktop system and 'server' "
+"for server systems are supported."
+msgstr ""
+"ئالاھىدە upgrade ھالىتىدە ئىجرا قىلىش.\n"
+"نۆۋەتتە ئۈستەل يۈزى نەشرىدە 'desktop' دېگەن تاللانمىنى، مۇلازىمېتىر نەشرىدە "
+"'server' دېگەن تاللانمىنى قوللايدۇ."
+
+#: ../do-release-upgrade:58
+msgid "Run the specified frontend"
+msgstr "بەلگىلەنگەن frontend نى ئىجرا قىلىش"
+
+#: ../do-release-upgrade:63
+msgid ""
+"Check only if a new distribution release is available and report the result "
+"via the exit code"
+msgstr ""
+"Ubuntu نىڭ يېڭى نەشرىنىڭ بار-يوقلۇقىنىلا تەكشۈرۈپ، نەتىجىنى exit code  مەلۇم "
+"قىلىش"
+
+#: ../do-release-upgrade:77
+msgid "Checking for a new ubuntu release"
+msgstr "Ubuntu نىڭ يېڭى نەشرى بارمۇ تەكشۈرۈۋاتىدۇ"
+
+#: ../do-release-upgrade:91
+msgid ""
+"For upgrade information, please visit:\n"
+"%(url)s\n"
+msgstr ""
+"يېڭىلانمىلار ھەققىدىكى ئۇچۇرلارنى بىلىش ئۈچۈن تۆۋەندىكى تورتۇرانى زىيارەت "
+"قىلىڭ:\n"
+"%(url)s\n"
+
+#: ../do-release-upgrade:97
+msgid "No new release found"
+msgstr "يېڭى نەشرى يوقكەن"
+
+#: ../do-release-upgrade:109
+#, c-format
+msgid "New release '%s' available."
+msgstr "يېڭى نەشرى '%s' بار ئىكەن."
+
+#: ../do-release-upgrade:110
+msgid "Run 'do-release-upgrade' to upgrade to it."
+msgstr "upgrade قىلىش ئۈچۈن 'do-release-upgrade' نى ئىجرا قىلىڭ."
+
+#: ../check-new-release-gtk:91
+msgid "Ubuntu %(version)s Upgrade Available"
+msgstr "Ubuntu %(version) نىڭ upgrade سى بار ئىكەن"
+
+#: ../check-new-release-gtk:132
+#, c-format
+msgid "You have declined the upgrade to Ubuntu %s"
+msgstr "Ubuntu %s غا upgrade قىلىشنى رەت قىلدىڭىز"
+
+#: ../Janitor/computerjanitor/exc.py:30
+#, python-format
+msgid "Unimplemented method: %s"
+msgstr "ئەمەلىيلەشتۈرۈلمىگەن ئۇسۇل: %s"
+
+#: ../Janitor/computerjanitor/file_cruft.py:46
+msgid "A file on disk"
+msgstr "دىسكىدىكى بىر ھۆججەت"
+
+#: ../Janitor/computerjanitor/package_cruft.py:45
+msgid ".deb package"
+msgstr ".deb بوغچىسى"
+
+#: ../Janitor/computerjanitor/missing_package_cruft.py:33
+msgid "Install missing package."
+msgstr "يوقالغان بوغچىلارنى ئورنىتىش"
+
+#: ../Janitor/computerjanitor/missing_package_cruft.py:42
+#, python-format
+msgid "Package %s should be installed."
+msgstr "%s دېگەن بوغچا چوقۇم ئورنىتىلىشى كېرەك."
+
+#. pragma: no cover
+#: ../Janitor/plugins/dpkg_status_plugin.py:36
+#, python-format
+msgid "%i obsolete entries in the status file"
+msgstr "ھالەت ھۆججىتىدە %i دانە تاشلىۋېتىلگەن مەزمۇن بار"
+
+#: ../Janitor/plugins/dpkg_status_plugin.py:39
+msgid "Obsolete entries in dpkg status"
+msgstr "dpkg ھالەت ھۆججىتىدىكى تاشلىۋېتىلگەن مەزمۇنلار"
+
+#. pragma: no cover
+#: ../Janitor/plugins/dpkg_status_plugin.py:42
+msgid "Obsolete dpkg status entries"
+msgstr "تاشلىۋېتىلگەن dpkg ھالەت مەزمۇنلىرى"
+
+#: ../Janitor/plugins/kdelibs4to5_plugin.py:39
+msgid ""
+"When upgrading, if kdelibs4-dev is installed, kdelibs5-dev needs to be "
+"installed. See bugs.launchpad.net, bug #279621 for details."
+msgstr ""
+"upgrade قىلىۋاتقاندا، ئەگەر kdelibs4-dev ئورنىتىلغان بولسا، kdelibs5-dev "
+"نىمۇ ئورنىتىش زۆرۈردۇر. تەپسىلاتىنى bugs.launchpad.net دىكى  كەمتۈك #279621 "
+"دىن كۆرۈڭ."
+
+#: ../Janitor/plugins/langpack_manual_plugin.py:34
+#, python-format
+msgid "%s needs to be marked as manually installed."
+msgstr "%s غا قولدا ئورنىتىلغان دېگەن بەلگە قويۇلۇشى زۆرۈر."
+
+#: ../Janitor/plugins/remove_lilo_plugin.py:28
+msgid ""
+"Remove lilo since grub is also installed.(See bug #314004 for details.)"
+msgstr ""
+"grub ئورنىتىلغانلىقى ئۈچۈن lilo نى ئۆچۈرۈڭ. (تەپسىلاتىنى bug #314004 دىن "
+"كۆرۈڭ)"
+
+#~ msgid "0 KB"
+#~ msgstr "0KB"
+
+#~ msgid "1 KB"
+#~ msgstr "1KB"
+
+#, python-format
+#~ msgid "%.0f KB"
+#~ msgstr "%.0f KB"
+
+#~ msgid ""
+#~ "This is most likely a bug in the upgrade tool. Please report it as a bug"
+#~ msgstr "بۇ upgrade قورالىدىكى كەمتۈك بولۇشى مۇمكىن. بۇ كەمتۈكنى مەلۇم قىلىڭ."
+
+#~ msgid "Previous selected"
+#~ msgstr "بۇرۇن تاللانغان"
+
+#~ msgid "Settings..."
+#~ msgstr "تەڭشەكلەر..."
+
+#~ msgid "Auto close the install window after successful install"
+#~ msgstr ""
+#~ "ئورنىتىش مۇۋەپپەقىيەتلىك تاماملانغاندىن كېيىن ئورنىتىش كۆزنىكىنى ئاپتوماتىك "
+#~ "تاقا."
+
+#~ msgid "First run welcome message"
+#~ msgstr "تۇنجى ئىجرا بولغاندىكى مەرھابا ئۇچۇرى"
+
+#~ msgid "Remind to reload the channel list"
+#~ msgstr "قانال تىزىملىكىنى قايتا ئوقۇشنى ئەسكەرت"
+
+#~ msgid "Show details of an update"
+#~ msgstr "يېڭىلاشنىڭ تەپسىلاتىنى كۆرسەت"
+
+#~ msgid "Show version in update list"
+#~ msgstr "يېڭىلاش تىزىملىكىدە نەشرىنى كۆرسەت"
+
+#~ msgid "The window size"
+#~ msgstr "كۆزنەك چوڭلۇقى"
+
+#, python-format
+#~ msgid ""
+#~ "Changes for the versions:\n"
+#~ "%s\n"
+#~ "%s\n"
+#~ "\n"
+#~ msgstr ""
+#~ "بۇ نەشرىدىكى ئۆزگىرىشلەر：\n"
+#~ "%s\n"
+#~ "%s\n"
+#~ "\n"
+
+#~ msgid ""
+#~ "If this key is set the install window will be automatically closed on "
+#~ "successful installation."
+#~ msgstr ""
+#~ "بۇ ئاچقۇچ بەلگىلەنسە، ئورنىتىش مۇۋەپپەقىيەتلىك بولغاندا ئورنىتىش كۆزنىكى "
+#~ "تاقىلىدۇ"
+
+#~ msgid "If this key is set a first run welcome message will be presented."
+#~ msgstr "بۇ ئاچقۇچ بەلگىلەنسە، دەسلەپكى قوزغىلىشتا «مەرھابا» ئۇچۇرى كۆرۈنىدۇ"
+
+#~ msgid ""
+#~ "If none of this applies, then please report this bug against the 'update-"
+#~ "manager' package and include the files in /var/log/dist-upgrade/ in the bug "
+#~ "report."
+#~ msgstr ""
+#~ "بۇلارنىڭ ھېچقايسىنى ئىشلەتكىلى بولمىسا، 'update-manager' بوغچا ھەققىدە "
+#~ "كەمتۈك مەلۇماتى يوللاڭ. ھەم مەلۇماتقا  /var/log/dist-upgrade/ نىڭ ئىچىدىكى "
+#~ "ھۆججەتلەرنىمۇ قوشۇپ ئەۋەتىڭ."
+
+#~ msgid ""
+#~ "It was impossible to install a required package. Please report this as a "
+#~ "bug. "
+#~ msgstr ""
+#~ "تەلەپ قىلىنغان بوغچىنى ئورناتقىلى بولمىدى. بۇنى بىر كەمتۈك دەپ مەلۇم قىلىڭ "
+
+#~ msgid ""
+#~ "Upgrading the repository information resulted in a invalid file. Please "
+#~ "report this as a bug."
+#~ msgstr ""
+#~ "خەزىنە ئۇچۇرىنى Upgrade قىلىۋاتقاندا، بىر دانە ئىناۋەتسىز ھۆججەت ھاسىل بولۇپ "
+#~ "قالدى. بۇنى كەمتۈك دەپ قاراپ مەلۇم قىلىڭ."
+
+#~ msgid ""
+#~ "The upgrade has aborted. Please check your Internet connection or "
+#~ "installation media and try again. All files downloaded so far are kept."
+#~ msgstr ""
+#~ "upgrade توختىتىلدى. ئىنتېرنېت باغلىنىشىنى ياكى ئورنىتىش دىسكىسىنى تەكشۈرۈڭ "
+#~ "ۋە قايتا قىلىڭ. چۈشۈرۈلگەن بارلىق ھۆججەتلەر ساقلاپ قېلىنىدۇ."
+
+#, python-format
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "Please report this bug against the 'update-manager' package and include the "
+#~ "files in /var/log/dist-upgrade/ in the bug report.\n"
+#~ "%s"
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "'update-manager' بوغچا ھەققىدە كەمتۈك مەلۇماتى يوللاڭ. ھەم مەلۇماتقا  "
+#~ "/var/log/dist-upgrade/ نىڭ ئىچىدىكى ھۆججەتلەرنىمۇ قوشۇپ ئەۋەتىڭ.\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "Preparing the system for the upgrade failed. Please report this as a bug "
+#~ "against the 'update-manager' package and include the files in /var/log/dist-"
+#~ "upgrade/ in the bug report."
+#~ msgstr ""
+#~ "سىستېمىنى upgrade قىلىشقا تەييارلىنىش مەغلۇپ بولدى. 'update-manager' بوغچا "
+#~ "ھەققىدە كەمتۈك مەلۇماتى يوللاڭ. ھەم مەلۇماتقا  /var/log/dist-upgrade/ نىڭ "
+#~ "ئىچىدىكى ھۆججەتلەرنىمۇ قوشۇپ ئەۋەتىڭ"
+
+#~ msgid ""
+#~ "The system was unable to get the prerequisites for the upgrade. The upgrade "
+#~ "will abort now and restore the original system state.\n"
+#~ "\n"
+#~ "Please report this as a bug against the 'update-manager' package and include "
+#~ "the files in /var/log/dist-upgrade/ in the bug report."
+#~ msgstr ""
+#~ "سىستېما upgrade قىلىشقا زۆرۈر بولغان مەزمۇنلارغا ئېرىشەلمىدى. upgrade "
+#~ "توختىتىلىپ، ئەسلىدىكى سىستېما ئەسلىگە كەلتۈرۈلىدۇ.\n"
+#~ "\n"
+#~ "'update-manager' بوغچا ھەققىدە كەمتۈك مەلۇماتى يوللاڭ. ھەم مەلۇماتقا  "
+#~ "/var/log/dist-upgrade/ نىڭ ئىچىدىكى ھۆججەتلەرنىمۇ قوشۇپ ئەۋەتىڭ"
+
+#, python-format
+#~ msgid ""
+#~ "After your package information was updated the essential package '%s' can "
+#~ "not be found anymore.\n"
+#~ "This indicates a serious error, please report this bug against the 'update-"
+#~ "manager' package and include the files in /var/log/dist-upgrade/ in the bug "
+#~ "report."
+#~ msgstr ""
+#~ "بوغچا ئۇچۇرلىرى يېڭىلانغاندىن كېيىن، مۇھىم بوغچا '%s' تېپىلمىدى.\n"
+#~ "بۇ مەسىلىنىڭ ئېغىرلىقىنى كۆرسىتىدۇ. 'update-manager' بوغچا ھەققىدە كەمتۈك "
+#~ "مەلۇماتى يوللاڭ. ھەم مەلۇماتقا  /var/log/dist-upgrade/ نىڭ ئىچىدىكى "
+#~ "ھۆججەتلەرنىمۇ قوشۇپ ئەۋەتىڭ."
+
+#~ msgid "*DEPRECATED* this option will be ignore"
+#~ msgstr "*DEPRECATED* بۇ تاللانمىغا پەرۋا قىلمايدۇ"
+
+#~ msgid ""
+#~ "This usually is caused by a system were /tmp is mounted noexec. Please "
+#~ "remount without noexec and run the upgrade again."
+#~ msgstr ""
+#~ "سىستېمىدا  /tmp noexec تاللانمىسى بىلەن mount قىلىنغان بولسا، مۇشۇنداق "
+#~ "ئەھۋال كۆرۈلىدۇ./tmp نى noexec ئىشلەتمەي قايتا mount قىلىڭ ۋە upgrade نى "
+#~ "قايتا ئىجرا قىلىڭ."
+
+#~ msgid "_Uncheck All"
+#~ msgstr "ھەممىنى تاللىما(_U)"
+
+#~ msgid "_Check All"
+#~ msgstr "ھەممىنى تاللا(_C)"
+
+#~ msgid ""
+#~ "It is unknown when the package information was updated last. Please try "
+#~ "clicking on the 'Check' button to update the information."
+#~ msgstr ""
+#~ "بوغچا ئۇچۇرىنىڭ ئەڭ ئاخىرقى قېتىم يېڭىلانغان ۋاقتى ئېنىق ئەمەس.  'تەكشۈر' "
+#~ "توپچىسىنى ئىشلىتىپ ئۇچۇرنى يېڭىلاڭ."
+
+#~ msgid "The package information was last updated less than one hour ago."
+#~ msgstr "بوغچا ئۇچۇرىنىڭ ئەڭ ئاخىرقى يېڭىلانغان ۋاقتى بىر سائەتكىمۇ بارمايدۇ."
+
+#~ msgid ""
+#~ "These software updates have been issued since Ubuntu was released. If you "
+#~ "don't want to install them now, choose \"Update Manager\" from the "
+#~ "Administration Menu later."
+#~ msgstr ""
+#~ "Ubuntu ئېلان قىلىنغاندىن كېيىن يۇمشاق دېتال يېڭىلانمىلىرى تارقىتىلدى. ئەگەر "
+#~ "ئۇلارنى ھازىر ئورناتقۇڭىز كەلمىسە، كېيىن سىستېما تىزىملىكىدىكى «باشقۇرۇش» "
+#~ "نىڭ ئىچىدىكى \"Update Manager\" نى تاللىسىڭىز بولىدۇ."
+
+#~ msgid "This change is not coming from a source that supports changelogs."
+#~ msgstr ""
+#~ "بۇ ئۆزگىرىش ئۆزگەرتىش خاتىرىسىنى ئىشلەتكىلى بولىدىغان مەنبەدىن كەلمىگەن."
+
+#~ msgid "*deprecated* Check for new distribution releases"
+#~ msgstr "*تەۋسىيە قىلىنمايدىغان*  يېڭى distribution ئېلان قىلىندىمۇ تەكشۈرۈش"
+
+#~ msgid ""
+#~ "If automatic checking for updates is disabled, you have to reload the "
+#~ "channel list manually. This option allows to hide the reminder shown in this "
+#~ "case."
+#~ msgstr ""
+#~ "يېڭىلانمىلارنى ئاپتوماتىك تەكشۈرۈش ئىناۋەتسىز قىلىنسا، قانال تىزىملىكىنى "
+#~ "قولدا يېڭىلىشىڭىز كېرەك. بۇ تاللانما ئىشلىتىلسە، مۇشۇنداق ئەھۋالدا ئەسلەتكۈ "
+#~ "كۆرسىتىشنى يوشۇرغىلى بولىدۇ."
+
+#~ msgid ""
+#~ "If this key is set the main update list window will show version information "
+#~ "(from version to version)."
+#~ msgstr ""
+#~ "ئەگەر بۇ ئاچقۇچ بېكىتىلسە، ئاساسلىق يېڭىلاش تىزىملىكى كۆزنىكىدە نەشر ئۇچۇرى "
+#~ "كۆرسىتىلىدۇ(قايسى نەشرىدىن قايسى نەشرگە)."
+
+#~ msgid ""
+#~ "If this key is set, the main update list window will show the package "
+#~ "summary before the package name."
+#~ msgstr ""
+#~ "ئەگەر بۇ ئاچقۇچ بېكىتىلسە، ئاساسلىق يېڭىلاش تىزىملىكى كۆزنىكىدە بوغچا "
+#~ "ھەققىدىكى ئۈزۈندى بوغچا ئاتى ئالدىدا كۆرسىتىلىدۇ."
+
+#~ msgid "Show package summary before package name in update list"
+#~ msgstr ""
+#~ "يېڭىلاش تىزىملىكىدىكى بوغا ئاتىنىڭ ئالدىدا بوغچا ھەققىدىكى ئۈزۈندىنى "
+#~ "كۆرسەتسۇن"
+
+#~ msgid "Stores the size of the update-manager dialog"
+#~ msgstr "update-manager كۆزنىكىنىڭ چوڭلۇقىنى ساقلىسۇن"
+
+#~ msgid ""
+#~ "Stores the state of the expander that contains the list of changes and the "
+#~ "description"
+#~ msgstr ""
+#~ "ئۆزگىرىش تىزىملىكى ۋە چۈشەندۈرۈشىنى ئوز ئىچىگە ئالغان expander نىڭ ھالىتىنى "
+#~ "ساقلىسۇن"
+
+#~ msgid ""
+#~ "This key is deprecated in favor of the file /etc/update-manager/release-"
+#~ "upgrades Check automatically if a new version of the current distribution is "
+#~ "available and offer to upgrade (if possible)."
+#~ msgstr ""
+#~ "/etc/update-manager/release-upgrades نىڭ ھالىتىگە ئاساسەن ئاپتوماتىك "
+#~ "بېكىتىلىدىغان، تەۋسىيە قىلىنمايدىغان ئاچقۇچتۇر. ھازىرقى سىستېمىنىڭ يېڭى "
+#~ "نەشرى بار بولسا، upgrade قىلىش تەۋسىيە قىلىنىدۇ(مۇمكىن بولسا)."
+
+#~ msgid ""
+#~ "This will permanently hide the new release prompt from check-new-release-"
+#~ "gtk. Note that the small button in the main update-manager UI will still be "
+#~ "there."
+#~ msgstr ""
+#~ "بۇ check-new-release-gtk دىن چىققان يېڭى نەشرى ھەققىدىكى كۆرسەتمىنى "
+#~ "يوشۇرىدۇ. update-manager نىڭ ئاساسىي كۆزنىكىدىكى كىچىك توپچا يەنىلا كۆرۈنىدۇ."
+
+#~ msgid "make check-new-release-gtk ignore a given new release"
+#~ msgstr "check-new-release-gtk يېڭى نەشرىگە پەرۋا قىلمايدىغان بولسۇن"
+
+#~ msgid "<b><big>Upgrading Ubuntu to version 11.04</big></b>"
+#~ msgstr "<b><big>Ubuntu نىڭ 11.04 نەشرىگە ئۆرلىتىش</big></b>"
+
+#~ msgid ""
+#~ "These software updates have been issued since Ubuntu was released. If you "
+#~ "don't want to install them now, choose \"Update Manager\" from Applications "
+#~ "later."
+#~ msgstr ""
+#~ "بۇ بىخەتەرلىك يېڭىلانمىلىرى Ubuntu تارقىتىلغاندىن كېيىن بايقالغان "
+#~ "مەسىلىلەرنى ھەل قىلىدۇ. ئەگەر بۇلارنى ھازىر ئورناتقۇڭىز بولمىسا، "
+#~ "پروگراممىلار ئىچىدىن «يېڭىلانما باشقۇرغۇ(Update Manager)» نى كېيىن يەنە "
+#~ "ئىشلەتسىڭىز بولىدۇ."

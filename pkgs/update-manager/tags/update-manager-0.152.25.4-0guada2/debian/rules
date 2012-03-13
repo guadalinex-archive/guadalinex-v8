@@ -1,0 +1,28 @@
+#!/usr/bin/make -f
+
+ARCH=all
+DIST=$(shell lsb_release -c -s)
+DEBVER=$(shell LC_ALL=C dpkg-parsechangelog |sed -n -e '/^Version:/s/^Version: //p' | sed s/.*://)
+TARNAME=dist-upgrader_$(DEBVER)_$(ARCH).tar.gz
+DH_ARGS=--with=python2
+%:
+	dh $@ $(DH_ARGS)
+
+override_dh_auto_clean:
+	dh_auto_clean
+	rm -rf ./build ./DistUpgrade/$(DEBVER) ./DistUpgrade/mo \
+		./DistUpgrade/$(DIST)  ./DistUpgrade/$(DIST).tar.gz \
+		 ./DistUpgrade/nvidia-obsolete.pkgs ./po/mo
+
+binary: binary-arch binary-indep
+binary-indep:
+	dh $@ $(DH_ARGS)
+	# now the dist-upgrader special tarball
+	(cd DistUpgrade/ && \
+	   ./build-tarball.sh && \
+	   mkdir -p $(DEBVER)  && \
+	   cp $(DIST).tar.gz ./*ReleaseAnnouncement* $(DEBVER) && \
+	   tar czvf ../../$(TARNAME) \
+	       $(DEBVER)/*ReleaseAnnouncement* \
+               $(DEBVER)/$(DIST).tar.gz )
+	dpkg-distaddfile $(TARNAME) raw-dist-upgrader -

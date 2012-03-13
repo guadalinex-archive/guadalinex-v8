@@ -1,0 +1,2464 @@
+# Icelandic translation for update-manager
+# Copyright (c) 2006 Rosetta Contributors and Canonical Ltd 2006
+# This file is distributed under the same license as the update-manager package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: update-manager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-10-18 03:11+0000\n"
+"PO-Revision-Date: 2011-08-13 13:03+0000\n"
+"Last-Translator: Sveinn í Felli <sveinki@nett.is>\n"
+"Language-Team: Icelandic <is@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2011-10-18 14:52+0000\n"
+"X-Generator: Launchpad (build 14157)\n"
+
+#. TRANSLATORS: download size is 0
+#: ../DistUpgrade/utils.py:416 ../UpdateManager/Core/utils.py:416
+msgid "0 kB"
+msgstr "0 kB"
+
+#. TRANSLATORS: download size of very small updates
+#: ../DistUpgrade/utils.py:419 ../UpdateManager/Core/utils.py:419
+msgid "1 kB"
+msgstr "1 kB"
+
+#. TRANSLATORS: download size of small updates, e.g. "250 kB"
+#: ../DistUpgrade/utils.py:422 ../UpdateManager/Core/utils.py:422
+#, python-format
+msgid "%.0f kB"
+msgstr "%.0f kB"
+
+#. TRANSLATORS: download size of updates, e.g. "2.3 MB"
+#: ../DistUpgrade/utils.py:425 ../UpdateManager/Core/utils.py:425
+#, python-format
+msgid "%.1f MB"
+msgstr "%.1f MB"
+
+#. TRANSLATORS: %s is a country
+#: ../DistUpgrade/distro.py:210 ../DistUpgrade/distro.py:438
+#, python-format
+msgid "Server for %s"
+msgstr "Netþjónn fyrir %s"
+
+#. More than one server is used. Since we don't handle this case
+#. in the user interface we set "custom servers" to true and
+#. append a list of all used servers
+#: ../DistUpgrade/distro.py:228 ../DistUpgrade/distro.py:234
+#: ../DistUpgrade/distro.py:250
+msgid "Main server"
+msgstr "Aðalnetþjónn"
+
+#: ../DistUpgrade/distro.py:254
+msgid "Custom servers"
+msgstr "Sérsniðnir netþjónar"
+
+#: ../DistUpgrade/DistUpgradeAptCdrom.py:141
+msgid "Could not calculate sources.list entry"
+msgstr "Gat ekki reiknað út sources.list-færsluna"
+
+#: ../DistUpgrade/DistUpgradeAptCdrom.py:244
+msgid ""
+"Unable to locate any package files, perhaps this is not a Ubuntu Disc or the "
+"wrong architecture?"
+msgstr ""
+"Tölvan fann engar pakkaskrár, er þetta örugglega Ubuntu-diskur? Hann gæti "
+"einnig verið fyrir aðra gerð örgjörva.."
+
+#: ../DistUpgrade/DistUpgradeAptCdrom.py:287
+msgid "Failed to add the CD"
+msgstr "Það tókst ekki að bæta við geisladiskinum"
+
+#: ../DistUpgrade/DistUpgradeAptCdrom.py:288
+#, python-format
+msgid ""
+"There was a error adding the CD, the upgrade will abort. Please report this "
+"as a bug if this is a valid Ubuntu CD.\n"
+"\n"
+"The error message was:\n"
+"'%s'"
+msgstr ""
+"Það kom upp villa við að bæta geisladisknum við, uppfærslan mun nú hætta. "
+"Tilkynntu þetta sem hugbúnaðarvillu („bug“) ef þetta er gildur Ubuntu-"
+"geisladiskur.\n"
+"\n"
+"Villuskilaboðin eru:\n"
+"‚%s‘"
+
+#: ../DistUpgrade/DistUpgradeCache.py:138
+msgid "Remove package in bad state"
+msgid_plural "Remove packages in bad state"
+msgstr[0] "Fjarlægja pakka sem er í slæmu ástandi"
+msgstr[1] "Fjarlægja alla pakka sem eru í slæmu ástandi"
+
+#: ../DistUpgrade/DistUpgradeCache.py:141
+#, python-format
+msgid ""
+"The package '%s' is in an inconsistent state and needs to be reinstalled, "
+"but no archive can be found for it. Do you want to remove this package now "
+"to continue?"
+msgid_plural ""
+"The packages '%s' are in an inconsistent state and need to be reinstalled, "
+"but no archives can be found for them. Do you want to remove these packages "
+"now to continue?"
+msgstr[0] ""
+"Pakkinn ‚%s‘ er illa ásigkominn og það er mikilvægt að hann verði settur "
+"aftur upp, en hann fannst ekki í neinu gangasafni. Viltu eyða honum og halda "
+"áfram?"
+msgstr[1] ""
+"Pakkarnir ‚%s‘ er illa ásigkomnir og það er mikilvægt að þeir verði settir "
+"aftur upp, en þeir fundust ekki í neinu gangasafni. Viltu eyða þeim og halda "
+"áfram?"
+
+#. FIXME: not ideal error message, but we just reuse a
+#. existing one here to avoid a new string
+#: ../DistUpgrade/DistUpgradeCache.py:239
+msgid "The server may be overloaded"
+msgstr "Netþjónninn gæti verið undir miklu álagi"
+
+#: ../DistUpgrade/DistUpgradeCache.py:352
+msgid "Broken packages"
+msgstr "Bilaðir pakkar"
+
+#: ../DistUpgrade/DistUpgradeCache.py:353
+msgid ""
+"Your system contains broken packages that couldn't be fixed with this "
+"software. Please fix them first using synaptic or apt-get before proceeding."
+msgstr ""
+"Kerfið þitt inniheldur bilaða pakka sem ekki var hægt að laga með þessum "
+"hugbúnaði. Reyndu að laga þá með ‚synaptic‘ eða ‚apt-get‘ áður en lengra er "
+"haldið."
+
+#. FIXME: change the text to something more useful
+#: ../DistUpgrade/DistUpgradeCache.py:648
+#, python-format
+msgid ""
+"An unresolvable problem occurred while calculating the upgrade:\n"
+"%s\n"
+"\n"
+" This can be caused by:\n"
+" * Upgrading to a pre-release version of Ubuntu\n"
+" * Running the current pre-release version of Ubuntu\n"
+" * Unofficial software packages not provided by Ubuntu\n"
+"\n"
+msgstr ""
+"Villa kom upp við að reikna út uppfærsluna:\n"
+"%s\n"
+"\n"
+" Nokkrar ástæður geta ollið þessu:\n"
+" * Þú ert að uppfæra yfir í prufuútgáfu af Ubuntu\n"
+" * Þú ert að nota prufuútgáfu af Ubuntu\n"
+" * Þú hefur náð í hugbúnaðarpakka sem eru ekki á vegum Ubuntu\n"
+"\n"
+
+#: ../DistUpgrade/DistUpgradeCache.py:658
+msgid "This is most likely a transient problem, please try again later."
+msgstr "Þetta er væntanlega tímabundið vandamál. Reyndu aftur síðar."
+
+#: ../DistUpgrade/DistUpgradeCache.py:661
+msgid ""
+"If none of this applies, then please report this bug using the command "
+"'ubuntu-bug update-manager' in a terminal."
+msgstr ""
+
+#: ../DistUpgrade/DistUpgradeCache.py:666
+#: ../UpdateManager/UpdateManager.py:1023
+msgid "Could not calculate the upgrade"
+msgstr "Gat ekki reiknað út uppfærsluna"
+
+#: ../DistUpgrade/DistUpgradeCache.py:717
+msgid "Error authenticating some packages"
+msgstr "Það kom upp villa við að staðfesta nokkra pakka"
+
+#: ../DistUpgrade/DistUpgradeCache.py:718
+msgid ""
+"It was not possible to authenticate some packages. This may be a transient "
+"network problem. You may want to try again later. See below for a list of "
+"unauthenticated packages."
+msgstr ""
+"Það tókst ekki að staðfesta nokkra pakka, þetta gæti verið tímabundið "
+"netvandamál- reyndu aftur síðar. Að neðan er listi yfir þá pakka sem ekki "
+"tókst að staðfesta."
+
+#: ../DistUpgrade/DistUpgradeCache.py:738
+#, python-format
+msgid ""
+"The package '%s' is marked for removal but it is in the removal blacklist."
+msgstr ""
+"Gefin var skipun um að fjarlægja pakkann ‚%s‘  en það er bannað að fjarlægja "
+"hann."
+
+#: ../DistUpgrade/DistUpgradeCache.py:742
+#, python-format
+msgid "The essential package '%s' is marked for removal."
+msgstr "Það á að fjarlægja pakkann ‚%s‘ en hann er ómissandi."
+
+#: ../DistUpgrade/DistUpgradeCache.py:751
+#, python-format
+msgid "Trying to install blacklisted version '%s'"
+msgstr "Reyni að setja upp útgáfuna ‚%s‘ sem er á svörtum lista"
+
+#: ../DistUpgrade/DistUpgradeCache.py:869
+#, python-format
+msgid "Can't install '%s'"
+msgstr "Það tókst ekki að setja upp ‚%s‘"
+
+#: ../DistUpgrade/DistUpgradeCache.py:870
+msgid ""
+"It was impossible to install a required package. Please report this as a bug "
+"using 'ubuntu-bug update-manager' in a terminal."
+msgstr ""
+
+#. FIXME: provide a list
+#: ../DistUpgrade/DistUpgradeCache.py:881
+msgid "Can't guess meta-package"
+msgstr "Get ekki giskað á lýsipakka"
+
+#: ../DistUpgrade/DistUpgradeCache.py:882
+msgid ""
+"Your system does not contain a ubuntu-desktop, kubuntu-desktop, xubuntu-"
+"desktop or edubuntu-desktop package and it was not possible to detect which "
+"version of Ubuntu you are running.\n"
+" Please install one of the packages above first using synaptic or apt-get "
+"before proceeding."
+msgstr ""
+"Kerfið þitt inniheldur hvorki pakkann ‚ubuntu-desktop‘, ‚kubuntu-desktop‘, "
+"‚xubuntu-desktop‘ né ‚edubuntu-desktop‘- og ekki tókst að bera kennsl á "
+"hvaða tegund af Ubuntu þú ert að nota.\n"
+" Settu upp einn af áðurnefndum pökkum með því að nota Synaptic-pakkastjórann "
+"eða með því að nota apt-get áður en þú heldur áfram."
+
+#: ../DistUpgrade/DistUpgradeController.py:100
+msgid "Reading cache"
+msgstr "Les skyndiminni"
+
+#: ../DistUpgrade/DistUpgradeController.py:205
+msgid "Unable to get exclusive lock"
+msgstr "Fékk ekki útilokunarlæsingu"
+
+#: ../DistUpgrade/DistUpgradeController.py:206
+msgid ""
+"This usually means that another package management application (like apt-get "
+"or aptitude) already running. Please close that application first."
+msgstr ""
+"Þetta þýðir líklega að annar pakkastjóri (t.d. ‚apt-get‘ eða ‚aptitude‘) sé "
+"í gangi. Lokaðu því forriti til að halda áfram."
+
+#: ../DistUpgrade/DistUpgradeController.py:239
+msgid "Upgrading over remote connection not supported"
+msgstr "Þú getur ekki uppfærst yfir fjartengingu"
+
+#: ../DistUpgrade/DistUpgradeController.py:240
+msgid ""
+"You are running the upgrade over a remote ssh connection with a frontend "
+"that does not support this. Please try a text mode upgrade with 'do-release-"
+"upgrade'.\n"
+"\n"
+"The upgrade will abort now. Please try without ssh."
+msgstr ""
+
+#: ../DistUpgrade/DistUpgradeController.py:254
+msgid "Continue running under SSH?"
+msgstr "Viltu halda áfram að nota SSH?"
+
+#: ../DistUpgrade/DistUpgradeController.py:255
+#, python-format
+msgid ""
+"This session appears to be running under ssh. It is not recommended to "
+"perform a upgrade over ssh currently because in case of failure it is harder "
+"to recover.\n"
+"\n"
+"If you continue, an additional ssh daemon will be started at port '%s'.\n"
+"Do you want to continue?"
+msgstr ""
+
+#: ../DistUpgrade/DistUpgradeController.py:269
+msgid "Starting additional sshd"
+msgstr "Ræsi annað sshd"
+
+#: ../DistUpgrade/DistUpgradeController.py:270
+#, python-format
+msgid ""
+"To make recovery in case of failure easier, an additional sshd will be "
+"started on port '%s'. If anything goes wrong with the running ssh you can "
+"still connect to the additional one.\n"
+msgstr ""
+"Til að auðvelda bata þá mun auka sshd keyra í tenginum ‚%s‘. Ef eitthvað fer "
+"úrskeyðis við að keyra SSH þá er hægt að tengjast við hina tenginguna.\n"
+
+#: ../DistUpgrade/DistUpgradeController.py:278
+#, python-format
+msgid ""
+"If you run a firewall, you may need to temporarily open this port. As this "
+"is potentially dangerous it's not done automatically. You can open the port "
+"with e.g.:\n"
+"'%s'"
+msgstr ""
+
+#: ../DistUpgrade/DistUpgradeController.py:349
+#: ../DistUpgrade/DistUpgradeController.py:394
+msgid "Can not upgrade"
+msgstr "Get ekki uppfært"
+
+#: ../DistUpgrade/DistUpgradeController.py:350
+#, python-format
+msgid "An upgrade from '%s' to '%s' is not supported with this tool."
+msgstr "Þú getur ekki uppfært frá ‚%s‘ yfir í ‚%s' með þessu forriti."
+
+#: ../DistUpgrade/DistUpgradeController.py:359
+msgid "Sandbox setup failed"
+msgstr "Ekki tókst að setja upp sandkassa"
+
+#: ../DistUpgrade/DistUpgradeController.py:360
+msgid "It was not possible to create the sandbox environment."
+msgstr "Það tókst ekki að búa til sandkassann."
+
+#: ../DistUpgrade/DistUpgradeController.py:366
+msgid "Sandbox mode"
+msgstr "Sandkassahamur"
+
+#: ../DistUpgrade/DistUpgradeController.py:367
+#, python-format
+msgid ""
+"This upgrade is running in sandbox (test) mode. All changes are written to "
+"'%s' and will be lost on the next reboot.\n"
+"\n"
+"*No* changes written to a systemdir from now until the next reboot are "
+"permanent."
+msgstr ""
+"Þessi uppfærsla fer fram í sandkassanum (til að testa). Allar breytingar sem "
+"þú gerir fara í ‚%s‘ og eyðast þegar þú kveikir næst á tölvunni.\n"
+"\n"
+"Allar breytingar sem gerðar eru á systemdir verða teknar aftur þegar þú "
+"kveikir næst á tölvunni."
+
+#: ../DistUpgrade/DistUpgradeController.py:395
+msgid ""
+"Your python install is corrupted. Please fix the '/usr/bin/python' symlink."
+msgstr ""
+"Það er eitthvað að python uppsetningunni þinni. Reyndu að laga "
+"‚/usr/bin/python‘-vísunina."
+
+#: ../DistUpgrade/DistUpgradeController.py:421
+msgid "Package 'debsig-verify' is installed"
+msgstr "Pakkinn 'debsig-verify' er uppsettur"
+
+#: ../DistUpgrade/DistUpgradeController.py:422
+msgid ""
+"The upgrade can not continue with that package installed.\n"
+"Please remove it with synaptic or 'apt-get remove debsig-verify' first and "
+"run the upgrade again."
+msgstr ""
+"Uppfærslan getur ekki haldið áfram á meðan þessi pakki er á tölvunni.\n"
+"Fjarlægðu hann með synaptic pakkastjóranum eða með því að nota ‚apt-get "
+"remove debsig-verify‘ fyrst og keyra uppfærsluna aftur."
+
+#: ../DistUpgrade/DistUpgradeController.py:432
+msgid "Include latest updates from the Internet?"
+msgstr "Viltu láta nýjar uppfærslur af netinu fylgja með?"
+
+#: ../DistUpgrade/DistUpgradeController.py:433
+msgid ""
+"The upgrade system can use the internet to automatically download the latest "
+"updates and install them during the upgrade.  If you have a network "
+"connection this is highly recommended.\n"
+"\n"
+"The upgrade will take longer, but when it is complete, your system will be "
+"fully up to date.  You can choose not to do this, but you should install the "
+"latest updates soon after upgrading.\n"
+"If you answer 'no' here, the network is not used at all."
+msgstr ""
+"Uppfærslukerfið getur notað netið til að sækja nýjar uppfærslur sjálfkrafa "
+"og að setja þær upp á meðan á uppfærslunni stendur. Þetta er ráðlagt ef þú "
+"hefur nettengingu.\n"
+"\n"
+"Það tekur lengri tíma ef þú sækir uppfærslur af netinu, en á móti verður "
+"tölvan af nýjustu gerð að uppfærslunni lokinni. Þú getur valið um að gera "
+"þetta ekki en þú ættir að uppfæra kerfið þegar samt sem áður.\n"
+"Netið verður ekki notað ef þú velur að gera þetta ekki."
+
+#: ../DistUpgrade/DistUpgradeController.py:653
+#, python-format
+msgid "disabled on upgrade to %s"
+msgstr "óvirkt að uppfæra til %s"
+
+#: ../DistUpgrade/DistUpgradeController.py:680
+msgid "No valid mirror found"
+msgstr "Enginn spegill fannst"
+
+#: ../DistUpgrade/DistUpgradeController.py:681
+#, python-format
+msgid ""
+"While scanning your repository information no mirror entry for the upgrade "
+"was found. This can happen if you run a internal mirror or if the mirror "
+"information is out of date.\n"
+"\n"
+"Do you want to rewrite your 'sources.list' file anyway? If you choose 'Yes' "
+"here it will update all '%s' to '%s' entries.\n"
+"If you select 'No' the upgrade will cancel."
+msgstr ""
+
+#. hm, still nothing useful ...
+#: ../DistUpgrade/DistUpgradeController.py:701
+msgid "Generate default sources?"
+msgstr "Viltu búa til uppsprettur?"
+
+#: ../DistUpgrade/DistUpgradeController.py:702
+#, python-format
+msgid ""
+"After scanning your 'sources.list' no valid entry for '%s' was found.\n"
+"\n"
+"Should default entries for '%s' be added? If you select 'No', the upgrade "
+"will cancel."
+msgstr ""
+"Engin færsla fyrir ‚%s‘ fannst í ‚sources.list‘ skránni þinni.\n"
+"\n"
+"Viltu að tölvan bæti inn færslu fyrir ‚%s‘ eða viltu velja ‚Nei‘ og hætta "
+"við uppfærsluna?"
+
+#: ../DistUpgrade/DistUpgradeController.py:737
+msgid "Repository information invalid"
+msgstr "Ógildar upplýsingar um gagnahirslu"
+
+#: ../DistUpgrade/DistUpgradeController.py:738
+msgid ""
+"Upgrading the repository information resulted in a invalid file. Please "
+"report this as a bug using the command 'ubuntu-bug update-manager' in a "
+"terminal."
+msgstr ""
+
+#: ../DistUpgrade/DistUpgradeController.py:746
+msgid "Third party sources disabled"
+msgstr "Frumgögn frá þriðja aðila voru gerð óvirk"
+
+#: ../DistUpgrade/DistUpgradeController.py:747
+msgid ""
+"Some third party entries in your sources.list were disabled. You can re-"
+"enable them after the upgrade with the 'software-properties' tool or your "
+"package manager."
+msgstr ""
+"Einhverjir þriðju aðilar voru gerðir óvirkir í skránni ‚sources.list.‘ Þú "
+"getur virkjað þá seinna með forritinu ‚software-properties‘ eða með "
+"pakkastjóranum þínum."
+
+#: ../DistUpgrade/DistUpgradeController.py:787
+msgid "Package in inconsistent state"
+msgid_plural "Packages in inconsistent state"
+msgstr[0] "Pakkinn er eitthvað ójafn"
+msgstr[1] "Pakkarnir eru eitthvað ójafnir"
+
+#: ../DistUpgrade/DistUpgradeController.py:790
+#, python-format
+msgid ""
+"The package '%s' is in an inconsistent state and needs to be reinstalled, "
+"but no archive can be found for it. Please reinstall the package manually or "
+"remove it from the system."
+msgid_plural ""
+"The packages '%s' are in an inconsistent state and need to be reinstalled, "
+"but no archive can be found for them. Please reinstall the packages manually "
+"or remove them from the system."
+msgstr[0] ""
+"Það þarf að setja pakkann ‚%s‘ upp aftur þar sem hann er í ójafnvægi- hann "
+"fannst hins vegar ekki í gagnahirslunni. Þú verður því að setja hann upp í "
+"höndunum eða fjarlægja af tölvunni."
+msgstr[1] ""
+"Það þarf að setja pakkana ‚%s‘ upp aftur þar sem þeir eru í ójafnvægi- þeir "
+"fundust hins vegar ekki í gagnahirslunni. Þú verður því að setja þá upp í "
+"höndunum eða fjarlægja af tölvunni."
+
+#: ../DistUpgrade/DistUpgradeController.py:838
+msgid "Error during update"
+msgstr "Það kom upp villa við að uppfæra"
+
+#: ../DistUpgrade/DistUpgradeController.py:839
+msgid ""
+"A problem occurred during the update. This is usually some sort of network "
+"problem, please check your network connection and retry."
+msgstr ""
+"Það kom upp villa við að uppfæra tölvuna. Þetta er oftast vandamál með netið "
+"þannig að best væri að athuga nettenginguna og reyna aftur."
+
+#. print "on_button_install_clicked"
+#: ../DistUpgrade/DistUpgradeController.py:848
+#: ../UpdateManager/UpdateManager.py:747
+msgid "Not enough free disk space"
+msgstr "Það vantar meira pláss á tölvunni"
+
+#: ../DistUpgrade/DistUpgradeController.py:849
+#, python-format
+msgid ""
+"The upgrade has aborted. The upgrade needs a total of %s free space on disk "
+"'%s'. Please free at least an additional %s of disk space on '%s'. Empty "
+"your trash and remove temporary packages of former installations using 'sudo "
+"apt-get clean'."
+msgstr ""
+
+#. calc the dist-upgrade and see if the removals are ok/expected
+#. do the dist-upgrade
+#: ../DistUpgrade/DistUpgradeController.py:878
+#: ../DistUpgrade/DistUpgradeController.py:1630
+msgid "Calculating the changes"
+msgstr "Reikna út breytingar"
+
+#. ask the user
+#: ../DistUpgrade/DistUpgradeController.py:910
+msgid "Do you want to start the upgrade?"
+msgstr "Viltu byrja að uppfæra?"
+
+#: ../DistUpgrade/DistUpgradeController.py:976
+msgid "Upgrade canceled"
+msgstr "Það var hætt við uppfærsluna"
+
+#: ../DistUpgrade/DistUpgradeController.py:977
+msgid ""
+"The upgrade will cancel now and the original system state will be restored. "
+"You can resume the upgrade at a later time."
+msgstr ""
+
+#: ../DistUpgrade/DistUpgradeController.py:983
+#: ../DistUpgrade/DistUpgradeController.py:1109
+msgid "Could not download the upgrades"
+msgstr "Gat ekki sótt uppfærslurnar"
+
+#: ../DistUpgrade/DistUpgradeController.py:984
+msgid ""
+"The upgrade has aborted. Please check your Internet connection or "
+"installation media and try again. All files downloaded so far have been kept."
+msgstr ""
+
+#. FIXME: strings are not good, but we are in string freeze
+#. currently
+#: ../DistUpgrade/DistUpgradeController.py:1060
+#: ../DistUpgrade/DistUpgradeController.py:1097
+#: ../DistUpgrade/DistUpgradeController.py:1202
+msgid "Error during commit"
+msgstr "Villa við staðfestingu"
+
+#. generate a new cache
+#: ../DistUpgrade/DistUpgradeController.py:1062
+#: ../DistUpgrade/DistUpgradeController.py:1099
+#: ../DistUpgrade/DistUpgradeController.py:1241
+msgid "Restoring original system state"
+msgstr "Tek aftur allar breytingar"
+
+#: ../DistUpgrade/DistUpgradeController.py:1063
+#: ../DistUpgrade/DistUpgradeController.py:1078
+#: ../DistUpgrade/DistUpgradeController.py:1100
+msgid "Could not install the upgrades"
+msgstr "Gat ekki sett upp uppfærslurnar"
+
+#. invoke the frontend now and show a error message
+#: ../DistUpgrade/DistUpgradeController.py:1068
+msgid ""
+"The upgrade has aborted. Your system could be in an unusable state. A "
+"recovery will run now (dpkg --configure -a)."
+msgstr ""
+
+#: ../DistUpgrade/DistUpgradeController.py:1073
+#, python-format
+msgid ""
+"\n"
+"\n"
+"Please report this bug using the command 'ubuntu-bug update-manager' in a "
+"terminal and include the files in /var/log/dist-upgrade/ in the bug report.\n"
+"%s"
+msgstr ""
+
+#: ../DistUpgrade/DistUpgradeController.py:1110
+msgid ""
+"The upgrade has aborted. Please check your Internet connection or "
+"installation media and try again. "
+msgstr ""
+
+#: ../DistUpgrade/DistUpgradeController.py:1190
+msgid "Remove obsolete packages?"
+msgstr "Viltu fjarlægja úrelta pakka?"
+
+#: ../DistUpgrade/DistUpgradeController.py:1191
+#: ../DistUpgrade/DistUpgrade.ui.h:22
+msgid "_Keep"
+msgstr "_Halda"
+
+#: ../DistUpgrade/DistUpgradeController.py:1191
+msgid "_Remove"
+msgstr "_Fjarlægja"
+
+#: ../DistUpgrade/DistUpgradeController.py:1203
+msgid ""
+"A problem occurred during the clean-up. Please see the below message for "
+"more information. "
+msgstr ""
+"Það kom upp vandamál við að hreinsa til. Lestu skilaboðin fyrir neðan til að "
+"fá frekari upplýsingar. "
+
+#. FIXME: instead of error out, fetch and install it
+#. here
+#: ../DistUpgrade/DistUpgradeController.py:1279
+msgid "Required depends is not installed"
+msgstr "Það er ekki búið að setja upp nauðsynleg ákvæði"
+
+#: ../DistUpgrade/DistUpgradeController.py:1280
+#, python-format
+msgid "The required dependency '%s' is not installed. "
+msgstr "Það er ekki búið að setja upp ákvæðið ‚%s‘ sem er nauðsynlegt. "
+
+#. sanity check (check for ubuntu-desktop, brokenCache etc)
+#. then open the cache (again)
+#: ../DistUpgrade/DistUpgradeController.py:1527
+#: ../DistUpgrade/DistUpgradeController.py:1597
+msgid "Checking package manager"
+msgstr "Athuga pakkastjórann"
+
+#: ../DistUpgrade/DistUpgradeController.py:1532
+msgid "Preparing the upgrade failed"
+msgstr "Undirbúningur fyrir uppfærslu mistókst"
+
+#: ../DistUpgrade/DistUpgradeController.py:1533
+msgid ""
+"Preparing the system for the upgrade failed. Please report this using the "
+"command 'ubuntu-bug update-manager' in a terminal and include the files in "
+"/var/log/dist-upgrade/ in the bug report."
+msgstr ""
+
+#: ../DistUpgrade/DistUpgradeController.py:1549
+msgid "Getting upgrade prerequisites failed"
+msgstr "Það tókst ekki að útvega forsendur uppfærslunnar"
+
+#: ../DistUpgrade/DistUpgradeController.py:1550
+msgid ""
+"The system was unable to get the prerequisites for the upgrade. The upgrade "
+"will abort now and restore the original system state.\n"
+"\n"
+"Please report this as a bug using the command 'ubuntu-bug update-manager' in "
+"a terminal and include the files in /var/log/dist-upgrade/ in the bug report."
+msgstr ""
+
+#: ../DistUpgrade/DistUpgradeController.py:1581
+msgid "Updating repository information"
+msgstr "Uppfæri upplýsingar um gagnahirslur"
+
+#: ../DistUpgrade/DistUpgradeController.py:1588
+msgid "Failed to add the cdrom"
+msgstr ""
+
+#: ../DistUpgrade/DistUpgradeController.py:1589
+msgid "Sorry, adding the cdrom was not successful."
+msgstr ""
+
+#: ../DistUpgrade/DistUpgradeController.py:1617
+msgid "Invalid package information"
+msgstr "Ógildar pakkaupplýsingar"
+
+#: ../DistUpgrade/DistUpgradeController.py:1618
+#, python-format
+msgid ""
+"After your package information was updated the essential package '%s' can "
+"not be found anymore.\n"
+"This indicates a serious error, please report this bug using the command "
+"'ubuntu-bug update-manager' in a terminal and include the files in "
+"/var/log/dist-upgrade/ in the bug report."
+msgstr ""
+
+#: ../DistUpgrade/DistUpgradeController.py:1636
+#: ../DistUpgrade/DistUpgradeController.py:1689
+msgid "Fetching"
+msgstr "Sæki"
+
+#: ../DistUpgrade/DistUpgradeController.py:1642
+#: ../DistUpgrade/DistUpgradeController.py:1693
+msgid "Upgrading"
+msgstr "Uppfæri"
+
+#. don't abort here, because it would restore the sources.list
+#: ../DistUpgrade/DistUpgradeController.py:1647
+#: ../DistUpgrade/DistUpgradeController.py:1695
+#: ../DistUpgrade/DistUpgradeController.py:1702
+#: ../DistUpgrade/DistUpgradeController.py:1713
+msgid "Upgrade complete"
+msgstr "Uppfærslu lokið"
+
+#: ../DistUpgrade/DistUpgradeController.py:1648
+#: ../DistUpgrade/DistUpgradeController.py:1696
+#: ../DistUpgrade/DistUpgradeController.py:1703
+msgid ""
+"The upgrade has completed but there were errors during the upgrade process."
+msgstr ""
+
+#: ../DistUpgrade/DistUpgradeController.py:1655
+msgid "Searching for obsolete software"
+msgstr "Leita að úreltum hugbúnaði"
+
+#: ../DistUpgrade/DistUpgradeController.py:1664
+msgid "System upgrade is complete."
+msgstr "Stýrikerfisuppfærslu er lokið."
+
+#: ../DistUpgrade/DistUpgradeController.py:1714
+msgid "The partial upgrade was completed."
+msgstr "Takmarkaðri uppfærslu er lokið."
+
+#: ../DistUpgrade/DistUpgradeQuirks.py:201
+msgid "evms in use"
+msgstr "‚evms‘ í notkun"
+
+#: ../DistUpgrade/DistUpgradeQuirks.py:202
+msgid ""
+"Your system uses the 'evms' volume manager in /proc/mounts. The 'evms' "
+"software is no longer supported, please switch it off and run the upgrade "
+"again when this is done."
+msgstr ""
+"Kerfið þitt notar ‚evms‘-gagnamiðilsstjóra í ‚/proc/mounts‘-möppunni. "
+"Hugbúnaðurinn ‚evms‘ er ekki lengur studdur, slökktu á honum and keyrðu "
+"uppfærsluna aftur að því loknu."
+
+#: ../DistUpgrade/DistUpgradeQuirks.py:506
+msgid "Your graphics hardware may not be fully supported in Ubuntu 11.04."
+msgstr ""
+
+#: ../DistUpgrade/DistUpgradeQuirks.py:508
+msgid ""
+"The support in Ubuntu 11.04 for your intel graphics hardware is limited and "
+"you may encounter problems after the upgrade. Do you want to continue with "
+"the upgrade?"
+msgstr ""
+
+#: ../DistUpgrade/DistUpgradeQuirks.py:528
+#: ../DistUpgrade/DistUpgradeQuirks.py:556
+#: ../DistUpgrade/DistUpgradeQuirks.py:583
+msgid ""
+"Upgrading may reduce desktop effects, and performance in games and other "
+"graphically intensive programs."
+msgstr ""
+"Þá má vera að brellur, leikir og önnur forrit sem nota skjákortið mikið "
+"virki ekki eins vel að uppfærslu lokinni."
+
+#: ../DistUpgrade/DistUpgradeQuirks.py:532
+#: ../DistUpgrade/DistUpgradeQuirks.py:560
+msgid ""
+"This computer is currently using the NVIDIA 'nvidia' graphics driver. No "
+"version of this driver is available that works with your video card in "
+"Ubuntu 10.04 LTS.\n"
+"\n"
+"Do you want to continue?"
+msgstr ""
+"Þessi tölva er sem stendur að notast við NVIDIA ‚nvidia‘-rekilinn fyrir "
+"grafík. Það er ekki til nein útgáfa af reklinum sem virkar með skjákortinu "
+"þínu í Ubuntu 10.04 LTS\n"
+"\n"
+"Viltu halda áfram?"
+
+#: ../DistUpgrade/DistUpgradeQuirks.py:587
+msgid ""
+"This computer is currently using the AMD 'fglrx' graphics driver. No version "
+"of this driver is available that works with your hardware in Ubuntu 10.04 "
+"LTS.\n"
+"\n"
+"Do you want to continue?"
+msgstr ""
+"Þessi tölva er sem stendur að notast við AMD ‚fglrx‘-rekilinn fyrir grafík. "
+"Það er ekki til nein útgáfa af þessum rekli sem virkar með vélbúnaði þínum í "
+"Ubuntu 10.04 LTS.\n"
+"\n"
+"Viltu halda áfram?"
+
+#: ../DistUpgrade/DistUpgradeQuirks.py:617
+msgid "No i686 CPU"
+msgstr ""
+
+#: ../DistUpgrade/DistUpgradeQuirks.py:618
+msgid ""
+"Your system uses an i586 CPU or a CPU that does not have the 'cmov' "
+"extension. All packages were built with optimizations requiring i686 as the "
+"minimal architecture. It is not possible to upgrade your system to a new "
+"Ubuntu release with this hardware."
+msgstr ""
+
+#: ../DistUpgrade/DistUpgradeQuirks.py:654
+msgid "No ARMv6 CPU"
+msgstr "Enginn ARMv6-örgjörvi"
+
+#: ../DistUpgrade/DistUpgradeQuirks.py:655
+msgid ""
+"Your system uses an ARM CPU that is older than the ARMv6 architecture. All "
+"packages in karmic were built with optimizations requiring ARMv6 as the "
+"minimal architecture. It is not possible to upgrade your system to a new "
+"Ubuntu release with this hardware."
+msgstr ""
+"Tölva þín inniheldur ARM-örgjörva sem er eldri en ARMv6 (útgáfa 6). Allir "
+"pakkar í karmic þurfa af lágmarki örgjörva af útgáfu ARMv6. Það er ekki hægt "
+"að uppfæra stýrikerfi þitt yfir í nýja útgáfu af Ubuntu með þessum vélbúnaði."
+
+#: ../DistUpgrade/DistUpgradeQuirks.py:675
+msgid "No init available"
+msgstr "‚init‘ fannst ekki"
+
+#: ../DistUpgrade/DistUpgradeQuirks.py:676
+msgid ""
+"Your system appears to be a virtualised environment without an init daemon, "
+"e.g. Linux-VServer. Ubuntu 10.04 LTS cannot function within this type of "
+"environment, requiring an update to your virtual machine configuration "
+"first.\n"
+"\n"
+"Are you sure you want to continue?"
+msgstr ""
+
+#: ../DistUpgrade/DistUpgradeMain.py:45
+msgid "Sandbox upgrade using aufs"
+msgstr "Uppfærsla í sandkassanum með ‚aufs‘"
+
+#: ../DistUpgrade/DistUpgradeMain.py:47
+msgid "Use the given path to search for a cdrom with upgradable packages"
+msgstr ""
+"Nota þessa slóð til að leita að geisladiski með pökkum sem hægt er að "
+"uppfæra með"
+
+#: ../DistUpgrade/DistUpgradeMain.py:53
+msgid ""
+"Use frontend. Currently available: \n"
+"DistUpgradeViewText, DistUpgradeViewGtk, DistUpgradeViewKDE"
+msgstr ""
+"Nota framenda. Hægt er að nálgast: \n"
+"DistUpgradeViewText, DistUpgradeViewGtk, DistUpgradeViewKDE"
+
+#: ../DistUpgrade/DistUpgradeMain.py:56
+msgid "*DEPRECATED* this option will be ignored"
+msgstr ""
+
+#: ../DistUpgrade/DistUpgradeMain.py:59
+msgid "Perform a partial upgrade only (no sources.list rewriting)"
+msgstr "Ekki uppfæra allt (mun ekki skrifa yfir ‚sources.list‘)"
+
+#: ../DistUpgrade/DistUpgradeMain.py:62
+msgid "Disable GNU screen support"
+msgstr ""
+
+#: ../DistUpgrade/DistUpgradeMain.py:64
+msgid "Set datadir"
+msgstr "Ákveða ‚datadir‘"
+
+#. print "mediaChange %s %s" % (medium, drive)
+#: ../DistUpgrade/DistUpgradeViewGtk.py:114
+#: ../DistUpgrade/DistUpgradeViewGtk3.py:117
+#: ../DistUpgrade/DistUpgradeViewKDE.py:189
+#: ../UpdateManager/DistUpgradeFetcherKDE.py:147
+#, python-format
+msgid "Please insert '%s' into the drive '%s'"
+msgstr "Settu ‚%s‘ í drifið ‚%s‘"
+
+#: ../DistUpgrade/DistUpgradeViewGtk.py:135
+#: ../DistUpgrade/DistUpgradeViewGtk3.py:138
+#: ../DistUpgrade/DistUpgradeViewKDE.py:203
+msgid "Fetching is complete"
+msgstr "Búið að sækja"
+
+#: ../DistUpgrade/DistUpgradeViewGtk.py:146
+#: ../DistUpgrade/DistUpgradeViewGtk3.py:149
+#: ../DistUpgrade/DistUpgradeViewKDE.py:216
+#, python-format
+msgid "Fetching file %li of %li at %sB/s"
+msgstr "Sæki skrá %li af %li á %sB/sek."
+
+#: ../DistUpgrade/DistUpgradeViewGtk.py:149
+#: ../DistUpgrade/DistUpgradeViewGtk.py:295
+#: ../DistUpgrade/DistUpgradeViewGtk3.py:152
+#: ../DistUpgrade/DistUpgradeViewGtk3.py:301
+#: ../DistUpgrade/DistUpgradeViewKDE.py:217
+#: ../DistUpgrade/DistUpgradeViewKDE.py:361
+#, python-format
+msgid "About %s remaining"
+msgstr "Um það bil %s eftir"
+
+#: ../DistUpgrade/DistUpgradeViewGtk.py:152
+#: ../DistUpgrade/DistUpgradeViewGtk3.py:155
+#: ../DistUpgrade/DistUpgradeViewKDE.py:219
+#, python-format
+msgid "Fetching file %li of %li"
+msgstr "Sæki skrá %li af %li"
+
+#. FIXME: add support for the timeout
+#. of the terminal (to display something useful then)
+#. -> longer term, move this code into python-apt
+#: ../DistUpgrade/DistUpgradeViewGtk.py:183
+#: ../DistUpgrade/DistUpgradeViewGtk3.py:186
+#: ../DistUpgrade/DistUpgradeViewKDE.py:253
+msgid "Applying changes"
+msgstr "Virkja breytingar"
+
+#. we do not report followup errors from earlier failures
+#: ../DistUpgrade/DistUpgradeViewGtk.py:208
+#: ../DistUpgrade/DistUpgradeViewGtk3.py:211
+#: ../DistUpgrade/DistUpgradeViewKDE.py:266
+msgid "dependency problems - leaving unconfigured"
+msgstr "vandamál með ákvæði - skil eftir óstillt"
+
+#: ../DistUpgrade/DistUpgradeViewGtk.py:213
+#: ../DistUpgrade/DistUpgradeViewGtk3.py:216
+#: ../DistUpgrade/DistUpgradeViewKDE.py:268
+#, python-format
+msgid "Could not install '%s'"
+msgstr "Gat ekki sett upp ‚%s‘"
+
+#: ../DistUpgrade/DistUpgradeViewGtk.py:214
+#: ../DistUpgrade/DistUpgradeViewGtk3.py:217
+#: ../DistUpgrade/DistUpgradeViewKDE.py:269
+#, python-format
+msgid ""
+"The upgrade will continue but the '%s' package may not be in a working "
+"state. Please consider submitting a bug report about it."
+msgstr ""
+"Uppfærslan mun halda áfram en pakkinn ‚%s‘ er líklega í ólagi. Sendu inn "
+"upplýsingar um þessa bilun."
+
+#. self.expander.set_expanded(True)
+#: ../DistUpgrade/DistUpgradeViewGtk.py:231
+#: ../DistUpgrade/DistUpgradeViewGtk3.py:234
+#: ../DistUpgrade/DistUpgradeViewKDE.py:290
+#, python-format
+msgid ""
+"Replace the customized configuration file\n"
+"'%s'?"
+msgstr ""
+"Viltu skipta út stillingarskránni sem þú hefur breytt\n"
+"‚%s‘?"
+
+#: ../DistUpgrade/DistUpgradeViewGtk.py:232
+#: ../DistUpgrade/DistUpgradeViewGtk3.py:235
+#: ../DistUpgrade/DistUpgradeViewKDE.py:291
+msgid ""
+"You will lose any changes you have made to this configuration file if you "
+"choose to replace it with a newer version."
+msgstr ""
+"Þú munt tapa öllu sem þú hefur breytt í þessari stillingarskrá ef þú ákveður "
+"að skipta henni út fyrir nýja útgáfu."
+
+#: ../DistUpgrade/DistUpgradeViewGtk.py:250
+#: ../DistUpgrade/DistUpgradeViewGtk3.py:253
+#: ../DistUpgrade/DistUpgradeViewKDE.py:313
+msgid "The 'diff' command was not found"
+msgstr "Skipunin ‚diff‘ fannst ekki"
+
+#: ../DistUpgrade/DistUpgradeViewGtk.py:463
+#: ../DistUpgrade/DistUpgradeViewGtk3.py:469
+#: ../DistUpgrade/DistUpgradeViewText.py:90
+msgid "A fatal error occurred"
+msgstr "Það kom upp grafalvarleg villa"
+
+#: ../DistUpgrade/DistUpgradeViewGtk.py:464
+#: ../DistUpgrade/DistUpgradeViewGtk3.py:470
+msgid ""
+"Please report this as a bug (if you haven't already) and include the files "
+"/var/log/dist-upgrade/main.log and /var/log/dist-upgrade/apt.log in your "
+"report. The upgrade has aborted.\n"
+"Your original sources.list was saved in /etc/apt/sources.list.distUpgrade."
+msgstr ""
+
+#: ../DistUpgrade/DistUpgradeViewGtk.py:481
+#: ../DistUpgrade/DistUpgradeViewGtk3.py:487
+msgid "Ctrl-c pressed"
+msgstr "Ýtt á ctrl-c"
+
+#: ../DistUpgrade/DistUpgradeViewGtk.py:482
+#: ../DistUpgrade/DistUpgradeViewGtk3.py:488
+msgid ""
+"This will abort the operation and may leave the system in a broken state. "
+"Are you sure you want to do that?"
+msgstr ""
+"Þetta mun stöðva aðgerðina og skilja kerfið eftir bilað. Ertu viss um að þú "
+"viljir halda áfram?"
+
+#. append warning
+#: ../DistUpgrade/DistUpgradeViewGtk.py:630
+#: ../DistUpgrade/DistUpgradeViewGtk3.py:621
+msgid "To prevent data loss close all open applications and documents."
+msgstr "Til að fyrirbyggja tap á gögnum skaltu loka öllum forritum og skrám."
+
+#: ../DistUpgrade/DistUpgradeViewGtk.py:644
+#: ../DistUpgrade/DistUpgradeViewGtk3.py:635
+#, python-format
+msgid "No longer supported by Canonical (%s)"
+msgstr ""
+
+#: ../DistUpgrade/DistUpgradeViewGtk.py:645
+#: ../DistUpgrade/DistUpgradeViewGtk3.py:636
+#, python-format
+msgid "<b>Downgrade (%s)</b>"
+msgstr ""
+
+#: ../DistUpgrade/DistUpgradeViewGtk.py:646
+#: ../DistUpgrade/DistUpgradeViewGtk3.py:637
+#, python-format
+msgid "Remove (%s)"
+msgstr ""
+
+#: ../DistUpgrade/DistUpgradeViewGtk.py:647
+#: ../DistUpgrade/DistUpgradeViewGtk3.py:638
+#, python-format
+msgid "No longer needed (%s)"
+msgstr ""
+
+#: ../DistUpgrade/DistUpgradeViewGtk.py:648
+#: ../DistUpgrade/DistUpgradeViewGtk3.py:639
+#, python-format
+msgid "Install (%s)"
+msgstr ""
+
+#: ../DistUpgrade/DistUpgradeViewGtk.py:649
+#: ../DistUpgrade/DistUpgradeViewGtk3.py:640
+#, python-format
+msgid "Upgrade (%s)"
+msgstr ""
+
+#. change = QMessageBox.question(None, _("Media Change"), msg, QMessageBox.Ok, QMessageBox.Cancel)
+#: ../DistUpgrade/DistUpgradeViewKDE.py:190
+#: ../UpdateManager/DistUpgradeFetcherKDE.py:149
+msgid "Media Change"
+msgstr "Breyta miðli"
+
+#: ../DistUpgrade/DistUpgradeViewKDE.py:325
+msgid "Show Difference >>>"
+msgstr "Sýna mun >>>"
+
+#: ../DistUpgrade/DistUpgradeViewKDE.py:328
+msgid "<<< Hide Difference"
+msgstr "<<< Fela mun"
+
+#: ../DistUpgrade/DistUpgradeViewKDE.py:543
+msgid "Error"
+msgstr "Villa"
+
+#: ../DistUpgrade/DistUpgradeViewKDE.py:555
+msgid "&Cancel"
+msgstr "&Hætta við"
+
+#: ../DistUpgrade/DistUpgradeViewKDE.py:557
+#: ../DistUpgrade/DistUpgradeViewKDE.py:799
+msgid "&Close"
+msgstr "&Loka"
+
+#: ../DistUpgrade/DistUpgradeViewKDE.py:603
+msgid "Show Terminal >>>"
+msgstr "Sýna útstöðina >>>"
+
+#: ../DistUpgrade/DistUpgradeViewKDE.py:606
+msgid "<<< Hide Terminal"
+msgstr "<<< Fela útstöðina"
+
+#: ../DistUpgrade/DistUpgradeViewKDE.py:686
+msgid "Information"
+msgstr "Upplýsingar"
+
+#: ../DistUpgrade/DistUpgradeViewKDE.py:737
+#: ../DistUpgrade/DistUpgradeViewKDE.py:782
+#: ../DistUpgrade/DistUpgradeViewKDE.py:785 ../DistUpgrade/DistUpgrade.ui.h:11
+msgid "Details"
+msgstr "Frekari upplýsingar"
+
+#: ../DistUpgrade/DistUpgradeViewKDE.py:763
+#, python-format
+msgid "No longer supported %s"
+msgstr ""
+
+#: ../DistUpgrade/DistUpgradeViewKDE.py:765
+#, python-format
+msgid "Remove %s"
+msgstr "Fjarlægja %s"
+
+#: ../DistUpgrade/DistUpgradeViewKDE.py:767
+#: ../DistUpgrade/DistUpgradeViewText.py:179
+#, python-format
+msgid "Remove (was auto installed) %s"
+msgstr "Fjarlægja (var sett upp sjálfvirkt) %s"
+
+#: ../DistUpgrade/DistUpgradeViewKDE.py:769
+#, python-format
+msgid "Install %s"
+msgstr "Setja %s upp"
+
+#: ../DistUpgrade/DistUpgradeViewKDE.py:771
+#, python-format
+msgid "Upgrade %s"
+msgstr "Uppfæri %s"
+
+#: ../DistUpgrade/DistUpgradeViewKDE.py:795
+#: ../DistUpgrade/DistUpgradeViewText.py:227
+msgid "Restart required"
+msgstr "Þú þarft að endurræsa tölvuna"
+
+#: ../DistUpgrade/DistUpgradeViewKDE.py:795
+msgid "<b><big>Restart the system to complete the upgrade</big></b>"
+msgstr "<b><big>Endurræsa kerfið til að ljúka uppfærslunni</big></b>"
+
+#: ../DistUpgrade/DistUpgradeViewKDE.py:798 ../DistUpgrade/DistUpgrade.ui.h:25
+#: ../data/gtkbuilder/UpdateManager.ui.h:32
+msgid "_Restart Now"
+msgstr "_Endurræsa núna"
+
+#. FIXME make this user friendly
+#: ../DistUpgrade/DistUpgradeViewKDE.py:816
+msgid ""
+"<b><big>Cancel the running upgrade?</big></b>\n"
+"\n"
+"The system could be in an unusable state if you cancel the upgrade. You are "
+"strongly advised to resume the upgrade."
+msgstr ""
+"<b><big>Viltu hætta við uppfærsluna?</big></b>\n"
+"\n"
+"Það getur verið að tölvan þín verði ónothæf ef þú hættir núna. Það er "
+"stranglega mælt með því að halda áfram."
+
+#: ../DistUpgrade/DistUpgradeViewKDE.py:820
+msgid "Cancel Upgrade?"
+msgstr "Viltu hætta við uppfærsluna?"
+
+#: ../DistUpgrade/DistUpgradeView.py:59
+#, python-format
+msgid "%li day"
+msgid_plural "%li days"
+msgstr[0] "%li dagur"
+msgstr[1] "%li dagar"
+
+#: ../DistUpgrade/DistUpgradeView.py:61
+#, python-format
+msgid "%li hour"
+msgid_plural "%li hours"
+msgstr[0] "%li klukkutími"
+msgstr[1] "%li klukkutímar"
+
+#: ../DistUpgrade/DistUpgradeView.py:63
+#, python-format
+msgid "%li minute"
+msgid_plural "%li minutes"
+msgstr[0] "%li mínúta"
+msgstr[1] "%li mínútur"
+
+#: ../DistUpgrade/DistUpgradeView.py:64
+#, python-format
+msgid "%li second"
+msgid_plural "%li seconds"
+msgstr[0] "%li sekúnda"
+msgstr[1] "%li sekúndur"
+
+#. TRANSLATORS: you can alter the ordering of the remaining time
+#. information here if you shuffle %(str_days)s %(str_hours)s %(str_minutes)s
+#. around. Make sure to keep all '$(str_*)s' in the translated string
+#. and do NOT change anything appart from the ordering.
+#. 
+#. %(str_hours)s will be either "1 hour" or "2 hours" depending on the
+#. plural form
+#. 
+#. Note: most western languages will not need to change this
+#: ../DistUpgrade/DistUpgradeView.py:80
+#, python-format
+msgid "%(str_days)s %(str_hours)s"
+msgstr "%(str_days)s %(str_hours)s"
+
+#. TRANSLATORS: you can alter the ordering of the remaining time
+#. information here if you shuffle %(str_hours)s %(str_minutes)s
+#. around. Make sure to keep all '$(str_*)s' in the translated string
+#. and do NOT change anything appart from the ordering.
+#. 
+#. %(str_hours)s will be either "1 hour" or "2 hours" depending on the
+#. plural form
+#. 
+#. Note: most western languages will not need to change this
+#: ../DistUpgrade/DistUpgradeView.py:98
+#, python-format
+msgid "%(str_hours)s %(str_minutes)s"
+msgstr "%(str_hours)s %(str_minutes)s"
+
+#. 56 kbit
+#. 1Mbit = 1024 kbit
+#: ../DistUpgrade/DistUpgradeView.py:147
+#, python-format
+msgid ""
+"This download will take about %s with a 1Mbit DSL connection and about %s "
+"with a 56k modem."
+msgstr "Þetta tekur um %s með 1Mbit DSL tengingu og um %s með 56k módemi."
+
+#. if we have a estimated speed, use it
+#: ../DistUpgrade/DistUpgradeView.py:151
+#, python-format
+msgid "This download will take about %s with your connection. "
+msgstr "Þetta mun taka um %s með þinni tengingu. "
+
+#: ../DistUpgrade/DistUpgradeView.py:253 ../DistUpgrade/DistUpgrade.ui.h:16
+msgid "Preparing to upgrade"
+msgstr "Undirbý að uppfæra"
+
+#: ../DistUpgrade/DistUpgradeView.py:254
+msgid "Getting new software channels"
+msgstr "Sæki nýjar hugbúnaðarrásir"
+
+#: ../DistUpgrade/DistUpgradeView.py:255 ../DistUpgrade/DistUpgrade.ui.h:14
+msgid "Getting new packages"
+msgstr "Sæki nýja pakka"
+
+#: ../DistUpgrade/DistUpgradeView.py:256 ../DistUpgrade/DistUpgrade.ui.h:15
+msgid "Installing the upgrades"
+msgstr "Set upp uppfærslurnar"
+
+#: ../DistUpgrade/DistUpgradeView.py:257 ../DistUpgrade/DistUpgrade.ui.h:10
+msgid "Cleaning up"
+msgstr "Hreinsa til"
+
+#: ../DistUpgrade/DistUpgradeView.py:342
+#, python-format
+msgid ""
+"%(amount)d installed package is no longer supported by Canonical. You can "
+"still get support from the community."
+msgid_plural ""
+"%(amount)d installed packages are no longer supported by Canonical. You can "
+"still get support from the community."
+msgstr[0] ""
+msgstr[1] ""
+
+#. FIXME: make those two separate lines to make it clear
+#. that the "%" applies to the result of ngettext
+#: ../DistUpgrade/DistUpgradeView.py:351
+#, python-format
+msgid "%d package is going to be removed."
+msgid_plural "%d packages are going to be removed."
+msgstr[0] "%d pakki mun vera fjarlægður."
+msgstr[1] "%d pakkar munu vera fjarlægðir."
+
+#: ../DistUpgrade/DistUpgradeView.py:356
+#, python-format
+msgid "%d new package is going to be installed."
+msgid_plural "%d new packages are going to be installed."
+msgstr[0] "%d nýr pakki mun vera uppsettur."
+msgstr[1] "%d nýir pakkar munu vera uppsettir."
+
+#: ../DistUpgrade/DistUpgradeView.py:362
+#, python-format
+msgid "%d package is going to be upgraded."
+msgid_plural "%d packages are going to be upgraded."
+msgstr[0] "%d pakki mun vera uppfærður."
+msgstr[1] "%d pakkar munu vera uppfærðir."
+
+#: ../DistUpgrade/DistUpgradeView.py:367
+#, python-format
+msgid ""
+"\n"
+"\n"
+"You have to download a total of %s. "
+msgstr ""
+"\n"
+"\n"
+"Þú þarft að sækja samtals %s. "
+
+#: ../DistUpgrade/DistUpgradeView.py:371
+msgid ""
+"Fetching and installing the upgrade can take several hours. Once the "
+"download has finished, the process cannot be cancelled."
+msgstr ""
+"Það getur tekið nokkra tíma að uppfæra tölvuna. Ekki er hægt að hætta við "
+"þegar niðurhalinu er lokið."
+
+#. FIXME: this should go into DistUpgradeController
+#: ../DistUpgrade/DistUpgradeView.py:377 ../UpdateManager/UpdateManager.py:664
+msgid "Your system is up-to-date"
+msgstr "Kerfið þitt hefur verið uppfært"
+
+#: ../DistUpgrade/DistUpgradeView.py:378
+msgid ""
+"There are no upgrades available for your system. The upgrade will now be "
+"canceled."
+msgstr ""
+"Það eru engar uppfærslur fáanlega fyrir kerfið þitt. Uppfærslu verður nú "
+"hætt."
+
+#: ../DistUpgrade/DistUpgradeView.py:391
+msgid "Reboot required"
+msgstr "Þú þarft að endurræsa tölvuna"
+
+#: ../DistUpgrade/DistUpgradeView.py:392
+msgid ""
+"The upgrade is finished and a reboot is required. Do you want to do this now?"
+msgstr ""
+"Búið er að uppfæra tölvuna þína og nú þarft þú að endurræsa hana. Viltu gera "
+"það núna?"
+
+#: ../DistUpgrade/DistUpgradeFetcherCore.py:131
+#: ../DistUpgrade/DistUpgradeFetcherCore.py:132
+#: ../UpdateManager/Core/DistUpgradeFetcherCore.py:131
+#: ../UpdateManager/Core/DistUpgradeFetcherCore.py:132
+msgid "Could not run the upgrade tool"
+msgstr "Gat ekki keyrt uppfærsluna"
+
+#: ../DistUpgrade/DistUpgradeFetcherCore.py:132
+#: ../UpdateManager/Core/DistUpgradeFetcherCore.py:132
+msgid ""
+"This is most likely a bug in the upgrade tool. Please report it as a bug "
+"using the command 'ubuntu-bug update-manager'."
+msgstr ""
+
+#: ../DistUpgrade/DistUpgradeFetcherCore.py:207
+#: ../UpdateManager/Core/DistUpgradeFetcherCore.py:207
+msgid "Upgrade tool signature"
+msgstr "Auðkenni uppfærsluforritsins"
+
+#: ../DistUpgrade/DistUpgradeFetcherCore.py:214
+#: ../UpdateManager/Core/DistUpgradeFetcherCore.py:214
+msgid "Upgrade tool"
+msgstr "Uppfærsluforrit"
+
+#: ../DistUpgrade/DistUpgradeFetcherCore.py:248
+#: ../UpdateManager/Core/DistUpgradeFetcherCore.py:248
+msgid "Failed to fetch"
+msgstr "Ekki tókst að sækja"
+
+#: ../DistUpgrade/DistUpgradeFetcherCore.py:249
+#: ../UpdateManager/Core/DistUpgradeFetcherCore.py:249
+msgid "Fetching the upgrade failed. There may be a network problem. "
+msgstr ""
+"Það tókst ekki að sækja uppfærsluna. Þetta gæti verið vandamál með netið. "
+
+#: ../DistUpgrade/DistUpgradeFetcherCore.py:253
+#: ../UpdateManager/Core/DistUpgradeFetcherCore.py:253
+msgid "Failed to extract"
+msgstr "Mistókst að ná í upplýsingarnar"
+
+#: ../DistUpgrade/DistUpgradeFetcherCore.py:254
+#: ../UpdateManager/Core/DistUpgradeFetcherCore.py:254
+msgid ""
+"Extracting the upgrade failed. There may be a problem with the network or "
+"with the server. "
+msgstr ""
+"Það mistókst að nálgast upplýsingarnar um uppfærsluna. Þetta er mögulega "
+"vandamál við nettenginguna eða netþjóninn. "
+
+#: ../DistUpgrade/DistUpgradeFetcherCore.py:259
+#: ../UpdateManager/Core/DistUpgradeFetcherCore.py:259
+msgid "Verification failed"
+msgstr "Sannreynsla mistóks"
+
+#: ../DistUpgrade/DistUpgradeFetcherCore.py:260
+#: ../UpdateManager/Core/DistUpgradeFetcherCore.py:260
+msgid ""
+"Verifying the upgrade failed.  There may be a problem with the network or "
+"with the server. "
+msgstr ""
+"Það tókst ekki að sannprófa uppfærsluna. Þetta er mögulega vandamál við "
+"nettenginguna eða netþjóninn. "
+
+#: ../DistUpgrade/DistUpgradeFetcherCore.py:265
+#: ../UpdateManager/Core/DistUpgradeFetcherCore.py:265
+msgid "Authentication failed"
+msgstr "Auðkenning mistókst"
+
+#: ../DistUpgrade/DistUpgradeFetcherCore.py:266
+#: ../UpdateManager/Core/DistUpgradeFetcherCore.py:266
+msgid ""
+"Authenticating the upgrade failed. There may be a problem with the network "
+"or with the server. "
+msgstr ""
+"Það tókst ekki að auðkenna uppfærsluna. Þetta er mögulega vandamál við "
+"nettenginguna eða netþjóninn. "
+
+#: ../DistUpgrade/DistUpgradeFetcherCore.py:280
+#: ../DistUpgrade/DistUpgradeFetcherCore.py:286
+#: ../UpdateManager/Core/DistUpgradeFetcherCore.py:280
+#: ../UpdateManager/Core/DistUpgradeFetcherCore.py:286
+msgid "Can not run the upgrade"
+msgstr "Get ekki keyrt uppfærsluna"
+
+#: ../DistUpgrade/DistUpgradeFetcherCore.py:281
+#: ../UpdateManager/Core/DistUpgradeFetcherCore.py:281
+msgid ""
+"This usually is caused by a system where /tmp is mounted noexec. Please "
+"remount without noexec and run the upgrade again."
+msgstr ""
+
+#: ../DistUpgrade/DistUpgradeFetcherCore.py:287
+#: ../UpdateManager/Core/DistUpgradeFetcherCore.py:287
+#, python-format
+msgid "The error message is '%s'."
+msgstr "Villumeldingin er ‚%s‘."
+
+#: ../DistUpgrade/DistUpgradeViewText.py:91
+msgid ""
+"Please report this as a bug and include the files /var/log/dist-"
+"upgrade/main.log and /var/log/dist-upgrade/apt.log in your report. The "
+"upgrade has aborted.\n"
+"Your original sources.list was saved in /etc/apt/sources.list.distUpgrade."
+msgstr ""
+
+#: ../DistUpgrade/DistUpgradeViewText.py:115
+msgid "Aborting"
+msgstr "Hætti við"
+
+#: ../DistUpgrade/DistUpgradeViewText.py:120
+msgid "Demoted:\n"
+msgstr "Lækkað í tign:\n"
+
+#: ../DistUpgrade/DistUpgradeViewText.py:127
+msgid "To continue please press [ENTER]"
+msgstr ""
+
+#: ../DistUpgrade/DistUpgradeViewText.py:155
+#: ../DistUpgrade/DistUpgradeViewText.py:193
+#: ../DistUpgrade/DistUpgradeViewText.py:200
+msgid "Continue [yN] "
+msgstr "Viltu halda áfram [jN] "
+
+#: ../DistUpgrade/DistUpgradeViewText.py:155
+#: ../DistUpgrade/DistUpgradeViewText.py:193
+msgid "Details [d]"
+msgstr "Upplýsingar [u]"
+
+#. TRANSLATORS: the "y" is "yes"
+#. TRANSLATORS: first letter of a positive (yes) answer
+#: ../DistUpgrade/DistUpgradeViewText.py:159
+#: ../DistUpgrade/DistUpgradeViewText.py:203
+msgid "y"
+msgstr "j"
+
+#. TRANSLATORS: the "n" is "no"
+#. TRANSLATORS: first letter of a negative (no) answer
+#: ../DistUpgrade/DistUpgradeViewText.py:162
+#: ../DistUpgrade/DistUpgradeViewText.py:210
+msgid "n"
+msgstr "n"
+
+#. TRANSLATORS: the "d" is "details"
+#: ../DistUpgrade/DistUpgradeViewText.py:165
+msgid "d"
+msgstr "u"
+
+#: ../DistUpgrade/DistUpgradeViewText.py:170
+#, python-format
+msgid "No longer supported: %s\n"
+msgstr ""
+
+#: ../DistUpgrade/DistUpgradeViewText.py:175
+#, python-format
+msgid "Remove: %s\n"
+msgstr "Fjarlægja: %s\n"
+
+#: ../DistUpgrade/DistUpgradeViewText.py:185
+#, python-format
+msgid "Install: %s\n"
+msgstr "Setja upp: %s\n"
+
+#: ../DistUpgrade/DistUpgradeViewText.py:190
+#, python-format
+msgid "Upgrade: %s\n"
+msgstr "Uppfæra: %s\n"
+
+#: ../DistUpgrade/DistUpgradeViewText.py:207
+msgid "Continue [Yn] "
+msgstr "Viltu halda áfram [Jn] "
+
+#: ../DistUpgrade/DistUpgradeViewText.py:228
+msgid ""
+"To finish the upgrade, a restart is required.\n"
+"If you select 'y' the system will be restarted."
+msgstr ""
+"Þú þarft að endurræsa tölvuna til að ljúka uppfærslunni.\n"
+"Ef þú velur ‚j‘ mun hún endurræsa sig."
+
+#: ../DistUpgrade/DistUpgrade.ui.h:1
+msgid "    "
+msgstr "    "
+
+#: ../DistUpgrade/DistUpgrade.ui.h:2
+msgid ""
+"<b><big>Cancel the running upgrade?</big></b>\n"
+"\n"
+"The system could be in an unusable state if you cancel the upgrade. You are "
+"strongly adviced to resume the upgrade."
+msgstr ""
+"<b><big>Viltu hætta við uppfærsluna sem er þegar hafin?</big></b>\n"
+"\n"
+"Kerfið gæti orðið ónothæft ef þú hættir við uppfærlsuna núna. Það er "
+"sterklega mælt með að þú haldir áfram með uppfærsluna."
+
+#: ../DistUpgrade/DistUpgrade.ui.h:5
+msgid ""
+"<b><big>Restart the system to complete the upgrade</big></b>\n"
+"\n"
+"Please save your work before continuing."
+msgstr ""
+"<b><big>Endurræstu tölvuna til að ljúka uppfærslunni</big></b>\n"
+"\n"
+"Mundu aftur því að vista öllum gögnum áður en þú heldur áfram."
+
+#: ../DistUpgrade/DistUpgrade.ui.h:8
+msgid "<b><big>Start the upgrade?</big></b>"
+msgstr "<b><big>Viltu byrja að uppfæra?</big></b>"
+
+#: ../DistUpgrade/DistUpgrade.ui.h:9
+msgid "<b><big>Upgrading Ubuntu to version 11.10</big></b>"
+msgstr ""
+
+#: ../DistUpgrade/DistUpgrade.ui.h:12
+msgid "Difference between the files"
+msgstr "Munurinn á skránum"
+
+#: ../DistUpgrade/DistUpgrade.ui.h:13
+msgid "Distribution Upgrade"
+msgstr "Uppfæra kerfið"
+
+#: ../DistUpgrade/DistUpgrade.ui.h:17
+msgid "Restarting the computer"
+msgstr "Endurræsi tölvuna"
+
+#: ../DistUpgrade/DistUpgrade.ui.h:18
+msgid "Setting new software channels"
+msgstr "Ákveð nýjar hugbúnaðarrásir"
+
+#: ../DistUpgrade/DistUpgrade.ui.h:19
+msgid "Terminal"
+msgstr "Útstöð"
+
+#: ../DistUpgrade/DistUpgrade.ui.h:20
+msgid "_Cancel Upgrade"
+msgstr "_Hætta við uppfærslu"
+
+#: ../DistUpgrade/DistUpgrade.ui.h:21
+msgid "_Continue"
+msgstr "_Halda áfram"
+
+#: ../DistUpgrade/DistUpgrade.ui.h:23
+msgid "_Replace"
+msgstr "_Skipta út"
+
+#: ../DistUpgrade/DistUpgrade.ui.h:24
+msgid "_Report Bug"
+msgstr "_Tilkynna um villu"
+
+#: ../DistUpgrade/DistUpgrade.ui.h:26
+msgid "_Resume Upgrade"
+msgstr "_Halda áfram með uppfærslu"
+
+#: ../DistUpgrade/DistUpgrade.ui.h:27
+msgid "_Start Upgrade"
+msgstr "_Hefja uppfærslu"
+
+#: ../UpdateManager/backend/InstallBackendSynaptic.py:55
+msgid "Please wait, this can take some time."
+msgstr "Vinsamlegast dokaðu, þetta gæti tekið drjúga stund."
+
+#: ../UpdateManager/backend/InstallBackendSynaptic.py:57
+msgid "Update is complete"
+msgstr "Uppfærslu er lokið"
+
+#: ../UpdateManager/DistUpgradeFetcher.py:108
+#: ../UpdateManager/DistUpgradeFetcherKDE.py:102
+msgid "Could not find the release notes"
+msgstr "Fann ekki upplýsingar um útgáfu"
+
+#: ../UpdateManager/DistUpgradeFetcher.py:109
+#: ../UpdateManager/DistUpgradeFetcherKDE.py:103
+msgid "The server may be overloaded. "
+msgstr "Það er mögulega mikið álag á netþjóninum. "
+
+#: ../UpdateManager/DistUpgradeFetcher.py:119
+#: ../UpdateManager/DistUpgradeFetcherKDE.py:107
+msgid "Could not download the release notes"
+msgstr "Gat ekki sótt upplýsingar um útgáfuna"
+
+#: ../UpdateManager/DistUpgradeFetcher.py:120
+#: ../UpdateManager/DistUpgradeFetcherKDE.py:108
+msgid "Please check your internet connection."
+msgstr "Vinsamlegast athugaðu internettenginguna þína"
+
+#: ../UpdateManager/DistUpgradeFetcherKDE.py:61
+#: ../UpdateManager/DistUpgradeFetcherKDE.py:84
+msgid "Upgrade"
+msgstr "Uppfæra"
+
+#: ../UpdateManager/DistUpgradeFetcherKDE.py:88
+#: ../data/gtkbuilder/UpdateManager.ui.h:13
+#: ../data/gtkbuilder/UpgradePromptDialog.ui.h:4
+msgid "Release Notes"
+msgstr "Upplýsingar um útgáfu"
+
+#: ../UpdateManager/DistUpgradeFetcherKDE.py:127
+#: ../UpdateManager/DistUpgradeFetcherKDE.py:140
+#: ../UpdateManager/DistUpgradeFetcherKDE.py:142
+msgid "Downloading additional package files..."
+msgstr "Sæki aukapakka..."
+
+#: ../UpdateManager/DistUpgradeFetcherKDE.py:140
+#, python-format
+msgid "File %s of %s at %sB/s"
+msgstr "Skrá %s af %s á %sB/sek."
+
+#: ../UpdateManager/DistUpgradeFetcherKDE.py:142
+#, python-format
+msgid "File %s of %s"
+msgstr "Skrá %s af %s"
+
+#: ../UpdateManager/ChangelogViewer.py:73
+msgid "Open Link in Browser"
+msgstr "Opna tengil í vafra"
+
+#: ../UpdateManager/ChangelogViewer.py:76
+msgid "Copy Link to Clipboard"
+msgstr "Afrita tengil"
+
+#: ../UpdateManager/GtkProgress.py:159
+#, python-format
+msgid "Downloading file %(current)li of %(total)li with %(speed)s/s"
+msgstr "Sæki skrá %(current)li af %(total)li á %(speed)s/sek."
+
+#: ../UpdateManager/GtkProgress.py:164
+#, python-format
+msgid "Downloading file %(current)li of %(total)li"
+msgstr "Sæki skrá %(current)li af %(total)li"
+
+#: ../UpdateManager/UpdateManager.py:105 ../do-release-upgrade:90
+msgid "Your Ubuntu release is not supported anymore."
+msgstr ""
+
+#: ../UpdateManager/UpdateManager.py:106
+msgid ""
+"You will not get any further security fixes or critical updates. Please "
+"upgrade to a later version of Ubuntu Linux."
+msgstr ""
+
+#: ../UpdateManager/UpdateManager.py:114
+msgid "Upgrade information"
+msgstr "Upplýsingar um uppfærslu"
+
+#. upload_archive = version_match.group(2).strip()
+#: ../UpdateManager/UpdateManager.py:389
+#, python-format
+msgid "Version %s: \n"
+msgstr "Útgáfa %s: \n"
+
+#: ../UpdateManager/UpdateManager.py:445
+msgid ""
+"No network connection detected, you can not download changelog information."
+msgstr ""
+
+#: ../UpdateManager/UpdateManager.py:453
+msgid "Downloading list of changes..."
+msgstr "Sæki lista yfir breytingar..."
+
+#: ../UpdateManager/UpdateManager.py:497
+msgid "_Deselect All"
+msgstr ""
+
+#: ../UpdateManager/UpdateManager.py:503
+msgid "Select _All"
+msgstr ""
+
+#: ../UpdateManager/UpdateManager.py:552
+#, python-format
+msgid "%(count)s update has been selected."
+msgid_plural "%(count)s updates have been selected."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../UpdateManager/UpdateManager.py:556
+#, python-format
+msgid "%s will be downloaded."
+msgstr ""
+
+#: ../UpdateManager/UpdateManager.py:568
+msgid "The update has already been downloaded, but not installed"
+msgid_plural "The updates have already been downloaded, but not installed"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../UpdateManager/UpdateManager.py:573
+msgid "There are no updates to install"
+msgstr ""
+
+#. TRANSLATORS: this allows to switch the order of the count of
+#. updates and the download size string (if needed)
+#: ../UpdateManager/UpdateManager.py:579
+#, python-format
+msgid "%(count_str)s %(download_str)s"
+msgstr ""
+
+#: ../UpdateManager/UpdateManager.py:586
+msgid "Unknown download size."
+msgstr ""
+
+#: ../UpdateManager/UpdateManager.py:612
+msgid ""
+"It is unknown when the package information was updated last. Please click "
+"the 'Check' button to update the information."
+msgstr ""
+
+#: ../UpdateManager/UpdateManager.py:618
+#, python-format
+msgid ""
+"The package information was last updated %(days_ago)s days ago.\n"
+"Press the 'Check' button below to check for new software updates."
+msgstr ""
+
+#: ../UpdateManager/UpdateManager.py:623
+#, python-format
+msgid "The package information was last updated %(days_ago)s day ago."
+msgid_plural ""
+"The package information was last updated %(days_ago)s days ago."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../UpdateManager/UpdateManager.py:627
+#, python-format
+msgid "The package information was last updated %(hours_ago)s hour ago."
+msgid_plural ""
+"The package information was last updated %(hours_ago)s hours ago."
+msgstr[0] ""
+msgstr[1] ""
+
+#. TRANSLATORS: only in plural form, as %s minutes ago is one of 15, 30, 45 minutes ago
+#: ../UpdateManager/UpdateManager.py:632 ../UpdateManager/UpdateManager.py:634
+#: ../UpdateManager/UpdateManager.py:636
+#, python-format
+msgid "The package information was last updated about %s minutes ago."
+msgstr ""
+
+#: ../UpdateManager/UpdateManager.py:638
+msgid "The package information was just updated."
+msgstr ""
+
+#: ../UpdateManager/UpdateManager.py:658
+#: ../data/gtkbuilder/UpdateManager.ui.h:22
+msgid ""
+"Software updates correct errors, eliminate security vulnerabilities and "
+"provide new features."
+msgstr ""
+"Hugbúnaðauppfærslur leiðrétta villur, lagfæra öryggisveilur og innleiða nýja "
+"möguleika."
+
+#: ../UpdateManager/UpdateManager.py:677
+msgid "Software updates may be available for your computer."
+msgstr ""
+
+#: ../UpdateManager/UpdateManager.py:685
+msgid "Welcome to Ubuntu"
+msgstr "Velkomin í Ubuntu"
+
+#: ../UpdateManager/UpdateManager.py:687
+msgid ""
+"These software updates have been issued since this version of Ubuntu was "
+"released. If you don't want to install them now, choose \"Update Manager\" "
+"from Applications later."
+msgstr ""
+
+#: ../UpdateManager/UpdateManager.py:689
+msgid ""
+"These software updates have been issued since this version of Ubuntu was "
+"released. If you don't want to install them now, choose \"Update Manager\" "
+"from the Administration Menu later."
+msgstr ""
+
+#: ../UpdateManager/UpdateManager.py:692
+msgid "Software updates are available for this computer"
+msgstr "Þú getur náð í hugbúnaðaruppfærslur fyrir þessa tölvu"
+
+#: ../UpdateManager/UpdateManager.py:694
+msgid ""
+"If you don't want to install them now, choose \"Update Manager\" from "
+"Applications later."
+msgstr ""
+
+#: ../UpdateManager/UpdateManager.py:696
+msgid ""
+"If you don't want to install them now, choose \"Update Manager\" from the "
+"Administration menu later."
+msgstr ""
+"Þú getur farið í „Uppfærslustjórann“ í stjórnunarvalmyndinni seinna ef þú "
+"vilt ekki setja þær upp núna."
+
+#: ../UpdateManager/UpdateManager.py:748
+#, python-format
+msgid ""
+"The upgrade needs a total of %s free space on disk '%s'. Please free at "
+"least an additional %s of disk space on '%s'. Empty your trash and remove "
+"temporary packages of former installations using 'sudo apt-get clean'."
+msgstr ""
+"Uppfærslan krefst %s af plássi á diskinum ‚%s‘. Reyndu að rýma til alla "
+"vegana %s af plássi á ‚%s‘. Prufaðu að tæma ruslið og að fjarlægja "
+"bráðabirgðapakka sem gamlar uppsetningar skildu eftir sig með því að skrifa "
+"‚sudo apt-get clean‘ í útstöðina."
+
+#: ../UpdateManager/UpdateManager.py:773
+msgid ""
+"The computer needs to restart to finish installing updates. Please save your "
+"work before continuing."
+msgstr ""
+"Það þarf að endurræsa tölvuna til að ljúka uppfærslum. Vistaðu öll skjöl "
+"áður en haldið er áfram."
+
+#: ../UpdateManager/UpdateManager.py:837
+msgid "Reading package information"
+msgstr "Les pakkaupplýsingar"
+
+#: ../UpdateManager/UpdateManager.py:852
+msgid "Connecting..."
+msgstr ""
+
+#: ../UpdateManager/UpdateManager.py:869
+msgid "You may not be able to check for updates or download new updates."
+msgstr ""
+
+#: ../UpdateManager/UpdateManager.py:994
+msgid "Could not initialize the package information"
+msgstr "Gat ekki frumstillt pakkaupplýsingar"
+
+#: ../UpdateManager/UpdateManager.py:995
+msgid ""
+"An unresolvable problem occurred while initializing the package "
+"information.\n"
+"\n"
+"Please report this bug against the 'update-manager' package and include the "
+"following error message:\n"
+msgstr ""
+
+#: ../UpdateManager/UpdateManager.py:1024
+msgid ""
+"An unresolvable problem occurred while calculating the upgrade.\n"
+"\n"
+"Please report this bug against the 'update-manager' package and include the "
+"following error message:"
+msgstr ""
+
+#: ../UpdateManager/UpdateManager.py:1049
+msgid " (New install)"
+msgstr " (ný uppsetning)"
+
+#. TRANSLATORS: the b stands for Bytes
+#: ../UpdateManager/UpdateManager.py:1056
+#, python-format
+msgid "(Size: %s)"
+msgstr "(stærð: %s)"
+
+#: ../UpdateManager/UpdateManager.py:1058
+#, python-format
+msgid "From version %(old_version)s to %(new_version)s"
+msgstr "Frá útgáfu %(old_version)s upp í %(new_version)s"
+
+#: ../UpdateManager/UpdateManager.py:1062
+#, python-format
+msgid "Version %s"
+msgstr "Útgáfa %s"
+
+#: ../UpdateManager/UpdateManager.py:1093 ../do-release-upgrade:102
+msgid "Release upgrade not possible right now"
+msgstr ""
+
+#: ../UpdateManager/UpdateManager.py:1094 ../do-release-upgrade:103
+#, c-format, python-format
+msgid ""
+"The release upgrade can not be performed currently, please try again later. "
+"The server reported: '%s'"
+msgstr ""
+
+#: ../UpdateManager/UpdateManager.py:1096 ../check-new-release-gtk:116
+msgid "Downloading the release upgrade tool"
+msgstr ""
+
+#: ../UpdateManager/UpdateManager.py:1103
+#, python-format
+msgid "<b>New Ubuntu release '%s' is available</b>"
+msgstr "<b>Nýja ‚%s‘ Ubuntu-útgáfan er fáanleg</b>"
+
+#. we assert a clean cache
+#: ../UpdateManager/UpdateManager.py:1142
+msgid "Software index is broken"
+msgstr "Hugbúnaðarvísirinn er bilaður"
+
+#: ../UpdateManager/UpdateManager.py:1143
+msgid ""
+"It is impossible to install or remove any software. Please use the package "
+"manager \"Synaptic\" or run \"sudo apt-get install -f\" in a terminal to fix "
+"this issue at first."
+msgstr ""
+"Það er ómögulegt að setja upp eða fjarlægja nokkurn hugbúnað. Notaðu "
+"„Synaptic‟-pakkastjórann eða keyrðu skipunina „sudo apt-get install -f‟ í "
+"útstöðina til að laga þetta vandamál."
+
+#: ../UpdateManager/UnitySupport.py:57
+msgid "Check for Updates"
+msgstr ""
+
+#: ../UpdateManager/UnitySupport.py:66
+msgid "Install All Available Updates"
+msgstr ""
+
+#: ../UpdateManagerText/UpdateManagerText.py:31
+msgid "Cancel"
+msgstr "Hætta við"
+
+#: ../UpdateManagerText/UpdateManagerText.py:32
+msgid "Install"
+msgstr "Setja upp"
+
+#: ../UpdateManagerText/UpdateManagerText.py:50
+msgid "Building Updates List"
+msgstr "Bý til lista yfir uppfærslur"
+
+#: ../UpdateManagerText/UpdateManagerText.py:53
+msgid ""
+"\n"
+"A normal upgrade can not be calculated, please run: \n"
+"  sudo apt-get dist-upgrade\n"
+"\n"
+"\n"
+"This can be caused by:\n"
+" * A previous upgrade which didn't complete\n"
+" * Problems with some of the installed software\n"
+" * Unofficial software packages not provided by Ubuntu\n"
+" * Normal changes of a pre-release version of Ubuntu"
+msgstr ""
+"\n"
+"Ekki var mögulegt að reikna venjulega uppfærslu, vinsamlegast keyrið: \n"
+"  sudo apt-get dist-upgrade\n"
+"\n"
+"\n"
+"Örsakavaldur getur verið eftirfarandi:\n"
+" * Fyrri uppfærsla kláraði ekki sem skildi\n"
+" * Vandamál í einhverjum hugbúnaði\n"
+" * Óformlegir hugbúnaðarpakkar sem ekki er á vegum Ubuntu\n"
+" * Venjulegar breytingar á prufuútgáfu Ubuntu"
+
+#: ../UpdateManagerText/UpdateManagerText.py:122
+msgid "Downloading changelog"
+msgstr "Sæki breytingarskrá"
+
+#: ../UpdateManager/Core/MyCache.py:128
+#, python-format
+msgid "Other updates (%s)"
+msgstr "Aðrar uppfærslur (%s)"
+
+#: ../UpdateManager/Core/MyCache.py:283
+#, python-format
+msgid ""
+"Changes for the versions:\n"
+"Installed version: %s\n"
+"Available version: %s\n"
+"\n"
+msgstr ""
+
+#: ../UpdateManager/Core/MyCache.py:297
+msgid "This update does not come from a source that supports changelogs."
+msgstr ""
+
+#: ../UpdateManager/Core/MyCache.py:303 ../UpdateManager/Core/MyCache.py:324
+msgid ""
+"Failed to download the list of changes. \n"
+"Please check your Internet connection."
+msgstr ""
+"Það tókst ekki að sækja lista yfir breytingar. \n"
+"Athugaðu með nettenginguna þína."
+
+#: ../UpdateManager/Core/MyCache.py:313
+#, python-format
+msgid ""
+"The changelog does not contain any relevant changes.\n"
+"\n"
+"Please use http://launchpad.net/ubuntu/+source/%s/%s/+changelog\n"
+"until the changes become available or try again later."
+msgstr ""
+
+#: ../UpdateManager/Core/MyCache.py:318
+#, python-format
+msgid ""
+"The list of changes is not available yet.\n"
+"\n"
+"Please use http://launchpad.net/ubuntu/+source/%s/%s/+changelog\n"
+"until the changes become available or try again later."
+msgstr ""
+"Listi yfir breytingar er ekki fáanlegur enn sem komið er.\n"
+"\n"
+"Notaðu http://launchpad.net/ubuntu/+source/%s/%s/+changelog\n"
+"þangað til breytingarnar eru fáanlegar eða reyndu aftur síðar."
+
+#: ../UpdateManager/Core/UpdateList.py:49
+msgid "Failed to detect distribution"
+msgstr "Gat ekki komist að því hvaða útgáfa þetta er"
+
+#: ../UpdateManager/Core/UpdateList.py:50
+#, python-format
+msgid "A error '%s' occurred while checking what system you are using."
+msgstr "Villan ‚%s‘ kom upp þegar tölvan var að kanna hvaða kerfi þú notar."
+
+#: ../UpdateManager/Core/UpdateList.py:61
+msgid "Important security updates"
+msgstr "Mikilvægar öryggisuppfærslur"
+
+#: ../UpdateManager/Core/UpdateList.py:62
+msgid "Recommended updates"
+msgstr "Ráðlagðar uppfærslur"
+
+#: ../UpdateManager/Core/UpdateList.py:63
+msgid "Proposed updates"
+msgstr "Fyrirhugaðar uppfærslur"
+
+#: ../UpdateManager/Core/UpdateList.py:64
+msgid "Backports"
+msgstr "Endurgerð forrit"
+
+#: ../UpdateManager/Core/UpdateList.py:65
+msgid "Distribution updates"
+msgstr "Uppfærslur fyrir dreifinguna"
+
+#: ../UpdateManager/Core/UpdateList.py:70
+msgid "Other updates"
+msgstr "Aðrar uppfærslur"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:1
+msgid ""
+"<b><big>You must check for updates manually</big></b>\n"
+"\n"
+"Your system does not check for updates automatically. You can configure this "
+"behavior in <i>Software Sources</i> on the <i>Updates</i> tab."
+msgstr ""
+"<b><big>Þú verður að leita að uppfærslum í höndunum</big></b>\n"
+"\n"
+"Tölvan þín leitar ekki að uppfærslum sjálfkrafa. Þú getur breytt þessu í "
+"<i>Hugbúnaðarupptökum</i> undir flipanum <i>Uppfærslur</i>."
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:4
+msgid "<big><b>Not all updates can be installed</b></big>"
+msgstr "<big><b>Það tókst ekki að segja upp allar uppfærslurnar</b></big>"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:5
+msgid "<big><b>Running on battery</b></big>"
+msgstr "<big><b>Nota rafhlöðu</b></big>"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:6
+msgid "<big><b>Starting Update Manager</b></big>"
+msgstr "<big><b>Ræsi uppfærslustjórann</b></big>"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:7
+msgid "Changes"
+msgstr "Breytingar"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:8
+msgid "Chec_k"
+msgstr "_Kanna"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:9
+msgid "Co_ntinue"
+msgstr "_Halda áfram"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:10
+msgid "Description"
+msgstr "Lýsing"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:11
+msgid "Description of update"
+msgstr "Uppfærslulýsing"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:12
+msgid "It’s safer to connect the computer to AC power before updating."
+msgstr ""
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:14
+msgid ""
+"Run a partial upgrade, to install as many updates as possible. \n"
+"\n"
+"This can be caused by:\n"
+" * A previous upgrade which didn't complete\n"
+" * Problems with some of the installed software\n"
+" * Unofficial software packages not provided by Ubuntu\n"
+" * Normal changes of a pre-release version of Ubuntu"
+msgstr ""
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:21
+#: ../data/gtkbuilder/UpgradePromptDialog.ui.h:5
+msgid "Show progress of individual files"
+msgstr "Skoða framvindu einstakra skráa"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:23
+msgid "Starting Update Manager"
+msgstr ""
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:24
+msgid "U_pgrade"
+msgstr "_Uppfæra"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:25
+#: ../data/update-manager.desktop.in.h:3
+msgid "Update Manager"
+msgstr "Uppfærslustjóri"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:26
+msgid "You are connected via a wireless modem."
+msgstr ""
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:27
+msgid ""
+"You are connected via roaming and may be charged for the data consumed by "
+"this update."
+msgstr ""
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:28
+msgid "Your system is running on battery. Are you sure you want to continue?"
+msgstr "Tölvan þín notar rafhlöðu. Viltu örugglega halda áfram?"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:29
+msgid "_Hide this information in the future"
+msgstr "_Fela þessar upplýsingar í framtíðinni"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:30
+msgid "_Install Updates"
+msgstr "_Setja upp uppfærslur"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:31
+msgid "_Partial Upgrade"
+msgstr "_Hlutauppfærsla"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:33
+msgid "_Settings..."
+msgstr ""
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:34
+msgid "_Upgrade"
+msgstr "_Uppfæra"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:35
+msgid "updates"
+msgstr "uppfærslur"
+
+#: ../data/gtkbuilder/UpgradePromptDialog.ui.h:1
+msgid ""
+"<b>A new version of Ubuntu is available. Would you like to upgrade?</b>"
+msgstr "<b>Ný útgáfa Ubuntu er tiltæk. Viltu uppfæra í hana núna?</b>"
+
+#: ../data/gtkbuilder/UpgradePromptDialog.ui.h:2
+msgid "Ask Me Later"
+msgstr "Spyrja síðar"
+
+#: ../data/gtkbuilder/UpgradePromptDialog.ui.h:3
+msgid "Don't Upgrade"
+msgstr "Ekki uppfæra"
+
+#: ../data/gtkbuilder/UpgradePromptDialog.ui.h:6
+msgid "Yes, Upgrade Now"
+msgstr "Já, uppfæra núna"
+
+#: ../data/gtkbuilder/UpgradePromptDialog.ui.h:7
+msgid ""
+"You can upgrade at a later time by opening Update Manager and click on "
+"\"Upgrade\"."
+msgstr ""
+"Þú getur uppfært síðar með því að opna Uppfærslustjórann og smella á "
+"\"Uppfæra\"."
+
+#: ../data/gtkbuilder/UpgradePromptDialog.ui.h:8
+msgid "You have declined to upgrade to the new Ubuntu"
+msgstr "Þú hefur hafnað uppfærslu í nýja útgáfu Ubuntu"
+
+#: ../data/update-manager.desktop.in.h:1
+msgid "Show and install available updates"
+msgstr "Sýna og setja upp uppfærslur"
+
+#: ../data/update-manager.desktop.in.h:2
+msgid "Software Updates"
+msgstr "Hugbúnaðaruppfærslur"
+
+#: ../update-manager:54 ../do-release-upgrade:41
+msgid "Show version and exit"
+msgstr "Sýna útgáfu og hætta"
+
+#: ../update-manager:57
+msgid "Directory that contains the data files"
+msgstr "Mappan sem inniheldur gagnaskrárnar"
+
+#: ../update-manager:60
+msgid "Check if a new Ubuntu release is available"
+msgstr "Athuga hvort til sé ný útgáfa af Ubuntu"
+
+#: ../update-manager:63 ../do-release-upgrade:44 ../check-new-release-gtk:176
+msgid "Check if upgrading to the latest devel release is possible"
+msgstr "Athuga hvort hægt sé að uppfæra í nýjustu þróunarútgáfuna"
+
+#: ../update-manager:67
+msgid "Upgrade using the latest proposed version of the release upgrader"
+msgstr ""
+
+#: ../update-manager:74
+msgid "Do not focus on map when starting"
+msgstr ""
+
+#: ../update-manager:77
+msgid "Try to run a dist-upgrade"
+msgstr "Reyndu að keyra drefingaruppfærslu"
+
+#: ../update-manager:80
+msgid "Do not check for updates when starting"
+msgstr ""
+
+#: ../update-manager:84 ../do-release-upgrade:60
+msgid "Test upgrade with a sandbox aufs overlay"
+msgstr ""
+
+#: ../update-manager:104
+msgid "Running partial upgrade"
+msgstr "Keyra hlutauppfærslu"
+
+#: ../do-release-upgrade:48 ../check-new-release-gtk:180
+msgid ""
+"Try upgrading to the latest release using the upgrader from $distro-proposed"
+msgstr ""
+
+#: ../do-release-upgrade:52
+msgid ""
+"Run in a special upgrade mode.\n"
+"Currently 'desktop' for regular upgrades of a desktop system and 'server' "
+"for server systems are supported."
+msgstr ""
+
+#: ../do-release-upgrade:58
+msgid "Run the specified frontend"
+msgstr "Keyra tiltekið viðmót"
+
+#: ../do-release-upgrade:63
+msgid ""
+"Check only if a new distribution release is available and report the result "
+"via the exit code"
+msgstr ""
+
+#: ../do-release-upgrade:77
+msgid "Checking for a new ubuntu release"
+msgstr "Leita að nýrri Ubuntu-útgáfu"
+
+#: ../do-release-upgrade:91
+msgid ""
+"For upgrade information, please visit:\n"
+"%(url)s\n"
+msgstr ""
+
+#: ../do-release-upgrade:97
+msgid "No new release found"
+msgstr "Engar nýjar útgáfur fundust"
+
+#: ../do-release-upgrade:109
+#, c-format
+msgid "New release '%s' available."
+msgstr "Nýja útgáfan ‚%s‘ fannst."
+
+#: ../do-release-upgrade:110
+msgid "Run 'do-release-upgrade' to upgrade to it."
+msgstr "Keyrðu ‚do-release-upgrade‘ til að hefja uppfærsluna."
+
+#: ../check-new-release-gtk:91
+msgid "Ubuntu %(version)s Upgrade Available"
+msgstr "Uppfærsla í Ubuntu %(version)s er tiltæk"
+
+#: ../check-new-release-gtk:132
+#, c-format
+msgid "You have declined the upgrade to Ubuntu %s"
+msgstr "Þú hefur hafnað uppfærslu í Ubuntu %s"
+
+#: ../Janitor/computerjanitor/exc.py:30
+#, python-format
+msgid "Unimplemented method: %s"
+msgstr "Aðferð sem er ekki notuð: %s"
+
+#: ../Janitor/computerjanitor/file_cruft.py:46
+msgid "A file on disk"
+msgstr "Skrá á diski"
+
+#: ../Janitor/computerjanitor/package_cruft.py:45
+msgid ".deb package"
+msgstr ".deb-pakki"
+
+#: ../Janitor/computerjanitor/missing_package_cruft.py:33
+msgid "Install missing package."
+msgstr "Setja upp pakkann sem vantar."
+
+#: ../Janitor/computerjanitor/missing_package_cruft.py:42
+#, python-format
+msgid "Package %s should be installed."
+msgstr "Það ætti að setja upp pakkann %s."
+
+#. pragma: no cover
+#: ../Janitor/plugins/dpkg_status_plugin.py:36
+#, python-format
+msgid "%i obsolete entries in the status file"
+msgstr ""
+
+#: ../Janitor/plugins/dpkg_status_plugin.py:39
+msgid "Obsolete entries in dpkg status"
+msgstr ""
+
+#. pragma: no cover
+#: ../Janitor/plugins/dpkg_status_plugin.py:42
+msgid "Obsolete dpkg status entries"
+msgstr ""
+
+#: ../Janitor/plugins/kdelibs4to5_plugin.py:39
+msgid ""
+"When upgrading, if kdelibs4-dev is installed, kdelibs5-dev needs to be "
+"installed. See bugs.launchpad.net, bug #279621 for details."
+msgstr ""
+
+#: ../Janitor/plugins/langpack_manual_plugin.py:34
+#, python-format
+msgid "%s needs to be marked as manually installed."
+msgstr ""
+
+#: ../Janitor/plugins/remove_lilo_plugin.py:28
+msgid ""
+"Remove lilo since grub is also installed.(See bug #314004 for details.)"
+msgstr ""
+"Fjarlægja lilo þar sem grub er til staðar.(See bug #314004 for details.)"
+
+#~ msgid "0 KB"
+#~ msgstr "0 KB"
+
+#~ msgid "The window size"
+#~ msgstr "Gluggastærð"
+
+#, python-format
+#~ msgid "%.0f KB"
+#~ msgstr "%.0f KB"
+
+#~ msgid "1 KB"
+#~ msgstr "1 KB"
+
+#~ msgid "_Check All"
+#~ msgstr "_Velja allt"
+
+#~ msgid "_Uncheck All"
+#~ msgstr "_Afvelja allt"
+
+#~ msgid ""
+#~ "These software updates have been issued since Ubuntu was released. If you "
+#~ "don't want to install them now, choose \"Update Manager\" from the "
+#~ "Administration Menu later."
+#~ msgstr ""
+#~ "Þessar uppfærslur voru gefnar út eftir að Ubuntu var gefið út. Ef þú vilt "
+#~ "ekki setja þær upp núna getur þú farið í ‚Uppfærslustjórann‘ í "
+#~ "aðalvalmyndinni (undir ‚Stjórnun‘) síðar."
+
+#~ msgid "Previous selected"
+#~ msgstr "Áður valið"
+
+#~ msgid "Show details of an update"
+#~ msgstr "Birta smáatriði uppfærslna"
+
+#~ msgid ""
+#~ "This is most likely a bug in the upgrade tool. Please report it as a bug"
+#~ msgstr ""
+#~ "Það er sennilega villa í uppfærsluforritinu. Tilkynntu þetta sem villu."
+
+#~ msgid ""
+#~ "It is unknown when the package information was updated last. Please try "
+#~ "clicking on the 'Check' button to update the information."
+#~ msgstr ""
+#~ "Það er ekki vitað hvenær pakkaupplýsingarnar voru uppfærðar síðast. Ýttu á "
+#~ "‚kanna‘ takkann til að sækja nýjar upplýsingar."
+
+#~ msgid "Auto close the install window after successful install"
+#~ msgstr "Loka glugganum sjálfkrafa ef uppfærslan heppnast"
+
+#~ msgid "Remind to reload the channel list"
+#~ msgstr "Minna á að endurhlaða listann yfir rásir"
+
+#~ msgid "Stores the size of the update-manager dialog"
+#~ msgstr "Geymir stærðina á svarglugga uppfærslustjórans"
+
+#, python-format
+#~ msgid ""
+#~ "Changes for the versions:\n"
+#~ "%s\n"
+#~ "%s\n"
+#~ "\n"
+#~ msgstr ""
+#~ "Breytingar fyrir útgáfurnar:\n"
+#~ "%s\n"
+#~ "%s\n"
+#~ "\n"
+
+#~ msgid "Settings..."
+#~ msgstr "Stillingar..."
+
+#~ msgid "Show version in update list"
+#~ msgstr "Sýna útgáfu í uppfærslulista"
+
+#~ msgid "The package information was last updated less than one hour ago."
+#~ msgstr "Pakkaupplýsingar voru uppfærðar fyrir minna en klukkustund."
+
+#~ msgid ""
+#~ "If none of this applies, then please report this bug against the 'update-"
+#~ "manager' package and include the files in /var/log/dist-upgrade/ in the bug "
+#~ "report."
+#~ msgstr ""
+#~ "Tilkynntu um þessa villu í ‚update-manager‘-pakkanum ef ekkert á þessu á við "
+#~ "og láttu fylgja afrit af skránum í /var/log/dist-upgrade/ möppunni."
+
+#~ msgid ""
+#~ "It was impossible to install a required package. Please report this as a "
+#~ "bug. "
+#~ msgstr ""
+#~ "Það tókst ekki að setja upp mikilvægan pakka. Tilkynntu þetta sem villu. "
+
+#~ msgid ""
+#~ "Upgrading the repository information resulted in a invalid file. Please "
+#~ "report this as a bug."
+#~ msgstr ""
+#~ "Það kom upp villa við að uppfæra upplýsingar um gagnahirsluna. Tilkynntu um "
+#~ "villu."
+
+#, python-format
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "Please report this bug against the 'update-manager' package and include the "
+#~ "files in /var/log/dist-upgrade/ in the bug report.\n"
+#~ "%s"
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "Sendu villuskýrslu út af pakkanum ‚update-manager‘-pakkanum og láttu "
+#~ "skrárnar í möppunni ‚/var/log/dist-upgrade/‘ fylgja með.\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "Preparing the system for the upgrade failed. Please report this as a bug "
+#~ "against the 'update-manager' package and include the files in /var/log/dist-"
+#~ "upgrade/ in the bug report."
+#~ msgstr ""
+#~ "Það kom upp villa við að undirbúa uppfærsluna. Sendu inn villu um pakkann "
+#~ "‚update-manager‘ og láttu skrárnar í möppunni ‚/var/log/dis-upgrade/‘ fylgja "
+#~ "með."
+
+#~ msgid ""
+#~ "The system was unable to get the prerequisites for the upgrade. The upgrade "
+#~ "will abort now and restore the original system state.\n"
+#~ "\n"
+#~ "Please report this as a bug against the 'update-manager' package and include "
+#~ "the files in /var/log/dist-upgrade/ in the bug report."
+#~ msgstr ""
+#~ "Kerfið gat ekki útvegað forsendu fyrir uppfærsluna. Hún hættir núna og "
+#~ "kerfið verður eins og það var.\n"
+#~ "\n"
+#~ "Sendu inn villu um pakkann ‚update-manager‘ og láttu skrárnar í möppunni "
+#~ "/var/log/dis-upgrade/ fylgja með."
+
+#, python-format
+#~ msgid ""
+#~ "After your package information was updated the essential package '%s' can "
+#~ "not be found anymore.\n"
+#~ "This indicates a serious error, please report this bug against the 'update-"
+#~ "manager' package and include the files in /var/log/dist-upgrade/ in the bug "
+#~ "report."
+#~ msgstr ""
+#~ "Pakkinn ‚%s‘ fannst ekki eftir að þú uppfærðir pakkaupplýsingarnar þínar, en "
+#~ "hann er mjög mikilvægur.\n"
+#~ "Þetta er grafalvarleg villa, tilkynntu um að það sé villa í pakkanum ‚update-"
+#~ "manager‘ og láttu skrárnar í /var/log/dis-upgrade/ fylgja með."
+
+#~ msgid "*DEPRECATED* this option will be ignore"
+#~ msgstr "*ÚRELT* þessi valmöguleiki verður hunsaður"
+
+#~ msgid "*deprecated* Check for new distribution releases"
+#~ msgstr "*úrelt* Leita að nýjum útgáfum"
+
+#~ msgid "First run welcome message"
+#~ msgstr "Byrja á því að birta ávarp"

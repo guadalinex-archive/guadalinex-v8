@@ -1,0 +1,14 @@
+debian/tmp/usr/bin/do-release-upgrade
+debian/tmp/usr/bin/ubuntu-support-status
+debian/tmp/etc/update-manager/*
+debian/tmp/usr/share/locale
+debian/tmp/usr/share/update-manager/*.cfg
+debian/tmp/usr/lib/python*/dist-packages/UpdateManager/Core
+debian/tmp/usr/lib/python*/dist-packages/UpdateManager/fdsend.so
+debian/tmp/usr/lib/python*/dist-packages/UpdateManager/__init__.py
+debian/tmp/usr/lib/python*/dist-packages/DistUpgrade
+debian/tmp/usr/lib/python*/dist-packages/computerjanitor
+debian/tmp/usr/share/computerjanitor
+debian/release-upgrade-motd usr/lib/update-manager
+debian/91-release-upgrade etc/update-motd.d/
+debian/source_update-manager.py /usr/share/apport/package-hooks/

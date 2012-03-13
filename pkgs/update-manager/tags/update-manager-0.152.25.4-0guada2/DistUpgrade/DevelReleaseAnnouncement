@@ -1,0 +1,58 @@
+= Welcome to the Ubuntu 'Oneiric Ocelot' development release =
+
+''This is still a RELEASE CANDIDATE release.''
+''Do not install it on production machines.''
+
+Thanks for your interest in this development release of Ubuntu.
+The Ubuntu developers are moving very quickly to bring you the
+absolute latest and greatest software the Open Source Community has to
+offer. This development release brings you a taste of the newest features
+for the next version of Ubuntu. 
+
+== Testing ==
+
+Please help to test this development snapshot and report problems back to the
+developers.  For more information about testing Ubuntu, please read:
+
+  http://www.ubuntu.com/testing
+
+
+== Reporting Bugs ==
+
+This development release of Ubuntu contains bugs. If you want to help
+out with bugs, the Bug Squad is always looking for help. Please read the
+following information about reporting bugs:
+
+  http://help.ubuntu.com/community/ReportingBugs
+
+Then report bugs using apport in Ubuntu.  For example:
+
+  ubuntu-bug linux
+
+will open a bug report in Launchpad regarding the linux package. Your 
+comments, bug reports, patches and suggestions will help fix bugs and improve
+future releases. 
+
+
+== Participate in Ubuntu ==
+
+If you would like to help shape Ubuntu, take a look at the list of
+ways you can participate at
+
+  http://www.ubuntu.com/community/participate/
+
+
+== More Information ==
+
+You can find out more about Ubuntu on the Ubuntu website and Ubuntu
+wiki.
+
+  http://www.ubuntu.com/
+  http://wiki.ubuntu.com/
+
+
+To sign up for Ubuntu development announcements, please
+subscribe to Ubuntu's development announcement list at:
+  
+  http://lists.ubuntu.com/mailman/listinfo/ubuntu-devel-announce 
+

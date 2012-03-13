@@ -1,0 +1,51 @@
+fdsend README
+
+$Id: README,v 1.1.1.1 2004/11/04 06:15:03 mjp Exp $
+
+License and Copyright
+---------------------
+fdsend is free software, licensed under the GPL.  fdsend is Copyright (C) 2004
+Michael J. Pomraning.  Small portions of fdsend are adapted from other sources, see the main source file for details.
+
+docstring
+---------
+fdsend allows the passing of open files between unrelated processes via
+local sockets (using SCM_RIGHTS), a process known as file descriptor
+passing.  The following functions are available:
+
+  sendfds()
+  recvfds()
+  socketpair()
+
+Unlike some other simplifications of the sendmsg()/recvmsg() interface,
+fdsend allows multiple files to be transferred in a single operation, and
+permits ordinary socket messages to accompany the files.  Additionally,
+fdsend understands bona fide Python sockets and files, as well as objects
+implementing fileno() methods and integers representing file descriptors.
+
+Errors are raised via the socket.error exception object.
+
+Installation
+------------
+  $ tar zxf fdsend-$VERSION.tar.gz
+  $ cd fdsend-$VERSION
+  $ python setup.py build
+  $ python setup.py install
+
+Bugs
+----
+No provision is made to support msg_accrights systems (nor I_SENDFD fd
+passing).
+
+Misc
+----
+- Please send bug reports to mjp-py{AT}pilcrow.madison.wi.us.
+- The usual limitation in "rights" send/recv fd implementations, wherein
+  msg_iov conveys a single, often hardcoded, byte, is a venerable approach
+  dating back at least as far as Stevens' APUE examples (1992).  For many
+  applications, it's no limitation at all.
+- socketpair() is only for Python versions lacking this under the 'socket'
+  module.
+
+Michael J. Pomraning
+03 Nov 2004

@@ -1,0 +1,4 @@
+debian/tmp/usr/lib/python*/dist-packages/UpdateManager/DistUpgradeFetcherKDE.py
+debian/tmp/usr/lib/python*/dist-packages/UpdateManager/check-meta-release.py
+debian/tmp/usr/share/update-manager/*ui
+debian/tmp/usr/bin/kubuntu-devel-release-upgrade

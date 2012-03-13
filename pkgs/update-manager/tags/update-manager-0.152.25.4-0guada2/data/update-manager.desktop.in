@@ -1,0 +1,10 @@
+[Desktop Entry]
+_Name=Update Manager
+_GenericName=Software Updates
+_Comment=Show and install available updates
+Exec=/usr/bin/update-manager
+Icon=update-manager
+Terminal=false
+Type=Application
+Categories=System;Settings;
+X-Ubuntu-Gettext-Domain=update-manager
