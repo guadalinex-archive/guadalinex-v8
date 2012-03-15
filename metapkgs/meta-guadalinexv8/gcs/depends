@@ -65,6 +65,7 @@ eog
 evolution-data-server
 #f
 firefox
+firefox-locale-en
 firefox-locale-es
 festvox-palpc16k
 festvox-sflpc16k
@@ -79,6 +80,8 @@ gedit
 getapixel
 gksu
 gimp
+gimp-help-en
+gimp-help-es
 gnome-contacts
 gnome-dictionary
 gnome-disk-utility
@@ -102,6 +105,9 @@ gwibber
 #h
 hispalabras
 htop
+hunspell-en-ca
+hunspell-en-us
+hyphen-en-us
 #i
 i965-va-driver
 iftop
@@ -117,6 +123,7 @@ libmtp-common
 libreoffice-l10n-en-gb
 libreoffice-l10n-en-za
 libreoffice-help-en-gb
+libreoffice-help-es
 libsdl-mixer1.2
 libsdl-ttf2.0-0
 libsox-fmt-all
@@ -126,8 +133,10 @@ locate
 #m
 metapixel
 mtp-tools
-myspell-es
 myspell-en-gb
+mythes-en-au
+mythes-en-us
+myspell-es
 #n
 netcat
 nmap
@@ -135,6 +144,7 @@ nouveau-firmware
 #o
 obexfs
 onboard
+openoffice.org-hyphenation
 #p
 p7zip-rar
 pdal2
@@ -162,6 +172,10 @@ synaptic
 tesseract-ocr
 tesseract-ocr-spa
 thunderbird
+thunderbird-locale-en-gb
+thunderbird-locale-en-us
+thunderbird-locale-en
+thunderbird-locale-es-ar
 thunderbird-locale-es-es
 tree
 #u
