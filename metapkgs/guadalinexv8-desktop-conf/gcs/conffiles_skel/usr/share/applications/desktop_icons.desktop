@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Iconos en el escritorio
+Name[es]=Iconos en el escritorio
+Exec=sh /usr/share/desktop-icons/desktop_icons.sh
+Icon=desktop-icons.png
+Terminal=false
+Type=Application
+Categories=System;
+StartupNotify=true
